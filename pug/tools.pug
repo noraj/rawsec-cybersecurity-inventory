@@ -1,0 +1,84 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            .content
+                // Table Of Contents
+                include content/table_of_contents_tools.pug
+
+                h2.title.is-2#title-tools Tools
+            
+                p Note: Paid softwares may exist in a free limited version or a demo version
+            
+                h3.title.is-3#title-tools-administration Administration
+        
+                h3.title.is-3#title-tools-binary-exploitation Binary Exploitation
+                article
+                    include content/tools_binary_exploitation.pug
+                    script(src='js/tablefilter/tools_binary_exploitation.js')
+        
+                h3.title.is-3#title-tools-cracking Cracking
+                article
+                    include content/tools_cracking.pug
+                    script(src='js/tablefilter/tools_cracking.js')
+                
+                h3.title.is-3#title-tools-cryptography Cryptography
+                article
+                    include content/tools_cryptography.pug
+                    script(src='js/tablefilter/tools_cryptography.js')
+                
+                h3.title.is-3#title-tools-digital-forensics Digital Forensics
+                article
+                    include content/tools_digital_forensics.pug
+                    script(src='js/tablefilter/tools_digital_forensics.js')
+                
+                h3.title.is-3#title-tools-networking Networking
+                article
+                    include content/tools_networking.pug
+                    script(src='js/tablefilter/tools_networking.js')
+                
+                h3.title.is-3#title-tools-other Other
+                article
+                    include content/tools_other.pug
+                    script(src='js/tablefilter/tools_other.js')
+                
+                h3.title.is-3#title-tools-reverse-enngineering Reverse Enngineering
+                article
+                    include content/tools_reverse_engineering.pug
+                    script(src='js/tablefilter/tools_reverse_engineering.js')
+                
+                h3.title.is-3#title-tools-steganography Steganography
+                article
+                    include content/tools_steganography.pug
+                    script(src='js/tablefilter/tools_steganography.js')
+                
+                h3.title.is-3#title-tools-system-exploitation System Exploitation
+                article
+                    include content/tools_system_exploitation.pug
+                    script(src='js/tablefilter/tools_system_exploitation.js')
+                
+                h3.title.is-3#title-tools-web-application-exploitation Web Application Exploitation
+                article
+                    include content/tools_web_application_exploitation.pug
+                    script(src='js/tablefilter/tools_web_application_exploitation.js')
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li
+                        a(href='index.html') Overview
+                    li.is-active
+                        a(href='tools.html') Tools
+                    li
+                        a(href='ressources.html') Resources
+                    li
+                        a(href='ctf_platforms.html') CTF platforms
+                    li
+                        a(href='operating_systems.html') Operating Systems
+
+block font-mfizz
+    // Apply font-mfizz class to elements when available (need to be loaded after the content)
+    script(src='js/auto-font-mfizz.js')

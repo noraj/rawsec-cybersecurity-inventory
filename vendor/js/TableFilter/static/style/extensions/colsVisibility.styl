@@ -1,0 +1,71 @@
+/**
+ * ColsVisibility extension default style
+ */
+
+@import '../config'
+@import '../mixins/arrow'
+@import '../mixins/box-shadow'
+
+$item-bg-color = #335EA8
+$item-font-color = #fff
+
+span.colVisSpan
+    text-align              left
+
+    // link
+    a.colVis
+        display             inline-block
+        padding             7px 5px 0
+        font-size           inherit
+        font-weight         inherit
+        vertical-align      top
+
+// container element
+div.colVisCont
+    arrow(top, 10px white, 2px #ccc)
+    box-shadow(3px 3px 2px #888)
+    position                absolute
+    display                 none
+    border                  1px solid #ccc
+    height                  auto
+    width                   250px
+    background-color        #fff
+    margin                  35px 0 0 -100px
+    z-index                 10000
+    padding                 10px 10px 10px 10px
+    text-align              left
+    font-size               12px
+
+    p
+        margin              6px auto 6px auto
+
+    a.colVis
+        display             initial
+        font-weight         inherit
+
+// checklist
+ul.cols_checklist
+    padding                 0
+    margin                  0
+    list-style              none
+
+    label
+        display             block
+
+    input
+        vertical-align      middle
+        margin              2px 5px 2px 1px
+
+// check list item
+li.cols_checklist_item
+    padding                 4px
+    margin                  0
+
+    &:hover
+        background-color    $item-bg-color
+        color               $item-font-color
+
+// selected check list item
+.cols_checklist_slc_item
+    background-color        $item-bg-color
+    color                   $item-font-color

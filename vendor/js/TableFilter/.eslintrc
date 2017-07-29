@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "sourceType": "module"
+  },
+  "rules": {
+    "max-len": [2, 80, 2, {"ignoreUrls": true}],
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "no-trailing-spaces": 2,
+    "no-multi-spaces": 2,
+    "array-bracket-spacing": 2,
+    "keyword-spacing": ["error", { "after": true, "before": true }],
+    "max-depth": [2, 7],
+    "max-statements": [2, 144],
+    "complexity": [2, 78],
+    "no-unused-vars": 2,
+    "no-eval": 2,
+    "no-underscore-dangle": 0,
+    "no-loop-func": 2,
+    "no-floating-decimal": 2,
+    "curly": 2,
+    "eqeqeq": [2, "smart"],
+    "quotes": [2, "single"],
+    "new-cap": 2,
+    "radix": [2, "always"]
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": false
+  },
+  "globals": {
+    "__webpack_public_path__": false
+  }
+}

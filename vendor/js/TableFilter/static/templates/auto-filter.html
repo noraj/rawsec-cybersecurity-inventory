@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Auto-filter Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Auto-filter demo</h2>
+<p>
+    This demo features the auto-filter behaviour, the table is filtered as soon
+    as the user stops typing.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        auto_filter: true,
+        auto_filter_delay: 750, //milliseconds
+        filters_row_index: 1,
+        state: true,
+        alternate_rows: true,
+        rows_counter: true,
+        rows_counter_text: 'Rows: ',
+        btn_reset: true,
+        status_bar: true,
+        msg_filter: 'Filtering...'
+    };
+
+    var tf = new TableFilter(
+        document.querySelector('#demo'),
+        filtersConfig
+    );
+    tf.init();
+
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - External Filters Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>External filters demo</h2>
+<p>
+    This demo shows how generate the column filters in an external container.
+</p>
+
+<div id="extGrid" class="panel">
+    <label>Choose Country:</label><br>
+    <span id="slcCountry"></span><br>
+    <span>Keep Ctrl/Cmd key pressed for multiple selections</span><br><br>
+    <label>Choose Country code:</label><br>
+    <span id="slcCode"></span><br><br>
+    <label>Choose year:</label><br>
+    <span id="slcYear"></span><br><br>
+    <label for="inpPop">POP:</label><br>
+    <span id="inpPop"></span><br><br>
+
+    <form id="frmRadioInps" name="frmRadioInps">
+        <label for="rdoXRat">XRAT:</label><br>
+        <input type="checkbox" id="rdoXRat" name="rdoXRat" value="!NA"
+            onclick="
+                if(this.checked){
+                    tf.setFilterValue(4, this.value);
+                } else tf.setFilterValue(4, '');
+                tf.filter();"  >Not NA
+
+        <br><br>
+
+        <label for="chkCI">CI:</label><br>
+        <input type="radio" id="chkCI" name="chkCI" value=">0 && <=10"
+            onclick="
+                if(this.checked){
+                    tf.setFilterValue(8, this.value);
+                    tf.filter();
+                }" > 0 - 10
+        <input type="radio" id="chkCI" name="chkCI" value=">10 && <=20"
+            onclick="
+                if(this.checked){
+                    tf.setFilterValue(8, this.value);
+                    tf.filter();
+                }" > 10 - 20
+        <input type="radio" id="chkCI" name="chkCI" value=">20 && <=30"
+            onclick="
+                if(this.checked){
+                    tf.setFilterValue(8, this.value);
+                    tf.filter();
+                }" > 20 - 30
+
+    </form>
+
+    <hr>
+
+    <div style="float:left;">
+        <input id="btnFlt" value="Filter" type="button"
+            onclick="tf.filter();" >&nbsp;
+        <input id="btnClr" value="Clear" type="button"
+            onclick="tf.clearFilters();
+                //clears radio btns
+                for( var o=frmRadioInps.elements, p=o.length - 1; p > -1; p--) {
+                    if ( o[p].type ){
+                        o[p].checked = false;
+                    }
+                }
+            " >
+    </div>
+    <div id="statusDiv"></div>
+    <div style="clear:both;"></div>
+</div>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    alternate_rows: true,
+    rows_counter: true,
+    rows_counter_text: "Displayed rows: ",
+    loader: true,
+    status: true,
+    status_bar: true,
+    status_bar_target_id: 'statusDiv',
+    col_types: [
+        'string', 'string', 'number',
+        'number', 'number', 'number',
+        'number', 'number', 'number'
+    ],
+    clear_filter_text: [
+        ' [ Show all ] ',
+        '<Clear>',
+        'Clear:'
+    ],
+    col_0: "multiple",
+    col_1: "select",
+    col_2: "checklist",
+    col_4: "none",
+    col_8: "none",
+
+    /* external filters */
+    external_flt_grid: true,
+    external_flt_grid_ids: [
+        'slcCountry',
+        'slcCode',
+        'slcYear',
+        'inpPop'
+    ],
+
+    /* sorting feature */
+    extensions: [{ name: 'sort' }]
+};
+
+var tf = new TableFilter('demo', tfConfig);
+tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

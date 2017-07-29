@@ -1,0 +1,56 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            .content
+                h2.title.is-2#contribution-guidelines Contribution Guidelines
+                
+                ul
+                    li
+                        a(href='#submitting-changes') Submitting changes
+                        ul
+                            li
+                                a(href='#format-conventions') Format conventions
+                    li
+                        a(href='#reporting-issues-or-suggesting-enhancements') Reporting issues or suggesting enhancements
+
+                h3.title.is-3#submitting-changes Submitting changes
+
+                ul
+                    li To add to the list or modify the list: Submit a pull request (PR)
+                    li List items should be sorted alphabetically
+                    li Descriptions should be clear, concise, and non-promotional
+                    li Respect the format conventions
+                    li Write in English only
+
+                h4.title.is-4#format-conventions Format conventions
+                
+                p Source:
+                code
+                    pre
+                
+                ul
+                    li
+                    li
+                    li
+                    li Don't submit deprecated or abandoned tools
+                    li Links name must be either [Website] or [Source], don't remove square braquets, don't forget the first uppercase letter
+                    li Website and source must be the official ones, don't put one of those if it's non-existent
+                    li Description begins with a uppercase letter and doesn't end with a dot
+                    li Add the language used to write the tool if you know it
+                
+                p Example:
+                code
+                    pre
+                
+                h3.title.is-3#reporting-issues-or-suggesting-enhancements Reporting issues or suggesting enhancements
+                
+                p Please open an issue if you find anything that could be improved or have suggestions for making the list a more valuable resource. For questions see the 
+                    a(href='https://github.com/noraj1337/Ultimate-CyberSecurity-List/wiki/F.A.Q.') F.A.Q.
+                    | . Thanks!
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container

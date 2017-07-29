@@ -1,0 +1,56 @@
+/**
+ * Help box default style
+ */
+
+@import 'config'
+@import 'mixins/arrow'
+@import 'mixins/box-shadow'
+
+// help button
+.helpBtn
+    display                 inline-block
+    height                  27px
+    margin                  0
+    padding                 8px 15px 0 15px
+    vertical-align          top
+
+    &:hover
+        background-color    $toolbar-hover-color
+
+// help container
+div.helpCont
+    arrow(top, 10px white, 2px #ccc)
+    box-shadow(3px 3px 2px #888)
+    position                absolute
+    display                 none
+    width                   300px
+    padding                 10px
+    margin                  45px 0 0 -150px
+    border                  1px solid #CCC
+    line-height             20px
+    font-size               inherit
+    color                   #333
+    background              #fff
+    text-align              left
+
+    a
+        color               #cc0000
+        text-decoration     underline
+        font-weight         normal
+
+    a.close
+        color               #333 !important
+        text-decoration     none !important
+        font-weight         bold
+
+        &:hover
+            text-decoration none
+
+    hr
+        border              1px solid #ccc
+
+div.helpFooter
+    margin                  10px 0 0 0
+    h4
+        margin              2px 2px 2px 2px
+        color               #333

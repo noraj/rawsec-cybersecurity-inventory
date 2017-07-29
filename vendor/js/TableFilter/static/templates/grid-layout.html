@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Grid Layout Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Grid layout demo</h2>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        grid_layout: true,
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        status_bar: true,
+        no_results_message: true,
+        col_1: 'select',
+        col_2: 'select',
+        col_widths: [
+            '150px', '70px', '70px',
+            '120px', '120px', '100px',
+            '100px', '100px', '100px'
+        ],
+        col_types: [
+            'string', 'string', 'number',
+            'number', 'number', 'number',
+            'number', 'number', 'number'
+        ],
+        extensions:[{
+            name: 'sort'
+        }]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

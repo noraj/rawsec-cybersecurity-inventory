@@ -1,0 +1,15 @@
+# Files
+.DS_Store
+.jekyll-metadata
+_config.local.yml
+bulma-test.sass
+bulma-website-local.sass
+css/bulma-test.css
+npm-debug.log
+
+# Folders
+.sass-cache
+/bulma
+/fontawesome
+/styles/node_modules
+_site

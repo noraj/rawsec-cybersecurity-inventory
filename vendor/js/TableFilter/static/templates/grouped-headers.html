@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Grouped Headers Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Grouped headers demo</h2>
+<p>
+    With grouped and/or multi-line headers, to place the filters row at desired
+    location, it is important to pay attention to the following configuration
+    properties:
+</p>
+<ul>
+    <li>
+        <code>filters_row_index</code> to set the position of the filters'
+        row
+    </li>
+    <li>
+        <code>headers_row_index</code> to specify the position of the
+        headers row - especially when the sort feature is enabled
+    </li>
+</ul>
+<p>
+    and equally inportant, specify the index of the row from which the filtering
+    process should start ie:
+    <code>var tf = new TableFilter('myTableId', myConfig, 3);</code>
+</p>
+
+<!-- @import partials/pre.html -->
+
+<!-- @import partials/table-with-grouped-headers.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    btn: true,
+    col_0: 'multiple',
+    col_1: 'select',
+    col_2: 'checklist',
+    col_types: [
+        'string', 'string', 'number',
+        'number', 'number', 'number',
+        'number', 'number', 'number'
+    ],
+    filters_row_index: 3,
+    headers_row_index: 2,
+    state: {
+        types: ['local_storage'],
+        filters: true,
+        page_number: true,
+        sort: true
+    },
+    highlight_keywords: true,
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    status_bar: true,
+    paging: true,
+    paging_length: 15,
+    enable_empty_option: true,
+    enable_non_empty_option: true,
+    enable_default_theme: true,
+
+    extensions: [{ name: 'sort' }]
+};
+
+var tf = new TableFilter('grouped-headers', tfConfig, 3);
+tf.init();
+
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

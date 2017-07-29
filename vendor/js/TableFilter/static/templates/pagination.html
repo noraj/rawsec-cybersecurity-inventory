@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Pagination Demo</title>
+    <!-- @import partials/style.html -->
+    <style type="text/css">
+        /**
+         * Custom styles
+         */
+        .myLoader{
+            position:absolute; padding: 5px;
+            margin:100px 0 0 5%; width:auto;
+            z-index:1000; font-size:12px; font-weight:bold;
+            border:1px solid #666; background:#ffffcc;
+            vertical-align:middle;
+        }
+        .myStatus{
+            width:auto; display:block;
+        }
+    </style>
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Pagination demo</h2>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        paging: true,
+        results_per_page: ['Records: ', [10,25,50,100]],
+        state: {
+            types: ['local_storage'],
+            filters: true,
+            page_number: true,
+            page_length: true,
+            sort: true
+        },
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        loader_html: '<div id="lblMsg"></div>',
+        loader_css_class: 'myLoader',
+        status_bar: true,
+        status_bar_target_id: 'lblMsg',
+        status_bar_css_class: 'myStatus',
+        no_results_message: true,
+        col_0: 'select',
+        col_1: 'select',
+        col_2: 'select',
+        extensions:[{
+            name: 'sort',
+            types: [
+                'string', 'string', 'number',
+                'number', 'number', 'number',
+                'number', 'number', 'number'
+            ]
+        }]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

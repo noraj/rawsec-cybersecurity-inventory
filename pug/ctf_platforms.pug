@@ -1,0 +1,42 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            .content
+                // Table Of Contents
+                include content/table_of_contents_ctf_platforms.pug
+
+                h2.title.is-2#title-ctf-platforms CTF platforms
+
+                h3.title.is-3#title-ctf-platforms-attack-defense CTF Attack-Defense
+                article
+                    include content/ctf_platforms_attack_defense.pug
+
+                h3.title.is-3#title-ctf-platforms-hybrid Hybrid
+                article
+                    include content/ctf_platforms_hybrid.pug
+
+                h3.title.is-3#title-ctf-platforms-jeopardy Jeopardy
+                article
+                    include content/ctf_platforms_jeopardy.pug
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li
+                        a(href='index.html') Overview
+                    li
+                        a(href='tools.html') Tools
+                    li
+                        a(href='ressources.html') Resources
+                    li.is-active
+                        a(href='ctf_platforms.html') CTF platforms
+                    li
+                        a(href='operating_systems.html') Operating Systems
+
+block font-mfizz
+    // Apply font-mfizz class to elements when available (need to be loaded after the content)
+    script(src='js/auto-font-mfizz.js')

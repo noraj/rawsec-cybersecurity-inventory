@@ -1,0 +1,73 @@
+/**
+ * Paging default style
+ */
+
+@import 'config'
+
+filter()
+    height                  $filter-height
+    margin                  0
+    border                  1px solid $filter-border-color
+    background-color        $filter-bg-color
+    &:focus
+        border-color        #66AFE9
+        outline             0 none
+        box-shadow          0 1px 1px rgba(0, 0, 0, 0.075) inset,
+                            0 0 8px rgba(102, 175, 233, 0.6)
+
+// paging drop-down list
+select.pgSlc
+    filter()
+    vertical-align          middle
+
+// paging text-box
+input.pgNbInp
+    filter()
+    width                   $min-width
+
+// paging buttons (Next/Previous)
+input.pgInp
+    filter()
+    vertical-align          middle
+    width                   $min-width
+    border                  0
+    font-weight             bold
+
+.nextPage
+    @extends input.pgInp
+    background              transparent url(themes/btn_next_page.gif) center center no-repeat !important
+    &:hover
+        background-color    $paging-nav-button-bg-color-hover !important
+
+.previousPage
+    @extends input.pgInp
+    background              transparent url(themes/btn_previous_page.gif) center center no-repeat !important
+    &:hover
+        background-color    $paging-nav-button-bg-color-hover !important
+
+.firstPage
+    @extends input.pgInp
+    background              transparent url(themes/btn_first_page.gif) center center no-repeat !important
+    &:hover
+        background-color    $paging-nav-button-bg-color-hover !important
+
+.lastPage
+    @extends input.pgInp
+    background              transparent url(themes/btn_last_page.gif) center center no-repeat !important
+    &:hover
+        background-color    $paging-nav-button-bg-color-hover !important
+
+
+// paging nb pages
+span.nbpg
+    padding                 0 5px
+
+// results per page select
+select.rspg
+    filter()
+    margin                  0 0 0 5px
+    vertical-align          middle
+
+// results per page select label
+span.rspgSpan
+    font-size               inherit

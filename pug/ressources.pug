@@ -1,0 +1,66 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            .content
+                // Table Of Contents
+                include content/table_of_contents_ressources.pug
+
+                h2.title.is-2#title-resources Resources
+            
+                p Note: Paid ressources may exist in a free limited version or a demo version
+            
+                h3.title.is-3#title-resources-cve CVE
+                article
+                    include content/ressources_cve.pug
+                
+                h3.title.is-3#title-resources-events Events
+                article
+                    include content/ressources_events.pug
+                
+                h3.title.is-3#title-resources-information Information
+                
+                h3.title.is-3#title-resources-knowledge-and-tools Knowledge and tools
+                article
+                    include content/ressources_knowledge_and_tools.pug
+                
+                h3.title.is-3#title-resources-challenges-platform Challenges platform
+                article
+                    include content/ressources_challenges_platform.pug
+                
+                h3.title.is-3#title-resources-non-english Non english
+                article
+                    include content/ressources_non_english.pug
+                
+                h3.title.is-3#title-resources-trainings-and-courses Trainings and courses
+                article
+                    include content/ressources_trainings_and_courses.pug
+                
+                h3.title.is-3#title-resources-tutorials Tutorials
+                article
+                    include content/ressources_tutorials.pug
+
+                h3.title.is-3#title-resources-writeups-collections-and-challenges-source Writeups collections and challenges source
+                article
+                    include content/ressources_writeups_collections_and_challenges_source.pug
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li
+                        a(href='index.html') Overview
+                    li
+                        a(href='tools.html') Tools
+                    li.is-active
+                        a(href='ressources.html') Resources
+                    li
+                        a(href='ctf_platforms.html') CTF platforms
+                    li
+                        a(href='operating_systems.html') Operating Systems
+
+block font-mfizz
+    // Apply font-mfizz class to elements when available (need to be loaded after the content)
+    script(src='js/auto-font-mfizz.js')

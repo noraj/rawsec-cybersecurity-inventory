@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TableFilter sort by key</title>
+        <link rel="stylesheet" href="libs/qunit/qunit.css">
+        <script src="libs/qunit/qunit.js"></script>
+        <script src="libs/polyfill.js"></script>
+    </head>
+    <body>
+        <table id="demo" cellpadding="0" cellspacing="0">
+           <thead>
+              <tr>
+                <th>Email</th>
+                <th>Custom sorter</th>
+                <th>Id</th>
+                <th>Phone</th>
+                <th>&euro;</th>
+                <th>US $</th>
+                <th>Url</th>
+                <th>EU Date</th>
+                <th>US Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>devo@flexomat.com</td>
+                <td data-tf-sortKey="78">AUY78</td>
+                <td>66672</td>
+                <td>941-964-8535</td>
+                <td><div align="right">2.482,79</div></td>
+                <td><div align="right">2,482.79</div></td>
+                <td>http://gmail.com</td>
+                <td>14/12/1988</td>
+                <td>12/14/1988</td>
+              </tr>
+              <tr>
+                <td>henry@mountdev.net</td>
+                <td data-tf-sortKey="2">QT2</td>
+                <td>35889</td>
+                <td>941-964-9543</td>
+                <td><div align="right">2.776,09</div></td>
+                <td><div align="right">2,776.09</div></td>
+                <td>http://www.gmail.com</td>
+                <td>19/1/1984</td>
+                <td>1/19/1984</td>
+              </tr>
+              <tr>
+                <td>christian@reno.gov</td>
+                <td data-tf-sortKey="1">QT1</td>
+                <td>60021</td>
+                <td>941-964-5617</td>
+                <td><div align="right">2.743,41</div></td>
+                <td><div align="right">2,743.41</div></td>
+                <td>http://www.dotnet.ca</td>
+                <td>25/3/2000</td>
+                <td>3/25/2000</td>
+              </tr>
+              <tr>
+                <td>muffins@reno.gov</td>
+                <td data-tf-sortKey="28">QT28</td>
+                <td>76375</td>
+                <td>941-964-2757</td>
+                <td><div align="right">1.836,09</div></td>
+                <td><div align="right">1,836.09</div></td>
+                <td>http://www.samba.org</td>
+                <td>4/4/1988</td>
+                <td>4/4/1988</td>
+              </tr>
+              <tr>
+                <td>mendez@gmail.com</td>
+                <td data-tf-sortKey="9">JH9</td>
+                <td>45834</td>
+                <td>941-964-2575</td>
+                <td><div align="right">2.805,46</div></td>
+                <td><div align="right">2,805.46</div></td>
+                <td>http://flexomat.com</td>
+                <td>12/12/1985</td>
+                <td>12/12/1985</td>
+              </tr>
+              <tr>
+                <td>dev@gmail.com</td>
+                <td data-tf-sortKey="3">QT3</td>
+                <td>20022</td>
+                <td>941-964-4967</td>
+                <td><div align="right">3.296,54</div></td>
+                <td><div align="right">3,296.54</div></td>
+                <td>http://www.flexomat.com</td>
+                <td>3/7/2002</td>
+                <td>7/3/2002</td>
+              </tr>
+              <tr>
+                <td>foo@polyester.se</td>
+                <td data-tf-sortKey="899">YU899</td>
+                <td>55987</td>
+                <td>941-964-745</td>
+                <td><div align="right">2.953,73</div></td>
+                <td><div align="right">2,953.73</div></td>
+                <td>http://www.donuts.com</td>
+                <td>4/8/1987</td>
+                <td>8/4/1987</td>
+              </tr>
+              <tr>
+                <td>adam@aftonbladet.se</td>
+                <td data-tf-sortKey="122">QT122</td>
+                <td>38867</td>
+                <td>941-964-6302</td>
+                <td><div align="right">1.949,27</div></td>
+                <td><div align="right">1,949.27</div></td>
+                <td>http://flexomat.com</td>
+                <td>27/7/1995</td>
+                <td>7/27/1995</td>
+              </tr>
+              <tr>
+                <td>devo@donuts.com</td>
+                <td data-tf-sortKey="10">QT10</td>
+                <td>51426</td>
+                <td>941-964-1234</td>
+                <td><div align="right">1.067,00</div></td>
+                <td><div align="right">1,067.00</div></td>
+                <td>http://www.polyester.se</td>
+                <td>5/1/1986</td>
+                <td>1/5/1986</td>
+              </tr>
+              <tr>
+                <td>henry@samba.org</td>
+                <td data-tf-sortKey="76">TY76</td>
+                <td>40859</td>
+                <td>941-964-4856</td>
+                <td><div align="right">3.401,19</div></td>
+                <td><div align="right">3,401.19</div></td>
+                <td>http://www.flexomat.com</td>
+                <td>7/3/1990</td>
+                <td>3/7/1990</td>
+              </tr>
+              <tr>
+                <td>found@dotnet.ca</td>
+                <td data-tf-sortKey="43">DF43</td>
+                <td>23986</td>
+                <td>941-964-2686</td>
+                <td><div align="right">1.393,52</div></td>
+                <td><div align="right">1,393.52</div></td>
+                <td>http://lostnfound.org</td>
+                <td>22/7/1993</td>
+                <td>7/22/1993</td>
+              </tr>
+              <tr>
+                <td>carl@fish.org</td>
+                <td data-tf-sortKey="90">IU90</td>
+                <td>73392</td>
+                <td>941-964-5792</td>
+                <td><div align="right">3.876,04</div></td>
+                <td><div align="right">3,876.04</div></td>
+                <td>http://www.google.se</td>
+                <td>14/7/1984</td>
+                <td>7/14/1984</td>
+              </tr>
+              <tr>
+                <td>found@mountdev.net</td>
+                <td data-tf-sortKey="113">VX113</td>
+                <td>03519</td>
+                <td>941-964-1599</td>
+                <td><div align="right">1.176,48</div></td>
+                <td><div align="right">1,176.48</div></td>
+                <td>http://donuts.com</td>
+                <td>6/8/2000</td>
+                <td>8/6/2000</td>
+              </tr>
+              <tr>
+                <td>lost@fish.org</td>
+                <td data-tf-sortKey="82">ZP82</td>
+                <td>36628</td>
+                <td>941-964-5985</td>
+                <td><div align="right">822,23</div></td>
+                <td><div align="right">822.23</div></td>
+                <td>http://www.gmail.com</td>
+                <td>14/7/1994</td>
+                <td>7/14/1994</td>
+              </tr>
+              <tr>
+                <td>mendez@dotnet.ca</td>
+                <td data-tf-sortKey="33">OK33</td>
+                <td>90442</td>
+                <td>941-964-1649</td>
+                <td><div align="right">1.985,72</div></td>
+                <td><div align="right">1,975.72</div></td>
+                <td>http://reno.gov</td>
+                <td>20/10/1997</td>
+                <td>10/20/1997</td>
+              </tr>
+              <tr>
+                <td>carl@donuts.com</td>
+                <td data-tf-sortKey="97">EQ97</td>
+                <td>00412</td>
+                <td>941-964-6432</td>
+                <td><div align="right">1.834,77</div></td>
+                <td><div align="right">1,834.77</div></td>
+                <td>http://gmail.com</td>
+                <td>23/8/1997</td>
+                <td>8/23/1997</td>
+              </tr>
+              <tr>
+                <td>foo@fish.org</td>
+                <td data-tf-sortKey="56">FS56</td>
+                <td>80653</td>
+                <td>941-964-1022</td>
+                <td><div align="right">260,26</div></td>
+                <td><div align="right">260.26</div></td>
+                <td>http://samba.org</td>
+                <td>24/11/1991</td>
+                <td>11/24/1991</td>
+              </tr>
+              <tr>
+                <td>found@fish.org</td>
+                <td data-tf-sortKey="3">MW3</td>
+                <td>54635</td>
+                <td>941-964-6439</td>
+                <td><div align="right">1.442,80</div></td>
+                <td><div align="right">1,442.80</div></td>
+                <td>http://dotnet.ca</td>
+                <td>12/7/1987</td>
+                <td>7/12/1987</td>
+              </tr>
+              <tr>
+                <td>found@flexomat.com</td>
+                <td data-tf-sortKey="51">RE51</td>
+                <td>20953</td>
+                <td>941-964-5544</td>
+                <td><div align="right">575,42</div></td>
+                <td><div align="right">575.42</div></td>
+                <td>http://gmail.com</td>
+                <td>10/6/1988</td>
+                <td>6/10/1988</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <script src="../dist/tablefilter/tablefilter.js"></script>
+        <script src="test-sort-key.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>

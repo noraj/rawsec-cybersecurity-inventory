@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - RequireJs demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>RequireJs Demo</h2>
+
+<!-- @import partials/pre.html -->
+
+<!-- @import partials/countries-by-continent.html -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.17/require.min.js"></script>
+<script data-config>
+requirejs(
+    ['../dist/tablefilter/tablefilter'],
+    function(mod){
+        var TableFilter = mod.TableFilter;
+        var tfConfig = {
+            base_path: '../dist/tablefilter/',
+            col_1: 'multiple',
+            col_2: 'checklist',
+            alternate_rows: true,
+            rows_counter: true,
+            enable_default_theme: true,
+            col_widths: [
+                '70px', '170px', '170px',
+                '110px', '90px', '250px'
+            ],
+            extensions:[
+                {
+                    name: 'sort',
+                    types: [
+                        'number', 'string', 'string',
+                        'US', 'none', 'string'
+                    ]
+                },
+                { name: 'colsVisibility' },
+                { name: 'filtersVisibility' }
+            ]
+        };
+
+        tf = new TableFilter('demo', tfConfig);
+        tf.init();
+    }
+);
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

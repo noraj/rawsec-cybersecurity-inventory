@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Linked filters Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Linked filters with disabled options demo</h2>
+<p>
+    This demo features the refresh filters behaviour. In this mode, the
+    drop-down filters are linked and if the
+    <code>disable_excluded_options</code> is enabled, the invalid options in the
+    linked filters are simply greyed-out.
+</p>
+<p>
+    This feature was suggested by
+    <a href="http://www.zehnplus.ch" target="_blank">zehnplus</a>.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-by-continent.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var filtersConfig = {
+    base_path: '../dist/tablefilter/',
+    linked_filters: true,
+    disable_excluded_options: true,
+    col_1: 'multiple',
+    col_2: 'checklist',
+    col_types: [
+        'number', 'string', 'string',
+        'formatted-number', 'none', 'string'
+    ],
+    col_widths: [
+        '60px', '160px', '160px',
+        '85px', '70px', '270px'
+    ],
+    btn_reset: true,
+    clear_filter_text: '< Clear >',
+    alternate_rows: true,
+    rows_counter: true,
+    enable_default_theme: true,
+    extensions:[{
+        name: 'sort'
+    }]
+};
+
+var tf = new TableFilter('demo', filtersConfig);
+tf.init();
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

@@ -1,0 +1,43 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            .content
+                // Table Of Contents
+                include content/table_of_contents_operating_systems.pug
+
+                h2.title.is-2#title-operating-systems Operating Systems
+                h3.title.is-3#title-operating-systems-maintained Maintained
+                article
+                    include content/operating_systems_maintained.pug
+                    script(src='js/tablefilter/operating_systems_maintained.js')
+        
+                h3.title.is-3#title-operating-systems-no-more-maintained No more maintained
+                article
+                    include content/operating_systems_no_more_maintained.pug
+                    script(src='js/tablefilter/operating_systems_no_more_maintained.js')
+        
+                h3.title.is-3#title-operating-systems-project-transfered Project transfered
+                article
+                    include content/operating_systems_project_transfered.pug
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li
+                        a(href='index.html') Overview
+                    li
+                        a(href='tools.html') Tools
+                    li
+                        a(href='ressources.html') Resources
+                    li
+                        a(href='ctf_platforms.html') CTF platforms
+                    li.is-active
+                        a(href='operating_systems.html') Operating Systems
+
+block font-mfizz
+    // Apply font-mfizz class to elements when available (need to be loaded after the content)
+    script(src='js/auto-font-mfizz.js')

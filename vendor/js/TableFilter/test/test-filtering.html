@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TableFilter filtering tests</title>
+        <link rel="stylesheet" href="libs/qunit/qunit.css">
+        <script src="libs/qunit/qunit.js"></script>
+        <script src="libs/polyfill.js"></script>
+    </head>
+    <body>
+
+        <table id="demo">
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+                <th>d</th>
+                <th>e</th>
+                <th>f</th>
+            </tr>
+            <tr>
+                <td>21.1.18</td>
+                <td>21.1.04</td>
+                <td>3-Jan-2014</td>
+                <td>alpha a xyz</td>
+                <td>numeric</td>
+                <td>2767</td>
+            </tr>
+            <tr>
+                <td>21.1.16</td>
+                <td>21.1.05</td>
+                <td>23-Oct-2007</td>
+                <td>alpha c xyz</td>
+                <td>numeric 1</td>
+                <td>0.6565765</td>
+            </tr>
+            <tr>
+                <td>34.234</td>
+                <td>rr</td>
+                <td>14-Mar-2009</td>
+                <td>alpha e xyz</td>
+                <td>numeric 2</td>
+                <td>this is a string</td>
+            </tr>
+        </table>
+
+        <script src="../dist/tablefilter/tablefilter.js"></script>
+        <script src="test-filtering.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>

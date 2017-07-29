@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Theme Roller Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Theme roller demo</h2>
+<p>
+    This demo shows how to implement a theme roller.
+</p>
+
+<!-- @import partials/pre.html -->
+
+<div>
+    Theme:
+    <select onchange="javascript:changeTheme(this.value);">
+        <option value="default" selected="selected">default</option>
+        <option value="mytheme">mytheme</option>
+        <option value="skyblue">skyblue</option>
+        <option value="transparent">transparent</option>
+    </select>
+</div>
+<!-- @import partials/books.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    filters_row_index: 2,
+    headers_row_index: 1,
+    sort: true,
+    col_types: [
+        'string', 'string', 'number',
+        'string', 'string', 'date'
+    ],
+    rows_counter: true,
+    rows_counter_text: 'Books: ',
+    alternate_rows: true,
+    btn_reset: true,
+    mark_active_columns: true,
+
+    /* Filter types*/
+    col_3: 'select',
+    col_4: 'select',
+
+    /* delegate for filtering 'In store' column */
+    custom_cell_data_cols: [3],
+    custom_cell_data: function(o, cell, colIndex){
+        if(colIndex === 3){
+            var chk = cell.getElementsByTagName('input')[0];
+            if(!chk){
+                return '';
+            }
+            if(chk.checked){
+                return 'yes';
+            } else {
+                return 'no';
+            }
+        }
+    },
+
+    /* Custom options for 'Shipping' column */
+    custom_options: {
+        cols: [4],
+        texts: [
+            ['1 Hour','12 Hours','24 Hours','2 Days','na']
+        ],
+        values: [
+            ['1 Hour','12 Hours','24 Hours','2 Days','na']
+        ],
+        sorts: [false]
+    },
+
+    /* theme */
+    themes: [{ name: 'default' }],
+
+    extensions: [{ name: 'sort' }]
+};
+
+var tf = new TableFilter('books', tfConfig, 2);
+tf.init();
+
+// TableFilter themes
+var THEMES = {
+    'default': tf.themesPath + 'default/default.css',
+    'mytheme': tf.themesPath + 'mytheme/mytheme.css',
+    'skyblue': tf.themesPath + 'skyblue/skyblue.css',
+    'transparent': tf.themesPath + 'transparent/transparent.css'
+};
+
+function changeTheme(name){
+    var stylesheet = tf.getStylesheet('default');
+    stylesheet.href = THEMES[name];
+}
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

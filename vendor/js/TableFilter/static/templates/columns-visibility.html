@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Columns Visibility Extension Demo</title>
+    <!-- @import partials/style.html -->
+    <link rel="stylesheet" type="text/css" href="../dist/tablefilter/style/colsVisibility.css">
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Columns visibility extension demo</h2>
+<p>
+    This demo features the columns visibility extension.
+</p>
+
+<p>
+<button onclick="javascript:
+    tf.extension('colsVisibility').hideCol(0);">Hide Column 0</button>
+<button onclick="javascript:
+    tf.extension('colsVisibility').showCol(0);">Show Column 0</button>
+<button onclick="javascript:
+    tf.extension('colsVisibility').toggleCol(2);">Toggle Column 2</button>
+</p>
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-by-continent.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    col_types: [
+        'number', 'string', 'string',
+        'formatted-number', 'formatted-number', 'string'
+    ],
+    paging: true,
+    state: {
+        types: ['cookie'],
+        filters: true,
+        columns_visibility: true
+    },
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    btn_reset_text: 'Clear',
+    status_bar: true,
+    col_1: 'select',
+    col_2: 'select',
+
+    /* columns visibility and sort extension */
+    extensions:[
+        {
+            name: 'colsVisibility',
+            at_start: [3, 5],
+            text: 'Columns: ',
+            enable_tick_all: true
+        }, {
+            name: 'sort'
+        }
+    ]
+};
+
+var tf = new TableFilter('demo', tfConfig);
+tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

@@ -1,0 +1,193 @@
+---
+layout: documentation
+doc-tab: overview
+doc-subtab: responsiveness
+---
+
+{% include subnav-overview.html %}
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Responsiveness</h1>
+    <h2 class="subtitle">Bulma is a <strong>mobile-first</strong> framework</h2>
+
+    <hr>
+
+    <h3 class="title">Vertical by default</h3>
+    <div class="content">
+      <p>
+        Every element in Bulma is <strong>mobile-first</strong> and optimizes for <strong>vertical reading</strong>, so by default on mobile:
+      </p>
+      <ul>
+        <li><code>columns</code> are stacked vertically</li>
+        <li>the <code>level</code> component will show its children stacked vertically</li>
+        <li>the <code>nav</code> menu will be hidden</li>
+      </ul>
+      <p>For example, you can enforce the <strong>horizontal</strong> layout for both <code>columns</code> or <code>nav</code> by appending the <code>is-mobile</code> modifer.</p>
+    </div>
+
+    <hr>
+
+    <h3 class="title">Breakpoints</h3>
+    <div class="content">
+      <p>Bulma has 5 breakpoints:</p>
+      <ul>
+        <li><code>mobile</code>: up to <code>768px</code></li>
+        <li><code>tablet</code>: from <code>769px</code></li>
+        <li><code>desktop</code>: from <code>1000px</code></li>
+        <li><code>widescreen</code>: from <code>1192px</code></li>
+        <li><span class="tag is-success">New!</span> <code>fullhd</code>: from <code>1384px</code></li>
+      </ul>
+      <p>Bulma uses 9 responsive mixins:</p>
+      <ul>
+        <li>
+          <code>=mobile</code><br>
+          until <code>768px</code>
+        </li>
+        <li>
+          <code>=tablet</code><br>
+          from <code>769px</code>
+        </li>
+        <li>
+          <code>=tablet-only</code><br>
+          from <code>769px</code> and until <code>999px</code>
+        </li>
+        <li>
+          <code>=touch</code><br>
+          until <code>999px</code>
+        </li>
+        <li>
+          <code>=desktop</code><br>
+          from <code>1000px</code>
+        </li>
+        <li>
+          <code>=desktop-only</code><br>
+          from <code>1000px</code> and until <code>1191px</code>
+        </li>
+        <li>
+          <code>=widescreen</code><br>
+          from <code>1192px</code>
+        </li>
+        <li>
+          <code>=widescreen-only</code><br>
+          from <code>1192px</code> and until <code>1383px</code>
+        </li>
+        <li>
+          <span class="tag is-success">New!</span>
+          <code>=fullhd</code><br>
+          from <code>1384px</code>
+        </li>
+      </ul>
+    </div>
+
+    <table class="table is-bordered">
+      <thead>
+        <tr>
+          <th style="width: 20%;">
+            Mobile<br>
+            Up to <code>768px</code>
+          </th>
+          <th style="width: 20%;">
+            Tablet<br>
+            Between <code>769px</code> and <code>999px</code>
+          </th>
+          <th style="width: 20%;">
+            Desktop<br>
+            Between <code>1000px</code> and <code>1191px</code>
+          </th>
+          <th style="width: 20%;">
+            Widescreen<br>
+            Between <code>1192px</code> and <code>1383px</code>
+          </th>
+          <th style="width: 20%;">
+            FullHD<br>
+            <code>1384px</code> and above
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p class="notification is-success">mobile</p>
+          </td>
+          <td colspan="4">
+            <p class="notification">-</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="notification">-</p>
+          </td>
+          <td colspan="4">
+            <p class="notification is-success">tablet</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="notification">-</p>
+          </td>
+          <td colspan="3">
+            <p class="notification is-success">desktop</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <p class="notification">-</p>
+          </td>
+          <td colspan="2">
+            <p class="notification is-success">widescreen</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <p class="notification">-</p>
+          </td>
+          <td>
+            <p class="notification is-success">fullhd</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="notification">-</p>
+          </td>
+          <td>
+            <p class="notification is-success">tablet-only</p>
+          </td>
+          <td colspan="3">
+            <p class="notification">-</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="notification">-</p>
+          </td>
+          <td>
+            <p class="notification is-success">desktop-only</p>
+          </td>
+          <td colspan="2">
+            <p class="notification">-</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <p class="notification">-</p>
+          </td>
+          <td>
+            <p class="notification is-success">widescreen-only</p>
+          </td>
+          <td>
+            <p class="notification">-</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="notification is-success">touch</p>
+          </td>
+          <td colspan="3">
+            <p class="notification">-</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

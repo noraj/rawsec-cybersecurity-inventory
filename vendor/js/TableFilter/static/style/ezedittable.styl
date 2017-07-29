@@ -1,0 +1,93 @@
+/**
+ * ezEditTable integration default overrides
+ */
+
+@import 'config'
+
+$editor-border-color = #AACCF6
+
+// selection
+.ezActiveRow
+    background-color            #2852A8 !important
+    color                       #fff
+
+.ezSelectedRow
+    background-color            #316AC5 !important
+    color                       #fff
+
+.ezActiveCell
+    background-color            #D9E8FB !important
+    color                       #000 !important
+    font-weight                 bold
+
+.ezETSelectedCell
+    background-color            #FFDC61 !important
+    font-weight                 bold
+    color                       rgb(0,0,0) !important
+
+.ezUnselectable
+   -moz-user-select             -moz-none
+   -khtml-user-select           none
+   -webkit-user-select          none
+   -o-user-select               none
+   user-select                  none
+
+// cell editors
+.ezInputEditor
+    width                       95%
+    height                      auto
+    font-size                   inherit
+    border                      1px solid $editor-border-color
+
+.ezTextareaEditor
+    width                       95%
+    height                      35px
+    font-size                   inherit
+    border                      1px solid $editor-border-color
+
+.ezSelectEditor
+    width                       100%
+    font-size                   inherit
+    border                      1px solid $editor-border-color
+
+.ezModifiedCell
+    background                  transparent url(themes/bg_mod_cell.png) 0 0 no-repeat
+
+select[multiple="multiple"].ezSelectEditor
+    height                      35px
+
+/* Command type editor */
+.ezCommandEditor
+    margin                      2px
+
+    button, input[type="button"]
+        min-height              22px
+        margin                  1px
+        padding                 3px
+        border                  1px solid #ccc
+        background              #fff
+        border-radius           4px 4px 4px 4px
+        -moz-border-radius      4px 4px 4px 4px
+
+        &:hover
+            border              1px solid #999
+
+    img
+        border                  0
+        vertical-align          middle
+        margin                  2px
+
+
+// utils
+.ezOpacity
+    //filter                      alpha(opacity=60) /* for legacy IE */
+    opacity                     0.6 /* CSS3 standard */
+
+.alignLeft
+    text-align                  left
+
+.alignCenter
+    text-align                  center
+
+.alignRight
+    text-align                  right

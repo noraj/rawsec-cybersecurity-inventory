@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Editable Grid Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Editable grid demo</h2>
+
+<p>
+    To make the grid cells editable, you need to import the
+    {EZEDITTABLE_LINK} plugin, enable the <code>editable</code> property
+    and configure the <code>advancedGrid</code> with the {EZEDITTABLE_LINK}
+    options.
+</p>
+
+<p>
+    Instructions: Double-click on a row on or press <code>enter</code> key to
+    perform action.
+    <br><br>
+    NOTE: Data changes are not persisted in this demo.
+</p>
+<!-- @import partials/pre.html -->
+
+<div class="ezCommandEditor">
+    <button onclick="
+        var advancedGrid = tf.extension('advancedGrid');
+        var ezEditTable = advancedGrid._ezEditTable;
+        ezEditTable.Editable.Edit();">
+        <img src="http://edittable.free.fr/ezEditTable/themes/icn_edit.gif" alt="Edit record">
+    </button>
+    <button onclick="
+        var advancedGrid = tf.extension('advancedGrid');
+        var ezEditTable = advancedGrid._ezEditTable;
+        ezEditTable.Editable.AddNewRow();">
+        <img src="http://edittable.free.fr/ezEditTable/themes/icn_add.gif" alt="Add record">
+    </button>
+    <button onclick="
+        var advancedGrid = tf.extension('advancedGrid');
+        var ezEditTable = advancedGrid._ezEditTable;
+        ezEditTable.Editable.SubmitDeletedRows();">
+        <img src="http://edittable.free.fr/ezEditTable/themes/icn_del.gif" alt="Delete record">
+    </button>
+</div>
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        grid_layout: true,
+        grid_width: '900px',
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        status_bar: true,
+        col_1: 'select',
+        col_2: 'select',
+        col_widths: [
+            '150px', '90px', '70px',
+            '120px', '120px', '100px',
+            '100px', '100px', '100px'
+        ],
+        extensions:[
+            {
+                name: 'advancedGrid',
+                // For the purpose of this demo, ezEditTable dependency
+                // is loaded from its own website which is not a CDN.
+                // This dependency also requires a licence therefore
+                // DO NOT import it in this way in your projects.
+                filename: 'ezEditTable_min.js',
+                vendor_path: 'http://edittable.free.fr/ezEditTable/',
+                // Once ezEditTable dependency is installed in your
+                // project import it by pointing to a local path:
+                // vendor_path: 'path/to/ezEditTable'
+                editable: true,
+                selection: true,
+                default_selection: 'both',
+
+                editor_model: 'cell',
+                cell_editors: [
+                    { type: 'textarea', attributes:[['title', 'Country name']]},
+                    { type: 'input', attributes:[['title', 'ISO code']]},
+                    { type: 'select', attributes:[['title', 'Year']]},
+                    { type: 'input' },
+                    { type: 'input' },
+                    { type: 'input' },
+                    { type: 'input' },
+                    { type: 'input' },
+                    { type: 'input' }
+                ],
+
+                actions:{
+                    'update': {
+                        uri: null,
+                        submit_method: 'form',
+                        form_method: 'POST'
+                    },
+                    'insert': {
+                        uri: null,
+                        submit_method: 'form',
+                        form_method: 'POST',
+                        default_record: [
+                            'Country name',
+                            'ISO code',
+                            'Year',
+                            'Population',
+                            'XRAT',
+                            'PPP',
+                            'cgdp',
+                            'cc',
+                            'ci'
+                        ]
+                    },
+                    'delete': {
+                        uri: null,
+                        submit_method: 'script',
+                        bulk_delete: false
+                    }
+                }
+            }, {
+                name: 'sort',
+                types: [
+                    'string', 'string', 'number',
+                    'number', 'number', 'number',
+                    'number', 'number', 'number'
+                ]
+            }
+        ]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

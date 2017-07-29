@@ -1,0 +1,20 @@
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables"
+
+// 2. Set your own initial variables
+// Add pink and its invert
+$pink: #ff5050
+$pink-invert: #fff
+// Add new greys
+$grey-bis: #33363B
+$grey-bis-dark: #26272B
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink
+$primary-invert: $pink-invert
+// Use the new grey as the dark color
+$dark: $grey-bis
+
+// 4. Import the rest of Bulma
+@import "../node_modules/bulma/bulma"

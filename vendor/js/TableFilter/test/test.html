@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TableFilter basic test</title>
+        <link rel="stylesheet" href="libs/qunit/qunit.css">
+        <script src="libs/qunit/qunit.js"></script>
+        <script src="libs/polyfill.js"></script>
+    </head>
+    <body>
+        <table id="demo" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <th>From</th>
+                    <th>Destination</th>
+                    <th>Road Distance (km)</th>
+                    <th>By Air (hrs)</th>
+                    <th>By Rail (hrs)</th>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Adelaide</td>
+                    <td>1412</td>
+                    <td>1.4</td>
+                    <td>25.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Brisbane</td>
+                    <td>982</td>
+                    <td>1.5</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Canberra</td>
+                    <td>286</td>
+                    <td>.6</td>
+                    <td>4.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Melbourne</td>
+                    <td>872</td>
+                    <td>1.1</td>
+                    <td>10.5</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Perth</td>
+                    <td>2781</td>
+                    <td>3.1</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Alice Springs</td>
+                    <td>1533</td>
+                    <td>2</td>
+                    <td>20.25</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Brisbane</td>
+                    <td>2045</td>
+                    <td>2.15</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div style="width: 300px;">
+        <table class="test">
+            <tbody>
+                <tr>
+                    <th>From</th>
+                    <th>Destination</th>
+                    <th>Road Distance (km)</th>
+                    <th>By Air (hrs)</th>
+                    <th>By Rail (hrs)</th>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Adelaide</td>
+                    <td>1412</td>
+                    <td>1.4</td>
+                    <td>25.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Brisbane</td>
+                    <td>982</td>
+                    <td>1.5</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Canberra</td>
+                    <td>286</td>
+                    <td>.6</td>
+                    <td>4.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Melbourne</td>
+                    <td>872</td>
+                    <td>1.1</td>
+                    <td>10.5</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Perth</td>
+                    <td>2781</td>
+                    <td>3.1</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Alice Springs</td>
+                    <td>1533</td>
+                    <td>2</td>
+                    <td>20.25</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Brisbane</td>
+                    <td>2045</td>
+                    <td>2.15</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <script src="../dist/tablefilter/tablefilter.js"></script>
+        <script src="test.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>

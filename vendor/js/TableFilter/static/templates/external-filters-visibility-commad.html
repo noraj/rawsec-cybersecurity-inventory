@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Filters Visibility Extension Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Filters visibility extension demo</h2>
+<p>
+    This demo features the filters visibility extension.
+</p>
+
+<p id="filtersToggle"></p>
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-by-continent.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    col_1: 'multiple',
+    col_2: 'checklist',
+    col_widths: [
+        '75px', '200px', '200px',
+        '100px', '75px', '400px'
+    ],
+    grid_layout: true,
+    paging: true,
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    loader: true,
+    status_bar: true,
+    extensions: [{
+        name: 'filtersVisibility',
+        visible_at_start: false,
+        target_id: 'filtersToggle',
+        btn_html: '<button>Toggle filters<\/button>'
+    }]
+};
+
+var tf = new TableFilter('demo', tfConfig);
+tf.init();
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

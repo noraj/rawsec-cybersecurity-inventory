@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Starter</title>
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+
+
+<!-- @import partials/countries-table-tiny.html -->
+
+<script src="tablefilter/tablefilter.js"></script>
+
+<script data-config>
+    var filtersConfig = {
+        base_path: 'tablefilter/',
+        col_1: 'select',
+        col_2: 'select',
+        col_3: 'select',
+        alternate_rows: true,
+        rows_counter: true,
+        btn_reset: true,
+        loader: true,
+        status_bar: true,
+        mark_active_columns: true,
+        highlight_keywords: true,
+        col_types: [
+            'string', 'string', 'number',
+            'number', 'number', 'number',
+            'number', 'number', 'number'
+        ],
+        custom_options: {
+            cols:[3],
+            texts: [[
+                '0 - 25 000',
+                '100 000 - 1 500 000'
+            ]],
+            values: [[
+                '>0 && <=25000',
+                '>100000 && <=1500000'
+            ]],
+            sorts: [false]
+        },
+        col_widths: [
+            '150px', '100px', '100px',
+            '70px', '70px', '70px',
+            '70px', '60px', '60px'
+        ],
+        extensions:[{ name: 'sort' }]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+
+</script>
+
+<pre></pre>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

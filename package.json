@@ -1,0 +1,36 @@
+{
+  "name": "rawsec-cybersecurity-list",
+  "version": "1.0.0",
+  "description": "A list of tools and resources about CyberSecurity",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "bulma": "^0.4.4",
+    "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "font-mfizz": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "tablefilter": "^0.5.33"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/noraj/rawsec-cybersecurity-list.git"
+  },
+  "keywords": [
+    "cybersecurity"
+  ],
+  "author": "Alexandre ZANNI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/noraj/rawsec-cybersecurity-list/issues"
+  },
+  "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README"
+}

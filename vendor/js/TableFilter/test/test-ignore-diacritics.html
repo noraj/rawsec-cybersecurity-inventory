@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TableFilter ignore diacritics tests</title>
+        <link rel="stylesheet" href="libs/qunit/qunit.css">
+        <script src="libs/qunit/qunit.js"></script>
+        <script src="libs/polyfill.js"></script>
+    </head>
+    <body>
+        <table id="demo">
+            <tbody>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>BRÜNHILD Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>La baguette</td>
+                    <td>Jérôme Dupont</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>Ernst Handel</td>
+                    <td>Zoë Punkt</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td>Island Trading</td>
+                    <td>Helen Bennett</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>Yoshi Tannamuri</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>Falò Alimentari Riuniti</td>
+                    <td>Giovanni Rovelli</td>
+                    <td>Italy</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="../dist/tablefilter/tablefilter.js"></script>
+        <script src="test-ignore-diacritics.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+/**
+ * Table's default style
+ */
+
+@import 'config'
+
+table.TF
+    font-family             $font-family
+    border-spacing          0
+    border                  0
+
+    th
+        height              $th-height
+        margin              0
+        background-color    $th-bg-color
+        border-bottom       1px solid $th-bottom-border-color
+        border-top          1px solid $th-top-border-color
+        border-left         1px solid $th-left-border-color
+        border-right        1px solid $th-right-border-color
+        padding             0.1em 0.7em
+        color               $th-font-color
+        &:last-child
+            border-right    1px solid $th-left-border-color
+
+    td
+        margin              0
+        padding             $padding
+        border-bottom       1px solid $td-border-color
+
+    // responsiveness
+    &.resp
+        display             block
+        overflow-x          auto
+
+        .sort-arrow
+            position        initial

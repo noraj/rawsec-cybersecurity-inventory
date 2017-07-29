@@ -1,0 +1,63 @@
+/**
+ * An arrow mixin for Stylus, based on @shojberg's "cssarrowplease.com"
+ * @param {Position} position
+ * @param {size, color} arrow
+ * @param {size, color} border (optional)
+ */
+arrow(position, arrow, border = 0 white)
+    // Resolve arguments
+    $arrowSize = arrow[0]
+    $arrowColor = arrow[1]
+    $borderWidth = border[0]
+    $borderColor = border[1]
+
+    $oppositePosition = opposite-position(position)
+
+    // Base CSS
+    position: relative
+    background: $arrowColor
+
+    // Selector generation
+    $selectors = "&:after"
+    if $borderWidth > 0
+        $selectors = $selectors + ", &:before"
+
+    // Arrow position
+    {$selectors}
+        {$oppositePosition}: 100%
+
+        // Offset
+        if position in (top bottom)
+            left: 50%
+        else
+            top: 50%
+
+        border: solid transparent
+        content: " "
+        height: 0
+        width: 0
+        position: absolute
+        pointer-events: none
+
+    // The arrow itself
+    &:after
+        border-color: rgba(white, 0) // transparent
+        border-{$oppositePosition}-color: $arrowColor
+        border-width: $arrowSize
+
+        if position in (top bottom)
+            margin-left: (- @border-width)
+        else
+            margin-top: (- @border-width)
+
+    // The border
+    if $borderWidth > 0
+        &:before
+            border-color: rgba(white, 0) // transparent
+            border-{$oppositePosition}-color: $borderColor
+            border-width: $arrowSize + $borderWidth
+
+            if position in (top bottom)
+                margin-left: (- @border-width)
+            else
+                margin-top: (- @border-width)

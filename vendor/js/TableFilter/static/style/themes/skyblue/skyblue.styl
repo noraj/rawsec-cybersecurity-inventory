@@ -1,0 +1,195 @@
+/**
+ * skyblue theme overrides
+ */
+
+// table
+table.TF
+    padding                     0
+    color                       #000
+    border-right                1px solid #A4BED4
+    border-top                  1px solid #A4BED4
+    border-left                 1px solid #A4BED4
+    border-bottom               0
+
+    th
+        margin                  0
+        color                   inherit
+        background              #D1E5FE url(images/bg_skyblue.gif) 0 0 repeat-x
+        border-color            #FDFDFD #A4BED4 #A4BED4 #FDFDFD
+        border-width            1px
+        border-style            solid
+
+    td
+        margin                  0
+        padding                 5px
+        color                   inherit
+        border-bottom           1px solid #A4BED4
+        border-left             0
+        border-top              0
+        border-right            0
+
+// filters
+.fltrow
+    background-color            #D1E5FE !important
+
+    th, td
+        padding                 1px 3px 1px 3px !important
+
+.flt,
+select.flt,
+select.flt_multi,
+.flt_s,
+.single_flt,
+.div_checklist
+    border                      1px solid #A4BED4 !important
+
+input.flt
+    width                       99% !important
+
+// toolbar
+.inf
+    background-color            #E3EFFF !important
+    border                      1px solid #A4BED4
+    height                      $min-height
+    color                       #004A6F
+
+div.tot,
+div.status
+    border-right                0 !important
+
+// help
+.helpBtn
+    &:hover
+        background-color        transparent
+
+// reset button
+input.reset
+    background                  transparent url(images/icn_clear_filters.png) center center no-repeat !important
+
+.nextPage
+    background                  transparent url(images/btn_next_page.gif) center center no-repeat !important
+    border                      1px solid transparent !important
+
+    &:hover
+        background              #FFE4AB url(images/btn_next_page.gif) center center no-repeat !important
+        border                  1px solid #FFB552 !important
+
+.previousPage
+    background                  transparent url(images/btn_prev_page.gif) center center no-repeat !important
+    border                      1px solid transparent !important
+
+    &:hover
+        background              #FFE4AB url(images/btn_prev_page.gif) center center no-repeat !important
+        border                  1px solid #FFB552 !important
+
+.firstPage
+    background                  transparent url(images/btn_first_page.gif) center center no-repeat !important
+    border                      1px solid transparent !important
+
+    &:hover
+        background              #FFE4AB url(images/btn_first_page.gif) center center no-repeat !important
+        border                  1px solid #FFB552 !important
+
+.lastPage
+    background                  transparent url(images/btn_last_page.gif) center center no-repeat !important
+    border                      1px solid transparent !important
+
+    &:hover
+        background              #FFE4AB url(images/btn_last_page.gif) center center no-repeat !important
+        border                  1px solid #FFB552 !important
+
+// active header
+.activeHeader
+    background                  #FFE4AB !important
+    border                      1px solid #FFB552 !important
+    color                       inherit !important
+
+// grid-layout
+
+// main container
+div.grd_Cont
+    background-color            #D9EAED !important
+    border                      1px solid #99CCCC !important
+    padding                     0 !important
+
+    // alternating background colors
+    .even
+        background-color        #fff
+
+    .odd
+        background-color        #E3EFFF
+
+// headers' table container
+div.grd_headTblCont
+    background-color            #D9EAED !important
+    border-bottom               none !important
+
+
+div.grd_tblCont table
+    border-right                none !important
+
+// headers
+div.grd_tblCont table th,
+div.grd_headTblCont table th,
+div.grd_headTblCont table td
+    background                  #D9EAED url(images/bg_skyblue.gif) left top repeat-x
+    border-bottom               1px solid #A4BED4
+    border-right                1px solid #A4BED4 !important
+    border-left                 1px solid #fff !important
+    border-top                  1px solid #fff !important
+
+div.grd_tblCont table td
+    border-bottom               1px solid #A4BED4 !important
+    border-right                0 !important
+    border-left                 0 !important
+    border-top                  0 !important
+
+// toolbar containing left, middle and right divs
+.grd_inf
+    background-color            #CCE2FE
+    color                       #004A6F
+    border-top                  1px solid #99CCCC !important
+
+    a
+        text-decoration         none
+        font-weight             bold
+
+// loader
+.loader
+    background-color            #2D8EEF
+    border                      1px solid #CCE2FE
+    border-radius               5px
+
+// alternating background colors
+.even
+    background-color            #fff
+
+.odd
+    background-color            #E3EFFF
+
+// filters visibility
+span.expClpFlt
+    a.btnExpClpFlt
+        &:hover
+            background-color    transparent !important
+
+// ezedittable
+
+// selection
+.ezActiveRow
+    background-color            #FFDC61 !important
+    color                       inherit
+
+.ezSelectedRow
+    background-color            #FFE4AB !important
+    color                       inherit
+
+.ezActiveCell
+    background-color            #fff !important
+    color                       #000 !important
+    font-weight                 bold
+
+.ezETSelectedCell
+    background-color            #FFF !important
+    font-weight                 bold
+    color                       rgb(0,0,0) !important

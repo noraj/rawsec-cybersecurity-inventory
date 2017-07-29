@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '6.3.0'
+before_script:
+- npm install grunt-cli -g
+- npm install codecov -g
+script:
+- npm test
+- npm run codecov
+- npm run deploy
+branches:
+  only:
+  - master
+env:
+  global:
+  - secure: A1G8GvJkV0rjy7XCTVdOpTHy3xaoSZZAbMWhI+ikrqBqd8mRz+sB71FhRusouTcYdsT5VfF9Io2doS8LKAeP0TNC34Pp0uvjtsvarzn8a/oNEOuqR3Ub0ws2bmbZIZc+wOpgErKOj1H1QSJAUpd6ZjIuEAbOVXlhGBJz3zUCmcpRDh32CpFKC62oFWeGlvttxPciLLzBfKgkVKEGhPtdGP/xCHL1MCQptYVHZiXwWsaIQ5wHFO6KCVlRrPgdfOL+Yce3mT02iXH6ZjW6U6zA6vYQVQZVD873AkU5RmirYblW+jW1wdvu4UXI71lSH6Z3uXRVnrw1b0TsLVTjP9ZUbCtkTHtLbxYzeDjEukxKoCjpAppIhOtaNIxrdA8oKJAabQYp5X+QK6lkosy0zdT5u2B1+g8unZhsf0y//7lgLUe04iQ7sc1Q6AHiiEGtByaXg4BHNW53bUfKgNnbV4+IbXf8rz5wWOxL2/yWAU/GoiszjqRQfajAXCpSf6SyMjXjhhvQdeFn+Cz6FwdtaxH+tOIY0Hq9Gqy1xrLIkv/httd3O+AbhLrU1c/M0MwlFQue7GeJb7ZyF3KsK7bXvoz2dEqvzHd98NZXiQEqFXCIs77uVh4eZMoYrbEyrkOAgkUZNQYhHh9fuvfynJ/zgUvyA0v3GUvBebq3ybYKD/vqX7s=

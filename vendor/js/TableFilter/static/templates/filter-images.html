@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Filter and Sort Images Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Filter and sort images demo</h2>
+<p>
+    This demo shows how to filter and sort a column containing images by using
+    the <code>custom_cell_data</code> delegate and the
+    <code>data-tf-sortKey</code> attribute.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/books-table-with-images.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    filters_row_index: 2,
+    headers_row_index: 1,
+    col_types: [
+        'string', 'string', 'string',
+        'number', 'string', 'string', 'date'
+    ],
+    rows_counter: true,
+    rows_counter_text: 'Books: ',
+    alternate_rows: true,
+    btn_reset: true,
+
+    /* filter types*/
+    col_0: 'select',
+    col_4: 'select',
+    col_5: 'select',
+
+    /*  custom_cell_data delegate used for filtering
+        images in a column */
+    custom_cell_data_cols: [0, 4],
+    custom_cell_data: function(o, cell, colIndex){
+        if(colIndex === 0){
+            var img = cell.getElementsByTagName('img')[0];
+            if(!img){
+                return '';
+            }
+            return img.alt;
+        } else if(colIndex === 4){
+            var chk = cell.getElementsByTagName('input')[0];
+            if(chk.checked){
+                return 'yes';
+            } else {
+                return 'no';
+            }
+        }
+    },
+
+    /* Custom options for 'Shipping' column */
+    custom_options: {
+        cols: [5],
+        texts: [
+            [
+                '1 Hour', '12 Hours', '24 Hours',
+                '2 Days', 'na'
+            ]
+        ],
+        values: [
+            [
+                '1 Hour', '12 Hours', '24 Hours',
+                '2 Days', 'na'
+            ]
+        ],
+        sorts: [false]
+    },
+
+    /* SkyBlue theme */
+    themes: [{ name: 'skyblue'}],
+
+    /* Sorting feature */
+    extensions: [{ name: 'sort' }]
+};
+
+var tf = new TableFilter('demo', 2, tfConfig);
+tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

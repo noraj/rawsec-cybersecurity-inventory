@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TableFilter column operations tests</title>
+        <link rel="stylesheet" href="libs/qunit/qunit.css">
+        <script src="libs/qunit/qunit.js"></script>
+        <script src="libs/polyfill.js"></script>
+    </head>
+    <body>
+        <table id="demo" cellpadding="0" cellspacing="0">
+            <tfoot>
+                <tr>
+                    <td>Sum:</td>
+                    <td></td>
+                    <td id="sum1"></td>
+                    <td id="sum2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mean:</td>
+                    <td></td>
+                    <td id="mean1"></td>
+                    <td id="mean2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Min:</td>
+                    <td></td>
+                    <td id="min1"></td>
+                    <td id="min2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Max:</td>
+                    <td></td>
+                    <td id="max1"></td>
+                    <td id="max2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Median:</td>
+                    <td></td>
+                    <td id="median1"></td>
+                    <td id="median2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Q1:</td>
+                    <td></td>
+                    <td id="q1-1"></td>
+                    <td id="q1-2"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Q3:</td>
+                    <td></td>
+                    <td id="q3-1"></td>
+                    <td id="q3-2"></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th>From</th>
+                    <th>Destination</th>
+                    <th>Road Distance (km)</th>
+                    <th>By Air (hrs)</th>
+                    <th width="15%">By Rail (hrs)</th>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Adelaide</td>
+                    <td>1412</td>
+                    <td>1.4</td>
+                    <td>25.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Brisbane</td>
+                    <td>982</td>
+                    <td>1.5</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Canberra</td>
+                    <td>286</td>
+                    <td>.6</td>
+                    <td>4.3</td>
+                </tr>
+                <tr>
+                    <td><strong>Sydney</strong></td>
+                    <td>Melbourne</td>
+                    <td>872</td>
+                    <td>1.1</td>
+                    <td>10.5</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Perth</td>
+                    <td>2781</td>
+                    <td>3.1</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Alice Springs</td>
+                    <td>1533</td>
+                    <td>2</td>
+                    <td>20.25</td>
+                </tr>
+                <tr>
+                    <td><strong>Adelaide</strong></td>
+                    <td>Brisbane</td>
+                    <td>2045</td>
+                    <td>2.15</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script src="../dist/tablefilter/tablefilter.js"></script>
+        <script src="test-col-ops.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+    </body>
+</html>

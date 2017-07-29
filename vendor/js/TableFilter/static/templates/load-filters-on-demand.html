@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Load filters on demand Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Load filters on demand demo</h2>
+<p>
+    The filter options are loaded only when used for the first time.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    col_widths: [
+        '150px', '100px', '100px',
+        '70px', '70px', '70px',
+        '70px', '60px', '60px'
+    ],
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    status_bar: true,
+    load_filters_on_demand: true,
+    col_0: 'multiple',
+    col_1: 'select',
+    col_2: 'checklist'
+};
+
+var tf = new TableFilter('demo', tfConfig);
+tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

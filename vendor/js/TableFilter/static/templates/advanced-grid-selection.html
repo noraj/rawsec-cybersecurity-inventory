@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Selection Grid Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Selection grid demo</h2>
+
+<p>
+    To make the grid rows selectable, you need to import the
+    {EZEDITTABLE_LINK} plugin, enable the <code>selection</code> property
+    and configure the <code>advancedGrid</code> with the {EZEDITTABLE_LINK}
+    options.
+</p>
+
+<p>
+    Instructions: Double-click on a row on or press <code>enter</code> key to
+    perform action. Enable multiple rows selection by checking the <b>Multiple
+    selection</b> checkbox. Keep <code>Ctrl/Cmd</code> or <code>Shift</code> key
+    pressed to select multiple rows.
+</p>
+<!-- @import partials/pre.html -->
+
+<div class="ezCommandEditor">
+    <input onclick="var ezEditTable = tf.extension('advancedGrid')._ezEditTable;
+        if(this.checked){
+            ezEditTable.selectionModel = 'multiple';
+        } else {
+            ezEditTable.selectionModel = 'single';
+        }" name="chkMultipleSlc" id="chkMultipleSlc" type="checkbox">
+    <label for="chkMultipleSlc">Multiple selection</label>
+</div>
+<!-- @import partials/countries-table.html -->
+<div class="ezCommandEditor">
+    <button onclick="alert( tf.extension('advancedGrid')._ezEditTable.Selection.GetActiveRowValues() );">Active row data</button>
+    <button onclick="alert( tf.extension('advancedGrid')._ezEditTable.Selection.GetSelectedValues() );">Selected rows data</button>
+    <button onclick="tf.extension('advancedGrid')._ezEditTable.Selection.ClearSelections();">Clear Selection</button>
+</div>
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        grid_layout: true,
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        status_bar: true,
+        col_1: 'select',
+        col_2: 'select',
+        col_widths: [
+            "150px", "70px", "70px",
+            "120px", "120px", "100px",
+            "100px", "100px", "100px"
+        ],
+        extensions:[
+            {
+                name: 'advancedGrid',
+                // For the purpose of this demo, ezEditTable dependency
+                // is loaded from its own website which is not a CDN.
+                // This dependency also requires a licence therefore
+                // DO NOT import it in this way in your projects.
+                filename: 'ezEditTable_min.js',
+                vendor_path: 'http://edittable.free.fr/ezEditTable/',
+                // Once ezEditTable dependency is installed in your
+                // project import it by pointing to a local path:
+                // vendor_path: 'path/to/ezEditTable'
+                selection: true,
+                default_selection: 'both',
+                on_validate_row: function(o, row){
+                    var country = o.Selection.GetActiveRowValues()[0];
+                    alert('Chosen record: ' + country);
+                }
+            }, {
+                name: 'sort',
+                types: [
+                    'string', 'string', 'number',
+                    'number', 'number', 'number',
+                    'number', 'number', 'number'
+                ]
+            }
+        ]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

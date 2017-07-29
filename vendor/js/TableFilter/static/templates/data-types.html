@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Data types Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Data types demo</h2>
+
+<p>
+    This example shows how to define column types with the
+    <code>col_types</code> option and specifically numeric formats with:
+</p>
+<ul>
+    <li>"." thousands separator and "," decimal separator for &euro; column</li>
+    <li>"," thousands separator and "." decimal separator for US$ column</li>
+</ul>
+<p>
+    along with date types with <code>locale</code> and <code>format</code> specified on
+    a column basis.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/dummy-table-with-totals-footer.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var id = function (id){
+    return document.getElementById(id);
+};
+var table = id('demo-tot');
+var totRowIndex = table.getElementsByTagName('tr').length;
+
+function addCommas(nStr){
+    nStr += '';
+    var x = nStr.split('.');
+    var x1 = x[0];
+    var x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+}
+
+function addDots(nStr){
+    nStr += '';
+    var x = nStr.split('.');
+    var x1 = x[0];
+    var x2 = x.length > 1 ? ',' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + '.' + '$2');
+    }
+    return x1 + x2;
+}
+
+function formatTotals(){
+    var tot1 = id('sum1').innerHTML;
+    tot1 = addDots(tot1);
+    id('sum1').innerHTML = tot1;
+
+    var tot2 = id('sum2').innerHTML;
+    tot2 = addCommas(tot2);
+    id('sum2').innerHTML = tot2;
+}
+
+ /* EXAMPLE 1
+ *********************** */
+var tfConfig = {
+    base_path: '../dist/tablefilter/',
+    filters_row_index: 1,
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    loader: true,
+    status_bar: true,
+    col_types: [
+        'string',
+        'string',
+        'string',
+        { type: 'formatted-number', decimal: ',', thousands: '.' },
+        'formatted-number', // defaults to '.' for decimal and ',' for thousands
+        'string',
+        { type: 'date', locale: 'fr' },
+        { type: 'date', locale: 'en', format: '{dd}-{MM}-{yyyy|yy}' },
+        { type: 'date', locale: 'en', format: ['{dd}-{months}-{yyyy|yy}'] },
+        'ipaddress'
+    ],
+    rows_always_visible: [totRowIndex],
+    on_filters_loaded: function(tf){
+        tf.setFilterValue(3, '>1.000');
+        tf.setFilterValue(4, '<2,500');
+        tf.setFilterValue(6, '>23-01-95');
+        tf.setFilterValue(8, '<2000');
+        tf.filter();
+    },
+    extensions:[
+        { name: 'sort' },
+        {
+            name: 'colOps',
+            id: ['sum1', 'sum2'],
+            col: [3, 4],
+            operation: ['sum', 'sum'],
+            write_method: ['innerhtml', 'innerhtml'],
+            exclude_row: [totRowIndex],
+            decimal_precision: [2, 2],
+            tot_row_index: [totRowIndex],
+            on_after_operation: formatTotals
+        }
+    ]
+};
+
+var tf = new TableFilter('demo-tot', tfConfig);
+tf.init();
+
+</script>
+
+<p>
+    Below an example of ISO date support ({yyyy|yy}/{MM}/{dd}).
+    Use <code>locale</code> to set a locale globally
+    (defaults to 'en').
+</p>
+
+<!-- @import partials/dummy-table.html -->
+<script data-config>
+ /* EXAMPLE 2
+ *********************** */
+var tf2Config = {
+    base_path: '../dist/tablefilter/',
+    alternate_rows: true,
+    rows_counter: true,
+    btn_reset: true,
+    loader: true,
+    status_bar: true,
+    locale: 'en-US',
+    col_types: [
+        'string', 'number', 'string',
+        'number', 'string', 'date'
+    ],
+    on_filters_loaded: function(tf){
+        tf.setFilterValue(5, '>95-05-18');
+        tf.filter();
+    }
+};
+
+var tf2 = new TableFilter('demo', tf2Config);
+tf2.init();
+</script>
+
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

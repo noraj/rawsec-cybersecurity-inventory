@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-table.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+    var filtersConfig = {
+        base_path: '../dist/tablefilter/',
+        col_0: 'checklist',
+        col_1: 'select',
+        col_2: 'multiple',
+        col_3: 'select',
+        alternate_rows: true,
+        rows_counter: true,
+        btn_reset: true,
+        loader: true,
+        status_bar: true,
+        mark_active_columns: true,
+        no_results_message: true,
+        responsive: true,
+        custom_options: {
+            cols:[3],
+            texts: [
+                [
+                    'na', '0 - 50', '50 - 500',
+                    '500 - 15 000', '15 000 - 25 000', '25 000 - 100 000',
+                    '100 000 - 1 500 000', 'not na'
+                ]
+            ],
+            values: [
+                [
+                    'na', '>0 && <=50', '>50 && <=500',
+                    '>500 && <=15000', '>15000 && <=25000',
+                    '>25000 && <=100000', '>100000 && <=1500000', '!na'
+                ]
+            ],
+            sorts: [false]
+        },
+        col_widths: [
+            '150px', '100px', '100px',
+            '70px', '70px', '70px',
+            '70px', '60px', '60px'
+        ],
+        extensions:[{ name: 'sort' }]
+    };
+
+    var tf = new TableFilter('demo', filtersConfig);
+    tf.init();
+
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>

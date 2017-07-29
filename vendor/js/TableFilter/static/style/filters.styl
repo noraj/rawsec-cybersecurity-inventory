@@ -1,0 +1,105 @@
+/**
+ * Filters' default style
+ */
+
+@import 'config'
+@import 'mixins/arrow'
+@import 'mixins/box-shadow'
+
+// Filters row style
+.fltrow
+    height                      1em
+    background-color            $filter-row-bg-color
+
+    td
+        border-bottom:          1px solid #CCC !important
+        border-top:             1px solid #f4f4f4
+        border-left             1px solid #CCC
+        border-right            1px solid #f4f4f4
+        padding                 0.2em !important
+        &:last-child
+            border-right        1px solid #CCC
+
+// button appearance
+.btnflt
+    height                      $filter-height
+    font-family                 inherit
+    font-size                   inherit
+    vertical-align              middle
+    margin                      0 2px 0 2px
+    padding                     0 1px 0 1px
+
+// button appearance when displayIcons is true
+.btnflt_icon
+    font-family                 inherit
+    font-size                   inherit
+    width                       $min-width
+    height                      $filter-height
+    cursor                      pointer !important
+    border                      0 !important
+    vertical-align              middle
+    background                  transparent url(themes/btn_filter.png) center center no-repeat !important
+
+// input and select filter type
+.flt
+    font-family                 inherit
+    display                     block
+    color                       $filter-font-color
+    background-color            $filter-bg-color
+    border                      1px inset $filter-border-color
+    margin                      0
+    padding                     0 0 0 0.2em
+    width                       100%
+    height                      $filter-height
+    vertical-align              middle
+    border-radius               2px
+    box-sizing                  border-box
+
+    &:focus
+        border-color            #66AFE9
+        outline                 0 none
+        box-shadow              0 1px 1px rgba(0, 0, 0, 0.075) inset,
+                                0 0 8px rgba(102, 175, 233, 0.6)
+
+// multiple select type filter
+select.flt_multi
+    font-family                 inherit
+    color                       $filter-font-color
+    background-color            $filter-bg-color
+    border                      1px solid $filter-border-color
+    margin                      0
+    padding                     0.2em
+    width                       100%
+    height                      90px
+    vertical-align              middle
+    box-sizing                  border-box
+
+    option
+        padding-top             5px
+        padding-bottom          5px
+
+// tiny input type filter
+.flt_s
+    @extend                     .flt
+    width                       60%
+    box-sizing                  initial
+    display                     initial
+
+// single filter type
+.single_flt
+    @extend                     .flt
+    width                       70%
+    box-sizing                  initial
+    display                     initial
+
+// Pop-up filters elements
+div.popUpFilter
+    arrow(top, 10px white, 2px $th-bg-color)
+    box-shadow(3px 3px 2px #888)
+    margin                      30px auto 0 0
+    position                    absolute
+    display                     none
+    width                       100px
+    background-color            $th-bg-color
+    border                      1px solid $filter-row-bg-color
+    padding                     0

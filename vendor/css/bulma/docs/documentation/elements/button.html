@@ -1,0 +1,598 @@
+---
+layout: documentation
+doc-tab: elements
+doc-subtab: button
+---
+
+{% include subnav-elements.html %}
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">Buttons</h1>
+    <h2 class="subtitle">
+      The classic <strong>button</strong>, in different colors, sizes, and states
+    </h2>
+
+    <hr>
+
+{% capture button_example %}
+<div class="block">
+  <a class="button">Button</a>
+  <a class="button is-white">White</a>
+  <a class="button is-light">Light</a>
+  <a class="button is-dark">Dark</a>
+  <a class="button is-black">Black</a>
+  <a class="button is-link">Link</a>
+</div>
+<div class="block">
+  <a class="button is-primary">Primary</a>
+  <a class="button is-info">Info</a>
+  <a class="button is-success">Success</a>
+  <a class="button is-warning">Warning</a>
+  <a class="button is-danger">Danger</a>
+</div>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <hr>
+
+    <h3 class="title">Sizes</h3>
+
+{% capture button_sizes_example %}
+<a class="button is-small">Small</a>
+<a class="button">Normal</a>
+<a class="button is-medium">Medium</a>
+<a class="button is-large">Large</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_sizes_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_sizes_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <hr>
+
+    <h3 class="title">Styles</h3>
+    <h4 class="subtitle">Outlined</h4>
+{% capture button_outlined_example %}
+<a class="button is-outlined">Outlined</a>
+<a class="button is-primary is-outlined">Outlined</a>
+<a class="button is-info is-outlined">Outlined</a>
+<a class="button is-success is-outlined">Outlined</a>
+<a class="button is-danger is-outlined">Outlined</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_outlined_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_outlined_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Inverted (the text color becomes the background color, and vice-versa)</h4>
+
+{% capture button_inverted_example %}
+<a class="button is-primary is-inverted">Inverted</a>
+<a class="button is-info is-inverted">Inverted</a>
+<a class="button is-success is-inverted">Inverted</a>
+<a class="button is-danger is-inverted">Inverted</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+    <div class="callout is-primary">
+{{button_inverted_example}}
+    </div>
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_inverted_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Invert Outlined (the invert color becomes the text and border colors)</h4>
+
+{% capture button_inverted_outlined_example %}
+<a class="button is-primary is-inverted is-outlined">Invert Outlined</a>
+<a class="button is-info is-inverted is-outlined">Invert Outlined</a>
+<a class="button is-success is-inverted is-outlined">Invert Outlined</a>
+<a class="button is-danger is-inverted is-outlined">Invert Outlined</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+    <div class="callout is-primary">
+{{button_inverted_outlined_example}}
+    </div>
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_inverted_outlined_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <hr>
+
+    <h3 class="title">States</h3>
+    <h4 class="subtitle">Normal</h4>
+
+{% capture button_normal_example %}
+<a class="button">Normal</a>
+<a class="button is-primary">Normal</a>
+<a class="button is-info">Normal</a>
+<a class="button is-success">Normal</a>
+<a class="button is-warning">Normal</a>
+<a class="button is-danger">Normal</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_normal_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_normal_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Hover</h4>
+
+{% capture button_hover_example %}
+<a class="button is-hovered">Hover</a>
+<a class="button is-primary is-hovered">Hover</a>
+<a class="button is-info is-hovered">Hover</a>
+<a class="button is-success is-hovered">Hover</a>
+<a class="button is-warning is-hovered">Hover</a>
+<a class="button is-danger is-hovered">Hover</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_hover_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_hover_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Focus</h4>
+
+{% capture button_focus_example %}
+<a class="button is-focused">Focus</a>
+<a class="button is-primary is-focused">Focus</a>
+<a class="button is-info is-focused">Focus</a>
+<a class="button is-success is-focused">Focus</a>
+<a class="button is-warning is-focused">Focus</a>
+<a class="button is-danger is-focused">Focus</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_focus_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_focus_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Active</h4>
+
+{% capture button_active_example %}
+<a class="button is-active">Active</a>
+<a class="button is-primary is-active">Active</a>
+<a class="button is-info is-active">Active</a>
+<a class="button is-success is-active">Active</a>
+<a class="button is-warning is-active">Active</a>
+<a class="button is-danger is-active">Active</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_active_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_active_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Loading</h4>
+
+{% capture button_loading_example %}
+<a class="button is-loading">Loading</a>
+<a class="button is-primary is-loading">Loading</a>
+<a class="button is-info is-loading">Loading</a>
+<a class="button is-success is-loading">Loading</a>
+<a class="button is-warning is-loading">Loading</a>
+<a class="button is-danger is-loading">Loading</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_loading_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_loading_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 id="static-button" class="subtitle">
+      Static
+    </h4>
+
+{% capture button_static_example %}
+<span class="button is-static">Static</span>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+
+    <div class="content">
+      <p>
+        <span class="tag is-success">New!</span>
+        <span class="tag is-info">0.4.2</span>
+      </p>
+      <p>
+        You can create a <strong>non-interactive button</strong> by using the <code>is-static</code> modifier. This is useful to align a text label with an input, for example when using <a href="{{site.url}}/documentation/elements/form#form-addons">form addons</a>.
+      </p>
+    </div>
+{{button_static_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_static_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">Disabled</h4>
+
+{% capture button_disabled_example %}
+<a class="button" title="Disabled button" disabled>Disabled</a>
+<a class="button is-primary" title="Disabled button" disabled>Disabled</a>
+<a class="button is-info" title="Disabled button" disabled>Disabled</a>
+<a class="button is-success" title="Disabled button" disabled>Disabled</a>
+<a class="button is-warning" title="Disabled button" disabled>Disabled</a>
+<a class="button is-danger" title="Disabled button" disabled>Disabled</a>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+<div class="block">{{button_disabled_example}}</div>
+    <div class="message is-danger">
+      <div class="message-body">
+        <p>The <code>is-disabled</code> CSS class has been deprecated in favor of the <code>disabled</code> HTML attribute. <a href="https://github.com/jgthms/bulma/issues/276">Learn more</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_disabled_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <h4 class="subtitle">With Font Awesome icons</h4>
+
+{% capture button_fa_example %}
+<p class="field">
+  <a class="button">
+    <span class="icon is-small">
+      <i class="fa fa-bold"></i>
+    </span>
+  </a>
+  <a class="button">
+    <span class="icon is-small">
+      <i class="fa fa-italic"></i>
+    </span>
+  </a>
+  <a class="button">
+    <span class="icon is-small">
+      <i class="fa fa-underline"></i>
+    </span>
+  </a>
+</p>
+<p class="field">
+  <a class="button">
+    <span class="icon">
+      <i class="fa fa-github"></i>
+    </span>
+    <span>GitHub</span>
+  </a>
+  <a class="button is-primary">
+    <span class="icon">
+      <i class="fa fa-twitter"></i>
+    </span>
+    <span>Twitter</span>
+  </a>
+  <a class="button is-success">
+    <span class="icon is-small">
+      <i class="fa fa-check"></i>
+    </span>
+    <span>Save</span>
+  </a>
+  <a class="button is-danger is-outlined">
+    <span>Delete</span>
+    <span class="icon is-small">
+      <i class="fa fa-times"></i>
+    </span>
+  </a>
+</p>
+<p class="field">
+  <a class="button is-small">
+    <span class="icon is-small">
+      <i class="fa fa-github"></i>
+    </span>
+    <span>GitHub</span>
+  </a>
+  <a class="button">
+    <span class="icon">
+      <i class="fa fa-github"></i>
+    </span>
+    <span>GitHub</span>
+  </a>
+  <a class="button is-medium">
+    <span class="icon">
+      <i class="fa fa-github"></i>
+    </span>
+    <span>GitHub</span>
+  </a>
+  <a class="button is-large">
+    <span class="icon is-medium">
+      <i class="fa fa-github"></i>
+    </span>
+    <span>GitHub</span>
+  </a>
+</p>
+{% endcapture %}
+<div class="columns">
+  <div class="column">
+{{button_fa_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_fa_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+<div class="columns">
+  <div class="column">
+    <div class="content">
+      <p>
+        <span class="tag is-success">New!</span>
+      </p>
+      <p>
+        If the button only contains an icon, Bulma will make sure the button remains <strong>square</strong>, no matter the size of the button <em>or</em> of the icon.
+      </p>
+    </div>
+{% capture button_only_icon_example %}
+<p class="field">
+  <a class="button is-small">
+    <span class="icon is-small">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+</p>
+<p class="field">
+  <a class="button">
+    <span class="icon is-small">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+  <a class="button">
+  <span class="icon">
+    <i class="fa fa-header"></i>
+  </span>
+  </a>
+</p>
+<p class="field">
+  <a class="button is-medium">
+    <span class="icon is-small">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+  <a class="button is-medium">
+  <span class="icon">
+    <i class="fa fa-header"></i>
+  </span>
+  </a>
+  <a class="button is-medium">
+    <span class="icon is-medium">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+</p>
+<p class="field">
+  <a class="button is-large">
+    <span class="icon is-small">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+  <a class="button is-large">
+  <span class="icon">
+    <i class="fa fa-header"></i>
+  </span>
+  </a>
+  <a class="button is-large">
+    <span class="icon is-medium">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+  <a class="button is-large">
+    <span class="icon is-large">
+      <i class="fa fa-header"></i>
+    </span>
+  </a>
+</p>
+{% endcapture %}
+{{button_only_icon_example}}
+  </div>
+  <div class="column">
+{% highlight html %}
+{{button_only_icon_example}}
+{% endhighlight %}
+  </div>
+</div>
+
+    <hr>
+
+    <h3 class="title">Button group</h3>
+    <div class="content">
+      <p>If you want to <strong>group</strong> buttons together, use the <code>is-grouped</code> modifier on the <code>field</code> container:</p>
+    </div>
+{% capture button_group_example %}
+<div class="field is-grouped">
+  <p class="control">
+    <a class="button is-primary">
+      Save changes
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      Cancel
+    </a>
+  </p>
+  <p class="control">
+    <a class="button is-danger">
+      Delete post
+    </a>
+  </p>
+</div>
+{% endcapture %}
+<div class="example">
+{{button_group_example}}
+</div>
+{% highlight html %}
+{{button_group_example}}
+{% endhighlight %}
+
+    <hr>
+
+    <h3 class="title">Button addons</h3>
+    <div class="content">
+      <p>If you want to use buttons as <strong>addons</strong>, use the <code>has-addons</code> modifier on the <code>field</code> container:</p>
+    </div>
+{% capture button_addons_example %}
+<div class="field has-addons">
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-left"></i>
+      </span>
+      <span>Left</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-center"></i>
+      </span>
+      <span>Center</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-right"></i>
+      </span>
+      <span>Right</span>
+    </a>
+  </p>
+</div>
+{% endcapture %}
+    <div class="example">
+{{button_addons_example}}
+    </div>
+{% highlight html %}
+{{button_addons_example}}
+{% endhighlight %}
+
+    <hr>
+
+    <h3 class="title">Button group with addons</h3>
+    <div class="content">
+      <p>You can group together addons as well:</p>
+    </div>
+{% capture button_group_addons_example %}
+<div class="field has-addons">
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-bold"></i>
+      </span>
+      <span>Bold</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-italic"></i>
+      </span>
+      <span>Italic</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-underline"></i>
+      </span>
+      <span>Underline</span>
+    </a>
+  </p>
+</div>
+
+<div class="field has-addons">
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-left"></i>
+      </span>
+      <span>Left</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-center"></i>
+      </span>
+      <span>Center</span>
+    </a>
+  </p>
+  <p class="control">
+    <a class="button">
+      <span class="icon is-small">
+        <i class="fa fa-align-right"></i>
+      </span>
+      <span>Right</span>
+    </a>
+  </p>
+</div>
+{% endcapture %}
+<div class="example">
+{{button_group_addons_example}}
+</div>
+{% highlight html %}
+{{button_group_addons_example}}
+{% endhighlight %}
+
+  </div>
+</section>

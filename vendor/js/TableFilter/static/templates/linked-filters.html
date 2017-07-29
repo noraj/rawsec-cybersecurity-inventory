@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{NAME} v{VERSION} - Linked filters Demo</title>
+    <!-- @import partials/style.html -->
+</head>
+<body>
+<h1>{NAME} v{VERSION}</h1>
+<h2>Linked filters demo</h2>
+<p>
+    This demo features the linked filters behaviour. In this mode, the drop-down
+    filters are linked, when a column is filtered only the valid values of the
+    other columns are included in their respective filters.
+</p>
+
+<!-- @import partials/pre.html -->
+<!-- @import partials/countries-by-continent.html -->
+
+<!-- @import partials/tablefilter-script.html -->
+<script data-config>
+var filtersConfig = {
+    base_path: '../dist/tablefilter/',
+    linked_filters: true,
+    col_1: 'multiple',
+    col_2: 'checklist',
+    btn_reset: true,
+    clear_filter_text: '< Clear >',
+    alternate_rows: true,
+    rows_counter: true,
+    enable_default_theme: true,
+    extensions:[{
+        name: 'sort',
+        types: [
+            'number', 'string', 'string',
+            'formatted-number', 'none', 'string'
+        ]
+    }]
+};
+
+var tf = new TableFilter('demo', filtersConfig);
+tf.init();
+</script>
+<!-- @import partials/pre-inline-script.html -->
+</body>
+</html>
