@@ -15,3 +15,9 @@ $ gulp
 ```
 
 The build output reside inside the `build/` folder.
+
+For example you can view it with Firefox:
+
+```
+$ firefox build/index.html
+```
