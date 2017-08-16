@@ -8,45 +8,46 @@ block content
                 
                 ul
                     li
-                        a(href='#submitting-changes') Submitting changes
+                        a(href='#submitting') Submitting
                         ul
                             li
                                 a(href='#format-conventions') Format conventions
                     li
                         a(href='#reporting-issues-or-suggesting-enhancements') Reporting issues or suggesting enhancements
 
-                h3.title.is-3#submitting-changes Submitting changes
+                h3.title.is-3#submitting Submitting changes
+                
+                p For development tips see the 
+                    a(href='https://gitlab.com/noraj/rawsec-cybersecurity-list/blob/master/README.md') README 
+                    | file.
 
                 ul
-                    li To add to the list or modify the list: Submit a pull request (PR)
-                    li List items should be sorted alphabetically
+                    li To add to a table or modify some content: Submit a merge request (MR)
                     li Descriptions should be clear, concise, and non-promotional
                     li Respect the format conventions
                     li Write in English only
+                    li Fill the maximum you know about an item but prefer to let a field blank if you don't know
+                    li Don't submit deprecated or abandoned tools
+                    li Website and source must be the official ones, don't put one of those if it's non-existent
+                    li Add the language used to write the tool if you know it
 
                 h4.title.is-4#format-conventions Format conventions
-                
-                p Source:
-                code
-                    pre
-                
+
                 ul
-                    li
-                    li
-                    li
-                    li Don't submit deprecated or abandoned tools
+                    li Templates are written in Pug, see 
+                        a(href="about.html") the about page 
+                        | for the rest
+                    li Respect the number of columns in tables
+                    li Before submitting anything read the source code and do the same
                     li Links name must be either [Website] or [Source], don't remove square braquets, don't forget the first uppercase letter
-                    li Website and source must be the official ones, don't put one of those if it's non-existent
                     li Description begins with a uppercase letter and doesn't end with a dot
-                    li Add the language used to write the tool if you know it
-                
-                p Example:
-                code
-                    pre
-                
+                    li Items should be sorted alphabetically
+                    li Never use spaces, use hyphen for classes or IDs, use underscore for filenames
+                    li For naming conventions read the code, there is too much to say but it's easy to understand
+
                 h3.title.is-3#reporting-issues-or-suggesting-enhancements Reporting issues or suggesting enhancements
                 
-                p Please open an issue if you find anything that could be improved or have suggestions for making the list a more valuable resource. For questions see the 
+                p Please open an issue if you find anything that could be improved or have suggestions for making the website a more valuable resource. For questions see the 
                     a(href='https://github.com/noraj1337/Ultimate-CyberSecurity-List/wiki/F.A.Q.') F.A.Q.
                     | . Thanks!
 
