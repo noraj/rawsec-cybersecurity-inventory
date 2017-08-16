@@ -3,7 +3,29 @@ extend layout/layout.pug
 block content
     section.section
         .container
-            h2.title.is-2 This list aims to help people to find everything related to CyberSecurity.
+            .content
+                p This inventory aims to help people to find everything related to CyberSecurity.
+                h3.title.is-3#why Why?
+                ul
+                    li Search engines sometimes does find nothing, some tools or resources are too unknown or non-referenced
+                    li Curated list are not very exhaustive, up to date or browsable and very topic related
+                    li Some website are referencing tools but additional information is not available or browsable
+                h3.title.is-3#how How?
+                ul
+                    li
+                        span.icon
+                            i.fa.fa-code-fork
+                        | Free & Open source (
+                        a(href='contribute.html') help us
+                        | )
+                    li
+                        span.icon
+                            i.fa.fa-bars
+                        | Content is categorized and table formatted allowing to search, browse, sort and filter
+                    li
+                        span.icon
+                            i.fa.fa-fighter-jet
+                        | Using static and client side technologies resulting in fast browsing
 
 block hero-foot
     .hero-foot
@@ -15,7 +37,7 @@ block hero-foot
                     li
                         a(href='tools.html') Tools
                     li
-                        a(href='ressources.html') Resources
+                        a(href='resources.html') Resources
                     li
                         a(href='ctf_platforms.html') CTF platforms
                     li
