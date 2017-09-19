@@ -1,3 +1,12 @@
+# Rawsec's Cybersecurity Inventory
+
+Name            | Link
+---             | ---
+Website         | [link](https://list.rawsec.ml)
+Git repository  | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list)
+Merge Requests  | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/merge_requests)
+Issues          | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/issues)
+Wiki            | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/wikis/home)
 
 ## Development
 
