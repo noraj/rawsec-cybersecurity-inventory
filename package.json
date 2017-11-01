@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "A list of tools and resources about CyberSecurity",
   "main": "gulpfile.js",
-  "dependencies": {
-    "pug": "^2.0.0-rc.2"
-  },
   "devDependencies": {
+    "pug": "^2.0.0-rc.2",
+    "pug-lint": "^2.5.0",
     "bulma": "^0.4.4",
     "del": "^3.0.0",
     "font-awesome": "^4.7.0",
