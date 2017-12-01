@@ -13,6 +13,7 @@ pids
 
 # Build
 build/
+temp/
 
 # Dependency directories
 node_modules/

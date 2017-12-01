@@ -1,19 +1,45 @@
-var gulp = require('gulp');
-var pug = require('gulp-pug');
-var sass = require('gulp-sass');
-var del = require('del');
+var gulp = require('gulp'),
+    pug = require('gulp-pug'),
+    data = require('gulp-data'),
+    merge = require('gulp-merge-json'),
+    sass = require('gulp-sass'),
+    fs = require('fs'),
+    path = require('path'),
+    del = require('del');
 
 gulp.task('clean', function() {
   // You can use multiple globbing patterns as you would with `gulp.src`
   return del(['build']);
 });
 
-gulp.task('html', ['clean'], function(){
-    return gulp.src('pug/*.pug')
-        .pipe(pug({
-            pretty: true
+gulp.task('pug:data', ['clean'], function() {
+    return gulp.src('data/**/*.json')
+        .pipe(merge({
+            fileName: 'data.json',
+            edit: (json, file) => {
+                // Extract the filename and strip the extension
+                var filename = path.basename(file.path),
+                    primaryKey = filename.replace(path.extname(filename), '');
+
+                // Set the filename as the primary key for our JSON data
+                var data = {};
+                data[primaryKey] = json;
+
+                return data;
+            }
         }))
-        .pipe(gulp.dest('build/'))
+        .pipe(gulp.dest('temp/'));
+});
+
+gulp.task('pug:src', ['clean', 'pug:data'], function() {
+    return gulp.src('pug/**/*.pug')
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync('temp/data.json'))
+        }))
+        .pipe(pug({
+            pretty: true,
+        }))
+        .pipe(gulp.dest('build/'));
 });
 
 gulp.task('bulma', ['clean'], function(){
@@ -56,4 +82,4 @@ gulp.task('font-mfizz', ['clean'], function(){
         .pipe(gulp.dest('build/css/vendor/font-mfizz/'))
 });
 
-gulp.task('default', [ 'html', 'bulma', 'tablefilter', 'jquery', 'js', 'font-awesome', 'font-mfizz' ]);
+gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'font-awesome', 'font-mfizz' ]);

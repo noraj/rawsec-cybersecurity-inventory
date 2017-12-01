@@ -1,3 +1,4 @@
+include ../mixins/tool.pug
 table.table#tools-other
     thead
         tr
@@ -9,40 +10,5 @@ table.table#tools-other
             th Price
             th Online
     tbody
-        tr
-            td inlite
-            td
-                a(href='https://online-barcode-reader.inliteresearch.com/') [Website]
-            td
-            td Scan QR-code, 1D, DataMatrix, Postal, PDF417, and more
-            td
-            td Free
-            td True
-        tr
-            td webqr
-            td
-                a(href='https://webqr.com/index.html') [Website]
-            td
-            td Scan & create QR-code
-            td
-            td Free
-            td True
-        tr
-            td Metasploit
-            td
-                a(href='https://www.metasploit.com/') [Website]
-            td
-                a(href='https://github.com/rapid7/metasploit-framework') [Source]
-            td Tool and framework for pentesting system, web and many more, contains a lot a ready to use exploit, 4 versions: Pro (paid), Express (paid), Community (free with GUI but on request), Framework (free, open source, CLI)
-            td Ruby
-            td Paid
-            td False
-        tr
-            td v0lt
-            td
-            td
-                a(href='https://github.com/P1kachu/v0lt') [Source]
-            td CTF toolkit / framework
-            td Python
-            td Free
-            td False
+        each tool in tools_other.tools
+            +tool(tool)

@@ -1,0 +1,35 @@
+{
+  "tools": [
+    {
+      "name": "inlite",
+      "website": "https://online-barcode-reader.inliteresearch.com/",
+      "description": "Scan QR-code, 1D, DataMatrix, Postal, PDF417, and more",
+      "price": "Free",
+      "online": "True"
+    },
+    {
+      "name": "Metasploit",
+      "website": "https://www.metasploit.com/",
+      "source": "https://github.com/rapid7/metasploit-framework",
+      "description": "Tool and framework for pentesting system, web and many more, contains a lot a ready to use exploit, 4 versions: Pro (paid), Express (paid), Community (free with GUI but on request), Framework (free, open source, CLI)",
+      "language": "Ruby",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "v0lt",
+      "source": "https://github.com/P1kachu/v0lt",
+      "description": "CTF toolkit / framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "webqr",
+      "website": "https://webqr.com/index.html",
+      "description": "Scan & create QR-code",
+      "price": "Free",
+      "online": "True"
+    }
+  ]
+}

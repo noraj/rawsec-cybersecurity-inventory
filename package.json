@@ -4,16 +4,18 @@
   "description": "A list of tools and resources about CyberSecurity",
   "main": "gulpfile.js",
   "devDependencies": {
-    "pug": "^2.0.0-rc.2",
-    "pug-lint": "^2.5.0",
     "bulma": "^0.4.4",
     "del": "^3.0.0",
     "font-awesome": "^4.7.0",
     "font-mfizz": "^2.4.1",
     "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-merge-json": "^1.2.0",
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "jquery": "^3.2.1",
+    "pug": "^2.0.0-rc.2",
+    "pug-lint": "^2.5.0",
     "tablefilter": "^0.5.33"
   },
   "scripts": {
@@ -31,5 +33,6 @@
   "bugs": {
     "url": "https://gitlab.com/noraj/rawsec-cybersecurity-list/issues"
   },
-  "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README"
+  "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README",
+  "dependencies": {}
 }

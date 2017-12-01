@@ -1,0 +1,29 @@
+mixin tool(item)
+    tr(id=item.name)
+        td= item.name
+        if item.website
+            td
+                a(href=item.website) [Website]
+        else
+            td
+        if item.source
+            td
+                a(href=item.source) [Source]
+        else
+            td
+        if item.description
+            td= item.description
+        else
+            td
+        if item.language
+            td= item.language
+        else
+            td
+        if item.price
+            td= item.price
+        else
+            td
+        if item.online
+            td= item.online
+        else
+            td
