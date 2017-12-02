@@ -82,4 +82,9 @@ gulp.task('font-mfizz', ['clean'], function(){
         .pipe(gulp.dest('build/css/vendor/font-mfizz/'))
 });
 
-gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'font-awesome', 'font-mfizz' ]);
+gulp.task('images', ['clean'], function(){
+    return gulp.src('img/**/*.*')
+        .pipe(gulp.dest('build/img/'))
+});
+
+gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'font-awesome', 'font-mfizz', 'images' ]);
