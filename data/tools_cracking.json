@@ -1,0 +1,94 @@
+{
+  "tools": [
+    {
+      "name": "Aircrack-Ng",
+      "website": "http://www.aircrack-ng.org/",
+      "description": "Suite of tools to assess WiFi network security (cracking WEP and WPA PSK)",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Hashcat",
+      "website": "https://hashcat.net/hashcat/",
+      "source": "https://github.com/hashcat/hashcat",
+      "description": "Password cracking tool",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Hydra",
+      "website": "https://www.thc.org/thc-hydra/",
+      "source": "https://github.com/vanhauser-thc/thc-hydra",
+      "description": "Network login cracker",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "John The Ripper",
+      "website": "http://www.openwall.com/john/",
+      "description": "Password cracking tool",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "John the Ripper, Jumbo version",
+      "website": "http://www.openwall.com/john/",
+      "source": "https://github.com/magnumripper/JohnTheRipper",
+      "description": "Password cracking tool, community-enhanced version of John The Ripper",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Medusa",
+      "website": "http://foofus.net/goons/jmk/medusa/medusa.html",
+      "description": "Network login cracker",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Medusa-gui",
+      "source": "https://github.com/Tak31337/medusa-gui",
+      "description": "GUI for Medusa",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Ncrack",
+      "website": "https://nmap.org/ncrack/",
+      "source": "https://github.com/nmap/ncrack",
+      "description": "Network login cracker",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Nozzlr",
+      "source": "https://github.com/intrd/nozzlr",
+      "description": "Bruteforce framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Ophcrack",
+      "website": "http://ophcrack.sourceforge.net/",
+      "source": "https://sourceforge.net/projects/ophcrack/",
+      "description": "Windows password cracker based on rainbow tables",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Patator",
+      "source": "https://github.com/lanjelot/patator",
+      "description": "Multi-protocol bruteforce tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
