@@ -1,0 +1,43 @@
+{
+  "tools": [
+    {
+      "name": "Dcode",
+      "website": "http://www.dcode.fr/tools-list",
+      "description": "Code and decode all kind of checksums, algorithms, codes or ciphers",
+      "price": "Free",
+      "online": "True"
+    },
+    {
+      "name": "FeatherDuster",
+      "source": "https://github.com/nccgroup/featherduster",
+      "description": "Cryptanalysis tool and library",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PkCrack",
+      "website": "https://www.unix-ag.uni-kl.de/%7Econrad/krypto/pkcrack.html",
+      "description": "Tool for breaking PkZip encryption",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "RSATool",
+      "source": "https://github.com/ius/rsatool",
+      "description": "Tool to calculate RSA parameters",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "XORTool",
+      "website": "",
+      "source": "https://github.com/hellman/xortool",
+      "description": "Tool to analyze multi-byte xor cipher",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}

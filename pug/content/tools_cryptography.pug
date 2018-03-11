@@ -1,3 +1,4 @@
+include ../mixins/tool.pug
 table.table#tools-cryptography
     thead
         tr
@@ -9,48 +10,5 @@ table.table#tools-cryptography
             th Price
             th Online
     tbody
-        tr
-            td Dcode
-            td
-                a(href='http://www.dcode.fr/tools-list') [Website]
-            td
-            td Code and decode all kind of checksums, algorithms, codes or ciphers
-            td
-            td Free
-            td True
-        tr
-            td FeatherDuster
-            td
-            td
-                a(href='https://github.com/nccgroup/featherduster') [Source]
-            td Cryptanalysis tool and library
-            td Python
-            td Free
-            td False
-        tr
-            td PkCrack
-            td
-                a(href='https://www.unix-ag.uni-kl.de/%7Econrad/krypto/pkcrack.html') [Website]
-            td
-            td Tool for breaking PkZip encryption
-            td
-            td Free
-            td False
-        tr
-            td RSATool
-            td
-            td
-                a(href='https://github.com/ius/rsatool') [Source]
-            td Tool to calculate RSA parameters
-            td Python
-            td Free
-            td False
-        tr
-            td XORTool
-            td
-            td
-                a(href='https://github.com/hellman/xortool') [Source]
-            td Tool to analyze multi-byte xor cipher
-            td Python
-            td Free
-            td false
+        each tool in tools_cryptography.tools
+            +tool(tool)
