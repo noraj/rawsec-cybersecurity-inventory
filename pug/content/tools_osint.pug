@@ -1,3 +1,4 @@
+include ../mixins/tool.pug
 table.table#tools-osint
     thead
         tr
@@ -9,52 +10,5 @@ table.table#tools-osint
             th Price
             th Online
     tbody
-        tr
-            td Belati
-            td
-            td
-                a(href='https://github.com/aancw/Belati') [Source]
-            td OSINT tool, collect data and document actively or passively
-            td Python
-            td Free
-            td False
-        tr
-            td datasploit
-            td
-                a(href='https://datasploit.github.io/datasploit/') [Website]
-            td
-                a(href='https://github.com/DataSploit/datasploit') [Source]
-            td OSINT framework, find, aggregate and export data
-            td Python
-            td Free
-            td False
-        tr
-            td FOCA
-            td
-                a(href='https://www.elevenpaths.com/labstools/foca/index.html') [Website]
-            td
-                a(href='https://github.com/ElevenPaths/FOCA') [Source]
-            td OSINT framework and metadata analyser
-            td Csharp
-            td Free
-            td False
-        tr
-            td OSINT Framework
-            td
-                a(href='http://osintframework.com/') [Website]
-            td
-                a(href='https://github.com/lockfale/OSINT-Framework') [Source]
-            td A web-based collection of tools and ressources for OSINT
-            td Javascript
-            td Free
-            td True
-        tr
-            td spiderfoot
-            td
-                a(href='http://www.spiderfoot.net/') [Website]
-            td
-                a(href='https://github.com/smicallef/spiderfoot') [Source]
-            td OSINT framework, collect and manage data, scan target
-            td Python
-            td Free
-            td False
+        each tool in tools_osint.tools
+            +tool(tool)

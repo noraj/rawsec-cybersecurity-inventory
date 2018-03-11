@@ -1,0 +1,48 @@
+{
+  "tools": [
+    {
+      "name": "Belati",
+      "source": "https://github.com/aancw/Belati",
+      "description": "OSINT tool, collect data and document actively or passively",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "datasploit",
+      "website": "https://datasploit.github.io/datasploit/",
+      "source": "https://github.com/DataSploit/datasploit",
+      "description": "OSINT framework, find, aggregate and export data",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "FOCA",
+      "website": "https://www.elevenpaths.com/labstools/foca/index.html",
+      "source": "https://github.com/ElevenPaths/FOCA",
+      "description": "OSINT framework and metadata analyser",
+      "language": "Csharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OSINT Framework",
+      "website": "http://osintframework.com/",
+      "source": "https://github.com/lockfale/OSINT-Framework",
+      "description": "A web-based collection of tools and ressources for OSINT",
+      "language": "Javascript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
+      "name": "spiderfoot",
+      "website": "http://www.spiderfoot.net/",
+      "source": "https://github.com/smicallef/spiderfoot",
+      "description": "OSINT framework, collect and manage data, scan target",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
