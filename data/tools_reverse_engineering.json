@@ -1,0 +1,336 @@
+{
+  "tools": [
+    {
+      "name": "AndroBugs Framework",
+      "source": "https://github.com/AndroBugs/AndroBugs_Framework",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "androguard",
+      "source": "https://github.com/androguard/androguard",
+      "description": "Tool for reverse engineering and malware analysis of Android applications",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "angr",
+      "source": "https://github.com/angr/angr",
+      "description": "Platform-agnostic binary analysis framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Apk2Gold",
+      "source": "https://github.com/lxdvs/apk2gold",
+      "description": "Android decompiler (wrapper for apktool, dex2jar, and jd-gui)",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Apktool",
+      "website": "https://ibotpeaches.github.io/Apktool/",
+      "source": "https://github.com/iBotPeaches/Apktool",
+      "description": "Android disassembler and rebuilder",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Barf",
+      "source": "https://github.com/programa-stic/barf-project",
+      "description": "Binary Analysis and Reverse engineering Framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Binary Ninja",
+      "website": "https://binary.ninja/",
+      "description": "Crossplatform binary analysis framework",
+      "language": "Python",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "binutils",
+      "website": "https://www.gnu.org/software/binutils/binutils.html",
+      "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
+      "description": "GNU collection of binary tools",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "binwalk",
+      "source": "https://github.com/devttys0/binwalk",
+      "description": "Analyze, reverse engineer and extract firmware images (and other files, also usefull for Digital Forensics)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "boomerang",
+      "source": "https://github.com/nemerle/boomerang",
+      "description": "x86 binaries to C decompiler",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ctf_import",
+      "website": "http://van.prooyen.com/projects/#ctfimport",
+      "source": "https://github.com/docileninja/ctf_import",
+      "description": "Library to run basic functions from stripped binaries",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "CFF Explorer",
+      "website": "http://www.ntcore.com/exsuite.php",
+      "description": "PE Editor",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "GDB",
+      "website": "https://www.gnu.org/software/gdb/",
+      "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
+      "description": "GNU debugger",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "GEF",
+      "source": "https://github.com/hugsy/gef",
+      "description": "GDB Enhanced Features, multi-architecture GDB plugin",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Hopper",
+      "website": "https://www.hopperapp.com/",
+      "description": "Disassembler, decompiler and debugger",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "IDA Pro",
+      "website": "https://www.hex-rays.com/products/ida/",
+      "description": "Disassembler and debugger",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "jadx",
+      "source": "https://github.com/skylot/jadx",
+      "description": "DEX to Java decompiler",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Java Decompilers",
+      "website": "http://www.javadecompilers.com/",
+      "description": ".JAR and .Class to Java decompiler",
+      "price": "Free",
+      "online": "True"
+    },
+    {
+      "name": "JEB",
+      "website": "https://www.pnfsoftware.com/jeb2/",
+      "description": "Disassembler, decompiler and debugger",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "JSDetox",
+      "website": "http://relentless-coding.org/projects/jsdetox/",
+      "source": "https://github.com/svent/jsdetox",
+      "description": "Javascript deobfustcator",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Krakatau",
+      "source": "https://github.com/Storyyeller/Krakatau",
+      "description": "Java decompiler, assembler, and disassembler",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "MobSF",
+      "website": "",
+      "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "NodeJsScan",
+      "source": "https://github.com/ajinabraham/NodeJsScan",
+      "description": "Static security code scanner for Node.js applications",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OllyDbg",
+      "website": "http://www.ollydbg.de/",
+      "description": "Windows debugger",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PE Insider",
+      "website": "http://cerbero.io/peinsider/",
+      "description": "PE viewer, closed source and windows only",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PEDA",
+      "source": "https://github.com/longld/peda",
+      "description": "Python Exploit Development Assistance, GDB plugin (only python2.7)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Plasma",
+      "source": "https://github.com/plasma-disassembler/plasma",
+      "description": "x86/ARM/MIPS interactive disassembler",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Pwndbg",
+      "source": "https://github.com/pwndbg/pwndbg",
+      "description": "enhance GDB, GDB plugin",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "QARK",
+      "source": "https://github.com/linkedin/qark",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Qira",
+      "website": "http://qira.me/",
+      "source": "https://github.com/BinaryAnalysisPlatform/qira",
+      "description": "Timeless debugger (QIRA = QEMU Interactive Runtime Analyser)",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "RABCDAsm",
+      "website": "http://blog.thecybershadow.net/2010/05/05/announcing-rabcdasm/",
+      "source": "https://github.com/CyberShadow/RABCDAsm",
+      "description": "ActionScript disassembler",
+      "language": "D",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "radare2",
+      "website": "http://www.radare.org/r/",
+      "source": "https://github.com/radare/radare2",
+      "description": "Crossplatform binary analysis framework, disassembler, decompiler and debugger, support collaborative analysis",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "strace",
+      "source": "https://sourceforge.net/projects/strace/",
+      "description": "Debugger for Linux",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "SUPER",
+      "website": "http://superanalyzer.rocks/",
+      "source": "https://github.com/SUPERAndroidAnalyzer/super",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Swftools",
+      "website": "http://www.swftools.org/",
+      "source": "https://github.com/matthiaskramm/swftools",
+      "description": "Collection of utilities to work with SWF files",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Triton",
+      "website": "https://triton.quarkslab.com/",
+      "source": "https://github.com/JonathanSalwan/Triton/",
+      "description": "Dynamic binary analysis framework, automate reverse engineering",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "UglifyJS2",
+      "website": "https://www.npmjs.com/package/uglify-js",
+      "source": "https://github.com/mishoo/UglifyJS2",
+      "description": "JavaScript obfuscator or beautifier toolkit",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "uncompyle",
+      "source": "https://github.com/gstarnberger/uncompyle",
+      "description": "Python 2.7 binaries (.pyc) decompiler",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "uncompyle6",
+      "source": "https://github.com/rocky/python-uncompyle6",
+      "description": "Python 1.5, 2.1 to 2.7, 3.1 to 3.6 binaries (.pyc) decompiler",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "WinDbg",
+      "website": "http://www.windbg.org/",
+      "description": "Windows debugger",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "xxxswf",
+      "source": "https://bitbucket.org/Alexander_Hanel/xxxswf/src",
+      "description": "Small script for carving, scanning, compressing, decompressing and analyzing SWF files",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
