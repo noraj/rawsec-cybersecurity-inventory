@@ -1,0 +1,97 @@
+{
+  "tools": [
+    {
+      "name": "bettercap",
+      "website": "http://www.bettercap.org/",
+      "source": "https://github.com/evilsocket/bettercap",
+      "description": "MITM framework",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Garfield",
+      "source": "https://github.com/torque59/Garfield",
+      "description": "Attack framework for distributed systems",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Masscan",
+      "source": "https://github.com/robertdavidgraham/masscan",
+      "description": "Port scanner for massive networks",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "NetworkMiner",
+      "website": "http://www.netresec.com/?page=NetworkMiner",
+      "description": "Network sniffer/packet capturing tool",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Nipe",
+      "source": "https://github.com/GouveaHeitor/nipe",
+      "description": "Script to make TOR as default gateway",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Nmap",
+      "website": "https://nmap.org/",
+      "source": "https://github.com/nmap/nmap",
+      "description": "Tool for network discovery and security auditing",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "polarbearscan",
+      "website": "http://santarago.org/pbscan.html",
+      "source": "https://github.com/gvb84/pbscan",
+      "description": "Port scanner and banner grabber",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Wireshark",
+      "website": "https://www.wireshark.org/",
+      "source": "https://code.wireshark.org/review/gitweb?p=wireshark.git",
+      "description": "Network protocol analyzer",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "yersinia",
+      "source": "https://github.com/tomac/yersinia",
+      "description": "Framework for layer 2 attacks",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Zenmap",
+      "website": "https://nmap.org/zenmap/",
+      "source": "https://github.com/nmap/nmap/tree/master/zenmap",
+      "description": "GUI for Nmap",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Zmap",
+      "website": "https://zmap.io/",
+      "source": "https://github.com/zmap/zmap",
+      "description": "Collection of tools to scan and study massive networks",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
