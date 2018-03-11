@@ -32,7 +32,6 @@
     },
     {
       "name": "XORTool",
-      "website": "",
       "source": "https://github.com/hellman/xortool",
       "description": "Tool to analyze multi-byte xor cipher",
       "language": "Python",
