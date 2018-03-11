@@ -1,3 +1,4 @@
+include ../mixins/tool.pug
 table.table#tools-digital-forensics
     thead
         tr
@@ -9,98 +10,5 @@ table.table#tools-digital-forensics
             th Price
             th Online
     tbody
-        tr
-            td Cerbero Profiler
-            td
-                a(href='http://cerbero.io/profiler/') [Website]
-            td
-            td File analyzer and inspector
-            td
-            td Paid
-            td False
-        tr
-            td dnscat2
-            td
-            td
-                a(href='https://github.com/iagox86/dnscat2') [Source]
-            td Encrypted command-and-control (C&C) channel over the DNS protocol
-            td Cplusplus
-            td Free
-            td False
-        tr
-            td ExifTool
-            td
-                a(href='http://www.sno.phy.queensu.ca/%7Ephil/exiftool/') [Website]
-            td
-                a(href='https://sourceforge.net/projects/exiftool/') [Source]
-            td Library and CLI tool for reading, writing and editing metadata for a lot of file types
-            td Perl
-            td Free
-            td False
-        tr
-            td extundelete
-            td
-                a(href='http://extundelete.sourceforge.net/') [Website
-            td
-                a(href='https://sourceforge.net/projects/extundelete/') [Source]
-            td Tool to recover deleted files from an ext3 or ext4 partition
-            td
-            td Free
-            td False
-        tr
-            td Fibratus
-            td
-            td
-                a(href='https://github.com/rabbitstack/fibratus') [Source]
-            td Tool for exploration and tracing of the Windows kernel
-            td Python
-            td Free
-            td False
-        tr
-            td Foremost
-            td
-                a(href='http://foremost.sourceforge.net/') [Website]
-            td
-                a(href='https://sourceforge.net/projects/foremost/') [Source]
-            td CLI tool to recover files based on their headers, footers, and internal data structures
-            td
-            td Free
-            td False
-        tr
-            td rekall
-            td
-                a(href='http://www.rekall-forensic.com/') [Website]
-            td
-                a(href='https://github.com/google/rekall') [Source]
-            td Volatile memory extraction utility
-            td Python
-            td Free
-            td False
-        tr
-            td ResourcesExtract
-            td
-                a(href='http://www.nirsoft.net/utils/resources_extract.html') [Website]
-            td
-            td Scans dll/ocx/exe files and extract all resources found, Windows only
-            td
-            td Free
-            td False
-        tr
-            td shellbags
-            td
-            td
-                a(href='https://github.com/williballenthin/shellbags') [Source]
-            td Shellbag parser (Windows Registry Keys)
-            td Python
-            td Free
-            td False
-        tr
-            td volatility
-            td
-                a(href='http://www.volatilityfoundation.org/') [Website]
-            td
-                a(href='https://github.com/volatilityfoundation/volatility') [Source]
-            td Volatile memory extraction utility
-            td Python
-            td Free
-            td False
+        each tool in tools_digital_forensics.tools
+            +tool(tool)

@@ -1,0 +1,85 @@
+{
+  "tools": [
+    {
+      "name": "Cerbero Profiler",
+      "website": "http://cerbero.io/profiler/",
+      "description": "File analyzer and inspector",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "dnscat2",
+      "source": "https://github.com/iagox86/dnscat2",
+      "description": "Encrypted command-and-control (C&C) channel over the DNS protocol, data exfiltration",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ExifTool",
+      "website": "http://www.sno.phy.queensu.ca/%7Ephil/exiftool/",
+      "source": "https://sourceforge.net/projects/exiftool/",
+      "description": "Library and CLI tool for reading, writing and editing metadata for a lot of file types",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "extundelete",
+      "website": "http://extundelete.sourceforge.net/",
+      "source": "https://sourceforge.net/projects/extundelete/",
+      "description": "Tool to recover deleted files from an ext3 or ext4 partition",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Fibratus",
+      "source": "https://github.com/rabbitstack/fibratus",
+      "description": "Tool for exploration and tracing of the Windows kernel",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Foremost",
+      "website": "http://foremost.sourceforge.net/",
+      "source": "https://sourceforge.net/projects/foremost/",
+      "description": "CLI tool to recover files based on their headers, footers, and internal data structures",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "rekall",
+      "website": "http://www.rekall-forensic.com/",
+      "source": "https://github.com/google/rekall",
+      "description": "Volatile memory extraction utility",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ResourcesExtract",
+      "website": "http://www.nirsoft.net/utils/resources_extract.html",
+      "description": "Scans dll/ocx/exe files and extract all resources found, Windows only",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "shellbags",
+      "source": "https://github.com/williballenthin/shellbags",
+      "description": "Shellbag parser (Windows Registry Keys)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "volatility",
+      "website": "http://www.volatilityfoundation.org/",
+      "source": "https://github.com/volatilityfoundation/volatility",
+      "description": "Volatile memory extraction utility",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
