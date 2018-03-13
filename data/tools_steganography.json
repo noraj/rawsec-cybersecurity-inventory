@@ -1,0 +1,109 @@
+{
+  "tools": [
+    {
+      "name": "Audacity",
+      "website": "http://www.audacityteam.org/",
+      "source": "https://sourceforge.net/projects/audacity/",
+      "description": "Tool to edit and analyze audio tracks",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "exif",
+      "source": "https://sourceforge.net/projects/libexif/files/exif/",
+      "description": "Shows EXIF information for JPEG files only",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ExifTool",
+      "website": "http://www.sno.phy.queensu.ca/~phil/exiftool/",
+      "source": "https://sourceforge.net/projects/exiftool/",
+      "description": "Library and CLI tool to read and write meta information (EXIF, GPS, IPTC, XMP, JFIF, …) in files (JPEG, PNG, SVG, MPEG, …)",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Exiv2",
+      "website": "http://www.exiv2.org/index.html",
+      "source": "https://github.com/Exiv2/exiv2",
+      "description": "Library and CLI tool to read and write meta information (Exif, IPTC & XMP metadata and ICC Profile) in images (JPEG, TIFF, PNG, …)",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ImageMagick",
+      "website": "http://www.imagemagick.org/script/index.php",
+      "source": "http://git.imagemagick.org/repos/ImageMagick",
+      "description": "Software suite and library to create, edit, compose, or convert images",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Outguess",
+      "description": "Tool to hide messages in files (website down since 2004)",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PNGtools",
+      "website": "http://www.stillhq.com/pngtools/",
+      "source": "http://www.stillhq.com/svn/trunk/pngtools/",
+      "description": "Suite of tools to work with PNG images",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "SmartDeblur",
+      "source": "https://github.com/Y-Vladimir/SmartDeblur",
+      "description": "To to restore defocused and blurred images (update binary only for Windows, Mac OS binary out of date)",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Sonic Visualiser",
+      "website": "http://www.sonicvisualiser.org/",
+      "source": "https://sourceforge.net/projects/sv1/",
+      "description": "Tool to edit and analyze audio tracks",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Steganabara",
+      "source": "https://github.com/quangntenemy/Steganabara",
+      "description": "Steganography analysis tool",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Steghide",
+      "website": "http://steghide.sourceforge.net/index.php",
+      "source": "https://sourceforge.net/projects/steghide/",
+      "description": "Tool to hide messages in images",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "StegoVeritas",
+      "source": "https://github.com/Owlz/stegoVeritas",
+      "description": "Tool to unhide data in images",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "StegSolve",
+      "description": "GUI tool to analyse images",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
