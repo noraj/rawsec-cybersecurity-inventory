@@ -1,3 +1,4 @@
+include ../mixins/resources_generic.pug
 table.table#resources-knowledge-and-tools
     thead
         tr
@@ -6,27 +7,5 @@ table.table#resources-knowledge-and-tools
             th Description
             th Price
     tbody
-        tr
-            td ctf-tools
-            td
-                a(href='https://github.com/zardus/ctf-tools') [Source]
-            td Setup scripts for security tools
-            td Free
-        tr
-            td Forensics Wiki
-            td
-                a(href='http://forensicswiki.org/wiki/Main_Page') [Website]
-            td Forensics tips and tools
-            td Free
-        tr
-            td MD5 maxmin record
-            td
-                a(href='http://0xf.kr/md5/') [Website]
-            td Collection of various extremes of MD5 hashes
-            td Free
-        tr
-            td HTML5 Security Cheatsheet
-            td
-                a(href='http://html5sec.org/') [Website]
-            td XSS vector making use of HTML5, HTML4, CSS, DOM, UFT7, SVG, JSON, etc ...
-            td Free
+        each resource in resources_knowledge_and_tools.resources
+            +resources_generic(resource)

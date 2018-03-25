@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "name": "ctf-tools",
+      "links": [
+        {
+          "source": "https://github.com/zardus/ctf-tools"
+        }
+      ],
+      "description": "Setup scripts for security tools",
+      "price": "Free"
+    },
+    {
+      "name": "Forensics Wiki",
+      "links": [
+        {
+          "website": "http://forensicswiki.org/wiki/Main_Page"
+        }
+      ],
+      "description": "Forensics tips and tools",
+      "price": "Free"
+    },
+    {
+      "name": "HTML5 Security Cheatsheet",
+      "links": [
+        {
+          "website": "http://html5sec.org/"
+        }
+      ],
+      "description": "XSS vector making use of HTML5, HTML4, CSS, DOM, UFT7, SVG, JSON, etc ...",
+      "price": "Free"
+    },
+    {
+      "name": "MD5 maxmin record",
+      "links": [
+        {
+          "website": "http://0xf.kr/md5/"
+        }
+      ],
+      "description": "Collection of various extremes of MD5 hashes",
+      "price": "Free"
+    }
+  ]
+}
