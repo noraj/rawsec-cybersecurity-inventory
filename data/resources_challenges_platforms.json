@@ -1,0 +1,514 @@
+{
+  "resources": [
+    {
+      "name": "ae27ff",
+      "links": [
+        {
+          "website": "http://ae27ff.meme.tips/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Backdoor",
+      "links": [
+        {
+          "website": "https://backdoor.sdslabs.co/"
+        }
+      ],
+      "description": "Practice area with some past CTF challenges",
+      "price": "Free"
+    },
+    {
+      "name": "CanYouHack.It",
+      "links": [
+        {
+          "website": "http://canyouhack.it/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Challenge Land",
+      "links": [
+        {
+          "website": "http://challengeland.co/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "CTFLearn",
+      "links": [
+        {
+          "website": "https://ctflearn.com/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Electrica",
+      "links": [
+        {
+          "website": "http://www.caesum.com/game"
+        }
+      ],
+      "description": "Programming, cryptography challenges",
+      "price": "Free"
+    },
+    {
+      "name": "EnigmaGroup",
+      "links": [
+        {
+          "website": "http://www.enigmagroup.org/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Exploit Exercises",
+      "links": [
+        {
+          "website": "https://exploit-exercises.com/"
+        }
+      ],
+      "description": "VMs, documentation and challenges",
+      "price": "Free"
+    },
+    {
+      "name": "Gekkó",
+      "links": [
+        {
+          "website": "http://gekko.csokavar.hu/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Graker",
+      "links": [
+        {
+          "website": "http://gracker.org/"
+        }
+      ],
+      "description": "Binary challenges having a slow learning curve, and write-ups for each level (SSH connection)",
+      "price": "Free"
+    },
+    {
+      "name": "Hack This Site",
+      "links": [
+        {
+          "website": "https://www.hackthissite.org/"
+        }
+      ],
+      "description": "Challenge platform and community",
+      "price": "Free"
+    },
+    {
+      "name": "HackBBS",
+      "links": [
+        {
+          "website": "http://hackbbs.org/"
+        }
+      ],
+      "description": "Challenge platform and community",
+      "price": "Free"
+    },
+    {
+      "name": "HackCenter",
+      "links": [
+        {
+          "website": "https://hackcenter.com/"
+        }
+      ],
+      "description": "Private challenge platforms",
+      "price": "Free"
+    },
+    {
+      "name": "Hacker Gateway",
+      "links": [
+        {
+          "website": "https://www.hackergateway.com/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Hacker.org",
+      "links": [
+        {
+          "website": "http://www.hacker.org/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "Hacking Lab",
+      "links": [
+        {
+          "website": "https://www.hacking-lab.com/"
+        }
+      ],
+      "description": "Challenge platform with teachers and solutions",
+      "price": "Free"
+    },
+    {
+      "name": "HackThis!!",
+      "links": [
+        {
+          "website": "https://www.hackthis.co.uk/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "IO",
+      "links": [
+        {
+          "website": "http://io.netgarage.org/"
+        }
+      ],
+      "description": "Binary challenges (SSH connection)",
+      "price": "Free"
+    },
+    {
+      "name": "LOST-Chall",
+      "links": [
+        {
+          "website": "http://www.lost-chall.org/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    },
+    {
+      "name": "",
+      "links": [
+        {
+          "website": ""
+        }
+      ],
+      "description": "",
+      "price": "Free"
+    }
+  ]
+}
