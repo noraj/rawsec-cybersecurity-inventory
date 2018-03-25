@@ -1,0 +1,93 @@
+{
+    "resources": [
+      {
+        "name": "CTF TIME",
+        "links": [
+          {
+            "website": "https://ctftime.org/"
+          }
+        ],
+        "description": "World CTF agenda",
+        "country": "Online",
+        "price": "Free"
+      },
+      {
+        "name": "DEF CON",
+        "links": [
+          {
+            "website": "https://www.defcon.org/"
+          }
+        ],
+        "description": "Security contest: conferences, workshops and CTF",
+        "country": "United States of America",
+        "price": "Paid"
+      },
+      {
+        "name": "FIC",
+        "links": [
+          {
+            "website": "https://www.forum-fic.com/"
+          }
+        ],
+        "description": "Security contest: forum, conferences, workshops and CTF",
+        "country": "France",
+        "price": "Free"
+      },
+      {
+        "name": "GreHack",
+        "links": [
+          {
+            "website": "https://grehack.fr/"
+          }
+        ],
+        "description": "Security contest: conferences, workshops and CTF",
+        "country": "France",
+        "price": "Paid"
+      },
+      {
+        "name": "Hack In Paris",
+        "links": [
+          {
+            "website": "https://hackinparis.com/"
+          }
+        ],
+        "description": "Security conferences",
+        "country": "France",
+        "price": "Paid"
+      },
+      {
+        "name": "Nuit Du Hack",
+        "links": [
+          {
+            "website": "https://nuitduhack.com/"
+          }
+        ],
+        "description": "Security contest: conferences, workshops and CTF",
+        "country": "France",
+        "price": "Paid"
+      },
+      {
+        "name": "SecurityCTF (reddit)",
+        "links": [
+          {
+            "website": "https://www.reddit.com/r/securityCTF/"
+          }
+        ],
+        "description": "Community for security CTF announcements and writeups",
+        "country": "Online",
+        "price": "Free"
+      },
+      {
+        "name": "SSTIC",
+        "links": [
+          {
+            "website": "https://www.sstic.org/"
+          }
+        ],
+        "description": "Security conferences",
+        "country": "France",
+        "price": "Paid"
+      }
+    ]
+  }
+  
