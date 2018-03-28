@@ -1,3 +1,4 @@
+include ../mixins/resources_generic.pug
 table.table#resources-writeups-collections-and-challenges-source
     thead
         tr
@@ -6,21 +7,5 @@ table.table#resources-writeups-collections-and-challenges-source
             th Description
             th Price
     tbody
-        tr
-            td Captf
-            td
-                a(href='http://captf.com/') [Website]
-            td Dumped CTF challenges
-            td Free
-        tr
-            td CTFs write-ups
-            td 
-                a(href='https://github.com/ctfs/') [Source]
-            td Write-ups archive
-            td Free
-        tr
-            td pwntools writeups
-            td
-                a(href='https://github.com/Gallopsled/pwntools-write-ups') [Source]
-            td Write-ups using pwntools archive
-            td Free
+        each resource in resources_writeups_collections_and_challenges_source.resources
+            +resources_generic(resource)

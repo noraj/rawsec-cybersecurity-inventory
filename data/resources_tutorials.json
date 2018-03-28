@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "name": "CTF Field Guide",
+      "links": [
+        {
+          "website": "https://trailofbits.github.io/ctf/"
+        },
+        {
+          "source": "https://github.com/trailofbits/ctf"
+        }
+      ],
+      "description": "CTF guide",
+      "price": "Free"
+    },
+    {
+      "name": "CTF Resources",
+      "links": [
+        {
+          "website": "http://ctfs.github.io/resources/"
+        },
+        {
+          "source": "https://github.com/ctfs/resources"
+        }
+      ],
+      "description": "CTF guide",
+      "price": "Free"
+    },
+    {
+      "name": "ISIS Lab Wiki",
+      "links": [
+        {
+          "website": "https://github.com/isislab/Project-Ideas/wiki"
+        }
+      ],
+      "description": "CTF guide",
+      "price": "Free"
+    }
+  ]
+}

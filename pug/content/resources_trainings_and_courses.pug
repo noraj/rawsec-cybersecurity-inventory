@@ -1,3 +1,4 @@
+include ../mixins/resources_generic.pug
 table.table#resources-trainings-and-courses
     thead
         tr
@@ -6,9 +7,5 @@ table.table#resources-trainings-and-courses
             th Description
             th Price
     tbody
-        tr
-            td Cybrary
-            td
-                a(href='https://www.cybrary.it/') [Website]
-            td Cyber Security Learning, training and certification
-            td Free
+        each resource in resources_trainings_and_courses.resources
+            +resources_generic(resource)

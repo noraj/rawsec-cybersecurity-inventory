@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "Captf",
+      "links": [
+        {
+          "website": "http://captf.com/"
+        }
+      ],
+      "description": "Dumped CTF challenges",
+      "price": "Free"
+    },
+    {
+      "name": "CTFs write-ups",
+      "links": [
+        {
+          "source": "https://github.com/ctfs/"
+        }
+      ],
+      "description": "Write-ups archive",
+      "price": "Free"
+    },
+    {
+      "name": "pwntools writeups",
+      "links": [
+        {
+          "source": "https://github.com/Gallopsled/pwntools-write-ups"
+        }
+      ],
+      "description": "Write-ups using pwntools archive",
+      "price": "Free"
+    }
+  ]
+}

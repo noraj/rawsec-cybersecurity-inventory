@@ -1,3 +1,4 @@
+include ../mixins/resources_generic.pug
 table.table#resources-tutorials
     thead
         tr
@@ -6,23 +7,5 @@ table.table#resources-tutorials
             th Description
             th Price
     tbody
-        tr
-            td CTF Field Guide
-            td
-                a(href='https://trailofbits.github.io/ctf/') [Website]
-                a(href='https://github.com/trailofbits/ctf') [Source]
-            td CTF guide
-            td Free
-        tr
-            td CTF Resources
-            td
-                a(href='http://ctfs.github.io/resources/') [Website]
-                a(href='https://github.com/ctfs/resources') [Source]
-            td CTF guide
-            td Free
-        tr
-            td ISIS Lab Wiki
-            td
-                a(href='https://github.com/isislab/Project-Ideas/wiki') [Website]
-            td CTF guide
-            td Free
+        each resource in resources_tutorials.resources
+            +resources_generic(resource)
