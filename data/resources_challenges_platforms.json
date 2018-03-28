@@ -191,323 +191,326 @@
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Mod-X",
       "links": [
         {
-          "website": ""
+          "website": "http://www.mod-x.co.uk/"
         }
       ],
-      "description": "",
+      "description": "Challenge platforms through a fictional game",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Net-Force",
       "links": [
         {
-          "website": ""
+          "website": "http://www.net-force.nl/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "NewbieContest",
       "links": [
         {
-          "website": ""
+          "website": "http://www.newbiecontest.org/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Over The Wire",
       "links": [
         {
-          "website": ""
+          "website": "http://overthewire.org/wargames/"
+        },
+        {
+          "source": "https://github.com/OverTheWireOrg/OverTheWire-website"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Pwnable.kr",
       "links": [
         {
-          "website": ""
+          "website": "http://pwnable.kr/"
         }
       ],
-      "description": "",
+      "description": "Pwn challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "pwnable.tw",
       "links": [
         {
-          "website": ""
+          "website": "https://pwnable.tw/"
         }
       ],
-      "description": "",
+      "description": "Pwn challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "PwnerRank",
       "links": [
         {
-          "website": ""
+          "website": "https://www.pwnerrank.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Rankk",
       "links": [
         {
-          "website": ""
+          "website": "http://www.rankk.org/"
         }
       ],
-      "description": "",
+      "description": "Programming, cryptography challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "RedTigers Hackit",
       "links": [
         {
-          "website": ""
+          "website": "https://redtiger.labs.overthewire.org/"
         }
       ],
-      "description": "",
+      "description": "PHP / SQL challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Reversing.Kr",
       "links": [
         {
-          "website": ""
+          "website": "http://reversing.kr/"
         }
       ],
-      "description": "",
+      "description": "Cracking and Reverse Code Engineering challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Revolution Elite",
       "links": [
         {
-          "website": ""
+          "website": "https://sabrefilms.co.uk/revolutionelite"
         }
       ],
-      "description": "",
+      "description": "Math and programming challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Ringzer0Team",
       "links": [
         {
-          "website": ""
+          "website": "https://ringzer0team.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Root-me",
       "links": [
         {
-          "website": ""
+          "website": "https://www.root-me.org"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "RoseCode",
       "links": [
         {
-          "website": ""
+          "website": "http://www.javaist.com/rosecode"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Security Traps",
       "links": [
         {
-          "website": ""
+          "website": "http://www.securitytraps.pl/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "SmashTheStack",
       "links": [
         {
-          "website": ""
+          "website": "http://smashthestack.org/"
         }
       ],
-      "description": "",
+      "description": "Mostly binary challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Solve Me",
       "links": [
         {
-          "website": ""
+          "website": "http://solveme.kr/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "SPOJ",
       "links": [
         {
-          "website": ""
+          "website": "http://www.spoj.com/"
         }
       ],
-      "description": "",
+      "description": "Programming challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Stereotyped Challenges",
       "links": [
         {
-          "website": ""
+          "website": "https://chall.stypr.com/"
         }
       ],
-      "description": "",
+      "description": "Web challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Tasteless",
       "links": [
         {
-          "website": ""
+          "website": "http://chall.tasteless.eu/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "TheBlackSheep",
       "links": [
         {
-          "website": ""
+          "website": "http://www.bright-shadows.net/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "ThisisLegal.com",
       "links": [
         {
-          "website": ""
+          "website": "http://www.thisislegal.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "TryThis0ne",
       "links": [
         {
-          "website": ""
+          "website": "http://www.trythis0ne.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Valhalla",
       "links": [
         {
-          "website": ""
+          "website": "https://halls-of-valhalla.org/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform and community",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "VulnHub",
       "links": [
         {
-          "website": ""
+          "website": "https://www.vulnhub.com/"
         }
       ],
-      "description": "",
+      "description": "VM-based challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "WebHacking",
       "links": [
         {
-          "website": ""
+          "website": "http://webhacking.kr/"
         }
       ],
-      "description": "",
+      "description": "Web challenges",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "W3Challs",
       "links": [
         {
-          "website": ""
+          "website": "https://w3challs.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "WeChall",
       "links": [
         {
-          "website": ""
+          "website": "https://www.wechall.net/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "wixxerd",
       "links": [
         {
-          "website": ""
+          "website": "http://www.wixxerd.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "yoire",
       "links": [
         {
-          "website": ""
+          "website": "http://yoire.com"
         }
       ],
-      "description": "",
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "Zenk-security",
       "links": [
         {
-          "website": ""
+          "website": "https://www.zenk-security.com/"
         }
       ],
-      "description": "",
+      "description": "Challenge platform and community",
       "price": "Free"
     },
     {
-      "name": "",
+      "name": "µContest",
       "links": [
         {
-          "website": ""
+          "website": "http://www.microcontest.com/"
         }
       ],
-      "description": "",
+      "description": "Programming challenges",
       "price": "Free"
     }
   ]
