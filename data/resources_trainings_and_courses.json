@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "name": "Cybrary",
+      "links": [
+        {
+          "website": "https://www.cybrary.it/"
+        }
+      ],
+      "description": "Cyber Security Learning, training and certification",
+      "price": "Free"
+    }
+  ]
+}
