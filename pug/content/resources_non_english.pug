@@ -1,3 +1,4 @@
+include ../mixins/resources_non_english.pug
 table.table#resources-non-english
     thead
         tr
@@ -7,87 +8,5 @@ table.table#resources-non-english
             th Description
             th Price
     tbody
-        tr
-            td Bamboofox
-            td Chinese
-            td
-                a(href='https://bamboofox.torchpad.com/') [Website]
-            td CTF guide
-            td Free
-        tr
-            td ctfs.me
-            td Indonesian
-            td
-                a(href='https://ctfs.me/') [Website]
-            td Challenges platform, challenges are in english
-            td Free
-        tr
-            td elhacker.net
-            td Spanish
-            td
-                a(href='http://warzone.elhacker.net/') [Website]
-            td Challenges platform
-            td Free
-        tr
-            td Hacking-Challenges
-            td German
-            td
-                a(href='http://www.hacking-challenges.de/') [Website]
-            td Challenges platform
-            td Free
-        tr
-            td Happy-Security
-            td German
-            td
-                a(href='http://www.happy-security.de/') [Website]
-            td Challenges platform
-            td Free
-        tr
-            td MIPT CTF
-            td Russian
-            td
-                a(href='https://github.com/xairy/mipt-ctf') [Source]
-            td CTF guide
-            td Free
-        tr
-            td NOE
-            td Korean
-            td
-                a(href='http://noe.systems/') [Website]
-            td Challenge platform
-            td Free
-        tr
-            td SuNiNaTaS
-            td Korean
-            td
-                a(href='http://suninatas.com/') [Website]
-            td Challenge platform
-            td Free
-        tr
-            td TDHack
-            td Polish
-            td
-                a(href='http://www.tdhack.com/') [Website]
-            td Challenge platform
-            td Free
-        tr
-            td World of Wargame
-            td Spanish
-            td
-                a(href='https://wow.sinfocol.org/') [Website]
-            td Challenge platform
-            td Free
-        tr
-            td XCTF Agenda
-            td Chinese
-            td
-                a(href='https://www.xctf.org.cn/ctfs/all/') [Website]
-            td World CTF agenda
-            td Free
-        tr
-            td Yashira
-            td Spanish
-            td
-                a(href='http://www.yashira.org/') [Website]
-            td Challenge platform
-            td Free
+        each resource in resources_non_english.resources
+            +resources_non_english(resource)
