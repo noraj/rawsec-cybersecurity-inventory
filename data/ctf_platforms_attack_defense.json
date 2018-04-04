@@ -1,0 +1,19 @@
+{
+  "ctf_platforms": [
+    {
+      "name": "iCTF Framework",
+      "website": "https://ictf.cs.ucsb.edu/",
+      "source": "https://github.com/ucsb-seclab/ictf-framework",
+      "description": "Attack-defence CTF framework",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "tin_foil_hat",
+      "source": "https://github.com/jollheef/tin_foil_hat",
+      "description": "Attack-defence CTF platform",
+      "language": "Go",
+      "price": "Free"
+    }
+  ]
+}

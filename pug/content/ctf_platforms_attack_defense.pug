@@ -1,3 +1,4 @@
+include ../mixins/ctf_platform.pug
 table.table#ctf-platforms-attack-defense
     thead
         tr
@@ -8,20 +9,5 @@ table.table#ctf-platforms-attack-defense
             th Programming language
             th Price
     tbody
-        tr
-            td iCTF Framework
-            td
-                a(href='https://ictf.cs.ucsb.edu/') [Website]
-            td
-                a(href='https://github.com/ucsb-seclab/ictf-framework') [Source]
-            td CTF framework
-            td Python
-            td Free
-        tr
-            td tin_foil_hat
-            td
-            td
-                a(href='https://github.com/jollheef/tin_foil_hat') [Source]
-            td CTF platform
-            td Go
-            td Free
+        each platform in ctf_platforms_attack_defense.ctf_platforms
+            +ctf_platform(platform)
