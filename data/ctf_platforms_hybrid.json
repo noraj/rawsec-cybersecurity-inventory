@@ -1,0 +1,12 @@
+{
+  "ctf_platforms": [
+    {
+      "name": "HBCTF",
+      "website": "http://www.hackbama.com/ctf/",
+      "source": "https://github.com/osteth/HBCTF",
+      "description": "Hybrid CTF platform",
+      "language": "Python",
+      "price": "Free"
+    }
+  ]
+}

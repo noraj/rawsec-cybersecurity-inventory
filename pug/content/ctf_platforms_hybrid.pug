@@ -1,3 +1,4 @@
+include ../mixins/ctf_platform.pug
 table.table#ctf-platforms-hybrid
     thead
         tr
@@ -8,12 +9,5 @@ table.table#ctf-platforms-hybrid
             th Programming language
             th Price
     tbody
-        tr
-            td HBCTF
-            td
-                a(href='http://www.hackbama.com/ctf/') [Website]
-            td
-                a(href='https://github.com/osteth/HBCTF') [Source]
-            td Hybrid CTF platform
-            td Python
-            td Free
+        each platform in ctf_platforms_hybrid.ctf_platforms
+            +ctf_platform(platform)
