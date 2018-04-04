@@ -35,6 +35,16 @@
       ],
       "description": "CTF guide",
       "price": "Free"
+    },
+    {
+      "name": "NIZKCTF tutorial",
+      "links": [
+        {
+          "source": "https://github.com/pwn2winctf/nizkctf-tutorial"
+        }
+      ],
+      "description": "Tutorial to set up NIZKCTF",
+      "price": "Free"
     }
   ]
 }
