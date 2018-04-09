@@ -1,0 +1,28 @@
+{
+  "operating_systems": [
+    {
+      "os": "Blackbuntu",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "https://sourceforge.net/projects/blackbuntu/"
+    },
+    {
+      "os": "GnackTrack",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "https://www.phillips321.co.uk/gnacktrack/"
+    },
+    {
+      "os": "Live Hacking",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "http://www.livehacking.com/live-hacking-cd/"
+    },
+    {
+      "os": "STD",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://s-t-d.org/"
+    }
+  ]
+}
