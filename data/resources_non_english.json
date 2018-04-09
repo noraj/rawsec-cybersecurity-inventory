@@ -67,6 +67,17 @@
       "price": "Free"
     },
     {
+      "name": "NewbieContest",
+      "language": "French",
+      "links": [
+        {
+          "website": "http://www.newbiecontest.org/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "NOE",
       "language": "Korean",
       "links": [

@@ -211,16 +211,6 @@
       "price": "Free"
     },
     {
-      "name": "NewbieContest",
-      "links": [
-        {
-          "website": "http://www.newbiecontest.org/"
-        }
-      ],
-      "description": "Challenge platform",
-      "price": "Free"
-    },
-    {
       "name": "Over The Wire",
       "links": [
         {
