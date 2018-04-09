@@ -9,5 +9,5 @@ jQuery.extend(filtersConfig, {
         'string',
     ],
 });
-var tf = new TableFilter(document.querySelector('#operating-systems-project-transfered'), filtersConfig);
+var tf = new TableFilter(document.querySelector('#operating-systems-project-transferred'), filtersConfig);
 tf.init();

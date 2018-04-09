@@ -1,0 +1,190 @@
+{
+  "operating_systems": [
+    {
+      "os": "Alpine Linux",
+      "base": "BusyBox",
+      "description": "minimalist hardened OS, used by default for docker containers",
+      "link": "http://www.alpinelinux.org/"
+    },
+    {
+      "os": "AndroidTamer",
+      "base": "Debian",
+      "description": "android malware analysis, penetration testing and reverse engineering",
+      "link": "https://androidtamer.com/"
+    },
+    {
+      "os": "ArchStrike",
+      "base": "ArchLinux",
+      "description": "penetration testing and security lab",
+      "link": "https://archstrike.org/"
+    },
+    {
+      "os": "BackBox",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "https://backbox.org/"
+    },
+    {
+      "os": "BlackArch Linux",
+      "base": "ArchLinux",
+      "description": "penetration testing and security lab",
+      "link": "https://blackarch.org/"
+    },
+    {
+      "os": "Bugtraq-II Blackwidow",
+      "base": "Ubuntu / Debian",
+      "description": "penetration testing and security lab",
+      "link": "http://www.bugtraq-team.com/project-blackwidow.html"
+    },
+    {
+      "os": "CAINE",
+      "base": "Ubuntu",
+      "description": "digital forensics",
+      "link": "http://www.caine-live.net/"
+    },
+    {
+      "os": "Cyborg Essentials",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "http://cyborg.ztrela.com/cyborg-essentials/"
+    },
+    {
+      "os": "Cyborg Hawk Linux",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "http://cyborg.ztrela.com/cyborg-hawk/"
+    },
+    {
+      "os": "DEFT",
+      "base": "Ubuntu",
+      "description": "digital forensics",
+      "link": "http://www.deftlinux.net/"
+    },
+    {
+      "os": "DracOS",
+      "base": "Linux From Scratch",
+      "description": "penetration testing and security lab",
+      "link": "https://dracos-linux.org/"
+    },
+    {
+      "os": "Fedora Security Lab",
+      "base": "Fedora",
+      "description": "penetration testing and security lab",
+      "link": "https://labs.fedoraproject.org/security/"
+    },
+    {
+      "os": "Kali Linux",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://www.kali.org/"
+    },
+    {
+      "os": "Knoppix",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "http://knoppix.net/"
+    },
+    {
+      "os": "Linux Kodachi",
+      "base": "Debian",
+      "description": "privacy and anonymity",
+      "link": "https://www.digi77.com/linux-kodachi/"
+    },
+    {
+      "os": "Matriux",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://sourceforge.net/projects/matriux/"
+    },
+    {
+      "os": "NodeZero",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "https://sourceforge.net/projects/nodezero/"
+    },
+    {
+      "os": "NST",
+      "base": "Fedora",
+      "description": "network security monitoring and analysis",
+      "link": "https://sourceforge.net/projects/nst/"
+    },
+    {
+      "os": "Parrot Security OS",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://www.parrotsec.org/"
+    },
+    {
+      "os": "Pentoo",
+      "base": "Gentoo",
+      "description": "penetration testing and security lab",
+      "link": "http://www.pentoo.ch/"
+    },
+    {
+      "os": "Qubes OS",
+      "base": "Fedora",
+      "description": "security by compartmentalization (VM)",
+      "link": "https://www.qubes-os.org/"
+    },
+    {
+      "os": "REMnux",
+      "base": "Debian",
+      "description": "malware analysis and reverse-engineering",
+      "link": "https://remnux.org/"
+    },
+    {
+      "os": "Security Onion",
+      "base": "Ubuntu",
+      "description": "network security monitoring and analysis",
+      "link": "https://securityonion.net/"
+    },
+    {
+      "os": "SIFT",
+      "base": "Ubuntu",
+      "description": "digital forensics (VMware appliance)",
+      "link": "https://digital-forensics.sans.org/community/downloads"
+    },
+    {
+      "os": "Subgraph OS",
+      "base": "Debian",
+      "description": "security by compartmentalization (container)",
+      "link": "https://subgraph.com/sgos/index.en.html"
+    },
+    {
+      "os": "Tails",
+      "base": "Debian",
+      "description": "privacy and anonymity",
+      "link": "https://tails.boum.org/"
+    },
+    {
+      "os": "TENS",
+      "base": "Thinstation",
+      "description": "privacy and anonymity",
+      "link": "https://www.spi.dod.mil/lipose.htm"
+    },
+    {
+      "os": "URIX OS",
+      "base": "openSUSE",
+      "description": "penetration testing and security lab",
+      "link": "http://urix.us/"
+    },
+    {
+      "os": "WEAKERTHAN Linux",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "http://www.weaknetlabs.com"
+    },
+    {
+      "os": "Whonix",
+      "base": "Debian",
+      "description": "privacy and anonymity",
+      "link": "https://www.whonix.org/"
+    },
+    {
+      "os": "Wifislax",
+      "base": "Slackware",
+      "description": "penetration testing and security lab",
+      "link": "http://www.wifislax.com/"
+    }
+  ]
+}
