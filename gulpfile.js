@@ -67,17 +67,17 @@ gulp.task('js', ['clean'], function(){
         .pipe(gulp.dest('build/js/'))
 });
 
-gulp.task('font-awesome', ['clean'], function(){
-    return gulp.src(['node_modules/font-awesome/css/*',
-    'node_modules/font-awesome/fonts/*'],
-    { base: 'node_modules/font-awesome/'}
+gulp.task('fontawesome', ['clean'], function(){
+    return gulp.src(['node_modules/@fortawesome/fontawesome-free-webfonts/css/*',
+    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/*'],
+    { base: 'node_modules/@fortawesome/fontawesome-free-webfonts/'}
     )
-        .pipe(gulp.dest('build/css/vendor/font-awesome/'))
+        .pipe(gulp.dest('build/css/vendor/fontawesome/'))
 });
 
 gulp.task('font-mfizz', ['clean'], function(){
     return gulp.src(['node_modules/font-mfizz/dist/*',
-    '!node_modules/font-mfizz/font/preview.html',
+    '!node_modules/font-mfizz/dist/preview.html',
     ])
         .pipe(gulp.dest('build/css/vendor/font-mfizz/'))
 });
@@ -87,4 +87,4 @@ gulp.task('images', ['clean'], function(){
         .pipe(gulp.dest('build/img/'))
 });
 
-gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'font-awesome', 'font-mfizz', 'images' ]);
+gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);

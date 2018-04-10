@@ -1,20 +1,21 @@
 .hero-head
-    header.nav
+    nav(role='navigation' aria-label='main navigation').navbar
         .container
-            .nav-left
-                a.nav-item
+            .navbar-brand
+                a(href='http://list.rawsec.ml').navbar-item
                     img(src='https://rawsec.ml/logo5_50x40.png', alt='Rawsec logo')
-            span.nav-toggle
-                span
-                span
-                span
-            .nav-right.nav-menu
-                a(href='index.html').nav-item Home
-                a(href='contribute.html').nav-item Contribute
-                a(href='about.html').nav-item About
-                a(href='https://rawsec.ml').nav-item Rawsec
-                span.nav-item
-                    a(href='https://gitlab.com/noraj/rawsec-cybersecurity-list').button.is-dark.is-inverted
-                        span.icon
-                            i.fa.fa-gitlab
-                        span Download
+            a(role='button' aria-label='menu' aria-expanded='false').navbar-burger
+                span(aria-hidden='true')
+                span(aria-hidden='true')
+                span(aria-hidden='true')
+            .navbar-menu
+                .navbar-end
+                    a(href='index.html').navbar-item Home
+                    a(href='contribute.html').navbar-item Contribute
+                    a(href='about.html').navbar-item About
+                    a(href='https://rawsec.ml').navbar-item Rawsec
+                    div.navbar-item
+                        a(href='https://gitlab.com/noraj/rawsec-cybersecurity-list').button.is-dark.is-inverted
+                            span.icon
+                                i.fab.fa-gitlab
+                            span Download
