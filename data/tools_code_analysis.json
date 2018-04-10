@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "StaCoAn",
+      "source": "https://github.com/vincentcox/StaCoAn",
+      "description": "Mobile applications static code analysis tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
