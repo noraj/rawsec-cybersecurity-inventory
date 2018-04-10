@@ -133,6 +133,12 @@
       "link": "https://remnux.org/"
     },
     {
+      "os": "Santoku Linux",
+      "base": "Lubuntu",
+      "description": "mobile malware analysis, forensics and reverse engineering",
+      "link": "https://santoku-linux.com/"
+    },
+    {
       "os": "Security Onion",
       "base": "Ubuntu",
       "description": "network security monitoring and analysis",
