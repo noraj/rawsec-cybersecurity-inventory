@@ -101,6 +101,16 @@
       "price": "Free"
     },
     {
+      "name": "Hack The Box",
+      "links": [
+        {
+          "website": "https://www.hackthebox.eu/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "Hack This Site",
       "links": [
         {
