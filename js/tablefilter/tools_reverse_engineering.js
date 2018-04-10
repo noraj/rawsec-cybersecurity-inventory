@@ -21,5 +21,5 @@ jQuery.extend(filtersConfig, {
     enable_empty_option: true,
     enable_non_empty_option: true,
 });
-var tf = new TableFilter(document.querySelector('#tools-reverse-enngineering'), filtersConfig);
+var tf = new TableFilter(document.querySelector('#tools-reverse-engineering'), filtersConfig);
 tf.init();
