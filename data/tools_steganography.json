@@ -104,6 +104,14 @@
       "language": "Java",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "zsteg",
+      "source": "https://github.com/zed-0xff/zsteg",
+      "description": "Tool to detect hidden data in PNG and BMP",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
