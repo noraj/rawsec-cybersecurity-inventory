@@ -99,6 +99,15 @@
       "online": "False"
     },
     {
+      "name": "Droidefense",
+      "website": "http://droidefense.com/",
+      "source": "https://github.com/droidefense/engine",
+      "description": "Android apps/malware analysis/reversing tool",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GDB",
       "website": "https://www.gnu.org/software/gdb/",
       "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
