@@ -484,6 +484,16 @@
       "price": "Free"
     },
     {
+      "name": "WTHack",
+      "links": [
+        {
+          "website": "https://www.onlinectf.com/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "yoire",
       "links": [
         {

@@ -27,6 +27,14 @@
       "online": "False"
     },
     {
+      "name": "ODIN",
+      "source": "https://github.com/chrismaddalena/ODIN",
+      "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OSINT Framework",
       "website": "http://osintframework.com/",
       "source": "https://github.com/lockfale/OSINT-Framework",
@@ -34,6 +42,23 @@
       "language": "Javascript",
       "price": "Free",
       "online": "True"
+    },
+    {
+      "name": "Sandmap",
+      "website": "https://github.com/trimstray/sandmap/wiki",
+      "source": "https://github.com/trimstray/sandmap",
+      "description": "Network and system reconnaissance scanner using Nmap",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Sn1per",
+      "source": "https://github.com/1N3/Sn1per",
+      "description": "Automated reconnaissance scanner",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "spiderfoot",
