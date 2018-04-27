@@ -1,3 +1,5 @@
+[![Discord](https://img.shields.io/discord/437247125508587540.svg?style=flat-square)](https://discord.gg/Wspwv2h)
+
 # Rawsec's Cybersecurity Inventory
 
 Name            | Link
@@ -7,6 +9,7 @@ Git repository  | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list)
 Merge Requests  | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/merge_requests)
 Issues          | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/issues)
 Wiki            | [link](https://gitlab.com/noraj/rawsec-cybersecurity-list/wikis/home)
+Chat            | [link](https://discord.gg/Wspwv2h)
 
 ## Development
 
