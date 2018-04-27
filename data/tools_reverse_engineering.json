@@ -108,6 +108,15 @@
       "online": "False"
     },
     {
+      "name": "Frida",
+      "website": "https://www.frida.re/",
+      "source": "https://github.com/frida/frida",
+      "description": "Dynamic code instrumentation toolkit",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GDB",
       "website": "https://www.gnu.org/software/gdb/",
       "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
