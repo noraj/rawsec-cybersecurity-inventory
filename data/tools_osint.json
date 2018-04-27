@@ -27,6 +27,14 @@
       "online": "False"
     },
     {
+      "name": "gOSINT",
+      "source": "https://github.com/Nhoya/gOSINT",
+      "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODIN",
       "source": "https://github.com/chrismaddalena/ODIN",
       "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
