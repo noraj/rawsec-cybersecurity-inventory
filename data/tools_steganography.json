@@ -93,7 +93,7 @@
     {
       "name": "StegoVeritas",
       "source": "https://github.com/Owlz/stegoVeritas",
-      "description": "Tool to unhide data in images",
+      "description": "Automatic tool to bruteforce LSB, transform image, extract metadata or trailing data",
       "language": "Python",
       "price": "Free",
       "online": "False"
