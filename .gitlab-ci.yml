@@ -1,23 +1,49 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:6
 
 stages:
   - test
   - deploy
 
-# This folder is cached between builds
-# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
-cache:
-  paths:
-  - node_modules/
-
 before_script:
   - npm install gulp-cli -g
   - npm install
 
-test:
+test:6:
   stage: test
+  image: node:6
+  script:
+    - gulp
+  except:
+    - master
+
+test:7:
+  stage: test
+  image: node:7
+  script:
+    - gulp
+  except:
+    - master
+
+test:8:
+  stage: test
+  image: node:8
+  script:
+    - gulp
+  except:
+    - master
+
+test:9:
+  stage: test
+  image: node:9
+  script:
+    - gulp
+  except:
+    - master
+
+test:10:
+  stage: test
+  image: node:10
   script:
     - gulp
   except:
@@ -25,6 +51,7 @@ test:
 
 pages:
   stage: deploy
+  image: node:8
   script:
     - gulp
     - mkdir public
@@ -34,4 +61,3 @@ pages:
       - public
   only:
     - master
-
