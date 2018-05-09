@@ -9,14 +9,6 @@ before_script:
   - npm install gulp-cli -g
   - npm install
 
-test:6:
-  stage: test
-  image: node:6
-  script:
-    - gulp
-  except:
-    - master
-
 test:7:
   stage: test
   image: node:7
