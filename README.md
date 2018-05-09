@@ -1,4 +1,5 @@
 [![Discord](https://img.shields.io/discord/437247125508587540.svg?style=flat-square)](https://discord.gg/Wspwv2h)
+[![pipeline status](https://gitlab.com/noraj/rawsec-cybersecurity-list/badges/master/pipeline.svg)](https://gitlab.com/noraj/rawsec-cybersecurity-list/commits/master)
 
 # Rawsec's Cybersecurity Inventory
 
