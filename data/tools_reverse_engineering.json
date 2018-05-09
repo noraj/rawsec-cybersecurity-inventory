@@ -1,14 +1,6 @@
 {
   "tools": [
     {
-      "name": "AndroBugs Framework",
-      "source": "https://github.com/AndroBugs/AndroBugs_Framework",
-      "description": "Android APK vulnerability analyzer",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "androguard",
       "source": "https://github.com/androguard/androguard",
       "description": "Tool for reverse engineering and malware analysis of Android applications",
@@ -187,23 +179,6 @@
       "online": "False"
     },
     {
-      "name": "MobSF",
-      "website": "",
-      "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
-      "description": "Android APK vulnerability analyzer",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "NodeJsScan",
-      "source": "https://github.com/ajinabraham/NodeJsScan",
-      "description": "Static security code scanner for Node.js applications",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "OllyDbg",
       "website": "http://www.ollydbg.de/",
       "description": "Windows debugger",
@@ -214,14 +189,6 @@
       "name": "PE Insider",
       "website": "http://cerbero.io/peinsider/",
       "description": "PE viewer, closed source and windows only",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "PEDA",
-      "source": "https://github.com/longld/peda",
-      "description": "Python Exploit Development Assistance, GDB plugin (only python2.7)",
-      "language": "Python",
       "price": "Free",
       "online": "False"
     },
@@ -237,14 +204,6 @@
       "name": "Pwndbg",
       "source": "https://github.com/pwndbg/pwndbg",
       "description": "enhance GDB, GDB plugin",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "QARK",
-      "source": "https://github.com/linkedin/qark",
-      "description": "Android APK vulnerability analyzer",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -280,15 +239,6 @@
       "name": "strace",
       "source": "https://sourceforge.net/projects/strace/",
       "description": "Debugger for Linux",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "SUPER",
-      "website": "http://superanalyzer.rocks/",
-      "source": "https://github.com/SUPERAndroidAnalyzer/super",
-      "description": "Android APK vulnerability analyzer",
-      "language": "Rust",
       "price": "Free",
       "online": "False"
     },
