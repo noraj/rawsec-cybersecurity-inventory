@@ -1,10 +1,52 @@
 {
   "tools": [
     {
+      "name": "AndroBugs Framework",
+      "source": "https://github.com/AndroBugs/AndroBugs_Framework",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "MobSF",
+      "website": "",
+      "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "NodeJsScan",
+      "source": "https://github.com/ajinabraham/NodeJsScan",
+      "description": "Static security code scanner for Node.js applications",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "QARK",
+      "source": "https://github.com/linkedin/qark",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "StaCoAn",
       "source": "https://github.com/vincentcox/StaCoAn",
       "description": "Mobile applications static code analysis tool",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "SUPER",
+      "website": "http://superanalyzer.rocks/",
+      "source": "https://github.com/SUPERAndroidAnalyzer/super",
+      "description": "Android APK vulnerability analyzer",
+      "language": "Rust",
       "price": "Free",
       "online": "False"
     }
