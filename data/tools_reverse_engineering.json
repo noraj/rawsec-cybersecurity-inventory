@@ -140,6 +140,14 @@
       "online": "False"
     },
     {
+      "name": "ILSpy",
+      "source": "https://github.com/icsharpcode/ILSpy",
+      "description": ".NET assembly browser and decompiler to C#",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "jadx",
       "source": "https://github.com/skylot/jadx",
       "description": "DEX to Java decompiler",
@@ -175,6 +183,15 @@
       "source": "https://github.com/Storyyeller/Krakatau",
       "description": "Java decompiler, assembler, and disassembler",
       "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Metasm",
+      "website": "http://metasm.cr0.org/",
+      "source": "https://github.com/jjyg/metasm",
+      "description": "Assembler, disassembler, compiler and debugger",
+      "language": "Ruby",
       "price": "Free",
       "online": "False"
     },

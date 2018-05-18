@@ -1,85 +1,94 @@
 {
-    "resources": [
-      {
-        "name": "Archlinux security issues",
-        "links": [
-          {
-            "website": "https://security.archlinux.org/"
-          }
-        ],
-        "description": "CVE affecting Archlinux",
-        "price": "Free"
-      },
-      {
-        "name": "CVE Details",
-        "links": [
-          {
-            "website": "http://www.cvedetails.com/"
-          }
-        ],
-        "description": "Advanced CVE datasource",
-        "price": "Free"
-      },
-      {
-        "name": "Debian security issues",
-        "links": [
-          {
-            "website": "https://security-tracker.debian.org/tracker/"
-          }
-        ],
-        "description": "CVE affecting Debian",
-        "price": "Free"
-      },
-      {
-        "name": "Mitre",
-        "links": [
-          {
-            "website": "https://cve.mitre.org/"
-          }
-        ],
-        "description": "CVE datasource standard",
-        "price": "Free"
-      },
-      {
-        "name": "NVD",
-        "links": [
-          {
-            "website": "https://nvd.nist.gov/"
-          }
-        ],
-        "description": "CVE datasource",
-        "price": "Free"
-      },
-      {
-        "name": "Red Hat security issues",
-        "links": [
-          {
-            "website": "https://access.redhat.com/security/security-updates/"
-          }
-        ],
-        "description": "CVE affecting Red Hat",
-        "price": "Free"
-      },
-      {
-        "name": "SUSE security issues",
-        "links": [
-          {
-            "website": "https://www.suse.com/security/cve/"
-          }
-        ],
-        "description": "CVE affecting SUSE",
-        "price": "Free"
-      },
-      {
-        "name": "Ubuntu security issues",
-        "links": [
-          {
-            "website": "https://people.canonical.com/~ubuntu-security/cve/"
-          }
-        ],
-        "description": "CVE affecting Ubuntu",
-        "price": "Free"
-      }
-    ]
-  }
-  
+  "resources": [
+    {
+      "name": "Archlinux security issues",
+      "links": [
+        {
+          "website": "https://security.archlinux.org/"
+        }
+      ],
+      "description": "CVE affecting Archlinux",
+      "price": "Free"
+    },
+    {
+      "name": "CVE Details",
+      "links": [
+        {
+          "website": "http://www.cvedetails.com/"
+        }
+      ],
+      "description": "Advanced CVE datasource",
+      "price": "Free"
+    },
+    {
+      "name": "Debian security issues",
+      "links": [
+        {
+          "website": "https://security-tracker.debian.org/tracker/"
+        }
+      ],
+      "description": "CVE affecting Debian",
+      "price": "Free"
+    },
+    {
+      "name": "Mitre",
+      "links": [
+        {
+          "website": "https://cve.mitre.org/"
+        }
+      ],
+      "description": "CVE datasource standard",
+      "price": "Free"
+    },
+    {
+      "name": "NVD",
+      "links": [
+        {
+          "website": "https://nvd.nist.gov/"
+        }
+      ],
+      "description": "CVE datasource",
+      "price": "Free"
+    },
+    {
+      "name": "Red Hat security issues",
+      "links": [
+        {
+          "website": "https://access.redhat.com/security/security-updates/"
+        }
+      ],
+      "description": "CVE affecting Red Hat",
+      "price": "Free"
+    },
+    {
+      "name": "Saucs",
+      "links": [
+        {
+          "website": "https://www.saucs.com/"
+        }
+      ],
+      "description": "Customizable CVE dashboard, track vulnerabilities that concern you",
+      "price": "Free"
+    },
+    {
+      "name": "SUSE security issues",
+      "links": [
+        {
+          "website": "https://www.suse.com/security/cve/"
+        }
+      ],
+      "description": "CVE affecting SUSE",
+      "price": "Free"
+    },
+    {
+      "name": "Ubuntu security issues",
+      "links": [
+        {
+          "website": "https://people.canonical.com/~ubuntu-security/cve/"
+        }
+      ],
+      "description": "CVE affecting Ubuntu",
+      "price": "Free"
+    }
+  ]
+}
