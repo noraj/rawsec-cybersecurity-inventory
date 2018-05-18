@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "PentestBox",
+      "website": "https://pentestbox.org/",
+      "source": "https://github.com/pentestbox",
+      "description": "Pre-configured portable penetration testing environment for Windows, all-in-one box",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "v0lt",
       "source": "https://github.com/P1kachu/v0lt",
       "description": "CTF toolkit / framework",
