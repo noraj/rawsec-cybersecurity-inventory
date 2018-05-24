@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "crypto-identifier",
+      "source": "https://github.com/Acceis/crypto_identifier",
+      "description": "Tool that try to identify what cipher is used and uncipher the data",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Dcode",
       "website": "http://www.dcode.fr/tools-list",
       "description": "Code and decode all kind of checksums, algorithms, codes or ciphers",

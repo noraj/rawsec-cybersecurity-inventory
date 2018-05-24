@@ -187,6 +187,13 @@
       "online": "False"
     },
     {
+      "name": "ldd",
+      "website": "https://linux.die.net/man/1/ldd",
+      "description": "Tool that print shared library dependencies",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Metasm",
       "website": "http://metasm.cr0.org/",
       "source": "https://github.com/jjyg/metasm",
