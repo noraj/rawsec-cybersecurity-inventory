@@ -35,6 +35,14 @@
       "online": "False"
     },
     {
+      "name": "leakScraper",
+      "source": "https://github.com/Acceis/leakScraper",
+      "description": "Set of tools to process and visualize huge text files containing credentials",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODIN",
       "source": "https://github.com/chrismaddalena/ODIN",
       "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
