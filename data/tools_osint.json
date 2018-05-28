@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Amass",
+      "source": "https://github.com/caffix/amass",
+      "description": "Tool for subdomain enumeration",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Belati",
       "source": "https://github.com/aancw/Belati",
       "description": "OSINT tool, collect data and document actively or passively",
