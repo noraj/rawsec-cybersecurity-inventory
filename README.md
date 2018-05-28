@@ -1,5 +1,6 @@
-[![Discord](https://img.shields.io/discord/437247125508587540.svg?style=flat-square)](https://discord.gg/Wspwv2h)
 [![pipeline status](https://gitlab.com/noraj/rawsec-cybersecurity-list/badges/master/pipeline.svg)](https://gitlab.com/noraj/rawsec-cybersecurity-list/commits/master)
+[![License](https://img.shields.io/github/license/noraj/rawsec-cybersecurity-inventory.svg)](https://gitlab.com/noraj/rawsec-cybersecurity-list/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/437247125508587540.svg?style=flat&logo=discord)](https://discord.gg/Wspwv2h)
 
 # Rawsec's Cybersecurity Inventory
 
