@@ -10,12 +10,28 @@
                 span(aria-hidden='true')
             .navbar-menu
                 .navbar-end
-                    a(href='index.html').navbar-item Home
-                    a(href='contribute.html').navbar-item Contribute
-                    a(href='about.html').navbar-item About
-                    a(href='https://rawsec.ml').navbar-item Rawsec
                     div.navbar-item
-                        a(href='https://gitlab.com/noraj/rawsec-cybersecurity-list').button.is-dark.is-inverted
+                        a(href='index.html').has-text-white
                             span.icon
-                                i.fab.fa-gitlab
-                            span Download
+                                i.fas.fa-home
+                            span Home
+                    div.navbar-item
+                        a(href='contribute.html').has-text-white
+                            span.icon
+                                i.fas.fa-hands-helping
+                            span Contribute
+                    div.navbar-item
+                        a(href='about.html').has-text-white
+                            span.icon
+                                i.fas.fa-info-circle
+                            span About
+                    a(href='https://rawsec.ml').navbar-item Rawsec
+                    a(href='https://gitlab.com/noraj/rawsec-cybersecurity-list').navbar-item.is-dark
+                        span.icon
+                            i.fab.fa-gitlab
+                    a(href='https://github.com/noraj/rawsec-cybersecurity-inventory').navbar-item.is-dark
+                        span.icon
+                            i.fab.fa-github-alt
+                    a(href='https://twitter.com/rawsec_cyber').navbar-item.is-dark
+                        span.icon
+                            i.fab.fa-twitter
