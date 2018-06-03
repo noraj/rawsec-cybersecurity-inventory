@@ -9,9 +9,9 @@ mixin resources_non_english(item)
             td
                 each link in item.links
                     if link.website
-                        a(href=link.website) [Website]
+                        a(href=link.website class='website-link') [Website]
                     else if link.source
-                        a(href=link.source) [Source]
+                        a(href=link.source class='source-link') [Source]
                     else
                         a(href="#")
         else

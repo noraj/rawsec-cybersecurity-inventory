@@ -41,6 +41,7 @@
     "jquery": "^3.3.1",
     "node-sass": "^4.8.3",
     "pug": "^2.0.3",
+    "sweetalert2": "^7.21.1",
     "tablefilter": "^0.6.24"
   }
 }
