@@ -1,0 +1,154 @@
+extend layout/layout.pug
+
+block content
+    section.hero.is-fullheight#tables
+        .hero-body
+            .container
+                h2.title.is-2 Rich tables
+
+                .columns.is-multiline.is-vcentered.is-centered
+                    .column.is-three-quarters.has-text-left
+                        video(controls autoplay loop)
+                            source(src="https://i.imgur.com/kiEA0aU.mp4" type="video/mp4")
+                    .column.is-one-quarter
+                        p.is-size-1.is-uppercase sort
+                        p Easy sorting just by clicking on the column header
+                    .column.is-one-quarter
+                        p.is-size-1.is-uppercase search
+                        p Search to quickly find what you need
+                    .column.is-three-quarters.has-text-right
+                        video(controls autoplay loop)
+                            source(src="https://i.imgur.com/dMJte3X.mp4" type="video/mp4")
+                    .column.is-three-quarters.has-text-left
+                        video(controls autoplay loop)
+                            source(src="https://i.imgur.com/qIH6kVI.mp4" type="video/mp4")
+                    .column.is-one-quarter
+                        p.is-size-1.is-uppercase browse
+                        p Content is categorized, just click on the table of contents
+                    .column.is-one-quarter
+                        p.is-size-1.is-uppercase filter
+                        p Hide what you don't need
+                    .column.is-three-quarters.has-text-right
+                        video(controls autoplay loop)
+                            source(src="https://i.imgur.com/QYOw5FM.mp4" type="video/mp4")
+                    .column.is-three-quarters.has-text-left
+                        video(controls autoplay loop)
+                            source(src="https://i.imgur.com/8ETuKvJ.mp4" type="video/mp4")
+                    .column.is-one-quarter
+                        p.is-size-1.is-uppercase clear
+                        p No need to undo all filters, just clear them
+
+    section.hero.is-dark.is-fullheight#popups
+        .hero-body
+            .container
+                h2.title.is-2 Fancy informational popups
+
+                .columns
+                    .column.is-two-thirds
+                        figure.image
+                            img(alt="example of informational popup" src='https://i.imgur.com/4VrzELK.png' height="400" width="auto")
+                    .column
+                        p Clicking on a table row results in a fancy informational popup giving you additional information about the source repository of the tool or resource.
+                        p We are currently supporting GitHub.com, GitLab.com, Bitbucket.org and SourceForge.net.
+
+    section.hero.is-fullheight#badges
+        .hero-body
+            .container
+                h2.title.is-2 Badges / Shields
+
+                p Thanks to 
+                    a(href='https://shields.io/') ShieldsIO
+                    |  we generated some badges / shields you can add to your inventoried git repository in your README for example.
+
+                p You can add the id of your tool to the markdown link , example:
+                    pre
+                        code
+                            | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](http://list.rawsec.ml/tools.html#Metasploit)
+
+                .columns.is-multiline
+                    .column.is-half
+                        h3.title.is-3#flat Flat
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](http://list.rawsec.ml/)
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat_without_logo.svg)](http://list.rawsec.ml/)
+                    .column.is-half
+                        h3.title.is-3#flat-square Flat-square
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat-square.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square.svg)](http://list.rawsec.ml/)
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat-square_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square_without_logo.svg)](http://list.rawsec.ml/)
+                    .column.is-half
+                        h3.title.is-3#plastic Plastic
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_plastic.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic.svg)](http://list.rawsec.ml/)
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_plastic_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic_without_logo.svg)](http://list.rawsec.ml/)
+                    .column.is-half
+                        h3.title.is-3#for-the-badge For-the-badge
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_for-the-badge.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge.svg)](http://list.rawsec.ml/)
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_for-the-badge_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge_without_logo.svg)](http://list.rawsec.ml/)
+
+                h3.title.is-3#mini-icon Mini Icon
+
+                p
+                    a(href=inventory)
+                        img(alt="Rawsec's CyberSecurity Inventory" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4QsBERwIK+go2wAAAOlJREFUKM+90jtLA1EQBeBv14CPQrC28y9obWGtKRIRf4CVIgFJ4z/QSqx9lDZC2M7eQrDU2sLSzgfBEMJ6baZYlvgoxANTzNxzzsy9d/hvZLjEOo5Tu32hLG9Bnu9kvV4DRzVNjusc+xiiM1MUj7iqmGZBrMY7mjkecAKDsrzB1g9TnuI1j2QXT1jIimJJlu2Fex19dOrFTST0U0oTqdXaCFKK+MDKV2PcB+k88m5FeBd3HovZcB5gviacqz9tFW84wxTWMIr6AZ6/E8J2dGhEPsShMZ9ZxwircTaNJl5+u1GTWMbin+/qJ9qfO5UF9pleAAAAAElFTkSuQmCC')
+                p Mini rawsec icon (base64 image):
+                    pre
+                        code
+                            | data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4QsBERwIK+go2wAAAOlJREFUKM+90jtLA1EQBeBv14CPQrC28y9obWGtKRIRf4CVIgFJ4z/QSqx9lDZC2M7eQrDU2sLSzgfBEMJ6baZYlvgoxANTzNxzzsy9d/hvZLjEOo5Tu32hLG9Bnu9kvV4DRzVNjusc+xiiM1MUj7iqmGZBrMY7mjkecAKDsrzB1g9TnuI1j2QXT1jIimJJlu2Fex19dOrFTST0U0oTqdXaCFKK+MDKV2PcB+k88m5FeBd3HovZcB5gviacqz9tFW84wxTWMIr6AZ6/E8J2dGhEPsShMZ9ZxwircTaNJl5+u1GTWMbin+/qJ9qfO5UF9pleAAAAAElFTkSuQmCC
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li
+                        a(href='#tables') Rich tables
+                    li
+                        a(href='#popups') Fancy informational popup
+                    li
+                        a(href='#badges') Badges / Shields
