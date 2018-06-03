@@ -3,12 +3,12 @@ mixin tool(item)
         td= item.name
         if item.website
             td
-                a(href=item.website) [Website]
+                a(href=item.website class='website-link') [Website]
         else
             td
         if item.source
             td
-                a(href=item.source) [Source]
+                a(href=item.source class='source-link') [Source]
         else
             td
         if item.description

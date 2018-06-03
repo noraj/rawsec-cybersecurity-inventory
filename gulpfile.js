@@ -57,6 +57,11 @@ gulp.task('tablefilter', ['clean'], function(){
         .pipe(gulp.dest('build/js/vendor/'))
 });
 
+gulp.task('sweetalert2', ['clean'], function(){
+    return gulp.src('node_modules/sweetalert2/dist/sweetalert2.all.min.js')
+        .pipe(gulp.dest('build/js/vendor/sweetalert2/'))
+});
+
 gulp.task('jquery', ['clean'], function(){
     return gulp.src('node_modules/jquery/dist/jquery.min.js')
         .pipe(gulp.dest('build/js/vendor/jquery/'))
@@ -87,4 +92,4 @@ gulp.task('images', ['clean'], function(){
         .pipe(gulp.dest('build/img/'))
 });
 
-gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);
+gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'sweetalert2', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);
