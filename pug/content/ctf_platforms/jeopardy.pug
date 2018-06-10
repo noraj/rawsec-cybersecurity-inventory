@@ -1,0 +1,13 @@
+include ../../mixins/ctf_platform.pug
+table.table#ctf-platforms-jeopardy
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+    tbody
+        each platform in ctf_platforms.jeopardy.ctf_platforms
+            +ctf_platform(platform)

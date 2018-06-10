@@ -1,0 +1,11 @@
+include ../../mixins/resources_generic.pug
+table.table#resources-challenges-platforms
+    thead
+        tr
+            th Name
+            th Link
+            th Description
+            th Price
+    tbody
+        each resource in resources.challenges_platforms.resources
+            +resources_generic(resource)

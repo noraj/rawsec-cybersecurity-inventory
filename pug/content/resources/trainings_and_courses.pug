@@ -1,0 +1,11 @@
+include ../../mixins/resources_generic.pug
+table.table#resources-trainings-and-courses
+    thead
+        tr
+            th Name
+            th Link
+            th Description
+            th Price
+    tbody
+        each resource in resources.trainings_and_courses.resources
+            +resources_generic(resource)

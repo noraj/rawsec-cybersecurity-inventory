@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     data = require('gulp-data'),
     merge = require('gulp-merge-json'),
     sass = require('gulp-sass'),
+    exec = require('child_process').exec,
     fs = require('fs'),
     path = require('path'),
     del = require('del');
@@ -12,6 +13,7 @@ gulp.task('clean', function() {
   return del(['build']);
 });
 
+// aggregate different JSON files into one database
 gulp.task('pug:data', ['clean'], function() {
     return gulp.src('data/**/*.json')
         .pipe(merge({
@@ -19,20 +21,27 @@ gulp.task('pug:data', ['clean'], function() {
             edit: (json, file) => {
                 // Extract the filename and strip the extension
                 var filename = path.basename(file.path),
-                    primaryKey = filename.replace(path.extname(filename), '');
+                    parentFolder = path.basename(path.dirname(file.path)),
+                    filenameStrip = filename.replace(path.extname(filename), '');
+                var primaryKey = parentFolder + '_' + filenameStrip;
 
-                // Set the filename as the primary key for our JSON data
+                // Keep the tree structure
                 var data = {};
-                data[primaryKey] = json;
+                if(typeof data[parentFolder] === 'undefined') {
+                    data[parentFolder] = {};
+                }
+                data[parentFolder][filenameStrip] = json;
 
                 return data;
-            }
+            },
+            jsonSpace: '  '
         }))
         .pipe(gulp.dest('temp/'));
 });
 
+// compile pug templates into HTML and pass data in argument
 gulp.task('pug:src', ['clean', 'pug:data'], function() {
-    return gulp.src('pug/**/*.pug')
+    return gulp.src('pug/*.pug')
         .pipe(data(function() {
             return JSON.parse(fs.readFileSync('temp/data.json'))
         }))
@@ -42,6 +51,25 @@ gulp.task('pug:src', ['clean', 'pug:data'], function() {
         .pipe(gulp.dest('build/'));
 });
 
+// build the static JSON API via an external script, I didn't find a cleaner way to do it with gulp
+gulp.task('api:build', ['api:clean', 'pug:data'], function(cb){
+    exec('node make-scripts/static-json-api.js', function (err, stdout, stderr) {
+        //console.log(stdout);
+        //console.log(stderr);
+        cb(err);
+    });
+});
+
+gulp.task('api:copy', ['clean', 'api:build'], function(cb){
+    return gulp.src('temp/api/**/*.json')
+    .pipe(gulp.dest('build/api/'))
+});
+
+gulp.task('api:clean', function(cb){
+    return del('temp/api');
+});
+
+// build the customized bulma CSS
 gulp.task('bulma', ['clean'], function(){
     return gulp.src('sass/bulma.sass')
         .pipe(sass())
@@ -67,6 +95,7 @@ gulp.task('jquery', ['clean'], function(){
         .pipe(gulp.dest('build/js/vendor/jquery/'))
 });
 
+// copy personal (non-vendor) scripts
 gulp.task('js', ['clean'], function(){
     return gulp.src('js/**/*.js')
         .pipe(gulp.dest('build/js/'))
@@ -92,4 +121,4 @@ gulp.task('images', ['clean'], function(){
         .pipe(gulp.dest('build/img/'))
 });
 
-gulp.task('default', [ 'pug:src', 'bulma', 'tablefilter', 'sweetalert2', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);
+gulp.task('default', [ 'pug:src', 'api:copy', 'bulma', 'tablefilter', 'sweetalert2', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);

@@ -5,23 +5,23 @@ block content
         .container
             .content
                 // Table Of Contents
-                include content/table_of_contents_operating_systems.pug
+                include content/table_of_contents/operating_systems.pug
 
                 h2.title.is-2#title-operating-systems Operating Systems
                 h3.title.is-3#title-operating-systems-maintained Maintained
                 article
-                    include content/operating_systems_maintained.pug
-                    script(src='js/tablefilter/operating_systems_maintained.js')
+                    include content/operating_systems/maintained.pug
+                    script(src='js/tablefilter/operating_systems/maintained.js')
         
                 h3.title.is-3#title-operating-systems-no-more-maintained No more maintained
                 article
-                    include content/operating_systems_no_more_maintained.pug
-                    script(src='js/tablefilter/operating_systems_no_more_maintained.js')
+                    include content/operating_systems/no_more_maintained.pug
+                    script(src='js/tablefilter/operating_systems/no_more_maintained.js')
         
                 h3.title.is-3#title-operating-systems-project-transferred Project transferred
                 article
-                    include content/operating_systems_project_transferred.pug
-                    script(src='js/tablefilter/operating_systems_project_transferred.js')
+                    include content/operating_systems/project_transferred.pug
+                    script(src='js/tablefilter/operating_systems/project_transferred.js')
 
 block hero-foot
     .hero-foot

@@ -1,0 +1,11 @@
+include ../../mixins/operating_system.pug
+table.table#operating-systems-maintained
+    thead
+        tr
+            th OS
+            th Based on
+            th Description
+            th Link
+    tbody
+        each os in operating_systems.maintained.operating_systems
+            +os(os)

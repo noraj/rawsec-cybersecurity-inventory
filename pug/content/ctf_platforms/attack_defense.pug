@@ -1,0 +1,13 @@
+include ../../mixins/ctf_platform.pug
+table.table#ctf-platforms-attack-defense
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+    tbody
+        each platform in ctf_platforms.attack_defense.ctf_platforms
+            +ctf_platform(platform)

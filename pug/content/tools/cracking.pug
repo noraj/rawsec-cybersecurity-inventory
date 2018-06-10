@@ -1,0 +1,14 @@
+include ../../mixins/tool.pug
+table.table#tools-cracking
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+            th Online
+    tbody
+        each tool in tools.cracking.tools
+            +tool(tool)
