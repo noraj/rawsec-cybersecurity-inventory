@@ -1,0 +1,9 @@
+include ../../mixins/operating_systems_project_transferred.pug
+table.table#operating-systems-project-transferred
+    thead
+        tr
+            th From
+            th To
+    tbody
+        each os in operating_systems.project_transferred.operating_systems
+            +project_transferred(os)

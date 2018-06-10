@@ -5,24 +5,24 @@ block content
         .container
             .content
                 // Table Of Contents
-                include content/table_of_contents_ctf_platforms.pug
+                include content/table_of_contents/ctf_platforms.pug
 
                 h2.title.is-2#title-ctf-platforms CTF platforms
 
                 h3.title.is-3#title-ctf-platforms-attack-defense Attack-Defense
                 article
-                    include content/ctf_platforms_attack_defense.pug
-                    script(src='js/tablefilter/ctf_platforms_attack_defense.js')
+                    include content/ctf_platforms/attack_defense.pug
+                    script(src='js/tablefilter/ctf_platforms/attack_defense.js')
 
                 h3.title.is-3#title-ctf-platforms-hybrid Hybrid
                 article
-                    include content/ctf_platforms_hybrid.pug
-                    script(src='js/tablefilter/ctf_platforms_hybrid.js')
+                    include content/ctf_platforms/hybrid.pug
+                    script(src='js/tablefilter/ctf_platforms/hybrid.js')
 
                 h3.title.is-3#title-ctf-platforms-jeopardy Jeopardy
                 article
-                    include content/ctf_platforms_jeopardy.pug
-                    script(src='js/tablefilter/ctf_platforms_jeopardy.js')
+                    include content/ctf_platforms/jeopardy.pug
+                    script(src='js/tablefilter/ctf_platforms/jeopardy.js')
 
 block hero-foot
     .hero-foot

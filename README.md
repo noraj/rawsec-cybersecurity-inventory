@@ -44,7 +44,7 @@ Templates are written in Pug. The layout used for pages is `pug/layout/layout.pu
 
 ### Indentation
 
-Please use 4 spaces for code and 2 spaces for JSON data.
+Please use [EditorConfig](http://EditorConfig.org) defined in `.editorconfig`.
 
 ### Contribution Guidelines
 

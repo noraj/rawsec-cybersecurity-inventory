@@ -2,10 +2,20 @@
 
 # Unix-style newlines with a newline ending every file
 [*]
+charset = utf-8
 end_of_line = lf
+indent_style = space
 insert_final_newline = true
+trim_trailing_whitespace = true
 
 # 4 space indentation
-[*.pug]
-indent_style = space
+[*.{js,pug}]
 indent_size = 4
+
+# 2 space indentation
+[*.json]
+indent_size = 2
+
+# no trailing for pug
+[*.pug]
+trim_trailing_whitespace = false
