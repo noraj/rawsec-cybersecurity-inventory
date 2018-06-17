@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "Hashtopolis",
+      "source": "https://github.com/s3inlc/hashtopolis",
+      "description": "Hashcat wrapper for distributed hashcracking",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hydra",
       "website": "https://www.thc.org/thc-hydra/",
       "source": "https://github.com/vanhauser-thc/thc-hydra",

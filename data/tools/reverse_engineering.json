@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "arm_now",
+      "source": "https://github.com/nongiach/arm_now",
+      "description": "Tool that allows instant setup of virtual machines on various architectures for reverse, exploit, fuzzing and programming purpose",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Barf",
       "source": "https://github.com/programa-stic/barf-project",
       "description": "Binary Analysis and Reverse engineering Framework",
