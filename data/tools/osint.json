@@ -26,6 +26,22 @@
       "online": "False"
     },
     {
+      "name": "EagleEye",
+      "source": "https://github.com/ThoughtfulDev/EagleEye",
+      "description": "OSINT tool, image recognition on instagram, facebook and twitter",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Facebook_OSINT_Dump",
+      "source": "https://github.com/TheCyberViking/Facebook_OSINT_Dump",
+      "description": "OSINT tool, facebook profile dumper, windows and chrome only",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "FOCA",
       "website": "https://www.elevenpaths.com/labstools/foca/index.html",
       "source": "https://github.com/ElevenPaths/FOCA",
@@ -82,6 +98,13 @@
       "language": "Javascript",
       "price": "Free",
       "online": "True"
+    },
+    {
+      "name": "PITT",
+      "source": "https://github.com/TheCyberViking/PublicIntelligenceTool",
+      "description": "Web browser loaded with links and extensions for doing OSINT",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Sandmap",
