@@ -21,6 +21,16 @@
       "price": "Free"
     },
     {
+      "name": "Begin.re",
+      "links": [
+        {
+          "website": "https://www.begin.re/"
+        }
+      ],
+      "description": "Binary reverse guided challenges for beginners",
+      "price": "Free"
+    },
+    {
       "name": "CanYouHack.It",
       "links": [
         {
@@ -511,6 +521,16 @@
         }
       ],
       "description": "Challenge platform and community",
+      "price": "Free"
+    },
+    {
+      "name": "ZSIS CTF",
+      "links": [
+        {
+          "website": "https://ctf.zsis.hr/"
+        }
+      ],
+      "description": "Challenge platform",
       "price": "Free"
     },
     {
