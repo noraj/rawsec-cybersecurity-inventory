@@ -2,13 +2,15 @@
 var iconTypes = [];
 sheets = document.styleSheets;
 for(var i = 0; i < sheets.length; i++) {
-    if(sheets[i].href.match(/font-mfizz\.css/)) {
-        var rules = sheets[i].rules || sheets[i].cssRules;
-        for(var j = 0; j < rules.length; j++) {
-            var selectorText = rules[j].selectorText;
-            if(selectorText && selectorText.match(/\.icon-([a-z]*)::before/)) {
-                var icon = selectorText.match(/\.icon-([a-z]*)::before/)[1];
-                iconTypes.push(icon);
+    if(sheets[i].href !== null) {
+        if(sheets[i].href.match(/font-mfizz\.css/)) {
+            var rules = sheets[i].rules || sheets[i].cssRules;
+            for(var j = 0; j < rules.length; j++) {
+                var selectorText = rules[j].selectorText;
+                if(selectorText && selectorText.match(/\.icon-([a-z]*)::before/)) {
+                    var icon = selectorText.match(/\.icon-([a-z]*)::before/)[1];
+                    iconTypes.push(icon);
+                }
             }
         }
     }
