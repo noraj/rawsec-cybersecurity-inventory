@@ -75,6 +75,14 @@
       "online": "False"
     },
     {
+      "name": "LinEnum",
+      "source": "https://github.com/rebootuser/LinEnum",
+      "description": "System script for local Linux enumeration and privilege escalation checks",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODIN",
       "source": "https://github.com/chrismaddalena/ODIN",
       "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
