@@ -1,0 +1,19 @@
+{
+  "tools": [
+    {
+      "name": "Nipper Studio",
+      "website": "https://www.titania.com/nipper-studio",
+      "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "Nipper-ng",
+      "source": "https://github.com/arpitn30/nipper-ng",
+      "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
