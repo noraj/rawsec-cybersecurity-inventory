@@ -6,7 +6,7 @@
 
 Name            | Link
 ---             | ---
-Website         | [link](https://list.rawsec.ml)
+Website         | [link](https://inventory.rawsec.ml/)
 Git repository  | [link](https://gitlab.com/rawsec/rawsec-cybersecurity-list)
 Merge Requests  | [link](https://gitlab.com/rawsec/rawsec-cybersecurity-list/merge_requests)
 Issues          | [link](https://gitlab.com/rawsec/rawsec-cybersecurity-list/issues)
@@ -48,8 +48,8 @@ Please use [EditorConfig](http://EditorConfig.org) defined in `.editorconfig`.
 
 ### Contribution Guidelines
 
-See [Contribution Guidelines](https://list.rawsec.ml/contribute.html).
+See [Contribution Guidelines](https://inventory.rawsec.ml/contribute.html).
 
 ### About
 
-See [About](https://list.rawsec.ml/about.html).
+See [About](https://inventory.rawsec.ml/about.html).
