@@ -339,6 +339,15 @@
       "online": "False"
     },
     {
+      "name": "x64dbg",
+      "website": "https://x64dbg.com/",
+      "source": "https://github.com/x64dbg/x64dbg",
+      "description": "Windows debugger",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "xxxswf",
       "source": "https://bitbucket.org/Alexander_Hanel/xxxswf/src",
       "description": "Small script for carving, scanning, compressing, decompressing and analyzing SWF files",
