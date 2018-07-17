@@ -141,6 +141,13 @@
       "online": "False"
     },
     {
+      "name": "Hiew",
+      "website": "http://www.hiew.ru/",
+      "description": "x86_64 disassembler for multiple formats",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "Hopper",
       "website": "https://www.hopperapp.com/",
       "description": "Disassembler, decompiler and debugger",
