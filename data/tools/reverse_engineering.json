@@ -99,6 +99,13 @@
       "online": "False"
     },
     {
+      "name": "Defuse online disassembler",
+      "website": "https://defuse.ca/online-x86-assembler.htm",
+      "description": "Online x86 (32/64 bits) assembler and disassembler",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Droidefense",
       "website": "http://droidefense.com/",
       "source": "https://github.com/droidefense/engine",
