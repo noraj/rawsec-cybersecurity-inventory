@@ -239,6 +239,13 @@
       "online": "False"
     },
     {
+      "name": "PE Explorer Disassembler",
+      "website": "http://www.heaventools.com/PE_Explorer_disassembler.htm",
+      "description": "Windows disassembler",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "PE Insider",
       "website": "http://cerbero.io/peinsider/",
       "description": "PE viewer, closed source and windows only",
