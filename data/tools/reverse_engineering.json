@@ -232,6 +232,14 @@
       "online": "False"
     },
     {
+      "name": "Medusa",
+      "source": "https://github.com/wisk/medusa",
+      "description": "Interactive multi-architecture and multi-formats disassembler running on Windows and Linux",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODA",
       "website": "https://onlinedisassembler.com/odaweb/",
       "description": "Advanced multi-architecture online disassembler supporting a lot of architectures and object file formats",
@@ -300,6 +308,13 @@
       "description": "Crossplatform binary analysis framework, disassembler, decompiler and debugger, support collaborative analysis",
       "language": "C",
       "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Relyze",
+      "website": "https://www.relyze.com/overview.html",
+      "description": "x86 and ARM graphical interactive disassembler with Ruby plugin framework",
+      "price": "Paid",
       "online": "False"
     },
     {
