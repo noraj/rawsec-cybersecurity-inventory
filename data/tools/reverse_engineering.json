@@ -218,6 +218,13 @@
       "online": "False"
     },
     {
+      "name": "ODA",
+      "website": "https://onlinedisassembler.com/odaweb/",
+      "description": "Advanced multi-architecture online disassembler supporting a lot of architectures and object file formats",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "OllyDbg",
       "website": "http://www.ollydbg.de/",
       "description": "Windows debugger",
