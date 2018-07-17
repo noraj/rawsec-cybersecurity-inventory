@@ -163,6 +163,13 @@
       "online": "False"
     },
     {
+      "name": "ImmunityDbg",
+      "website": "https://www.immunityinc.com/products/debugger/",
+      "description": "Windows debugger with Python scripting support",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "jadx",
       "source": "https://github.com/skylot/jadx",
       "description": "DEX to Java decompiler",
