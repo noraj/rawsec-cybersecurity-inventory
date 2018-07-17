@@ -21,6 +21,16 @@
       "price": "Free"
     },
     {
+      "name": "Guifre",
+      "links": [
+        {
+          "website": "https://guif.re/"
+        }
+      ],
+      "description": "Security, system and network cheatsheets",
+      "price": "Free"
+    },
+    {
       "name": "HTML5 Security Cheatsheet",
       "links": [
         {
