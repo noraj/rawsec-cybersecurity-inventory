@@ -1,0 +1,93 @@
+{
+  "resources": [
+    {
+      "name": "ANSSI",
+      "country": "France",
+      "links": [
+        {
+          "website": "http://www.ssi.gouv.fr/"
+        }
+      ],
+      "description": "Agence Nationale de la Sécurité des Systèmes d'Information, French service responsible for computer security"
+    },
+    {
+      "name": "ASD",
+      "country": "Australia",
+      "links": [
+        {
+          "website": "https://www.asd.gov.au/"
+        }
+      ],
+      "description": "Australian Signals Directorate, Australian service responsible for computer security"
+    },
+    {
+      "name": "CCB",
+      "country": "Belgium",
+      "links": [
+        {
+          "website": "https://ccb.belgium.be/"
+        }
+      ],
+      "description": "Centre for Cyber Security Belgium, Belgium service responsible for computer security"
+    },
+    {
+      "name": "CNSS",
+      "country": "United States of America",
+      "links": [
+        {
+          "website": "https://www.cnss.gov/"
+        }
+      ],
+      "description": "Committee on National Security Systems, USA intergovernmental organization for the security of the USA security systems"
+    },
+    {
+      "name": "CSE/CST",
+      "country": "Canada",
+      "links": [
+        {
+          "website": "https://www.cse-cst.gc.ca/"
+        }
+      ],
+      "description": "Communications Security Establishment/Centre de la sécurité des télécommunications, Canadian service responsible for computer security"
+    },
+    {
+      "name": "ENISA",
+      "links": [
+        {
+          "website": "https://www.enisa.europa.eu/"
+        }
+      ],
+      "description": "European Network and Information Security Agency, European Union service responsible for computer security"
+    },
+    {
+      "name": "NCSC",
+      "country": "Great Britain",
+      "links": [
+        {
+          "website": "https://www.ncsc.gov.uk/"
+        }
+      ],
+      "description": "National Cyber Security Center, United Kingdom service responsible for computer security"
+    },
+    {
+      "name": "NIST",
+      "country": "United States of America",
+      "links": [
+        {
+          "website": "https://www.nist.gov/"
+        }
+      ],
+      "description": "National Institute of Standards and Technology, Metrology laboratory and non-regulatory agency of the USA Department of Commerce"
+    },
+    {
+      "name": "NSA",
+      "country": "United States of America",
+      "links": [
+        {
+          "website": "https://www.nsa.gov/"
+        }
+      ],
+      "description": "National Security Agency, United States of America service responsible for computer security"
+    }
+  ]
+}
