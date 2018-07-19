@@ -1,0 +1,11 @@
+include ../../mixins/resources_national_security_agencies_and_services.pug
+table.table#resources-national-security-agencies-and-services
+    thead
+        tr
+            th Name
+            th Country
+            th Link
+            th Description
+    tbody
+        each resource in resources.national_security_agencies_and_services.resources
+            +resources_agencies(resource)

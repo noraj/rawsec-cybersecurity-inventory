@@ -2,3 +2,5 @@ This file contains a list of people who have made large contributions.
 
 Original website design and content:
     Alexandre ZANNI
+Content and improvements:
+    Alexandre PETILLON

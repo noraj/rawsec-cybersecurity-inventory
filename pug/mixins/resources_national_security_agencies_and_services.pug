@@ -1,0 +1,22 @@
+mixin resources_agencies(item)
+    tr(id=item.name)
+        td= item.name
+        if item.country
+            td= item.country
+        else
+            td
+        if item.links
+            td
+                each link in item.links
+                    if link.website
+                        a(href=link.website class='website-link') [Website]
+                    else if link.source
+                        a(href=link.source class='source-link') [Source]
+                    else
+                        a(href="#")
+        else
+            td
+        if item.description
+            td= item.description
+        else
+            td
