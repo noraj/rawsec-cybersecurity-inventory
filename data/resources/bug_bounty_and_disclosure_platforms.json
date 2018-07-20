@@ -11,13 +11,43 @@
       "price": "Free"
     },
     {
+      "name": "bugcrowd",
+      "links": [
+        {
+          "website": "https://www.bugcrowd.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "FireBounty",
       "links": [
         {
           "website": "https://firebounty.com/"
         }
       ],
-      "description": "Bug bounties programs aggregator",
+      "description": "Bug bounty program aggregator",
+      "price": "Free"
+    },
+    {
+      "name": "HackerOne",
+      "links": [
+        {
+          "website": "https://www.hackerone.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "Open Bug Bounty",
+      "links": [
+        {
+          "website": "https://www.openbugbounty.org/"
+        }
+      ],
+      "description": "Non-profit bug bounty platform",
       "price": "Free"
     },
     {
