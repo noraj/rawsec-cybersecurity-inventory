@@ -25,6 +25,15 @@
       "language": "Ruby",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "MISP",
+      "website": "http://misp-project.org/",
+      "source": "https://github.com/MISP/",
+      "description": "Malware Information Sharing Platform, an Open Source threat intelligence plateform and open standards for threat information sharing",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
