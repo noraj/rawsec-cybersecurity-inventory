@@ -51,6 +51,16 @@
       "price": "Free"
     },
     {
+      "name": "Cryptopals",
+      "links": [
+        {
+          "website": "https://cryptopals.com/"
+        }
+      ],
+      "description": "Crypto challenges platform",
+      "price": "Free"
+    },
+    {
       "name": "CTFLearn",
       "links": [
         {
@@ -231,6 +241,16 @@
       "price": "Free"
     },
     {
+      "name": "NCP",
+      "links": [
+        {
+          "website": "https://nice-challenge.com/"
+        }
+      ],
+      "description": "NICE Challenge Project by the NIST and the NSA (for American students only)",
+      "price": "Free"
+    },
+    {
       "name": "Over The Wire",
       "links": [
         {
@@ -242,6 +262,26 @@
       ],
       "description": "Challenge platform",
       "price": "Free"
+    },
+    {
+      "name": "PentesterLab",
+      "links": [
+        {
+          "website": "httpq://pentesterlab.com/"
+        }
+      ],
+      "description": "Pentest lab",
+      "price": "Paid"
+    },
+    {
+      "name": "Practical Pentest Labs",
+      "links": [
+        {
+          "website": "https://practicalpentestlabs.com/"
+        }
+      ],
+      "description": "Pentest lab",
+      "price": "Paid"
     },
     {
       "name": "Pwnable.kr",

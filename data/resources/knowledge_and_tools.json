@@ -49,6 +49,16 @@
       ],
       "description": "Collection of various extremes of MD5 hashes",
       "price": "Free"
+    },
+    {
+      "name": "PTES",
+      "links": [
+        {
+          "website": "http://www.pentest-standard.org/"
+        }
+      ],
+      "description": "The penetration testing execution standard covers all steps related to a penetration test",
+      "price": "Free"
     }
   ]
 }

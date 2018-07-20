@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "name": "Bounty Factory",
+      "links": [
+        {
+          "website": "https://bountyfactory.io/"
+        }
+      ],
+      "description": "European bug bounty platform based on the legislation and rules in force in european countries, by YesWeHack",
+      "price": "Free"
+    },
+    {
+      "name": "FireBounty",
+      "links": [
+        {
+          "website": "https://firebounty.com/"
+        }
+      ],
+      "description": "Bug bounties programs aggregator",
+      "price": "Free"
+    },
+    {
+      "name": "SSD",
+      "links": [
+        {
+          "website": "https://blogs.securiteam.com/"
+        }
+      ],
+      "description": "SecuriTeam.com Secure Disclosure",
+      "price": "Free"
+    },
+    {
+      "name": "ZeroDisclo.com",
+      "links": [
+        {
+          "website": "https://zerodisclo.com"
+        }
+      ],
+      "description": "Coordinated disclosure platform by YesWeHack",
+      "price": "Free"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+include ../../mixins/resources_generic.pug
+table.table#resources-bug-bounty-and-disclosure-platforms
+    thead
+        tr
+            th Name
+            th Link
+            th Description
+            th Price
+    tbody
+        each resource in resources.bug_bounty_and_disclosure_platforms.resources
+            +resources_generic(resource)

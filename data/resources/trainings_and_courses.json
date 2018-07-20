@@ -9,6 +9,16 @@
       ],
       "description": "Cyber Security Learning, training and certification",
       "price": "Free"
+    },
+    {
+      "name": "SANS",
+      "links": [
+        {
+          "website": "https://www.sans.org/security-resources/"
+        }
+      ],
+      "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
+      "price": "Paid"
     }
   ]
 }
