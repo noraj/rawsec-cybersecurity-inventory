@@ -318,6 +318,24 @@
       "online": "False"
     },
     {
+      "name": "RetDec",
+      "website": "https://retdec.com/",
+      "source": "https://github.com/avast-tl/retdec",
+      "description": "Multi file formats and architectures machine-code decompiler",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Snowman",
+      "website": "https://derevenets.com/",
+      "source": "https://github.com/yegord/snowman",
+      "description": "Native code to C/C++ decompiler, supporting x86, AMD64, and ARM architectures, exists as standalone app or as a plug-in",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "strace",
       "source": "https://sourceforge.net/projects/strace/",
       "description": "Debugger for Linux",
