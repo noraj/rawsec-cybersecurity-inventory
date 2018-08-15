@@ -5,12 +5,10 @@ jQuery.extend(filtersConfig, {
     col_1: 'none',
     col_2: 'input',
     col_3: 'select',
-    col_4: 'select',
     // columns data types
     col_types: [
         'caseinsensitivestring',
         'none',
-        'string',
         'string',
         'string',
     ],
