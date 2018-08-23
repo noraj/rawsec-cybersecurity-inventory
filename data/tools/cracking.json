@@ -1,13 +1,6 @@
 {
   "tools": [
     {
-      "name": "Aircrack-Ng",
-      "website": "http://www.aircrack-ng.org/",
-      "description": "Suite of tools to assess WiFi network security (cracking WEP and WPA PSK)",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Hashcat",
       "website": "https://hashcat.net/hashcat/",
       "source": "https://github.com/hashcat/hashcat",
