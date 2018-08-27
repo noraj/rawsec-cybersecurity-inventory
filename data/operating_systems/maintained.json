@@ -37,6 +37,12 @@
       "link": "http://www.bugtraq-team.com/project-blackwidow.html"
     },
     {
+      "os": "Buscador",
+      "base": "Ubuntu / Debian",
+      "description": "OSINT tools",
+      "link": "https://inteltechniques.com/buscador/"
+    },
+    {
       "os": "CAINE",
       "base": "Ubuntu",
       "description": "digital forensics",
