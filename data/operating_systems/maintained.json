@@ -38,8 +38,8 @@
     },
     {
       "os": "Buscador",
-      "base": "Ubuntu / Debian",
-      "description": "OSINT tools",
+      "base": "Ubuntu",
+      "description": "OSINT (OVA appliance)",
       "link": "https://inteltechniques.com/buscador/"
     },
     {
