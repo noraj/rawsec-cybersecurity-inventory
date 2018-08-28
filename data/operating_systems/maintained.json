@@ -37,6 +37,12 @@
       "link": "http://www.bugtraq-team.com/project-blackwidow.html"
     },
     {
+      "os": "Buscador",
+      "base": "Ubuntu",
+      "description": "OSINT (OVA appliance)",
+      "link": "https://inteltechniques.com/buscador/"
+    },
+    {
       "os": "CAINE",
       "base": "Ubuntu",
       "description": "digital forensics",
