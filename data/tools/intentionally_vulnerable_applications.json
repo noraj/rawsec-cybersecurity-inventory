@@ -1,0 +1,21 @@
+{
+  "tools": [
+    {
+      "name": "Hackazon",
+      "source": "https://github.com/rapid7/hackazon",
+      "description": "Intentionally vulnerable web shopping application using modern technologies and containing configurable areas",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OWASP Mutillidae II",
+      "website": "https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project",
+      "source": "https://sourceforge.net/projects/mutillidae/?source=navbar",
+      "description": "Intentionally vulnerable web-application containing some OWASP Top Ten vulnerabilities, with hints and switch for secure version of the code",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
