@@ -1,6 +1,33 @@
 {
   "tools": [
     {
+      "name": "bWAPP",
+      "website": "http://www.itsecgames.com/",
+      "source": "https://sourceforge.net/p/bwapp/code/ci/master/tree/",
+      "description": "Buggy Web Application, insecure webapp for security trainings",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "DVIA",
+      "website": "http://damnvulnerableiosapp.com/",
+      "source": "https://github.com/prateek147/DVIA-v2",
+      "description": "Damn Vulnerable iOS App, insecure webapp for mobile security trainings",
+      "language": "Swift",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Google Gruyere",
+      "website": "http://google-gruyere.appspot.com",
+      "source": "http://google-gruyere.appspot.com/code/",
+      "description": "Codelab for white-box and black-box hacking",
+      "language": "Python",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Hackazon",
       "source": "https://github.com/rapid7/hackazon",
       "description": "Intentionally vulnerable web shopping application using modern technologies and containing configurable areas",
@@ -9,11 +36,29 @@
       "online": "False"
     },
     {
+      "name": "HackThis!!",
+      "website": "https://www.hackthis.co.uk",
+      "source": "https://github.com/HackThis/hackthis.co.uk",
+      "description": "Hacks, dumps and defacements learning plateform",
+      "language": "PHP",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "OWASP Mutillidae II",
       "website": "https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project",
       "source": "https://sourceforge.net/projects/mutillidae/?source=navbar",
       "description": "Intentionally vulnerable web-application containing some OWASP Top Ten vulnerabilities, with hints and switch for secure version of the code",
       "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OWASP WebGoat",
+      "website": "https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project",
+      "source": "https://github.com/WebGoat/WebGoat",
+      "description": "Deliberately insecure web application to teach web application security lessons",
+      "language": "Java",
       "price": "Free",
       "online": "False"
     }
