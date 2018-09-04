@@ -36,15 +36,6 @@
       "online": "False"
     },
     {
-      "name": "HackThis!!",
-      "website": "https://www.hackthis.co.uk",
-      "source": "https://github.com/HackThis/hackthis.co.uk",
-      "description": "Hacks, dumps and defacements learning plateform",
-      "language": "PHP",
-      "price": "Free",
-      "online": "True"
-    },
-    {
       "name": "OWASP Mutillidae II",
       "website": "https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project",
       "source": "https://sourceforge.net/projects/mutillidae/?source=navbar",
