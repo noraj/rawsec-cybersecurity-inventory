@@ -208,6 +208,14 @@
       "online": "False"
     },
     {
+      "name": "Kemon",
+      "source": "https://github.com/didi/kemon",
+      "description": "macOS kernel pre and post callback-based framework",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Krakatau",
       "source": "https://github.com/Storyyeller/Krakatau",
       "description": "Java decompiler, assembler, and disassembler",
@@ -327,6 +335,14 @@
       "online": "False"
     },
     {
+      "name": "sandsifter",
+      "source": "https://github.com/xoreaxeaxeax/sandsifter",
+      "description": "x86 processor fuzzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Snowman",
       "website": "https://derevenets.com/",
       "source": "https://github.com/yegord/snowman",
@@ -397,6 +413,14 @@
       "website": "https://x64dbg.com/",
       "source": "https://github.com/x64dbg/x64dbg",
       "description": "Windows debugger",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "XenoScan",
+      "source": "https://github.com/nickcano/XenoScan",
+      "description": "Processes memory scanner",
       "language": "Cplusplus",
       "price": "Free",
       "online": "False"

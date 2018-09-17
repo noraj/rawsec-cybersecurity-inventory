@@ -108,6 +108,14 @@
       "online": "True"
     },
     {
+      "name": "Photon",
+      "source": "https://github.com/s0md3v/Photon",
+      "description": "Fast crawler designed for OSINT",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PITT",
       "source": "https://github.com/TheCyberViking/PublicIntelligenceTool",
       "description": "Web browser loaded with links and extensions for doing OSINT",

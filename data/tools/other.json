@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "hideNsneak",
+      "source": "https://github.com/rmikehodges/hideNsneak",
+      "description": "CLI tool for ephemeral penetration testing, rapidly deploy and manage various cloud services",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "inlite",
       "website": "https://online-barcode-reader.inliteresearch.com/",
       "description": "Scan QR-code, 1D, DataMatrix, Postal, PDF417, and more",
@@ -21,6 +29,14 @@
       "website": "https://pentestbox.org/",
       "source": "https://github.com/pentestbox",
       "description": "Pre-configured portable penetration testing environment for Windows, all-in-one box",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Scrounger",
+      "source": "https://github.com/nettitude/scrounger",
+      "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
