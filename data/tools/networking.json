@@ -19,6 +19,14 @@
       "online": "True"
     },
     {
+      "name": "chisel",
+      "source": "https://github.com/jpillora/chisel",
+      "description": "Fast TCP tunneling over HTTP secured by SSH",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CloudShark",
       "website": "https://www.cloudshark.org/",
       "description": "PCAP analyzer",
@@ -104,6 +112,14 @@
       "online": "True"
     },
     {
+      "name": "PacketWhisper",
+      "source": "https://github.com/TryCatchHCF/PacketWhisper",
+      "description": "Stealthy Data exfiltration via DNS, without the need for attacker-controlled Name Servers or domain",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "polarbearscan",
       "website": "http://santarago.org/pbscan.html",
       "source": "https://github.com/gvb84/pbscan",
@@ -126,6 +142,15 @@
       "source": "https://github.com/SySS-Research/Seth",
       "description": "RDP MitM tool",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Singularity",
+      "website": "https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2018/august/singularity-of-origin-a-dns-rebinding-attack-framework/",
+      "source": "https://github.com/nccgroup/singularity",
+      "description": "DNS rebinding attack framework",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     },
