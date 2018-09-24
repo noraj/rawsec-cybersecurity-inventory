@@ -54,6 +54,14 @@
       "description": "Scan & create QR-code",
       "price": "Free",
       "online": "True"
+    },
+    {
+      "name": "ysoserial",
+      "source": "https://github.com/frohoff/ysoserial",
+      "description": "Tool for generating payloads that exploit unsafe Java object deserialization",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
