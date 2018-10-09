@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "badKarma",
+      "source": "https://github.com/r3vn/badKarma",
+      "description": "Advanced network reconnaissance tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Belati",
       "source": "https://github.com/aancw/Belati",
       "description": "OSINT tool, collect data and document actively or passively",
@@ -32,6 +40,13 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "eTools.ch",
+      "website": "https://www.etools.ch/",
+      "description": "Metasearch engine, query 16 search engines in parallel",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "Facebook_OSINT_Dump",
@@ -119,6 +134,14 @@
       "name": "PITT",
       "source": "https://github.com/TheCyberViking/PublicIntelligenceTool",
       "description": "Web browser loaded with links and extensions for doing OSINT",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Reconnoitre",
+      "source": "https://github.com/codingo/Reconnoitre",
+      "description": "Tool made to automate information gathering and service enumeration while storing results",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
