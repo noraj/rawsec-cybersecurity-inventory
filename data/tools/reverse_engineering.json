@@ -99,6 +99,14 @@
       "online": "False"
     },
     {
+      "name": "Cutter",
+      "source": "https://github.com/radareorg/cutter",
+      "description": "Qt and C++ GUI for radare2",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Defuse online disassembler",
       "website": "https://defuse.ca/online-x86-assembler.htm",
       "description": "Online x86 (32/64 bits) assembler and disassembler",
@@ -190,6 +198,14 @@
       "description": ".JAR and .Class to Java decompiler",
       "price": "Free",
       "online": "True"
+    },
+    {
+      "name": "JD-GUI",
+      "website": "http://jd.benow.ca/",
+      "description": "GUI tool decompiling JAVA",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "JEB",
