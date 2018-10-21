@@ -9,6 +9,13 @@
       "price": "Free"
     },
     {
+      "name": "jury-attack-defense",
+      "source": "https://github.com/hackforces/jury-attack-defense",
+      "description": "Attack-defence CTF framework",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "tin_foil_hat",
       "source": "https://github.com/jollheef/tin_foil_hat",
       "description": "Attack-defence CTF platform",

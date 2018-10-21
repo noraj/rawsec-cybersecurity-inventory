@@ -1,6 +1,36 @@
 {
   "ctf_platforms": [
     {
+      "name": "AleJndCTF",
+      "source": "https://github.com/alejndalliance/AleJndCTF",
+      "description": "Jeopardy CTF platform, based on tinyctf-platfom",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "bamboofox",
+      "website": "https://bamboofox.cs.nctu.edu.tw/",
+      "source": "https://github.com/bamboofox/bamboofox-website",
+      "description": "Jeopardy CTF platform",
+      "language": "Ruby",
+      "price": "Free"
+    },
+    {
+      "name": "BoltCTF",
+      "source": "https://gitlab.com/bhavyanshu/BoltCTF",
+      "description": "Jeopardy CTF platform",
+      "language": "PHP",
+      "price": "Free"
+    },
+    {
+      "name": "CanHackMe",
+      "website": "https://canhack.me/",
+      "source": "https://github.com/safflower/canhackme",
+      "description": "Jeopardy CTF platform",
+      "language": "PHP",
+      "price": "Free"
+    },
+    {
       "name": "ChallengeMe",
       "source": "https://github.com/Querdos/ChallengeMe",
       "description": "Jeopardy CTF platform",
@@ -34,6 +64,20 @@
       "source": "https://github.com/PACTF/pactf",
       "description": "Jeopardy CTF framework with some unique features",
       "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "CTFu",
+      "source": "https://github.com/PwningID/CTFu",
+      "description": "Jeopardy CTF platform, socket-based",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "ctf_marker",
+      "source": "https://github.com/rgajendran/ctf_marker",
+      "description": "Jeopardy CTF platform, import SecGen CTF challenges",
+      "language": "PHP",
       "price": "Free"
     },
     {
@@ -182,6 +226,29 @@
       "price": "Free"
     },
     {
+      "name": "SCTF",
+      "source": "https://github.com/SynAckPwn23/SCTF",
+      "description": "Jeopardy CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "SniperOJ Platform",
+      "website": "https://www.sniperoj.com/",
+      "source": "https://github.com/SniperOJ/Platform",
+      "description": "Jeopardy CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "Solve Me",
+      "website": "http://solveme.peng.kr/",
+      "source": "https://github.com/safflower/solve-me",
+      "description": "Jeopardy CTF platform",
+      "language": "PHP",
+      "price": "Free"
+    },
+    {
       "name": "SR-CTF",
       "website": "http://tunablectf.com/",
       "source": "https://github.com/nsslab-yin/SRCTF",
@@ -214,6 +281,21 @@
       "name": "TJCTF platform",
       "source": "https://github.com/TJCSec/ctf-platform",
       "description": "Jeopardy CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "WRATH CTF Framework",
+      "source": "https://github.com/WhiteHatCP/wrath-ctf-framework",
+      "description": "What? Really? Another Tiny Homebrewed CTF Framework?, Jeopardy CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "YuktiCTF",
+      "website": "https://chirathr.com/#portfolio",
+      "source": "https://github.com/chirathr/YuktiCTF",
+      "description": "Jeopardy CTF platform, based on CTFd and adds an intractive UI along with an RPG style game",
       "language": "Python",
       "price": "Free"
     }
