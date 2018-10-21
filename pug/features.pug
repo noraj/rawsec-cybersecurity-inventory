@@ -1,6 +1,7 @@
 extend layout/layout.pug
 
 block content
+    - var inventory = "https://inventory.rawsec.ml/";
     section.hero.is-fullheight#tables
         .hero-body
             .container
@@ -63,7 +64,7 @@ block content
                 p You can add the id of your tool to the markdown link , example:
                     pre
                         code
-                            | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Metasploit)
+                            | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](#{inventory}tools.html#Metasploit)
 
                 .columns.is-multiline
                     .column.is-half
@@ -74,14 +75,14 @@ block content
                         p Markdown code (version with logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat.svg)](#{inventory})
                         p
                             a(href=inventory)
                                 img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat_without_logo.svg')
                         p Markdown code (version without logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat_without_logo.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat_without_logo.svg)](#{inventory})
                     .column.is-half
                         h3.title.is-3#flat-square Flat-square
                         p
@@ -90,14 +91,14 @@ block content
                         p Markdown code (version with logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square.svg)](#{inventory})
                         p
                             a(href=inventory)
                                 img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_flat-square_without_logo.svg')
                         p Markdown code (version without logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square_without_logo.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_flat-square_without_logo.svg)](#{inventory})
                     .column.is-half
                         h3.title.is-3#plastic Plastic
                         p
@@ -106,14 +107,14 @@ block content
                         p Markdown code (version with logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic.svg)](#{inventory})
                         p
                             a(href=inventory)
                                 img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_plastic_without_logo.svg')
                         p Markdown code (version without logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic_without_logo.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_plastic_without_logo.svg)](#{inventory})
                     .column.is-half
                         h3.title.is-3#for-the-badge For-the-badge
                         p
@@ -122,14 +123,46 @@ block content
                         p Markdown code (version with logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge.svg)](#{inventory})
                         p
                             a(href=inventory)
                                 img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_for-the-badge_without_logo.svg')
                         p Markdown code (version without logo):
                             pre
                                 code
-                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge_without_logo.svg)](https://inventory.rawsec.ml/)
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_for-the-badge_without_logo.svg)](#{inventory})
+                    .column.is-half
+                        h3.title.is-3#popout Popout
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_popout.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_popout.svg)](#{inventory})
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_popout_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_popout_without_logo.svg)](#{inventory})
+                    .column.is-half
+                        h3.title.is-3#popout-square Popout-square
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_popout_square.svg')
+                        p Markdown code (version with logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_popout_square.svg)](#{inventory})
+                        p
+                            a(href=inventory)
+                                img(alt="Rawsec's CyberSecurity Inventory" src='img/badges/Rawsec-inventoried-FF5050_popout_square_without_logo.svg')
+                        p Markdown code (version without logo):
+                            pre
+                                code
+                                    | [![Rawsec's CyberSecurity Inventory](#{inventory}img/badges/Rawsec-inventoried-FF5050_popout_square_without_logo.svg)](#{inventory})
 
                 h3.title.is-3#mini-icon Mini Icon
 
@@ -151,7 +184,7 @@ block content
                         p The static API allow developers to get JSON responses in order to build some external tools.
                         p
                             pre
-                                code https://inventory.rawsec.ml/api/api.json
+                                code #{inventory}api/api.json
                     .column.is-one-third
                         figure.image
                             img(alt="example of api request" src='http://i.imgur.com/Ior3S8L.png' height="400" width="auto")
@@ -162,7 +195,7 @@ block content
                         p Target tools by category or individually.
                         p
                             pre
-                                code https://inventory.rawsec.ml/api/ctf_platforms/attack_defense/ctf_platforms/0/0.json
+                                code #{inventory}api/ctf_platforms/attack_defense/ctf_platforms/0/0.json
 
     section.hero.is-fullheight#twitter-bot
         .hero-body
