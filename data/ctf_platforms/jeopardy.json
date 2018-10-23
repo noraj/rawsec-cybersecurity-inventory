@@ -235,9 +235,9 @@
     {
       "name": "SniperOJ Platform",
       "website": "https://www.sniperoj.com/",
-      "source": "https://github.com/SniperOJ/Platform",
+      "source": "https://github.com/SniperOJ/Platform-Run/",
       "description": "Jeopardy CTF platform",
-      "language": "Python",
+      "language": "PHP",
       "price": "Free"
     },
     {
