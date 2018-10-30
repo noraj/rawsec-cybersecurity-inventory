@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "bountyplz",
+      "source": "https://github.com/fransr/bountyplz",
+      "description": "Automated bug bounty reporting/submission, supports HackerOne and Bugcrowd",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
