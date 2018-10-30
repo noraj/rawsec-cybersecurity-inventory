@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "DVWA",
+      "website": "http://www.dvwa.co.uk/",
+      "source": "https://github.com/ethicalhack3r/DVWA",
+      "description": "Damn Vulnerable Web Application, insecure webapp for security trainings",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Google Gruyere",
       "website": "http://google-gruyere.appspot.com",
       "source": "http://google-gruyere.appspot.com/code/",
