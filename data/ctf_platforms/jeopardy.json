@@ -147,6 +147,13 @@
       "price": "Free"
     },
     {
+      "name": "LibreCTF",
+      "source": "https://github.com/easyctf/librectf",
+      "description": "Was previously know as OpenCTF, easy to deploy Jeopardy CTF platform",
+      "language": "Rust",
+      "price": "Free"
+    },
+    {
       "name": "Lucid-Dev CTF-Scoreboard",
       "source": "https://github.com/Lucid-Dev/CTF-Scoreboard",
       "description": "Jeopardy CTF platform",
@@ -187,13 +194,6 @@
       "source": "https://github.com/chrisjd20/node_ctf",
       "description": "Jeopardy CTF platform",
       "language": "JavaScript",
-      "price": "Free"
-    },
-    {
-      "name": "OpenCTF",
-      "source": "https://github.com/easyctf/openctf",
-      "description": "Easy to deploy Jeopardy CTF platform, has an official docker container",
-      "language": "Python",
       "price": "Free"
     },
     {
