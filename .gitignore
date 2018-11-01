@@ -14,9 +14,17 @@ pids
 # Build
 build/
 temp/
+docusaurus/build/
+docusaurus/translated_docs
+docusaurus/yarn.lock
+docusaurus/i18n/*
 
 # Dependency directories
 node_modules/
+docusaurus/node_modules/
 
 # Optional npm cache directory
 .npm
+
+# Other
+.DS_Store

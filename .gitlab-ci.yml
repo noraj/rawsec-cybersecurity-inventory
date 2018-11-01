@@ -1,53 +1,40 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
+image: node:10
 
 stages:
   - test
   - deploy
 
-before_script:
-  - npm install gulp-cli -g
-  - npm install
-
-test:7:
+test:inventory:
   stage: test
-  image: node:7
   script:
+    - npm install gulp-cli -g
+    - npm install
     - gulp
   except:
     - master
 
-test:8:
+test:doc:
   stage: test
-  image: node:8
   script:
-    - gulp
-  except:
-    - master
-
-test:9:
-  stage: test
-  image: node:9
-  script:
-    - gulp
-  except:
-    - master
-
-test:10:
-  stage: test
-  image: node:10
-  script:
-    - gulp
+    - cd docusaurus
+    - npm install
+    - npm run build
   except:
     - master
 
 pages:
   stage: deploy
-  image: node:8
   script:
+    - npm install gulp-cli -g
+    - npm install # inventory dependencies
     - gulp
     - mkdir public
-    - mv build/* public/
+    - cp -rT build/ public/ # copying the inventory
+    - cd docusaurus
+    - npm install # documentation dependencies
+    - cp -rT build/ ../public # copying the documentation
   artifacts:
     paths:
       - public
