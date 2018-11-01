@@ -79,9 +79,8 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Source</h5>
-            <a href="https://gitlab.com/rawsec/rawsec-cybersecurity-inventory-doc">Documentation source</a>
-            <a href="https://gitlab.com/rawsec/rawsec-cybersecurity-list">Inventory source</a>
-            <a href="https://github.com/noraj/rawsec-cybersecurity-inventory">Inventory mirror</a>
+            <a href="https://gitlab.com/rawsec/rawsec-cybersecurity-list">Source</a>
+            <a href="https://github.com/noraj/rawsec-cybersecurity-inventory">Source mirror</a>
           </div>
         </section>
 

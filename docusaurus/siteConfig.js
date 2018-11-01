@@ -75,10 +75,10 @@ const siteConfig = {
 
   highlight: {
     // The name of the theme used by Highlight.js when highlighting code.
-    // You can find the list of supported themes here: 
+    // You can find the list of supported themes here:
     // https://github.com/isagalaev/highlight.js/tree/master/src/styles
     theme: 'default',
-    // Default language. 
+    // Default language.
     // It will be used if one is not specified at the top of the code block. You can find the list of supported languages here:
     // https://github.com/isagalaev/highlight.js/tree/master/src/languages
     defaultLang: 'plaintext',
@@ -96,7 +96,7 @@ const siteConfig = {
   ogImage: 'img/logo5_dark_355x286.png',
 
   // Edit URL
-  editUrl: 'https://gitlab.com/rawsec/rawsec-cybersecurity-inventory-doc/edit/master/docs/',
+  editUrl: 'https://gitlab.com/rawsec/rawsec-cybersecurity-list/edit/master/docs/',
 
   // Enable the scroll to top button.
   scrollToTop: true,
