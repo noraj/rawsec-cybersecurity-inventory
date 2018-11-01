@@ -29,11 +29,12 @@ pages:
   script:
     - npm install gulp-cli -g
     - npm install # inventory dependencies
-    - gulp
+    - gulp # build the inventory
     - mkdir public
     - cp -rT build/ public/ # copying the inventory
     - cd docusaurus
     - npm install # documentation dependencies
+    - npm run build # build the documentation
     - cp -rT build/ ../public # copying the documentation
   artifacts:
     paths:
