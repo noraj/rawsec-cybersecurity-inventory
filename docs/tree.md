@@ -8,6 +8,8 @@ title: Directory structure
 ├── CONTRIBUTORS.txt
 ├── COPYRIGHT
 ├── data/ # JSON files where tools and resources are stored
+├── docs # Documentation source files
+├── docusaurus # Documentation project
 ├── gulpfile.js # Building script
 ├── img/ # Badges and logos are here
 ├── js/
@@ -16,7 +18,7 @@ title: Directory structure
 │   └── tablefilter/ # Table filtering for each category
 ├── LICENSE
 ├── make-scripts/
-│   └── static-json-api.js # Build the static JSON API 
+│   └── static-json-api.js # Build the static JSON API
 ├── node_modules/ # Installed dependencies
 ├── package.json
 ├── package-lock.json
