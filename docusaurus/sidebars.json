@@ -1,0 +1,13 @@
+{
+  "inventory": {
+    "User Guide": ["usage"],
+    "Contribution Guidelines": ["add", "format", "issue", "enhancement"],
+    "Development Guidelines": ["install", "tree"]
+  },
+  "api": {
+    "API": ["api"]
+  },
+  "faq": {
+    "F.A.Q.": ["faq"]
+  }
+}
