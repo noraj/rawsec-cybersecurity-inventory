@@ -27,6 +27,16 @@
       "price": "Free"
     },
     {
+      "name": "Infosec Institute - What a Challenger Perceives in most CTF Categories/Challenges",
+      "links": [
+        {
+          "website": "https://resources.infosecinstitute.com/what-a-challenger-perceives-in-most-of-the-ctf-categories-or-challenges/"
+        }
+      ],
+      "description": "Questions a challenger can ask himself during a CTF, classed by category",
+      "price": "Free"
+    },
+    {
       "name": "ISIS Lab Wiki",
       "links": [
         {
@@ -34,6 +44,16 @@
         }
       ],
       "description": "CTF guide",
+      "price": "Free"
+    },
+    {
+      "name": "Endgame - How to Get Started in CTF",
+      "links": [
+        {
+          "website": "https://www.endgame.com/blog/technical-blog/how-get-started-ctf"
+        }
+      ],
+      "description": "Tutorial for CTF beginners",
       "price": "Free"
     },
     {

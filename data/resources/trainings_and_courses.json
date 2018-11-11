@@ -7,8 +7,18 @@
           "website": "https://www.cybrary.it/"
         }
       ],
-      "description": "Cyber Security Learning, training and certification",
+      "description": "Cyber Security learning, training and certification",
       "price": "Free"
+    },
+    {
+      "name": "PentestAcademy",
+      "links": [
+        {
+          "website": "https://www.pentesteracademy.com/"
+        }
+      ],
+      "description": "Cyber Security training with an online lab",
+      "price": "Paid"
     },
     {
       "name": "SANS",

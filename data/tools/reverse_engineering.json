@@ -17,6 +17,13 @@
       "online": "False"
     },
     {
+      "name": "ANY RUN",
+      "website": "https://any.run/",
+      "description": "Online virtual machine for malware hunting, sandbox with interactive access, real-time data-flow",
+      "price": "Free",
+      "online": "Online"
+    },
+    {
       "name": "Apk2Gold",
       "source": "https://github.com/lxdvs/apk2gold",
       "description": "Android decompiler (wrapper for apktool, dex2jar, and jd-gui)",
