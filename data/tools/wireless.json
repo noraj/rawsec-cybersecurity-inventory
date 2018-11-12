@@ -10,6 +10,14 @@
       "online": "False"
     },
     {
+      "name": "BtleJack",
+      "source": "https://github.com/virtualabs/btlejack",
+      "description": "Bluetooth Low Energy Swiss-army knife",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "eaver-wps (t6x fork)",
       "source": "https://github.com/t6x/reaver-wps-fork-t6x",
       "description": "Bruteforce WPS tool",
@@ -23,6 +31,14 @@
       "source": "https://github.com/FluxionNetwork/fluxion",
       "description": "MITM WPA attack tool",
       "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "FruityWiFi",
+      "source": "https://github.com/xtr4nge/FruityWifi",
+      "description": "Wireless network auditing tool controlled by a web interface",
+      "language": "PHP",
       "price": "Free",
       "online": "False"
     },
@@ -83,9 +99,25 @@
       "online": "False"
     },
     {
+      "name": "Wifi-Biter",
+      "source": "https://github.com/IxAmxZer0/Wifi-Biter",
+      "description": "Dictionary generator used to generate dictionaries/wordlist for Wireless Router Passwords",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "wifijammer",
       "source": "https://github.com/DanMcInerney/wifijammer",
       "description": "Script to jam wifi clients and access points",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "wifite2",
+      "source": "https://github.com/derv82/wifite2",
+      "description": "Script for auditing wireless networks that runs existing wireless-auditing tools",
       "language": "Python",
       "price": "Free",
       "online": "False"

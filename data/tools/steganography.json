@@ -59,6 +59,14 @@
       "online": "False"
     },
     {
+      "name": "SHIT",
+      "source": "https://github.com/qll/shit",
+      "description": "Stego Helper Identification Tool, multi-purpose image steganography tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SmartDeblur",
       "source": "https://github.com/Y-Vladimir/SmartDeblur",
       "description": "To to restore defocused and blurred images (update binary only for Windows, Mac OS binary out of date)",

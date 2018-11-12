@@ -61,6 +61,14 @@
       "language": "Java",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "XVNA",
+      "source": "https://github.com/vegabird/xvna",
+      "description": "Extreme Vulnerable Node Application, insecure webapp for security trainings",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
