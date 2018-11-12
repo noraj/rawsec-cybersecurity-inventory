@@ -61,6 +61,16 @@
       "price": "Free"
     },
     {
+      "name": "Yogosha",
+      "links": [
+        {
+          "website": "https://www.yogosha.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "ZeroDisclo.com",
       "links": [
         {
