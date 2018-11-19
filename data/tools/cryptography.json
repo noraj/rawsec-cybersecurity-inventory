@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "Crypton",
+      "source": "https://github.com/ashutosh1206/Crypton",
+      "description": "Library consisting of explanation and implementation of all the existing attacks on various Encryption Systems, Digital Signatures, Hashing Algorithms along with example challenges from CTFs",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Dcode",
       "website": "http://www.dcode.fr/tools-list",
       "description": "Code and decode all kind of checksums, algorithms, codes or ciphers",
@@ -31,10 +39,26 @@
       "online": "False"
     },
     {
+      "name": "RsaCtfTool",
+      "source": "https://github.com/Ganapati/RsaCtfTool",
+      "description": "Tool to conduct manual or automated attack on RSA",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "RSATool",
       "source": "https://github.com/ius/rsatool",
       "description": "Tool to calculate RSA parameters",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "RSHack",
+      "source": "https://github.com/zweisamkeit/RSHack",
+      "description": "RSA attack and key manipulation tool",
+      "language": "",
       "price": "Free",
       "online": "False"
     },
