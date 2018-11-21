@@ -39,10 +39,10 @@
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "jquery": "^3.3.1",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.10.0",
     "pug": "^2.0.3",
     "static-api": "^0.2.0",
-    "sweetalert2": "^7.28.5",
-    "tablefilter": "^0.6.64"
+    "sweetalert2": "^7.29.1",
+    "tablefilter": "^0.6.67"
   }
 }
