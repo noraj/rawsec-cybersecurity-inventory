@@ -130,6 +130,21 @@
       "online": "False"
     },
     {
+      "name": "Flare",
+      "website": "http://www.nowrap.de/flare.html",
+      "description": "Processes SWF and extract scripts from it",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Flasm",
+      "website": "http://www.nowrap.de/flasm.html",
+      "source": "https://sourceforge.net/projects/flasm/",
+      "description": "Disassembler tool for SWF bytecode",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Frida",
       "website": "https://www.frida.re/",
       "source": "https://github.com/frida/frida",
@@ -219,6 +234,14 @@
       "website": "https://www.pnfsoftware.com/jeb2/",
       "description": "Disassembler, decompiler and debugger",
       "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "JPEXS Free Flash Decompiler",
+      "source": "https://github.com/jindrapetrik/jpexs-decompiler",
+      "description": "A.k.a ffdec, flash SWF decompiler",
+      "language": "Java",
+      "price": "Free",
       "online": "False"
     },
     {
@@ -421,6 +444,14 @@
       "source": "https://github.com/rocky/python-uncompyle6",
       "description": "Python 1.5, 2.1 to 2.7, 3.1 to 3.6 binaries (.pyc) decompiler",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Vais",
+      "source": "https://github.com/hahwul/vais",
+      "description": "SWF vulnerability and information scanner",
+      "language": "Ruby",
       "price": "Free",
       "online": "False"
     },
