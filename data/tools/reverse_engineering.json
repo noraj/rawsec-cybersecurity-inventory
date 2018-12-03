@@ -480,6 +480,15 @@
       "online": "False"
     },
     {
+      "name": "Xori",
+      "website": "https://www.endgame.com/tools",
+      "source": "https://github.com/endgameinc/xori",
+      "description": "Disassembly and static analysis library that provides triage analysis data",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "xxxswf",
       "source": "https://bitbucket.org/Alexander_Hanel/xxxswf/src",
       "description": "Small script for carving, scanning, compressing, decompressing and analyzing SWF files",
