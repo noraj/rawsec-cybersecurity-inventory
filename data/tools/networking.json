@@ -97,6 +97,14 @@
       "online": "False"
     },
     {
+      "name": "NMapGUI",
+      "source": "https://github.com/danicuestasuarez/NMapGUI",
+      "description": "Advanced GUI for Nmap",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },  
+    {
       "name": "PacketFu",
       "source": "https://github.com/packetfu/packetfu",
       "description": "Packet manipulation library; forge, send, decode, capture packets of a wide number of protocols",
@@ -125,6 +133,14 @@
       "source": "https://github.com/gvb84/pbscan",
       "description": "Port scanner and banner grabber",
       "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Responder",
+      "source": "https://github.com/SpiderLabs/Responder",
+      "description": "LLMNR, NBT-NS and MDNS poisoner to intercept authentication requests/answers",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
