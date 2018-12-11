@@ -1,0 +1,37 @@
+{
+  "resources": [
+    {
+      "name": "KitPloit",
+      "language": "English",
+      "links": [
+        {
+          "website": "https://www.kitploit.com/"
+        }
+      ],
+      "description": "Tools presentation and announcement",
+      "price": "Free"
+    },
+    {
+      "name": "Latest Hacking News",
+      "language": "English",
+      "links": [
+        {
+          "website": "https://latesthackingnews.com"
+        }
+      ],
+      "description": "Cybersecurity news, tools presentation and announcement",
+      "price": "Free"
+    },
+    {
+      "name": "Security List Network",
+      "language": "English",
+      "links": [
+        {
+          "website": "seclist.us"
+        }
+      ],
+      "description": "Tools presentation and announcement",
+      "price": "Free"
+    }
+  ]
+}

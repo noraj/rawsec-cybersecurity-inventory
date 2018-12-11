@@ -1,0 +1,12 @@
+include ../../mixins/resources_non_english.pug
+table.table#resources-information
+    thead
+        tr
+            th Name
+            th Language
+            th Link
+            th Description
+            th Price
+    tbody
+        each resource in resources.information.resources
+            +resources_non_english(resource)

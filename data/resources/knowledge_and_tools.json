@@ -51,6 +51,19 @@
       "price": "Free"
     },
     {
+      "name": "Privacy Tools",
+      "links": [
+        {
+          "website": "https://www.privacytools.io/"
+        },
+        {
+          "source": "https://github.com/privacytoolsIO/privacytools.io"
+        }
+      ],
+      "description": "Website that provides knowledge and tools to protect your privacy against global mass surveillance",
+      "price": "Free"
+    },
+    {
       "name": "PTES",
       "links": [
         {
