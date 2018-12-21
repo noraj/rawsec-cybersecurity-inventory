@@ -1,21 +1,38 @@
-var gulp = require('gulp'),
-    pug = require('gulp-pug'),
-    data = require('gulp-data'),
-    merge = require('gulp-merge-json'),
-    sass = require('gulp-sass'),
-    exec = require('child_process').exec,
-    fs = require('fs'),
-    path = require('path'),
-    del = require('del');
+// Load plugins
+const { series, parallel, src, dest, task } = require('gulp');
+const { exec } = require('child_process');
+const pug = require('gulp-pug');
+const data = require('gulp-data');
+const merge = require('gulp-merge-json');
+const sass = require('gulp-sass');
+const fs = require('fs');
+const path = require('path');
+const del = require('del');
 
-gulp.task('clean', function() {
-  // You can use multiple globbing patterns as you would with `gulp.src`
-  return del(['build']);
-});
+// ES6 modules (imports and exports) as they are not yet supported natively in Node
+// so I'm using gulp.task instead of commonJs exports.aTaskName = aFunc
+task(clean);
+clean.description = 'Clean the build directory';
+task('build',
+    series(
+        series(pug_data, pug_src),
+        series(api_clean, api_build, api_copy),
+        parallel(
+            bulma, tablefilter, sweetalert2, jquery, js, fontawesome, font_mfizz,
+            images
+)));
+task('build').description = 'Build the static website';
+task('default', series('clean', 'build'));
+task('default').description = 'clean + build';
+
+function clean() {
+    // You can use multiple globbing patterns as you would with `gulp.src`
+    return del(['build']);
+};
 
 // aggregate different JSON files into one database
-gulp.task('pug:data', ['clean'], function() {
-    return gulp.src('data/**/*.json')
+function pug_data() {
+    return src('data/**/*.json')
         .pipe(merge({
             fileName: 'data.json',
             edit: (json, file) => {
@@ -36,89 +53,82 @@ gulp.task('pug:data', ['clean'], function() {
             },
             jsonSpace: '  '
         }))
-        .pipe(gulp.dest('temp/'));
-});
+        .pipe(dest('temp/'));
+};
 
 // compile pug templates into HTML and pass data in argument
-gulp.task('pug:src', ['clean', 'pug:data'], function() {
-    return gulp.src('pug/*.pug')
+function pug_src() {
+    return src('pug/*.pug')
         .pipe(data(function() {
-            return JSON.parse(fs.readFileSync('temp/data.json'))
+            return JSON.parse(fs.readFileSync('temp/data.json'));
         }))
         .pipe(pug({
             pretty: true,
         }))
-        .pipe(gulp.dest('build/'));
-});
+        .pipe(dest('build/'));
+};
+
+function api_clean() {
+    return del('temp/api');
+};
 
 // build the static JSON API via an external script, I didn't find a cleaner way to do it with gulp
-gulp.task('api:build', ['api:clean', 'pug:data'], function(cb){
-    exec('node make-scripts/static-json-api.js', function (err, stdout, stderr) {
-        //console.log(stdout);
-        //console.log(stderr);
-        cb(err);
-    });
-});
+// also require 'pug:data' to be run before
+function api_build() {
+    return exec('node make-scripts/static-json-api.js');
+};
 
-gulp.task('api:copy', ['clean', 'api:build'], function(cb){
-    return gulp.src('temp/api/**/*.json')
-    .pipe(gulp.dest('build/api/'))
-});
-
-gulp.task('api:clean', function(cb){
-    return del('temp/api');
-});
+function api_copy(cb) {
+    return src('temp/api/**/*.json')
+        .pipe(dest('build/api/'))
+};
 
 // build the customized bulma CSS
-gulp.task('bulma', ['clean'], function(){
-    return gulp.src('sass/bulma.sass')
+function bulma() {
+    return src('sass/bulma.sass')
         .pipe(sass())
-        .pipe(gulp.dest('build/css/vendor/bulma/'))
-});
+        .pipe(dest('build/css/vendor/bulma/'));
+};
 
-gulp.task('tablefilter', ['clean'], function(){
-    return gulp.src(['node_modules/tablefilter/dist/tablefilter/**/*',
-        /* Remove unused themes */
-        '!node_modules/tablefilter/dist/tablefilter/style/themes/[a-z]*/**'],
+function tablefilter() {
+    return src('node_modules/tablefilter/dist/tablefilter/**/*',
         { base: 'node_modules/tablefilter/dist/'}
     )
-        .pipe(gulp.dest('build/js/vendor/'))
-});
+        .pipe(dest('build/js/vendor/'));
+};
 
-gulp.task('sweetalert2', ['clean'], function(){
-    return gulp.src('node_modules/sweetalert2/dist/sweetalert2.all.min.js')
-        .pipe(gulp.dest('build/js/vendor/sweetalert2/'))
-});
+function sweetalert2() {
+    return src('node_modules/sweetalert2/dist/sweetalert2.all.min.js')
+        .pipe(dest('build/js/vendor/sweetalert2/'));
+};
 
-gulp.task('jquery', ['clean'], function(){
-    return gulp.src('node_modules/jquery/dist/jquery.min.js')
-        .pipe(gulp.dest('build/js/vendor/jquery/'))
-});
+function jquery() {
+    return src('node_modules/jquery/dist/jquery.min.js')
+        .pipe(dest('build/js/vendor/jquery/'));
+};
 
 // copy personal (non-vendor) scripts
-gulp.task('js', ['clean'], function(){
-    return gulp.src('js/**/*.js')
-        .pipe(gulp.dest('build/js/'))
-});
+function js() {
+    return src('js/**/*.js')
+        .pipe(dest('build/js/'));
+};
 
-gulp.task('fontawesome', ['clean'], function(){
-    return gulp.src(['node_modules/@fortawesome/fontawesome-free-webfonts/css/*',
+function fontawesome() {
+    return src(['node_modules/@fortawesome/fontawesome-free-webfonts/css/*',
     'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/*'],
     { base: 'node_modules/@fortawesome/fontawesome-free-webfonts/'}
     )
-        .pipe(gulp.dest('build/css/vendor/fontawesome/'))
-});
+        .pipe(dest('build/css/vendor/fontawesome/'));
+};
 
-gulp.task('font-mfizz', ['clean'], function(){
-    return gulp.src(['node_modules/font-mfizz/dist/*',
+function font_mfizz() {
+    return src(['node_modules/font-mfizz/dist/*',
     '!node_modules/font-mfizz/dist/preview.html',
     ])
-        .pipe(gulp.dest('build/css/vendor/font-mfizz/'))
-});
+        .pipe(dest('build/css/vendor/font-mfizz/'));
+};
 
-gulp.task('images', ['clean'], function(){
-    return gulp.src('img/**/*.*')
-        .pipe(gulp.dest('build/img/'))
-});
-
-gulp.task('default', [ 'pug:src', 'api:copy', 'bulma', 'tablefilter', 'sweetalert2', 'jquery', 'js', 'fontawesome', 'font-mfizz', 'images' ]);
+function images() {
+    return src('img/**/*.*')
+        .pipe(dest('build/img/'));
+};
