@@ -171,6 +171,14 @@
       "online": "False"
     },
     {
+      "name": "ssh-audit",
+      "source": "https://github.com/arthepsy/ssh-audit",
+      "description": "SSH scanner that detects protocol, version, grab banner, recognize software and operating system, output algorithm information and recommendations",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Whonow",
       "source": "https://github.com/brannondorsey/whonow",
       "description": "DNS Server for executing DNS Rebinding attacks",
