@@ -51,6 +51,16 @@
       "price": "Free"
     },
     {
+      "name": "Plugbounty",
+      "links": [
+        {
+          "website": "https://www.plugbounty.com/"
+        }
+      ],
+      "description": "Bug bounty platform for plugins, themes, extensions, libraries",
+      "price": "Free"
+    },
+    {
       "name": "SSD",
       "links": [
         {
