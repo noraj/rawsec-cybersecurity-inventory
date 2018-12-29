@@ -12,6 +12,8 @@ test:inventory:
     - npm install gulp-cli -g
     - npm install
     - gulp
+  only:
+    - merge_requests
   except:
     - master
 
@@ -21,6 +23,8 @@ test:doc:
     - cd docusaurus
     - npm install
     - npm run build
+  only:
+    - merge_requests
   except:
     - master
 
