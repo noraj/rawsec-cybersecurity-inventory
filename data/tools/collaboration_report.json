@@ -1,6 +1,23 @@
 {
   "tools": [
     {
+      "name": "DART",
+      "source": "https://github.com/lmco/dart",
+      "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Dradis",
+      "website": "https://dradisframework.com/",
+      "source": "https://github.com/dradis/dradis-ce",
+      "description": "Collaborative penetration test and vulnerability management platform",
+      "language": "Ruby",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "Faraday",
       "website": "https://www.faradaysec.com/",
       "source": "https://github.com/infobyte/faraday",
@@ -10,10 +27,52 @@
       "online": "False"
     },
     {
+      "name": "Kvasir",
+      "source": "https://github.com/KvasirSecurity/Kvasir",
+      "description": "Pentest data management tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Lair",
+      "website": "https://www.optiv.com/blog/updates-to-the-lair-ecosystem",
+      "source": "https://github.com/lair-framework/lair",
+      "description": "Collaborative penetration test and vulnerability management platform",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OWASP PenText",
+      "website": "https://www.owasp.org/index.php/OWASP_PenText_Project",
+      "source": "https://github.com/radicallyopensecurity/pentext",
+      "description": "Collection of XML templates, XML schemas and XSLT code, to generate IT security documents including test reports, offers and invoices",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Prithvi",
+      "website": "https://www.vegabird.com/prithvi/",
+      "source": "https://github.com/vegabird/prithvi",
+      "description": "Report generation tool for pentester with provided OWASP data",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Serpico",
       "source": "https://github.com/SerpicoProject/Serpico",
       "description": "SimplE RePort wrIting and CollaboratiOn tool, penetration testing report generation and collaboration tool",
       "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Sh00t",
+      "source": "https://github.com/pavanw3b/sh00t",
+      "description": "Pentesting platform with dynamic task manager, checklists, bug template & bug report",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
