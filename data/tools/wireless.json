@@ -107,6 +107,14 @@
       "online": "False"
     },
     {
+      "name": "trackerjacker",
+      "source": "https://github.com/calebmadrigal/trackerjacker",
+      "description": "Tool for mapping and tacking wifi networks and devices through raw 802.11 monitoring",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Wifi-Biter",
       "source": "https://github.com/IxAmxZer0/Wifi-Biter",
       "description": "Dictionary generator used to generate dictionaries/wordlist for Wireless Router Passwords",

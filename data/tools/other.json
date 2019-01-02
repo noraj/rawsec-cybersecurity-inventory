@@ -1,6 +1,20 @@
 {
   "tools": [
     {
+      "name": "Firefox Monitor",
+      "website": "https://monitor.firefox.com/",
+      "description": "Service to check if an account has been compromised in a data breach",
+      "price": "Free",
+      "online": "True"
+    },
+    {
+      "name": "Have i been pwned?",
+      "website": "https://haveibeenpwned.com/",
+      "description": "Service to check if an account has been compromised in a data breach",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "hideNsneak",
       "source": "https://github.com/rmikehodges/hideNsneak",
       "description": "CLI tool for ephemeral penetration testing, rapidly deploy and manage various cloud services",
@@ -31,6 +45,13 @@
       "description": "Pre-configured portable penetration testing environment for Windows, all-in-one box",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "PWDQUERY",
+      "website": "https://pwdquery.xyz/",
+      "description": "Service to check if an account has been compromised in a data breach",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "Scrounger",

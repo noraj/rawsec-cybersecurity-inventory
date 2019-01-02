@@ -137,6 +137,14 @@
       "online": "False"
     },
     {
+      "name": "Polymorph",
+      "source": "https://github.com/shramos/polymorph",
+      "description": "Real-time network packet manipulation framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Responder",
       "source": "https://github.com/SpiderLabs/Responder",
       "description": "LLMNR, NBT-NS and MDNS poisoner to intercept authentication requests/answers",
