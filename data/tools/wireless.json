@@ -18,6 +18,14 @@
       "online": "False"
     },
     {
+      "name": "Crunch-Cracker",
+      "source": "https://github.com/KURO-CODE/Crunch-Cracker",
+      "description": "Wordlist generator and Wi-Fi cracker",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "eaver-wps (t6x fork)",
       "source": "https://github.com/t6x/reaver-wps-fork-t6x",
       "description": "Bruteforce WPS tool",

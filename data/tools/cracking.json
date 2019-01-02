@@ -1,6 +1,23 @@
 {
   "tools": [
     {
+      "name": "Cracklord",
+      "website": "http://jmmcatee.github.io/cracklord/",
+      "source": "https://github.com/jmmcatee/cracklord",
+      "description": "Scalable, pluggable, and distributed system for password cracking",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "GoCrack",
+      "source": "https://github.com/fireeye/gocrack",
+      "description": "Management frontend for password cracking tools, supporting hashcat",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hashcat",
       "website": "https://hashcat.net/hashcat/",
       "source": "https://github.com/hashcat/hashcat",
@@ -14,6 +31,15 @@
       "source": "https://github.com/s3inlc/hashtopolis",
       "description": "Hashcat wrapper for distributed hashcracking",
       "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Hashview",
+      "website": "http://www.hashview.io/",
+      "source": "https://github.com/hashview/hashview",
+      "description": "Web-UI for managing, organizing, automating hashcat commands/tasks",
+      "language": "Ruby",
       "price": "Free",
       "online": "False"
     },
