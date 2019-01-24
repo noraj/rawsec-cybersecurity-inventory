@@ -26,14 +26,6 @@
       "online": "False"
     },
     {
-      "name": "eaver-wps (t6x fork)",
-      "source": "https://github.com/t6x/reaver-wps-fork-t6x",
-      "description": "Bruteforce WPS tool",
-      "language": "C",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Fluxion",
       "website": "https://fluxionnetwork.github.io/fluxion/",
       "source": "https://github.com/FluxionNetwork/fluxion",
@@ -101,6 +93,14 @@
     {
       "name": "reaver-wps",
       "source": "https://code.google.com/archive/p/reaver-wps/",
+      "description": "Bruteforce WPS tool",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "reaver-wps (t6x fork)",
+      "source": "https://github.com/t6x/reaver-wps-fork-t6x",
       "description": "Bruteforce WPS tool",
       "language": "C",
       "price": "Free",
