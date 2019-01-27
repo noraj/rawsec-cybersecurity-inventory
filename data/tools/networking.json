@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "archtorify",
+      "source": "https://github.com/brainfucksec/archtorify",
+      "description": "Script for Arch Linux which use iptables settings to create a transparent proxy through Tor Network",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bettercap",
       "website": "http://www.bettercap.org/",
       "source": "https://github.com/evilsocket/bettercap",
