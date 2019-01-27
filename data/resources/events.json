@@ -31,6 +31,16 @@
         "price": "Free"
       },
       {
+        "name": "pwnhead",
+        "links": [
+          {
+            "website": "https://pwnhead.com/"
+          }
+        ],
+        "description": "World cybersecurity conferences scoreboard; people, company, country and conference directory",
+        "price": "Free"
+      },
+      {
         "name": "SecurityCTF (reddit)",
         "links": [
           {
