@@ -10,6 +10,14 @@
       "online": "False"
     },
     {
+      "name": "BruteX",
+      "source": "https://github.com/1N3/BruteX",
+      "description": "Tool using nmap and hydra to automatically bruteforce network service accounts",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CapAnalysis",
       "website": "http://www.capanalysis.net",
       "source": "https://sourceforge.net/projects/capanalysis/",
