@@ -62,6 +62,14 @@
       "online": "False"
     },
     {
+      "name": "Tool-X",
+      "source": "https://github.com/Rajkumrdusad/Tool-X",
+      "description": "Kali linux hacking tool installer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "v0lt",
       "source": "https://github.com/P1kachu/v0lt",
       "description": "CTF toolkit / framework",
