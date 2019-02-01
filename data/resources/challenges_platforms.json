@@ -91,6 +91,16 @@
       "price": "Free"
     },
     {
+      "name": "Exploit Education",
+      "links": [
+        {
+          "website": "http://exploit.education/"
+        }
+      ],
+      "description": "Exercises and resources about vulnerability analysis, exploit development, software debugging, binary analysis, and general cyber security issues",
+      "price": "Free"
+    },
+    {
       "name": "Exploit Exercises",
       "links": [
         {
