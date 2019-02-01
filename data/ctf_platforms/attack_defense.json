@@ -16,6 +16,14 @@
       "price": "Free"
     },
     {
+      "name": "OCCP",
+      "website": "https://opencyberchallenge.net/",
+      "source": "https://github.com/OpenCyberChallengePlatform/OccpGameserver",
+      "description": "Attack-defence training platform for Network Defense, Penetration Testing, Digital Forensics, Secure Programming, Incident Response, Malware Analysis scenarios; supports Virtual Scenario Network, Gray Team, Red Team, Blue Team, White Team; game server and administrative VM; including a scenario package",
+      "language": "Ruby",
+      "price": "Free"
+    },
+    {
       "name": "tin_foil_hat",
       "source": "https://github.com/jollheef/tin_foil_hat",
       "description": "Attack-defence CTF platform",
