@@ -179,6 +179,14 @@
       "online": "False"
     },
     {
+      "name": "SiteBroker",
+      "source": "https://github.com/Anon-Exploiter/SiteBroker",
+      "description": "Tool for information gathering and penetration test automation",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sn1per",
       "source": "https://github.com/1N3/Sn1per",
       "description": "Automated reconnaissance scanner",
