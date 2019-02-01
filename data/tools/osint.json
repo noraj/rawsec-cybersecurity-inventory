@@ -204,6 +204,14 @@
       "online": "False"
     },
     {
+      "name": "Th3inspector",
+      "source": "https://github.com/Moham3dRiahi/Th3inspector",
+      "description": "Multi-purpose information gathering tool",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "tinfoleak",
       "source": "https://github.com/vaguileradiaz/tinfoleak",
       "description": "Twitter intelligence analysis tool",
