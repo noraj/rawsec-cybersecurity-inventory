@@ -204,6 +204,14 @@
       "online": "False"
     },
     {
+      "name": "tinfoleak",
+      "source": "https://github.com/vaguileradiaz/tinfoleak",
+      "description": "Twitter intelligence analysis tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "trape",
       "source": "https://github.com/jofpin/trape",
       "description": "Analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time",
