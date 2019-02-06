@@ -45,6 +45,9 @@
       "links": [
         {
           "website": "https://gtfobins.github.io/"
+        },
+        {
+          "source": "https://github.com/GTFOBins/GTFOBins.github.io"
         }
       ],
       "description": "Curated list/cheatsheet of Unix binaries that can be exploited by an attacker to bypass local security restrictions, obtain shells, read files",
