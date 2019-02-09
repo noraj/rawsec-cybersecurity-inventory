@@ -21,7 +21,7 @@
       "website": "https://any.run/",
       "description": "Online virtual machine for malware hunting, sandbox with interactive access, real-time data-flow",
       "price": "Free",
-      "online": "Online"
+      "online": "True"
     },
     {
       "name": "Apk2Gold",
