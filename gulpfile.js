@@ -18,8 +18,8 @@ task('build',
         series(pug_data, pug_src),
         series(api_clean, api_build, api_copy),
         parallel(
-            bulma, tablefilter, sweetalert2, jquery, js, fontawesome, font_mfizz,
-            images
+            bulma, bulmajs, tablefilter, sweetalert2, jquery, js, fontawesome,
+            font_mfizz, images
 )));
 task('build').description = 'Build the static website';
 task('default', series('clean', 'build'));
@@ -89,6 +89,11 @@ function bulma() {
         .pipe(sass())
         .pipe(dest('build/css/vendor/bulma/'));
 };
+
+function bulmajs() {
+    return src('node_modules/@vizuaalog/bulmajs/dist/navbar.js')
+        .pipe(dest('build/js/vendor/bulmajs/'));
+  };
 
 function tablefilter() {
     return src('node_modules/tablefilter/dist/tablefilter/**/*',

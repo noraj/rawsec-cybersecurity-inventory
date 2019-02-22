@@ -30,6 +30,7 @@
   "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README",
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@vizuaalog/bulmajs": "^0.8.1",
     "bulma": "^0.7.2",
     "del": "^3.0.0",
     "font-mfizz": "^2.4.1",
