@@ -1,0 +1,11 @@
+{
+  "tools": [
+    {
+      "name": "DejaVU",
+      "source": "https://github.com/bhdresh/Dejavu",
+      "description": "Deception framework which can be used to deploy decoys across the infrastructure",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
