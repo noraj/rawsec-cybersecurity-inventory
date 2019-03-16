@@ -1,0 +1,30 @@
+mixin tool_plugins(item)
+    tr(id=item.name)
+        td= item.name
+        td= item.tool
+        if item.website
+            td
+                a(href=item.website class='website-link') [Website]
+        else
+            td
+        if item.source
+            td
+                a(href=item.source class='source-link') [Source]
+        else
+            td
+        if item.description
+            td= item.description
+        else
+            td
+        if item.language
+            td= item.language
+        else
+            td
+        if item.price
+            td= item.price
+        else
+            td
+        if item.online
+            td= item.online
+        else
+            td

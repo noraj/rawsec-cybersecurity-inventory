@@ -1,0 +1,49 @@
+{
+  "tools": [
+    {
+      "name": "AWS Extender",
+      "tool": "Burp Suite",
+      "source": "https://github.com/VirtueSecurity/aws-extender",
+      "description": "Identify and test S3 buckets, Google Storage buckets and Azure Storage containers for common misconfiguration",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "GEF",
+      "tool": "GDB",
+      "source": "https://github.com/hugsy/gef",
+      "description": "GDB Enhanced Features, multi-architecture",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PEDA",
+      "tool": "GDB",
+      "source": "https://github.com/longld/peda",
+      "description": "Python Exploit Development Assistance, (only python2.7)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Pwndbg",
+      "tool": "GDB",
+      "source": "https://github.com/pwndbg/pwndbg",
+      "description": "enhance GDB, for exploit development and reverse engineering",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "XSSor",
+      "tool": "Burp Suite",
+      "source": "https://github.com/Quitten/XSSor",
+      "description": "semi-automatic reflected and persistent XSS scanner",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}

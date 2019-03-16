@@ -163,14 +163,6 @@
       "online": "False"
     },
     {
-      "name": "GEF",
-      "source": "https://github.com/hugsy/gef",
-      "description": "GDB Enhanced Features, multi-architecture GDB plugin",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Hiew",
       "website": "http://www.hiew.ru/",
       "description": "x86_64 disassembler for multiple formats",
@@ -325,14 +317,6 @@
       "name": "Plasma",
       "source": "https://github.com/plasma-disassembler/plasma",
       "description": "x86/ARM/MIPS interactive disassembler",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "Pwndbg",
-      "source": "https://github.com/pwndbg/pwndbg",
-      "description": "enhance GDB, GDB plugin",
       "language": "Python",
       "price": "Free",
       "online": "False"

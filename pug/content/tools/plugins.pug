@@ -1,0 +1,15 @@
+include ../../mixins/tool_plugins.pug
+table.table#tools-plugins
+    thead
+        tr
+            th Name
+            th For
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+            th Online
+    tbody
+        each tool in tools.plugins.tools
+            +tool_plugins(tool)
