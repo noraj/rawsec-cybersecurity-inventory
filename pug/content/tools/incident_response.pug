@@ -1,0 +1,14 @@
+include ../../mixins/tool.pug
+table.table#tools-incident-response
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+            th Online
+    tbody
+        each tool in tools.incident_response.tools
+            +tool(tool)

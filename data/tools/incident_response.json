@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "DFIRTrack",
+      "source": "https://github.com/stuhli/dfirtrack",
+      "description": "Incident response tracking web application, focused on handling one major incident with a lot of affected systems",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
