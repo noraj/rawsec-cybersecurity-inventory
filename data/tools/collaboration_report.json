@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "Archery",
+      "website": "https://archerysec.info/",
+      "source": "https://github.com/archerysec/archerysec",
+      "description": "Vulnerability Assessment and Management tool, run scan and manage vulnerabilities",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DART",
       "source": "https://github.com/lmco/dart",
       "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
