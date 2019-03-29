@@ -49,6 +49,12 @@
       "link": "http://www.caine-live.net/"
     },
     {
+      "os": "CommandoVM",
+      "base": "Windows",
+      "description": "script to configure a Windows VM and install security tools on it; penetration testing and security lab",
+      "link": "https://github.com/fireeye/commando-vm"
+    },
+    {
       "os": "Cyborg Essentials",
       "base": "Debian",
       "description": "penetration testing and security lab",
