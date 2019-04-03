@@ -36,6 +36,15 @@
       "online": "False"
     },
     {
+      "name": "hackOx",
+      "website": "https://hackox.net/",
+      "source": "https://github.com/deantonious/hackox",
+      "description": "Modular web based pentesting interface designed to run on Raspberry Pi",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Kvasir",
       "source": "https://github.com/KvasirSecurity/Kvasir",
       "description": "Pentest data management tool",
