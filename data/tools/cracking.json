@@ -85,6 +85,14 @@
       "online": "False"
     },
     {
+      "name": "Mentalist",
+      "source": "https://github.com/sc0tfree/mentalist",
+      "description": "Graphical tool for custom wordlist generation, can output rules compatible with Hashcat and John the Ripper",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Ncrack",
       "website": "https://nmap.org/ncrack/",
       "source": "https://github.com/nmap/ncrack",
