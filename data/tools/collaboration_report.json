@@ -18,6 +18,15 @@
       "online": "False"
     },
     {
+      "name": "DefectDojo",
+      "website": "https://www.defectdojo.org/",
+      "source": "https://github.com/DefectDojo/django-DefectDojo",
+      "description": "Vulnerability management application built for DevOps and continuous security integration",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Dradis",
       "website": "https://dradisframework.com/",
       "source": "https://github.com/dradis/dradis-ce",
