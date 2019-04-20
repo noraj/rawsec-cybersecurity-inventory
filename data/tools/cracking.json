@@ -126,6 +126,14 @@
       "online": "False"
     },
     {
+      "name": "pnwgen",
+      "source": "https://github.com/toxydose/pnwgen",
+      "description": "Phone number wordlist generator",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "TTPassGen",
       "source": "https://github.com/tp7309/TTPassGen",
       "description": "Flexiable and scriptable password dictionary generator",
