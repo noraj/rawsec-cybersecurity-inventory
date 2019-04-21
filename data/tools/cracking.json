@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "CeWL",
+      "source": "https://github.com/digininja/CeWL",
+      "description": "Custom wordlist generator based on website crawling",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cracklord",
       "website": "http://jmmcatee.github.io/cracklord/",
       "source": "https://github.com/jmmcatee/cracklord",
