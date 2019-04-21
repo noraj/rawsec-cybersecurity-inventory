@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Bopscrk",
+      "source": "https://github.com/R3nt0n/bopscrk",
+      "description": "Before Outset PaSsword CRacKing, password wordlist generator with exclusive features like lyrics based mode",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CeWL",
       "source": "https://github.com/digininja/CeWL",
       "description": "Custom wordlist generator based on website crawling",
