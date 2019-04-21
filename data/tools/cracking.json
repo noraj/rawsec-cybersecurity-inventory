@@ -25,6 +25,14 @@
       "price": "Free",
       "online": "False"
     },
+   {
+      "name": "CUPP",
+      "source": "https://github.com/Mebus/cupp",
+      "description": "Common User Passwords Profiler, wordlist generator based on user profiling",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
     {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
