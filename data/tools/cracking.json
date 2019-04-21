@@ -10,6 +10,14 @@
       "online": "False"
     },
     {
+      "name": "crunch",
+      "source": "https://sourceforge.net/projects/crunch-wordlist/",
+      "description": "Wordlist generator",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
       "description": "Management frontend for password cracking tools, supporting hashcat",
@@ -136,7 +144,7 @@
     {
       "name": "TTPassGen",
       "source": "https://github.com/tp7309/TTPassGen",
-      "description": "Flexiable and scriptable password dictionary generator",
+      "description": "Flexiable and scriptable password dictionary/wordlist generator",
       "language": "Python",
       "price": "Free",
       "online": "False"
