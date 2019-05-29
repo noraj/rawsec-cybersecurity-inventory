@@ -60,6 +60,13 @@
       "price": "Free"
     },
     {
+      "name": "CTFDashB",
+      "source": "https://github.com/Abdulwahaab710/CTFDashB",
+      "description": "Dockerized CTF platform",
+      "language": "Ruby",
+      "price": "Free"
+    },
+    {
       "name": "CTFlex",
       "source": "https://github.com/PACTF/pactf",
       "description": "Jeopardy CTF framework with some unique features",
@@ -168,6 +175,13 @@
       "price": "Free"
     },
     {
+      "name": "miniCTF",
+      "source": "https://github.com/DivyanshuSahu/miniCTF",
+      "description": "Simple CTF platform looking like CTFd",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "MITRE CTF Scoreboard",
       "source": "https://github.com/mitre-cyber-academy/ctf-scoreboard",
       "description": "Fully featured Jeopardy CTF platform",
@@ -179,6 +193,13 @@
       "source": "https://github.com/UnrealAkama/NightShade",
       "description": "Simple Jeopardy CTF platform",
       "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "nihctfplat",
+      "source": "https://github.com/remexre/nihctfplat",
+      "description": "Simple CTF platform",
+      "language": "Rust",
       "price": "Free"
     },
     {
@@ -208,6 +229,13 @@
       "source": "https://github.com/PoliCTF/polictf-server",
       "description": "Jeopardy CTF platform",
       "language": "Cplusplus",
+      "price": "Free"
+    },
+    {
+      "name": "r8",
+      "source": "https://github.com/mhils/r8",
+      "description": "Very simple CTF platform, no advanced features",
+      "language": "Python",
       "price": "Free"
     },
     {
@@ -292,10 +320,17 @@
       "price": "Free"
     },
     {
+      "name": "YACF",
+      "source": "https://github.com/0xCODEs/YACF",
+      "description": "Yet Another CTF Framework, dockerized CTF platform using modern technologies",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "YuktiCTF",
       "website": "https://chirathr.com/#portfolio",
       "source": "https://github.com/chirathr/YuktiCTF",
-      "description": "Jeopardy CTF platform, based on CTFd and adds an intractive UI along with an RPG style game",
+      "description": "Jeopardy CTF platform, based on CTFd and adds an interactive UI along with an RPG style game",
       "language": "Python",
       "price": "Free"
     }
