@@ -1,0 +1,157 @@
+extend layout/layout.pug
+
+block content
+    section.section
+    .container
+        .content
+            h2.title.is-2#about Submit
+
+            form#submit_form
+                // type
+                .field.is-horizontal#type
+                    .field-label Type
+                    .field-body
+                        .field
+                            .control
+                                .select.is-primary
+                                    select(name='type')
+                                        option(value='') - Select -
+                                        option(value='tool') Tool
+                                        option(value='resource') Resource
+                                        option(value='ctf_platform') CTF platform
+                                        option(value='operating_system') Operating System
+                // categories
+                .field.is-horizontal
+                    .field-label Category
+                    .field-body
+                        .field.is-hidden#category_tool
+                            .control
+                                .select.is-primary
+                                    select(name='category')
+                                        option(value='') - Select -
+                                        option(value='binary_exploitation') Binary Exploitation
+                                        option(value='bug_bounty') Bug Bounty
+                                        option(value='code_analysis') Code Analysis
+                                        option(value='collaboration_and_report') Collaboration and Report
+                                        option(value='configuration_audit') Configuration audit
+                                        option(value='cracking') Cracking
+                                        option(value='cryptography') Cryptography
+                                        option(value='digital_forensics') Digital Forensics
+                                        option(value='honeypot_and_decoy') Honeypot and Decoy
+                                        option(value='incident_response') Incident Response
+                                        option(value='intentionally_vulnerable_applications') Intentionally Vulnerable Applications
+                                        option(value='networking') Networking
+                                        option(value='osint_and_reconnaissance') OSINT and Reconnaissance
+                                        option(value='other') Other
+                                        option(value='plugins') Plugins
+                                        option(value='reverse_engineering') Reverse Engineering
+                                        option(value='steganography') Steganography
+                                        option(value='system_exploitation') System Exploitation
+                                        option(value='threat_intelligence') Threat Intelligence
+                                        option(value='vulnerability_assessment') Vulnerability Assessment
+                                        option(value='web_application_exploitation') Web Application Exploitation
+                                        option(value='wireless') Wireless
+                        .field.is-hidden#category_resource
+                            .control
+                                .select.is-primary
+                                    select(name='category')
+                                        option(value='') - Select -
+                                        option(value='bug_bounty_and_disclosure_platforms') Bug bounty and disclosure platforms
+                                        option(value='challenges_platforms') Challenges platforms
+                                        option(value='cve') CVE
+                                        option(value='events') Events
+                                        option(value='information') Information
+                                        option(value='knowledge_and_tools') Knowledge and tools
+                                        option(value='national_security_agencies_and_services') National security agencies and services
+                                        option(value='non_english') Non english
+                                        option(value='trainings_and_courses') Trainings and courses
+                                        option(value='tutorials') Tutorials
+                                        option(value='writeups_collections_and_challenges_source') Writeups collections and challenges source
+                        .field.is-hidden#category_ctf_platform
+                            .control
+                                .select.is-primary
+                                    select(name='category')
+                                        option(value='') - Select -
+                                        option(value='attack_defense') Attack-Defense
+                                        option(value='hybrid') Hybrid
+                                        option(value='jeopardy') Jeopardy
+                        .field.is-hidden#category_operating_system
+                            .control
+                                .select.is-primary
+                                    select(name='category')
+                                        option(value='') - Select -
+                                        option(value='maintained') Maintained
+                                        option(value='no_more_maintained') No more maintained
+                                        option(value='project_transferred') Project transferred
+                // elements/entries
+                .field.is-horizontal
+                    .field-label New entry
+                    .field-body
+                        .field.is-hidden#entry_name
+                            label.label Name
+                            .control
+                                input.input.is-primary(type='text' placeholder='Name')
+                        .field.is-hidden#entry_os
+                            label.label OS
+                            .control
+                                input.input.is-primary(type='text' placeholder='OS')
+                        .field.is-hidden#entry_for
+                            label.label For
+                            .control
+                                input.input.is-primary(type='text' placeholder='For')
+                        .field.is-hidden#entry_based_on
+                            label.label Based on
+                            .control
+                                input.input.is-primary(type='text' placeholder='Based on')
+                        .field.is-hidden#entry_language
+                            label.label Language
+                            .control
+                                input.input.is-primary(type='text' placeholder='Language')
+                        .field.is-hidden#entry_country
+                            label.label Country
+                            .control
+                                input.input.is-primary(type='text' placeholder='Country')
+                        .field.is-hidden#entry_website
+                            label.label Website
+                            .control
+                                input.input.is-primary(type='text' placeholder='Website')
+                        .field.is-hidden#entry_source
+                            label.label Source
+                            .control
+                                input.input.is-primary(type='text' placeholder='Source')
+                        .field.is-hidden#entry_description
+                            label.label Description
+                            .control
+                                textarea.textarea.is-primary(placeholder='Description')
+                        .field.is-hidden#entry_programming_language
+                            label.label Programming language
+                            .control
+                                input.input.is-primary(type='text' placeholder='Programming language')
+                        .field.is-hidden#entry_price
+                            label.label Price
+                            .control
+                                .select.is-primary
+                                    select(name='price')
+                                        option(value='') - Select -
+                                        option(value='free') Free
+                                        option(value='paid') Paid
+                        .field.is-hidden#entry_from
+                            label.label From
+                            .control
+                                input.input.is-primary(type='text' placeholder='From')
+                        .field.is-hidden#entry_to
+                            label.label To
+                            .control
+                                input.input.is-primary(type='text' placeholder='To')
+                .field.is-grouped
+                    .control
+                        button.button.is-primary Submit
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+
+block optional-script
+    // Make the form conditionally expose fields
+    script(src='js/conditional-form.js')
