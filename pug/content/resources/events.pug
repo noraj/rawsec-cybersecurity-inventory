@@ -1,4 +1,4 @@
-include ../../mixins/resources_events.pug
+include ../../mixins/resources_generic.pug
 table.table#resources-events
     thead
         tr
@@ -8,4 +8,4 @@ table.table#resources-events
             th Price
     tbody
         each resource in resources.events.resources
-            +resources_events(resource)
+            +resources_generic(resource)
