@@ -4,12 +4,26 @@ block content
     section.section
     .container
         .content
+
+            .notification.is-success.is-hidden
+                button.delete
+                span This message should not be displayed.
+
             h2.title.is-2#about Submit
 
-            form#submit_form
+            p Please fill in the most information you can, then submit.
+                |  It will automatically open a new issue on GitLab.
+            p More involved persons can also use this form for preview only
+                |  and manually submit entries into a Merge Request (MR).
+            p Contribution Guidelines can be found 
+                a(href='https://inventory.rawsec.ml/docs/docs/en/add/') here
+                | .
+
+            //- We keep a form and not a div because jQuery serializeArray() works only for forms
+            form.box.has-text-weight-semibold.is-size-5#submit_form
                 // type
                 .field.is-horizontal#type
-                    .field-label Type
+                    .field-label.is-normal Type
                     .field-body
                         .field
                             .control
@@ -22,7 +36,7 @@ block content
                                         option(value='operating_system') Operating System
                 // categories
                 .field.is-horizontal
-                    .field-label Category
+                    .field-label.is-normal Category
                     .field-body
                         .field.is-hidden#category_tool
                             .control
@@ -85,48 +99,48 @@ block content
                                         option(value='project_transferred') Project transferred
                 // elements/entries
                 .field.is-horizontal
-                    .field-label New entry
+                    .field-label.is-normal New entry
                     .field-body
                         .field.is-hidden#entry_name
                             label.label Name
                             .control
-                                input.input.is-primary(type='text' placeholder='Name')
+                                input.input.is-primary(type='text' name='name' placeholder='Name')
                         .field.is-hidden#entry_os
                             label.label OS
                             .control
-                                input.input.is-primary(type='text' placeholder='OS')
+                                input.input.is-primary(type='text' name='os' placeholder='OS')
                         .field.is-hidden#entry_for
                             label.label For
                             .control
-                                input.input.is-primary(type='text' placeholder='For')
+                                input.input.is-primary(type='text' name='tool' placeholder='For')
                         .field.is-hidden#entry_based_on
                             label.label Based on
                             .control
-                                input.input.is-primary(type='text' placeholder='Based on')
+                                input.input.is-primary(type='text' name='base' placeholder='Based on')
                         .field.is-hidden#entry_language
                             label.label Language
                             .control
-                                input.input.is-primary(type='text' placeholder='Language')
+                                input.input.is-primary(type='text' name='language' placeholder='Language')
                         .field.is-hidden#entry_country
                             label.label Country
                             .control
-                                input.input.is-primary(type='text' placeholder='Country')
+                                input.input.is-primary(type='text' name='country' placeholder='Country')
                         .field.is-hidden#entry_website
                             label.label Website
                             .control
-                                input.input.is-primary(type='text' placeholder='Website')
+                                input.input.is-primary(type='text' name='website' placeholder='Website')
                         .field.is-hidden#entry_source
                             label.label Source
                             .control
-                                input.input.is-primary(type='text' placeholder='Source')
+                                input.input.is-primary(type='text' name='source' placeholder='Source')
                         .field.is-hidden#entry_description
                             label.label Description
                             .control
-                                textarea.textarea.is-primary(placeholder='Description')
+                                textarea.textarea.is-primary(name='description' placeholder='Description')
                         .field.is-hidden#entry_programming_language
                             label.label Programming language
                             .control
-                                input.input.is-primary(type='text' placeholder='Programming language')
+                                input.input.is-primary(type='text' name='programming_language' placeholder='Programming language')
                         .field.is-hidden#entry_price
                             label.label Price
                             .control
@@ -138,14 +152,21 @@ block content
                         .field.is-hidden#entry_from
                             label.label From
                             .control
-                                input.input.is-primary(type='text' placeholder='From')
+                                input.input.is-primary(type='text' name='from' placeholder='From')
                         .field.is-hidden#entry_to
                             label.label To
                             .control
-                                input.input.is-primary(type='text' placeholder='To')
-                .field.is-grouped
+                                input.input.is-primary(type='text' name='to' placeholder='To')
+                .field.is-grouped.is-grouped-centered
                     .control
-                        button.button.is-primary Submit
+                        button.button.is-dark(type='button') Preview
+                    .control
+                        button.button.is-danger.is-outlined(type='reset') Reset
+                    .control
+                        button.button.is-primary(type='submit') Submit
+            .box
+                pre
+                    code.is-hidden.is-family-code
 
 block hero-foot
     .hero-foot

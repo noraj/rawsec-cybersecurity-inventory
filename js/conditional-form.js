@@ -1,4 +1,4 @@
-// requires JQuery
+// requires jQuery
 $(document).ready(function(){
   // independent field elements
   var type = $('#submit_form select[name=type]');
@@ -33,6 +33,8 @@ $(document).ready(function(){
     entry_website_parent,entry_source_parent,entry_description_parent,
     entry_programming_language_parent,entry_price_parent,entry_from_parent,
     entry_to_parent], a => [...$.makeArray(a)]));
+  // other element out of the form
+  var code = $('code');
   // Conditional logic
   type.change(function(){ // when the type changes
     var value=this.value;
@@ -108,4 +110,67 @@ $(document).ready(function(){
       operating_system_generic.removeClass('is-hidden');
     }
   });
+  // add more power to the reset button
+  $('button[type=reset]').on('click',function(){
+    // reset code
+    code.text('');
+    code.addClass('is-hidden');
+    // hide notification
+    hideNotification();
+    // hide all categories and entries
+    category_parents.addClass('is-hidden');
+    entry_parents.addClass('is-hidden');
+  });
+  // preview code
+  $('button[type=button]').on('click',function(){
+    // put data in the code tag
+    code.text(retrieveData());
+    code.removeClass('is-hidden');
+  });
 });
+// prevent form submission
+$('form').submit(function(e){
+  e.preventDefault();
+  submitForm();
+});
+// sending form logic
+function submitForm(){
+  $.ajax({
+    type: 'POST',
+    url: 'https://hooks.zapier.com/hooks/catch/4221939/v90qr9/',
+    data: retrieveData(),
+    success: function(){},
+    dataType: 'json',
+    // contentType : 'application/json' <-- problems with CORS
+  });
+  // push notification
+  var notification = $('.notification span');
+  notification.text('Your submission has been sent!');
+  notification.parent().removeClass('is-hidden');
+}
+// serializeArray => key:value
+// https://stackoverflow.com/questions/1184624/convert-form-data-to-javascript-object-with-jquery#answer-1186309
+function objectifyForm(formArray) {//serialize data function
+
+  var returnArray = {};
+  for (var i = 0; i < formArray.length; i++){
+    returnArray[formArray[i]['name']] = formArray[i]['value'];
+  }
+  return returnArray;
+}
+// hide notification
+function hideNotification(){
+  $('.notification').addClass('is-hidden');
+}
+// hide notification on click on delete button
+$(document).on('click', '.notification > button.delete', function() {
+  hideNotification();
+  return false;
+});
+// retrieve data
+function retrieveData(){
+  var rawFormData = $("#submit_form :input:not(:hidden)").serializeArray();
+  var formatedFormData = objectifyForm(rawFormData);
+  var jsonFormData = JSON.stringify(formatedFormData,null,'  ');
+  return jsonFormData;
+}
