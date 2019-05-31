@@ -16,6 +16,7 @@ title: Adding a tool/resource
 - Find the right JSON file in the `data/` folder and add your tool or resource, it's easy
   + Example 1: `data/tools/osint.json` for an OSINT tool
   + Example 2: `data/ctf_platforms/jeopardy.json` for a jeopardy CTF platform
+- Don't forget to add yourself to `CONTRIBUTORS.txt` if it is your first contribution
 
 Example of JSON data for a tool:
 
