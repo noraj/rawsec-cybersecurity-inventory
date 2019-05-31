@@ -282,3 +282,16 @@ This isn't necessary, but the name of this branch shows its rather special purpo
 ### You did it!
 
 You now have the skills to contribute to open source projects across the web. Go forth and build!
+
+## Alternative submit form
+
+For people afraid of git, I created a web form to submit a new entry (tool, resource, OS, etc.).
+
+This alternative is not recommended for the following reasons:
+
+- The generated JSON is not perfect, it is just a draft to give an idea of what is expected.
+- Submitting an entry via this web form is not a proper contribution, it will just open an issue on GitLab with the draft JSON.
+- This will add extra work for project maintainers as they will have to modify the JSON and manually merge it in the right data file.
+- The Free plan of [Zapier](https://zapier.com/app/billing/plans/) only allow 100 tasks per month, so the maximum of submission using this web form will be limited.
+
+So you are a **strongly** encouraged to contribute either with the GitLab WebUI or using the `git` CLI.
