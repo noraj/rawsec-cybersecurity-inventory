@@ -51,7 +51,95 @@ Fork the repository by clicking on the fork button on the top of the page. This 
 
 ![](https://i.imgur.com/CyP9V2e.png)
 
-### Clone the repository
+### Working with GitLab WebUI
+
+#### Choose a working branch and file
+
+Go to your newly created fork project.
+
+![](https://i.imgur.com/uVpxvVp.png)
+
+Switch to the dev branch.
+
+![](https://i.imgur.com/4Q6ZzzB.png)
+
+Navigate to a data file, let's say `data/tools/incident_response.json`, and then open the Web IDE.
+
+![](https://i.imgur.com/x94T20G.png)
+
+#### Committing
+
+Make your awesome contribution and then click **Commit**.
+
+![](https://i.imgur.com/bwpnMvp.png)
+
+**Note**: You can modify several files before committing.
+
+Here, you can see the change you made.
+
+![](https://i.imgur.com/sk5QFQH.png)
+
+Like with the CLI you can stage or discard modifications.
+
+![](https://i.imgur.com/aZMSebh.png)
+
+Then if you click **Commit** again, you will have several choices for your commit:
+
+- Add a customized commit message
+- Commit to your current branch (the `dev` of your fork)
+- Create a new branch based on your current branch (the `dev` of your fork) that will contain your new commit
+- Start a new merge request (MR)
+
+![](https://i.imgur.com/1gEshFg.png)
+
+Typically for a quick contribution you can commit to your dev branch but if your are working on several different massive changes you can create separated branches.
+
+For a quick contribution check *Start a new merge request* to directly open a merge request (MR), else you can make several commits before opening a merge request (MR).
+
+#### Request for a merge
+
+If you checked *Start a new merge request*, you'll be redirected to a the *New Merge Request* page.
+
+![](https://i.imgur.com/AqlLffw.png)
+
+You must write a title and a description.
+You may reference a related issue.
+
+Then you'll have to choose the source and target branch.
+
+![](https://i.imgur.com/uHCvaaX.png)
+
+The source branch will be `dev` in most of the cases but you'll have to change the target branch to `dev` because merging directly to the `master` branch is forbidden.
+
+So click the *Change branches* link, you will be redirected to this page:
+
+![](https://i.imgur.com/lbQ7rbn.png)
+
+Change the target branch to `dev`.
+
+Then click *Compare branches and continue*.
+
+At the bottom of the page, you can see the commits you are about to include in your merge request (MR).
+
+![](https://i.imgur.com/hCeaTQO.png)
+
+You can also see the changes brought by your commits.
+
+![](https://i.imgur.com/CpBuQGU.png)
+
+When you feel ready, you can *Submit merge request*.
+
+![](https://i.imgur.com/GEpIUI6.png)
+
+We strongly recommend to check *Allow commits from members who can merge to the target branch*, so members will be able to fix some bugs or typo before merging, else they will have to make you change request or merge your work with errors and then fix it with a separate commit.
+
+#### Be sure to base your work on an up-to-date branch
+
+Once you have a fork, you will also be able to directly edit files from the pârent project, but when committing, instead of being added to the parent project, your changes will be added to an automatically generated new branch of your fork that will be automatically checkout from the current branch. This way you don't need to [Keep your fork synced with this repository](#keeping-your-fork-synced-with-this-repository).
+
+### Working with CLI
+
+#### Clone the repository
 
 Now clone your forked repository to your machine. Go to the clone area and then click the copy to clipboard icon.
 
@@ -73,7 +161,7 @@ git clone git@gitlab.com:your_pseudo/rawsec-cybersecurity-list.git
 
 where `your_pseudo` is your GitLab username. Here you're copying the contents of the forked repository in GitLab to your computer.
 
-### Create a branch
+#### Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
@@ -93,7 +181,7 @@ For example:
 git checkout -b add-my-tool
 ```
 
-### Make necessary changes and commit those changes
+#### Make necessary changes and commit those changes
 
 Now open `CONTRIBUTORS.txt` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
 
@@ -111,7 +199,7 @@ replacing `<your-name>` with your name.
 
 You can add a tool or resource on `data/` and do the same process again.
 
-### Push changes to GitLab
+#### Push changes to GitLab
 
 Push your changes using the command `git push`:
 
@@ -121,7 +209,7 @@ git push origin <branch-name>
 
 replacing <branch-name> with the name of the branch you created earlier.
 
-### Submit your changes for review
+#### Submit your changes for review
 
 If you go to your repository on GitLab, you can go to `Merge Requests` on the left sidebar and then click `New merge request`.
 
@@ -143,7 +231,7 @@ Soon someone will be merging all your changes into the dev and the master branch
 
 The master branch of your fork won't have the changes. In order to keep your fork synchronized with the original repository, follow the steps below.
 
-### Keeping your fork synced with this repository
+#### Keeping your fork synced with this repository
 
 First, switch to the master branch.
 
