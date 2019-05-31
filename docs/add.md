@@ -135,7 +135,7 @@ We strongly recommend to check *Allow commits from members who can merge to the 
 
 #### Be sure to base your work on an up-to-date branch
 
-Once you have a fork, you will also be able to directly edit files from the pârent project, but when committing, instead of being added to the parent project, your changes will be added to an automatically generated new branch of your fork that will be automatically checkout from the current branch. This way you don't need to [Keep your fork synced with this repository](#keeping-your-fork-synced-with-this-repository).
+Once you have a fork, you will also be able to directly edit files from the parent project, but when committing, instead of being added to the parent project, your changes will be added to an automatically generated new branch of your fork that will be automatically checkout from the current branch. This way you don't need to [Keep your fork synced with this repository](#keeping-your-fork-synced-with-this-repository).
 
 ### Working with CLI
 
