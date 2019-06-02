@@ -1,6 +1,8 @@
 This file contains a list of people who have made large contributions.
 
 Original website design and content:
-    Alexandre ZANNI
+    Alexandre ZANNI (@noraj)
 Content and improvements:
-    Alexandre PETILLON
+    Alexandre PETILLON (@secnum)
+    Ryan DEWHURST (@ethicalhack3r)
+    ??? (@surround3)
