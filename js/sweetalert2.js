@@ -37,7 +37,7 @@ function addRowHandlers() {
         var github_user = res[1];
         var github_repo = res[2];
         xhr2json(`https://api.github.com/repos/${github_user}/${github_repo}`, function(json_data){
-          Swal({
+          Swal.fire({
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -72,7 +72,7 @@ function addRowHandlers() {
         var gitlab_user = res[1];
         var gitlab_repo = res[2];
         xhr2json(`https://gitlab.com/api/v4/projects/${gitlab_user}%2F${gitlab_repo}`, function(json_data){
-          Swal({
+          Swal.fire({
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -104,7 +104,7 @@ function addRowHandlers() {
         var bitbucket_user = res[1];
         var bitbucket_repo = res[2];
         xhr2json(`https://api.bitbucket.org/2.0/repositories/${bitbucket_user}/${bitbucket_repo}`, function(json_data){
-          Swal({
+          Swal.fire({
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -154,7 +154,7 @@ function addRowHandlers() {
         }
 
         xhr2json(`https://sourceforge.net/rest/p/${sourceforge_project}`, function(json_data){
-          Swal({
+          Swal.fire({
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
