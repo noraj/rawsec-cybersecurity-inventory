@@ -64,6 +64,19 @@
       "price": "Free"
     },
     {
+      "name": "LOLBAS",
+      "links": [
+        {
+          "website": "https://lolbas-project.github.io/"
+        },
+        {
+          "source": "https://github.com/LOLBAS-Project/LOLBAS"
+        }
+      ],
+      "description": "Living Off The Land Binaries and Scripts; Curated list/cheatsheet of Windows binaries that can be exploited by an attacker to bypass local security restrictions, obtain shells, read files",
+      "price": "Free"
+    },
+    {
       "name": "MD5 maxmin record",
       "links": [
         {
