@@ -179,6 +179,13 @@
       "online": "False"
     },
     {
+      "name": "SearchDNS",
+      "website": "https://searchdns.netcraft.com/",
+      "description": "Netcraft tool; Search and find information for domains and subdomains",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "SiteBroker",
       "source": "https://github.com/Anon-Exploiter/SiteBroker",
       "description": "Tool for information gathering and penetration test automation",
