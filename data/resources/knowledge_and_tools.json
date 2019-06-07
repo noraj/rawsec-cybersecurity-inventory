@@ -31,6 +31,16 @@
       "price": "Free"
     },
     {
+      "name": "GHDB",
+      "links": [
+        {
+          "website": "https://www.exploit-db.com/google-hacking-database"
+        }
+      ],
+      "description": "Google Hacking Database; Collection of google dorks",
+      "price": "Free"
+    },
+    {
       "name": "Guifre",
       "links": [
         {
