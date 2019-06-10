@@ -31,7 +31,7 @@ test:doc:
 pages:
   stage: deploy
   script:
-    - npm install gulp-cli -g
+    - npm install gulp-cli netlify-cli -g
     - npm install # inventory dependencies
     - gulp # build the inventory
     - mkdir public
@@ -40,6 +40,8 @@ pages:
     - npm install # documentation dependencies
     - npm run build # build the documentation
     - cp -rT build/ ../public # copying the documentation
+    - cd ..
+    - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
   artifacts:
     paths:
       - public
