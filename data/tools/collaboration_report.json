@@ -10,6 +10,13 @@
       "online": "False"
     },
     {
+      "name": "AttackForge.com",
+      "website": "https://attackforge.com/",
+      "description": "Penetration test collaboration platform: vulnerability management and reporting",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "DART",
       "source": "https://github.com/lmco/dart",
       "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
@@ -100,6 +107,23 @@
       "source": "https://github.com/pavanw3b/sh00t",
       "description": "Pentesting platform with dynamic task manager, checklists, bug template & bug report",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "vcr",
+      "source": "https://github.com/Shellntel/vcr",
+      "description": "Vulnerability Compliance Report; parse Nessus CIS benchmark scan files and generate HTML reports",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "vuldash",
+      "website": "https://www.vuldash.com/",
+      "source": "https://github.com/talsoft/vuldash",
+      "description": "Vulnerability Dashboard; vulnerability management, project management and report generation",
+      "language": "PHP",
       "price": "Free",
       "online": "False"
     },

@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "BountyDash",
+      "source": "https://github.com/avlidienbrunn/bountydash",
+      "description": "Dashboard to combine rewards from all platforms, giving insights about progress and bug hunting patterns",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bountyplz",
       "source": "https://github.com/fransr/bountyplz",
       "description": "Automated bug bounty reporting/submission, supports HackerOne and Bugcrowd",
