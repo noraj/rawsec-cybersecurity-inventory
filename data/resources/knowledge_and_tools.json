@@ -11,6 +11,19 @@
       "price": "Free"
     },
     {
+      "name": "Bugcrowd University",
+      "links": [
+        {
+          "website": "https://www.bugcrowd.com/hackers/bugcrowd-university/"
+        },
+        {
+          "source": "https://github.com/bugcrowd/bugcrowd_university"
+        }
+      ],
+      "description": "Modules with slides, videos and sometimes labs to learn web security",
+      "price": "Free"
+    },
+    {
       "name": "ctf-tools",
       "links": [
         {
@@ -84,6 +97,16 @@
         }
       ],
       "description": "Living Off The Land Binaries and Scripts; Curated list/cheatsheet of Windows binaries that can be exploited by an attacker to bypass local security restrictions, obtain shells, read files",
+      "price": "Free"
+    },
+    {
+      "name": "Malware Traffic Analysis",
+      "links": [
+        {
+          "website": "https://www.malware-traffic-analysis.net/"
+        }
+      ],
+      "description": "Malware traffic analysis blog and pastebin posts with pcap and malware samples attached; traffic analysis exercises",
       "price": "Free"
     },
     {

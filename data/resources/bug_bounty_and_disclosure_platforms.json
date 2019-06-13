@@ -61,13 +61,13 @@
       "price": "Free"
     },
     {
-      "name": "SSD",
+      "name": "SSD Secure Disclosure",
       "links": [
         {
-          "website": "https://blogs.securiteam.com/"
+          "website": "https://ssd-disclosure.com/"
         }
       ],
-      "description": "SecuriTeam.com Secure Disclosure",
+      "description": "Rewarded responsible disclosure service",
       "price": "Free"
     },
     {
@@ -78,6 +78,16 @@
         }
       ],
       "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "Zero Day Initiative",
+      "links": [
+        {
+          "website": "https://www.zerodayinitiative.com/"
+        }
+      ],
+      "description": "Rewarded responsible disclosure service",
       "price": "Free"
     },
     {

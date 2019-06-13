@@ -57,6 +57,15 @@
       "online": "False"
     },
     {
+      "name": "bearparser",
+      "website": "https://hshrzd.wordpress.com/pe-bear/",
+      "source": "https://github.com/hasherezade/bearparser",
+      "description": "PE parsing library (from PE-bear)",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Binary Ninja",
       "website": "https://binary.ninja/",
       "description": "Crossplatform binary analysis framework",
@@ -296,6 +305,13 @@
       "name": "OllyDbg",
       "website": "http://www.ollydbg.de/",
       "description": "Windows debugger",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Pe-bear",
+      "website": "https://hshrzd.wordpress.com/pe-bear/",
+      "description": "PE reverse tool: recognizes packers, fast disassembler, visualization of sections layout, selective comparing of two chosen PE files",
       "price": "Free",
       "online": "False"
     },

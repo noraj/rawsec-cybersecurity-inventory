@@ -8,7 +8,7 @@
         }
       ],
       "description": "Cyber Security learning, training and certification",
-      "price": "Free"
+      "price": "Paid"
     },
     {
       "name": "PentestAcademy",
@@ -19,6 +19,16 @@
       ],
       "description": "Cyber Security training with an online lab",
       "price": "Paid"
+    },
+    {
+      "name": "Portswigger Web Security Academy",
+      "links": [
+        {
+          "website": "https://portswigger.net/web-security"
+        }
+      ],
+      "description": "Web Security training with an online lab",
+      "price": "Free"
     },
     {
       "name": "SANS",

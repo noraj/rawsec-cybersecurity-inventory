@@ -2,8 +2,9 @@
   "tools": [
     {
       "name": "Amass",
+      "website": "https://www.owasp.org/index.php/OWASP_Amass_Project",
       "source": "https://github.com/caffix/amass",
-      "description": "Tool for subdomain enumeration",
+      "description": "DNS enumeration and network mapping tool suite: scraping, recursive brute forcing, crawling web archives, reverse DNS sweeping",
       "language": "Go",
       "price": "Free",
       "online": "False"
@@ -29,6 +30,22 @@
       "website": "https://datasploit.github.io/datasploit/",
       "source": "https://github.com/DataSploit/datasploit",
       "description": "OSINT framework, find, aggregate and export data",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "dnsenum",
+      "source": "https://github.com/fwaeytens/dnsenum",
+      "description": "DNS reconnaissance tool: AXFR, DNS records enumeration, subdomain bruteforce, range reverse lookup",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "DNSRecon",
+      "source": "https://github.com/darkoperator/dnsrecon",
+      "description": "DNS reconnaissance tool: AXFR, DNS records enumeration, TLD expansion, wildcard resolution, subdomain bruteforce, PTR record lookup, check for cached records",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -154,6 +171,14 @@
       "online": "False"
     },
     {
+      "name": "Recon-ng",
+      "source": "https://bitbucket.org/LaNMaSteR53/recon-ng/",
+      "description": "Web-based reconnaissance tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Reconnoitre",
       "source": "https://github.com/codingo/Reconnoitre",
       "description": "Tool made to automate information gathering and service enumeration while storing results",
@@ -223,6 +248,14 @@
       "source": "https://github.com/Moham3dRiahi/Th3inspector",
       "description": "Multi-purpose information gathering tool",
       "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "theHarvester",
+      "source": "https://github.com/laramies/theHarvester",
+      "description": "Multi-purpose information gathering tool: emails, names, subdomains, IPs, URLs",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
