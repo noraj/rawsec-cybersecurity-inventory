@@ -3,7 +3,7 @@
     {
       "name": "Amass",
       "website": "https://www.owasp.org/index.php/OWASP_Amass_Project",
-      "source": "https://github.com/caffix/amass",
+      "source": "https://github.com/OWASP/Amass/",
       "description": "DNS enumeration and network mapping tool suite: scraping, recursive brute forcing, crawling web archives, reverse DNS sweeping",
       "language": "Go",
       "price": "Free",
