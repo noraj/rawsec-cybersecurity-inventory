@@ -49,6 +49,14 @@
       "language": "Rust",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "wpBullet",
+      "source": "https://github.com/webarx-security/wpbullet",
+      "description": "Static code analysis for WordPress Plugins and Themes (and PHP)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
