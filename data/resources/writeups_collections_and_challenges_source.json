@@ -21,6 +21,19 @@
       "price": "Free"
     },
     {
+      "name": "Pwning OWASP Juice Shop",
+      "links": [
+        {
+          "website": "https://leanpub.com/juice-shop"
+        },
+        {
+          "source": "https://legacy.gitbook.com/book/bkimminich/pwning-owasp-juice-shop/details"
+        }
+      ],
+      "description": "Official companion guide to the OWASP Juice Shop",
+      "price": "Free"
+    },
+    {
       "name": "pwntools writeups",
       "links": [
         {

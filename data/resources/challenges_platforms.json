@@ -274,6 +274,19 @@
       "price": "Free"
     },
     {
+      "name": "OWASP Juice Shop",
+      "links": [
+        {
+          "website": "http://owasp-juice.shop"
+        },
+        {
+          "source": "https://github.com/bkimminich/juice-shop"
+        }
+      ],
+      "description": "Probably the most modern and sophisticated insecure web application",
+      "price": "Free"
+    },
+    {
       "name": "PentesterLab",
       "links": [
         {

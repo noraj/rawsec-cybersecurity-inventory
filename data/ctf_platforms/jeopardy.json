@@ -218,6 +218,13 @@
       "price": "Free"
     },
     {
+      "name": "OWASP Juice Shop CTF Extension",
+      "source": "https://www.npmjs.com/package/juice-shop-ctf-cli",
+      "description": "CTF environment setup tools for OWASP Juice Shop",
+      "language": "JavaScript",
+      "price": "Free"
+    },
+    {
       "name": "PicoCTF Platform 2",
       "source": "https://github.com/picoCTF/picoCTF-Platform-2",
       "description": "Jeopardy CTF platform",
