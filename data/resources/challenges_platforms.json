@@ -277,13 +277,13 @@
       "name": "OWASP Juice Shop",
       "links": [
         {
-          "website": "http://owasp-juice.shop"
+          "website": "http://demo.owasp-juice.shop"
         },
         {
           "source": "https://github.com/bkimminich/juice-shop"
         }
       ],
-      "description": "Probably the most modern and sophisticated insecure web application",
+      "description": "Online demo instance of the OWASP Juice Shop",
       "price": "Free"
     },
     {

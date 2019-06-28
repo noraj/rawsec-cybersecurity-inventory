@@ -219,8 +219,9 @@
     },
     {
       "name": "OWASP Juice Shop CTF Extension",
-      "source": "https://www.npmjs.com/package/juice-shop-ctf-cli",
-      "description": "CTF environment setup tools for OWASP Juice Shop",
+      "website": "https://www.npmjs.com/package/juice-shop-ctf-cli",
+      "source": "https://github.com/bkimminich/juice-shop-ctf",
+      "description": "CTF environment setup tools for OWASP Juice Shop; supports CTFd and FBCTF",
       "language": "JavaScript",
       "price": "Free"
     },

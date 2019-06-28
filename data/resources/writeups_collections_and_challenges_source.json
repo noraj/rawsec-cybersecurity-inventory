@@ -24,10 +24,10 @@
       "name": "Pwning OWASP Juice Shop",
       "links": [
         {
-          "website": "https://leanpub.com/juice-shop"
+          "website": "https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/"
         },
         {
-          "source": "https://legacy.gitbook.com/book/bkimminich/pwning-owasp-juice-shop/details"
+          "source": "https://github.com/bkimminich/pwning-juice-shop"
         }
       ],
       "description": "Official companion guide to the OWASP Juice Shop",

@@ -45,6 +45,15 @@
       "online": "False"
     },
     {
+      "name": "OWASP Juice Shop",
+      "website": "http://owasp-juice.shop",
+      "source": "https://github.com/bkimminich/juice-shop",
+      "description": "Insecure web application with >85 challenges; supports CTFs, custom themes, tutorial mode etc.",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OWASP Mutillidae II",
       "website": "https://www.owasp.org/index.php/OWASP_Mutillidae_2_Project",
       "source": "https://sourceforge.net/projects/mutillidae/?source=navbar",
