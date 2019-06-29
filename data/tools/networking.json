@@ -11,7 +11,7 @@
     {
       "name": "bettercap",
       "website": "http://www.bettercap.org/",
-      "source": "https://github.com/evilsocket/bettercap",
+      "source": "https://github.com/bettercap/bettercap",
       "description": "MITM framework",
       "language": "Ruby",
       "price": "Free",
