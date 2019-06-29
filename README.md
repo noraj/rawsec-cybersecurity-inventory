@@ -27,6 +27,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![ethicalhack3r](https://img.shields.io/badge/ethicalhack3r-Contributor-FF5050.svg)](https://gitlab.com/ethicalhack3r)
 [![secnum](https://img.shields.io/badge/secnum-Contributor-FF5050.svg)](https://gitlab.com/secnum)
 [![surround3](https://img.shields.io/badge/surround3-Contributor-FF5050.svg)](https://gitlab.com/surround3)
+[![bkimminich](https://img.shields.io/badge/bkimminich-Contributor-FF5050.svg)](https://gitlab.com/bkimminich)
 
 ### About
 

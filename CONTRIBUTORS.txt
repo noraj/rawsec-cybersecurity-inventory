@@ -6,3 +6,4 @@ Content and improvements:
     Alexandre PETILLON (@secnum)
     Ryan DEWHURST (@ethicalhack3r)
     ??? (@surround3)
+    Björn Kimminich (@bkimminich)
