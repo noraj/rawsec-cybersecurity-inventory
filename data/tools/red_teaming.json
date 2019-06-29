@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "Sliver",
+      "source": "https://github.com/BishopFox/sliver",
+      "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
