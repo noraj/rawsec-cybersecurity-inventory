@@ -18,6 +18,15 @@
       "online": "False"
     },
     {
+      "name": "bettercap web UI",
+      "website": "http://www.bettercap.org/",
+      "source": "https://github.com/bettercap/ui",
+      "description": "Web UI for bettercap",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BruteX",
       "source": "https://github.com/1N3/BruteX",
       "description": "Tool using nmap and hydra to automatically bruteforce network service accounts",
