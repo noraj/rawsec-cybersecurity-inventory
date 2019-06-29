@@ -141,6 +141,16 @@
       ],
       "description": "The penetration testing execution standard covers all steps related to a penetration test",
       "price": "Free"
+    },
+    {
+      "name": "SSL Checklist for Pentesters (Explore Security)",
+      "links": [
+        {
+          "website": "http://www.exploresecurity.com/wp-content/uploads/custom/SSL_manual_cheatsheet.html"
+        }
+      ],
+      "description": "List of SSL/TLS checks that can be performed manually with OpenSSL or a web browser",
+      "price": "Free"
     }
   ]
 }
