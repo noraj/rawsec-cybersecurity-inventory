@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "Kage",
+      "source": "https://github.com/WayzDev/Kage",
+      "description": "Graphical user interface for Metasploit Meterpreter and session handler",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool",
