@@ -7,6 +7,14 @@
       "language": "Go",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "fireELF",
+      "source": "https://github.com/rek7/fireELF",
+      "description": "Fileless linux malware framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
