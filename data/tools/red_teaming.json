@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "fireELF",
+      "source": "https://github.com/rek7/fireELF",
+      "description": "Fileless linux malware framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool",
@@ -9,10 +17,10 @@
       "online": "False"
     },
     {
-      "name": "fireELF",
-      "source": "https://github.com/rek7/fireELF",
-      "description": "Fileless linux malware framework",
-      "language": "Python",
+      "name": "UBoat",
+      "source": "https://github.com/Souhardya/UBoat",
+      "description": "HTTP botnet PoC",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     }
