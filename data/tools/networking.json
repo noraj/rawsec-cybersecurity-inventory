@@ -220,6 +220,22 @@
       "online": "False"
     },
     {
+      "name": "WebMap v1",
+      "source": "https://github.com/PunitTailor55/WebMap",
+      "description": "A web dashboard for nmap XML report",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "WebMap v2",
+      "source": "https://github.com/Nazicc/WebMap",
+      "description": "A web dashboard for nmap XML report",
+      "language": "https://github.com/Nazicc/WebMap",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Whonow",
       "source": "https://github.com/brannondorsey/whonow",
       "description": "DNS Server for executing DNS Rebinding attacks",
