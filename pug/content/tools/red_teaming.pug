@@ -1,0 +1,14 @@
+include ../../mixins/tool.pug
+table.table#tools-red-teaming
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+            th Online
+    tbody
+        each tool in tools.red_teaming.tools
+            +tool(tool)
