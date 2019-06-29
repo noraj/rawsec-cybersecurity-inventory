@@ -17,9 +17,17 @@
       "online": "False"
     },
     {
+      "name": "Pupy",
+      "source": "https://github.com/n1nj4sec/pupy",
+      "description": "Cross-platform, multi function remote access tool (RAT) and post-exploitation tool; fileless/all-in-memory execution, low footprint, multi-transport",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
-      "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool",
+      "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
       "language": "Go",
       "price": "Free",
       "online": "False"
