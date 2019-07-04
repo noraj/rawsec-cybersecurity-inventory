@@ -195,6 +195,14 @@
       "online": "False"
     },
     {
+      "name": "ReconScan",
+      "source": "https://github.com/RoliSoft/ReconScan",
+      "description": "Network reconnaissance and vulnerability assessment tools",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Red Team Arsenal",
       "source": "https://github.com/flipkart-incubator/RTA",
       "description": "Automated reconnaissance scanner and security checks",
