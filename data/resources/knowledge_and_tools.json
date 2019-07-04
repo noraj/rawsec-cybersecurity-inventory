@@ -151,6 +151,19 @@
       ],
       "description": "List of SSL/TLS checks that can be performed manually with OpenSSL or a web browser",
       "price": "Free"
+    },
+    {
+      "name": "VRT",
+      "links": [
+        {
+          "website": "https://bugcrowd.com/vrt"
+        },
+        {
+          "source": "https://github.com/bugcrowd/vulnerability-rating-taxonomy"
+        }
+      ],
+      "description": "Bugcrowd Vulnerability Rating Taxonomy (VRT) provides a baseline vulnerability priority scale for bug hunters and organizations",
+      "price": "Free"
     }
   ]
 }
