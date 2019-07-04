@@ -10,6 +10,14 @@
       "online": "False"
     },
     {
+      "name": "AutoRecon",
+      "source": "https://github.com/Tib3rius/AutoRecon",
+      "description": "Multi-threaded network reconnaissance tool which performs automated enumeration of services",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "badKarma",
       "source": "https://github.com/r3vn/badKarma",
       "description": "Advanced network reconnaissance tool",
