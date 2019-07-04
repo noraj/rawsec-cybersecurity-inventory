@@ -51,6 +51,14 @@
       "online": "False"
     },
     {
+      "name": "dnsenum2",
+      "source": "https://github.com/SparrowOchon/dnsenum2",
+      "description": "Continuation of dnsenum project",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DNSRecon",
       "source": "https://github.com/darkoperator/dnsrecon",
       "description": "DNS reconnaissance tool: AXFR, DNS records enumeration, TLD expansion, wildcard resolution, subdomain bruteforce, PTR record lookup, check for cached records",
