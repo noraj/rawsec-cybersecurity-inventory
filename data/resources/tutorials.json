@@ -65,6 +65,19 @@
       ],
       "description": "Tutorial to set up NIZKCTF",
       "price": "Free"
+    },
+    {
+      "name": "Xapax IT-Security Notebook",
+      "links": [
+        {
+          "website": "https://xapax.gitbooks.io/security/content/"
+        },
+        {
+          "source": "https://legacy.gitbook.com/book/xapax/security/details"
+        }
+      ],
+      "description": "Overview guide for all kind of pentesting",
+      "price": "Free"
     }
   ]
 }
