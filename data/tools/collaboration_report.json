@@ -129,6 +129,14 @@
       "online": "False"
     },
     {
+      "name": "SwiftnessX",
+      "source": "https://github.com/ehrishirajsharma/SwiftnessX",
+      "description": "Cross-platform note-taking and target-tracking app for penetration testers",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "vcr",
       "source": "https://github.com/Shellntel/vcr",
       "description": "Vulnerability Compliance Report; parse Nessus CIS benchmark scan files and generate HTML reports",
