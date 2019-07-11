@@ -30,6 +30,15 @@
       "online": "True"
     },
     {
+      "name": "itdis",
+      "website": "https://noraj.gitlab.io/itdis/",
+      "source": "https://gitlab.com/noraj/itdis",
+      "description": "Is This Domain In Scope; a small tool that allows you to check if a list of domains you have been provided is in the scope of your pentest or not",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Metasploit",
       "website": "https://www.metasploit.com/",
       "source": "https://github.com/rapid7/metasploit-framework",
