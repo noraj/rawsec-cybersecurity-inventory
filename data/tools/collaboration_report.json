@@ -87,6 +87,15 @@
       "online": "False"
     },
     {
+      "name": "OSCP Exam Report Template in Markdown",
+      "website": "https://noraj.github.io/OSCP-Exam-Report-Template-Markdown",
+      "source": "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown",
+      "description": "Markdown templates for OSCP exam report",
+      "language": "Markdown",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OWASP PenText",
       "website": "https://www.owasp.org/index.php/OWASP_PenText_Project",
       "source": "https://github.com/radicallyopensecurity/pentext",
