@@ -86,6 +86,15 @@
       "online": "False"
     },
     {
+      "name": "PatrOwl",
+      "website": "https://patrowl.io/",
+      "source": "https://github.com/Patrowl/PatrowlManager",
+      "description": "Security operations orchestration and continuous threat management platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Prithvi",
       "website": "https://www.vegabird.com/prithvi/",
       "source": "https://github.com/vegabird/prithvi",
