@@ -78,6 +78,15 @@
       "online": "False"
     },
     {
+      "name": "MISP",
+      "website": "http://misp-project.org/",
+      "source": "https://github.com/MISP/",
+      "description": "Malware Information Sharing Platform, an Open Source threat intelligence plateform and open standards for threat information sharing",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OWASP PenText",
       "website": "https://www.owasp.org/index.php/OWASP_PenText_Project",
       "source": "https://github.com/radicallyopensecurity/pentext",
@@ -142,15 +151,6 @@
       "source": "https://github.com/salesforce/vulnreport",
       "description": "Pentesting management and automation platform",
       "language": "Ruby",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "MISP",
-      "website": "http://misp-project.org/",
-      "source": "https://github.com/MISP/",
-      "description": "Malware Information Sharing Platform, an Open Source threat intelligence plateform and open standards for threat information sharing",
-      "language": "PHP",
       "price": "Free",
       "online": "False"
     }
