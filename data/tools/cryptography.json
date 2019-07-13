@@ -32,6 +32,14 @@
       "online": "False"
     },
     {
+      "name": "hashID",
+      "source": "https://github.com/psypanda/hashID",
+      "description": "Identify the different types of hashes",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PkCrack",
       "website": "https://www.unix-ag.uni-kl.de/%7Econrad/krypto/pkcrack.html",
       "description": "Tool for breaking PkZip encryption",
