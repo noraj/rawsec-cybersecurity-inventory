@@ -41,6 +41,16 @@
       "price": "Free"
     },
     {
+      "name": "Cobalt.io",
+      "links": [
+        {
+          "website": "https://cobalt.io/"
+        }
+      ],
+      "description": "Pentest as a Service platform, registrant will be a cobalt.io employee (take care to obligation of loyalty if you already have a job)",
+      "price": "Free"
+    },
+    {
       "name": "FireBounty",
       "links": [
         {
