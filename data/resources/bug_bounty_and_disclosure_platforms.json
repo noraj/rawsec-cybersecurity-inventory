@@ -141,6 +141,16 @@
       "price": "Free"
     },
     {
+      "name": "Zerocopter",
+      "links": [
+        {
+          "website": "https://www.zerocopter.com/"
+        }
+      ],
+      "description": "Invite-only and closed bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "ZeroDisclo.com",
       "links": [
         {
