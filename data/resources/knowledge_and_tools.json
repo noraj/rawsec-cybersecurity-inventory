@@ -34,6 +34,16 @@
       "price": "Free"
     },
     {
+      "name": "DefaultPassword",
+      "links": [
+        {
+          "website": "https://default-password.info/"
+        }
+      ],
+      "description": "Default passwords for many devices and services",
+      "price": "Free"
+    },
+    {
       "name": "Forensics Wiki",
       "links": [
         {
