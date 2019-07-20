@@ -61,6 +61,16 @@
       "price": "Free"
     },
     {
+      "name": "HackenProof",
+      "links": [
+        {
+          "website": "https://hackenproof.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "HackerOne",
       "links": [
         {
@@ -71,10 +81,10 @@
       "price": "Free"
     },
     {
-      "name": "HackenProof",
+      "name": "HackTrophy",
       "links": [
         {
-          "website": "https://hackenproof.com/"
+          "website": "https://hacktrophy.com/"
         }
       ],
       "description": "Bug bounty platform",
