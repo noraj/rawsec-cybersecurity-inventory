@@ -11,7 +11,17 @@
       "price": "Free"
     },
     {
-      "name": "bugcrowd",
+      "name": "BugBounty.jp",
+      "links": [
+        {
+          "website": "https://bugbounty.jp/"
+        }
+      ],
+      "description": "Japan bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "Bugcrowd",
       "links": [
         {
           "website": "https://www.bugcrowd.com/"
