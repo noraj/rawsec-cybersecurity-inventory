@@ -11,6 +11,19 @@
       "price": "Free"
     },
     {
+      "name": "Bug Bounty Guide",
+      "links": [
+        {
+          "website": "https://bugbountyguide.com/"
+        },
+        {
+          "source": "https://github.com/EdOverflow/bugbountyguide"
+        }
+      ],
+      "description": "Launchpad for bug bounty programs and bug bounty hunters",
+      "price": "Free"
+    },
+    {
       "name": "ctf-tools",
       "links": [
         {
