@@ -23,6 +23,17 @@
       "price": "Free"
     },
     {
+      "name": "Pentest Blog",
+      "language": "English",
+      "links": [
+        {
+          "website": "https://pentest.blog/"
+        }
+      ],
+      "description": "Blog targeting pentesters: security advisories, OS, appsec, network, tools, articles",
+      "price": "Free"
+    },
+    {
       "name": "Security List Network",
       "language": "English",
       "links": [
