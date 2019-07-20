@@ -131,6 +131,16 @@
       "price": "Free"
     },
     {
+      "name": "SynAck Red Team",
+      "links": [
+        {
+          "website": "https://www.synack.com/red-team/"
+        }
+      ],
+      "description": "Pentest as a Service platform, registrant will be a SynAck employee (take care to obligation of loyalty if you already have a job)",
+      "price": "Free"
+    },
+    {
       "name": "Yogosha",
       "links": [
         {
