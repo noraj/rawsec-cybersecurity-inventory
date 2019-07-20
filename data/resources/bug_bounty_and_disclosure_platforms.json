@@ -1,6 +1,16 @@
 {
   "resources": [
     {
+      "name": "AntiHACK",
+      "links": [
+        {
+          "website": "https://www.antihack.me/"
+        }
+      ],
+      "description": "Singapore bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "Bounty Factory",
       "links": [
         {
@@ -45,6 +55,26 @@
       "links": [
         {
           "website": "https://www.hackerone.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "HackenProof",
+      "links": [
+        {
+          "website": "https://hackenproof.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "Intigriti",
+      "links": [
+        {
+          "website": "https://www.intigriti.com/public/"
         }
       ],
       "description": "Bug bounty platform",
