@@ -10,7 +10,7 @@
           "source": "https://github.com/bugcrowd/bugcrowd_university"
         }
       ],
-      "description": "Modules with slides, videos and sometimes labs to learn web security",
+      "description": "Modules with slides, videos and sometimes labs to learn web security, by Bugcrowd",
       "price": "Free"
     },
     {
@@ -22,6 +22,19 @@
       ],
       "description": "Cyber Security learning, training and certification",
       "price": "Paid"
+    },
+    {
+      "name": "Hacker101",
+      "links": [
+        {
+          "website": "https://www.hacker101.com/"
+        },
+        {
+          "source": "https://github.com/Hacker0x01/hacker101"
+        }
+      ],
+      "description": "Class for web security targeting bug bounty hunters and security professionals, with video lessons and a CTF platform, by HackerOne",
+      "price": "Free"
     },
     {
       "name": "PentestAcademy",
