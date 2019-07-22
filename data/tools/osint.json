@@ -10,6 +10,15 @@
       "online": "False"
     },
     {
+      "name": "Aquatone",
+      "website": "https://michenriksen.com/blog/aquatone-now-in-go/",
+      "source": "https://github.com/michenriksen/aquatone",
+      "description": "Domain flyover tool; visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "AutoRecon",
       "source": "https://github.com/Tib3rius/AutoRecon",
       "description": "Multi-threaded network reconnaissance tool which performs automated enumeration of services",
