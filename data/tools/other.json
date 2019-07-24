@@ -30,6 +30,14 @@
       "online": "True"
     },
     {
+      "name": "Interlace",
+      "source": "https://github.com/codingo/Interlace",
+      "description": "Turn single threaded command line applications into a multi-threaded application with CIDR and glob support",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "itdis",
       "website": "https://noraj.gitlab.io/itdis/",
       "source": "https://gitlab.com/noraj/itdis",
