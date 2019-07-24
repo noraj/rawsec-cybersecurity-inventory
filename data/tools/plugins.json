@@ -46,6 +46,15 @@
       "online": "False"
     },
     {
+      "name": "Stepper",
+      "tool": "Burp Suite",
+      "source": "https://github.com/CoreyD97/Stepper",
+      "description": "Evolution of Burp Suite's Repeater tool, providing the ability to create sequences of steps and define regular expressions to extract values from responses",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "XSSor",
       "tool": "Burp Suite",
       "source": "https://github.com/Quitten/XSSor",
