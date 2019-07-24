@@ -186,6 +186,14 @@
       "online": "False"
     },
     {
+      "name": "sandmap",
+      "source": "https://github.com/trimstray/sandmap",
+      "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Scapy",
       "website": "https://scapy.net/",
       "source": "https://github.com/secdev/scapy/",
