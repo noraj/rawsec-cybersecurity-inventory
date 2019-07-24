@@ -79,6 +79,14 @@
       "online": "False"
     },
     {
+      "name": "Seccubus",
+      "source": "https://github.com/seccubus/seccubus",
+      "description": "Vulnerability scanning, reporting and analysis",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Tool-X",
       "source": "https://github.com/Rajkumrdusad/Tool-X",
       "description": "Kali linux hacking tool installer",
