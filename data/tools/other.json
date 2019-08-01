@@ -80,6 +80,7 @@
     },
     {
       "name": "Seccubus",
+      "website": "https://www.seccubus.com/",
       "source": "https://github.com/seccubus/seccubus",
       "description": "Vulnerability scanning, reporting and analysis",
       "language": "JavaScript",
