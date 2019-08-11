@@ -56,6 +56,15 @@
       "online": "False"
     },
     {
+      "name": "OpenVAS",
+      "website": "http://www.openvas.org/",
+      "source": "https://github.com/greenbone/openvas",
+      "description": "Open Vulnerability Assessment Scanner",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PentestBox",
       "website": "https://pentestbox.org/",
       "source": "https://github.com/pentestbox",
