@@ -58,6 +58,14 @@
       "online": "False"
     },
     {
+      "name": "rekall (Fireeye fork)",
+      "source": "https://github.com/fireeye/win10_rekall",
+      "description": "Fork of rekall with support for Windows 10 memory compression",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ResourcesExtract",
       "website": "http://www.nirsoft.net/utils/resources_extract.html",
       "description": "Scans dll/ocx/exe files and extract all resources found, Windows only",
@@ -77,6 +85,14 @@
       "website": "http://www.volatilityfoundation.org/",
       "source": "https://github.com/volatilityfoundation/volatility",
       "description": "Volatile memory extraction utility",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "volatility (Fireeye fork)",
+      "source": "https://github.com/fireeye/win10_volatility",
+      "description": "Fork of volatility with support for Windows 10 memory compression",
       "language": "Python",
       "price": "Free",
       "online": "False"
