@@ -1,4 +1,5 @@
 [![pipeline status](https://gitlab.com/rawsec/rawsec-cybersecurity-list/badges/master/pipeline.svg)](https://gitlab.com/rawsec/rawsec-cybersecurity-list/commits/master)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dec1c085-13da-4dd4-b547-7740015226cb/deploy-status)](https://app.netlify.com/sites/rawsec-cybersecurity-inventory/deploys)
 [![GitHub license](https://img.shields.io/github/license/noraj/rawsec-cybersecurity-inventory.svg)](https://gitlab.com/rawsec/rawsec-cybersecurity-list/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/437247125508587540.svg?style=flat&logo=discord)](https://discord.gg/Wspwv2h)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/noraj/rawsec-cybersecurity-inventory.svg)
