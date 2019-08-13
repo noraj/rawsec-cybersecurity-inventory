@@ -161,13 +161,6 @@
       "price": "Free"
     },
     {
-      "name": "Lucid-Dev CTF-Scoreboard",
-      "source": "https://github.com/Lucid-Dev/CTF-Scoreboard",
-      "description": "Jeopardy CTF platform",
-      "language": "Python",
-      "price": "Free"
-    },
-    {
       "name": "Mellivora",
       "source": "https://github.com/Nakiami/mellivora",
       "description": "Fully featured Jeopardy CTF platform",
