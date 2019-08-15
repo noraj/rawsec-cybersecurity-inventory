@@ -228,6 +228,22 @@
       "online": "False"
     },
     {
+      "name": "SNMP Brute",
+      "source": "https://github.com/SECFORCE/SNMP-Brute",
+      "description": "SNMP brute force, enumeration, CISCO config downloader and password cracking script",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "snmpbw.pl",
+      "source": "https://github.com/dheiland-r7/snmp",
+      "description": "Multithreaded script for bulk walking targeted host systems for SNMP data",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ssh-audit",
       "source": "https://github.com/arthepsy/ssh-audit",
       "description": "SSH scanner that detects protocol, version, grab banner, recognize software and operating system, output algorithm information and recommendations",
