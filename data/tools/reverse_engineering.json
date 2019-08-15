@@ -171,6 +171,15 @@
       "price": "Free",
       "online": "False"
     },
+   {
+      "name": "Ghidra",
+      "website": "https://ghidra-sre.org/",
+      "source": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Software reverse engineering (SRE) suite of tools: disassembly, assembly, decompilation, graphing, scripting, etc.",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
     {
       "name": "Hiew",
       "website": "http://www.hiew.ru/",
