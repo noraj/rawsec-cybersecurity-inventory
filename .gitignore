@@ -26,6 +26,9 @@ docusaurus/node_modules/
 # Optional npm cache directory
 .npm
 
+# Netlify
+.netlify/state.json
+
 # Other
 .DS_Store
 .idea/
