@@ -487,6 +487,16 @@
       "price": "Free"
     },
     {
+      "name": "TryHackMe",
+      "links": [
+        {
+          "website": "https://tryhackme.com/"
+        }
+      ],
+      "description": "Challenge platform with deployable machines; there are also tutorials and courses",
+      "price": "Free"
+    },
+    {
       "name": "TryThis0ne",
       "links": [
         {
