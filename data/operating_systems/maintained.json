@@ -97,12 +97,6 @@
       "link": "https://www.kali.org/"
     },
     {
-      "os": "Knoppix",
-      "base": "Debian",
-      "description": "penetration testing and security lab",
-      "link": "http://knoppix.net/"
-    },
-    {
       "os": "Linux Kodachi",
       "base": "Debian",
       "description": "privacy and anonymity",
@@ -191,12 +185,6 @@
       "base": "Thinstation",
       "description": "privacy and anonymity",
       "link": "https://www.spi.dod.mil/lipose.htm"
-    },
-    {
-      "os": "URIX OS",
-      "base": "openSUSE",
-      "description": "penetration testing and security lab",
-      "link": "http://urix.us/"
     },
     {
       "os": "WEAKERTHAN Linux",
