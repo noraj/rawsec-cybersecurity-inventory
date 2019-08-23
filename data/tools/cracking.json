@@ -102,6 +102,14 @@
       "online": "False"
     },
     {
+      "name": "lyricpass",
+      "source": "https://github.com/initstring/lyricpass",
+      "description": "Tool to generate wordlists based on lyrics",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Medusa",
       "website": "http://foofus.net/goons/jmk/medusa/medusa.html",
       "description": "Network login cracker",
