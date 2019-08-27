@@ -98,7 +98,7 @@
     },
     {
       "os": "Linux Kodachi",
-      "base": "Debian",
+      "base": "Xubuntu",
       "description": "privacy and anonymity",
       "link": "https://www.digi77.com/linux-kodachi/"
     },
