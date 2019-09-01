@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "Aperi'Solve",
+      "website": "https://aperisolve.fr/",
+      "source": "https://github.com/Zeecka/AperiSolve/",
+      "description": "Steganalysis web platform with layer, zsteg, steghide and exiftool analysis",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Audacity",
       "website": "http://www.audacityteam.org/",
       "source": "https://sourceforge.net/projects/audacity/",
