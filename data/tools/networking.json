@@ -67,6 +67,15 @@
       "online": "False"
     },
     {
+      "name": "Hydra",
+      "website": "https://www.thc.org/thc-hydra/",
+      "source": "https://github.com/vanhauser-thc/thc-hydra",
+      "description": "Network login cracker",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "kalitorify",
       "source": "https://github.com/brainfucksec/kalitorify",
       "description": "Script for Kali Linux which use iptables settings to create a transparent proxy through Tor Network",
@@ -79,6 +88,30 @@
       "source": "https://github.com/robertdavidgraham/masscan",
       "description": "Port scanner for massive networks",
       "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Medusa",
+      "website": "http://foofus.net/goons/jmk/medusa/medusa.html",
+      "description": "Network login cracker",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Medusa-gui",
+      "source": "https://github.com/Tak31337/medusa-gui",
+      "description": "GUI for Medusa",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Ncrack",
+      "website": "https://nmap.org/ncrack/",
+      "source": "https://github.com/nmap/ncrack",
+      "description": "Reliable and adaptative network login cracker supporting a large number of protocols",
+      "language": "Cplusplus",
       "price": "Free",
       "online": "False"
     },
@@ -138,6 +171,14 @@
       "online": "False"
     },
     {
+      "name": "Nozzlr",
+      "source": "https://github.com/intrd/nozzlr",
+      "description": "Multithreaded and modular bruteforce framework with network templates",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "onesixtyone",
       "source": "https://github.com/trailofbits/onesixtyone",
       "description": "SNMP scanner",
@@ -164,6 +205,14 @@
       "name": "PacketWhisper",
       "source": "https://github.com/TryCatchHCF/PacketWhisper",
       "description": "Stealthy Data exfiltration via DNS, without the need for attacker-controlled Name Servers or domain",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Patator",
+      "source": "https://github.com/lanjelot/patator",
+      "description": "Multi-protocol bruteforce tool",
       "language": "Python",
       "price": "Free",
       "online": "False"
