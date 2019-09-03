@@ -187,7 +187,7 @@
       "link": "https://www.spi.dod.mil/lipose.htm"
     },
     {
-      "os": "WEAKERTHAN Linux",
+      "os": "WeakNet Linux",
       "base": "Debian",
       "description": "penetration testing and security lab",
       "link": "http://www.weaknetlabs.com"
