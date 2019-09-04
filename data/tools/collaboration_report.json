@@ -2,7 +2,7 @@
   "tools": [
     {
       "name": "Archery",
-      "website": "https://archerysec.info/",
+      "website": "https://archerysec.com/",
       "source": "https://github.com/archerysec/archerysec",
       "description": "Vulnerability Assessment and Management tool, run scan and manage vulnerabilities",
       "language": "Python",
