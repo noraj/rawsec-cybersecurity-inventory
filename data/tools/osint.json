@@ -269,6 +269,14 @@
       "online": "False"
     },
     {
+      "name": "Stalker",
+      "source": "https://gitlab.com/Pxmme/stalker",
+      "description": "Automated scanning of social networks and other websites, using a single nickname",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sublist3r",
       "source": "https://github.com/aboul3la/Sublist3r",
       "description": "Subdomains enumeration tool",
