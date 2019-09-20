@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "discover",
+      "source": "https://github.com/leebaird/discover",
+      "description": "Scripts used to automate various penetration testing tasks including recon, scanning, parsing, and creating malicious payloads and listeners with Metasploit",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Firefox Monitor",
       "website": "https://monitor.firefox.com/",
       "description": "Service to check if an account has been compromised in a data breach",
