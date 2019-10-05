@@ -140,6 +140,16 @@
       "price": "Free"
     },
     {
+      "name": "Portswigger - XSS cheat sheet",
+      "links": [
+        {
+          "website": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"
+        }
+      ],
+      "description": "XSS cheat sheet containing many vectors that can help bypassing WAFs and filters",
+      "price": "Free"
+    },
+    {
       "name": "Privacy Tools",
       "links": [
         {
