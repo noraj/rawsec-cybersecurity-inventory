@@ -130,6 +130,16 @@
       "price": "Free"
     },
     {
+      "name": "MDN - Event reference",
+      "links": [
+        {
+          "website": "https://developer.mozilla.org/en-US/docs/Web/Events"
+        }
+      ],
+      "description": "DOM Events reference, useful for XSS",
+      "price": "Free"
+    },
+    {
       "name": "Privacy Tools",
       "links": [
         {
