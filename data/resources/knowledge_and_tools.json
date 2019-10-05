@@ -153,6 +153,19 @@
       "price": "Free"
     },
     {
+      "name": "RubyFu",
+      "links": [
+        {
+          "website": "https://rubyfu.net/"
+        },
+        {
+          "source": "https://github.com/rubyfu/RubyFu"
+        }
+      ],
+      "description": "Offensive Ruby book",
+      "price": "Free"
+    },
+    {
       "name": "SSL Checklist for Pentesters (Explore Security)",
       "links": [
         {
