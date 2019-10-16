@@ -88,6 +88,15 @@
       "online": "True"
     },
     {
+      "name": "Ronin",
+      "website": "https://ronin-ruby.github.io/",
+      "source": "https://github.com/ronin-ruby/ronin",
+      "description": "Platform for vulnerability research and exploit development, it allows for the rapid development and distribution of code, Exploits or Payloads, Scanners, etc, via Repositories",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Scrounger",
       "source": "https://github.com/nettitude/scrounger",
       "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
