@@ -147,6 +147,14 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "wordlistctl",
+      "source": "https://github.com/BlackArch/wordlistctl",
+      "description": "Fetch, install and search wordlist archives from websites and torrent peers",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
