@@ -210,6 +210,16 @@
       "description": "Challenge platform",
       "price": "Free"
     },
+   {
+      "name": "ImmersiveLabs",
+      "links": [
+        {
+          "website": "https://www.immersivelabs.com/"
+        }
+      ],
+      "description": "Story-driven exercises and practical, gamified labs",
+      "price": "Paid"
+    },
     {
       "name": "IO",
       "links": [
