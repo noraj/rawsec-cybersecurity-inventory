@@ -27,6 +27,14 @@
       "online": "False"
     },
     {
+      "name": "boofuzz",
+      "source": "https://github.com/jtpereyda/boofuzz",
+      "description": "Network protocol fuzzing framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BruteX",
       "source": "https://github.com/1N3/BruteX",
       "description": "Tool using nmap and hydra to automatically bruteforce network service accounts",
