@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "Mona",
+      "tool": "Immunity Debugger",
+      "source": "https://github.com/corelan/mona",
+      "description": "Set of commands for Immunity Debugger",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PEDA",
       "tool": "GDB",
       "source": "https://github.com/longld/peda",
