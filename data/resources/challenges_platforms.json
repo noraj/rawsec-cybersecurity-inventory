@@ -517,6 +517,16 @@
       "price": "Free"
     },
     {
+      "name": "Virtual Hacking Labs",
+      "links": [
+        {
+          "website": "https://www.virtualhackinglabs.com/"
+        }
+      ],
+      "description": "Virtual penetration testing environment with courses and VMs",
+      "price": "Free"
+    },
+    {
       "name": "VulnHub",
       "links": [
         {
