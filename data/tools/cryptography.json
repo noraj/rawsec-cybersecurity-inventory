@@ -32,6 +32,15 @@
       "online": "False"
     },
     {
+      "name": "Haiti",
+      "website": "https://orange-cyberdefense.github.io/haiti/",
+      "source": "https://github.com/Orange-Cyberdefense/haiti",
+      "description": "A CLI tool to identify the hash type of a given hash",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "hashID",
       "source": "https://github.com/psypanda/hashID",
       "description": "Identify the different types of hashes",
