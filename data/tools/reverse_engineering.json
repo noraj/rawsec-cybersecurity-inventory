@@ -139,6 +139,14 @@
       "online": "False"
     },
     {
+      "name": "edb",
+      "source": "https://github.com/eteran/edb-debugger",
+      "description": "Cross platform AArch32/x86/x86-64 debugger",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Flare",
       "website": "http://www.nowrap.de/flare.html",
       "description": "Processes SWF and extract scripts from it",
