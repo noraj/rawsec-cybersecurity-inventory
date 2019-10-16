@@ -374,6 +374,14 @@
       "online": "False"
     },
     {
+      "name": "rbkb",
+      "source": "https://github.com/emonti/rbkb",
+      "description": "Ruby BlackBag; a miscellaneous collection of command-line tools and ruby library helpers related to pen-testing and reversing",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Relyze",
       "website": "https://www.relyze.com/overview.html",
       "description": "x86 and ARM graphical interactive disassembler with Ruby plugin framework",
