@@ -40,7 +40,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.0",
     "pug": "^2.0.4",
     "static-api": "^0.2.0",
     "sweetalert2": "^8.16.2",
