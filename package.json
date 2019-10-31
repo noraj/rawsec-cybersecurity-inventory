@@ -31,7 +31,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@vizuaalog/bulmajs": "^0.10.2",
-    "bulma": "^0.7.5",
+    "bulma": "^0.8.0",
     "del": "^5.1.0",
     "font-mfizz": "^2.4.1",
     "gulp": "^4.0.2",
