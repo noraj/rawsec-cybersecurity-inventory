@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "ctf-party",
+      "source": "https://github.com/Orange-Cyberdefense/ctf-party",
+      "description": "Library to enhance and speed up script/exploit writing for CTF players",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CyberChef",
       "website": "https://gchq.github.io/CyberChef/",
       "source": "https://github.com/gchq/CyberChef",
@@ -70,6 +78,14 @@
       "description": "Tool and framework for pentesting system, web and many more, contains a lot a ready to use exploit, 4 versions: Pro (paid), Express (paid), Community (free with GUI but on request), Framework (free, open source, CLI)",
       "language": "Ruby",
       "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "objection",
+      "source": "https://github.com/sensepost/objection",
+      "description": "Runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak",
+      "language": "Python",
+      "price": "Free",
       "online": "False"
     },
     {

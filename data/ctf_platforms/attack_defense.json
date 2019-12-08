@@ -1,6 +1,27 @@
 {
   "ctf_platforms": [
     {
+      "name": "checksystem",
+      "source": "https://github.com/HackerDom/checksystem",
+      "description": "Checksystem for attack-defence CTF",
+      "language": "Perl",
+      "price": "Free"
+    },
+    {
+      "name": "fhq-jury-ad",
+      "source": "https://github.com/freehackquest/fhq-jury-ad",
+      "description": "Jury system for a attack-defence ctf game",
+      "language": "CPlusPlus",
+      "price": "Free"
+    },
+    {
+      "name": "ForcAD",
+      "source": "https://github.com/pomo-mondreganto/ForcAD",
+      "description": "Attack-defence CTF framework",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "iCTF Framework",
       "website": "https://ictf.cs.ucsb.edu/",
       "source": "https://github.com/ucsb-seclab/ictf-framework",

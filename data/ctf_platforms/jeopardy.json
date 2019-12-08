@@ -248,6 +248,14 @@
       "price": "Free"
     },
     {
+      "name": "RootTheBox CTF Framework",
+      "website": "https://rtblivedemo.herokuapp.com/",
+      "source": "https://github.com/abs0lut3pwn4g3/RTB-CTF-Framework",
+      "description": "HackTheBox style CTF platform (user + root flag)",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "Scorebot",
       "source": "https://github.com/legitbs/scorebot",
       "description": "Jeopardy CTF platform",
@@ -318,6 +326,13 @@
       "source": "https://github.com/WhiteHatCP/wrath-ctf-framework",
       "description": "What? Really? Another Tiny Homebrewed CTF Framework?, Jeopardy CTF platform",
       "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "WTFd",
+      "source": "https://github.com/wtfd-tech/wtfd",
+      "description": "Jeopardy CTF platform",
+      "language": "Go",
       "price": "Free"
     },
     {
