@@ -155,6 +155,7 @@
     },
     {
       "name": "LibreCTF",
+      "website": "https://easyctf.github.io/librectf/",
       "source": "https://github.com/easyctf/librectf",
       "description": "Was previously know as OpenCTF, easy to deploy Jeopardy CTF platform",
       "language": "Rust",
