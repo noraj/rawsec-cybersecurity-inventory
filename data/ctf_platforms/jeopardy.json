@@ -81,6 +81,13 @@
       "price": "Free"
     },
     {
+      "name": "CTFx",
+      "source": "https://gitlab.com/Milkdrop/ctfx",
+      "description": "Jeopardy CTF platform, based on Mellivora,",
+      "language": "PHP",
+      "price": "Free"
+    },
+    {
       "name": "ctf_marker",
       "source": "https://github.com/rgajendran/ctf_marker",
       "description": "Jeopardy CTF platform, import SecGen CTF challenges",
