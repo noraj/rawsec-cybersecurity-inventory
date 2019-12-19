@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "ad-ldap-enum",
+      "source": "https://github.com/CroweCybersecurity/ad-ldap-enum",
+      "description": "LDAP based Active Directory user and group enumeration tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "archtorify",
       "source": "https://github.com/brainfucksec/archtorify",
       "description": "Script for Arch Linux which use iptables settings to create a transparent proxy through Tor Network",
