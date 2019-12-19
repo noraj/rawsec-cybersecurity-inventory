@@ -138,6 +138,14 @@
       "price": "Free",
       "online": "False"
     },
+   {
+      "name": "SprayingToolkit",
+      "source": "https://github.com/byt3bl33d3r/SprayingToolkit",
+      "description": "Password spraying scripts for Lync/S4B and OWA",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
     {
       "name": "Tool-X",
       "source": "https://github.com/Rajkumrdusad/Tool-X",
