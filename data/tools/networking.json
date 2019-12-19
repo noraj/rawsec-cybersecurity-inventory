@@ -75,6 +75,14 @@
       "online": "False"
     },
     {
+      "name": "HASSH",
+      "source": "https://github.com/salesforce/hassh",
+      "description": "Network fingerprinting standard which can be used to identify specific client and server SSH implementations",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hydra",
       "website": "https://www.thc.org/thc-hydra/",
       "source": "https://github.com/vanhauser-thc/thc-hydra",
