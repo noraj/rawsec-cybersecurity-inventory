@@ -251,6 +251,14 @@
       "online": "False"
     },
     {
+      "name": "rdp-sec-check",
+      "source": "https://github.com/portcullislabs/rdp-sec-check",
+      "description": "Script to enumerate security settings of an RDP Service",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Responder",
       "source": "https://github.com/SpiderLabs/Responder",
       "description": "LLMNR, NBT-NS and MDNS poisoner to intercept authentication requests/answers",
