@@ -83,6 +83,14 @@
       "online": "False"
     },
     {
+      "name": "goddi",
+      "source": "https://github.com/NetSPI/goddi",
+      "description": "Active Directory domain information dumper",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "HASSH",
       "source": "https://github.com/salesforce/hassh",
       "description": "Network fingerprinting standard which can be used to identify specific client and server SSH implementations",
