@@ -90,6 +90,16 @@
       "description": "Bug bounty platform",
       "price": "Free"
     },
+        {
+      "name": "huntr",
+      "links": [
+        {
+          "website": "https://huntr.dev"
+        }
+      ],
+      "description": "A bug bounty board for securing open-source code.",
+      "price": "Free"
+    },
     {
       "name": "Intigriti",
       "links": [

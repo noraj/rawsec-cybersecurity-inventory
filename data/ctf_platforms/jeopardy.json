@@ -74,13 +74,6 @@
       "price": "Free"
     },
     {
-      "name": "CTFu",
-      "source": "https://github.com/PwningID/CTFu",
-      "description": "Jeopardy CTF platform, socket-based",
-      "language": "Python",
-      "price": "Free"
-    },
-    {
       "name": "CTFx",
       "source": "https://gitlab.com/Milkdrop/ctfx",
       "description": "Jeopardy CTF platform, based on Mellivora,",
@@ -96,7 +89,7 @@
     },
     {
       "name": "DC416-CTF-Scoreboard",
-      "source": "https://github.com/DC416/DC416-CTF-Scoreboard",
+      "source": "https://github.com/DC416/CTF-Scoreboard",
       "description": "Jeopardy CTF platform",
       "language": "Elm",
       "price": "Free"
@@ -227,8 +220,8 @@
       "price": "Free"
     },
     {
-      "name": "PicoCTF Platform 2",
-      "source": "https://github.com/picoCTF/picoCTF-Platform-2",
+      "name": "PicoCTF",
+      "source": "https://github.com/picoCTF/picoCTF",
       "description": "Jeopardy CTF platform",
       "language": "Python",
       "price": "Free"
