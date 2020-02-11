@@ -7,6 +7,14 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "IntelMQ",
+      "source": "https://github.com/certtools/intelmq",
+      "description": "Solution for collecting and processing security feeds using a message queuing protocol",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
