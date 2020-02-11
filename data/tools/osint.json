@@ -148,6 +148,14 @@
       "online": "False"
     },
     {
+      "name": "Metabigor",
+      "source": "https://github.com/j3ssie/metabigor",
+      "description": "OSINT tool that doesn't require any API key",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODIN",
       "source": "https://github.com/chrismaddalena/ODIN",
       "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
