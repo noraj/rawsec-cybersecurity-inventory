@@ -1,6 +1,17 @@
 {
   "resources": [
     {
+      "name": "hackndo",
+      "language": "French",
+      "links": [
+        {
+          "website": "https://beta.hackndo.com/"
+        }
+      ],
+      "description": "Blog about pentesting",
+      "price": "Free"
+    },
+    {
       "name": "KitPloit",
       "language": "English",
       "links": [
