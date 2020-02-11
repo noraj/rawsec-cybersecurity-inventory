@@ -52,6 +52,15 @@
       "online": "False"
     },
     {
+      "name": "Ghostwriter",
+      "website": "https://ghostwriter.wiki/",
+      "source": "https://github.com/GhostManager/Ghostwriter",
+      "description": "Project management and reporting engine",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "hackOx",
       "website": "https://hackox.net/",
       "source": "https://github.com/deantonious/hackox",
