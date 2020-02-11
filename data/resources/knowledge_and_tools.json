@@ -196,6 +196,16 @@
       "price": "Free"
     },
     {
+      "name": "Vergilius",
+      "links": [
+        {
+          "website": "https://www.vergiliusproject.com/"
+        }
+      ],
+      "description": "A collection of Microsoft Windows kernel structures, unions and enumerations; most of them are not officially documented and cannot be found in Windows Driver Kit (WDK) headers",
+      "price": "Free"
+    },
+    {
       "name": "VRT",
       "links": [
         {
