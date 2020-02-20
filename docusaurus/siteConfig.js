@@ -108,6 +108,11 @@ const siteConfig = {
 
   // /en/ in URL
   useEnglishUrl: true,
+  
+  algolia: {
+    apiKey: '4bae026c39902ddf54b2f37bcb8ed56b',
+    indexName: 'rawsec-cybersecurity-inventory',
+  },
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
