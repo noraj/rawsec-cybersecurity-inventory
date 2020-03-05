@@ -1,9 +1,9 @@
 {
   "tools": [
     {
-    "name": "ADB-TOOLKIT",
+    "name": "ADB-Toolkit",
     "source": "https://github.com/ASHWIN990/ADB-Toolkit",
-    "description": "A framework for Android Penetration Testing and with support of Metasploit",
+    "description": "Wrapper around adb to ease certain tasks",
     "language": "Shell",
     "price": "Free",
     "online": "False"
