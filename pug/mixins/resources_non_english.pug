@@ -1,6 +1,7 @@
 mixin resources_non_english(item)
     tr(id=item.name)
-        td= item.name
+        td.has-text-weight-bold
+            a(class="anchor has-text-dark" href="#"+item.name)= item.name
         if item.language
             td= item.language
         else

@@ -1,6 +1,7 @@
 mixin os(item)
     tr(id=item.os)
-        td= item.os
+        td.has-text-weight-bold
+            a(class="anchor has-text-dark" href="#"+item.os)= item.os
         td= item.base
         td= item.description
         td

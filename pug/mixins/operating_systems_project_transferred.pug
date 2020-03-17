@@ -1,4 +1,5 @@
 mixin project_transferred(item)
-    tr(id=item.os)
-        td= item.from
+    tr(id=item.from)
+        td.has-text-weight-bold
+            a(class="anchor has-text-dark" href="#"+item.from)= item.from
         td= item.to

@@ -1,6 +1,7 @@
 mixin resources_agencies(item)
     tr(id=item.name)
-        td= item.name
+        td.has-text-weight-bold
+            a(class="anchor has-text-dark" href="#"+item.name)= item.name
         if item.country
             td= item.country
         else
