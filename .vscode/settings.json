@@ -1,0 +1,11 @@
+{
+  "search.exclude": {
+    "**/build/**": true,
+    "**/temp/**": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/build/**": true,
+    "**/temp/**": true
+  }
+}
