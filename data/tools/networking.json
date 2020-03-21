@@ -382,6 +382,14 @@
       "online": "False"
     },
     {
+      "name": "Evil-WinRM",
+      "source": "https://github.com/Hackplayers/evil-winrm",
+      "description": "Enhanced WinRM shell",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Zenmap",
       "website": "https://nmap.org/zenmap/",
       "source": "https://github.com/nmap/nmap/tree/master/zenmap",

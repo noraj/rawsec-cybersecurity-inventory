@@ -108,6 +108,14 @@
       "online": "False"
     },
     {
+      "name": "Findomain",
+      "source": "https://github.com/Edu4rdSHL/findomain",
+      "description": "Fast subdomain enumerator",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gOSINT",
       "source": "https://github.com/Nhoya/gOSINT",
       "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",

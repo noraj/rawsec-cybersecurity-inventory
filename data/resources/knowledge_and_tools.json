@@ -87,6 +87,16 @@
       "price": "Free"
     },
     {
+      "name": "Hack Tricks",
+      "links": [
+        {
+          "website": "https://book.hacktricks.xyz/"
+        }
+      ],
+      "description": "Guide and cheatsheet for pentesting: shell, linux exploitation, windows exploitation, mobile app pentesting, network pentesting, web pentesting, binary exploit, forensics, crypto, backdoor, etc.",
+      "price": "Free"
+    },
+    {
       "name": "HTML5 Security Cheatsheet",
       "links": [
         {
@@ -170,6 +180,19 @@
         }
       ],
       "description": "The penetration testing execution standard covers all steps related to a penetration test",
+      "price": "Free"
+    },
+    {
+      "name": "Red Teaming Tactics and Techniques",
+      "links": [
+        {
+          "website": "https://ired.team/"
+        },
+        {
+          "source": "https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques"
+        }
+      ],
+      "description": "Exploring Red Teaming tactics and techniques, some of the common offensive security techniques involving gaining code execution, lateral movement, persistence and more",
       "price": "Free"
     },
     {
