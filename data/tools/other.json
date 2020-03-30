@@ -26,6 +26,13 @@
       "online": "False"
     },
     {
+      "name": "DeHashed",
+      "website": "https://dehashed.com/",
+      "description": "Service to check if an account has been compromised in a data breach",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "discover",
       "source": "https://github.com/leebaird/discover",
       "description": "Scripts used to automate various penetration testing tasks including recon, scanning, parsing, and creating malicious payloads and listeners with Metasploit",
