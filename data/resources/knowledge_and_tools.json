@@ -1,16 +1,6 @@
 {
   "resources": [
     {
-      "name": "Breach Level Index",
-      "links": [
-        {
-          "website": "https://breachlevelindex.com/"
-        }
-      ],
-      "description": "Data breach database, statistics, information",
-      "price": "Free"
-    },
-    {
       "name": "Bug Bounty Guide",
       "links": [
         {
