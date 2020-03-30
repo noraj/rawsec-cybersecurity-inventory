@@ -75,6 +75,14 @@
       "online": "True"
     },
     {
+      "name": "Evil-WinRM",
+      "source": "https://github.com/Hackplayers/evil-winrm",
+      "description": "Enhanced WinRM shell",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Garfield",
       "source": "https://github.com/torque59/Garfield",
       "description": "Attack framework for distributed systems",
@@ -365,6 +373,14 @@
       "online": "False"
     },
     {
+      "name": "windapsearch",
+      "source": "https://github.com/ropnop/windapsearch",
+      "description": "Script to enumerate users, groups and computers from a Windows domain through LDAP queries",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Wireshark",
       "website": "https://www.wireshark.org/",
       "source": "https://code.wireshark.org/review/gitweb?p=wireshark.git",
@@ -378,14 +394,6 @@
       "source": "https://github.com/tomac/yersinia",
       "description": "Framework for layer 2 attacks",
       "language": "C",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "Evil-WinRM",
-      "source": "https://github.com/Hackplayers/evil-winrm",
-      "description": "Enhanced WinRM shell",
-      "language": "Ruby",
       "price": "Free",
       "online": "False"
     },
