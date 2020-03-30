@@ -172,6 +172,15 @@
       "online": "False"
     },
     {
+      "name": "VULNREPO",
+      "website": "https://vulnrepo.com/",
+      "source": "https://github.com/kac89/vulnrepo",
+      "description": "Vulnerability report generator",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    }
+    {
       "name": "Vulnreport",
       "website": "http://vulnreport.io/",
       "source": "https://github.com/salesforce/vulnreport",
