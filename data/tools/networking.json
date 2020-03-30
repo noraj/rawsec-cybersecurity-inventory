@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "Arecibo",
+      "source": "https://github.com/TarlogicSecurity/Arecibo",
+      "description": "Endpoint for Out-of-Band Exfiltration (DNS & HTTP)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bettercap",
       "website": "http://www.bettercap.org/",
       "source": "https://github.com/bettercap/bettercap",
