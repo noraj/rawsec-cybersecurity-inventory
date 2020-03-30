@@ -227,6 +227,14 @@
       "online": "False"
     },
     {
+      "name": "OOB-Server",
+      "source": "https://github.com/JuxhinDB/OOB-Server",
+      "description": "Bind9 DNS server for pentesters to use for Out-of-Band vulnerabilities",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PacketFu",
       "source": "https://github.com/packetfu/packetfu",
       "description": "Packet manipulation library; forge, send, decode, capture packets of a wide number of protocols",
