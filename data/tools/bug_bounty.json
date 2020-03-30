@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "BBstats",
+      "source": "https://github.com/gwen001/BBstats",
+      "description": "Aggregrate reports/bounties from different platforms in order to create combined stats and graphs",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BountyDash",
       "source": "https://github.com/avlidienbrunn/bountydash",
       "description": "Dashboard to combine rewards from all platforms, giving insights about progress and bug hunting patterns",
