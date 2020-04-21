@@ -34,6 +34,17 @@
       "price": "Free"
     },
     {
+      "name": "Offensive OSINT",
+      "language": "English",
+      "links": [
+        {
+          "website": "https://www.offensiveosint.io/"
+        }
+      ],
+      "description": "OSINT articles from an offensive perspective",
+      "price": "Free"
+    },
+    {
       "name": "Pentest Blog",
       "language": "English",
       "links": [
