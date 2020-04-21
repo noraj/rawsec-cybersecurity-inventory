@@ -37,7 +37,7 @@
       "name": "Dradis",
       "website": "https://dradisframework.com/",
       "source": "https://github.com/dradis/dradis-ce",
-      "description": "Collaborative penetration test and vulnerability management platform",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
       "language": "Ruby",
       "price": "Paid",
       "online": "False"
@@ -46,7 +46,7 @@
       "name": "Faraday",
       "website": "https://www.faradaysec.com/",
       "source": "https://github.com/infobyte/faraday",
-      "description": "Collaborative penetration test and vulnerability management platform",
+      "description": "Collaborative penetration test and reporting platform",
       "language": "Python",
       "price": "Paid",
       "online": "False"
@@ -81,7 +81,7 @@
       "name": "Lair",
       "website": "https://www.optiv.com/blog/updates-to-the-lair-ecosystem",
       "source": "https://github.com/lair-framework/lair",
-      "description": "Collaborative penetration test and vulnerability management platform",
+      "description": "Collaborative penetration test and vulnerability management framework",
       "language": "JavaScript",
       "price": "Free",
       "online": "False"
