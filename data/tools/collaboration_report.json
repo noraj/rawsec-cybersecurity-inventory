@@ -122,6 +122,14 @@
       "online": "False"
     },
     {
+      "name": "PwnDoc",
+      "source": "https://github.com/pwndoc/pwndoc",
+      "description": "Collaborative penetration test reporting platform",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Prithvi",
       "website": "https://www.vegabird.com/prithvi/",
       "source": "https://github.com/vegabird/prithvi",
