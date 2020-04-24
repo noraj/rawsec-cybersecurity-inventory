@@ -151,6 +151,12 @@
       "link": "https://santoku-linux.com/"
     },
     {
+      "os": "SecBSD",
+      "base": "openBSD",
+      "description": "penetration testing and security lab",
+      "link": "https://secbsd.org/"
+    },
+    {
       "os": "Security Onion",
       "base": "Ubuntu",
       "description": "network security monitoring and analysis",
