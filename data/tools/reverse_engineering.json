@@ -130,6 +130,14 @@
       "online": "True"
     },
     {
+      "name": "dnSpy",
+      "source": "https://github.com/0xd4d/dnSpy",
+      "description": ".NET assembly debugger, decompiler and editor",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Droidefense",
       "website": "http://droidefense.com/",
       "source": "https://github.com/droidefense/engine",
