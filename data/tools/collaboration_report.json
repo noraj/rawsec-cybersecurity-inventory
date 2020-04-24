@@ -17,6 +17,13 @@
       "online": "True"
     },
     {
+      "name": "Canopy",
+      "website": "https://www.checksec.com/canopy.html",
+      "description": "Penetration test platform: vulnerability management and reporting",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "DART",
       "source": "https://github.com/lmco/dart",
       "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
