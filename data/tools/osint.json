@@ -140,6 +140,14 @@
       "online": "False"
     },
     {
+      "name": "LeakLooker",
+      "source": "https://github.com/woj-ciech/LeakLooker-X",
+      "description": "Discover, browse and monitor database/source code leaks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "leakScraper",
       "source": "https://github.com/Acceis/leakScraper",
       "description": "Set of tools to process and visualize huge text files containing credentials",
