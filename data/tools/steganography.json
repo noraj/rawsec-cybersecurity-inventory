@@ -108,6 +108,15 @@
       "online": "False"
     },
     {
+      "name": "StegOnline",
+      "website": "https://georgeom.net/StegOnline",
+      "source": "https://github.com/Ge0rg3/StegOnline",
+      "description": "Stego image toolsuite in the browser",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "StegoVeritas",
       "source": "https://github.com/Owlz/stegoVeritas",
       "description": "Automatic tool to bruteforce LSB, transform image, extract metadata or trailing data",
