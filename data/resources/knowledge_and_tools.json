@@ -219,6 +219,19 @@
       "price": "Free"
     },
     {
+      "name": "StegOnline checklist",
+      "links": [
+        {
+          "website": "https://georgeom.net/StegOnline/checklist"
+        },
+        {
+          "source": "https://github.com/Ge0rg3/StegOnline/blob/master/src/app/checklist/checklist.component.html"
+        }
+      ],
+      "description": "CTF Image Steganography Checklist",
+      "price": "Free"
+    },
+    {
       "name": "Vergilius",
       "links": [
         {
