@@ -164,6 +164,14 @@
       "online": "False"
     },
     {
+      "name": "MassDNS",
+      "source": "https://github.com/blechschmidt/massdns",
+      "description": "High-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Metabigor",
       "source": "https://github.com/j3ssie/metabigor",
       "description": "OSINT tool that doesn't require any API key",
