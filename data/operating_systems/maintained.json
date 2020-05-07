@@ -159,7 +159,7 @@
     {
       "os": "Security Onion",
       "base": "Ubuntu",
-      "description": "network security monitoring and analysis",
+      "description": "network security monitoring, analysis and threat hunting",
       "link": "https://securityonion.net/"
     },
     {
