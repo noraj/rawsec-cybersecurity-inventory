@@ -19,7 +19,7 @@ task('build',
         series(api_clean, api_build, api_copy),
         parallel(
             bulma, bulmajs, tablefilter, sweetalert2, jquery, js, fontawesome,
-            font_mfizz, images
+            font_mfizz, images, css
 )));
 task('build').description = 'Build the static website';
 task('default', series('clean', 'build'));
@@ -116,6 +116,13 @@ function jquery() {
 function js() {
     return src('js/**/*.js')
         .pipe(dest('build/js/'));
+};
+
+// build personal (non-vendor) css
+function css() {
+    return src('sass/site.sass')
+        .pipe(sass())
+        .pipe(dest('build/css/'));
 };
 
 function fontawesome() {
