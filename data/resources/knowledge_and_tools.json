@@ -253,6 +253,16 @@
       ],
       "description": "Bugcrowd Vulnerability Rating Taxonomy (VRT) provides a baseline vulnerability priority scale for bug hunters and organizations",
       "price": "Free"
+    },
+    {
+      "name": "XSS Payloads",
+      "links": [
+        {
+          "website": "http://www.xss-payloads.com/"
+        }
+      ],
+      "description": "Provides advanced XSS payload, tools and documentation about XSS",
+      "price": "Free"
     }
   ]
 }
