@@ -39,6 +39,14 @@
       "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Zphisher",
+      "source": "https://github.com/htr-tech/zphisher",
+      "description": "Automated phishing tool with multiple tunneling options; fork of Shellphish",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
