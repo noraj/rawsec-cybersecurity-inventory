@@ -99,11 +99,10 @@
       "online": "False"
     },
     {
-      "name": "FOCA",
-      "website": "https://www.elevenpaths.com/labstools/foca/index.html",
-      "source": "https://github.com/ElevenPaths/FOCA",
-      "description": "OSINT framework and metadata analyser",
-      "language": "Csharp",
+      "name": "FinalRecon",
+      "source": "https://github.com/thewhiteh4t/FinalRecon",
+      "description": "Web reconnaissance script",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
@@ -112,6 +111,15 @@
       "source": "https://github.com/Edu4rdSHL/findomain",
       "description": "Fast subdomain enumerator",
       "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "FOCA",
+      "website": "https://www.elevenpaths.com/labstools/foca/index.html",
+      "source": "https://github.com/ElevenPaths/FOCA",
+      "description": "OSINT framework and metadata analyser",
+      "language": "Csharp",
       "price": "Free",
       "online": "False"
     },
