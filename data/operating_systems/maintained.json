@@ -51,7 +51,7 @@
     {
       "os": "CAINE",
       "base": "Ubuntu",
-      "description": "digital forensics",
+      "description": "digital forensics and incident response (DFIR)",
       "link": "http://www.caine-live.net/"
     },
     {
@@ -75,7 +75,7 @@
     {
       "os": "DEFT",
       "base": "Ubuntu",
-      "description": "digital forensics",
+      "description": "digital forensics and incident response (DFIR)",
       "link": "http://www.deftlinux.net/"
     },
     {
@@ -165,7 +165,7 @@
     {
       "os": "SIFT",
       "base": "Ubuntu",
-      "description": "digital forensics (VMware appliance)",
+      "description": "digital forensics and incident response (DFIR) (VMware appliance)",
       "link": "https://digital-forensics.sans.org/community/downloads"
     },
     {
@@ -191,6 +191,12 @@
       "base": "Thinstation",
       "description": "privacy and anonymity",
       "link": "https://www.spi.dod.mil/lipose.htm"
+    },
+    {
+      "os": "Tsurugi Linux",
+      "base": "Ubuntu",
+      "description": "digital forensics and incident response (DFIR",
+      "link": "https://tsurugi-linux.org/"
     },
     {
       "os": "WeakNet Linux",
