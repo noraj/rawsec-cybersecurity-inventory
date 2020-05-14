@@ -44,6 +44,6 @@
     "pug": "^2.0.4",
     "static-api": "^0.2.0",
     "sweetalert2": "^9.0.0",
-    "tablefilter": "^0.6.102"
+    "tablefilter": "^0.7.0"
   }
 }
