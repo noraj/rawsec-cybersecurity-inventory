@@ -277,6 +277,14 @@
       "online": "False"
     },
     {
+      "name": "Recsech",
+      "source": "https://github.com/radenvodka/Recsech",
+      "description": "Web reconnaissance and vulnerability scanner tool",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Red Team Arsenal",
       "source": "https://github.com/flipkart-incubator/RTA",
       "description": "Automated reconnaissance scanner and security checks",
