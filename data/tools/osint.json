@@ -124,6 +124,14 @@
       "online": "False"
     },
     {
+      "name": "Gorecon",
+      "source": "https://github.com/devanshbatham/Gorecon",
+      "description": "Reconnaissance toolkit",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gOSINT",
       "source": "https://github.com/Nhoya/gOSINT",
       "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",
