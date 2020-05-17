@@ -79,6 +79,12 @@
       "link": "http://www.deftlinux.net/"
     },
     {
+      "os": "Demon Linux",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://www.demonlinux.com/about.php"
+    },
+    {
       "os": "DracOS",
       "base": "Linux From Scratch",
       "description": "penetration testing and security lab",
@@ -185,12 +191,6 @@
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR",
       "link": "https://tsurugi-linux.org/"
-    },
-    {
-      "os": "WeakNet Linux",
-      "base": "Debian",
-      "description": "penetration testing and security lab",
-      "link": "http://www.weaknetlabs.com"
     },
     {
       "os": "Whonix",
