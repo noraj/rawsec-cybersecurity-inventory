@@ -19,6 +19,18 @@
       "link": "http://www.livehacking.com/live-hacking-cd/"
     },
     {
+      "os": "Matriux",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "https://sourceforge.net/projects/matriux/"
+    },
+    {
+      "os": "NodeZero",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "https://sourceforge.net/projects/nodezero/"
+    },
+    {
       "os": "STD",
       "base": "Debian",
       "description": "penetration testing and security lab",

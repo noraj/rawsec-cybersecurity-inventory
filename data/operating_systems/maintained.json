@@ -103,18 +103,6 @@
       "link": "https://www.digi77.com/linux-kodachi/"
     },
     {
-      "os": "Matriux",
-      "base": "Debian",
-      "description": "penetration testing and security lab",
-      "link": "https://sourceforge.net/projects/matriux/"
-    },
-    {
-      "os": "NodeZero",
-      "base": "Ubuntu",
-      "description": "penetration testing and security lab",
-      "link": "https://sourceforge.net/projects/nodezero/"
-    },
-    {
       "os": "NST",
       "base": "Fedora",
       "description": "network security monitoring and analysis",
