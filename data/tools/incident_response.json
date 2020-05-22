@@ -15,6 +15,15 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "SCOT",
+      "website": "http://getscot.sandia.gov/",
+      "source": "https://github.com/sandialabs/scot",
+      "description": "Sandia Cyber Omni Tracker; cyber security incident response management system and knowledge base",
+      "language": "Perl",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
