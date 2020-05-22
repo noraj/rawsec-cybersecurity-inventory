@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "ActiveDirectoryEnumeration",
+      "source": "https://github.com/CasperGN/ActiveDirectoryEnumeration",
+      "description": "Enumerate AD through LDAP with a collection of helpfull scripts being bundled: ASREPRoasting, Kerberoasting, dump AD as BloodHound JSON files, searching GPOs in SYSVOL for cpassword and decrypting, run without creds",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ad-ldap-enum",
       "source": "https://github.com/CroweCybersecurity/ad-ldap-enum",
       "description": "LDAP based Active Directory user and group enumeration tool",
