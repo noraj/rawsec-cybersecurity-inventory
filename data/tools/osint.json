@@ -157,6 +157,14 @@
       "online": "False"
     },
     {
+      "name": "kitphishr",
+      "source": "https://github.com/cybercdh/kitphishr",
+      "description": "Hunts for phishing kit source code by traversing URL folders and searching in open directories for zip files; supports list of URLs or PhishTank",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Kostebek",
       "source": "https://github.com/esecuritylab/kostebek",
       "description": "Tool to find firms domains by searching their trademark information",
