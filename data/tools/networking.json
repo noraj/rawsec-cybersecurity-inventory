@@ -140,6 +140,14 @@
       "online": "False"
     },
     {
+      "name": "Ligolo",
+      "source": "https://github.com/sysdream/ligolo",
+      "description": "Pivot / reverse tunneling tool with SOCKS5 et TCP tunnel support",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Masscan",
       "source": "https://github.com/robertdavidgraham/masscan",
       "description": "Port scanner for massive networks",
