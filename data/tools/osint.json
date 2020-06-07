@@ -148,6 +148,15 @@
       "online": "False"
     },
     {
+      "name": "IVRE",
+      "website": "https://ivre.rocks/",
+      "source": "https://github.com/cea-sec/ivre",
+      "description": "IVRE (Instrument de veille sur les réseaux extérieurs) or DRUNK (Dynamic Recon of UNKnown networks); network recon framework including tools ofr passive and active recon",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Kostebek",
       "source": "https://github.com/esecuritylab/kostebek",
       "description": "Tool to find firms domains by searching their trademark information",
