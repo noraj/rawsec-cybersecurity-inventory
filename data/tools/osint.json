@@ -124,6 +124,14 @@
       "online": "False"
     },
     {
+      "name": "gitGraber",
+      "source": "https://github.com/hisxo/gitGraber",
+      "description": "Monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe, etc.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gorecon",
       "source": "https://github.com/devanshbatham/Gorecon",
       "description": "Reconnaissance toolkit",
