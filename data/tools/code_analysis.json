@@ -34,6 +34,15 @@
       "online": "False"
     },
     {
+      "name": "SonarQube",
+      "website": "http://www.sonarqube.org/",
+      "source": "https://github.com/SonarSource/sonarqube",
+      "description": "Automatic code review tool to detect bugs, vulnerabilities; continuous code inspection automated with static code analysis rules",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "StaCoAn",
       "source": "https://github.com/vincentcox/StaCoAn",
       "description": "Mobile applications static code analysis tool",
