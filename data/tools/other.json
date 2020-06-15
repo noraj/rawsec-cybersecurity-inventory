@@ -178,6 +178,15 @@
       "online": "False"
     },
     {
+      "name": "VBSmin",
+      "website": "https://noraj.github.io/vbsmin/",
+      "source": "https://github.com/noraj/vbsmin",
+      "description": "VBScript minifier",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "webqr",
       "website": "https://webqr.com/index.html",
       "description": "Scan & create QR-code",
