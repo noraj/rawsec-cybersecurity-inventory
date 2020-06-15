@@ -323,6 +323,15 @@
       "online": "False"
     },
     {
+      "name": "RMIScout",
+      "website": "https://know.bishopfox.com/research/rmiscout",
+      "source": "https://github.com/BishopFox/rmiscout",
+      "description": "Enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities through wordlist and bruteforce strategies",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "sandmap",
       "source": "https://github.com/trimstray/sandmap",
       "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
