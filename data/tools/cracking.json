@@ -17,10 +17,19 @@
       "online": "False"
     },
     {
+      "name": "CrackerJack",
+      "website": "https://www.contextis.com/en/resources/tools/crackerjack",
+      "source": "https://github.com/ctxis/crackerjack",
+      "description": "Basic Web Interface for Hashcat",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cracklord",
       "website": "http://jmmcatee.github.io/cracklord/",
       "source": "https://github.com/jmmcatee/cracklord",
-      "description": "Scalable, pluggable, and distributed system for password cracking",
+      "description": "Scalable, pluggable, and distributed system for password cracking, supports Hashcat",
       "language": "Go",
       "price": "Free",
       "online": "False"
@@ -70,7 +79,7 @@
       "name": "Hashview",
       "website": "http://www.hashview.io/",
       "source": "https://github.com/hashview/hashview",
-      "description": "Web-UI for managing, organizing, automating hashcat commands/tasks",
+      "description": "Web-UI for managing, organizing, automating Hashcat commands/tasks",
       "language": "Ruby",
       "price": "Free",
       "online": "False"
