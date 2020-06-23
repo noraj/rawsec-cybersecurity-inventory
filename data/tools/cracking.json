@@ -35,6 +35,14 @@
       "online": "False"
     },
     {
+      "name": "CrackQ",
+      "source": "https://github.com/f0cker/crackq",
+      "description": "Hashcat cracking queue system, API and WebUI",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "crunch",
       "source": "https://sourceforge.net/projects/crunch-wordlist/",
       "description": "Wordlist generator",
