@@ -10,7 +10,8 @@
     },
     {
       "name": "ctf-party",
-      "source": "https://github.com/Orange-Cyberdefense/ctf-party",
+      "website": "https://noraj.github.io/ctf-party",
+      "source": "https://github.com/noraj/ctf-party",
       "description": "Library to enhance and speed up script/exploit writing for CTF players",
       "language": "Ruby",
       "price": "Free",
