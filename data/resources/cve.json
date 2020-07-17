@@ -99,6 +99,16 @@
       ],
       "description": "Community-driven vulnerability database",
       "price": "Free"
+    },
+    {
+      "name": "VulnIQ",
+      "links": [
+        {
+          "website": "https://free.vulniq.com/home"
+        }
+      ],
+      "description": "Vulnerability database with CVE, OVAL, CWE, CAPEC, etc.",
+      "price": "Free"
     }
   ]
 }
