@@ -237,6 +237,14 @@
       "online": "False"
     },
     {
+      "name": "OneForAll",
+      "source": "https://github.com/shmilylty/OneForAll/blob/master/docs/en-us/README.md",
+      "description": "Subdomain enumeration tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OSINT Framework",
       "website": "http://osintframework.com/",
       "source": "https://github.com/lockfale/OSINT-Framework",
