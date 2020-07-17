@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "Adhrit",
+      "website": "https://www.hawkspawn.com/Adhrit/",
+      "source": "https://github.com/abhi-r3v0/Adhrit",
+      "description": "Android APK reversing and analysis suite",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "AndroBugs Framework",
       "source": "https://github.com/AndroBugs/AndroBugs_Framework",
       "description": "Android APK vulnerability analyzer",
