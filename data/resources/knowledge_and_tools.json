@@ -232,6 +232,17 @@
       "price": "Free"
     },
     {
+      "name": "The Bug Hunter's Methodology",
+      "links": [
+
+        {
+          "source": "https://github.com/jhaddix/tbhm"
+        }
+      ],
+      "description": "A collection of tips, tricks, tools, analysis and notes related to web application security assessments and more specifically towards bug hunting in bug bounties",
+      "price": "Free"
+    },
+    {
       "name": "Vergilius",
       "links": [
         {
