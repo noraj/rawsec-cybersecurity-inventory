@@ -10,6 +10,15 @@
       "online": "False"
     },
     {
+      "name": "BurpBounty",
+      "tool": "Burp Suite",
+      "source": "https://github.com/wagiro/BurpBounty",
+      "description": "Scan Check Builder in BApp Store, improve the active and passive scanner by means of personalized rules through a graphical interface",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GEF",
       "tool": "GDB",
       "source": "https://github.com/hugsy/gef",
