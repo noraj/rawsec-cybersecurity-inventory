@@ -89,6 +89,16 @@
       ],
       "description": "CVE affecting Ubuntu",
       "price": "Free"
+    },
+    {
+      "name": "VULDB",
+      "links": [
+        {
+          "website": "https://vuldb.com/"
+        }
+      ],
+      "description": "Community-driven vulnerability database",
+      "price": "Free"
     }
   ]
 }
