@@ -14,6 +14,16 @@
       "price": "Free"
     },
     {
+      "name": "Bug Bounty Reference",
+      "links": [
+        {
+          "source": "https://github.com/ngalongc/bug-bounty-reference"
+        }
+      ],
+      "description": "A list of bug bounty write-up that is categorized by the bug nature",
+      "price": "Free"
+    },
+    {
       "name": "ctf-tools",
       "links": [
         {
