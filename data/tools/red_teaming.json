@@ -25,6 +25,14 @@
       "online": "False"
     },
     {
+      "name": "Quasar",
+      "source": "https://github.com/quasar/Quasar",
+      "description": "Remote Administration Tool (RAT) for Windows",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
