@@ -136,6 +136,14 @@
       "online": "False"
     },
     {
+      "name": "Pollenisator",
+      "source": "https://github.com/AlgoSecure/Pollenisator",
+      "description": "Collaborative penetration test and reporting platform (DB + clients, no WebUI)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Prithvi",
       "website": "https://www.vegabird.com/prithvi/",
       "source": "https://github.com/vegabird/prithvi",
