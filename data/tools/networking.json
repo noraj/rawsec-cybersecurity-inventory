@@ -392,7 +392,8 @@
     },
     {
       "name": "ssh-audit",
-      "source": "https://github.com/arthepsy/ssh-audit",
+      "website": "https://www.ssh-audit.com/",
+      "source": "https://github.com/jtesta/ssh-audit",
       "description": "SSH scanner that detects protocol, version, grab banner, recognize software and operating system, output algorithm information and recommendations",
       "language": "Python",
       "price": "Free",
