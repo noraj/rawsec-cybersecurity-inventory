@@ -49,6 +49,14 @@
       "online": "True"
     },
     {
+      "name": "gtfo",
+      "source": "https://github.com/mzfr/gtfo",
+      "description": "CLI for earching gtfobins and lolbas from the terminal",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Have i been pwned?",
       "website": "https://haveibeenpwned.com/",
       "description": "Service to check if an account has been compromised in a data breach",
