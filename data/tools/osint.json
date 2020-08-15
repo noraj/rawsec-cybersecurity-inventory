@@ -326,6 +326,14 @@
       "online": "False"
     },
     {
+      "name": "reNgine",
+      "source": "https://github.com/yogeshojha/rengine",
+      "description": "Automated recon framework for web applications; customizable scan engines & pipeline of reconnaissance",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sandmap",
       "website": "https://github.com/trimstray/sandmap/wiki",
       "source": "https://github.com/trimstray/sandmap",
