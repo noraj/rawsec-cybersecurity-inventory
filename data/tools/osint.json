@@ -19,6 +19,14 @@
       "online": "False"
     },
     {
+      "name": "Asnlookup",
+      "source": "https://github.com/yassineaboukir/Asnlookup",
+      "description": "Leverage ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes, then run port scanning on it",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "AutoRecon",
       "source": "https://github.com/Tib3rius/AutoRecon",
       "description": "Multi-threaded network reconnaissance tool which performs automated enumeration of services",
