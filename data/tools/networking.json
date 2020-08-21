@@ -123,6 +123,14 @@
       "online": "False"
     },
     {
+      "name": "HellRaiser",
+      "source": "https://github.com/m0nad/HellRaiser",
+      "description": "Scan with nmap to correlate CPE's found with cve-search to enumerate vulnerabilities",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hydra",
       "website": "https://www.thc.org/thc-hydra/",
       "source": "https://github.com/vanhauser-thc/thc-hydra",
