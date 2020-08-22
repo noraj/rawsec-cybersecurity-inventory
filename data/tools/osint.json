@@ -392,6 +392,14 @@
       "online": "False"
     },
     {
+      "name": "SubDomainizer",
+      "source": "https://github.com/nsonaniya2010/SubDomainizer",
+      "description": "Find subdomains and interesting things hidden inside, external Javascript files of page, folder, and Github",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sublist3r",
       "source": "https://github.com/aboul3la/Sublist3r",
       "description": "Subdomains enumeration tool",
