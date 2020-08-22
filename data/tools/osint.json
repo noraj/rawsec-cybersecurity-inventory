@@ -359,6 +359,14 @@
       "online": "True"
     },
     {
+      "name": "shosubgo",
+      "source": "https://github.com/incogbyte/shosubgo",
+      "description": "Grab subdomains using Shodan api",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SiteBroker",
       "source": "https://github.com/Anon-Exploiter/SiteBroker",
       "description": "Tool for information gathering and penetration test automation",
