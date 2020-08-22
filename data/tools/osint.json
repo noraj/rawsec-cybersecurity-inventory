@@ -367,6 +367,14 @@
       "online": "False"
     },
     {
+      "name": "shuffledns",
+      "source": "https://github.com/projectdiscovery/shuffledns",
+      "description": "Wrapper around massdns that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SiteBroker",
       "source": "https://github.com/Anon-Exploiter/SiteBroker",
       "description": "Tool for information gathering and penetration test automation",
