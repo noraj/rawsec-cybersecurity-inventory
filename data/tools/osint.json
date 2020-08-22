@@ -400,6 +400,15 @@
       "online": "False"
     },
     {
+      "name": "subfinder",
+      "website": "https://projectdiscovery.io/open-source",
+      "source": "https://github.com/projectdiscovery/subfinder",
+      "description": "Discovers valid subdomains for websites, designed as a passive framework to be useful for bug bounties and safe for penetration testing",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sublist3r",
       "source": "https://github.com/aboul3la/Sublist3r",
       "description": "Subdomains enumeration tool",
