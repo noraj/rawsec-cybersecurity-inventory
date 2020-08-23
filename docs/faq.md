@@ -8,7 +8,7 @@ That's true, especially *Awesome* lists, but there is one for pentest, one for C
 
 Multiple lists made it hard to find information and there was redundancy. Also I wanted a more well structured, organized and complete list.
 
-For more information check the [home page](https://inventory.rawsec.ml/index.html) of the inventory.
+For more information check the [home page](https://inventory.raw.pm/index.html) of the inventory.
 
 ## What motivated you to write this inventory?
 
@@ -24,7 +24,7 @@ If you think this is not, please [contribute](add.md) to make it ultimate!
 
 ## My tool is referenced here, what can I do more?
 
-You can add a [badge](https://inventory.rawsec.ml/features.html#badges) to your README or add your other infosec tools to the inventory.
+You can add a [badge](https://inventory.raw.pm/features.html#badges) to your README or add your other infosec tools to the inventory.
 
 ## What if you die?
 

@@ -85,7 +85,7 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://inventory.rawsec.ml/"
+          href="https://inventory.raw.pm/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">

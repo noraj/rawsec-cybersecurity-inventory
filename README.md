@@ -8,8 +8,8 @@
 
 Name                    | Link
 ------------------------|---------------------------------------------------------------------------
-Website                 | [link](https://inventory.rawsec.ml/)
-Documentation           | [link](https://inventory.rawsec.ml/docs/)
+Website                 | [link](https://inventory.raw.pm/)
+Documentation           | [link](https://inventory.raw.pm/docs/)
 Git repository          | [link](https://gitlab.com/rawsec/rawsec-cybersecurity-list)
 Git repository (mirror) | [link](https://github.com/noraj/rawsec-cybersecurity-inventory)
 Merge Requests          | [link](https://gitlab.com/rawsec/rawsec-cybersecurity-list/merge_requests)
@@ -33,4 +33,4 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 
 ### About
 
-See technologies used on the [About](https://inventory.rawsec.ml/about.html) page.
+See technologies used on the [About](https://inventory.raw.pm/about.html) page.

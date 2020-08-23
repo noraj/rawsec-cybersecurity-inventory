@@ -23,7 +23,7 @@ Once you have chosen a main category, for example `Tools`, you will be able to c
 
 ## Rich tables
 
-You can take a look at the [features](https://inventory.rawsec.ml/features.html#tables) page to watch animated video.
+You can take a look at the [features](https://inventory.raw.pm/features.html#tables) page to watch animated video.
 
 Once you chose a sub-category, for example `Web Application Exploitation`, you can see a table listing web app exploitation tools.
 
@@ -63,13 +63,13 @@ Now that you have sorted some columns and filtered some rows, you may way to cle
 
 ## Fancy informational popups
 
-Clicking on a row will show up a [sweet alert popup](https://inventory.rawsec.ml/features.html#popups) giving you additional information about the source repository of the tool or resource.
+Clicking on a row will show up a [sweet alert popup](https://inventory.raw.pm/features.html#popups) giving you additional information about the source repository of the tool or resource.
 
 ![](https://i.imgur.com/4VrzELK.png)
 
 ## Twitter bot
 
-The [Twitter bot](https://inventory.rawsec.ml/features.html#twitter-bot) randomly posts a tool or resource per day.
+The [Twitter bot](https://inventory.raw.pm/features.html#twitter-bot) randomly posts a tool or resource per day.
 
 Just [follow him](https://twitter.com/RawsecBot) to stay tuned and discover new stuff everyday.
 

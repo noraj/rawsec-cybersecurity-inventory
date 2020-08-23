@@ -8,7 +8,7 @@ The website is serving a static API, this means that the API is compiled when du
 
 Once you have [built](install.md) the website using `gulp`, you'll find the api inside `build/api`.
 
-Then the API is server under `https://inventory.rawsec.ml/api/api.json`.
+Then the API is server under `https://inventory.raw.pm/api/api.json`.
 
 **Note**: as the API is static, you need to call the full path including the filename and extension, ex: `/api/api.json` not only `/api/`. The filename is always the same as the parent folder.
 
@@ -17,19 +17,19 @@ Then the API is server under `https://inventory.rawsec.ml/api/api.json`.
 Get all the data:
 
 ```plaintext
-https://inventory.rawsec.ml/api/api.json
+https://inventory.raw.pm/api/api.json
 ```
 
 Get all CTF platforms:
 
 ```plaintext
-https://inventory.rawsec.ml/api/ctf_platforms/ctf_platforms.json
+https://inventory.raw.pm/api/ctf_platforms/ctf_platforms.json
 ```
 
 Get all jeopardy CTF platforms:
 
 ```plaintext
-https://inventory.rawsec.ml/api/ctf_platforms/jeopardy/jeopardy.json
+https://inventory.raw.pm/api/ctf_platforms/jeopardy/jeopardy.json
 ```
 
 Then `jeopardy` is a leaf category so there is a key called `items` giving the number of elements.
@@ -40,10 +40,10 @@ After the leaf category, here `jeopardy`, you need to call the type of item list
 Get a tool or ressource individually:
 
 ```plaintext
-https://inventory.rawsec.ml/api/ctf_platforms/jeopardy/ctf_platforms/28/28.json
+https://inventory.raw.pm/api/ctf_platforms/jeopardy/ctf_platforms/28/28.json
 ```
 
-Note that some category of resources can have an undetermined number of links. You can still find the resource with `https://inventory.rawsec.ml/api/resources/trainings_and_courses/resources/0/0.json`, but ypu will also be able to enumerate all the links like this `https://inventory.rawsec.ml/api/resources/trainings_and_courses/resources/0/links/links.json` or just obtain one line this `https://inventory.rawsec.ml/api/resources/trainings_and_courses/resources/0/links/0/0.json`.
+Note that some category of resources can have an undetermined number of links. You can still find the resource with `https://inventory.raw.pm/api/resources/trainings_and_courses/resources/0/0.json`, but ypu will also be able to enumerate all the links like this `https://inventory.raw.pm/api/resources/trainings_and_courses/resources/0/links/links.json` or just obtain one line this `https://inventory.raw.pm/api/resources/trainings_and_courses/resources/0/links/0/0.json`.
 
 If you have a doubt on how to call the API, take a look at the directory structure below.
 
@@ -170,7 +170,7 @@ build/api
 
 ## Showcase
 
-Rawsec's CyberSecurity Inventory has a nice [Twitter bot](https://inventory.rawsec.ml/features.html#twitter-bot) that posts a tool or resource per day.
+Rawsec's CyberSecurity Inventory has a nice [Twitter bot](https://inventory.raw.pm/features.html#twitter-bot) that posts a tool or resource per day.
 
 This bot was built in Ruby using the static API.
 

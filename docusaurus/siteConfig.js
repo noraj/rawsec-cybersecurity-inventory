@@ -18,7 +18,7 @@ const users = [
 const siteConfig = {
   title: 'Documentation', // Title for your website.
   tagline: "Rawsec's CyberSecurity Inventory documentation",
-  url: 'https://inventory.rawsec.ml/', // Your website URL
+  url: 'https://inventory.raw.pm/', // Your website URL
   baseUrl: '/docs/', // Base URL for your project
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -108,7 +108,7 @@ const siteConfig = {
 
   // /en/ in URL
   useEnglishUrl: true,
-  
+
   algolia: {
     apiKey: '4bae026c39902ddf54b2f37bcb8ed56b',
     indexName: 'rawsec-cybersecurity-inventory',
