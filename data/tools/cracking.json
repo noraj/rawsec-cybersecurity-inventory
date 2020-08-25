@@ -43,6 +43,15 @@
       "online": "False"
     },
     {
+      "name": "CrackStation",
+      "website": "https://crackstation.net/",
+      "source": "https://github.com/defuse/crackstation",
+      "description": "Pre-computed lookup tables to crack password hashes",
+      "language": "PHP",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "crunch",
       "source": "https://sourceforge.net/projects/crunch-wordlist/",
       "description": "Wordlist generator",
