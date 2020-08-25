@@ -33,6 +33,14 @@
       "online": "False"
     },
     {
+      "name": "Redcloud",
+      "source": "https://github.com/khast3x/Redcloud",
+      "description": "Automated Red Team Infrastructure deployment using Docker",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
