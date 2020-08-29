@@ -1,0 +1,69 @@
+extend layout/layout.pug
+
+block content
+    section.section
+        .container
+            article.message.is-dark
+                .message-body
+                    p This inventory aims to help people to find everything related to CyberSecurity.
+
+            .tile.is-ancestor
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-primary
+                        p.title Open source
+                        p.subtitle and also free
+                        .content
+                            span.icon.is-large
+                                i.fas.fa-2x.fa-code-branch
+                            p Every information is available and up to date. If an information is missing or deprecated, you are invited to (
+                                a(href='docs/docs/en/add.html') help us
+                                | ).
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-primary
+                        p.title Practical
+                        p.subtitle That's clean
+                        .content
+                            span.icon.is-large
+                                i.fas.fa-2x.fa-bars
+                            p Content is categorized and table formatted, allowing to search, browse, sort and filter.
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-primary
+                        p.title Fast
+                        p.subtitle Find it but find it fast
+                        .content
+                            span.icon.is-large
+                                i.fas.fa-2x.fa-fighter-jet
+                            p Using static and client side technologies resulting in fast browsing.
+
+            .tile.is-ancestor
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-dark
+                        p.title Specialized websites
+                        .content
+                            p Some websites are referencing tools but additional information is not available or browsable. Make additional searches take time.
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-dark
+                        p.title Curated lists
+                        .content
+                            p Curated lists are not very exhaustive, up to date or browsable and are very topic related.
+                .tile.is-parent.has-text-centered
+                    article.tile.is-child.notification.is-dark
+                        p.title Search engines
+                        .content
+                            p Search engines sometimes does find nothing, some tools or resources are too unknown or non-referenced. These is where crowdsourcing is better than robots.
+
+block hero-foot
+    .hero-foot
+        nav.tabs.is-boxed.is-fullwidth
+            .container
+                ul
+                    li.is-active
+                        a(href='index.html') Overview
+                    li
+                        a(href='tools.html') Tools
+                    li
+                        a(href='resources.html') Resources
+                    li
+                        a(href='ctf_platforms.html') CTF platforms
+                    li
+                        a(href='operating_systems.html') Operating Systems

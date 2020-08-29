@@ -1,69 +1,71 @@
-extend layout/layout.pug
+extend layout/search.pug
 
 block content
-    section.section
-        .container
-            article.message.is-dark
-                .message-body
-                    p This inventory aims to help people to find everything related to CyberSecurity.
+    .container.has-text-centered
+        .columns
+            .column.is-half.is-offset-one-quarter
+                figure.image.is-128x128.logo
+                    img(src='https://inventory.raw.pm/docs/img/logo5_dark_355x286.png')
+                p.is-size-7#search-info Search among 
+                    a(href='tools.html') tools
+                    |  and 
+                    a(href='ctf_platforms.html') CTF platforms
+                    | . Not available for 
+                    a(href='resources.html') resources
+                    |  and 
+                    a(href='operating_systems.html') operating systems
+                    | .
+                .field
+                    .control.has-icons-right
+                        input.input.is-rounded.is-primary(placeholder="Search" onInput="searchInput(this.value)")
+                        span.icon.is-right
+                            i.fas.fa-search
+        .columns.is-multiline#output
+            //.column.is-one-quarter
+                .card
+                    header.card-header
+                        p.card-header-title Hashview
+                    .card-content
+                        .content
+                            p Web-UI for managing, organizing, automating Hashcat commands/tasks
+                            .field.is-grouped.is-grouped-multiline
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark Category
+                                        .tag.is-danger Cracking
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark Language
+                                        .tag.is-warning Ruby
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark Price
+                                        .tag.is-info Free
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark Online
+                                        .tag.is-success False
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark BlackArch
+                                        .tag.is-black hashview
+                                .control
+                                    .tags.has-addons
+                                        .tag.is-dark Review
+                                        .tag.is-link link
+                            p Keywords:
+                            .tags
+                                span.tag.is-primary GUI
+                                span.tag.is-primary hashcat
+                                span.tag.is-primary crack
+                                span.tag.is-primary hash
+                    footer.card-footer
+                        a.card-footer-item(href="http://www.hashview.io/") Website
+                        a.card-footer-item(href="https://github.com/hashview/hashview") Source
 
-            .tile.is-ancestor
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-primary
-                        p.title Open source
-                        p.subtitle and also free
-                        .content
-                            span.icon.is-large
-                                i.fas.fa-2x.fa-code-branch
-                            p Every information is available and up to date. If an information is missing or deprecated, you are invited to (
-                                a(href='docs/docs/en/add.html') help us
-                                | ).
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-primary
-                        p.title Practical
-                        p.subtitle That's clean
-                        .content
-                            span.icon.is-large
-                                i.fas.fa-2x.fa-bars
-                            p Content is categorized and table formatted, allowing to search, browse, sort and filter.
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-primary
-                        p.title Fast
-                        p.subtitle Find it but find it fast
-                        .content
-                            span.icon.is-large
-                                i.fas.fa-2x.fa-fighter-jet
-                            p Using static and client side technologies resulting in fast browsing.
+block optional-script
+    // Search lib
+    script(src='js/vendor/minisearch/index.js')
+    // custom search
+    script(src='js/search.js')
 
-            .tile.is-ancestor
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-dark
-                        p.title Specialized websites
-                        .content
-                            p Some websites are referencing tools but additional information is not available or browsable. Make additional searches take time.
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-dark
-                        p.title Curated lists
-                        .content
-                            p Curated lists are not very exhaustive, up to date or browsable and are very topic related.
-                .tile.is-parent.has-text-centered
-                    article.tile.is-child.notification.is-dark
-                        p.title Search engines
-                        .content
-                            p Search engines sometimes does find nothing, some tools or resources are too unknown or non-referenced. These is where crowdsourcing is better than robots.
-
-block hero-foot
-    .hero-foot
-        nav.tabs.is-boxed.is-fullwidth
-            .container
-                ul
-                    li.is-active
-                        a(href='index.html') Overview
-                    li
-                        a(href='tools.html') Tools
-                    li
-                        a(href='resources.html') Resources
-                    li
-                        a(href='ctf_platforms.html') CTF platforms
-                    li
-                        a(href='operating_systems.html') Operating Systems

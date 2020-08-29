@@ -5,26 +5,17 @@ html(lang='en')
     body
         //- Scripts
         include ../partials/scripts.pug
-        block optional-script-top
-            //- No script by default
 
         //- Hero
-        section.hero.is-medium.is-dark
+        section.hero.is-fullheight.is-dark
             // Hero header: will stick at the top
             include ../partials/hero_head.pug
-            // Hero content: will be in the middle
-            include ../partials/hero_body.pug
-            // Hero footer: will stick at the bottom
-            block hero-foot
-                include ../partials/hero_foot.pug
+            .hero-body
+                block content
+                    .container.has-text-centered
+                        h1.title Search
 
-        //- Content
-        block content
-            section.section
-                .container
-                    h2.title.is-2 No content
-
-        block optional-script-bottom
+        block optional-script
             //- No script by default
 
         //- Footer

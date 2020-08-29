@@ -12,8 +12,22 @@
                 .navbar-end
                     a(href='index.html').navbar-item.has-text-white
                         span.icon
-                            i.fas.fa-home
-                        span Home
+                            i.fas.fa-search
+                        span Search
+                    //.navbar-item.has-dropdown.is-hoverable
+                        a.navbar-link.has-text-white Tables
+                        .navbar-dropdown
+                            a.navbar-item Tools
+                            a.navbar-item Resources
+                            a.navbar-item CTF platforms
+                            a.navbar-item Operating Systems
+                        // !!!!!!!!!!!!! https://github.com/VizuaaLOG/BulmaJS/issues/107
+                        // !!!!!!!!!!!!! https://github.com/jgthms/bulma/issues/3097
+                        // !!!!!!!!!!!!! https://github.com/jgthms/bulma/issues/3098
+                    a(href='overview.html').navbar-item.has-text-white
+                        span.icon
+                            i.fab.fa-buffer
+                        span Overview & Tables
                     a(href='features.html').navbar-item.has-text-white
                         span.icon
                             i.fas.fa-star
@@ -30,16 +44,16 @@
                         span.icon
                             i.fas.fa-info-circle
                         span About
-                    a(href='https://blog.raw.pm/').navbar-item Rawsec
-                    a(href='https://gitlab.com/rawsec/rawsec-cybersecurity-list' title='rawsec inventory gitlab repository').navbar-item.is-dark
+                    a(href='https://blog.raw.pm/').navbar-item.has-text-white Blog
+                    a(href='https://gitlab.com/rawsec/rawsec-cybersecurity-list' title='rawsec inventory gitlab repository').navbar-item
                         span.icon
                             i.fab.fa-gitlab
-                    a(href='https://github.com/noraj/rawsec-cybersecurity-inventory' title='rawsec inventory github mirror repository').navbar-item.is-dark
+                    a(href='https://github.com/noraj/rawsec-cybersecurity-inventory' title='rawsec inventory github mirror repository').navbar-item
                         span.icon
                             i.fab.fa-github-alt
-                    a(href='https://twitter.com/rawsec_cyber' title='rawsec twitter').navbar-item.is-dark
+                    a(href='https://twitter.com/rawsec_cyber' title='rawsec twitter').navbar-item
                         span.icon
                             i.fab.fa-twitter
-                    a(href='https://twitter.com/RawsecBot' title='rawsec inventory bot twitter').navbar-item.is-dark
+                    a(href='https://twitter.com/RawsecBot' title='rawsec inventory bot twitter').navbar-item
                         span.icon
                             i.fab.fa-twitter

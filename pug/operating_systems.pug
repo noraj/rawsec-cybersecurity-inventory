@@ -39,6 +39,12 @@ block hero-foot
                     li.is-active
                         a(href='operating_systems.html') Operating Systems
 
-block optional-script
+block optional-script-top
+    // TableFilter lib
+    script(src='js/vendor/tablefilter/tablefilter.js')
+    // TableFilter base config for all tables
+    script(src='js/tablefilter/base_config.js')
+
+block optional-script-bottom
     // Apply font-mfizz class to elements when available (need to be loaded after the content)
     script(src='js/auto-font-mfizz.js')

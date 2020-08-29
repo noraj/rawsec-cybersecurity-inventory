@@ -99,7 +99,8 @@
       "description": "Web-UI for managing, organizing, automating Hashcat commands/tasks",
       "language": "Ruby",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "John The Ripper",

@@ -18,8 +18,8 @@ task('build',
         series(pug_data, pug_src),
         series(api_clean, api_build, api_copy),
         parallel(
-            bulma, bulmajs, tablefilter, sweetalert2, jquery, js, fontawesome,
-            font_mfizz, images, css
+            bulma, bulmajs, tablefilter, sweetalert2, jquery, minisearch, js,
+            fontawesome, font_mfizz, images, css
 )));
 task('build').description = 'Build the static website';
 task('default', series('clean', 'build'));
@@ -112,6 +112,11 @@ function jquery() {
         .pipe(dest('build/js/vendor/jquery/'));
 };
 
+function minisearch() {
+    return src('node_modules/minisearch/dist/umd/index.js')
+        .pipe(dest('build/js/vendor/minisearch/'));
+};
+
 // copy personal (non-vendor) scripts
 function js() {
     return src('js/**/*.js')
@@ -126,9 +131,9 @@ function css() {
 };
 
 function fontawesome() {
-    return src(['node_modules/@fortawesome/fontawesome-free-webfonts/css/*',
-    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/*'],
-    { base: 'node_modules/@fortawesome/fontawesome-free-webfonts/'}
+    return src(['node_modules/@fortawesome/fontawesome-free/css/*',
+    'node_modules/@fortawesome/fontawesome-free/webfonts/*'],
+    { base: 'node_modules/@fortawesome/fontawesome-free/'}
     )
         .pipe(dest('build/css/vendor/fontawesome/'));
 };
