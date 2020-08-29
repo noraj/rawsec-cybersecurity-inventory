@@ -6,7 +6,9 @@
       "description": "Before Outset PaSsword CRacKing, password wordlist generator with exclusive features like lyrics based mode",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator, lyrics",
+      "blackarch": "bopscrk"
     },
     {
       "name": "CeWL",
@@ -14,7 +16,9 @@
       "description": "Custom wordlist generator based on website crawling",
       "language": "Ruby",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator",
+      "blackarch": "cewl"
     },
     {
       "name": "CrackerJack",
@@ -23,7 +27,8 @@
       "description": "Basic Web Interface for Hashcat",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "Cracklord",
@@ -32,7 +37,8 @@
       "description": "Scalable, pluggable, and distributed system for password cracking, supports Hashcat",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "CrackQ",
@@ -40,7 +46,8 @@
       "description": "Hashcat cracking queue system, API and WebUI",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "CrackStation",
@@ -57,7 +64,9 @@
       "description": "Wordlist generator",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator",
+      "blackarch": "crunch"
     },
    {
       "name": "CUPP",
@@ -65,7 +74,9 @@
       "description": "Common User Passwords Profiler, wordlist generator based on user profiling",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator",
+      "blackarch": "cupp"
     },
     {
       "name": "GoCrack",
@@ -73,7 +84,8 @@
       "description": "Management frontend for password cracking tools, supporting hashcat",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "Hashcat",
@@ -82,7 +94,8 @@
       "description": "Password cracking tool",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "hashcat"
     },
     {
       "name": "Hashtopolis",
@@ -90,7 +103,8 @@
       "description": "Hashcat wrapper for distributed hashcracking",
       "language": "PHP",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "Hashview",
@@ -113,11 +127,12 @@
     {
       "name": "John the Ripper, Jumbo version",
       "website": "http://www.openwall.com/john/",
-      "source": "https://github.com/magnumripper/JohnTheRipper",
+      "source": "https://github.com/openwall/john",
       "description": "Password cracking tool, community-enhanced version of John The Ripper",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "john"
     },
     {
       "name": "lyricpass",
@@ -125,7 +140,9 @@
       "description": "Tool to generate wordlists based on lyrics",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator, lyrics",
+      "blackarch": "lyricpass"
     },
     {
       "name": "Mentalist",
@@ -133,7 +150,9 @@
       "description": "Graphical tool for custom wordlist generation, can output rules compatible with Hashcat and John the Ripper",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator, hashcat, john",
+      "blackarch": "mentalist"
     },
     {
       "name": "Ophcrack",
@@ -149,7 +168,8 @@
       "description": "Phone number wordlist generator",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator, phone"
     },
     {
       "name": "PowerSniper",
@@ -165,15 +185,18 @@
       "description": "Multi-method password wordlist generator",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator",
+      "blackarch": "pydictor"
     },
     {
       "name": "TTPassGen",
       "source": "https://github.com/tp7309/TTPassGen",
-      "description": "Flexiable and scriptable password dictionary/wordlist generator",
+      "description": "Flexible and scriptable password dictionary/wordlist generator",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "wordlist, generator"
     },
     {
       "name": "WebHashcat",
@@ -181,7 +204,8 @@
       "description": "Hashcat WebUI with distributed cracking sessions and analytics",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
     },
     {
       "name": "wordlistctl",
@@ -189,7 +213,8 @@
       "description": "Fetch, install and search wordlist archives from websites and torrent peers",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "wordlistctl"
     }
   ]
 }
