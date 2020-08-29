@@ -56,7 +56,7 @@ fetch('https://inventory.raw.pm/api/api.json')
           column = div.cloneNode(true);
           column.classList = "column is-one-quarter";
           card = div.cloneNode(true);
-          card.classList = "card";
+          card.classList = "card card-equal-height";
           card_header = document.createElement("header");
           card_header.classList = "card-header";
           card_header_title = par.cloneNode(true);
