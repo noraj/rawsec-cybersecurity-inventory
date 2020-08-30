@@ -6,6 +6,8 @@
 
 # Rawsec's Cybersecurity Inventory
 
+![](https://i.imgur.com/HzwmJVP.png)
+
 Name                    | Link
 ------------------------|---------------------------------------------------------------------------
 Website                 | [link](https://inventory.raw.pm/)
@@ -21,7 +23,9 @@ For contribution, development, usage or questions check the documentation.
 
 ## Contributions
 
-All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more advanced [Contributors Analytics](https://gitlab.com/rawsec/rawsec-cybersecurity-list/graphs/master) are also available.
+[How to contribute?](https://inventory.raw.pm/docs/docs/en/add.html)
+
+All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more advanced [Contributors Analytics](https://gitlab.com/rawsec/rawsec-cybersecurity-list/-/graphs/master) are also available.
 
 [![noraj](https://img.shields.io/badge/noraj-Developer-black.svg)](https://gitlab.com/noraj)
 
