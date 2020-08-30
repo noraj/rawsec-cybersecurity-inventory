@@ -1,6 +1,16 @@
 {
   "resources": [
     {
+      "name": "AVORD",
+      "links": [
+        {
+          "website": "https://avord.co.uk/testers/"
+        }
+      ],
+      "description": "UK penetration testing platform",
+      "price": "Free"
+    },
+    {
       "name": "AntiHACK",
       "links": [
         {
