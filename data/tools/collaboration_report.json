@@ -193,6 +193,14 @@
       "online": "False"
     },
     {
+      "name": "Serpico-NG",
+      "source": "https://github.com/dedins/Serpico-NG",
+      "description": "SimplE RePort wrIting and CollaboratiOn tool NEXT-GENERATION, penetration testing report generation and collaboration tool, fork of Serpico",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sh00t",
       "source": "https://github.com/pavanw3b/sh00t",
       "description": "Pentesting platform with dynamic task manager, checklists, bug template & bug report",
