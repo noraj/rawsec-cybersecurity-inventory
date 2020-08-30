@@ -17,6 +17,14 @@
       "online": "True"
     },
     {
+      "name": "Bullwark",
+      "source": "https://github.com/softrams/bulwark",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Canopy",
       "website": "https://www.checksec.com/canopy.html",
       "description": "Penetration test platform: vulnerability management and reporting",
