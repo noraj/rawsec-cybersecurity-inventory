@@ -54,7 +54,7 @@ fetch('https://inventory.raw.pm/api/api.json')
           card_footer_item.classList = "card-footer-item";
 
           column = div.cloneNode(true);
-          column.classList = "column is-one-quarter";
+          column.classList = "column is-one-quarter is-full-mobile is-half-tablet is-one-third-widescreen is-one-quarter-desktop is-one-quarter-fullhd";
           card = div.cloneNode(true);
           card.classList = "card card-equal-height";
           card_header = document.createElement("header");
