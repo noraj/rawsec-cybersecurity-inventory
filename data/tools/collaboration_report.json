@@ -17,7 +17,7 @@
       "online": "True"
     },
     {
-      "name": "Bullwark",
+      "name": "Bulwark",
       "source": "https://github.com/softrams/bulwark",
       "description": "Collaborative penetration test, vulnerability management and reporting platform",
       "language": "JavaScript",
