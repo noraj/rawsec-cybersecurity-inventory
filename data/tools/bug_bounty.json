@@ -1,9 +1,18 @@
 {
   "tools": [
     {
+      "name": "bbr",
+      "source": "https://github.com/codingo/bbr",
+      "description": "Generation of bug bounty reports based on user provided templates",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI"
+    },
+    {
       "name": "BBstats",
       "source": "https://github.com/gwen001/BBstats",
-      "description": "Aggregrate reports/bounties from different platforms in order to create combined stats and graphs",
+      "description": "Aggregate reports/bounties from different platforms in order to create combined stats and graphs",
       "language": "PHP",
       "price": "Free",
       "online": "False"
