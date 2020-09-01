@@ -41,6 +41,15 @@
       "price": "Free",
       "online": "False",
       "keywords": "depreciated, CLI"
+    },
+    {
+      "name": "Needle",
+      "source": "https://github.com/humblelad/Needle",
+      "description": "Chrome extension for instant access to bug bounty submission dashboard of various platforms and publicly disclosed reports",
+      "language": "HTML",
+      "price": "Free",
+      "online": "False",
+      "keywords": "plugin, extension, addon"
     }
   ]
 }
