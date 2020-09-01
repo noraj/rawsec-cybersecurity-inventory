@@ -23,6 +23,15 @@
       "language": "Shell",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Bugbountydash",
+      "source": "https://github.com/infosec-au/bugbountydash",
+      "description": "Terminal dashboard for bug bounty hunters that use HackerOne and Bugcrowd ",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "depreciated"
     }
   ]
 }
