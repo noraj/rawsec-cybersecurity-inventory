@@ -25,13 +25,22 @@
       "online": "False"
     },
     {
+      "name": "BugBounty Web App",
+      "source": "https://github.com/sokaRepo/bugbounty",
+      "description": "App that helps bug bounty hunters to manage their bounties and target list",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "GUI"
+    },
+    {
       "name": "Bugbountydash",
       "source": "https://github.com/infosec-au/bugbountydash",
-      "description": "Terminal dashboard for bug bounty hunters that use HackerOne and Bugcrowd ",
+      "description": "Terminal dashboard for bug bounty hunters that use HackerOne and Bugcrowd",
       "language": "JavaScript",
       "price": "Free",
       "online": "False",
-      "keywords": "depreciated"
+      "keywords": "depreciated, CLI"
     }
   ]
 }
