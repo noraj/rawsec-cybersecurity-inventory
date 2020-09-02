@@ -1,6 +1,16 @@
 {
   "resources": [
     {
+      "name": "bounty-targets-data",
+      "links": [
+        {
+          "source": "https://github.com/arkadiyt/bounty-targets-data"
+        }
+      ],
+      "description": "Hourly-updated data dumps of bug bounty platform scopes that are eligible for reports",
+      "price": "Free"
+    },
+    {
       "name": "Bug Bounty Guide",
       "links": [
         {
