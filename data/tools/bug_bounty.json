@@ -70,6 +70,15 @@
       "keywords": "depreciated, CLI"
     },
     {
+      "name": "Hackerone::Client",
+      "source": "https://github.com/oreoshake/hackerone-client",
+      "description": "A limited client library for interacting with HackerOne",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "library"
+    },
+    {
       "name": "Needle",
       "source": "https://github.com/humblelad/Needle",
       "description": "Chrome extension for instant access to bug bounty submission dashboard of various platforms and publicly disclosed reports",
