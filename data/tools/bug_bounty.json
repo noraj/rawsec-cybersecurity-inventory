@@ -18,6 +18,14 @@
       "online": "False"
     },
     {
+      "name": "bounty-targets",
+      "source": "https://github.com/arkadiyt/bounty-targets",
+      "description": "Crawls bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) hourly and dumps them into another git repo",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BountyDash",
       "source": "https://github.com/avlidienbrunn/bountydash",
       "description": "Dashboard to combine rewards from all platforms, giving insights about progress and bug hunting patterns",
