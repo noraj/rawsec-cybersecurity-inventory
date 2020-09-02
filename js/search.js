@@ -170,14 +170,18 @@ fetch('https://inventory.raw.pm/api/api.json')
           if (elem.website || elem.source) {
             footer = document.createElement("footer");
             footer.classList = "card-footer";
-            website = card_footer_item.cloneNode(true);
-            website.setAttribute('href', elem.website);
-            website.innerText = 'Website';
-            footer.appendChild(website);
-            source = card_footer_item.cloneNode(true);
-            source.setAttribute('href', elem.source);
-            source.innerText = 'Source';
-            footer.appendChild(source);
+            if (elem.website) {
+              website = card_footer_item.cloneNode(true);
+              website.setAttribute('href', elem.website);
+              website.innerText = 'Website';
+              footer.appendChild(website);
+            }
+            if ( elem.source) {
+              source = card_footer_item.cloneNode(true);
+              source.setAttribute('href', elem.source);
+              source.innerText = 'Source';
+              footer.appendChild(source);
+            }
             card.appendChild(footer);
           }
           column.appendChild(card);
