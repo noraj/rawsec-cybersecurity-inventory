@@ -10,6 +10,16 @@
       "keywords": "CLI"
     },
     {
+      "name": "bbrecon",
+      "website": "https://bugbountyrecon.com/",
+      "source": "https://github.com/serain/bbrecon",
+      "description": "Service enumerating all targets on Internet covered by a bug bounty program",
+      "language": "Python",
+      "price": "Free",
+      "online": "True",
+      "keywords": "CLI, library, API"
+    },
+    {
       "name": "BBstats",
       "source": "https://github.com/gwen001/BBstats",
       "description": "Aggregate reports/bounties from different platforms in order to create combined stats and graphs",
