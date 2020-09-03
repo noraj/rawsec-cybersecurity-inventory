@@ -61,6 +61,16 @@
       "price": "Free"
     },
     {
+      "name": "FEDERACY",
+      "links": [
+        {
+          "website": "https://www.federacy.com/"
+        }
+      ],
+      "description": "Pentest as a Service & bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "FireBounty",
       "links": [
         {
