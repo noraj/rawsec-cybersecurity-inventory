@@ -51,6 +51,16 @@
       "price": "Free"
     },
     {
+      "name": "CESPPA",
+      "links": [
+        {
+          "website": "https://www.cesppa.com/"
+        }
+      ],
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "Cobalt.io",
       "links": [
         {
