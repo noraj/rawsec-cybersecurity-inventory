@@ -239,6 +239,16 @@
       "price": "Free"
     },
     {
+      "name": "Security Certification Roadmap",
+      "links": [
+        {
+          "website": "https://pauljerimy.com/security-certification-roadmap/"
+        }
+      ],
+      "description": "Map referencing all security certifications existing in several categories: Implementation, Architecture, Management, Analysis, Defensive Operations, Offensive Operations",
+      "price": "Free"
+    },
+    {
       "name": "SSL Checklist for Pentesters (Explore Security)",
       "links": [
         {
