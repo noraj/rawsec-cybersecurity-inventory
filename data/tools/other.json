@@ -51,10 +51,20 @@
     {
       "name": "gtfo",
       "source": "https://github.com/mzfr/gtfo",
-      "description": "CLI for earching gtfobins and lolbas from the terminal",
+      "description": "CLI for searching gtfobins and lolbas from the terminal",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "gtfo"
+    },
+    {
+      "name": "GTFOBLookup",
+      "source": "https://github.com/nccgroup/GTFOBLookup",
+      "description": "CLI for earching gtfobins and lolbas from the terminal; allows more advanced search than gtfo",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "gtfoblookup"
     },
     {
       "name": "Have i been pwned?",

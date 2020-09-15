@@ -240,7 +240,8 @@
       "description": "Tool for network discovery and security auditing",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "nmap"
     },
     {
       "name": "NMapGUI",

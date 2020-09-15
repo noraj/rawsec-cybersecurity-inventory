@@ -38,7 +38,8 @@
       "description": "A CLI tool to identify the hash type of a given hash",
       "language": "Ruby",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "haiti"
     },
     {
       "name": "hashID",
