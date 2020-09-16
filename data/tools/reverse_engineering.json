@@ -387,7 +387,8 @@
       "description": "Crossplatform binary analysis framework, disassembler, decompiler and debugger, support collaborative analysis",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "radare2"
     },
     {
       "name": "rbkb",

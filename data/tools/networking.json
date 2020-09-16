@@ -145,7 +145,8 @@
       "description": "Network login cracker",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "hydra"
     },
     {
       "name": "kalitorify",
