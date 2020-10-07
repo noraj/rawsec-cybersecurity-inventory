@@ -63,6 +63,22 @@
       "language": "Shell",
       "price": "Free",
       "online": "False"
-    }
+    },
+    {
+      "name": "King Phisher",
+      "source": "https://github.com/rsmusllp/king-phisher",
+      "description": "A tool for testing and promoting user awareness by simulating real world phishing attacks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Gophish",
+      "source": "https://getgophish.com/",
+      "description": "Gophish is an open-source phishing toolkit designed for businesses and penetration testers. It provides the ability to quickly and easily setup and execute phishing engagements and security awareness training.",
+      "language": "Go",
+      "price": "Free",
+      "online": "True"
+    },
   ]
 }
