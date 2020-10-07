@@ -54,7 +54,8 @@
       "description": "Phishing targeting social media logins; supports Ngrok tunneling and a mobile controller",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "socialfish"
     },
     {
       "name": "UBoat",
