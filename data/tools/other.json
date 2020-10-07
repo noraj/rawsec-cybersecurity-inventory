@@ -1,12 +1,12 @@
 {
   "tools": [
     {
-    "name": "ADB-Toolkit",
-    "source": "https://github.com/ASHWIN990/ADB-Toolkit",
-    "description": "Wrapper around adb to ease certain tasks",
-    "language": "Shell",
-    "price": "Free",
-    "online": "False"
+      "name": "ADB-Toolkit",
+      "source": "https://github.com/ASHWIN990/ADB-Toolkit",
+      "description": "Wrapper around adb to ease certain tasks",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "ctf-party",
@@ -65,6 +65,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "gtfoblookup"
+    },
+    {
+      "name": "hackingtool",
+      "source": "https://github.com/Z4nzu/hackingtool",
+      "description": "All in One Hacking tool For Hackers",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Have i been pwned?",
@@ -172,7 +180,7 @@
       "price": "Free",
       "online": "False"
     },
-   {
+    {
       "name": "SprayingToolkit",
       "source": "https://github.com/byt3bl33d3r/SprayingToolkit",
       "description": "Password spraying scripts for Lync/S4B and OWA",
