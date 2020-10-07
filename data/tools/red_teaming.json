@@ -49,6 +49,14 @@
       "online": "False"
     },
     {
+      "name": "SocialFish",
+      "source": "https://github.com/UndeadSec/SocialFish",
+      "description": "Phishing targeting social media logins; supports Ngrok tunneling and a mobile controller",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "UBoat",
       "source": "https://github.com/Souhardya/UBoat",
       "description": "HTTP botnet PoC",
