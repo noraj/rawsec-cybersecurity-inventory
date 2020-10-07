@@ -34,6 +34,28 @@
       "price": "Free"
     },
     {
+      "name": "Flu-Project",
+      "language": "Spanish",
+      "links": [
+        {
+          "website": "https://www.flu-project.com/p/retos-hacking.html"
+        }
+      ],
+      "description": "Challenge platform, guides and news",
+      "price": "Free"
+    },
+    {
+      "name": "Hack Players",
+      "language": "Spanish",
+      "links": [
+        {
+          "website": "https://www.hackplayers.com/p/retos-de-hackplayers_5.html"
+        }
+      ],
+      "description": "Challenge platform, guides and news",
+      "price": "Free"
+    },
+    {
       "name": "Hacking-Challenges",
       "language": "German",
       "links": [
@@ -141,28 +163,6 @@
         }
       ],
       "description": "Challenge platform",
-      "price": "Free"
-    },
-    {
-      "name": "Flu-Project",
-      "language": "Spanish",
-      "links": [
-        {
-          "website": "https://www.flu-project.com/p/retos-hacking.html"
-        }
-      ],
-      "description": "Challenge platform, guides and news",
-      "price": "Free"
-    },
-    {
-      "name": "Hack Players",
-      "language": "Spanish",
-      "links": [
-        {
-          "website": "https://www.hackplayers.com/p/retos-de-hackplayers_5.html"
-        }
-      ],
-      "description": "Challenge platform, guides and news",
       "price": "Free"
     }
   ]
