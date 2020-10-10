@@ -66,5 +66,18 @@
       "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
       "price": "Paid"
     }
+    {
+      "name": "freeCodeCamp.org",
+      "links": [
+        {
+          "website": "https://freeCodeCamp.org"
+          "video": "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
+          "video": "https://www.youtube.com/watch?v=X4eRbHgRawI"
+          "video": "https://www.youtube.com/watch?v=lZAoFs75_cs"  
+        }
+      ],
+      "description": "Entirely free courses on ethical hacking, penetration testing and development.",
+      "price": "Free"
+    }
   ]
 }
