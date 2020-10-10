@@ -51,5 +51,13 @@
       "language": "Go",
       "price": "Free"
     }
+    {
+      "name": "TryHackMe",
+      "website": "https://tryhackme.com/",
+      "source": "https://github.com/tryhackmeltd/docs.tryhackme.com",
+      "description": "A community fed diverse platform covering multiple cybersecurity topics. CTFs & Learning courses for: reversing, network/web penentration testing, cryptography and much more. Free users can SSH into THM servers for CTF style courses.",
+      "language": "Several",
+      "price": "Free"
+    },
   ]
 }
