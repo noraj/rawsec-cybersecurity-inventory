@@ -1,6 +1,6 @@
 let miniSearch = new MiniSearch({
   fields: ['name', 'description', 'keywords'],
-  storeFields: ['description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category'],
+  storeFields: ['description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch'],
   idField: 'name',
   searchOptions: {
     boost: {name: 2, keywords: 1.2},
