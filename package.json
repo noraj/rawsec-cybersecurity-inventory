@@ -41,7 +41,7 @@
     "gulp-sass": "^4.1.0",
     "jquery": "^3.5.1",
     "minisearch": "^3.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "static-api": "^0.2.0",
     "sweetalert2": "^10.0.2",
