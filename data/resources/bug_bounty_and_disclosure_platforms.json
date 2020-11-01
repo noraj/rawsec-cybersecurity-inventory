@@ -71,6 +71,16 @@
       "price": "Free"
     },
     {
+      "name": "Crowdswarn",
+      "links": [
+        {
+          "website": "https://www.crowdswarm.io/"
+        }
+      ],
+      "description": "Crowdsourced pentest & bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "FEDERACY",
       "links": [
         {
