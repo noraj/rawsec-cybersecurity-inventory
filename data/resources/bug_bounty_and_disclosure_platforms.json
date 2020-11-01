@@ -171,6 +171,16 @@
       "price": "Free"
     },
     {
+      "name": "ScanTitan",
+      "links": [
+        {
+          "website": "https://scantitan.com/crowdsourced-penetration-testing/"
+        }
+      ],
+      "description": "Crowdsourced pentest",
+      "price": "Free"
+    },
+    {
       "name": "SSD Secure Disclosure",
       "links": [
         {
