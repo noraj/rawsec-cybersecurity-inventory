@@ -190,6 +190,14 @@
       "blackarch": "pydictor"
     },
     {
+      "name": "rulesfinder",
+      "source": "https://github.com/synacktiv/rulesfinder",
+      "description": "Machine-learn password mangling rules; finds efficient password mangling rules (for John the Ripper or Hashcat) for a given dictionary and a list of passwords",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "TTPassGen",
       "source": "https://github.com/tp7309/TTPassGen",
       "description": "Flexible and scriptable password dictionary/wordlist generator",
