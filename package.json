@@ -29,9 +29,9 @@
   },
   "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "@vizuaalog/bulmajs": "^0.11.0",
-    "bulma": "^0.9.0",
+    "bulma": "^0.9.1",
     "del": "^6.0.0",
     "font-mfizz": "^2.4.1",
     "gulp": "^4.0.2",
@@ -40,11 +40,11 @@
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.1.0",
     "jquery": "^3.5.1",
-    "minisearch": "^3.0.0",
+    "minisearch": "^3.0.1",
     "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "static-api": "^0.2.0",
-    "sweetalert2": "^10.0.2",
+    "sweetalert2": "^10.9.0",
     "tablefilter": "^0.7.2"
   }
 }
