@@ -37,6 +37,19 @@
       "price": "Free"
     },
     {
+      "name": "OWASP Vulnerable Web Applications Directory",
+      "links": [
+        {
+          "website": "https://owasp.org/www-project-vulnerable-web-applications-directory/"
+        },
+        {
+          "source": "https://github.com/OWASP/OWASP-VWAD"
+        }
+      ],
+      "description": "Comprehensive and registry of all known vulnerable web applications currently available",
+      "price": "Free"
+    },
+    {
       "name": "PentestAcademy",
       "links": [
         {
