@@ -60,6 +60,15 @@
       "online": "False"
     },
     {
+      "name": "DeadTrap",
+      "website": "https://chr0m0s0m3s.github.io/DeadTrapv2/",
+      "source": "https://github.com/Chr0m0s0m3s/DeadTrapv2",
+      "description": "Track down footprints of a phone number",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "dnsenum",
       "source": "https://github.com/fwaeytens/dnsenum",
       "description": "DNS reconnaissance tool: AXFR, DNS records enumeration, subdomain bruteforce, range reverse lookup",
