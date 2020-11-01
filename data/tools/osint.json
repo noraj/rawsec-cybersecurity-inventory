@@ -296,6 +296,15 @@
       "online": "False"
     },
     {
+      "name": "ProjectDiscovery",
+      "website": "https://projectdiscovery.io/",
+      "source": "https://github.com/projectdiscovery",
+      "description": "Monitor, collect and continuously query the assets data via a simple webUI",
+      "language": "Go",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "ReconDog",
       "source": "https://github.com/s0md3v/ReconDog",
       "description": "Multi-purpose reconnaissance tool, CMS detection, reverse IP lookup, port scan, etc.",
