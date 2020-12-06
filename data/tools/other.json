@@ -9,13 +9,24 @@
     "online": "False"
     },
     {
+      "name": "Atheris",
+      "source": "https://github.com/google/atheris",
+      "description": "Coverage-guided Python fuzzing engine",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "fuzzer, CPython, libFuzzer, native code"
+      },
+    {
       "name": "ctf-party",
       "website": "https://noraj.github.io/ctf-party",
       "source": "https://github.com/noraj/ctf-party",
       "description": "Library to enhance and speed up script/exploit writing for CTF players",
       "language": "Ruby",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "encoding, decoding, hashing",
+      "blackarch": "ruby-ctf-party"
     },
     {
       "name": "CyberChef",
