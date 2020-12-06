@@ -59,6 +59,15 @@
       "online": "False"
     },
     {
+      "name": "SHAD0W",
+      "website": "https://blog.dylan.codes/shad0w/",
+      "source": "https://github.com/bats3c/shad0w",
+      "description": "Modular C2 framework designed to successfully operate covertly on heavily monitored environments",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
