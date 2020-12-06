@@ -250,6 +250,15 @@
       "language": "Ruby",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": " WriteHat",
+      "website": "https://www.blacklanternsecurity.com/2020-12-02-WriteHat/",
+      "source": "https://github.com/blacklanternsecurity/writehat",
+      "description": "Collaborative penetration test reporting platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
