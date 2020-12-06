@@ -79,6 +79,15 @@
       "blackarch": "cupp"
     },
     {
+      "name": "Duplicut",
+      "source": "https://github.com/nil0x42/duplicut",
+      "description": "Remove duplicates from massive wordlist, without sorting it (for dictionary-based password cracking)",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist"
+    },
+    {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
       "description": "Management frontend for password cracking tools, supporting hashcat",
