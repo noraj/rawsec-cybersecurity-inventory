@@ -75,6 +75,15 @@
       "online": "False"
     },
     {
+      "name": "Carnivore",
+      "website": "https://research.nccgroup.com/2020/12/03/tool-release-carnivore-microsoft-external-assessment-tool/",
+      "source": "https://github.com/nccgroup/Carnivore",
+      "description": "Assessment of on-premises Microsoft servers such as ADFS, Skype, Exchange, and RDWeb",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CapAnalysis",
       "website": "http://www.capanalysis.net",
       "source": "https://sourceforge.net/projects/capanalysis/",
