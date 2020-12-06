@@ -8,6 +8,15 @@
       "online": "False"
     },
     {
+      "name": "MISP",
+      "website": "https://www.misp-project.org/",
+      "source": "https://github.com/MISP/MISP",
+      "description": "Threat intelligence platform & open standards for threat information sharing (formerly known as Malware Information Sharing Platform)",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "threatfeeds.io",
       "website": "https://threatfeeds.io/",
       "description": "Open-source threat intelligence feeds; sharing malware URLs, IP reputation, bad IPs, etc.",
