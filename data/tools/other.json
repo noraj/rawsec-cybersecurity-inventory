@@ -158,6 +158,16 @@
       "online": "True"
     },
     {
+      "name": "rawsec_cli",
+      "website": "https://github.com/mBouamama/rawsec_cli",
+      "source": "https://github.com/ronin-ruby/ronin",
+      "description": "Rawsec Inventory search CLI to find security tools and resources",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "rawsec-cli"
+    },
+    {
       "name": "Ronin",
       "website": "https://ronin-ruby.github.io/",
       "source": "https://github.com/ronin-ruby/ronin",
