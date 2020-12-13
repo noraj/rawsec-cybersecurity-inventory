@@ -159,8 +159,8 @@
     },
     {
       "name": "rawsec_cli",
-      "website": "https://github.com/mBouamama/rawsec_cli",
-      "source": "https://github.com/ronin-ruby/ronin",
+      "website": "https://rawsec-cli.readthedocs.io/en/latest/",
+      "source": "https://github.com/mBouamama/rawsec_cli",
       "description": "Rawsec Inventory search CLI to find security tools and resources",
       "language": "Python",
       "price": "Free",
