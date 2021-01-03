@@ -209,6 +209,14 @@
       "online": "False"
     },
     {
+      "name": "Smersh",
+      "source": "https://github.com/CMEPW/Smersh",
+      "description": "Pentest oriented collaborative tool used to track the progress of your company's engagements and generate reports",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SwiftnessX",
       "source": "https://github.com/ehrishirajsharma/SwiftnessX",
       "description": "Cross-platform note-taking and target-tracking app for penetration testers",
