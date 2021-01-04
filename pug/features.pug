@@ -214,6 +214,44 @@ block content
                             | / 
                             a(href='https://gitlab.com/rawsec/rawsec-inventory-twitter-bot') Source (GitLab)
 
+    section.hero.is-dark.is-fullheight#search
+        .hero-body
+            .container
+                h2.title.is-2 Search engine
+
+                .columns
+                    .column.is-two-thirds
+                        figure.image
+                            img(alt="example of search results" src='https://i.imgur.com/MyAEiBO.png' height="400" width="auto")
+                    .column
+                        p Search among tools and CTF platforms. Not available for resources and operating systems.
+
+    section.hero.is-fullheight#cli
+        .hero-body
+            .container
+                h2.title.is-2 CLI tool
+
+                .columns.is-multiline.is-vcentered.is-centered
+                    .column.is-two-thirds.has-text-left
+                        p
+                            a(href="https://github.com/mBouamama") mBouamama
+                            | made a wrapper around the static API allowing anyone to search and list tools and resources of the inventory from the CLI.
+                        p
+                            span Example: list all vulnerability assessment tools:
+                            pre
+                                code rawsec-cli list tools vulnerability_assessment
+                    .column.is-one-third
+                        figure.image
+                            img(alt="example of list results" src='https://i.imgur.com/kHclHcI.png' height="400" width="auto")
+                    .column.is-one-third
+                        figure.image
+                            img(alt="example of search results" src='https://i.imgur.com/sTFlteE.png' height="400" width="auto")
+                    .column.is-two-thirds.has-text-right
+                        p Look for any JWT related tool but display only those which are packaged on BlackArch and written in Python:
+                        p
+                            pre
+                                code rawsec-cli search --blackarch --lang python jwt
+
 block hero-foot
     .hero-foot
         nav.tabs.is-boxed.is-fullwidth
@@ -229,3 +267,7 @@ block hero-foot
                         a(href='#api') Static API
                     li
                         a(href='#twitter-bot') Twitter bot
+                    li
+                        a(href='#search') Search engine
+                    li
+                        a(href='#cli') CLI tool
