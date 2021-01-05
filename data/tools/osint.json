@@ -248,6 +248,14 @@
       "online": "False"
     },
     {
+      "name": "LittleBrother",
+      "source": "https://github.com/lulz3xploit/littlebrother",
+      "description": "Information gathering (OSINT) on a person (EU), checks social networks and Pages Jaunes",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "MassDNS",
       "source": "https://github.com/blechschmidt/massdns",
       "description": "High-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)",
