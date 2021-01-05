@@ -256,6 +256,14 @@
       "online": "False"
     },
     {
+      "name": "Maigret",
+      "source": "https://github.com/soxoj/maigret",
+      "description": "Collect a dossier on a person by username from a huge number of sites, and extract details from them",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "MassDNS",
       "source": "https://github.com/blechschmidt/massdns",
       "description": "High-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)",
