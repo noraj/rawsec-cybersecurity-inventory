@@ -142,8 +142,8 @@
     },
     {
       "name": "GHunt",
-      "source": "https://github.com/mxrch/ghunt",
-      "description": "Investigate Google Accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, ...",
+      "source": "https://github.com/mxrch/GHunt",
+      "description": "Investigate Google Accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, etc.",
       "language": "Python",
       "price": "Free",
       "online": "False"
