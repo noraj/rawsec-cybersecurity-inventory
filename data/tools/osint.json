@@ -427,6 +427,15 @@
       "online": "True"
     },
     {
+      "name": "Sherlock",
+      "website": "https://sherlock-project.github.io",
+      "source": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "shosubgo",
       "source": "https://github.com/incogbyte/shosubgo",
       "description": "Grab subdomains using Shodan api",
