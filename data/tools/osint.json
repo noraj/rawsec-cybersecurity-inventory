@@ -525,6 +525,14 @@
       "online": "False"
     },
     {
+      "name": "Totem",
+      "source": "https://github.com/megadose/facebook_totem",
+      "description": "Totem allows you to retrieve information about ads of a facebook page , we can retrieve the number of people targeted, how much the ad cost and a lot of other information.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "trape",
       "source": "https://github.com/jofpin/trape",
       "description": "Analysis and research tool, which allows people to track and execute intelligent social engineering attacks in real time",
