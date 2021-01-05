@@ -288,6 +288,14 @@
       "online": "False"
     },
     {
+      "name": "OnionSearch",
+      "source": "https://github.com/megadose/OnionSearch",
+      "description": "OnionSearch is a script that scrapes urls on different .onion search engines.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OSINT Framework",
       "website": "http://osintframework.com/",
       "source": "https://github.com/lockfale/OSINT-Framework",
