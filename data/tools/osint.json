@@ -141,6 +141,14 @@
       "online": "False"
     },
     {
+      "name": "GHunt",
+      "source": "https://github.com/mxrch/ghunt",
+      "description": "Investigate Google Accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, ...",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gitGraber",
       "source": "https://github.com/hisxo/gitGraber",
       "description": "Monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe, etc.",
