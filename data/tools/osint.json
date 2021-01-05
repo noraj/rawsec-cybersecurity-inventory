@@ -51,6 +51,14 @@
       "online": "False"
     },
     {
+      "name": "Darkshot",
+      "source": "https://github.com/mxrch/darkshot",
+      "description": "Lightshot scraper with multi-threaded OCR and auto categorizing screenshots.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "datasploit",
       "website": "https://datasploit.github.io/datasploit/",
       "source": "https://github.com/DataSploit/datasploit",
