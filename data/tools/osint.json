@@ -53,7 +53,7 @@
     {
       "name": "Darkshot",
       "source": "https://github.com/mxrch/darkshot",
-      "description": "Lightshot scraper with multi-threaded OCR and auto categorizing screenshots.",
+      "description": "Lightshot scraper with multi-threaded OCR and auto categorizing screenshots",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -151,7 +151,7 @@
     {
       "name": "GHunt",
       "source": "https://github.com/mxrch/GHunt",
-      "description": "Investigate Google Accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, etc.",
+      "description": "Investigate Google accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, etc.",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -201,7 +201,7 @@
     {
       "name": "holehe",
       "source": "https://github.com/megadose/holehe",
-      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "description": "Check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -261,7 +261,8 @@
       "description": "Information gathering (OSINT) on a person (EU), checks social networks and Pages Jaunes",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "littlebrother"
     },
     {
       "name": "Maigret",
@@ -290,7 +291,7 @@
     {
       "name": "nqntnqnqmb",
       "source": "https://github.com/megadose/nqntnqnqmb",
-      "description": "Allows you to retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons ",
+      "description": "Retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -322,7 +323,7 @@
     {
       "name": "OnionSearch",
       "source": "https://github.com/megadose/OnionSearch",
-      "description": "OnionSearch is a script that scrapes urls on different .onion search engines.",
+      "description": "Script that scrapes urls on different .onion search engines",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -560,7 +561,7 @@
     {
       "name": "Totem",
       "source": "https://github.com/megadose/facebook_totem",
-      "description": "Totem allows you to retrieve information about ads of a facebook page , we can retrieve the number of people targeted, how much the ad cost and a lot of other information.",
+      "description": "Retrieve information about ads of a facebook page, retrieve the number of people targeted, how much the ad cost and a lot of other information",
       "language": "Python",
       "price": "Free",
       "online": "False"
