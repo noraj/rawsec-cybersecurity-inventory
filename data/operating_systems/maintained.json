@@ -43,12 +43,6 @@
       "link": "http://www.bugtraq-team.com/project-blackwidow.html"
     },
     {
-      "os": "Buscador",
-      "base": "Ubuntu",
-      "description": "OSINT (OVA appliance)",
-      "link": "https://inteltechniques.com/buscador/"
-    },
-    {
       "os": "CAINE",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR)",
@@ -61,18 +55,6 @@
       "link": "https://github.com/fireeye/commando-vm"
     },
     {
-      "os": "Cyborg Essentials",
-      "base": "Debian",
-      "description": "penetration testing and security lab",
-      "link": "http://cyborg.ztrela.com/cyborg-essentials/"
-    },
-    {
-      "os": "Cyborg Hawk Linux",
-      "base": "Ubuntu",
-      "description": "penetration testing and security lab",
-      "link": "http://cyborg.ztrela.com/cyborg-hawk/"
-    },
-    {
       "os": "DEFT",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR)",
@@ -83,12 +65,6 @@
       "base": "Debian",
       "description": "penetration testing and security lab",
       "link": "https://www.demonlinux.com/"
-    },
-    {
-      "os": "DracOS",
-      "base": "Linux From Scratch",
-      "description": "penetration testing and security lab",
-      "link": "https://dracos-linux.org/"
     },
     {
       "os": "Fedora Security Lab",

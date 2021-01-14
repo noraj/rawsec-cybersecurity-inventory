@@ -7,6 +7,30 @@
       "link": "https://sourceforge.net/projects/blackbuntu/"
     },
     {
+      "os": "Buscador",
+      "base": "Ubuntu",
+      "description": "OSINT (OVA appliance)",
+      "link": "https://inteltechniques.com/buscador/"
+    },
+    {
+      "os": "Cyborg Essentials",
+      "base": "Debian",
+      "description": "penetration testing and security lab",
+      "link": "http://cyborg.ztrela.com/cyborg-essentials/"
+    },
+    {
+      "os": "Cyborg Hawk Linux",
+      "base": "Ubuntu",
+      "description": "penetration testing and security lab",
+      "link": "http://cyborg.ztrela.com/cyborg-hawk/"
+    },
+    {
+      "os": "DracOS",
+      "base": "Linux From Scratch",
+      "description": "penetration testing and security lab",
+      "link": "https://dracos-linux.org/"
+    },
+    {
       "os": "GnackTrack",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
