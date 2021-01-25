@@ -185,6 +185,15 @@
       "online": "False"
     },
     {
+      "name": "Reconmap",
+      "website": "https://reconmap.com/",
+      "source": "https://github.com/Reconmap/api-backend",
+      "description": "Penetration test planning, automation and reporting",
+      "language": "PHP",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Serpico",
       "source": "https://github.com/SerpicoProject/Serpico",
       "description": "SimplE RePort wrIting and CollaboratiOn tool, penetration testing report generation and collaboration tool",
