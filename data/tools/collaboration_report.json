@@ -191,7 +191,7 @@
       "description": "Penetration test planning, automation and reporting",
       "language": "PHP",
       "price": "Free",
-      "online": "True"
+      "online": "False"
     },
     {
       "name": "Serpico",
