@@ -1,12 +1,12 @@
 {
   "tools": [
     {
-    "name": "ADB-Toolkit",
-    "source": "https://github.com/ASHWIN990/ADB-Toolkit",
-    "description": "Wrapper around adb to ease certain tasks",
-    "language": "Shell",
-    "price": "Free",
-    "online": "False"
+      "name": "ADB-Toolkit",
+      "source": "https://github.com/ASHWIN990/ADB-Toolkit",
+      "description": "Wrapper around adb to ease certain tasks",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Atheris",
@@ -16,7 +16,31 @@
       "price": "Free",
       "online": "False",
       "keywords": "fuzzer, CPython, libFuzzer, native code"
-      },
+    },
+    {
+      "name": "Avast Hack Check",
+      "website": "https://www.avast.com/hackcheck",
+      "description": "Service to check if an account has been compromised in a data breach, send an email with the breaches not the password",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
+      "name": "BreachAlarm",
+      "website": "https://breachalarm.com/",
+      "description": "Service to check if an account has been compromised in a data breach, only tells if the account is compromised",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
+      "name": "BreachDirectory",
+      "website": "https://breachdirectory.tk/",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches, partial password and hash",
+      "price": "Free",
+      "online": "True",
+      "keywords": "api, leak"
+    },
     {
       "name": "ctf-party",
       "website": "https://noraj.github.io/ctf-party",
@@ -42,7 +66,8 @@
       "website": "https://dehashed.com/",
       "description": "Service to check if an account has been compromised in a data breach",
       "price": "Paid",
-      "online": "True"
+      "online": "True",
+      "keywords": "api, leak"
     },
     {
       "name": "discover",
@@ -55,9 +80,18 @@
     {
       "name": "Firefox Monitor",
       "website": "https://monitor.firefox.com/",
-      "description": "Service to check if an account has been compromised in a data breach",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
       "price": "Free",
-      "online": "True"
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
+      "name": "F-Secure Identity Theft Checker",
+      "website": "https://www.f-secure.com/en/home/free-tools/identity-theft-checker",
+      "description": "Service to check if an account has been compromised in a data breach, send an email with the breaches not the password",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
     },
     {
       "name": "gtfo",
@@ -78,11 +112,12 @@
       "blackarch": "gtfoblookup"
     },
     {
-      "name": "Have i been pwned?",
+      "name": "Have I been pwned?",
       "website": "https://haveibeenpwned.com/",
-      "description": "Service to check if an account has been compromised in a data breach",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
       "price": "Free",
-      "online": "True"
+      "online": "True",
+      "keywords": "api, leak"
     },
     {
       "name": "hideNsneak",
@@ -117,6 +152,14 @@
       "online": "False"
     },
     {
+      "name": "Leak Lookup",
+      "website": "https://leak-lookup.com/",
+      "description": "Service to check if an account has been compromised in a data breach, requires an account",
+      "price": "Free",
+      "online": "True",
+      "keywords": "api, leak"
+    },
+    {
       "name": "Metasploit",
       "website": "https://www.metasploit.com/",
       "source": "https://github.com/rapid7/metasploit-framework",
@@ -124,6 +167,14 @@
       "language": "Ruby",
       "price": "Paid",
       "online": "False"
+    },
+    {
+      "name": "NameScan Email Compromised Check",
+      "website": "https://namescan.io/FreeEmailCompromisedCheck.aspx",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
     },
     {
       "name": "objection",
@@ -151,11 +202,20 @@
       "online": "False"
     },
     {
+      "name": "pwndb",
+      "website": "http://pwndb2am4tzkvold.onion/",
+      "description": "Service to check if an account has been compromised in a data breach, display the full password",
+      "price": "Free",
+      "online": "True",
+      "keywords": "api, tor, onion"
+    },
+    {
       "name": "PWDQUERY",
       "website": "https://pwdquery.xyz/",
-      "description": "Service to check if an account has been compromised in a data breach",
+      "description": "Service to check if an account has been compromised in a data breach, doesn't display breaches, partially display password",
       "price": "Free",
-      "online": "True"
+      "online": "True",
+      "keywords": "leak"
     },
     {
       "name": "rawsec_cli",
@@ -208,6 +268,14 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "UK Data Breaches",
+      "website": "https://www.breaches.uk/",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches not password",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
     },
     {
       "name": "v0lt",
