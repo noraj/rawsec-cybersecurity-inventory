@@ -31,7 +31,7 @@ test:doc:
 pages:
   stage: deploy
   script:
-    - npm install gulp-cli netlify-cli -g
+    - npm install gulp-cli netlify-cli -g --unsafe-perm=true
     - npm install # inventory dependencies
     - gulp # build the inventory
     - mkdir public
