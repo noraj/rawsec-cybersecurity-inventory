@@ -62,6 +62,14 @@
       "online": "False"
     },
     {
+      "name": "cybernews personal data leak check",
+      "website": "https://cybernews.com/personal-data-leak-check/",
+      "description": "Service to check if an account has been compromised in a data breach, only tells if the account is compromised",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
       "name": "DeHashed",
       "website": "https://dehashed.com/",
       "description": "Service to check if an account has been compromised in a data breach",
