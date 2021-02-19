@@ -44,7 +44,7 @@
     "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "static-api": "^0.2.0",
-    "sweetalert2": "^10.14.0",
+    "sweetalert2": "^10.15.4",
     "tablefilter": "^0.7.2"
   }
 }
