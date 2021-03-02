@@ -368,6 +368,15 @@
       "online": "False"
     },
     {
+      "name": "ruby-nmap",
+      "source": "https://github.com/sophsec/ruby-nmap",
+      "description": "Library for nmap, allows automating nmap and parsing nmap XML files",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "ruby-ruby-nmap"
+    },
+    {
       "name": "sandmap",
       "source": "https://github.com/trimstray/sandmap",
       "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
