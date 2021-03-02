@@ -7,7 +7,8 @@
       "description": "Suite of tools to assess WiFi network security (cracking WEP and WPA PSK)",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "aircrack-ng"
     },
     {
       "name": "BtleJack",
@@ -15,7 +16,8 @@
       "description": "Bluetooth Low Energy Swiss-army knife",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "btlejack"
     },
     {
       "name": "Crunch-Cracker",
@@ -32,7 +34,8 @@
       "description": "MITM WPA attack tool",
       "language": "Shell",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "fluxion"
     },
     {
       "name": "FruityWiFi",
