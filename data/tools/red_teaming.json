@@ -35,6 +35,14 @@
       "online": "False"
     },
     {
+      "name": "Mística",
+      "source": "https://github.com/IncideDigital/Mistica",
+      "description": "Allows to embed data into application layer protocol fields, with the goal of establishing a bi-directional channel for arbitrary communications; supports encapsulation into HTTP, HTTPS, DNS and ICMP protocols",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pupy",
       "source": "https://github.com/n1nj4sec/pupy",
       "description": "Cross-platform, multi function remote access tool (RAT) and post-exploitation tool; fileless/all-in-memory execution, low footprint, multi-transport",
