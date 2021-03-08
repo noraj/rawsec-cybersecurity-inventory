@@ -94,6 +94,13 @@
       "online": "False"
     },
     {
+      "name": "Hive",
+      "website": "https://hexway.io/",
+      "description": "Collaborative penetration test and reporting platform",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "Kvasir",
       "source": "https://github.com/KvasirSecurity/Kvasir",
       "description": "Pentest data management tool",
