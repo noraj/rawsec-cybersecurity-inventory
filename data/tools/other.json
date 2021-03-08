@@ -215,7 +215,7 @@
       "description": "Service to check if an account has been compromised in a data breach, display the full password",
       "price": "Free",
       "online": "True",
-      "keywords": "api, tor, onion"
+      "keywords": "api, tor, onion, leak"
     },
     {
       "name": "PWDQUERY",
