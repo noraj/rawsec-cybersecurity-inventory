@@ -202,6 +202,15 @@
       "online": "False"
     },
     {
+      "name": "Pass Station",
+      "website": "https://sec-it.github.io/pass-station/",
+      "source": "https://github.com/sec-it/pass-station",
+      "description": "CLI & library to search for default credentials among thousands of Products / Vendors",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PentestBox",
       "website": "https://pentestbox.org/",
       "source": "https://github.com/pentestbox",
