@@ -111,11 +111,10 @@
     {
       "name": "Pentest Collaboration Framework",
       "source": "https://gitlab.com/invuls/pentest-projects/pcf",
-      "website": "https://testing-pcf.herokuapp.com/login",
       "description": "Opensource, cross-platform and portable toolkit for automating routine processes when carrying out various works for testing!",
       "language": "Python",
       "price": "Free",
-      "online": "True"
+      "online": "False"
     }
   ]
 }
