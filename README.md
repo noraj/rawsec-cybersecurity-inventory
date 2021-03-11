@@ -34,7 +34,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![surround3](https://img.shields.io/badge/surround3-Contributor-FF5050.svg)](https://gitlab.com/surround3)
 [![bkimminich](https://img.shields.io/badge/bkimminich-Contributor-FF5050.svg)](https://gitlab.com/bkimminich)
 [![JamieSlome](https://img.shields.io/badge/JamieSlome-Contributor-FF5050.svg)](https://gitlab.com/JamieSlome)
-[![drakylar]](https://img.shields.io/badge/ShaposhnikovIlya-Contributor-FF5050.svg)(https://gitlab.com/drakylar)
+[![drakylar](https://img.shields.io/badge/ShaposhnikovIlya-Contributor-FF5050.svg)](https://gitlab.com/drakylar)
 
 ### About
 
