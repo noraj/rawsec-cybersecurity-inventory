@@ -130,6 +130,14 @@
       "online": "True"
     },
     {
+      "name": "de4dot",
+      "source": "https://github.com/de4dot/de4dot",
+      "description": ".NET deobfuscator and unpacker",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "dnSpy",
       "source": "https://github.com/0xd4d/dnSpy",
       "description": ".NET assembly debugger, decompiler and editor",
