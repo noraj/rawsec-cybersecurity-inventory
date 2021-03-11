@@ -45,7 +45,7 @@
     {
       "name": "Pentest Collaboration Framework",
       "source": "https://gitlab.com/invuls/pentest-projects/pcf",
-      "description": "Opensource, cross-platform and portable toolkit for automating routine processes when carrying out various works for testing!",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
       "language": "Python",
       "price": "Free",
       "online": "False"
