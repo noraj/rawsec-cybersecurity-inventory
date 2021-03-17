@@ -168,6 +168,13 @@
       "online": "False"
     },
     {
+      "name": "PenTest.WS",
+      "website": "https://pentest.ws/",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "PlexTrac",
       "website": "https://plextrac.com/",
       "description": "Collaborative penetration test reporting and vulnerability management platform",
