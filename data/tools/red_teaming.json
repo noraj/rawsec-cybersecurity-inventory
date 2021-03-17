@@ -43,14 +43,6 @@
       "online": "False"
     },
     {
-      "name": "Pentest Collaboration Framework",
-      "source": "https://gitlab.com/invuls/pentest-projects/pcf",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Pupy",
       "source": "https://github.com/n1nj4sec/pupy",
       "description": "Cross-platform, multi function remote access tool (RAT) and post-exploitation tool; fileless/all-in-memory execution, low footprint, multi-transport",

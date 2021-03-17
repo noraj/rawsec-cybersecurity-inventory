@@ -160,6 +160,14 @@
       "online": "False"
     },
     {
+      "name": "Pentest Collaboration Framework",
+      "source": "https://gitlab.com/invuls/pentest-projects/pcf",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PlexTrac",
       "website": "https://plextrac.com/",
       "description": "Collaborative penetration test reporting and vulnerability management platform",
