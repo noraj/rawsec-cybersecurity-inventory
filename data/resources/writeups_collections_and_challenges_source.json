@@ -21,6 +21,16 @@
       "price": "Free"
     },
     {
+      "name": "hackthebox-writeups",
+      "links": [
+        {
+          "source": "https://github.com/Hackplayers/hackthebox-writeups"
+        }
+      ],
+      "description": "Writeups for HacktheBox machines and challenges (PDF)",
+      "price": "Free"
+    },
+    {
       "name": "Pwning OWASP Juice Shop",
       "links": [
         {
@@ -41,6 +51,16 @@
         }
       ],
       "description": "Write-ups using pwntools archive",
+      "price": "Free"
+    },
+    {
+      "name": "tryhackme-writeups",
+      "links": [
+        {
+          "source": "https://github.com/noraj/tryhackme-writeups"
+        }
+      ],
+      "description": "Writeups for TryHackMe rooms (walkthrough & challenge)",
       "price": "Free"
     }
   ]
