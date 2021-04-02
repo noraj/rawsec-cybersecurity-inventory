@@ -144,6 +144,15 @@
       "blackarch": "john"
     },
     {
+      "name": "Kraker",
+      "source": "https://github.com/zzzteph/kraker",
+      "description": "Distributed password brute-force system, supports Hashcat",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False",
+      "keywords": "GUI, hashcat, crack, hash"
+    },
+    {
       "name": "lyricpass",
       "source": "https://github.com/initstring/lyricpass",
       "description": "Tool to generate wordlists based on lyrics",
