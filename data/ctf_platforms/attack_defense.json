@@ -50,6 +50,14 @@
       "description": "Attack-defence CTF platform",
       "language": "Go",
       "price": "Free"
+    },
+    {
+        "name": "Cardinal",
+        "website": "https://cardinal.ink/",
+        "source": "https://github.com/vidar-team/Cardinal",
+        "description": "Self-hosted Attack-defence CTF platform",
+        "language": "Go",
+        "price": "Free"
     }
   ]
 }
