@@ -1,6 +1,14 @@
 {
   "ctf_platforms": [
     {
+      "name": "Cardinal",
+      "website": "https://cardinal.ink/",
+      "source": "https://github.com/vidar-team/Cardinal",
+      "description": "Attack-defence CTF platform",
+      "language": "Go",
+      "price": "Free"
+    },
+    {
       "name": "checksystem",
       "source": "https://github.com/HackerDom/checksystem",
       "description": "Checksystem for attack-defence CTF",
@@ -50,14 +58,6 @@
       "description": "Attack-defence CTF platform",
       "language": "Go",
       "price": "Free"
-    },
-    {
-        "name": "Cardinal",
-        "website": "https://cardinal.ink/",
-        "source": "https://github.com/vidar-team/Cardinal",
-        "description": "Self-hosted Attack-defence CTF platform",
-        "language": "Go",
-        "price": "Free"
     }
   ]
 }
