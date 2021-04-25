@@ -11,6 +11,15 @@
       "blackarch": "aircrack-ng"
     },
     {
+      "name": "airgeddon",
+      "source": "https://github.com/v1s1t0r1sh3r3/airgeddon",
+      "description": "Wireless network audit script",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "airgeddon"
+    },
+    {
       "name": "BtleJack",
       "source": "https://github.com/virtualabs/btlejack",
       "description": "Bluetooth Low Energy Swiss-army knife",
