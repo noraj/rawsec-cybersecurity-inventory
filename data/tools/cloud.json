@@ -1,0 +1,34 @@
+{
+  "tools": [
+    {
+      "name": "AWS Extender CLI",
+      "source": "https://github.com/VirtueSecurity/aws-extender-cli",
+      "description": "Test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "aws-extender-cli",
+      "keywords": "AWS, GCP, Azure"
+    },
+    {
+      "name": "Pacu",
+      "website": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
+      "source": "https://github.com/RhinoSecurityLabs/pacu",
+      "description": "AWS exploitation framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "pacu",
+      "keywords": "AWS"
+    },
+    {
+      "name": "Smogcloud",
+      "source": "https://github.com/BishopFox/smogcloud",
+      "description": "Identify AWS cloud assets",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AWS"
+    }
+  ]
+}
