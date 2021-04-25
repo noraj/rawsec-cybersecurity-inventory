@@ -51,6 +51,15 @@
       "online": "False"
     },
     {
+      "name": "Certstream",
+      "website": "https://certstream.calidog.io/",
+      "source": "https://github.com/CaliDog/certstream-server",
+      "description": "Intelligence feed that gives real-time updates from the Certificate Transparency Log network",
+      "language": "Elixir",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Darkshot",
       "source": "https://github.com/mxrch/darkshot",
       "description": "Lightshot scraper with multi-threaded OCR and auto categorizing screenshots",
