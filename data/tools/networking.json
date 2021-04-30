@@ -61,7 +61,7 @@
     {
       "name": "Boomerang",
       "source": "https://github.com/paranoidninja/Boomerang",
-      "description": "Pivoting tool",
+      "description": "Client/Server HTTP pivoting tool",
       "programming_language": "Go",
       "price": "Free",
       "online": "False"
