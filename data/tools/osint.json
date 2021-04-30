@@ -182,6 +182,15 @@
       "online": "False"
     },
     {
+      "name": "GoSeek",
+      "website": "https://github.com/audioo/goseek",
+      "source": "https://github.com/audioo/goseek",
+      "description": "WIP OSINT & OPSEC Multi-Tool, with new features being rolled out daily. Includes Username lookup comparable to Maigret/Sherlock, IP Lookup, License Plate & VIN Lookup, Info Cull, and Fake Identity Generator.",
+      "programming_language": "Golang",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gOSINT",
       "source": "https://github.com/Nhoya/gOSINT",
       "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",
