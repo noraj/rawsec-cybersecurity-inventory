@@ -124,6 +124,14 @@
       "online": "False"
     },
     {
+      "name": "Girsh",
+      "source": "https://github.com/nodauf/Girsh",
+      "description": "Girsh will detect the OS and execute the correct commands to upgrade it to a full interactive reverse shell",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "goddi",
       "source": "https://github.com/NetSPI/goddi",
       "description": "Active Directory domain information dumper",
