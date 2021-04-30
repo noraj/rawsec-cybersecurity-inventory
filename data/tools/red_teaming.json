@@ -43,6 +43,15 @@
       "online": "False"
     },
     {
+      "name": "Overlord",
+      "website": "https://blog.qsecure.com.cy/posts/overlord/",
+      "source": "https://github.com/qsecure-labs/overlord",
+      "description": "Console CLI used to build Red Teaming infrastructure in an automated way, supports AWS and Digital Ocean",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pupy",
       "source": "https://github.com/n1nj4sec/pupy",
       "description": "Cross-platform, multi function remote access tool (RAT) and post-exploitation tool; fileless/all-in-memory execution, low footprint, multi-transport",
