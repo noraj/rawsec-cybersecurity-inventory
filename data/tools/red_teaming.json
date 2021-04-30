@@ -46,7 +46,7 @@
       "name": "Overlord",
       "website": "https://blog.qsecure.com.cy/posts/overlord/",
       "source": "https://github.com/qsecure-labs/overlord",
-      "description": "Console CLI used to build Red Teaming infrastructure in an automated way, supports AWS and Digital Ocean",
+      "description": "CLI used to build Red Teaming infrastructure in an automated way, supports AWS and Digital Ocean",
       "language": "Python",
       "price": "Free",
       "online": "False"
