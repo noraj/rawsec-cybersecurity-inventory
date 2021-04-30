@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "PatrowlHears",
+      "website": "https://patrowl.io/products/hears",
+      "source": "https://github.com/Patrowl/PatrowlHears",
+      "description": "Provides a unified source of vulnerability, exploit and threat Intelligence feeds; comprehensive and continuously updated vulnerability database scored and enriched with exploit and threat news information",
+      "language": "Python",
+      "price": "Paid"
+    },
+    {
       "name": "threatfeeds.io",
       "website": "https://threatfeeds.io/",
       "description": "Open-source threat intelligence feeds; sharing malware URLs, IP reputation, bad IPs, etc.",
