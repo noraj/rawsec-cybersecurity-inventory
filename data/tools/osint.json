@@ -183,10 +183,9 @@
     },
     {
       "name": "GoSeek",
-      "website": "https://github.com/audioo/goseek",
       "source": "https://github.com/audioo/goseek",
-      "description": "WIP OSINT & OPSEC Multi-Tool, with new features being rolled out daily. Includes Username lookup comparable to Maigret/Sherlock, IP Lookup, License Plate & VIN Lookup, Info Cull, and Fake Identity Generator.",
-      "programming_language": "Golang",
+      "description": "Username lookup comparable to Maigret/Sherlock, IP Lookup, License Plate & VIN Lookup, Info Cull, and Fake Identity Generator",
+      "programming_language": "Go",
       "price": "Free",
       "online": "False"
     },
