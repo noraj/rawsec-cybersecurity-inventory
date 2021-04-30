@@ -59,6 +59,14 @@
       "online": "False"
     },
     {
+      "name": "Boomerang",
+      "source": "https://github.com/paranoidninja/Boomerang",
+      "description": "Pivoting tool",
+      "programming_language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BruteSpray",
       "source": "https://github.com/x90skysn3k/brutespray",
       "description": "Takes nmap GNMAP/XML output or newline seperated JSONS and automatically brute-forces services with default credentials using Medusa",
