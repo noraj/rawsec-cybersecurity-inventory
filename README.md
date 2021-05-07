@@ -36,6 +36,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![JamieSlome](https://img.shields.io/badge/JamieSlome-Contributor-FF5050.svg)](https://gitlab.com/JamieSlome)
 [![drakylar](https://img.shields.io/badge/ShaposhnikovIlya-Contributor-FF5050.svg)](https://gitlab.com/drakylar)
 [![wuhan005](https://img.shields.io/badge/E99p1ant-Contributor-FF5050.svg)](https://gitlab.com/wuhan005)
+[![jenaye](https://img.shields.io/badge/jenaye-Contributor-FF5050.svg)](https://gitlab.com/jenaye)
 
 ### About
 
