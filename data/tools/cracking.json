@@ -21,6 +21,15 @@
       "blackarch": "cewl"
     },
     {
+      "name": "cook",
+      "source": "https://github.com/giteshnxtlvl/cook",
+      "description": "Wordlist generator: create permutations and combinations of words with predefined sets of extensions, words and patterns/function to create complex endpoints, wordlists and passwords",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator"
+    },
+    {
       "name": "CrackerJack",
       "website": "https://www.contextis.com/en/resources/tools/crackerjack",
       "source": "https://github.com/ctxis/crackerjack",
