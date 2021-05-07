@@ -21,6 +21,20 @@ Chat                    | [link](https://discord.gg/Wspwv2h)
 
 For contribution, development, usage or questions check the documentation.
 
+## Sponsors
+
+Please contact [me](https://pwn.by/noraj/profiles.html) or [Porchetta Industries](https://porchetta.industries/contact/) if you plan to sponsor this project.
+
+## Official Discord Channel
+
+The Rawsec's CyberSecurity Inventory has a channel at [Porchetta Industries](https://porchetta.industries/) Discord server alongside of channels for many other open-source security tools.
+
+[![Porchetta Industries](https://discordapp.com/api/guilds/736724457258745996/widget.png?style=banner2)](https://discord.gg/VWcdZCUsQP)
+
+The Inventory also has a channel at Rawsec Discord server alongside of channels for my other tools.
+
+[![Rawsec](https://discordapp.com/api/guilds/437247125508587540/widget.png?style=banner2)](https://discord.gg/xvTb2vx)
+
 ## Contributions
 
 [How to contribute?](https://inventory.raw.pm/docs/docs/en/add.html)
