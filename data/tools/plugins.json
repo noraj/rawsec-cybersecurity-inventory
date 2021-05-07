@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "Hyperpwn",
+      "tool": "Hyper",
+      "source": "https://github.com/bet4it/hyperpwn",
+      "description": "Improve the display when debugging with GDB, needs GEF, pwndbg or peda to be loaded in GDB as a backend",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GEF",
       "tool": "GDB",
       "source": "https://github.com/hugsy/gef",
