@@ -249,6 +249,16 @@
       "price": "Free"
     },
     {
+      "name": "Sploitus",
+      "links": [
+        {
+          "website": "https://sploitus.com/"
+        }
+      ],
+      "description": "Exploit search engine (PacketStorm, Exploit-DB, 0day.today, etc.) and tools search engine (KitPloit)",
+      "price": "Free"
+    },
+    {
       "name": "SSL Checklist for Pentesters (Explore Security)",
       "links": [
         {
