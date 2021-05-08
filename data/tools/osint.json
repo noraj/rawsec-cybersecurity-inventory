@@ -314,6 +314,14 @@
       "online": "False"
     },
     {
+      "name": "Oblivion",
+      "source": "https://github.com/loseys/Oblivion",
+      "description": "Data leak checker and monitoring",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODIN",
       "source": "https://github.com/chrismaddalena/ODIN",
       "description": "Observe, Detect, and Investigate Networks, Automated reconnaissance tool",
