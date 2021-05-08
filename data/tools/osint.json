@@ -303,7 +303,8 @@
       "description": "OSINT tool that doesn't require any API key",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "metabigor"
     },
     {
       "name": "nqntnqnqmb",
@@ -335,7 +336,8 @@
       "description": "OSINT framework; collection of tools",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "omnibus"
     },
     {
       "name": "OneForAll",
@@ -351,7 +353,8 @@
       "description": "Script that scrapes urls on different .onion search engines",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "onionsearch"
     },
     {
       "name": "OSINT Framework",
@@ -377,7 +380,8 @@
       "description": "Fast crawler designed for OSINT",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "photon"
     },
     {
       "name": "PITT",
@@ -417,7 +421,8 @@
       "description": "Tool made to automate information gathering and service enumeration while storing results",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "reconnoitre"
     },
     {
       "name": "ReconScan",
@@ -425,7 +430,8 @@
       "description": "Network reconnaissance and vulnerability assessment tools",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "reconscan"
     },
     {
       "name": "Recsech",
@@ -433,7 +439,8 @@
       "description": "Web reconnaissance and vulnerability scanner tool",
       "language": "PHP",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "recsech"
     },
     {
       "name": "Red Team Arsenal",
