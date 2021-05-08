@@ -11,6 +11,16 @@
       "price": "Free"
     },
     {
+      "name": "AttackerKB",
+      "links": [
+        {
+          "website": "https://attackerkb.com/"
+        }
+      ],
+      "description": "Forum for the security community to share insights and views that help security professionals better understand the risk in their environment and make more informed decisions around prioritization and defense.",
+      "price": "Free"
+    },
+    {
       "name": "CVE Details",
       "links": [
         {
