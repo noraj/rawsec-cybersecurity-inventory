@@ -102,6 +102,14 @@
       "keywords": "leak"
     },
     {
+      "name": "Godehashed",
+      "source": "https://github.com/an00byss/godehashed",
+      "description": "Uses the dehashed.com API to search for compromised assets",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gtfo",
       "source": "https://github.com/mzfr/gtfo",
       "description": "CLI for searching gtfobins and lolbas from the terminal",
