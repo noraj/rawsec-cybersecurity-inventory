@@ -116,6 +116,14 @@
       "language": "Shell",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "lateralus",
+      "source": "https://github.com/lateralusd/lateralus",
+      "description": "Terminal based phishing campaign tool",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
