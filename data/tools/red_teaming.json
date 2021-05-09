@@ -35,6 +35,14 @@
       "online": "False"
     },
     {
+      "name": "lateralus",
+      "source": "https://github.com/lateralusd/lateralus",
+      "description": "Terminal based phishing campaign tool",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Mística",
       "source": "https://github.com/IncideDigital/Mistica",
       "description": "Allows to embed data into application layer protocol fields, with the goal of establishing a bi-directional channel for arbitrary communications; supports encapsulation into HTTP, HTTPS, DNS and ICMP protocols",
@@ -114,14 +122,6 @@
       "source": "https://github.com/htr-tech/zphisher",
       "description": "Automated phishing tool with multiple tunneling options; fork of Shellphish",
       "language": "Shell",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "lateralus",
-      "source": "https://github.com/lateralusd/lateralus",
-      "description": "Terminal based phishing campaign tool",
-      "language": "Go",
       "price": "Free",
       "online": "False"
     }
