@@ -217,6 +217,13 @@
       "keywords": "markdown, 2FA"
     },
     {
+      "name": "Reporter",
+      "website": "https://securityreporter.app/",
+      "description": "Collaborative penetration test reporting platform",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Serpico",
       "source": "https://github.com/SerpicoProject/Serpico",
       "description": "SimplE RePort wrIting and CollaboratiOn tool, penetration testing report generation and collaboration tool",
