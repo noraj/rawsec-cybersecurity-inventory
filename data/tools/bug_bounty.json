@@ -28,6 +28,14 @@
       "online": "False"
     },
     {
+      "name": "Bounty Dashboard",
+      "source": "https://github.com/lucasmartinelle/Bounty-Dashboard/",
+      "description": "Aggregate reports/bounties from different platforms in order to create combined stats and graphs, report and template management system, invoice creation system ",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bounty-targets",
       "source": "https://github.com/arkadiyt/bounty-targets",
       "description": "Crawls bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) hourly and dumps them into another git repo",
