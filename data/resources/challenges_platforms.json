@@ -71,6 +71,16 @@
       "price": "Free"
     },
     {
+      "name": "CyberDefenders",
+      "links": [
+        {
+          "website": "https://cyberdefenders.org/labs/"
+        }
+      ],
+      "description": "Training platform focused on the defensive side of cybersecurity, aiming to provide a place for blue teams to practice",
+      "price": "Free"
+    },
+    {
       "name": "Electrica",
       "links": [
         {
