@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "Cipher Suite Info",
+      "website": "https://ciphersuite.info/",
+      "source": "https://github.com/hcrudolph/ciphersuite.info",
+      "description": "A searchable directory of TLS ciphersuites and related security details",
+      "language": "Python",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "crypto-identifier",
       "source": "https://github.com/Acceis/crypto_identifier",
       "description": "Tool that try to identify what cipher is used and uncipher the data",
