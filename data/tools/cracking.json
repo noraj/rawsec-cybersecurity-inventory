@@ -225,6 +225,14 @@
       "online": "False"
     },
     {
+      "name": "Spraygen",
+      "source": "https://github.com/3ndG4me/spraygen",
+      "description": "Permutation-based password list generator",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "TTPassGen",
       "source": "https://github.com/tp7309/TTPassGen",
       "description": "Flexible and scriptable password dictionary/wordlist generator",
