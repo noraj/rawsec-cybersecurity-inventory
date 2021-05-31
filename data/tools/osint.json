@@ -307,6 +307,13 @@
       "blackarch": "metabigor"
     },
     {
+      "name": "Nmmapper",
+      "source": "https://www.nmmapper.com/",
+      "description": "Cybersecurity tools offered as SaaS: nmap, subdomain finder (Sublist3r, DNScan, Anubis, Amass, Lepus, Findomain, Censys), theHarvester, etc.",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "nqntnqnqmb",
       "source": "https://github.com/megadose/nqntnqnqmb",
       "description": "Retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons",
