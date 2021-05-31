@@ -50,6 +50,14 @@
       "online": "False"
     },
     {
+      "name": "JWT-Key-Recovery",
+      "source": "https://github.com/FlorianPicca/JWT-Key-Recovery",
+      "description": "Recover the public key used to sign JWT tokens",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PkCrack",
       "website": "https://www.unix-ag.uni-kl.de/%7Econrad/krypto/pkcrack.html",
       "description": "Tool for breaking PkZip encryption",
