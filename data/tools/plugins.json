@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "HopLa",
+      "tool": "Burp Suite",
+      "source": "https://github.com/synacktiv/HopLa",
+      "description": "Adds autocompletion support and useful payloads in Burp Suite",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hyperpwn",
       "tool": "Hyper",
       "source": "https://github.com/bet4it/hyperpwn",
