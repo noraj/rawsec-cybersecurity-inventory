@@ -128,6 +128,14 @@
       "blackarch": "gtfoblookup"
     },
     {
+      "name": "HackTools",
+      "source": "https://github.com/LasCC/Hack-Tools",
+      "description": "Web browser extension (Chromium, Firefox, Safari) including common functions for web pentest",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Have I been pwned?",
       "website": "https://haveibeenpwned.com/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
