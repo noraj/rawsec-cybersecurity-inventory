@@ -278,6 +278,15 @@
       "blackarch": "nmap"
     },
     {
+      "name": "nmap-parse-output",
+      "source": "https://github.com/ernw/nmap-parse-output",
+      "description": "Converts / manipulates / extracts data from a nmap scan output",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "nmap-parse-output"
+    },
+    {
       "name": "NMapGUI",
       "source": "https://github.com/danicuestasuarez/NMapGUI",
       "description": "Advanced GUI for Nmap",
