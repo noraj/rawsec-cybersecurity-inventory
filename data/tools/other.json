@@ -261,6 +261,15 @@
       "blackarch": "rawsec-cli"
     },
     {
+      "name": "Reverse Shell Generator",
+      "website": "https://www.revshells.com/",
+      "source": "https://github.com/0dayCTF/reverse-shell-generator",
+      "description": "Web-based reverse shell generator, includes features such as listener generation, raw mode, bind shell generation, msfvenom generation, payload encoding, many different languages, tools and shells supported",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Ronin",
       "website": "https://ronin-ruby.github.io/",
       "source": "https://github.com/ronin-ruby/ronin",
