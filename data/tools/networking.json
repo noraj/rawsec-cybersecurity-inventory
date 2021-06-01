@@ -148,6 +148,15 @@
       "online": "False"
     },
     {
+      "name": "Go-RouterSocks",
+      "source": "https://github.com/nodauf/Go-RouterSocks",
+      "description": "Socks proxy router to handle multi-clients on the same port",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "pivoting"
+    },
+    {
       "name": "goddi",
       "source": "https://github.com/NetSPI/goddi",
       "description": "Active Directory domain information dumper",
