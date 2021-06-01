@@ -71,13 +71,13 @@
       "price": "Free"
     },
     {
-      "name": "Saucs",
+      "name": "OpenCVE",
       "links": [
         {
-          "website": "https://www.saucs.com/"
+          "website": "https://www.opencve.io/"
         }
       ],
-      "description": "Customizable CVE dashboard, track vulnerabilities that concern you",
+      "description": "Customizable CVE dashboard, track vulnerabilities that concern you (previously named Saucs)",
       "price": "Free"
     },
     {
