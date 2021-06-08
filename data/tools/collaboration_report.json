@@ -32,6 +32,14 @@
       "online": "False"
     },
     {
+      "name": "CTFNote",
+      "source": "https://github.com/TFNS/CTFNote",
+      "description": "Collaborative platform for CTF teams, event planning, credentials sharing, tasks management, notes taking",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DART",
       "source": "https://github.com/lmco/dart",
       "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
