@@ -43,6 +43,15 @@
       "online": "False"
     },
     {
+      "name": "link",
+      "source": "https://github.com/postrequest/link",
+      "description": "Command and control framework; HTTPS communication, process injection, in-memory .NET assembly execution, SharpCollection tools, sRDI implementation for shellcode generation, Windows link reloads DLLs from disk into current process",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "website": "C&N, C2"
+    },
+    {
       "name": "Mística",
       "source": "https://github.com/IncideDigital/Mistica",
       "description": "Allows to embed data into application layer protocol fields, with the goal of establishing a bi-directional channel for arbitrary communications; supports encapsulation into HTTP, HTTPS, DNS and ICMP protocols",
