@@ -144,7 +144,7 @@
     },
     {
       "name": "wifite2",
-      "source": "https://github.com/derv82/wifite2",
+      "source": "https://github.com/kimocoder/wifite2",
       "description": "Script for auditing wireless networks that runs existing wireless-auditing tools",
       "language": "Python",
       "price": "Free",
