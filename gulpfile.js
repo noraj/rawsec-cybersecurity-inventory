@@ -5,6 +5,7 @@ const pug = require('gulp-pug');
 const data = require('gulp-data');
 const merge = require('gulp-merge-json');
 const sass = require('gulp-sass');
+var connect = require('gulp-connect');
 const fs = require('fs');
 const path = require('path');
 const del = require('del');
@@ -13,6 +14,8 @@ const del = require('del');
 // so I'm using gulp.task instead of commonJs exports.aTaskName = aFunc
 task(clean);
 clean.description = 'Clean the build directory';
+task('server', webserver);
+task('server').description = 'Local dev web server';
 task('build',
     series(
         series(pug_data, pug_src),
@@ -148,4 +151,11 @@ function font_mfizz() {
 function images() {
     return src('img/**/*.*')
         .pipe(dest('build/img/'));
+};
+
+function webserver() {
+  connect.server({
+    root: 'build',
+    port: 3000
+  });
 };
