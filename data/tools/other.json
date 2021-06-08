@@ -334,7 +334,8 @@
       "description": "VBScript minifier",
       "language": "Ruby",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "VBS"
     },
     {
       "name": "webqr",
