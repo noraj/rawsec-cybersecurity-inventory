@@ -14,20 +14,19 @@
                         span.icon
                             i.fas.fa-search
                         span Search
-                    //.navbar-item.has-dropdown.is-hoverable
-                        a.navbar-link.has-text-white Tables
-                        .navbar-dropdown
-                            a.navbar-item Tools
-                            a.navbar-item Resources
-                            a.navbar-item CTF platforms
-                            a.navbar-item Operating Systems
-                        // !!!!!!!!!!!!! https://github.com/VizuaaLOG/BulmaJS/issues/107
-                        // !!!!!!!!!!!!! https://github.com/jgthms/bulma/issues/3097
+                    .navbar-item.has-dropdown.is-hoverable
+                        a.navbar-link.has-text-white.has-background-dark
+                            span.icon
+                                i.fab.fa-buffer
+                            span Overview & Tables
+                        .navbar-dropdown.has-background-dark.has-text-white
+                            a.navbar-item(href='overview.html') Overview
+                            a.navbar-item(href='tools.html') Tools
+                            a.navbar-item(href='resources.html') Resources
+                            a.navbar-item(href='ctf_platforms.html') CTF platforms
+                            a.navbar-item(href='operating_systems.html') Operating Systems
+                        // !!!!!!!!!!!!! temporary fix by adding background and font color
                         // !!!!!!!!!!!!! https://github.com/jgthms/bulma/issues/3098
-                    a(href='overview.html').navbar-item.has-text-white
-                        span.icon
-                            i.fab.fa-buffer
-                        span Overview & Tables
                     a(href='features.html').navbar-item.has-text-white
                         span.icon
                             i.fas.fa-star
@@ -44,8 +43,17 @@
                         span.icon
                             i.fas.fa-info-circle
                         span About
-                    a(href='https://blog.raw.pm/').navbar-item.has-text-white Blog
-                    a(href='https://writeup.raw.pm/').navbar-item.has-text-white Write-Up Factory
+                    .navbar-item.has-dropdown.is-hoverable
+                        a.navbar-link.has-text-white.has-background-dark
+                            span.icon
+                                i.fas.fa-ellipsis-h
+                        .navbar-dropdown.has-background-dark.has-text-white
+                            a.navbar-item(href='https://blog.raw.pm/') Blog
+                            a.navbar-item(href='https://writeup.raw.pm/') Write-Up Factory
+                            a.navbar-item(href='https://blog.raw.pm/domains/') Domains
+                            a.navbar-item(href='https://pwn.by/noraj/') noraj
+                        // !!!!!!!!!!!!! temporary fix by adding background and font color
+                        // !!!!!!!!!!!!! https://github.com/jgthms/bulma/issues/3098
                     a(href='https://gitlab.com/rawsec/rawsec-cybersecurity-list' title='rawsec inventory gitlab repository').navbar-item
                         span.icon
                             i.fab.fa-gitlab
