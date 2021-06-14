@@ -259,6 +259,17 @@
       "price": "Free"
     },
     {
+      "name": "NetSPI SQL Injection Wiki",
+      "links": [
+        {
+          "website": "https://sqlwiki.netspi.com/",
+          "source": "https://github.com/NetSPI/SQLInjectionWiki"
+        }
+      ],
+      "description": "A wiki knowledge base focused on SQL injection for various DBMS",
+      "price": "Free"
+    },
+    {
       "name": "SSL Checklist for Pentesters (Explore Security)",
       "links": [
         {
