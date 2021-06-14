@@ -28,6 +28,15 @@
       "online": "False"
     },
     {
+      "name": "http-screenshot-html",
+      "tool": "Nmap",
+      "source": "https://github.com/afxdub/http-screenshot-html",
+      "description": "Nmap NSE script that scans for http server, takes a screenshot of them, and organizes the results into an HTML report",
+      "language": "Lua",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hyperpwn",
       "tool": "Hyper",
       "source": "https://github.com/bet4it/hyperpwn",
