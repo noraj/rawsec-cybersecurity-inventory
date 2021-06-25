@@ -21,13 +21,13 @@
       "price": "Free"
     },
     {
-      "name": "Bounty Factory",
+      "name": "Bug Bounty Hub",
       "links": [
         {
-          "website": "https://bountyfactory.io/"
+          "website": "https://bugbountyhub.com/"
         }
       ],
-      "description": "European bug bounty platform based on the legislation and rules in force in european countries, by YesWeHack",
+      "description": "Bug bounty platform",
       "price": "Free"
     },
     {
@@ -67,7 +67,7 @@
           "website": "https://cobalt.io/"
         }
       ],
-      "description": "Crowdsourced pentest, registrant will be a cobalt.io employee (take care to obligation of loyalty if you already have a job)",
+      "description": "Crowdsourced pentest and bug bounty platform",
       "price": "Free"
     },
     {
@@ -197,7 +197,17 @@
           "website": "https://www.synack.com/red-team/"
         }
       ],
-      "description": "Crowdsourced pentest, registrant will be a SynAck employee (take care to obligation of loyalty if you already have a job)",
+      "description": "Crowdsourced pentest and bug bounty platform",
+      "price": "Free"
+    },
+    {
+      "name": "Yes We Hack",
+      "links": [
+        {
+          "website": "https://www.yeswehack.com/"
+        }
+      ],
+      "description": "European bug bounty platform based on the legislation and rules in force in european countries",
       "price": "Free"
     },
     {
