@@ -18,6 +18,16 @@
       "online": "False"
     },
     {
+      "name": "AttackSurfaceMapper",
+      "source": "https://github.com/superhedgy/AttackSurfaceMapper",
+      "description": "Subdomain enumerator",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "reconnaissance",
+      "blackarch": "attacksurfacemapper"
+    },
+    {
       "name": "AutoRecon",
       "source": "https://github.com/Tib3rius/AutoRecon",
       "description": "Multi-threaded network reconnaissance tool which performs automated enumeration of services",
