@@ -190,6 +190,16 @@
       "price": "Free"
     },
     {
+      "name": "Priv2Admin",
+      "links": [
+        {
+          "source": "https://github.com/gtworek/Priv2Admin"
+        }
+      ],
+      "description": "Exploitation paths allowing to use the Windows Privileges to elevate rights within the OS",
+      "price": "Free"
+    },
+    {
       "name": "Privacy Tools",
       "links": [
         {
