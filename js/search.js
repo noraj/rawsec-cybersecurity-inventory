@@ -1,6 +1,6 @@
 let miniSearch = new MiniSearch({
   fields: ['name', 'description', 'keywords', 'category'],
-  storeFields: ['description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch'],
+  storeFields: ['name', 'description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch'],
   //idField: 'name', // https://github.com/lucaong/minisearch/issues/59#issuecomment-841691275
   extractField: (document, fieldName) => {
     if (fieldName === 'id') {
@@ -99,7 +99,7 @@ fetch('https://inventory.raw.pm/api/api.json')
           card_header.classList = "card-header";
           card_header_title = par.cloneNode(true);
           card_header_title.classList = "card-header-title";
-          card_header_title.innerText = elem.id;
+          card_header_title.innerText = elem.name;
           card_header.appendChild(card_header_title);
           card.appendChild(card_header);
           card_content = div.cloneNode(true);
