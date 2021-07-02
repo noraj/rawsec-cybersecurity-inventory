@@ -49,7 +49,7 @@
       "language": "Rust",
       "price": "Free",
       "online": "False",
-      "website": "C&N, C2"
+      "keywords": "C&C, C2"
     },
     {
       "name": "Mística",
@@ -58,6 +58,15 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Mythic",
+      "source": "https://github.com/its-a-feature/Mythic",
+      "description": "Collaborative red teaming framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
     },
     {
       "name": "Overlord",
