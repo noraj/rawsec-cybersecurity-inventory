@@ -2,41 +2,25 @@
     "resources": [
       {
         "name": "CFP TIME",
-        "links": [
-          {
-            "website": "https://www.cfptime.org/"
-          }
-        ],
+        "website": "https://www.cfptime.org/",
         "description": "World Call For Papers (CFP) agenda for security conferences",
         "price": "Free"
       },
       {
         "name": "CTF TIME",
-        "links": [
-          {
-            "website": "https://ctftime.org/"
-          }
-        ],
+        "website": "https://ctftime.org/",
         "description": "World CTF agenda and scoreboard",
         "price": "Free"
       },
       {
         "name": "InfoSec Conferences",
-        "links": [
-          {
-            "website": "https://infosec-conferences.com/"
-          }
-        ],
+        "website": "https://infosec-conferences.com/",
         "description": "World cybersecurity conferences agenda",
         "price": "Free"
       },
       {
         "name": "SecurityCTF (reddit)",
-        "links": [
-          {
-            "website": "https://www.reddit.com/r/securityCTF/"
-          }
-        ],
+        "website": "https://www.reddit.com/r/securityCTF/",
         "description": "Community for security CTF announcements and writeups",
         "price": "Free"
       }

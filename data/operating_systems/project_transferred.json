@@ -1,10 +1,12 @@
 {
   "operating_systems": [
     {
+      "name": "",
       "from": "ArchAssault",
       "to": "BlackArch Linux"
     },
     {
+      "name": "",
       "from": "Backtrack",
       "to": "Kali Linux"
     }

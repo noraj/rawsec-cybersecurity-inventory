@@ -1,7 +1,15 @@
 let miniSearch = new MiniSearch({
-  fields: ['name', 'description', 'keywords'],
+  fields: ['name', 'description', 'keywords', 'category'],
   storeFields: ['description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch'],
-  idField: 'name',
+  //idField: 'name', // https://github.com/lucaong/minisearch/issues/59#issuecomment-841691275
+  extractField: (document, fieldName) => {
+    if (fieldName === 'id') {
+      return `${document.category}-${document.name}`
+    } else {
+      return document[fieldName]
+    }
+  },
+
   searchOptions: {
     boost: {name: 2, keywords: 1.2},
     prefix: true,
@@ -15,7 +23,11 @@ fetch('https://inventory.raw.pm/api/api.json')
       // add category
       tools = value.tools;
       for (let i=0; i<tools.length; i++) {
-        tools[i]['category'] = key;
+        tools[i]['category'] = 'tools_' + key;
+        // crop strings that are too long and will overflow the tag label
+        if (tools[i]['category'].length > 34) {
+          tools[i]['category'] = tools[i]['category'].substring(0, 33) + '…'
+        }
       }
       // index items
       miniSearch.addAll(tools);
@@ -28,6 +40,32 @@ fetch('https://inventory.raw.pm/api/api.json')
       }
       // index items
       miniSearch.addAll(ctf_platforms);
+    }
+    for (const [key, value] of Object.entries(data.resources)) {
+      // add category
+      resources = value.resources;
+      for (let i=0; i<resources.length; i++) {
+        resources[i]['category'] = 'resources_' + key;
+        // crop strings that are too long and will overflow the tag label
+        if (resources[i]['category'].length > 34) {
+          resources[i]['category'] = resources[i]['category'].substring(0, 33) + '…'
+        }
+      }
+      // index items
+      miniSearch.addAll(resources);
+    }
+    for (const [key, value] of Object.entries(data.operating_systems)) {
+      // add category
+      operating_systems = value.operating_systems;
+      for (let i=0; i<operating_systems.length; i++) {
+        operating_systems[i]['category'] = 'os_' + key;
+        // crop strings that are too long and will overflow the tag label
+        if (operating_systems[i]['category'].length > 34) {
+          operating_systems[i]['category'] = operating_systems[i]['category'].substring(0, 33) + '…'
+        }
+      }
+      // index items
+      miniSearch.addAll(operating_systems);
     }
   });
 

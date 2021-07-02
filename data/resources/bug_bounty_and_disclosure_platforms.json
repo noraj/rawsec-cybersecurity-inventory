@@ -2,251 +2,151 @@
   "resources": [
     {
       "name": "AVORD",
-      "links": [
-        {
-          "website": "https://avord.co.uk/testers/"
-        }
-      ],
+      "website": "https://avord.co.uk/testers/",
       "description": "UK penetration testing platform",
       "price": "Free"
     },
     {
       "name": "AntiHACK",
-      "links": [
-        {
-          "website": "https://www.antihack.me/"
-        }
-      ],
+      "website": "https://www.antihack.me/",
       "description": "Singapore bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Bug Bounty Hub",
-      "links": [
-        {
-          "website": "https://bugbountyhub.com/"
-        }
-      ],
+      "website": "https://bugbountyhub.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "BugBounty.jp",
-      "links": [
-        {
-          "website": "https://bugbounty.jp/"
-        }
-      ],
+      "website": "https://bugbounty.jp/",
       "description": "Japan bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Bugcrowd",
-      "links": [
-        {
-          "website": "https://www.bugcrowd.com/"
-        }
-      ],
+      "website": "https://www.bugcrowd.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "CESPPA",
-      "links": [
-        {
-          "website": "https://www.cesppa.com/"
-        }
-      ],
+      "website": "https://www.cesppa.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Cobalt.io",
-      "links": [
-        {
-          "website": "https://cobalt.io/"
-        }
-      ],
+      "website": "https://cobalt.io/",
       "description": "Crowdsourced pentest and bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Crowdswarn",
-      "links": [
-        {
-          "website": "https://www.crowdswarm.io/"
-        }
-      ],
+      "website": "https://www.crowdswarm.io/",
       "description": "Crowdsourced pentest & bug bounty platform",
       "price": "Free"
     },
     {
       "name": "FEDERACY",
-      "links": [
-        {
-          "website": "https://www.federacy.com/"
-        }
-      ],
+      "website": "https://www.federacy.com/",
       "description": "Crowdsourced pentest & bug bounty platform",
       "price": "Free"
     },
     {
       "name": "FireBounty",
-      "links": [
-        {
-          "website": "https://firebounty.com/"
-        }
-      ],
+      "website": "https://firebounty.com/",
       "description": "Bug bounty program aggregator",
       "price": "Free"
     },
     {
       "name": "HackenProof",
-      "links": [
-        {
-          "website": "https://hackenproof.com/"
-        }
-      ],
+      "website": "https://hackenproof.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "HackerOne",
-      "links": [
-        {
-          "website": "https://www.hackerone.com/"
-        }
-      ],
+      "website": "https://www.hackerone.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "HackTrophy",
-      "links": [
-        {
-          "website": "https://hacktrophy.com/"
-        }
-      ],
+      "website": "https://hacktrophy.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
         {
       "name": "huntr",
-      "links": [
-        {
-          "website": "https://huntr.dev"
-        }
-      ],
+      "website": "https://huntr.dev",
       "description": "A bug bounty board for securing open-source code.",
       "price": "Free"
     },
     {
       "name": "Intigriti",
-      "links": [
-        {
-          "website": "https://www.intigriti.com/public/"
-        }
-      ],
+      "website": "https://www.intigriti.com/public/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Open Bug Bounty",
-      "links": [
-        {
-          "website": "https://www.openbugbounty.org/"
-        }
-      ],
+      "website": "https://www.openbugbounty.org/",
       "description": "Non-profit bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Plugbounty",
-      "links": [
-        {
-          "website": "https://www.plugbounty.com/"
-        }
-      ],
+      "website": "https://www.plugbounty.com/",
       "description": "Bug bounty platform for plugins, themes, extensions, libraries",
       "price": "Free"
     },
     {
       "name": "ScanTitan",
-      "links": [
-        {
-          "website": "https://scantitan.com/crowdsourced-penetration-testing/"
-        }
-      ],
+      "website": "https://scantitan.com/crowdsourced-penetration-testing/",
       "description": "Crowdsourced pentest",
       "price": "Free"
     },
     {
       "name": "SSD Secure Disclosure",
-      "links": [
-        {
-          "website": "https://ssd-disclosure.com/"
-        }
-      ],
+      "website": "https://ssd-disclosure.com/",
       "description": "Rewarded responsible disclosure service",
       "price": "Free"
     },
     {
       "name": "SynAck Red Team",
-      "links": [
-        {
-          "website": "https://www.synack.com/red-team/"
-        }
-      ],
+      "website": "https://www.synack.com/red-team/",
       "description": "Crowdsourced pentest and bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Yes We Hack",
-      "links": [
-        {
-          "website": "https://www.yeswehack.com/"
-        }
-      ],
+      "website": "https://www.yeswehack.com/",
       "description": "European bug bounty platform based on the legislation and rules in force in european countries",
       "price": "Free"
     },
     {
       "name": "Yogosha",
-      "links": [
-        {
-          "website": "https://www.yogosha.com/"
-        }
-      ],
+      "website": "https://www.yogosha.com/",
       "description": "Bug bounty platform",
       "price": "Free"
     },
     {
       "name": "Zero Day Initiative",
-      "links": [
-        {
-          "website": "https://www.zerodayinitiative.com/"
-        }
-      ],
+      "website": "https://www.zerodayinitiative.com/",
       "description": "Rewarded responsible disclosure service",
       "price": "Free"
     },
     {
       "name": "Zerocopter",
-      "links": [
-        {
-          "website": "https://www.zerocopter.com/"
-        }
-      ],
+      "website": "https://www.zerocopter.com/",
       "description": "Invite-only and closed bug bounty platform",
       "price": "Free"
     },
     {
       "name": "ZeroDisclo.com",
-      "links": [
-        {
-          "website": "https://zerodisclo.com"
-        }
-      ],
+      "website": "https://zerodisclo.com",
       "description": "Coordinated disclosure platform by YesWeHack",
       "price": "Free"
     }

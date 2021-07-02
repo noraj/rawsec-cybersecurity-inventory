@@ -6,15 +6,14 @@ mixin resources_agencies(item)
             td= item.country
         else
             td
-        if item.links
+        if item.website
             td
-                each link in item.links
-                    if link.website
-                        a(href=link.website class='website-link') [Website]
-                    else if link.source
-                        a(href=link.source class='source-link') [Source]
-                    else
-                        a(href="#")
+                a(href=item.website class='website-link') [Website]
+        else
+            td
+        if item.source
+            td
+                a(href=item.source class='source-link') [Source]
         else
             td
         if item.description

@@ -1,8 +1,8 @@
 mixin os(item)
-    tr(id=item.os)
+    tr(id=item.name)
         td.has-text-weight-bold
-            a(class="anchor has-text-dark" href="#"+item.os)= item.os
+            a(class="anchor has-text-dark" href="#"+item.name)= item.name
         td= item.base
         td= item.description
         td
-            a(href=item.link class='website-link')= item.os
+            a(href=item.website class='website-link')= item.name

@@ -1,184 +1,184 @@
 {
   "operating_systems": [
     {
-      "os": "Alpine Linux",
+      "name": "Alpine Linux",
       "base": "BusyBox",
       "description": "minimalist hardened OS, used by default for docker containers",
-      "link": "http://www.alpinelinux.org/"
+      "website": "http://www.alpinelinux.org/"
     },
     {
-      "os": "ANDRAX",
+      "name": "ANDRAX",
       "base": "Android",
       "description": "More than an OS, it is a penetration testing platform for Android smartphones",
-      "link": "https://andrax.thecrackertechnology.com/"
+      "website": "https://andrax.thecrackertechnology.com/"
     },
     {
-      "os": "AndroidTamer",
+      "name": "AndroidTamer",
       "base": "Debian",
       "description": "android malware analysis, penetration testing and reverse engineering",
-      "link": "https://androidtamer.com/"
+      "website": "https://androidtamer.com/"
     },
     {
-      "os": "ArchStrike",
+      "name": "ArchStrike",
       "base": "ArchLinux",
       "description": "penetration testing and security lab",
-      "link": "https://archstrike.org/"
+      "website": "https://archstrike.org/"
     },
     {
-      "os": "BackBox",
+      "name": "BackBox",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "https://backbox.org/"
+      "website": "https://backbox.org/"
     },
     {
-      "os": "BlackArch Linux",
+      "name": "BlackArch Linux",
       "base": "ArchLinux",
       "description": "penetration testing and security lab",
-      "link": "https://blackarch.org/"
+      "website": "https://blackarch.org/"
     },
     {
-      "os": "Bugtraq-II Blackwidow",
+      "name": "Bugtraq-II Blackwidow",
       "base": "Ubuntu / Debian",
       "description": "penetration testing and security lab",
-      "link": "http://www.bugtraq-team.com/project-blackwidow.html"
+      "website": "http://www.bugtraq-team.com/project-blackwidow.html"
     },
     {
-      "os": "CAINE",
+      "name": "CAINE",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR)",
-      "link": "http://www.caine-live.net/"
+      "website": "http://www.caine-live.net/"
     },
     {
-      "os": "CommandoVM",
+      "name": "CommandoVM",
       "base": "Windows",
       "description": "script to configure a Windows VM and install security tools on it; penetration testing and security lab",
-      "link": "https://github.com/fireeye/commando-vm"
+      "website": "https://github.com/fireeye/commando-vm"
     },
     {
-      "os": "DEFT",
+      "name": "DEFT",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR)",
-      "link": "http://www.deftlinux.net/"
+      "website": "http://www.deftlinux.net/"
     },
     {
-      "os": "Demon Linux",
+      "name": "Demon Linux",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "https://www.demonlinux.com/"
+      "website": "https://www.demonlinux.com/"
     },
     {
-      "os": "Fedora Security Lab",
+      "name": "Fedora Security Lab",
       "base": "Fedora",
       "description": "penetration testing and security lab",
-      "link": "https://labs.fedoraproject.org/security/"
+      "website": "https://labs.fedoraproject.org/security/"
     },
     {
-      "os": "Kali Linux",
+      "name": "Kali Linux",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "https://www.kali.org/"
+      "website": "https://www.kali.org/"
     },
     {
-      "os": "Linux Kodachi",
+      "name": "Linux Kodachi",
       "base": "Xubuntu",
       "description": "privacy and anonymity",
-      "link": "https://sourceforge.net/projects/linuxkodachi/"
+      "website": "https://sourceforge.net/projects/linuxkodachi/"
     },
     {
-      "os": "NST",
+      "name": "NST",
       "base": "Fedora",
       "description": "network security monitoring and analysis",
-      "link": "https://sourceforge.net/projects/nst/"
+      "website": "https://sourceforge.net/projects/nst/"
     },
     {
-      "os": "Parrot Security OS",
+      "name": "Parrot Security OS",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "https://www.parrotsec.org/"
+      "website": "https://www.parrotsec.org/"
     },
     {
-      "os": "Pentoo",
+      "name": "Pentoo",
       "base": "Gentoo",
       "description": "penetration testing and security lab",
-      "link": "http://www.pentoo.ch/"
+      "website": "http://www.pentoo.ch/"
     },
     {
-      "os": "Qubes OS",
+      "name": "Qubes OS",
       "base": "Fedora",
       "description": "security by compartmentalization (VM)",
-      "link": "https://www.qubes-os.org/"
+      "website": "https://www.qubes-os.org/"
     },
     {
-      "os": "REMnux",
+      "name": "REMnux",
       "base": "Debian",
       "description": "malware analysis and reverse-engineering",
-      "link": "https://remnux.org/"
+      "website": "https://remnux.org/"
     },
     {
-      "os": "Santoku Linux",
+      "name": "Santoku Linux",
       "base": "Lubuntu",
       "description": "mobile malware analysis, forensics and reverse engineering",
-      "link": "https://santoku-linux.com/"
+      "website": "https://santoku-linux.com/"
     },
     {
-      "os": "SecBSD",
+      "name": "SecBSD",
       "base": "openBSD",
       "description": "penetration testing and security lab",
-      "link": "https://secbsd.org/"
+      "website": "https://secbsd.org/"
     },
     {
-      "os": "Security Onion",
+      "name": "Security Onion",
       "base": "Ubuntu",
       "description": "network security monitoring, analysis and threat hunting",
-      "link": "https://securityonion.net/"
+      "website": "https://securityonion.net/"
     },
     {
-      "os": "SIFT",
+      "name": "SIFT",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR) (VMware appliance)",
-      "link": "https://digital-forensics.sans.org/community/downloads"
+      "website": "https://digital-forensics.sans.org/community/downloads"
     },
     {
-      "os": "SigintOS",
+      "name": "SigintOS",
       "base": "Ubuntu",
       "description": "signal intelligence",
-      "link": "https://www.sigintos.com/"
+      "website": "https://www.sigintos.com/"
     },
     {
-      "os": "Subgraph OS",
+      "name": "Subgraph OS",
       "base": "Debian",
       "description": "security by compartmentalization (container)",
-      "link": "https://subgraph.com/sgos/index.en.html"
+      "website": "https://subgraph.com/sgos/index.en.html"
     },
     {
-      "os": "Tails",
+      "name": "Tails",
       "base": "Debian",
       "description": "privacy and anonymity",
-      "link": "https://tails.boum.org/"
+      "website": "https://tails.boum.org/"
     },
     {
-      "os": "TENS",
+      "name": "TENS",
       "base": "Thinstation",
       "description": "privacy and anonymity",
-      "link": "https://www.spi.dod.mil/lipose.htm"
+      "website": "https://www.spi.dod.mil/lipose.htm"
     },
     {
-      "os": "Tsurugi Linux",
+      "name": "Tsurugi Linux",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR",
-      "link": "https://tsurugi-linux.org/"
+      "website": "https://tsurugi-linux.org/"
     },
     {
-      "os": "Whonix",
+      "name": "Whonix",
       "base": "Debian",
       "description": "privacy and anonymity",
-      "link": "https://www.whonix.org/"
+      "website": "https://www.whonix.org/"
     },
     {
-      "os": "Wifislax",
+      "name": "Wifislax",
       "base": "Slackware",
       "description": "penetration testing and security lab",
-      "link": "http://www.wifislax.com/"
+      "website": "http://www.wifislax.com/"
     }
   ]
 }

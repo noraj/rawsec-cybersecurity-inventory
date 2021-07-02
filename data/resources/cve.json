@@ -2,121 +2,73 @@
   "resources": [
     {
       "name": "Archlinux security issues",
-      "links": [
-        {
-          "website": "https://security.archlinux.org/"
-        }
-      ],
+      "website": "https://security.archlinux.org/",
       "description": "CVE affecting Archlinux",
       "price": "Free"
     },
     {
       "name": "AttackerKB",
-      "links": [
-        {
-          "website": "https://attackerkb.com/"
-        }
-      ],
+      "website": "https://attackerkb.com/",
       "description": "Forum for the security community to share insights and views that help security professionals better understand the risk in their environment and make more informed decisions around prioritization and defense.",
       "price": "Free"
     },
     {
       "name": "CVE Details",
-      "links": [
-        {
-          "website": "http://www.cvedetails.com/"
-        }
-      ],
+      "website": "http://www.cvedetails.com/",
       "description": "Advanced CVE datasource",
       "price": "Free"
     },
     {
       "name": "Debian security issues",
-      "links": [
-        {
-          "website": "https://security-tracker.debian.org/tracker/"
-        }
-      ],
+      "website": "https://security-tracker.debian.org/tracker/",
       "description": "CVE affecting Debian",
       "price": "Free"
     },
     {
       "name": "Mitre",
-      "links": [
-        {
-          "website": "https://cve.mitre.org/"
-        }
-      ],
+      "website": "https://cve.mitre.org/",
       "description": "CVE datasource standard",
       "price": "Free"
     },
     {
       "name": "NVD",
-      "links": [
-        {
-          "website": "https://nvd.nist.gov/"
-        }
-      ],
+      "website": "https://nvd.nist.gov/",
       "description": "CVE datasource",
       "price": "Free"
     },
     {
       "name": "Red Hat security issues",
-      "links": [
-        {
-          "website": "https://access.redhat.com/security/security-updates/"
-        }
-      ],
+      "website": "https://access.redhat.com/security/security-updates/",
       "description": "CVE affecting Red Hat",
       "price": "Free"
     },
     {
       "name": "OpenCVE",
-      "links": [
-        {
-          "website": "https://www.opencve.io/"
-        }
-      ],
+      "website": "https://www.opencve.io/",
       "description": "Customizable CVE dashboard, track vulnerabilities that concern you (previously named Saucs)",
       "price": "Free"
     },
     {
       "name": "SUSE security issues",
-      "links": [
-        {
-          "website": "https://www.suse.com/security/cve/"
-        }
-      ],
+      "website": "https://www.suse.com/security/cve/",
       "description": "CVE affecting SUSE",
       "price": "Free"
     },
     {
       "name": "Ubuntu security issues",
-      "links": [
-        {
-          "website": "https://people.canonical.com/~ubuntu-security/cve/"
-        }
-      ],
+      "website": "https://people.canonical.com/~ubuntu-security/cve/",
       "description": "CVE affecting Ubuntu",
       "price": "Free"
     },
     {
       "name": "VULDB",
-      "links": [
-        {
-          "website": "https://vuldb.com/"
-        }
-      ],
+      "website": "https://vuldb.com/",
       "description": "Community-driven vulnerability database",
       "price": "Free"
     },
     {
       "name": "VulnIQ",
-      "links": [
-        {
-          "website": "https://free.vulniq.com/home"
-        }
-      ],
+      "website": "https://free.vulniq.com/home",
       "description": "Vulnerability database with CVE, OVAL, CWE, CAPEC, etc.",
       "price": "Free"
     }

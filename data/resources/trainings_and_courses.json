@@ -2,80 +2,46 @@
   "resources": [
     {
       "name": "Bugcrowd University",
-      "links": [
-        {
-          "website": "https://www.bugcrowd.com/hackers/bugcrowd-university/"
-        },
-        {
-          "source": "https://github.com/bugcrowd/bugcrowd_university"
-        }
-      ],
+      "website": "https://www.bugcrowd.com/hackers/bugcrowd-university/",
+      "source": "https://github.com/bugcrowd/bugcrowd_university",
       "description": "Modules with slides, videos and sometimes labs to learn web security, by Bugcrowd",
       "price": "Free"
     },
     {
       "name": "Cybrary",
-      "links": [
-        {
-          "website": "https://www.cybrary.it/"
-        }
-      ],
+      "website": "https://www.cybrary.it/",
       "description": "Cyber Security learning, training and certification",
       "price": "Paid"
     },
     {
       "name": "Hacker101",
-      "links": [
-        {
-          "website": "https://www.hacker101.com/"
-        },
-        {
-          "source": "https://github.com/Hacker0x01/hacker101"
-        }
-      ],
+      "website": "https://www.hacker101.com/",
+      "source": "https://github.com/Hacker0x01/hacker101",
       "description": "Class for web security targeting bug bounty hunters and security professionals, with video lessons and a CTF platform, by HackerOne",
       "price": "Free"
     },
     {
       "name": "OWASP Vulnerable Web Applications Directory",
-      "links": [
-        {
-          "website": "https://owasp.org/www-project-vulnerable-web-applications-directory/"
-        },
-        {
-          "source": "https://github.com/OWASP/OWASP-VWAD"
-        }
-      ],
+      "website": "https://owasp.org/www-project-vulnerable-web-applications-directory/",
+      "source": "https://github.com/OWASP/OWASP-VWAD",
       "description": "Comprehensive and registry of all known vulnerable web applications currently available",
       "price": "Free"
     },
     {
       "name": "PentestAcademy",
-      "links": [
-        {
-          "website": "https://www.pentesteracademy.com/"
-        }
-      ],
+      "website": "https://www.pentesteracademy.com/",
       "description": "Cyber Security training with an online lab",
       "price": "Paid"
     },
     {
       "name": "Portswigger Web Security Academy",
-      "links": [
-        {
-          "website": "https://portswigger.net/web-security"
-        }
-      ],
+      "website": "https://portswigger.net/web-security",
       "description": "Web Security training with an online lab",
       "price": "Free"
     },
     {
       "name": "SANS",
-      "links": [
-        {
-          "website": "https://www.sans.org/security-resources/"
-        }
-      ],
+      "website": "https://www.sans.org/security-resources/",
       "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
       "price": "Paid"
     }

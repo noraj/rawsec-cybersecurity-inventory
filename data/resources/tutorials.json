@@ -2,80 +2,46 @@
   "resources": [
     {
       "name": "CTF Field Guide",
-      "links": [
-        {
-          "website": "https://trailofbits.github.io/ctf/"
-        },
-        {
-          "source": "https://github.com/trailofbits/ctf"
-        }
-      ],
+      "website": "https://trailofbits.github.io/ctf/",
+      "source": "https://github.com/trailofbits/ctf",
       "description": "CTF guide",
       "price": "Free"
     },
     {
       "name": "CTF Resources",
-      "links": [
-        {
-          "website": "http://ctfs.github.io/resources/"
-        },
-        {
-          "source": "https://github.com/ctfs/resources"
-        }
-      ],
+      "website": "http://ctfs.github.io/resources/",
+      "source": "https://github.com/ctfs/resources",
       "description": "CTF guide",
       "price": "Free"
     },
     {
       "name": "Infosec Institute - What a Challenger Perceives in most CTF Categories/Challenges",
-      "links": [
-        {
-          "website": "https://resources.infosecinstitute.com/what-a-challenger-perceives-in-most-of-the-ctf-categories-or-challenges/"
-        }
-      ],
+      "website": "https://resources.infosecinstitute.com/what-a-challenger-perceives-in-most-of-the-ctf-categories-or-challenges/",
       "description": "Questions a challenger can ask himself during a CTF, classed by category",
       "price": "Free"
     },
     {
       "name": "ISIS Lab Wiki",
-      "links": [
-        {
-          "website": "https://github.com/isislab/Project-Ideas/wiki"
-        }
-      ],
+      "website": "https://github.com/isislab/Project-Ideas/wiki",
       "description": "CTF guide",
       "price": "Free"
     },
     {
       "name": "Endgame - How to Get Started in CTF",
-      "links": [
-        {
-          "website": "https://www.endgame.com/blog/technical-blog/how-get-started-ctf"
-        }
-      ],
+      "website": "https://www.endgame.com/blog/technical-blog/how-get-started-ctf",
       "description": "Tutorial for CTF beginners",
       "price": "Free"
     },
     {
       "name": "NIZKCTF tutorial",
-      "links": [
-        {
-          "source": "https://github.com/pwn2winctf/nizkctf-tutorial"
-        }
-      ],
+      "source": "https://github.com/pwn2winctf/nizkctf-tutorial",
       "description": "Tutorial to set up NIZKCTF",
       "price": "Free"
     },
     {
       "name": "Xapax IT-Security Notebook",
-      "links": [
-        {
-          "website": "https://xapax.gitbooks.io/security/content/"
-        },
-        {
-          "source": "https://legacy.gitbook.com/book/xapax/security/details"
-        }
-      ],
+      "website": "https://xapax.gitbooks.io/security/content/",
+      "source": "https://legacy.gitbook.com/book/xapax/security/details",
       "description": "Overview guide for all kind of pentesting",
       "price": "Free"
     }

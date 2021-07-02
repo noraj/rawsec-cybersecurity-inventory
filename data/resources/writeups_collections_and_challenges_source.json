@@ -2,64 +2,38 @@
   "resources": [
     {
       "name": "Captf",
-      "links": [
-        {
-          "website": "http://captf.com/"
-        }
-      ],
+      "website": "http://captf.com/",
       "description": "Dumped CTF challenges",
       "price": "Free"
     },
     {
       "name": "CTFs write-ups",
-      "links": [
-        {
-          "source": "https://github.com/ctfs/"
-        }
-      ],
+      "source": "https://github.com/ctfs/",
       "description": "Write-ups archive",
       "price": "Free"
     },
     {
       "name": "hackthebox-writeups",
-      "links": [
-        {
-          "source": "https://github.com/Hackplayers/hackthebox-writeups"
-        }
-      ],
+      "source": "https://github.com/Hackplayers/hackthebox-writeups",
       "description": "Writeups for HacktheBox machines and challenges (PDF)",
       "price": "Free"
     },
     {
       "name": "Pwning OWASP Juice Shop",
-      "links": [
-        {
-          "website": "https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/"
-        },
-        {
-          "source": "https://github.com/bkimminich/pwning-juice-shop"
-        }
-      ],
+      "website": "https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/",
+      "source": "https://github.com/bkimminich/pwning-juice-shop",
       "description": "Official companion guide to the OWASP Juice Shop",
       "price": "Free"
     },
     {
       "name": "pwntools writeups",
-      "links": [
-        {
-          "source": "https://github.com/Gallopsled/pwntools-write-ups"
-        }
-      ],
+      "source": "https://github.com/Gallopsled/pwntools-write-ups",
       "description": "Write-ups using pwntools archive",
       "price": "Free"
     },
     {
       "name": "tryhackme-writeups",
-      "links": [
-        {
-          "source": "https://github.com/noraj/tryhackme-writeups"
-        }
-      ],
+      "source": "https://github.com/noraj/tryhackme-writeups",
       "description": "Writeups for TryHackMe rooms (walkthrough & challenge)",
       "price": "Free"
     }

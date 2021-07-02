@@ -1,64 +1,64 @@
 {
   "operating_systems": [
     {
-      "os": "Blackbuntu",
+      "name": "Blackbuntu",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "https://sourceforge.net/projects/blackbuntu/"
+      "website": "https://sourceforge.net/projects/blackbuntu/"
     },
     {
-      "os": "Buscador",
+      "name": "Buscador",
       "base": "Ubuntu",
       "description": "OSINT (OVA appliance)",
-      "link": "https://inteltechniques.com/buscador/"
+      "website": "https://inteltechniques.com/buscador/"
     },
     {
-      "os": "Cyborg Essentials",
+      "name": "Cyborg Essentials",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "http://cyborg.ztrela.com/cyborg-essentials/"
+      "website": "http://cyborg.ztrela.com/cyborg-essentials/"
     },
     {
-      "os": "Cyborg Hawk Linux",
+      "name": "Cyborg Hawk Linux",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "http://cyborg.ztrela.com/cyborg-hawk/"
+      "website": "http://cyborg.ztrela.com/cyborg-hawk/"
     },
     {
-      "os": "DracOS",
+      "name": "DracOS",
       "base": "Linux From Scratch",
       "description": "penetration testing and security lab",
-      "link": "https://dracos-linux.org/"
+      "website": "https://dracos-linux.org/"
     },
     {
-      "os": "GnackTrack",
+      "name": "GnackTrack",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "https://www.phillips321.co.uk/gnacktrack/"
+      "website": "https://www.phillips321.co.uk/gnacktrack/"
     },
     {
-      "os": "Live Hacking",
+      "name": "Live Hacking",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "http://www.livehacking.com/live-hacking-cd/"
+      "website": "http://www.livehacking.com/live-hacking-cd/"
     },
     {
-      "os": "Matriux",
+      "name": "Matriux",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "https://sourceforge.net/projects/matriux/"
+      "website": "https://sourceforge.net/projects/matriux/"
     },
     {
-      "os": "NodeZero",
+      "name": "NodeZero",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "link": "https://sourceforge.net/projects/nodezero/"
+      "website": "https://sourceforge.net/projects/nodezero/"
     },
     {
-      "os": "STD",
+      "name": "STD",
       "base": "Debian",
       "description": "penetration testing and security lab",
-      "link": "https://s-t-d.org/"
+      "website": "https://s-t-d.org/"
     }
   ]
 }

@@ -3,66 +3,42 @@
     {
       "name": "hackndo",
       "language": "French",
-      "links": [
-        {
-          "website": "https://beta.hackndo.com/"
-        }
-      ],
+      "website": "https://beta.hackndo.com/",
       "description": "Blog about pentesting",
       "price": "Free"
     },
     {
       "name": "KitPloit",
       "language": "English",
-      "links": [
-        {
-          "website": "https://www.kitploit.com/"
-        }
-      ],
+      "website": "https://www.kitploit.com/",
       "description": "Tools presentation and announcement",
       "price": "Free"
     },
     {
       "name": "Latest Hacking News",
       "language": "English",
-      "links": [
-        {
-          "website": "https://latesthackingnews.com"
-        }
-      ],
+      "website": "https://latesthackingnews.com",
       "description": "Cybersecurity news, tools presentation and announcement",
       "price": "Free"
     },
     {
       "name": "Offensive OSINT",
       "language": "English",
-      "links": [
-        {
-          "website": "https://www.offensiveosint.io/"
-        }
-      ],
+      "website": "https://www.offensiveosint.io/",
       "description": "OSINT articles from an offensive perspective",
       "price": "Free"
     },
     {
       "name": "Pentest Blog",
       "language": "English",
-      "links": [
-        {
-          "website": "https://pentest.blog/"
-        }
-      ],
+      "website": "https://pentest.blog/",
       "description": "Blog targeting pentesters: security advisories, OS, appsec, network, tools, articles",
       "price": "Free"
     },
     {
       "name": "Security List Network",
       "language": "English",
-      "links": [
-        {
-          "website": "http://seclist.us"
-        }
-      ],
+      "website": "http://seclist.us",
       "description": "Tools presentation and announcement",
       "price": "Free"
     }

@@ -3,165 +3,105 @@
     {
       "name": "Bamboofox",
       "language": "Chinese",
-      "links": [
-        {
-          "website": "https://bamboofox.torchpad.com/"
-        }
-      ],
+      "website": "https://bamboofox.torchpad.com/",
       "description": "CTF guide",
       "price": "Free"
     },
     {
       "name": "ctfs.me",
       "language": "Indonesian",
-      "links": [
-        {
-          "website": "https://ctfs.me/"
-        }
-      ],
+      "website": "https://ctfs.me/",
       "description": "Challenges platform, challenges are in english",
       "price": "Free"
     },
     {
       "name": "elhacker.net",
       "language": "Spanish",
-      "links": [
-        {
-          "website": "http://warzone.elhacker.net/"
-        }
-      ],
+      "website": "http://warzone.elhacker.net/",
       "description": "Challenges platform",
       "price": "Free"
     },
     {
       "name": "Flu-Project",
       "language": "Spanish",
-      "links": [
-        {
-          "website": "https://www.flu-project.com/p/retos-hacking.html"
-        }
-      ],
+      "website": "https://www.flu-project.com/p/retos-hacking.html",
       "description": "Challenge platform, guides and news",
       "price": "Free"
     },
     {
       "name": "Hack Players",
       "language": "Spanish",
-      "links": [
-        {
-          "website": "https://www.hackplayers.com/p/retos-de-hackplayers_5.html"
-        }
-      ],
+      "website": "https://www.hackplayers.com/p/retos-de-hackplayers_5.html",
       "description": "Challenge platform, guides and news",
       "price": "Free"
     },
     {
       "name": "Hacking-Challenges",
       "language": "German",
-      "links": [
-        {
-          "website": "http://www.hacking-challenges.de/"
-        }
-      ],
+      "website": "http://www.hacking-challenges.de/",
       "description": "Challenges platform",
       "price": "Free"
     },
     {
       "name": "Happy-Security",
       "language": "German",
-      "links": [
-        {
-          "website": "http://www.happy-security.de/"
-        }
-      ],
+      "website": "http://www.happy-security.de/",
       "description": "Challenges platform",
       "price": "Free"
     },
     {
       "name": "MIPT CTF",
       "language": "Russian",
-      "links": [
-        {
-          "source": "https://github.com/xairy/mipt-ctf"
-        }
-      ],
+      "source": "https://github.com/xairy/mipt-ctf",
       "description": "CTF guide",
       "price": "Free"
     },
     {
       "name": "NewbieContest",
       "language": "French",
-      "links": [
-        {
-          "website": "http://www.newbiecontest.org/"
-        }
-      ],
+      "website": "http://www.newbiecontest.org/",
       "description": "Challenge platform",
       "price": "Free"
     },
     {
       "name": "NOE",
       "language": "Korean",
-      "links": [
-        {
-          "website": "http://noe.systems/"
-        }
-      ],
+      "website": "http://noe.systems/",
       "description": "Challenge platform",
       "price": "Free"
     },
     {
       "name": "SuNiNaTaS",
       "language": "Korean",
-      "links": [
-        {
-          "website": "http://suninatas.com/"
-        }
-      ],
+      "website": "http://suninatas.com/",
       "description": "Challenge platform",
       "price": "Free"
     },
     {
       "name": "TDHack",
       "language": "Polish",
-      "links": [
-        {
-          "website": "http://www.tdhack.com/"
-        }
-      ],
+      "website": "http://www.tdhack.com/",
       "description": "Challenge platform",
       "price": "Free"
     },
     {
       "name": "World of Wargame",
       "language": "Spanish",
-      "links": [
-        {
-          "website": "https://wow.sinfocol.org/"
-        }
-      ],
+      "website": "https://wow.sinfocol.org/",
       "description": "Challenge platform",
       "price": "Free"
     },
     {
       "name": "XCTF Agenda",
       "language": "Chinese",
-      "links": [
-        {
-          "website": "https://www.xctf.org.cn/ctfs/all/"
-        }
-      ],
+      "website": "https://www.xctf.org.cn/ctfs/all/",
       "description": "World CTF agenda",
       "price": "Free"
     },
     {
       "name": "Yashira",
       "language": "Spanish",
-      "links": [
-        {
-          "website": "http://www.yashira.org/"
-        }
-      ],
+      "website": "http://www.yashira.org/",
       "description": "Challenge platform",
       "price": "Free"
     }
