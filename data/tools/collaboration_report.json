@@ -135,6 +135,14 @@
       "online": "False"
     },
     {
+      "name": "NightWriter",
+      "website": "https://github.com/Titanexx/NightWriter",
+      "description": "NightWriter is a modern real-time collaborative editing tool secured by end-to-end encryption",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "oneVault",
       "website": "https://www.onevault.tech/",
       "description": "Collaborative penetration test, vulnerability management and reporting platform",
