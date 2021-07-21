@@ -21,6 +21,16 @@
       "blackarch": "cewl"
     },
     {
+      "name": "ComPP",
+      "source": "https://github.com/sec-it/ComPP",
+      "description": "Company Passwords Profiler helps making a bruteforce wordlist for a targeted company",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator",
+      "blackarch": "compp"
+    },
+    {
       "name": "cook",
       "source": "https://github.com/giteshnxtlvl/cook",
       "description": "Wordlist generator: create permutations and combinations of words with predefined sets of extensions, words and patterns/function to create complex endpoints, wordlists and passwords",
