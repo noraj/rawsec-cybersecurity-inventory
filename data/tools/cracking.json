@@ -172,6 +172,15 @@
       "keywords": "GUI, hashcat, crack, hash"
     },
     {
+      "name": "longtongue",
+      "source": "https://github.com/edoardottt/longtongue",
+      "description": "Password wordlist generator based on target information",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator"
+    },
+    {
       "name": "lyricpass",
       "source": "https://github.com/initstring/lyricpass",
       "description": "Tool to generate wordlists based on lyrics",
