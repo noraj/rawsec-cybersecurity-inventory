@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "BEWGor",
+      "source": "https://github.com/berzerk0/BEWGor",
+      "description": "Bull's Eye Wordlist Generator, password wordlist generator based on target information",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator"
+    },
+    {
       "name": "Bopscrk",
       "source": "https://github.com/R3nt0n/bopscrk",
       "description": "Before Outset PaSsword CRacKing, password wordlist generator with exclusive features like lyrics based mode",
