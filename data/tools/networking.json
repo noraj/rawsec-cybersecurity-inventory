@@ -402,6 +402,15 @@
       "online": "False"
     },
     {
+      "name": "PyWhisker",
+      "source": "https://github.com/ShutdownRepo/pywhisker",
+      "description": "Persistent and stealthy backdooring of user and computer Active Directory objects",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "msDS, windows, domain controller, AD CS, NTLM, Kerberos"
+    },
+    {
       "name": "rdp-sec-check",
       "source": "https://github.com/portcullislabs/rdp-sec-check",
       "description": "Script to enumerate security settings of an RDP Service",
