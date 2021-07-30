@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "AntiScan.Me",
+      "website": "https://antiscan.me/",
+      "description": "Multi-AV checker that doesn't distribute the check results, based on Dyncheck.com",
+      "price": "Paid",
+      "online": "True",
+      "keywords": "anti-virus"
+    },
+    {
       "name": "fireELF",
       "source": "https://github.com/rek7/fireELF",
       "description": "Fileless linux malware framework",
