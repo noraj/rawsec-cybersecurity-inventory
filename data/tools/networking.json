@@ -367,6 +367,15 @@
       "online": "False"
     },
     {
+      "name": "PKINIT tools",
+      "source": "https://github.com/dirkjanm/PKINITtools",
+      "description": "Kerberos PKINIT and relaying to AD CS",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "windows"
+    },
+    {
       "name": "polarbearscan",
       "website": "http://santarago.org/pbscan.html",
       "source": "https://github.com/gvb84/pbscan",
