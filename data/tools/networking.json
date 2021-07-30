@@ -109,6 +109,14 @@
       "online": "True"
     },
     {
+      "name": "Cerbrutus",
+      "source": "https://github.com/Cerbrutus-BruteForcer/cerbrutus",
+      "description": "Network services credentials brute-forcer: SSH, FTP",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "chisel",
       "source": "https://github.com/jpillora/chisel",
       "description": "Fast TCP tunneling over HTTP secured by SSH",
