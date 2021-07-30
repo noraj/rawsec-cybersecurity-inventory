@@ -100,6 +100,12 @@
       "price": "Free"
     },
     {
+      "name": "Microsoft Wont-Fix-List",
+      "source": "https://github.com/cfalta/MicrosoftWontFixList",
+      "description": "List of vulnerabilities or design flaws Microsoft does not intend to fix",
+      "price": "Free"
+    },
+    {
       "name": "PayloadsAllTheThings",
       "source": "https://github.com/swisskyrepo/PayloadsAllTheThings",
       "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
