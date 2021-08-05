@@ -29,7 +29,7 @@
   },
   "homepage": "https://gitlab.com/noraj/rawsec-cybersecurity-list#README",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@vizuaalog/bulmajs": "^0.12.1",
     "bulma": "^0.9.3",
     "del": "^6.0.0",
