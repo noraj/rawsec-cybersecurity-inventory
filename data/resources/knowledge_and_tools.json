@@ -208,6 +208,13 @@
       "price": "Free"
     },
     {
+      "name": "WADComs",
+      "website": "https://wadcoms.github.io/",
+      "source": "https://github.com/WADComs/WADComs.github.io",
+      "description": "Interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments",
+      "price": "Free"
+    },
+    {
       "name": "Windows & Active Directory Exploitation Cheat Sheet and Command Reference",
       "website": "https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/",
       "description": "Windows & Active Directory exploitation: enumeration, exploitation, lateral movement, privilege escalation, persistence, domain persistence, post-exploitation",
