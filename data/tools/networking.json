@@ -215,6 +215,15 @@
       "online": "False"
     },
     {
+      "name": "lsassy",
+      "source": "https://github.com/Hackndo/lsassy",
+      "description": "CLI tool and library to extract credentials from lsass remotely",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "python-lsassy"
+    },
+    {
       "name": "Masscan",
       "source": "https://github.com/robertdavidgraham/masscan",
       "description": "Port scanner for massive networks",
