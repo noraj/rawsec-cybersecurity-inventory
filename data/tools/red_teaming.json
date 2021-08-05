@@ -77,6 +77,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "Octopus",
+      "source": "https://github.com/mhaskar/Octopus",
+      "description": "Pre-operation C2 server",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Overlord",
       "website": "https://blog.qsecure.com.cy/posts/overlord/",
       "source": "https://github.com/qsecure-labs/overlord",
