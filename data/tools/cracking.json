@@ -116,6 +116,15 @@
       "keywords": "wordlist"
     },
     {
+      "name": "elpscrk",
+      "source": "https://github.com/D4Vinci/elpscrk",
+      "description": "Wordlist generator based on user profiling",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist"
+    },
+    {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
       "description": "Management frontend for password cracking tools, supporting hashcat",
