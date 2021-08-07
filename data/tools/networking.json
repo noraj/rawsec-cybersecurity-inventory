@@ -408,7 +408,18 @@
       "description": "Sophisticated bind and reverse shell handler with many features as well as a drop-in replacement or compatible complement to netcat, ncat or socat",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "pwncat"
+    },
+    {
+      "name": "pwncat-caleb",
+      "website": "https://pwncat.readthedocs.io/",
+      "source": "https://github.com/calebstewart/pwncat",
+      "description": "Fancy reverse and bind shell handler, can perform automated actions on the remote host including enumeration, implant installation and privilege escalation; attempt to spawn a pseudoterminal (pty) for a full interactive session",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "pwncat-caleb"
     },
     {
       "name": "PyWhisker",
