@@ -70,7 +70,7 @@
       "name": "Boomerang",
       "source": "https://github.com/paranoidninja/Boomerang",
       "description": "Client/Server HTTP pivoting tool",
-      "programming_language": "Go",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     },
@@ -245,6 +245,17 @@
       "language": "Java",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "ncat",
+      "website": "https://nmap.org/ncat/",
+      "source": "https://github.com/nmap/nmap/tree/master/ncat",
+      "description": "Improved reimplementation of Netcat by nmap team; Supports TCP and UDP, IPv4 and IPv6, SSL, proxy (HTTP and SOCKS4)",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "nmap",
+      "keywords": "reverse shell, bind shell, listener"
     },
     {
       "name": "Ncrack",
