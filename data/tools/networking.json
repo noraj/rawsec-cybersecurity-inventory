@@ -476,6 +476,15 @@
       "blackarch": "ruby-ruby-nmap"
     },
     {
+      "name": "Rustcat",
+      "website": "https://github.com/robiot/rustcat/wiki/Installation-Guide",
+      "source": "https://github.com/robiot/rustcat",
+      "description": "Port and reverse shell listener; less features than ncat, pwncat, pwncat-caleb but has command history",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "sandmap",
       "source": "https://github.com/trimstray/sandmap",
       "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
