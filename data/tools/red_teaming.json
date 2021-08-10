@@ -119,6 +119,14 @@
       "online": "False"
     },
     {
+      "name": "Ruler",
+      "source": "https://github.com/sensepost/ruler",
+      "description": "Interact with Exchange servers remotely, through either the MAPI/HTTP or RPC/HTTP to abuse the client-side Outlook features and gain a shell",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SHAD0W",
       "website": "https://blog.dylan.codes/shad0w/",
       "source": "https://github.com/bats3c/shad0w",
