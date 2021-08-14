@@ -69,6 +69,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "Merlin",
+      "source": "https://github.com/Ne0nd0g/merlin",
+      "description": "Post-exploitation HTTP/2 Command & Control server and agent",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Mística",
       "source": "https://github.com/IncideDigital/Mistica",
       "description": "Allows to embed data into application layer protocol fields, with the goal of establishing a bi-directional channel for arbitrary communications; supports encapsulation into HTTP, HTTPS, DNS and ICMP protocols",
