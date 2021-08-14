@@ -1,6 +1,12 @@
 {
   "resources": [
     {
+      "name": "Cobalt - Getting Started with Android Application Security",
+      "website": "https://blog.cobalt.io/getting-started-with-android-application-security-6f20b76d795b",
+      "description": "Tutorial covering Android core, application components, security testing, testing environment, adb usage, bypassing SSL pinning, reverse engineering APK",
+      "price": "Free"
+    },
+    {
       "name": "CTF Field Guide",
       "website": "https://trailofbits.github.io/ctf/",
       "source": "https://github.com/trailofbits/ctf",
