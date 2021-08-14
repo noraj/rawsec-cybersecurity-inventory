@@ -62,11 +62,11 @@
       "name": "Cracklord",
       "website": "http://jmmcatee.github.io/cracklord/",
       "source": "https://github.com/jmmcatee/cracklord",
-      "description": "Scalable, pluggable, and distributed system for password cracking, supports Hashcat",
+      "description": "Scalable, pluggable, and distributed system for hash cracking, supports Hashcat",
       "language": "Go",
       "price": "Free",
       "online": "False",
-      "keywords": "GUI, hashcat, crack, hash"
+      "keywords": "GUI, hashcat, crack, hash, password"
     },
     {
       "name": "CrackQ",
@@ -127,21 +127,31 @@
     {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
-      "description": "Management frontend for password cracking tools, supporting hashcat",
+      "description": "Management frontend for hash cracking tools, supporting hashcat",
       "language": "Go",
       "price": "Free",
       "online": "False",
-      "keywords": "GUI, hashcat, crack, hash"
+      "keywords": "GUI, hashcat, crack, hash, password"
     },
     {
       "name": "Hashcat",
       "website": "https://hashcat.net/hashcat/",
       "source": "https://github.com/hashcat/hashcat",
-      "description": "Password cracking tool",
+      "description": "Hash cracking tool",
       "language": "C",
       "price": "Free",
       "online": "False",
-      "blackarch": "hashcat"
+      "blackarch": "hashcat",
+      "keywords": "password"
+    },
+    {
+      "name": "hashcobra",
+      "source": "https://github.com/hashcat/hashcat",
+      "description": "Hash cracking tool using rainbow tables",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "keywords": "password"
     },
     {
       "name": "Hashtopolis",
@@ -165,16 +175,17 @@
     {
       "name": "John The Ripper",
       "website": "http://www.openwall.com/john/",
-      "description": "Password cracking tool",
+      "description": "Hash cracking tool",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "password"
     },
     {
       "name": "John the Ripper, Jumbo version",
       "website": "http://www.openwall.com/john/",
       "source": "https://github.com/openwall/john",
-      "description": "Password cracking tool, community-enhanced version of John The Ripper",
+      "description": "Hash cracking tool, community-enhanced version of John The Ripper",
       "language": "C",
       "price": "Free",
       "online": "False",
@@ -222,9 +233,10 @@
       "name": "Ophcrack",
       "website": "http://ophcrack.sourceforge.net/",
       "source": "https://sourceforge.net/projects/ophcrack/",
-      "description": "Windows password cracker based on rainbow tables",
+      "description": "Windows hash cracker based on rainbow tables",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "password"
     },
     {
       "name": "pnwgen",
