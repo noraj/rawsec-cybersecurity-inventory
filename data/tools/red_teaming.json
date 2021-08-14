@@ -43,6 +43,15 @@
       "online": "False"
     },
     {
+      "name": "Kubesploit",
+      "source": "https://github.com/cyberark/kubesploit",
+      "description": "Post-exploitation HTTP/2 Command & Control server and agent focused on containerized environments",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "lateralus",
       "source": "https://github.com/lateralusd/lateralus",
       "description": "Terminal based phishing campaign tool",
