@@ -75,7 +75,8 @@
       "language": "Go",
       "price": "Free",
       "online": "False",
-      "keywords": "C&C, C2"
+      "keywords": "C&C, C2",
+      "blackarch": "merlin-server"
     },
     {
       "name": "Mística",
