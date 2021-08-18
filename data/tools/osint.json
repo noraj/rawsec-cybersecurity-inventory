@@ -348,6 +348,14 @@
       "blackarch": "omnibus"
     },
     {
+      "name": "Omniscient",
+      "source": "https://github.com/maraudery/omniscient",
+      "description": "Information gathering apparatus written in Go",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OneForAll",
       "source": "https://github.com/shmilylty/OneForAll/blob/master/docs/en-us/README.md",
       "description": "Subdomain enumeration tool",
