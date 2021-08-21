@@ -350,7 +350,7 @@
     {
       "name": "Omniscient",
       "source": "https://github.com/maraudery/omniscient",
-      "description": "Information gathering apparatus written in Go",
+      "description": "Information gathering apparatus, conglomerate of tools including custom algorithms, API wrappers",
       "language": "Go",
       "price": "Free",
       "online": "False"
