@@ -195,6 +195,12 @@
       "price": "Free"
     },
     {
+      "name": "The Hacker Recipes",
+      "website": "https://www.thehacker.recipes/",
+      "description": "Guide and knowledge base for pentesting: active directory services, servers, web services, intelligence gathering, physical intrusion, social engineering, phishing, mobile apps",
+      "price": "Free"
+    },
+    {
       "name": "Vergilius",
       "website": "https://www.vergiliusproject.com/",
       "description": "A collection of Microsoft Windows kernel structures, unions and enumerations; most of them are not officially documented and cannot be found in Windows Driver Kit (WDK) headers",
