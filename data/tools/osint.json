@@ -308,6 +308,15 @@
       "blackarch": "metabigor"
     },
     {
+      "name": "NExfil",
+      "source": "https://github.com/thewhiteh4t/nexfil",
+      "description": "Finding profiles by username over 350 websites",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "nexfil"
+    },
+    {
       "name": "Nmmapper",
       "source": "https://www.nmmapper.com/",
       "description": "Cybersecurity tools offered as SaaS: nmap, subdomain finder (Sublist3r, DNScan, Anubis, Amass, Lepus, Findomain, Censys), theHarvester, etc.",
