@@ -519,6 +519,14 @@
       "online": "False"
     },
     {
+      "name": "Snaffler",
+      "source": "https://github.com/SnaffCon/Snaffler",
+      "description": "Find credentials and valuable information from windows active directory environments (shares, files)",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SNMP Brute",
       "source": "https://github.com/SECFORCE/SNMP-Brute",
       "description": "SNMP brute force, enumeration, CISCO config downloader and password cracking script",
