@@ -20,6 +20,13 @@
       "price": "Free"
     },
     {
+      "name": "Can I take over XYZ?",
+      "source": "https://github.com/EdOverflow/can-i-take-over-xyz",
+      "description": "List of services and how to claim (sub)domains with dangling DNS records",
+      "price": "Free",
+      "keywords": "subdomain takeover"
+    },
+    {
       "name": "ctf-tools",
       "source": "https://github.com/zardus/ctf-tools",
       "description": "Setup scripts for security tools",
