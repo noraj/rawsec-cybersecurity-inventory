@@ -69,6 +69,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "macro_pack",
+      "source": "https://github.com/sevagas/macro_pack",
+      "description": "Obfuscation and generation of retro formats such as MS Office documents or VBS like format",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "antimalware, bypass, shortcut"
+    },
+    {
       "name": "Merlin",
       "source": "https://github.com/Ne0nd0g/merlin",
       "description": "Post-exploitation HTTP/2 Command & Control server and agent",
