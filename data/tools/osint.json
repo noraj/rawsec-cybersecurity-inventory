@@ -417,8 +417,8 @@
       "online": "True"
     },
     {
-      "name": "RA",
-      "source": "https://github.com/maraudery/ra",
+      "name": "Qualear",
+      "source": "https://github.com/maraudery/qualear",
       "description": "Reconnaissance Apparatus; Information gathering, conglomerate of tools including custom algorithms, API wrappers",
       "language": "Go",
       "price": "Free",
