@@ -19,6 +19,12 @@
       "price": "Free"
     },
     {
+      "name": "BugBountyHunter",
+      "website": "https://www.bugbountyhunter.com/",
+      "description": "Learn how to test for security vulnerabilities on web applications with our various real-life web applications; security researcher tutorials, guides, writeups",
+      "price": "Paid"
+    },
+    {
       "name": "CanYouHack.It",
       "website": "http://canyouhack.it/",
       "description": "Challenge platform",
