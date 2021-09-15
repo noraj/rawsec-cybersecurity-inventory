@@ -8,6 +8,13 @@
       "price": "Free"
     },
     {
+      "name": "InfoSecAdemy",
+      "language": "English",
+      "website": "https://www.infosecademy.com/",
+      "description": "Blog about pentesting",
+      "price": "Free"
+    },
+    {
       "name": "KitPloit",
       "language": "English",
       "website": "https://www.kitploit.com/",
