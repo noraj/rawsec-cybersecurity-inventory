@@ -15,6 +15,13 @@
       "price": "Free"
     },
     {
+      "name": "Hacking Loops",
+      "language": "English",
+      "website": "https://www.hackingloops.com",
+      "description": "Blog about pentesting",
+      "price": "Free"
+    },
+    {
       "name": "KitPloit",
       "language": "English",
       "website": "https://www.kitploit.com/",
