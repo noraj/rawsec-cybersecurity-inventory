@@ -204,6 +204,13 @@
       "price": "Free"
     },
     {
+      "name": "MultiJuicer",
+      "source": "https://github.com/iteratec/multi-juicer",
+      "description": "Kubernetes cluster to run multiple instances of OWASP Juice Shop",
+      "language": "JavaScript",
+      "price": "Free"
+    },
+    {
       "name": "NightShade",
       "source": "https://github.com/UnrealAkama/NightShade",
       "description": "Simple Jeopardy CTF platform",
