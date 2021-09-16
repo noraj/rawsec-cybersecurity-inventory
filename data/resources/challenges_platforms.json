@@ -79,6 +79,13 @@
       "price": "Free"
     },
     {
+      "name": "FreeHackQuest",
+      "website": "https://freehackquest.com/",
+      "source": "https://github.com/freehackquest/fhq-server",
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "Gekkó",
       "website": "http://gekko.csokavar.hu/",
       "description": "Challenge platform",
