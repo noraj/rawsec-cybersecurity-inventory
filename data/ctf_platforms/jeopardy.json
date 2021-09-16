@@ -117,6 +117,13 @@
       "price": "Free"
     },
     {
+      "name": "Geegle3",
+      "source": "https://github.com/adamyi/Geegle3",
+      "description": "Jeopardy CTF platform",
+      "language": "Go",
+      "price": "Free"
+    },
+    {
       "name": "Google CTF Scoreboard",
       "source": "https://github.com/google/ctfscoreboard",
       "description": "Jeopardy CTF platform",
