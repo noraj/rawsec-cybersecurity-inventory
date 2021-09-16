@@ -16,6 +16,13 @@
       "price": "Free"
     },
     {
+      "name": "bCTF",
+      "source": "https://github.com/spiperac/bCTF",
+      "description": "Jeopardy CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "BoltCTF",
       "source": "https://gitlab.com/bhavyanshu/BoltCTF",
       "description": "Jeopardy CTF platform",
