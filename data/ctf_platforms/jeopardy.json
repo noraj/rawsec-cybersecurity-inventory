@@ -81,6 +81,13 @@
       "price": "Free"
     },
     {
+      "name": "CTFProxy",
+      "source": "https://github.com/adamyi/CTFProxy",
+      "description": "Jeopardy CTF infrastructure",
+      "language": "Go",
+      "price": "Free"
+    },
+    {
       "name": "CTFx",
       "source": "https://gitlab.com/Milkdrop/ctfx",
       "description": "Jeopardy CTF platform, based on Mellivora,",
@@ -119,7 +126,7 @@
     {
       "name": "Geegle3",
       "source": "https://github.com/adamyi/Geegle3",
-      "description": "Jeopardy CTF platform",
+      "description": "Jeopardy CTF infrastructure",
       "language": "Go",
       "price": "Free"
     },
