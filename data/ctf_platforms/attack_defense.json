@@ -46,6 +46,13 @@
       "price": "Free"
     },
     {
+      "name": "InCTF Framework",
+      "source": "https://github.com/inctf/inctf-framework",
+      "description": "Attack-defence CTF framework",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "jury-attack-defense",
       "source": "https://github.com/hackforces/jury-attack-defense",
       "description": "Attack-defence CTF framework",
