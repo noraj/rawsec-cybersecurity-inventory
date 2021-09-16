@@ -9,13 +9,6 @@
       "price": "Free"
     },
     {
-      "name": "checksystem",
-      "source": "https://github.com/HackerDom/checksystem",
-      "description": "Checksystem for attack-defence CTF",
-      "language": "Perl",
-      "price": "Free"
-    },
-    {
       "name": "FAUST CTF Gameserver",
       "website": "https://ctf-gameserver.org/",
       "source": "https://github.com/fausecteam/ctf-gameserver",
@@ -65,6 +58,13 @@
       "source": "https://github.com/OpenCyberChallengePlatform/OccpGameserver",
       "description": "Attack-defence training platform for Network Defense, Penetration Testing, Digital Forensics, Secure Programming, Incident Response, Malware Analysis scenarios; supports Virtual Scenario Network, Gray Team, Red Team, Blue Team, White Team; game server and administrative VM; including a scenario package",
       "language": "Ruby",
+      "price": "Free"
+    },
+    {
+      "name": "RuCTFe checksystem",
+      "source": "https://github.com/HackerDom/checksystem",
+      "description": "Checksystem for attack-defence CTF",
+      "language": "Perl",
       "price": "Free"
     },
     {
