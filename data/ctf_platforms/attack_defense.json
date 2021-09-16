@@ -40,7 +40,7 @@
     {
       "name": "iCTF Framework",
       "website": "https://ictf.cs.ucsb.edu/",
-      "source": "https://github.com/ucsb-seclab/ictf-framework",
+      "source": "https://github.com/shellphish/ictf-framework",
       "description": "Attack-defence CTF framework",
       "language": "Python",
       "price": "Free"
