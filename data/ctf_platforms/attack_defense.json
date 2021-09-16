@@ -9,6 +9,13 @@
       "price": "Free"
     },
     {
+      "name": "ctf01d",
+      "source": "https://github.com/sea-kg/ctf01d",
+      "description": "Attack-defence CTF platform",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "FAUST CTF Gameserver",
       "website": "https://ctf-gameserver.org/",
       "source": "https://github.com/fausecteam/ctf-gameserver",
