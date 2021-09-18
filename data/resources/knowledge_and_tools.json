@@ -166,6 +166,7 @@
     {
       "name": "Security Certification Roadmap",
       "website": "https://pauljerimy.com/security-certification-roadmap/",
+      "source": "https://github.com/sinecurelife/SecCertRoadmapHTML",
       "description": "Map referencing all security certifications existing in several categories: Implementation, Architecture, Management, Analysis, Defensive Operations, Offensive Operations",
       "price": "Free"
     },
