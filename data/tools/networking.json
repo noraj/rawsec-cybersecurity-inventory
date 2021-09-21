@@ -224,6 +224,15 @@
       "blackarch": "python-lsassy"
     },
     {
+      "name": "Mail.Rip V2",
+      "source": "https://github.com/DrPython3/MailRipV2",
+      "description": "SMTP credentials bruteforcer / checker",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SOCKS4, SOCKS5"
+    },
+    {
       "name": "Masscan",
       "source": "https://github.com/robertdavidgraham/masscan",
       "description": "Port scanner for massive networks",
