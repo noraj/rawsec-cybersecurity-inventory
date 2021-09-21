@@ -155,6 +155,15 @@
       "online": "False"
     },
     {
+      "name": "ScareCrow",
+      "source": "https://github.com/optiv/ScareCrow",
+      "description": "Payload creation framework designed around EDR bypass",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DLL"
+    },
+    {
       "name": "SHAD0W",
       "website": "https://blog.dylan.codes/shad0w/",
       "source": "https://github.com/bats3c/shad0w",
