@@ -35,7 +35,7 @@
     },
     {
       "name": "BreachDirectory",
-      "website": "https://breachdirectory.tk/",
+      "website": "https://breachdirectory.org/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches, partial password and hash",
       "price": "Free",
       "online": "True",
