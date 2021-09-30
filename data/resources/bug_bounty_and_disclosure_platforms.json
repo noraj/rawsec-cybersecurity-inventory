@@ -31,12 +31,6 @@
       "price": "Free"
     },
     {
-      "name": "CESPPA",
-      "website": "https://www.cesppa.com/",
-      "description": "Bug bounty platform",
-      "price": "Free"
-    },
-    {
       "name": "Cobalt.io",
       "website": "https://cobalt.io/",
       "description": "Crowdsourced pentest and bug bounty platform",
@@ -78,10 +72,16 @@
       "description": "Bug bounty platform",
       "price": "Free"
     },
-        {
+    {
       "name": "huntr",
       "website": "https://huntr.dev",
       "description": "A bug bounty board for securing open-source code.",
+      "price": "Free"
+    },
+    {
+      "name": "Inspectiv",
+      "website": "https://www.inspectiv.com/",
+      "description": "Bug bounty platform",
       "price": "Free"
     },
     {
