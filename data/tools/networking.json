@@ -609,6 +609,14 @@
       "price": "Free",
       "online": "False"
     },
+    { 
+      "name": "Xprobe2",
+      "source": "https://github.com/binarytrails/xprobe2", 
+      "description": "Remote active operating system fingerprinting",
+      "language": "CPlusPlus",
+      "price": "Free", 
+      "online": "False" 
+    },
     {
       "name": "yersinia",
       "source": "https://github.com/tomac/yersinia",
