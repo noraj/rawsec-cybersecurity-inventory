@@ -612,7 +612,7 @@
     { 
       "name": "Xprobe2",
       "source": "https://github.com/binarytrails/xprobe2", 
-      "description": "Xprobe2 is a remote active operating system fingerprinting tool",
+      "description": "A remote active operating system fingerprinting tool",
       "language": "CPlusPlus",
       "price": "Free", 
       "online": "False" 
