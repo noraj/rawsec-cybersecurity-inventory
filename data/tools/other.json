@@ -351,6 +351,14 @@
       "language": "Java",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "meshroom/colab",
+      "source": "https://github.com/yk-sgr/meshroom-colab",
+      "description": "Easily do photogrammetry even on a low-end PC with Meshroom on Google Colab (Free Google GPUs) ",
+      "language": "Jupyter Notebook",
+      "price": "Free",
+      "online": "True"
     }
   ]
 }
