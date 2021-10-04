@@ -3,10 +3,11 @@
     {
       "name": "Andriller",
       "source": "https://github.com/den4uk/andriller",
-      "description": "Software utility with a collection of forensic tools for smartphones.",
+      "description": "Software utility with a collection of forensic tools for smartphones; performs read-only, non-destructive acquisition",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "android, extraction, adb"
     },
     {
       "name": "Cerbero Profiler",
