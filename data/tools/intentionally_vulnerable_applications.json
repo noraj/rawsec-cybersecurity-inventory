@@ -3,7 +3,6 @@
     {
       "name": "Bust-A-Kube",
       "website": "https://www.bustakube.com/",
-      "source": "https://www.bustakube.com/download",
       "description": "Intentionally-vulnerable Kubernetes cluster, intended to help people self-train on attacking and defending Kubernetes clusters",
       "language": "PHP",
       "price": "Free",
