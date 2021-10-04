@@ -1,0 +1,40 @@
+{
+  "tools": [
+  
+      {
+      "name": "Andriller",
+      "source": "https://github.com/den4uk/andriller",
+      "description": "Software utility with a collection of forensic tools for smartphones.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    
+    {
+      "name": "Androrat",
+      "source": "https://github.com/wszf/androrat",
+      "description": "Remote Administration Tool for Android.",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+  
+    {
+      "name": "Kali-NetHunter",
+      "source": "https://www.kali.org/get-kali/#kali-mobile",
+      "description": "Android penetration testing platform for Android devices.",
+      "language": "Shell Command Language (sh)",
+      "price": "Free",
+      "online": "False"
+    }
+  
+    {
+      "name": "PhoneSploit",
+      "source": "https://github.com/aerosol-can/PhoneSploit",
+      "description": "Python3 tool for remote ADB exploitation.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
