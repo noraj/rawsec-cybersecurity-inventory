@@ -79,6 +79,12 @@
       "website": "https://www.kali.org/"
     },
     {
+      "name": "Kali-NetHunter",
+      "base" : "Android",
+      "description": "Android penetration testing platform for Android devices.",
+      "website": "https://www.kali.org/get-kali/#kali-mobile",
+    },
+    {
       "name": "Linux Kodachi",
       "base": "Xubuntu",
       "description": "privacy and anonymity",
