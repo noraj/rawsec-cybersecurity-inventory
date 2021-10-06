@@ -102,6 +102,13 @@
       "online": "False"
     },
     {
+      "name": "Hackuity",
+      "website": "https://www.hackuity.io/",
+      "description": "Risk Based Vulnerablity Management platform",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "Hive",
       "website": "https://hexway.io/",
       "description": "Collaborative penetration test and reporting platform",
