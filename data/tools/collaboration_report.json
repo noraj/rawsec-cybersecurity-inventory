@@ -329,13 +329,6 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
-    },
-    {
-      "name": "Hackuity",
-      "website": "https://www.hackuity.io/",
-      "description": "Risk Based Vulnerablity Management platform",
-      "price": "Paid",
-      "online": "False"
     }
   ]
 }

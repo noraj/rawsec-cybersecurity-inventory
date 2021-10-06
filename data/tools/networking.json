@@ -651,15 +651,6 @@
       "language": "C",
       "price": "Free",
       "online": "False"
-    },
-    {
-      "name": "Krbrelayx",
-      "website": "https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/",
-      "source": "https://github.com/dirkjanm/krbrelayx",
-      "description": "Toolkit for abusing unconstrained delegation",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
     }
   ]
 }
