@@ -316,6 +316,14 @@
       "blackarch": "metabigor"
     },
     {
+      "name": "Netflip",
+      "source": "https://github.com/maraudery/netflip",
+      "description": "Scrape sensitive information from paste sites",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "NExfil",
       "source": "https://github.com/thewhiteh4t/nexfil",
       "description": "Finding profiles by username over 350 websites",
