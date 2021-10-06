@@ -82,7 +82,7 @@
       "name": "Kali-NetHunter",
       "base" : "Android",
       "description": "Penetration testing platform for Android devices",
-      "website": "https://www.kali.org/get-kali/#kali-mobile",
+      "website": "https://www.kali.org/get-kali/#kali-mobile"
     },
     {
       "name": "Linux Kodachi",
