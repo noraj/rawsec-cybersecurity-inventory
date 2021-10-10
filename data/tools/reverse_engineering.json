@@ -311,6 +311,14 @@
       "online": "False"
     },
     {
+      "name": "Kaitai Struct",
+      "source": "https://github.com/kaitai-io/kaitai_struct",
+      "description": "Declarative language to generate binary data parsers in various languages.",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ldd",
       "website": "https://linux.die.net/man/1/ldd",
       "description": "Tool that print shared library dependencies",

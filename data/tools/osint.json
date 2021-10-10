@@ -383,6 +383,14 @@
       "online": "True"
     },
     {
+      "name": "Osintgram",
+      "source": "https://github.com/Datalux/Osintgram",
+      "description": "An interactive shell to perform analysis on Instagram account of any useres by their nickname.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Osmedeus",
       "website": "https://j3ssie.github.io/Osmedeus/",
       "source": "https://github.com/j3ssie/Osmedeus",
