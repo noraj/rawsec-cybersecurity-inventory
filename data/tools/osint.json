@@ -257,6 +257,13 @@
       "price": "Free",
       "online": "False"
     },
+        {
+      "name": "LeakIX",
+      "source": "https://leakix.net/",
+      "description": "Search engine for devices and services exposed on the Internet",
+      "price": "Free",
+      "online": "True"
+    },
     {
       "name": "LeakLooker",
       "source": "https://github.com/woj-ciech/LeakLooker-X",
