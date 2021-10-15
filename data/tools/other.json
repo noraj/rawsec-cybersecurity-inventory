@@ -241,7 +241,8 @@
       "description":"Analyze password dump and return statistics about passwords' strengh",
       "language": "Ruby",
       "price":"Free",
-      "online":"False"
+      "online":"False",
+      "blackarch": "pipal"
     },
     {
       "name": "pwndb",
