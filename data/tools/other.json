@@ -242,7 +242,6 @@
       "language": "Ruby",
       "price":"Free",
       "online":"False"
-
     },
     {
       "name": "pwndb",
