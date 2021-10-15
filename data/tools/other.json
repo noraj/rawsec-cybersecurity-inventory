@@ -235,6 +235,16 @@
       "online": "False"
     },
     {
+      "name":"Pipal",
+      "website":"https://digi.ninja/projects/pipal.php",
+      "source":"https://github.com/digininja/pipal",
+      "description":"Tool for analyzing password dump data and also visualisation",
+      "language": "Ruby",
+      "price":"Free",
+      "online":"False"
+
+    },
+    {
       "name": "pwndb",
       "website": "http://pwndb2am4tzkvold.onion/",
       "description": "Service to check if an account has been compromised in a data breach, display the full password",
