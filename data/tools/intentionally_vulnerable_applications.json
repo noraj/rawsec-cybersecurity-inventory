@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Bust-A-Kube",
+      "website": "https://www.bustakube.com/",
+      "description": "Intentionally-vulnerable Kubernetes cluster, intended to help people self-train on attacking and defending Kubernetes clusters",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bWAPP",
       "website": "http://www.itsecgames.com/",
       "source": "https://sourceforge.net/p/bwapp/code/ci/master/tree/",

@@ -250,6 +250,14 @@
       "online": "False"
     },
     {
+      "name": "LeakDB",
+      "source": "https://github.com/moloch--/leakdb",
+      "description": "Normalize, deduplicate, index, sort, and search leaked data sets on the multi-terabyte-scale",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "LeakLooker",
       "source": "https://github.com/woj-ciech/LeakLooker-X",
       "description": "Discover, browse and monitor database/source code leaks",
@@ -306,6 +314,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "metabigor"
+    },
+    {
+      "name": "Netflip",
+      "source": "https://github.com/maraudery/netflip",
+      "description": "Scrape sensitive information from paste sites",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "NExfil",
