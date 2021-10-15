@@ -238,7 +238,7 @@
       "name":"Pipal",
       "website":"https://digi.ninja/projects/pipal.php",
       "source":"https://github.com/digininja/pipal",
-      "description":"Tool for analyzing password dump data and also visualisation",
+      "description":"Analyze password dump and return statistics about passwords' strengh",
       "language": "Ruby",
       "price":"Free",
       "online":"False"
