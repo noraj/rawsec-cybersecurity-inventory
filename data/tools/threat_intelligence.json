@@ -30,6 +30,15 @@
       "description": "Open-source threat intelligence feeds; sharing malware URLs, IP reputation, bad IPs, etc.",
       "price": "Free",
       "online": "True"
+    },
+    {
+      "name": "Yeti",
+      "website": "https://yeti-platform.github.io/",
+      "source": "https://github.com/yeti-platform/yeti",
+      "description": "Organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }

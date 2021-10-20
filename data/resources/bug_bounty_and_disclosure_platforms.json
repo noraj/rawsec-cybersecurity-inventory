@@ -79,6 +79,12 @@
       "price": "Free"
     },
     {
+      "name": "Immunefi",
+      "website": "https://immunefi.com/",
+      "description": "Bug bounty platform focused on DeFi (Decentralized Finance), blockchain and smart contract security",
+      "price": "Free"
+    },
+    {
       "name": "Inspectiv",
       "website": "https://www.inspectiv.com/",
       "description": "Bug bounty platform",

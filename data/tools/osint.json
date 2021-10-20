@@ -250,6 +250,21 @@
       "online": "False"
     },
     {
+      "name": "LeakDB",
+      "source": "https://github.com/moloch--/leakdb",
+      "description": "Normalize, deduplicate, index, sort, and search leaked data sets on the multi-terabyte-scale",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+        {
+      "name": "LeakIX",
+      "source": "https://leakix.net/",
+      "description": "Search engine for devices and services exposed on the Internet",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "LeakLooker",
       "source": "https://github.com/woj-ciech/LeakLooker-X",
       "description": "Discover, browse and monitor database/source code leaks",
@@ -306,6 +321,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "metabigor"
+    },
+    {
+      "name": "Netflip",
+      "source": "https://github.com/maraudery/netflip",
+      "description": "Scrape sensitive information from paste sites",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "NExfil",
@@ -516,6 +539,13 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+        {
+      "name": "Shodan",
+      "website": "https://www.shodan.io/",
+      "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "shosubgo",
