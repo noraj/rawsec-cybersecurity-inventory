@@ -312,6 +312,7 @@
     },
     {
       "name": "Kaitai Struct",
+      "website": "https://kaitai.io/",
       "source": "https://github.com/kaitai-io/kaitai_struct",
       "description": "Declarative language to generate binary data parsers in various languages",
       "price": "Free",
