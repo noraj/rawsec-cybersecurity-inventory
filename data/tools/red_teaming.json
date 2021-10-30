@@ -181,6 +181,15 @@
       "keywords": "DLL"
     },
     {
+      "name": "SearchSploit",
+      "website": "https://www.exploit-db.com/",
+      "source": "https://github.com/offensive-security/exploitdb",
+      "description": "An archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers.",
+      "language": "Bash",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "SHAD0W",
       "website": "https://blog.dylan.codes/shad0w/",
       "source": "https://github.com/bats3c/shad0w",
