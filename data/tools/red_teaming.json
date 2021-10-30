@@ -155,13 +155,13 @@
       "price": "Free",
       "online": "False"
     },
-    { 
+    {
       "name": "ReelPhish",
-      "source": "https://github.com/mandiant/ReelPhish", 
+      "source": "https://github.com/mandiant/ReelPhish",
       "description": "Real time phishing tool",
       "language": "Python",
-      "price": "Free", 
-      "online": "False" 
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Ruler",
@@ -184,10 +184,10 @@
       "name": "SearchSploit",
       "website": "https://www.exploit-db.com/",
       "source": "https://github.com/offensive-security/exploitdb",
-      "description": "An archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers.",
-      "language": "Bash",
+      "description": "CLI tool to search among Exploit-DB exploits",
+      "language": "Shell",
       "price": "Free",
-      "online": "True"
+      "online": "False"
     },
     {
       "name": "SHAD0W",

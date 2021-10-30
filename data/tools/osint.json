@@ -408,7 +408,7 @@
     {
       "name": "Osintgram",
       "source": "https://github.com/Datalux/Osintgram",
-      "description": "An interactive shell to perform analysis on Instagram account of any useres by their nickname.",
+      "description": "Interactive shell to perform analysis on Instagram account of any users by their nickname",
       "language": "Python",
       "price": "Free",
       "online": "False"

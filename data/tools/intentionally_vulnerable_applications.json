@@ -55,7 +55,7 @@
     {
       "name": "Metasploitable",
       "source": "https://github.com/rapid7/metasploitable3",
-      "description": "A VM that is built from the ground up with a large amount of security vulnerabilities.",
+      "description": "VM that is built from the ground up with a large amount of security vulnerabilities",
       "price": "Free",
       "online": "False"
     },
