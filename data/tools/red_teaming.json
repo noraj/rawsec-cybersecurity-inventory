@@ -9,6 +9,14 @@
       "keywords": "anti-virus"
     },
     {
+      "name": "AVET",
+      "source": "https://github.com/govolution/avet",
+      "description": "AntiVirus Evasion Tool; targeting windows machines with executable files",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus"
+    },
+    {
       "name": "fireELF",
       "source": "https://github.com/rek7/fireELF",
       "description": "Fileless linux malware framework",
