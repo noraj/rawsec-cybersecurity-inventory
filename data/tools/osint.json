@@ -69,6 +69,15 @@
       "online": "False"
     },
     {
+      "name": "dataleaks",
+      "source": "https://github.com/jeisonbeast/dataleaks",
+      "description": "Self-hosted data breach search engine",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False",
+      "keywords": "leaks"
+    },
+    {
       "name": "datasploit",
       "website": "https://datasploit.github.io/datasploit/",
       "source": "https://github.com/DataSploit/datasploit",
