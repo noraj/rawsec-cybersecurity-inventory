@@ -183,6 +183,14 @@
       "online": "False"
     },
     {
+      "name": "PeTeReport",
+      "source": "https://github.com/1modm/petereport",
+      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pentest Collaboration Framework",
       "source": "https://gitlab.com/invuls/pentest-projects/pcf",
       "description": "Collaborative penetration test, vulnerability management and reporting platform",
