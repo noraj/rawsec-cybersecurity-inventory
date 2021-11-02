@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "Netglub",
+      "website": "https://www.netglub.org/",
+      "source": "http://redmine.lab.diateam.net/attachments/download/1/netglub-1.0.tar.gz",
+      "description": "Maltego alternative",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PatrowlHears",
       "website": "https://patrowl.io/products/hears",
       "source": "https://github.com/Patrowl/PatrowlHears",
