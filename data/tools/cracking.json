@@ -310,6 +310,14 @@
       "keywords": "wordlist, generator"
     },
     {
+      "name": "wordlist.rb",
+      "source": "https://github.com/postmodern/wordlist.rb",
+      "description": "Library for reading, combining, manipulating, and building wordlists, efficiently",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "wordlistctl",
       "source": "https://github.com/BlackArch/wordlistctl",
       "description": "Fetch, install and search wordlist archives from websites and torrent peers",
