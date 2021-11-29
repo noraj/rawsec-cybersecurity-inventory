@@ -122,10 +122,11 @@
     {
       "name": "dnsx",
       "source": "https://github.com/projectdiscovery/dnsx",
-      "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries.",
+      "description": "Multi-purpose DNS toolkit allow to run multiple DNS queries",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "dnsx"
     },
     {
       "name": "EagleEye",
