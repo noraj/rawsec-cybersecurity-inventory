@@ -120,6 +120,14 @@
       "online": "False"
     },
     {
+      "name": "dnsx",
+      "source": "https://github.com/projectdiscovery/dnsx",
+      "description": "Fast and multi-purpose DNS toolkit allow to run multiple DNS queries.",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "EagleEye",
       "source": "https://github.com/ThoughtfulDev/EagleEye",
       "description": "OSINT tool, image recognition on instagram, facebook and twitter",
