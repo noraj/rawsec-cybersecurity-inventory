@@ -167,11 +167,10 @@
     {
       "name": "GoMapEnum",
       "source": "https://github.com/nodauf/GoMapEnum",
-      "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365 and gather emails on Linkedin ",
+      "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365 and gather emails on Linkedin",
       "language": "Go",
       "price": "Free",
-      "online": "False",
-      "keywords": "enumeration, azure, linkedin"
+      "online": "False"
     },
     {
       "name": "goddi",
