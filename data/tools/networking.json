@@ -555,6 +555,14 @@
       "online": "False"
     },
     {
+      "name": "sJET",
+      "source": "https://github.com/siberas/sjet",
+      "description": "JMX Exploitation Toolkit",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Snaffler",
       "source": "https://github.com/SnaffCon/Snaffler",
       "description": "Find credentials and valuable information from windows active directory environments (shares, files)",
