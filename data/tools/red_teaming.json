@@ -77,6 +77,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "LP-DB",
+      "website": "https://lp-db.github.io/lp-db/",
+      "source": "https://github.com/lp-db/lp-db",
+      "description": "Login Pages Database forms a knowledge base on login pages related to malicious activities (C2 panels, phishing kits...)",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "macro_pack",
       "source": "https://github.com/sevagas/macro_pack",
       "description": "Obfuscation and generation of retro formats such as MS Office documents or VBS like format",
