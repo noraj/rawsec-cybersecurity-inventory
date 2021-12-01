@@ -91,6 +91,14 @@
       "online": "False"
     },
     {
+      "name": "Dexcalibur",
+      "source": "https://github.com/FrenchYeti/dexcalibur",
+      "description": "Android reverse engineering platform focus on instrumentation automation (decompile/disass intercepted bytecode at runtime, write hook code, search interesting pattern",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "boomerang",
       "source": "https://github.com/nemerle/boomerang",
       "description": "x86 binaries to C decompiler",
