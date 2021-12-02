@@ -92,6 +92,7 @@
     },
     {
       "name": "Dexcalibur",
+      "website": "https://www.reversense.com/dexcalibur",
       "source": "https://github.com/FrenchYeti/dexcalibur",
       "description": "Android reverse engineering platform focus on instrumentation automation (decompile/disass intercepted bytecode at runtime, write hook code, search interesting pattern",
       "language": "JavaScript",
