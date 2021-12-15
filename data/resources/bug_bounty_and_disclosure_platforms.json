@@ -43,6 +43,12 @@
       "price": "Free"
     },
     {
+      "name": "CyberArmyID",
+      "website": "https://www.cyberarmy.id",
+      "description": "VDP & bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "FEDERACY",
       "website": "https://www.federacy.com/",
       "description": "Crowdsourced pentest & bug bounty platform",
