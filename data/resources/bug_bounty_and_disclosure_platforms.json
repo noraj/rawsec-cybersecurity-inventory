@@ -115,6 +115,12 @@
       "price": "Free"
     },
     {
+      "name": "RedStorm",
+      "website": "https://www.redstorm.io/",
+      "description": "VDP & bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "SafeHats",
       "website": "https://safehats.com",
       "description": "Bug bounty platform",
