@@ -49,6 +49,15 @@
       "keywords": "wordlist, generator"
     },
     {
+      "name": "Cracken",
+      "source": "https://github.com/shmuelamar/cracken",
+      "description": "Password wordlist generator, Smartlist creation and password hybrid-mask",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator"
+    },
+    {
       "name": "CrackerJack",
       "website": "https://www.contextis.com/en/resources/tools/crackerjack",
       "source": "https://github.com/ctxis/crackerjack",
