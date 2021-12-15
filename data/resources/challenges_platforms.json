@@ -37,6 +37,12 @@
       "price": "Free"
     },
     {
+      "name": "CryptoHack",
+      "website": "https://cryptohack.org/",
+      "description": "Crypto challenges platform",
+      "price": "Free"
+    },
+    {
       "name": "Cryptopals",
       "website": "https://cryptopals.com/",
       "description": "Crypto challenges platform",
