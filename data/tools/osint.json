@@ -96,6 +96,13 @@
       "online": "False"
     },
     {
+      "name": "DNSDumpster",
+      "website": "https://dnsdumpster.com/",
+      "description": "Domain research tool that can discover hosts related to a domain",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "dnsenum",
       "source": "https://github.com/fwaeytens/dnsenum",
       "description": "DNS reconnaissance tool: AXFR, DNS records enumeration, subdomain bruteforce, range reverse lookup",
