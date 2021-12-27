@@ -77,6 +77,15 @@
       "online": "False"
     },
     {
+      "name": "Trivy",
+      "website": "https://aquasecurity.github.io/trivy/v0.22.0/",
+      "source": "https://github.com/aquasecurity/trivy",
+      "description": "Vulnerability and misconfiguration scanner",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "wpBullet",
       "source": "https://github.com/webarx-security/wpbullet",
       "description": "Static code analysis for WordPress Plugins and Themes (and PHP)",
