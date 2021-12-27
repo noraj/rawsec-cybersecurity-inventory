@@ -31,6 +31,12 @@
       "price": "Free"
     },
     {
+      "name": "bugv",
+      "website": "https://bugv.io/",
+      "description": "Bug bounty platform",
+      "price": "Free"
+    },
+    {
       "name": "Cobalt.io",
       "website": "https://cobalt.io/",
       "description": "Crowdsourced pentest and bug bounty platform",
