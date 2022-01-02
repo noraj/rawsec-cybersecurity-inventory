@@ -78,9 +78,9 @@
     },
     {
       "name": "Trivy",
-      "website": "https://aquasecurity.github.io/trivy/v0.22.0/",
+      "website": "https://aquasecurity.github.io/trivy/",
       "source": "https://github.com/aquasecurity/trivy",
-      "description": "Vulnerability and misconfiguration scanner",
+      "description": "Vulnerability and misconfiguration scanner for containers (OS and language-specific packages)",
       "language": "Go",
       "price": "Free",
       "online": "False"
