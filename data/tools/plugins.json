@@ -116,6 +116,15 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "YesWeBurp",
+      "tool": "Burp Suite",
+      "source": "https://github.com/yeswehack/YesWeBurp",
+      "description": "Access to all bug bounty programs directly inside Burp",
+      "language": "Kotlin",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
