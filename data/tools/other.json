@@ -9,6 +9,16 @@
       "online": "False"
     },
     {
+      "name": "AppsecStudy",
+      "website": "https://appsec.study",
+      "source": "https://github.com/zzzteph/appsec.study",
+      "description": "eLearning management system for information security",
+      "language": "PHP",
+      "price": "Free",
+      "online": "True",
+      "keywords": "education"
+    },
+    {
       "name": "Atheris",
       "source": "https://github.com/google/atheris",
       "description": "Coverage-guided Python fuzzing engine",
