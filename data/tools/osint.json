@@ -138,7 +138,15 @@
     {
       "name": "EagleEye",
       "source": "https://github.com/ThoughtfulDev/EagleEye",
-      "description": "OSINT tool, image recognition on instagram, facebook and twitter",
+      "description": "Image recognition on instagram, facebook and twitter",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Espionage",
+      "source": "https://github.com/iAbdullahMughal/espionage",
+      "description": "Domain information gathering: whois, history, dns records, web technologies, records",
       "language": "Python",
       "price": "Free",
       "online": "False"
