@@ -239,6 +239,16 @@
       "blackarch": "mentalist"
     },
     {
+      "name": "Narthex",
+      "website": "https://mcdim.xyz/projects/n/",
+      "source": "https://github.com/MichaelDim02/Narthex",
+      "description": "Modular personalized dictionary generator",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "wordlist, generator"
+    },
+    {
       "name": "Ophcrack",
       "website": "http://ophcrack.sourceforge.net/",
       "source": "https://sourceforge.net/projects/ophcrack/",
