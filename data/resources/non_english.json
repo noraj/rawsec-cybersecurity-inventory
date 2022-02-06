@@ -85,6 +85,13 @@
       "price": "Free"
     },
     {
+      "name": "TheBlackSide",
+      "language": "French",
+      "website": "https://theblackside.fr",
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "World of Wargame",
       "language": "Spanish",
       "website": "https://wow.sinfocol.org/",
