@@ -1,5 +1,5 @@
 function addRowHandlers() {
-  $( "table tr" ).click(function() {
+  $( "table tr" ).on('click', function() {
     if($(this).find("td a.source-link").length){
       var rawlink = $(this).find("td a.source-link").attr("href");
       var xhr = new XMLHttpRequest();
@@ -38,6 +38,7 @@ function addRowHandlers() {
         var github_repo = res[2];
         xhr2json(`https://api.github.com/repos/${github_user}/${github_repo}`, function(json_data){
           Swal.fire({
+            confirmButtonColor: '#ff5050',
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -62,7 +63,7 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Open pull requests</span>: <a href="${json_data['html_url']+'/pulls/'}">see</a></li>
                   <li><span class="has-text-weight-semibold">Stars</span>: ${json_data['watchers']}</li>
                   <li><span class="has-text-weight-semibold">Subscribers</span>: ${json_data['subscribers_count']}</li>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>`
@@ -73,6 +74,7 @@ function addRowHandlers() {
         var gitlab_repo = res[2];
         xhr2json(`https://gitlab.com/api/v4/projects/${gitlab_user}%2F${gitlab_repo}`, function(json_data){
           Swal.fire({
+            confirmButtonColor: '#ff5050',
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -94,7 +96,7 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Open issues</span>: <a href="${json_data['web_url']+'/issues'}">see</a></li>
                   <li><span class="has-text-weight-semibold">Open merge requests</span>: <a href="${json_data['web_url']+'/merge_requests'}">see</a></li>
                   <li><span class="has-text-weight-semibold">Stars</span>: ${json_data['star_count']}</li>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>`
@@ -105,6 +107,7 @@ function addRowHandlers() {
         var bitbucket_repo = res[2];
         xhr2json(`https://api.bitbucket.org/2.0/repositories/${bitbucket_user}/${bitbucket_repo}`, function(json_data){
           Swal.fire({
+            confirmButtonColor: '#ff5050',
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -127,7 +130,7 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Open issues</span>: <a href="${json_data['links']['html']['href']+'/issues?status=new&status=open'}">see</a></li>
                   <li><span class="has-text-weight-semibold">Open pull requests</span>: <a href="${json_data['links']['html']['href']+'/pull-requests/'}">see</a></li>
                   <li><span class="has-text-weight-semibold">Watchers</span>: <a href="${json_data['links']['html']['href']+'#followers'}">see</a></li>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>`
@@ -155,6 +158,7 @@ function addRowHandlers() {
 
         xhr2json(`https://sourceforge.net/rest/p/${sourceforge_project}`, function(json_data){
           Swal.fire({
+            confirmButtonColor: '#ff5050',
             html: `<div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -173,7 +177,7 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Audience</span>: ${sourceforge_cat(json_data['categories']['audience'])}</li>
                   <li><span class="has-text-weight-semibold">Translation</span>: ${sourceforge_cat(json_data['categories']['translation'])}</li>
                   <li><span class="has-text-weight-semibold">OS</span>: ${sourceforge_cat(json_data['categories']['os'])}</li>
-                </ul> 
+                </ul>
               </div>
             </div>
           </div>`
