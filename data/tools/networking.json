@@ -165,6 +165,15 @@
       "keywords": "pivoting"
     },
     {
+      "name": "GoldenCopy",
+      "source": "https://github.com/Dramelac/GoldenCopy",
+      "description": "Copy the properties and groups of a user from neo4j (bloodhound) to create an identical golden ticket",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "active directory"
+    },
+    {
       "name": "GoMapEnum",
       "source": "https://github.com/nodauf/GoMapEnum",
       "description": "User enumeration and password bruteforce on Azure, ADFS, OWA, O365 and gather emails on Linkedin",
