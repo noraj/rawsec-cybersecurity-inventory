@@ -59,6 +59,14 @@
       "online": "False"
     },
     {
+      "name": "bloodyAD",
+      "source": "https://github.com/CravateRouge/bloodyAD",
+      "description": "Active Directory privilege escalation framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "boofuzz",
       "source": "https://github.com/jtpereyda/boofuzz",
       "description": "Network protocol fuzzing framework",
