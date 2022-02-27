@@ -456,6 +456,15 @@
       "online": "False"
     },
     {
+      "name": "pty4all",
+      "source": "https://github.com/laluka/pty4all",
+      "description": "Persistent multi reverse shell handler",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "PTY"
+    },
+    {
       "name": "pwncat",
       "website": "https://pwncat.org/",
       "source": "https://github.com/cytopia/pwncat",
