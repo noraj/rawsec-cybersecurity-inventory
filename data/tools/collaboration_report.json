@@ -12,14 +12,14 @@
     {
       "name": "AttackForge.com",
       "website": "https://attackforge.com/",
-      "description": "Penetration test collaboration platform: vulnerability management and reporting",
+      "description": "Penetration test collaboration platform: vulnerability database and reporting",
       "price": "Free",
       "online": "True"
     },
     {
       "name": "Bulwark",
       "source": "https://github.com/softrams/bulwark",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
       "language": "JavaScript",
       "price": "Free",
       "online": "False"
@@ -27,7 +27,7 @@
     {
       "name": "Canopy",
       "website": "https://www.checksec.com/canopy.html",
-      "description": "Penetration test platform: vulnerability management and reporting",
+      "description": "Penetration test platform: vulnerability database and reporting",
       "price": "Paid",
       "online": "False"
     },
@@ -42,7 +42,7 @@
     {
       "name": "DART",
       "source": "https://github.com/lmco/dart",
-      "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability management platform",
+      "description": "Documentation And Reporting Tool; Collaborative penetration test and vulnerability database platform",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -60,7 +60,7 @@
       "name": "Dradis",
       "website": "https://dradisframework.com/",
       "source": "https://github.com/dradis/dradis-ce",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
       "language": "Ruby",
       "price": "Paid",
       "online": "False"
@@ -136,7 +136,7 @@
       "name": "MISP",
       "website": "http://misp-project.org/",
       "source": "https://github.com/MISP/",
-      "description": "Malware Information Sharing Platform, an Open Source threat intelligence plateform and open standards for threat information sharing",
+      "description": "Malware Information Sharing Platform, an Open Source threat intelligence platform and open standards for threat information sharing",
       "language": "PHP",
       "price": "Free",
       "online": "False"
@@ -185,7 +185,7 @@
     {
       "name": "PeTeReport",
       "source": "https://github.com/1modm/petereport",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -193,7 +193,7 @@
     {
       "name": "Pentest Collaboration Framework",
       "source": "https://gitlab.com/invuls/pentest-projects/pcf",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -201,14 +201,14 @@
     {
       "name": "PenTest.WS",
       "website": "https://pentest.ws/",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
       "price": "Paid",
       "online": "False"
     },
     {
       "name": "PlexTrac",
       "website": "https://plextrac.com/",
-      "description": "Collaborative penetration test reporting and vulnerability management platform",
+      "description": "Collaborative penetration test reporting and vulnerability database platform",
       "price": "Paid",
       "online": "False"
     },
@@ -226,6 +226,14 @@
       "source": "https://github.com/vegabird/prithvi",
       "description": "Report generation tool for pentester with provided OWASP data",
       "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PTART",
+      "source": "https://github.com/certmichelin/PTART",
+      "description": "PenTests, Audits, and Reporting Tool; Collaborative penetration test, vulnerability database and reporting platform; fork of Sh00t",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
@@ -306,7 +314,7 @@
       "name": "vuldash",
       "website": "https://www.vuldash.com/",
       "source": "https://github.com/talsoft/vuldash",
-      "description": "Vulnerability Dashboard; vulnerability management, project management and report generation",
+      "description": "Vulnerability Dashboard; vulnerability database, project management and report generation",
       "language": "PHP",
       "price": "Free",
       "online": "False"
