@@ -13,3 +13,4 @@ Content and improvements:
     Jenaye (@jenaye)
     Maraudery (@maraudery)
     Neeraj Babu (@SAAneeraj)
+    Félix HERRENSCHMIDT (@Felix83000)
