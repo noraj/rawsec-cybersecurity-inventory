@@ -53,6 +53,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![jenaye](https://img.shields.io/badge/jenaye-Contributor-FF5050.svg)](https://gitlab.com/jenaye)
 [![maraudery](https://img.shields.io/badge/maraudery-Contributor-FF5050.svg)](https://gitlab.com/maraudery)
 [![neeraj](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/neerajbabu27)
+[![Felix83000](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/Felix83000)
 
 ### About
 
