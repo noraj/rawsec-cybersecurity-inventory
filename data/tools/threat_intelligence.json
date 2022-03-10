@@ -40,6 +40,16 @@
       "online": "True"
     },
     {
+      "name": "Watcher",
+      "website": "https://thalesgroup-cert.github.io/Watcher/",
+      "source": "https://github.com/thalesgroup-cert/Watcher",
+      "description": "Automated platform for discovering new potentially cybersecurity threats targeting your assets (detects typosquatting domain names, monitor malicious domain names, detects data leaks...)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CERT, certificate transparency, incident response, OSINT, SOC"
+    },
+    {
       "name": "Yeti",
       "website": "https://yeti-platform.github.io/",
       "source": "https://github.com/yeti-platform/yeti",
@@ -47,16 +57,6 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
-    },
-    {
-      "name": "Watcher",
-      "website": "https://thalesgroup-cert.github.io/Watcher/",
-      "source": "https://github.com/thalesgroup-cert/Watcher",
-      "description": "Automated platform for discovering new potentially cybersecurity threats targeting your assets (Detects typosquatting domain names, Monitor malicious domain names, Detects data leaks...).",
-      "language": "Python",
-      "price": "Free",
-      "online": "False",
-      "keywords": "watcher, CERT, certificate-transparency, incident-response, osint, SOC"
     }
   ]
 }
