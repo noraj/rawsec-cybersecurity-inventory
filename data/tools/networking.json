@@ -231,6 +231,15 @@
       "price": "Free",
       "online": "False"
     },
+        {
+      "name": "Kerbrute",
+      "source": "https://github.com/ropnop/kerbrute",
+      "description": "Bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "kerbrute"
+    },
     {
       "name": "Krbrelayx",
       "website": "https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/",
