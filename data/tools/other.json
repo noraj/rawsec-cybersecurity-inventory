@@ -340,6 +340,14 @@
       "keywords": "leak"
     },
     {
+      "name": "Unredacter",
+      "website": "https://github.com/BishopFox/unredacter",
+      "description": "Bruteforce to reverse the text of image redacted with pixelation blur",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "v0lt",
       "source": "https://github.com/P1kachu/v0lt",
       "description": "CTF toolkit / framework",
