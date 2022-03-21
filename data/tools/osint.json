@@ -557,15 +557,6 @@
       "online": "False"
     },
     {
-      "name": "Sandmap",
-      "website": "https://github.com/trimstray/sandmap/wiki",
-      "source": "https://github.com/trimstray/sandmap",
-      "description": "Network and system reconnaissance scanner using Nmap",
-      "language": "Shell",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "SearchDNS",
       "website": "https://searchdns.netcraft.com/",
       "description": "Netcraft tool; Search and find information for domains and subdomains",

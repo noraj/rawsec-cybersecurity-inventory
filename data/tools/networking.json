@@ -557,6 +557,7 @@
     },
     {
       "name": "sandmap",
+      "website": "https://github.com/trimstray/sandmap/wiki",
       "source": "https://github.com/trimstray/sandmap",
       "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
       "language": "Shell",
