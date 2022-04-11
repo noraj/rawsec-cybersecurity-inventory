@@ -215,6 +215,12 @@
       "price": "Free"
     },
     {
+      "name": "VOID",
+      "website": "https://www.thevoid.community/",
+      "description": "Verica Open Incident Database; community-contributed collection of software-related incident reports",
+      "price": "Free"
+    },
+    {
       "name": "VRT",
       "website": "https://bugcrowd.com/vrt",
       "source": "https://github.com/bugcrowd/vulnerability-rating-taxonomy",
