@@ -115,6 +115,13 @@
       "price": "Free"
     },
     {
+      "name": "OpenCIRT",
+      "website": "https://opencirt.com/",
+      "description": "Open Cyber Incident Response Team; coordinated vulnerability disclosure for softwares without VDP",
+      "price": "Free",
+      "keywords": "CVD"
+    },
+    {
       "name": "Plugbounty",
       "website": "https://www.plugbounty.com/",
       "description": "Bug bounty platform for plugins, themes, extensions, libraries",
