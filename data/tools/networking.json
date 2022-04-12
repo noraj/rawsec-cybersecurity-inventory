@@ -649,9 +649,9 @@
     },
     {
       "name": "WebMap v2",
-      "source": "https://github.com/Nazicc/WebMap",
+      "source": "https://github.com/Hamza-Megahed/WebMap",
       "description": "A web dashboard for nmap XML report",
-      "language": "https://github.com/Hamza-Megahed/WebMap",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
