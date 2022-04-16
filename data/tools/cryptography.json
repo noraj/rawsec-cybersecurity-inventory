@@ -44,7 +44,7 @@
       "name": "Haiti",
       "website": "https://noraj.github.io/haiti/",
       "source": "https://github.com/noraj/haiti",
-      "description": "A CLI tool to identify the hash type of a given hash",
+      "description": "A CLI tool and library to identify the hash type of a given hash",
       "language": "Ruby",
       "price": "Free",
       "online": "False",
@@ -55,6 +55,16 @@
       "source": "https://github.com/psypanda/hashID",
       "description": "Identify the different types of hashes",
       "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "hashid"
+    },
+    {
+      "name": "houndsniff",
+      "website": "https://mcdim.xyz/projects/hs.html",
+      "source": "https://github.com/MichaelDim02/houndsniff",
+      "description": "Identify the different types of hashes",
+      "language": "C",
       "price": "Free",
       "online": "False"
     },
