@@ -43,6 +43,14 @@
       "language": "Perl",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "yarGen",
+      "source": "https://github.com/Neo23x0/yarGen",
+      "description": "YARA rules generator",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
