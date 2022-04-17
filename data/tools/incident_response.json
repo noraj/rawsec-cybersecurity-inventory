@@ -74,6 +74,14 @@
       "blackarch": "yara"
     },
     {
+      "name": "yarAnalyzer",
+      "source": "https://github.com/Neo23x0/yarAnalyzer",
+      "description": "Creates statistics on a yara rule set and files in a sample directory",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "yarGen",
       "source": "https://github.com/Neo23x0/yarGen",
       "description": "YARA rules generator",
