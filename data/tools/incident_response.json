@@ -60,7 +60,8 @@
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "log"
+      "keywords": "log",
+      "blackarch": "sigma"
     },
     {
       "name": "YARA",
@@ -69,13 +70,22 @@
       "description": "Pattern matching helping malware researchers to identify and classify malware samples",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "yara"
     },
     {
       "name": "yarGen",
       "source": "https://github.com/Neo23x0/yarGen",
       "description": "YARA rules generator",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "YAYA",
+      "source": "https://github.com/EFForg/yaya",
+      "description": "Yet Another Yara Automaton; automatically curate open source yara rules and run scans",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     }
