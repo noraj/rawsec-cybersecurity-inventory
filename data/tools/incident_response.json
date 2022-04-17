@@ -63,6 +63,15 @@
       "keywords": "log"
     },
     {
+      "name": "YARA",
+      "website": "https://virustotal.github.io/yara/",
+      "source": "https://github.com/virustotal/yara",
+      "description": "Pattern matching helping malware researchers to identify and classify malware samples",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "yarGen",
       "source": "https://github.com/Neo23x0/yarGen",
       "description": "YARA rules generator",
