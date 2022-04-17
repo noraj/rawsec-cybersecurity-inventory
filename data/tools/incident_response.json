@@ -14,7 +14,18 @@
       "description": "Solution for collecting and processing security feeds using a message queuing protocol",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "intelmq"
+    },
+    {
+      "name": "Munin",
+      "source": "https://github.com/Neo23x0/munin",
+      "description": "Online hash checker for Virustotal and other services",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "HybridAnalysis, Any.Run, URLhaus, MISP, CAPE, Malshare, Valhalla, Hashlookup, malware",
+      "blackarch": "munin-hashchecker"
     },
     {
       "name": "SCOT",
