@@ -26,6 +26,15 @@
       "blackarch": "intelmq"
     },
     {
+      "name": "Loki",
+      "source": "https://github.com/Neo23x0/Loki/",
+      "description": "IOC scanner",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "loki-scanner"
+    },
+    {
       "name": "Munin",
       "source": "https://github.com/Neo23x0/munin",
       "description": "Online hash checker for Virustotal and other services",
