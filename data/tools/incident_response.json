@@ -45,6 +45,15 @@
       "online": "False"
     },
     {
+      "name": "Sigma",
+      "source": "https://github.com/SigmaHQ/sigma",
+      "description": "Generic signature format for SIEM systems",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "log"
+    },
+    {
       "name": "yarGen",
       "source": "https://github.com/Neo23x0/yarGen",
       "description": "YARA rules generator",
