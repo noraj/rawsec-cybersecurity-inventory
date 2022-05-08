@@ -55,6 +55,8 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![neeraj](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/neerajbabu27)
 [![Felix83000](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/Felix83000)
 
+[![](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=noraj/rawsec-cybersecurity-inventory)](https://github.com/noraj/rawsec-cybersecurity-inventory/graphs/contributors)
+
 ### About
 
 See technologies used on the [About](https://inventory.raw.pm/about.html) page.
