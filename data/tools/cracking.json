@@ -198,7 +198,19 @@
       "language": "C",
       "price": "Free",
       "online": "False",
+      "keywords": "password",
       "blackarch": "john"
+    },
+    {
+      "name": "johnny",
+      "website": "https://openwall.info/wiki/john/johnny",
+      "source": "https://github.com/openwall/johnny",
+      "description": "GUI frontend to John the Ripper",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "keywords": "password",
+      "blackarch": "johnny"
     },
     {
       "name": "Kraker",
