@@ -70,8 +70,9 @@
       "price": "Free"
     },
     {
-      "name": "Hack Tricks",
+      "name": "HackTricks",
       "website": "https://book.hacktricks.xyz/",
+      "source": "https://github.com/carlospolop/hacktricks",
       "description": "Guide and cheatsheet for pentesting: shell, linux exploitation, windows exploitation, mobile app pentesting, network pentesting, web pentesting, binary exploit, forensics, crypto, backdoor, etc.",
       "price": "Free"
     },
