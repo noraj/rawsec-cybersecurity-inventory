@@ -497,6 +497,14 @@
       "online": "False"
     },
     {
+      "name": "reconFTW",
+      "source": "https://github.com/six2dez/reconftw",
+      "description": "Perform automated recon on a target domain by running set of tools to perform scanning and finding out vulnerabilities",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Recon-ng",
       "source": "https://bitbucket.org/LaNMaSteR53/recon-ng/",
       "description": "Web-based reconnaissance tool",
