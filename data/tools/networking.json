@@ -140,6 +140,15 @@
       "online": "True"
     },
     {
+      "name": "CrackMapExec",
+      "source": "https://github.com/byt3bl33d3r/CrackMapExec",
+      "description": "Post-exploitation tool to assess Active Directory networks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "crackmapexec"
+    },
+    {
       "name": "Evil-WinRM",
       "source": "https://github.com/Hackplayers/evil-winrm",
       "description": "Enhanced WinRM shell",
@@ -492,6 +501,16 @@
       "price": "Free",
       "online": "False",
       "blackarch": "pwncat-caleb"
+    },
+    {
+      "name": "pywerview",
+      "source": "https://github.com/the-useless-one/pywerview",
+      "description": "A partial Python rewriting of PowerSploit's PowerView",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "LDAP",
+      "blackarch": "python-pywerview"
     },
     {
       "name": "PyWhisker",
