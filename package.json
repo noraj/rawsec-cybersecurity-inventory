@@ -45,7 +45,7 @@
     "pug": "^3.0.2",
     "sass": "^1.52.1",
     "static-api": "^0.2.0",
-    "sweetalert2": "^11.4.14",
+    "sweetalert2": "^11.4.16",
     "tablefilter": "^0.7.2"
   }
 }
