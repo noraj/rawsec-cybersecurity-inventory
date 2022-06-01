@@ -109,6 +109,15 @@
       "online": "False"
     },
     {
+      "name": "volatility-gpg",
+      "tool": "Volatility3",
+      "source": "https://github.com/kudelskisecurity/volatility-gpg",
+      "description": "Volatility3 plugins that can retrieve partial and full gpg passphrases from gpg-agent's cache",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "XSSor",
       "tool": "Burp Suite",
       "source": "https://github.com/Quitten/XSSor",
