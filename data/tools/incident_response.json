@@ -26,6 +26,14 @@
       "blackarch": "intelmq"
     },
     {
+      "name": "IRIS",
+      "source": "https://github.com/dfir-iris/iris-web",
+      "description": "Collaborative platform aiming to help incident responders sharing technical details during investigations",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Loki",
       "source": "https://github.com/Neo23x0/Loki/",
       "description": "IOC scanner",
