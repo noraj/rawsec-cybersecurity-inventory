@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "ADeleg",
+      "source": "https://github.com/mtth-bfft/adeleg",
+      "description": "Active Directory delegation management tool allowing to make a detailed inventory of delegations set up so far in a forest",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "AppsecStudy",
       "website": "https://appsec.study",
       "source": "https://github.com/zzzteph/appsec.study",
