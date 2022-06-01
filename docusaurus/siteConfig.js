@@ -46,8 +46,8 @@ const siteConfig = {
   //users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo5_50x40.png',
-  footerIcon: 'img/logo5_50x40.png',
+  headerIcon: 'img/rawsec_logo_355x286.svg',
+  footerIcon: 'img/rawsec_logo_355x286.svg',
   favicon: 'img/favicon/favicon.ico',
 
   /* Colors for website */
@@ -93,7 +93,7 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph image.
-  ogImage: 'img/logo5_dark_355x286.png',
+  ogImage: 'img/rawsec_logo_dark_355x286.svg',
 
   // Edit URL
   editUrl: 'https://gitlab.com/rawsec/rawsec-cybersecurity-list/edit/master/docs/',
@@ -104,7 +104,7 @@ const siteConfig = {
   // Twitter infos
   twitter: true,
   twitterUsername: 'rawsec_cyber',
-  twitterImage: 'img/logo5_dark_355x286.png',
+  twitterImage: 'img/rawsec_logo_dark_355x286.svg',
 
   // /en/ in URL
   useEnglishUrl: true,
