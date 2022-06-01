@@ -74,6 +74,14 @@
       "online": "False"
     },
     {
+      "name": "binbloom",
+      "source": "https://github.com/quarkslab/binbloom",
+      "description": " Raw binary firmware analysis software; tries to determine the firmware loading address",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "binutils",
       "website": "https://www.gnu.org/software/binutils/binutils.html",
       "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
