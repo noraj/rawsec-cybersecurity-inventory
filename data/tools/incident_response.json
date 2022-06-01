@@ -27,6 +27,7 @@
     },
     {
       "name": "IRIS",
+      "website": "https://docs.dfir-iris.org/",
       "source": "https://github.com/dfir-iris/iris-web",
       "description": "Collaborative platform aiming to help incident responders sharing technical details during investigations",
       "language": "Python",
