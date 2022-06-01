@@ -1,0 +1,13 @@
+{
+  "tools": [
+    {
+      "name": "ChipWhisperer",
+      "website": "https://rtfm.newae.com/#chipwhisperer",
+      "source": "https://github.com/newaetech/chipwhisperer",
+      "description": "Toolchain for side-channel power analysis and glitching attacks",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
