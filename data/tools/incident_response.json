@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "DFIR ORC",
+      "website": "https://dfir-orc.github.io/",
+      "source": "https://github.com/DFIR-ORC/dfir-orc",
+      "description": "Forensics artefact collection tool for systems running Microsoft Windows",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DFIRTrack",
       "source": "https://github.com/stuhli/dfirtrack",
       "description": "Incident response tracking web application, focused on handling one major incident with a lot of affected systems",
