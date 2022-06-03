@@ -651,6 +651,15 @@
       "online": "False"
     },
     {
+      "name": "Suricata Language Server",
+      "website": "https://www.stamus-networks.com/blog/suricata-language-server",
+      "source": "https://github.com/StamusNetworks/suricata-language-server",
+      "description": "Implementation of the Language Server Protocol for Suricata signatures; real-time rule syntax checking and auto-completion",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Tsunami",
       "source": "https://github.com/google/tsunami-security-scanner",
       "description": "Network security scanner with an extensible plugin system",
