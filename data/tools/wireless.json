@@ -103,6 +103,14 @@
       "online": "False"
     },
     {
+      "name": "Oasis",
+      "source": "https://github.com/RCayre/oasis",
+      "description": "Framework allowing to write, build and patch instrumentation modules for Bluetooth Low Energy (BLE) controllers",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "reaver-wps",
       "source": "https://code.google.com/archive/p/reaver-wps/",
       "description": "Bruteforce WPS tool",
