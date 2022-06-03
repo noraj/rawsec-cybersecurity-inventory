@@ -1,0 +1,20 @@
+{
+  "tools": [
+    {
+      "name": "AnoMark",
+      "source": "https://github.com/ANSSI-FR/AnoMark",
+      "description": "Statistical learning algorithm to create a model on the command lines of the Process Creation events on Windows, in order to detect anomalies in future events",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "libiris",
+      "source": "https://github.com/mtth-bfft/libiris",
+      "description": "Cross-platform sandboxing library",
+      "language": "Rush",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}
