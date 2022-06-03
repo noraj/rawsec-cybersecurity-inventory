@@ -179,6 +179,15 @@
       "online": "False"
     },
     {
+      "name": "DroidGuard VM Samples",
+      "website": "https://www.romainthomas.fr/publication/22-sstic-blackhat-droidguard-safetynet/",
+      "source": "https://github.com/romainthomas/droidguard-samples",
+      "description": "Different versions of the DroidGuard VM as well as different version of the bytecode running through this VM",
+      "price": "Free",
+      "online": "False",
+      "keywords": "android"
+    },
+    {
       "name": "edb",
       "source": "https://github.com/eteran/edb-debugger",
       "description": "Cross platform AArch32/x86/x86-64 debugger",
