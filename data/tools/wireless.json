@@ -119,6 +119,15 @@
       "online": "False"
     },
     {
+      "name": "QCSuper",
+      "source": "https://github.com/P1sec/QCSuper",
+      "description": "Communicate with Qualcomm-based phones and modems, allowing to capture raw 2G/3G/4G radio frames",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "PCAP"
+    },
+    {
       "name": "reaver-wps",
       "source": "https://code.google.com/archive/p/reaver-wps/",
       "description": "Bruteforce WPS tool",
