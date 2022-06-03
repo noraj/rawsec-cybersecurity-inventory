@@ -506,6 +506,14 @@
       "online": "False"
     },
     {
+      "name": "TTD-Bindings",
+      "source": "https://github.com/commial/ttd-bindings",
+      "description": "Bindings for Microsoft WinDBG Time Travel Debugging (TTD)",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "UglifyJS2",
       "website": "https://www.npmjs.com/package/uglify-js",
       "source": "https://github.com/mishoo/UglifyJS2",
