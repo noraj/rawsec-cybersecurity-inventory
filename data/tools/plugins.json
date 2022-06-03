@@ -109,6 +109,15 @@
       "online": "False"
     },
     {
+      "name": "ttddbg",
+      "tool": "IDA",
+      "source": "https://github.com/airbus-cert/ttddbg",
+      "description": "Time Travel Debugging IDA plugin",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "volatility-gpg",
       "tool": "Volatility3",
       "source": "https://github.com/kudelskisecurity/volatility-gpg",
