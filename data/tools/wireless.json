@@ -71,6 +71,14 @@
       "online": "False"
     },
     {
+      "name": "intel-wifi-research-tools",
+      "source": "https://github.com/Ledger-Donjon/intel-wifi-research-tools",
+      "description": "Research tools developed for Intel Wi-Fi chips : decode firmware files, communicate with the chip through Linux's debug filesystem",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "MDK3-master",
       "source": "https://github.com/wi-fi-analyzer/mdk3-master",
       "description": "PoC tool to exploit common IEEE 802.11 protocol weaknesses",
