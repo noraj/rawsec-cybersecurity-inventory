@@ -12,7 +12,15 @@
       "name": "libiris",
       "source": "https://github.com/mtth-bfft/libiris",
       "description": "Cross-platform sandboxing library",
-      "language": "Rush",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "usbsas",
+      "source": "https://github.com/cea-sec/usbsas",
+      "description": "Tool and framework for securely reading untrusted USB mass storage devices",
+      "language": "Rust",
       "price": "Free",
       "online": "False"
     }
