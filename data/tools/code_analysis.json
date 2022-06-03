@@ -26,6 +26,14 @@
       "online": "False"
     },
     {
+      "name": "CodeQL",
+      "website": "https://codeql.github.com/",
+      "source": "https://github.com/github/codeql",
+      "description": "Semantic code analysis engine; discover vulnerabilities across a codebase, lets you query code as though it were data, write a query to find all variants of a vulnerability",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "MobSF",
       "website": "",
       "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
