@@ -1,0 +1,12 @@
+{
+  "tools": [
+    {
+      "name": "Enki",
+      "source": "https://github.com/entrepreneur-interet-general/enki",
+      "description": "Crisis management platform",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+include ../../mixins/tool.pug
+table.table#tools-crisis-management
+    thead
+        tr
+            th Name
+            th Website
+            th Source
+            th Description
+            th Programming language
+            th Price
+            th Online
+    tbody
+        each tool in tools.crisis_management.tools
+            +tool(tool)
