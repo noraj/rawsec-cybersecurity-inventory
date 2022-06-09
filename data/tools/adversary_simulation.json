@@ -1,0 +1,13 @@
+{
+  "tools": [
+    {
+      "name": "Manticore",
+      "source": "https://github.com/Manticore-Platform/manticore-cli",
+      "description": "Adversary emulation command line tool is parsing complex scenarios from Manticore public-threats repository and run these scenarios",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI, simulation"
+    }
+  ]
+}
