@@ -233,6 +233,14 @@
       "blackarch": "hydra"
     },
     {
+      "name": "Ica2Tcp",
+      "source": "https://github.com/synacktiv/ica2tcp",
+      "description": "SOCKS proxy for Citrix",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "kalitorify",
       "source": "https://github.com/brainfucksec/kalitorify",
       "description": "Script for Kali Linux which use iptables settings to create a transparent proxy through Tor Network",
