@@ -132,6 +132,12 @@
       "price": "Free"
     },
     {
+      "name": "Packet Storm",
+      "website": "https://packetstormsecurity.com/",
+      "description": "Exploit index and security news",
+      "price": "Free"
+    },
+    {
       "name": "PayloadsAllTheThings",
       "source": "https://github.com/swisskyrepo/PayloadsAllTheThings",
       "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
