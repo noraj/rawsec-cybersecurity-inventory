@@ -323,6 +323,15 @@
       "online": "False"
     },
     {
+      "name": "SearchSploit",
+      "website": "https://www.exploit-db.com/",
+      "source": "https://github.com/offensive-security/exploitdb",
+      "description": "CLI tool to search among Exploit-DB exploits",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Seccubus",
       "website": "https://www.seccubus.com/",
       "source": "https://github.com/seccubus/seccubus",
@@ -332,11 +341,10 @@
       "online": "False"
     },
     {
-      "name": "SearchSploit",
-      "website": "https://www.exploit-db.com/",
-      "source": "https://github.com/offensive-security/exploitdb",
-      "description": "CLI tool to search among Exploit-DB exploits",
-      "language": "Shell",
+      "name": "sploitctl",
+      "source": "https://github.com/BlackArch/sploitctl",
+      "description": "Fetch, install and search exploit archives from exploit sites like Packet Storm or Exploit-DB",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
