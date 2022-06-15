@@ -25,6 +25,14 @@
       "online": "False"
     },
     {
+      "name": "Santa",
+      "source": "https://github.com/google/santa",
+      "description": "Binary authorization system for macOS",
+      "language": "ObjC",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "usbsas",
       "source": "https://github.com/cea-sec/usbsas",
       "description": "Tool and framework for securely reading untrusted USB mass storage devices",
