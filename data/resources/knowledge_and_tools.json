@@ -234,6 +234,12 @@
       "price": "Free"
     },
     {
+      "name": "The Hacking Tool Trove",
+      "website": "https://trove.raw.pm/",
+      "description": "THTT; tools cheat sheets, tools command examples, tools references",
+      "price": "Free"
+    },
+    {
       "name": "Vergilius",
       "website": "https://www.vergiliusproject.com/",
       "description": "A collection of Microsoft Windows kernel structures, unions and enumerations; most of them are not officially documented and cannot be found in Windows Driver Kit (WDK) headers",
