@@ -39,6 +39,12 @@
       "price": "Free"
     },
     {
+      "name": "Exploitalert",
+      "website": "https://www.exploitalert.com/",
+      "description": "Exploit index; semi-automatic intelligence supervised by a human operator to find publicly available exploits in the Internet",
+      "price": "Free"
+    },
+    {
       "name": "Extended BApp Store",
       "website": "https://apps.burpsuite.guide/",
       "description": "Burp Suite extensions search engine",
