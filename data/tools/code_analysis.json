@@ -26,6 +26,16 @@
       "online": "False"
     },
     {
+      "name": "cIFrex",
+      "website": "https://cifrex.org",
+      "source": "https://github.com/MaksymilianA/cifrex",
+      "description": "Regexp static code analysis tool",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "CodeQL",
       "website": "https://codeql.github.com/",
       "source": "https://github.com/github/codeql",
