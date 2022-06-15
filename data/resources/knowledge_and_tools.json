@@ -33,6 +33,12 @@
       "price": "Free"
     },
     {
+      "name": "CXSECURITY",
+      "website": "https://cxsecurity.com/",
+      "description": "Exploit index",
+      "price": "Free"
+    },
+    {
       "name": "DefaultPassword",
       "website": "https://default-password.info/",
       "description": "Default passwords for many devices and services",
