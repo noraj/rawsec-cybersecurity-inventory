@@ -41,7 +41,7 @@
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "jquery": "^3.6.0",
-    "minisearch": "^4.0.3",
+    "minisearch": "^5.0.0",
     "pug": "^3.0.2",
     "sass": "^1.52.3",
     "static-api": "^0.2.0",
