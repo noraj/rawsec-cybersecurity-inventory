@@ -32,6 +32,14 @@
       "online": "False"
     },
     {
+      "name": "Cervantes",
+      "source": "https://github.com/CervantesSec/cervantes",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CTFNote",
       "source": "https://github.com/TFNS/CTFNote",
       "description": "Collaborative platform for CTF teams, event planning, credentials sharing, tasks management, notes taking",
