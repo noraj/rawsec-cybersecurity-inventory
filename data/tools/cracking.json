@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "bkcrack",
+      "source": "https://github.com/kimci86/bkcrack",
+      "description": "Crack legacy zip encryption with Biham and Kocher's known plaintext attack",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "bkcrack"
+    },
+    {
       "name": "BEWGor",
       "source": "https://github.com/berzerk0/BEWGor",
       "description": "Bull's Eye Wordlist Generator, password wordlist generator based on target information",
