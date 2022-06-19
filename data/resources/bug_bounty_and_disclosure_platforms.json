@@ -55,6 +55,12 @@
       "price": "Free"
     },
     {
+      "name": "disclose.io",
+      "website": "https://disclose.io/",
+      "description": "VDP platform",
+      "price": "Free"
+    },
+    {
       "name": "FEDERACY",
       "website": "https://www.federacy.com/",
       "description": "Crowdsourced pentest & bug bounty platform",
