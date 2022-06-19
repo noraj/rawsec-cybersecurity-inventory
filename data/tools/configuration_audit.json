@@ -1,6 +1,15 @@
 {
   "tools": [
     {
+      "name": "Lynis",
+      "website": "https://cisofy.com/lynis/",
+      "source": "https://github.com/CISOfy/Lynis",
+      "description": "Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Nipper Studio",
       "website": "https://www.titania.com/nipper-studio",
       "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",
