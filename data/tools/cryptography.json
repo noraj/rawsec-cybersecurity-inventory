@@ -44,7 +44,7 @@
       "name": "Haiti",
       "website": "https://noraj.github.io/haiti/",
       "source": "https://github.com/noraj/haiti",
-      "description": "A CLI tool and library to identify the hash type of a given hash",
+      "description": "Hash type identifier (CLI & lib)",
       "language": "Ruby",
       "price": "Free",
       "online": "False",
