@@ -49,6 +49,12 @@
       "website": "http://www.caine-live.net/"
     },
     {
+      "name": "CLIP OS",
+      "base": "Gentoo",
+      "description": "security by compartmentalization (container)",
+      "website": "https://clip-os.org/"
+    },
+    {
       "name": "CommandoVM",
       "base": "Windows",
       "description": "script to configure a Windows VM and install security tools on it; penetration testing and security lab",
