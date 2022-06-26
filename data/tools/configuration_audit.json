@@ -24,6 +24,15 @@
       "language": "Cplusplus",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "YASAT",
+      "source": "https://github.com/montjoie/yasat",
+      "description": "TYet Another Stupid Audit Tool; check general Linux system and common softwares configuration",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "yasat"
     }
   ]
 }
