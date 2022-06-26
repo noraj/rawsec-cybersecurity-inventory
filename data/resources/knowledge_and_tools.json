@@ -266,6 +266,12 @@
       "price": "Free"
     },
     {
+      "name": "WEAKPASS",
+      "website": "https://weakpass.com/",
+      "description": "Index of wordlists for brute-force attacks",
+      "price": "Free"
+    },
+    {
       "name": "Windows & Active Directory Exploitation Cheat Sheet and Command Reference",
       "website": "https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/",
       "description": "Windows & Active Directory exploitation: enumeration, exploitation, lateral movement, privilege escalation, persistence, domain persistence, post-exploitation",
