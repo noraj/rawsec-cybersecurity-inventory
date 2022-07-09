@@ -6,6 +6,7 @@ const data = require('gulp-data');
 const merge = require('gulp-merge-json');
 const sass = require('gulp-sass')(require('sass'));
 var connect = require('gulp-connect');
+const replace = require('gulp-replace');
 const fs = require('fs');
 const path = require('path');
 const del = require('del');
@@ -107,6 +108,7 @@ function tablefilter() {
 
 function sweetalert2() {
     return src('node_modules/sweetalert2/dist/sweetalert2.all.min.js')
+        .pipe(replace('Math.random()<.1', 'Math.random()<0'))
         .pipe(dest('build/js/vendor/sweetalert2/'));
 };
 
