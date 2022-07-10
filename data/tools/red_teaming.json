@@ -232,6 +232,14 @@
       "online": "False"
     },
     {
+      "name": "Warhorse",
+      "website": "https://docs.war-horse.io/",
+      "source": "https://github.com/warhorse/warhorse",
+      "description": "Ansible playbook to deploy infrastructure in the cloud for conducting Red Team assessments",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Zphisher",
       "source": "https://github.com/htr-tech/zphisher",
       "description": "Automated phishing tool with multiple tunneling options; fork of Shellphish",
