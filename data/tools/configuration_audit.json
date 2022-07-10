@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Iniscan",
+      "source": "https://github.com/psecio/iniscan",
+      "description": "php.ini scanner for security best practices",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Lynis",
       "website": "https://cisofy.com/lynis/",
       "source": "https://github.com/CISOfy/Lynis",
