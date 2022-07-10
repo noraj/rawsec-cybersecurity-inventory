@@ -30,7 +30,15 @@
       "source": "https://github.com/Patrowl/PatrowlHears",
       "description": "Provides a unified source of vulnerability, exploit and threat Intelligence feeds; comprehensive and continuously updated vulnerability database scored and enriched with exploit and threat news information",
       "language": "Python",
-      "price": "Paid"
+      "price": "Paid",
+      "online": "False"
+    },
+    {
+      "name": "Pulsedive",
+      "website": "https://pulsedive.com/",
+      "description": "CTI platform to search, scan, and enrich IPs, URLs, domains and other IOCs from OSINT feeds or submit your own",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "threatfeeds.io",
