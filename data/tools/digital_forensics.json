@@ -100,6 +100,15 @@
       "online": "False"
     },
     {
+      "name": "Velociraptor",
+      "website": "https://docs.velociraptor.app/",
+      "source": "https://github.com/Velocidex/velociraptor",
+      "description": "Endpoint visibility and collection tool",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "volatility",
       "website": "http://www.volatilityfoundation.org/",
       "source": "https://github.com/volatilityfoundation/volatility",
