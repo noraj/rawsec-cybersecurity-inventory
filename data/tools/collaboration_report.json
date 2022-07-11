@@ -158,13 +158,6 @@
       "online": "False"
     },
     {
-      "name": "oneVault",
-      "website": "https://www.onevault.tech/",
-      "description": "Collaborative penetration test, vulnerability management and reporting platform",
-      "price": "Paid",
-      "online": "False"
-    },
-    {
       "name": "OSCP Exam Report Template in Markdown",
       "website": "https://noraj.github.io/OSCP-Exam-Report-Template-Markdown",
       "source": "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown",
