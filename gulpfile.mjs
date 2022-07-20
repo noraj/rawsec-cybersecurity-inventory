@@ -1,14 +1,14 @@
 // Load plugins
 import gulp from 'gulp';
 const { series, parallel, src, dest, task } = gulp;
-import pug from 'gulp-pug';
-import data from 'gulp-data';
-import merge from 'gulp-merge-json';
+import gulpPug from 'gulp-pug';
+import gulpData from 'gulp-data';
+import gulpMergeJson from 'gulp-merge-json';
 import dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
-import connect from 'gulp-connect';
-import replace from 'gulp-replace';
+import gulpConnect from 'gulp-connect';
+import gulpReplace from 'gulp-replace';
 
 import { exec } from 'node:child_process';
 import fs from 'node:fs';
@@ -40,7 +40,7 @@ function clean() {
 // aggregate different JSON files into one database
 function pug_data() {
     return src('data/**/*.json')
-        .pipe(merge({
+        .pipe(gulpMergeJson({
             fileName: 'data.json',
             edit: (json, file) => {
                 // Extract the filename and strip the extension
@@ -66,10 +66,10 @@ function pug_data() {
 // compile pug templates into HTML and pass data in argument
 function pug_src() {
     return src('pug/*.pug')
-        .pipe(data(function() {
+        .pipe(gulpData(function() {
             return JSON.parse(fs.readFileSync('temp/data.json'));
         }))
-        .pipe(pug({
+        .pipe(gulpPug({
             pretty: true,
         }))
         .pipe(dest('build/'));
@@ -111,7 +111,7 @@ function tablefilter() {
 
 function sweetalert2() {
     return src('node_modules/sweetalert2/dist/sweetalert2.all.min.js')
-        .pipe(replace('Math.random()<.1', 'Math.random()<0'))
+        .pipe(gulpReplace('Math.random()<.1', 'Math.random()<0'))
         .pipe(dest('build/js/vendor/sweetalert2/'));
 };
 
@@ -159,8 +159,8 @@ function images() {
 };
 
 function webserver() {
-  connect.server({
-    root: 'build',
-    port: 3000
+    gulpConnect.server({
+        root: 'build',
+        port: 3000
   });
 };
