@@ -1,18 +1,19 @@
 // Load plugins
-const { series, parallel, src, dest, task } = require('gulp');
-const { exec } = require('child_process');
-const pug = require('gulp-pug');
-const data = require('gulp-data');
-const merge = require('gulp-merge-json');
-const sass = require('gulp-sass')(require('sass'));
-var connect = require('gulp-connect');
-const replace = require('gulp-replace');
-const fs = require('fs');
-const path = require('path');
-const del = require('del');
+import gulp from 'gulp';
+const { series, parallel, src, dest, task } = gulp;
+import { exec } from 'node:child_process';
+import pug from 'gulp-pug';
+import data from 'gulp-data';
+import merge from 'gulp-merge-json';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
+import connect from 'gulp-connect';
+import replace from 'gulp-replace';
+import fs from 'fs';
+import path from 'path';
+import { deleteAsync } from 'del';
 
-// ES6 modules (imports and exports) as they are not yet supported natively in Node
-// so I'm using gulp.task instead of commonJs exports.aTaskName = aFunc
 task(clean);
 clean.description = 'Clean the build directory';
 task('server', webserver);
@@ -31,7 +32,7 @@ task('default').description = 'clean + build';
 
 function clean() {
     // You can use multiple globbing patterns as you would with `gulp.src`
-    return del(['build']);
+    return deleteAsync(['build']);
 };
 
 // aggregate different JSON files into one database
@@ -73,7 +74,7 @@ function pug_src() {
 };
 
 function api_clean() {
-    return del('temp/api');
+    return deleteAsync('temp/api');
 };
 
 // build the static JSON API via an external script, I didn't find a cleaner way to do it with gulp
