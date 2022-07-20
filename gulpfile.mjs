@@ -1,7 +1,6 @@
 // Load plugins
 import gulp from 'gulp';
 const { series, parallel, src, dest, task } = gulp;
-import { exec } from 'node:child_process';
 import pug from 'gulp-pug';
 import data from 'gulp-data';
 import merge from 'gulp-merge-json';
@@ -10,8 +9,11 @@ import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
 import connect from 'gulp-connect';
 import replace from 'gulp-replace';
-import fs from 'fs';
-import path from 'path';
+
+import { exec } from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
+
 import { deleteAsync } from 'del';
 
 task(clean);
