@@ -77,6 +77,15 @@
       "online": "False"
     },
     {
+      "name": "Exporter",
+      "tool": "Burp Suite",
+      "source": "https://github.com/artssec/burp-exporter",
+      "description": "Copies selected request(s) as cURL, wget, Python Request, Perl LWP, PHP HTTP_Request2, Go, NodeJS Request, jQuery AJAX, PowerShell, HTML Forms, Ruby Net::HTTP, JavaScript XHR invocations",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "HopLa",
       "tool": "Burp Suite",
       "source": "https://github.com/synacktiv/HopLa",
