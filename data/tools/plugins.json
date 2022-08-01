@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "Copy As FFUF",
+      "tool": "Burp Suite",
+      "source": "https://github.com/d3k4z/burp-copy-as-ffuf",
+      "description": "Copies the selected request(s) as FFUF skeleton",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Copy As Go Request",
       "tool": "Burp Suite",
       "website": "https://portswigger.net/bappstore/6d8cc9bde0b948959aa557d9bd0f0e66",
