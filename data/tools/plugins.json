@@ -59,6 +59,15 @@
       "online": "False"
     },
     {
+      "name": "Copy As XMLHttpRequest",
+      "tool": "Burp Suite",
+      "source": "https://github.com/vulnbe/burpsuite-copy-as-xmlhttprequest",
+      "description": "Copies selected request(s) as JavaScript XMLHttpRequest invocations",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "HopLa",
       "tool": "Burp Suite",
       "source": "https://github.com/synacktiv/HopLa",
