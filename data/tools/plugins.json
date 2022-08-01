@@ -19,6 +19,16 @@
       "online": "False"
     },
     {
+      "name": "Copy As Go Request",
+      "tool": "Burp Suite",
+      "website": "https://portswigger.net/bappstore/6d8cc9bde0b948959aa557d9bd0f0e66",
+      "source": "https://github.com/portswigger/copy-as-go-request",
+      "description": "Copies the selected request(s) as Go Request invocations",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Copy as Node Request",
       "tool": "Burp Suite",
       "website": "https://portswigger.net/bappstore/e170472f83ef4da1bca5897203b6b33d",
