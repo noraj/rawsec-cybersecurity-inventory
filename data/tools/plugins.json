@@ -19,11 +19,21 @@
       "online": "False"
     },
     {
+      "name": "Copy as Node Request",
+      "tool": "Burp Suite",
+      "website": "https://portswigger.net/bappstore/e170472f83ef4da1bca5897203b6b33d",
+      "source": "https://github.com/portswigger/copy-as-node-request",
+      "description": "Copies the selected request(s) as Node.JS Request invocations",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Copy as PowerShell Requests",
       "tool": "Burp Suite",
       "website": "https://portswigger.net/bappstore/4da25d602db04f5ca7c4b668e4611cfe",
       "source": "https://github.com/portswigger/copy-as-powershell-requests",
-      "description": "This extension copies the selected request(s) as PowerShell invocation(s).",
+      "description": "Copies the selected request(s) as PowerShell invocation(s)",
       "language": "Java",
       "price": "Free",
       "online": "False"
@@ -33,7 +43,7 @@
       "tool": "Burp Suite",
       "website": "https://portswigger.net/bappstore/b324647b6efa4b6a8f346389730df160",
       "source": "https://github.com/portswigger/copy-as-python-requests",
-      "description": "This extension copies selected request(s) as Python-Requests invocations.",
+      "description": "Copies selected request(s) as Python-Requests invocations",
       "language": "Java",
       "price": "Free",
       "online": "False"
