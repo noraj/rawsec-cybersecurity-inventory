@@ -45,6 +45,13 @@
       "price": "Free"
     },
     {
+      "name": "dioterms",
+      "website": "https://policymaker.disclose.io/",
+      "source": "https://github.com/disclose/dioterms",
+      "description": "Vulnerability disclosure policy templates; terms for Vulnerability Disclosure Policy (VDP) and Bug Bounty Policy (BBP)",
+      "price": "Free"
+    },
+    {
       "name": "Exploitalert",
       "website": "https://www.exploitalert.com/",
       "description": "Exploit index; semi-automatic intelligence supervised by a human operator to find publicly available exploits in the Internet",
