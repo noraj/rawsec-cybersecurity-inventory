@@ -224,6 +224,14 @@
       "blackarch": "socialfish"
     },
     {
+      "name": "TeamsImplant",
+      "source": "https://github.com/Allevon412/TeamsImplant",
+      "description": "MS Teams implant persistent backdoor",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "UBoat",
       "source": "https://github.com/Souhardya/UBoat",
       "description": "HTTP botnet PoC",
