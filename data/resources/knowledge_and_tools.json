@@ -70,6 +70,12 @@
       "price": "Free"
     },
     {
+      "name": "findsecuritycontacts.com",
+      "website": "https://findsecuritycontacts.com/",
+      "description": "List of security contacts for websites extracted from security.txt and dnssecuritytxt",
+      "price": "Free"
+    },
+    {
       "name": "Forensics Wiki",
       "website": "http://forensicswiki.org/wiki/Main_Page",
       "description": "Forensics tips and tools",
