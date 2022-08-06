@@ -36,7 +36,7 @@ $(document).ready(function(){
   // other element out of the form
   var code = $('code');
   // Conditional logic
-  type.change(function(){ // when the type changes
+  type.on('change', function(){ // when the type changes
     var value=this.value;
     category_parents.addClass('is-hidden'); // hide all categories
     entry_parents.addClass('is-hidden'); // hide all entries
@@ -51,7 +51,7 @@ $(document).ready(function(){
       category_operating_system_parent.removeClass('is-hidden'); // show category_operating_system
     }
   });
-  category_tool.change(function(){ // when the category tool changes
+  category_tool.on('change', function(){ // when the category tool changes
     var value=this.value;
     entry_parents.addClass('is-hidden'); // hide all entries
 
@@ -67,7 +67,7 @@ $(document).ready(function(){
       tool_generic.removeClass('is-hidden');
     }
   });
-  category_resource.change(function(){ // when the category resource changes
+  category_resource.on('change', function(){ // when the category resource changes
     var value=this.value;
     entry_parents.addClass('is-hidden'); // hide all entries
 
@@ -88,7 +88,7 @@ $(document).ready(function(){
       resource_generic.removeClass('is-hidden');
     }
   });
-  category_ctf_platform.change(function(){ // when the category ctf platform changes
+  category_ctf_platform.on('change', function(){ // when the category ctf platform changes
     entry_parents.addClass('is-hidden'); // hide all entries
     // all have the same template
     var ctf_platform_generic = $($.map([entry_name_parent,entry_website_parent,
@@ -96,7 +96,7 @@ $(document).ready(function(){
       entry_programming_language_parent,entry_price_parent], a => [...$.makeArray(a)]));
     ctf_platform_generic.removeClass('is-hidden');
   });
-  category_operating_system.change(function(){ // when the category operating system changes
+  category_operating_system.on('change', function(){ // when the category operating system changes
     var value=this.value;
     entry_parents.addClass('is-hidden'); // hide all entries
 
@@ -129,7 +129,7 @@ $(document).ready(function(){
   });
 });
 // prevent form submission
-$('form').submit(function(e){
+$('form').on('submit', function(e){
   e.preventDefault();
   submitForm();
 });
