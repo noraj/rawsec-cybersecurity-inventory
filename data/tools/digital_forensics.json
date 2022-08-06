@@ -31,7 +31,8 @@
       "description": "Library and CLI tool for reading, writing and editing metadata for a lot of file types",
       "language": "Perl",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "perl-image-exiftool"
     },
     {
       "name": "extundelete",
@@ -54,6 +55,15 @@
       "website": "http://foremost.sourceforge.net/",
       "source": "https://sourceforge.net/projects/foremost/",
       "description": "CLI tool to recover files based on their headers, footers, and internal data structures",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "foremost"
+    },
+    {
+      "name": "Live Forensicator",
+      "source": "https://github.com/Johnng007/Live-Forensicator",
+      "description": "Assist forensic investigators and incidence responders in carrying out a quick live forensic investigation",
+      "language": "PowerShell",
       "price": "Free",
       "online": "False"
     },
