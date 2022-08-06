@@ -31,6 +31,8 @@ task('build',
 task('build').description = 'Build the static website';
 task('default', series('clean', 'build'));
 task('default').description = 'clean + build';
+task('pug', series(pug_data, pug_src));
+task('pug').description = 'Only build content and templates without assets, the API and JS dependencies';
 
 function clean() {
     // You can use multiple globbing patterns as you would with `gulp.src`
