@@ -46,62 +46,34 @@ block content
                                 .select.is-primary
                                     select(name='category')
                                         option(value='') - Select -
-                                        option(value='binary_exploitation') Binary Exploitation
-                                        option(value='bug_bounty') Bug Bounty
-                                        option(value='cloud') Cloud
-                                        option(value='code_analysis') Code Analysis
-                                        option(value='collaboration_and_report') Collaboration and Report
-                                        option(value='configuration_audit') Configuration audit
-                                        option(value='cracking') Cracking
-                                        option(value='cryptography') Cryptography
-                                        option(value='digital_forensics') Digital Forensics
-                                        option(value='honeypot_and_decoy') Honeypot and Decoy
-                                        option(value='incident_response') Incident Response
-                                        option(value='intentionally_vulnerable_applications') Intentionally Vulnerable Applications
-                                        option(value='networking') Networking
-                                        option(value='osint_and_reconnaissance') OSINT and Reconnaissance
-                                        option(value='other') Other
-                                        option(value='plugins') Plugins
-                                        option(value='red_teaming') Red Teaming
-                                        option(value='reverse_engineering') Reverse Engineering
-                                        option(value='steganography') Steganography
-                                        option(value='system_exploitation') System Exploitation
-                                        option(value='threat_intelligence') Threat Intelligence
-                                        option(value='vulnerability_assessment') Vulnerability Assessment
-                                        option(value='web_application_exploitation') Web Application Exploitation
-                                        option(value='wireless') Wireless
+                                        each category in mapping.Tools
+                                            - name_underscore = category.toLowerCase().replace(/\s/g, '_').replace(/,/g, '')
+                                            option(value=name_underscore)= category
+                                        
                         .field.is-hidden#category_resource
                             .control
                                 .select.is-primary
                                     select(name='category')
                                         option(value='') - Select -
-                                        option(value='bug_bounty_pentest_and_disclosure_platforms') Bug bounty and disclosure platforms
-                                        option(value='challenges_platforms') Challenges platforms
-                                        option(value='cve') CVE
-                                        option(value='events') Events
-                                        option(value='information') Information
-                                        option(value='knowledge_and_tools') Knowledge and tools
-                                        option(value='national_security_agencies_and_services') National security agencies and services
-                                        option(value='non_english') Non english
-                                        option(value='trainings_and_courses') Trainings and courses
-                                        option(value='tutorials') Tutorials
-                                        option(value='writeups_collections_and_challenges_source') Writeups collections and challenges source
+                                        each category in mapping.Resources
+                                            - name_underscore = category.toLowerCase().replace(/\s/g, '_').replace(/,/g, '')
+                                            option(value=name_underscore)= category
                         .field.is-hidden#category_ctf_platform
                             .control
                                 .select.is-primary
                                     select(name='category')
                                         option(value='') - Select -
-                                        option(value='attack_defense') Attack-Defense
-                                        option(value='hybrid') Hybrid
-                                        option(value='jeopardy') Jeopardy
+                                        each category in mapping['CTF platforms']
+                                            - name_underscore = category.toLowerCase().replace(/\s/g, '_').replace(/,/g, '')
+                                            option(value=name_underscore)= category
                         .field.is-hidden#category_operating_system
                             .control
                                 .select.is-primary
                                     select(name='category')
                                         option(value='') - Select -
-                                        option(value='maintained') Maintained
-                                        option(value='no_more_maintained') No more maintained
-                                        option(value='project_transferred') Project transferred
+                                        each category in mapping['Operating Systems']
+                                            - name_underscore = category.toLowerCase().replace(/\s/g, '_').replace(/,/g, '')
+                                            option(value=name_underscore)= category
                 // elements/entries
                 .field.is-horizontal
                     .field-label.is-normal New entry
