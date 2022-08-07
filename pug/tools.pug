@@ -6,7 +6,10 @@ block content
         .container
             .content
                 // Table Of Contents
-                include content/table_of_contents/tools.pug
+                .buttons
+                    each category in mapping.Tools
+                        - name_hyphen = category.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+                        a(href=`#title-tools-${name_hyphen}`).button.is-primary.is-outlined= category
 
                 h2.title.is-2#title-tools Tools
             

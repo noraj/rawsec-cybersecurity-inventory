@@ -6,7 +6,10 @@ block content
         .container
             .content
                 // Table Of Contents
-                include content/table_of_contents/ctf_platforms.pug
+                .buttons
+                    each category in mapping['CTF platforms']
+                        - name_hyphen = category.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+                        a(href=`#title-ctf-platforms-${name_hyphen}`).button.is-primary.is-outlined= category
 
                 h2.title.is-2#title-ctf-platforms CTF platforms
 

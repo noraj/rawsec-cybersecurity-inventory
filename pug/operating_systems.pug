@@ -6,7 +6,10 @@ block content
         .container
             .content
                 // Table Of Contents
-                include content/table_of_contents/operating_systems.pug
+                .buttons
+                    each category in mapping['Operating Systems']
+                        - name_hyphen = category.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+                        a(href=`#title-operating-systems-${name_hyphen}`).button.is-primary.is-outlined= category
 
                 h2.title.is-2#title-operating-systems Operating Systems
 
