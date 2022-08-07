@@ -1,5 +1,5 @@
 include ../../mixins/tool.pug
-table.table#tools-collaboration-report
+table.table#tools-honeypot-and-decoy
     thead
         tr
             th Name
@@ -10,5 +10,5 @@ table.table#tools-collaboration-report
             th Price
             th Online
     tbody
-        each tool in tools.collaboration_report.tools
+        each tool in tools.honeypot_and_decoy.tools
             +tool(tool)

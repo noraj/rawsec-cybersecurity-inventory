@@ -21,5 +21,5 @@ jQuery.extend(filtersConfig, {
     enable_empty_option: true,
     enable_non_empty_option: true,
 });
-var tf = new TableFilter(document.querySelector('#tools-osint'), filtersConfig);
+var tf = new TableFilter(document.querySelector('#tools-osint-and-reconnaissance'), filtersConfig);
 tf.init();

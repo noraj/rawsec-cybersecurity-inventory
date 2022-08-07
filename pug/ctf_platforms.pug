@@ -1,4 +1,5 @@
 extend layout/layout.pug
+include mixins/category_tables.pug
 
 block content
     section.section
@@ -9,20 +10,8 @@ block content
 
                 h2.title.is-2#title-ctf-platforms CTF platforms
 
-                h3.title.is-3#title-ctf-platforms-attack-defense Attack-Defense
-                article
-                    include content/ctf_platforms/attack_defense.pug
-                    script(src='js/tablefilter/ctf_platforms/attack_defense.js')
-
-                h3.title.is-3#title-ctf-platforms-hybrid Hybrid
-                article
-                    include content/ctf_platforms/hybrid.pug
-                    script(src='js/tablefilter/ctf_platforms/hybrid.js')
-
-                h3.title.is-3#title-ctf-platforms-jeopardy Jeopardy
-                article
-                    include content/ctf_platforms/jeopardy.pug
-                    script(src='js/tablefilter/ctf_platforms/jeopardy.js')
+                each category in mapping['CTF platforms']
+                    +category_ctf_platforms(category)
 
 block hero-foot
     .hero-foot

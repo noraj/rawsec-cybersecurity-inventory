@@ -14,7 +14,7 @@ title: Adding a tool/resource
 - Website and source must be the official ones, don't put one of those if is non-existent
 - Make you Merge Request into the `dev` branch not into master
 - Find the right JSON file in the `data/` folder and add your tool or resource, it's easy
-  + Example 1: `data/tools/osint.json` for an OSINT tool
+  + Example 1: `data/tools/reverse_engineering.json` for an reverse engineering tool
   + Example 2: `data/ctf_platforms/jeopardy.json` for a jeopardy CTF platform
 - Don't forget to add yourself to `CONTRIBUTORS.txt` if it is your first contribution and to create your badge on the `Contributions` section of `README.md`
 

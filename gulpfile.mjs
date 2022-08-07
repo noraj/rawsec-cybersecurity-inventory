@@ -71,6 +71,9 @@ function pug_src() {
         .pipe(gulpData(function() {
             return JSON.parse(fs.readFileSync('temp/data.json'));
         }))
+        .pipe(gulpData(function() {
+            return JSON.parse(fs.readFileSync('pug/mapping.json'));
+        }))
         .pipe(gulpPug({
             pretty: true,
         }))

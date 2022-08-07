@@ -6,6 +6,8 @@ jQuery.extend(filtersConfig, {
     col_2: 'none',
     col_3: 'input',
     col_4: 'select',
+    col_5: 'select',
+    col_6: 'select',
     // columns data types
     col_types: [
         'caseinsensitivestring',
@@ -13,9 +15,11 @@ jQuery.extend(filtersConfig, {
         'none',
         'string',
         'string',
+        'string',
+        'string',
     ],
     enable_empty_option: true,
     enable_non_empty_option: true,
 });
-var tf = new TableFilter(document.querySelector('#resources-bug-bounty-and-disclosure-platforms'), filtersConfig);
+var tf = new TableFilter(document.querySelector('#tools-collaboration-and-report'), filtersConfig);
 tf.init();

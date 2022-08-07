@@ -1,0 +1,57 @@
+{
+  "mapping": {
+    "Tools": [
+      "Adversary Simulation",
+      "Binary Exploitation",
+      "Bug Bounty",
+      "Cloud",
+      "Code Analysis",
+      "Collaboration and Report",
+      "Configuration Audit",
+      "Cracking",
+      "Crisis Management",
+      "Cryptography",
+      "Defensive",
+      "Digital Forensics",
+      "Hardware",
+      "Honeypot and Decoy",
+      "Incident Response",
+      "Intentionally Vulnerable Applications",
+      "Networking",
+      "OSINT and Reconnaissance",
+      "Other",
+      "Plugins",
+      "Red Teaming",
+      "Reverse Engineering",
+      "Steganography",
+      "System Exploitation",
+      "Threat Intelligence",
+      "Vulnerability Assessment",
+      "Web Application Exploitation",
+      "Wireless"
+    ],
+    "Resources": [
+      "Bug bounty, pentest and disclosure platforms",
+      "Challenges platforms",
+      "CVE",
+      "Events",
+      "Information, News, Blog",
+      "Knowledge and tools",
+      "National security agencies and services",
+      "Non english",
+      "Trainings and courses",
+      "Tutorials",
+      "Writeups collections and challenges source"
+    ],
+    "CTF platforms": [
+      "Attack Defense",
+      "Hybrid",
+      "Jeopardy"
+    ],
+    "Operating Systems": [
+      "Maintained",
+      "No more maintained",
+      "Project transferred"
+    ]
+  }
+}

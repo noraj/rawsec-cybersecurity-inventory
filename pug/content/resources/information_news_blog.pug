@@ -1,5 +1,5 @@
 include ../../mixins/resources_non_english.pug
-table.table#resources-information
+table.table#resources-information-news-blog
     thead
         tr
             th Name
@@ -9,5 +9,5 @@ table.table#resources-information
             th Description
             th Price
     tbody
-        each resource in resources.information.resources
+        each resource in resources.information_news_blog.resources
             +resources_non_english(resource)

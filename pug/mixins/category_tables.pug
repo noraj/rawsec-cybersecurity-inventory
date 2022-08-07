@@ -1,0 +1,129 @@
+mixin category_tools(name)
+    - name_hyphen = name.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+    - name_underscore = name_hyphen.replace(/-/g, '_')
+
+    h3.title.is-3(id=`title-tools-${name_hyphen}`)= name
+    article
+        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        case name
+            when 'Adversary Simulation'
+                include ../content/tools/adversary_simulation.pug
+            when 'Binary Exploitation'
+                include ../content/tools/binary_exploitation.pug
+            when 'Bug Bounty'
+                include ../content/tools/bug_bounty.pug
+            when 'Cloud'
+                include ../content/tools/cloud.pug
+            when 'Code Analysis'
+                include ../content/tools/code_analysis.pug
+            when 'Collaboration and Report'
+                include ../content/tools/collaboration_and_report.pug
+            when 'Configuration Audit'
+                include ../content/tools/configuration_audit.pug
+            when 'Cracking'
+                include ../content/tools/cracking.pug
+            when 'Crisis Management'
+                include ../content/tools/crisis_management.pug
+            when 'Cryptography'
+                include ../content/tools/cryptography.pug
+            when 'Defensive'
+                include ../content/tools/defensive.pug
+            when 'Digital Forensics'
+                include ../content/tools/digital_forensics.pug
+            when 'Hardware'
+                include ../content/tools/hardware.pug
+            when 'Honeypot and Decoy'
+                include ../content/tools/honeypot_and_decoy.pug
+            when 'Incident Response'
+                include ../content/tools/incident_response.pug
+            when 'Intentionally Vulnerable Applications'
+                include ../content/tools/intentionally_vulnerable_applications.pug
+            when 'Networking'
+                include ../content/tools/networking.pug
+            when 'OSINT and Reconnaissance'
+                include ../content/tools/osint_and_reconnaissance.pug
+            when 'Other'
+                include ../content/tools/other.pug
+            when 'Plugins'
+                include ../content/tools/plugins.pug
+            when 'Red Teaming'
+                include ../content/tools/red_teaming.pug
+            when 'Reverse Engineering'
+                include ../content/tools/reverse_engineering.pug
+            when 'Steganography'
+                include ../content/tools/steganography.pug
+            when 'System Exploitation'
+                include ../content/tools/system_exploitation.pug
+            when 'Threat Intelligence'
+                include ../content/tools/threat_intelligence.pug
+            when 'Vulnerability Assessment'
+                include ../content/tools/vulnerability_assessment.pug
+            when 'Web Application Exploitation'
+                include ../content/tools/web_application_exploitation.pug
+            when 'Wireless'
+                include ../content/tools/wireless.pug
+        script(src=`js/tablefilter/tools/${name_underscore}.js`)
+
+mixin category_resources(name)
+    - name_hyphen = name.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+    - name_underscore = name_hyphen.replace(/-/g, '_')
+
+    h3.title.is-3(id=`title-resources-${name_hyphen}`)= name
+    article
+        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        case name
+            when 'Bug bounty, pentest and disclosure platforms'
+                include ../content/resources/bug_bounty_pentest_and_disclosure_platforms.pug
+            when 'Challenges platforms'
+                include ../content/resources/challenges_platforms.pug
+            when 'CVE'
+                include ../content/resources/cve.pug
+            when 'Events'
+                include ../content/resources/events.pug
+            when 'Information, News, Blog'
+                include ../content/resources/information_news_blog.pug
+            when 'Knowledge and tools'
+                include ../content/resources/knowledge_and_tools.pug
+            when 'National security agencies and services'
+                include ../content/resources/national_security_agencies_and_services.pug
+            when 'Non english'
+                include ../content/resources/non_english.pug
+            when 'Trainings and courses'
+                include ../content/resources/trainings_and_courses.pug
+            when 'Tutorials'
+                include ../content/resources/tutorials.pug
+            when 'Writeups collections and challenges source'
+                include ../content/resources/writeups_collections_and_challenges_source.pug
+        script(src=`js/tablefilter/resources/${name_underscore}.js`)
+
+mixin category_ctf_platforms(name)
+    - name_hyphen = name.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+    - name_underscore = name_hyphen.replace(/-/g, '_')
+
+    h3.title.is-3(id=`title-ctf-platforms-${name_hyphen}`)= name
+    article
+        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        case name
+            when 'Attack Defense'
+                include ../content/ctf_platforms/attack_defense.pug
+            when 'Hybrid'
+                include ../content/ctf_platforms/hybrid.pug
+            when 'Jeopardy'
+                include ../content/ctf_platforms/jeopardy.pug
+        script(src=`js/tablefilter/ctf_platforms/${name_underscore}.js`)
+
+mixin category_operating_systems(name)
+    - name_hyphen = name.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+    - name_underscore = name_hyphen.replace(/-/g, '_')
+
+    h3.title.is-3(id=`title-operating-systems-${name_hyphen}`)= name
+    article
+        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        case name
+            when 'Maintained'
+                include ../content/operating_systems/maintained.pug
+            when 'No more maintained'
+                include ../content/operating_systems/no_more_maintained.pug
+            when 'Project transferred'
+                include ../content/operating_systems/project_transferred.pug
+        script(src=`js/tablefilter/operating_systems/${name_underscore}.js`)

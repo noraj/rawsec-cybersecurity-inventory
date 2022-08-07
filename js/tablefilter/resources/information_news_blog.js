@@ -2,24 +2,22 @@ var filtersConfig = Object.assign({}, baseConfig);
 jQuery.extend(filtersConfig, {
     // Filter types
     col_0: 'input',
-    col_1: 'none',
+    col_1: 'select',
     col_2: 'none',
-    col_3: 'input',
-    col_4: 'select',
+    col_3: 'none',
+    col_4: 'input',
     col_5: 'select',
-    col_6: 'select',
     // columns data types
     col_types: [
         'caseinsensitivestring',
+        'string',
         'none',
         'none',
-        'string',
-        'string',
         'string',
         'string',
     ],
     enable_empty_option: true,
     enable_non_empty_option: true,
 });
-var tf = new TableFilter(document.querySelector('#tools-collaboration-report'), filtersConfig);
+var tf = new TableFilter(document.querySelector('#resources-information-news-blog'), filtersConfig);
 tf.init();

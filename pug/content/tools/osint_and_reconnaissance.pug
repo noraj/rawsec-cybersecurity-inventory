@@ -1,5 +1,5 @@
 include ../../mixins/tool.pug
-table.table#tools-osint
+table.table#tools-osint-and-reconnaissance
     thead
         tr
             th Name
@@ -10,5 +10,5 @@ table.table#tools-osint
             th Price
             th Online
     tbody
-        each tool in tools.osint.tools
+        each tool in tools.osint_and_reconnaissance.tools
             +tool(tool)
