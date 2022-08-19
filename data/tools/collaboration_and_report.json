@@ -150,7 +150,7 @@
     },
     {
       "name": "NightWriter",
-      "website": "https://github.com/Titanexx/NightWriter",
+      "source": "https://github.com/Titanexx/NightWriter",
       "description": "Modern real-time collaborative editing tool secured by end-to-end encryption",
       "language": "Go",
       "price": "Free",
