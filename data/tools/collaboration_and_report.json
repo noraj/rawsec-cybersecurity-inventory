@@ -102,8 +102,7 @@
     },
     {
       "name": "hackOx",
-      "website": "https://hackox.net/",
-      "source": "https://github.com/deantonious/hackox",
+      "source": "https://github.com/deantonious/hackox_old",
       "description": "Modular web based pentesting interface designed to run on Raspberry Pi",
       "language": "PHP",
       "price": "Free",
