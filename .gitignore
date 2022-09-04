@@ -18,6 +18,8 @@ docusaurus/build/
 docusaurus/translated_docs
 docusaurus/yarn.lock
 docusaurus/i18n/*
+.docusaurus
+.cache-loader
 
 # Dependency directories
 node_modules/

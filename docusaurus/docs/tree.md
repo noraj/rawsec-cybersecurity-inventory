@@ -2,15 +2,13 @@
 id: tree
 title: Directory structure
 ---
-
 ```plaintext
 ├── build/ # The build output reside inside here
 ├── CONTRIBUTORS.txt
 ├── COPYRIGHT
 ├── data/ # JSON files where tools and resources are stored
-├── docs # Documentation source files
-├── docusaurus # Documentation project
-├── gulpfile.js # Building script
+├── docusaurus # Documentation project and source files
+├── gulpfile.mjs # Building script
 ├── img/ # Badges and logos are here
 ├── js/
 │   ├── auto-font-mfizz.js # Add mini logo for OS and languages
@@ -21,7 +19,6 @@ title: Directory structure
 │   └── static-json-api.js # Build the static JSON API
 ├── node_modules/ # Installed dependencies
 ├── package.json
-├── package-lock.json
 ├── pug/ # Contains the root pages
 │   ├── content/ Template for each category of tools or resources
 │   ├── layout/
@@ -31,5 +28,6 @@ title: Directory structure
 ├── README.md
 ├── sass
 │   └── bulma.sass # Where the style is defined
-└── temp # Temporary folder for building the static JSON API
+├── temp # Temporary folder for building the static JSON API
+└── yarn.lock
 ```

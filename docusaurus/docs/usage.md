@@ -6,10 +6,10 @@ title: User guide
 
 There are 4 main categories:
 
-- Tools
-- Resources
-- CTF platforms
-- Operating Systems
+-   Tools
+-   Resources
+-   CTF platforms
+-   Operating Systems
 
 Each one has a dedicated page and sub-categories.
 

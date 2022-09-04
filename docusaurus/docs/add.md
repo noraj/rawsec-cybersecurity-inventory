@@ -208,7 +208,7 @@ Push your changes using the command `git push`:
 git push origin <branch-name>
 ```
 
-replacing <branch-name> with the name of the branch you created earlier.
+replacing `<branch-name>` with the name of the branch you created earlier.
 
 #### Submit your changes for review
 

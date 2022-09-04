@@ -8,7 +8,10 @@
     "pug-lint": "2.6.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-only": "gulp build",
+    "build": "gulp",
+    "server": "gulp server",
+    "build-pug": "gulp pug"
   },
   "repository": {
     "type": "git",

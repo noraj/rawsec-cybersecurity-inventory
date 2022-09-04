@@ -1,6 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:14
+image: node:16
 
 stages:
   - test
@@ -9,9 +9,9 @@ stages:
 test:inventory:
   stage: test
   script:
-    - npm install gulp-cli -g
-    - npm install
-    - gulp
+    - yarn global add gulp-cli
+    - yarn install
+    - yarn run build
   only:
     - merge_requests
   except:
@@ -21,8 +21,8 @@ test:doc:
   stage: test
   script:
     - cd docusaurus
-    - npm install
-    - npm run build
+    - yarn install
+    - yarn run build
   only:
     - merge_requests
   except:
@@ -31,15 +31,16 @@ test:doc:
 pages:
   stage: deploy
   script:
-    - npm install gulp-cli netlify-cli -g --unsafe-perm=true
-    - npm install # inventory dependencies
-    - gulp # build the inventory
-    - mkdir public
+    - yarn config set unsafe-perm true
+    - yarn global add gulp-cli netlify-cli
+    - yarn install # inventory dependencies
+    - yarn run build # build the inventory
+    - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
     - cd docusaurus
-    - npm install # documentation dependencies
-    - npm run build # build the documentation
-    - cp -rT build/ ../public # copying the documentation
+    - yarn install # documentation dependencies
+    - yarn run build # build the documentation
+    - cp -rT build/ ../public/docs # copying the documentation
     - cd ..
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
   artifacts:
