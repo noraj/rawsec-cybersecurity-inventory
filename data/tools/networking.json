@@ -17,6 +17,16 @@
       "online": "False"
     },
     {
+      "name": "ADenum",
+      "source": "https://github.com/SecuProject/ADenum",
+      "description": "Find misconfiguration through the LDAP protocol and exploit some weaknesses with kerberos",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "active directory, windows",
+      "blackarch": "adenum"
+    },
+    {
       "name": "adfsbrute",
       "source": "https://github.com/ricardojoserf/adfsbrute",
       "description": "Test credentials against Active Directory Federation Services (ADFS), allowing password spraying or bruteforce attacks",
