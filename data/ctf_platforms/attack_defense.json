@@ -46,6 +46,13 @@
       "price": "Free"
     },
     {
+      "name": "Parrot CTFs",
+      "source": "https://github.com/Parrot-CTFs",
+      "description": "Attack-defence CTF framework",
+      "language": "PHP",
+      "price": "Free"
+    },
+    {
       "name": "jury-attack-defense",
       "source": "https://github.com/hackforces/jury-attack-defense",
       "description": "Attack-defence CTF framework",
