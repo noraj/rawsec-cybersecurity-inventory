@@ -13,7 +13,7 @@
       "name": "AttackForge.com",
       "website": "https://attackforge.com/",
       "description": "Penetration test collaboration platform: vulnerability database and reporting",
-      "price": "Free",
+      "price": "Paid",
       "online": "True"
     },
     {
@@ -65,10 +65,18 @@
       "online": "False"
     },
     {
-      "name": "Dradis",
-      "website": "https://dradisframework.com/",
+      "name": "Dradis CE",
+      "website": "http://drad.is/",
       "source": "https://github.com/dradis/dradis-ce",
-      "description": "Collaborative penetration test, vulnerability database and reporting platform",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform; Community edition",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Dradis Pro",
+      "website": "https://dradisframework.com/",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform; Pro edition",
       "language": "Ruby",
       "price": "Paid",
       "online": "False"
