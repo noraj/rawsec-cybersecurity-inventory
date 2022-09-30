@@ -120,6 +120,14 @@
       "keywords": "leak"
     },
     {
+      "name": "fuzzdb",
+      "website": "https://github.com/fuzzdb-project/fuzzdb",
+      "description": "Open dictionary of fault injection patterns, predictable resource locations, and regex for matching server responses",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "getsploit",
       "source": "https://github.com/vulnersCom/getsploit",
       "description": "CLI utility for searching and downloading exploits from Exploit-DB, Metasploit, Packetstorm and others",

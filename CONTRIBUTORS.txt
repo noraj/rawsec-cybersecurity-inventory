@@ -14,3 +14,4 @@ Content and improvements:
     Maraudery (@maraudery)
     Neeraj Babu (@SAAneeraj)
     Félix HERRENSCHMIDT (@Felix83000)
+    Jamie Sandberg (@jlsandberg)
