@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 
@@ -28,10 +29,10 @@ const MyPage = () => {
           <div>
             <ThemeProvider theme={theme}>
             <Stack spacing={2} direction="row" justifyContent="center" alignItems="center">
-              <Button variant="outlined">Usage</Button>
-              <Button variant="contained">Contribution</Button>
-              <Button variant="outlined">Development</Button>
-              <Button variant="outlined">API</Button>
+              <Button component={Link} to="usage" variant="outlined">Usage</Button>
+              <Button component={Link} to="add" variant="contained">Contribution</Button>
+              <Button component={Link} to="install" variant="outlined">Development</Button>
+              <Button component={Link} to="api" variant="outlined">API</Button>
             </Stack>
             </ThemeProvider>
           </div>
