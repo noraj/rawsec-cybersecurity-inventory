@@ -83,6 +83,13 @@
       "price": "Free"
     },
     {
+      "name": "fuzzdb",
+      "website": "https://github.com/fuzzdb-project/fuzzdb",
+      "description": "Dictionaries of fault injection patterns, predictable resource locations, and regex for matching server responses",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GHDB",
       "website": "https://www.exploit-db.com/google-hacking-database",
       "description": "Google Hacking Database; Collection of google dorks",
