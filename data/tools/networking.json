@@ -550,7 +550,8 @@
       "description": "Partial python implementation of SharpGPOAbuse; modify an existing GPO by creating an immediate scheduled task as SYSTEM on the remote computer for computer GPO or logged in user for user GPO",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "active directory, windows"
     },
     {
       "name": "pywerview",
