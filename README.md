@@ -57,6 +57,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![jlsandberg](https://img.shields.io/badge/jlsandberg-Contributor-FF5050.svg)](https://gitlab.com/jlsandberg)
 [![cr_ft](https://img.shields.io/badge/cr__ft-Contributor-FF5050.svg)](https://gitlab.com/cr_ft)
 [![raghav-rama](https://img.shields.io/badge/raghav--rama-Contributor-FF5050)](https://gitlab.com/raghav-rama)
+[![tuxfobux](https://img.shields.io/badge/tuxfobux-Contributor-FF5050.svg)](https://gitlab.com/tuxfobux)
 
 [![](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=noraj/rawsec-cybersecurity-inventory)](https://github.com/noraj/rawsec-cybersecurity-inventory/graphs/contributors)
 
