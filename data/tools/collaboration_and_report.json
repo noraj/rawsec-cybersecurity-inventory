@@ -353,6 +353,13 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "ZinnoX Reporting Tool",
+      "website": "https://zinnox.com/",
+      "description": "ZRT; project management, vulnerability management and pentest report creation application",
+      "price": "Paid",
+      "online": "False"
     }
   ]
 }
