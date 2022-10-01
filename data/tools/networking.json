@@ -51,6 +51,15 @@
       "online": "False"
     },
     {
+      "name": "arp-scan",
+      "source": "https://github.com/royhills/arp-scan",
+      "description": "Discover hosts on your network using ARP requests",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "arp-scan"
+    },
+    {
       "name": "ASNmap",
       "source": "https://github.com/projectdiscovery/asnmap",
       "description": "CLI and Library for quickly mapping organization network ranges using ASN information",
