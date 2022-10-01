@@ -105,6 +105,16 @@
       "online": "False"
     },
     {
+      "name": "Tfsec",
+      "website": "https://aquasecurity.github.io/tfsec/",
+      "source": "https://github.com/aquasecurity/tfsec",
+      "description": "Misconfiguration scanner for terraform code",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "Trivy",
       "website": "https://aquasecurity.github.io/trivy/",
       "source": "https://github.com/aquasecurity/trivy",
