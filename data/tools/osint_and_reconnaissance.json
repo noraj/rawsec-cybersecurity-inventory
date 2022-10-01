@@ -717,6 +717,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "twint"
+    },
+    {
+      "name": "waymore",
+      "source": "https://github.com/xnl-h4ck3r/waymore",
+      "description": "Find links from Wayback Machine, Common Crawl, Alien Vault OTX and URLScan; download the archived responses for URLs on Wayback Machine",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
