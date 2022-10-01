@@ -529,6 +529,14 @@
       "blackarch": "pwncat-caleb"
     },
     {
+      "name": "pyGPOAbuse",
+      "source": "https://github.com/Hackndo/pyGPOAbuse",
+      "description": "Partial python implementation of SharpGPOAbuse; modify an existing GPO by creating an immediate scheduled task as SYSTEM on the remote computer for computer GPO or logged in user for user GPO",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pywerview",
       "source": "https://github.com/the-useless-one/pywerview",
       "description": "A partial Python rewriting of PowerSploit's PowerView",
