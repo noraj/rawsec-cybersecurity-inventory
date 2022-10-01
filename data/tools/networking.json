@@ -51,6 +51,14 @@
       "online": "False"
     },
     {
+      "name": "ASNmap",
+      "source": "https://github.com/projectdiscovery/asnmap",
+      "description": "CLI and Library for quickly mapping organization network ranges using ASN information",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bettercap",
       "website": "http://www.bettercap.org/",
       "source": "https://github.com/bettercap/bettercap",
