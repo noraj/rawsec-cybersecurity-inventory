@@ -302,6 +302,13 @@
       "online": "False"
     },
     {
+      "name": "linWinPwn",
+      "source": "https://github.com/lefayjey/linWinPwn",
+      "description": "Script that automates a number of Active Directory enumeration and vulnerability checks",
+      "language": "Python",
+      "price": "Free"
+    },
+    {
       "name": "lsassy",
       "source": "https://github.com/Hackndo/lsassy",
       "description": "CLI tool and library to extract credentials from lsass remotely",
