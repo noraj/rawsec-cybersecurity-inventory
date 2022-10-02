@@ -143,6 +143,14 @@
       "keywords": "wordlist"
     },
     {
+      "name": "GAU",
+      "source": "https://github.com/lc/gau",
+      "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan for any given domain",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
       "description": "Management frontend for hash cracking tools, supporting hashcat",
@@ -365,6 +373,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "wordlistctl"
-    }
+    },
+    {
+      "name": "wordlistgen",
+      "source": "https://github.com/ameenmaali/wordlistgen",
+      "description": "Generate context-specific wordlists for content discovery from lists of URLs or paths",
+      "language": "Go",
+      "price": "Free",
+      "online":"False"
+    }    
   ]
 }
