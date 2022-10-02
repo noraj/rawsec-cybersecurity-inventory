@@ -178,6 +178,15 @@
       "keywords": "api, leak"
     },
     {
+      "name": "HiddenWall",
+      "source": "https://github.com/CoolerVoid/HiddenWall",
+      "description": "Linux kernel module generator for custom rules with netfilter",
+      "language": "C",
+      "price": "Free",
+      "online":"False",
+      "keywords":"firewall"
+    },
+    {
       "name": "hideNsneak",
       "source": "https://github.com/rmikehodges/hideNsneak",
       "description": "CLI tool for ephemeral penetration testing, rapidly deploy and manage various cloud services",
