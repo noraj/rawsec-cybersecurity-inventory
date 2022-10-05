@@ -1,10 +1,42 @@
 {
   "tools": [
     {
+      "name": "Codechella Crisis Response",
+      "source": "https://github.com/GobindB/crisis-aversion-codechella",
+      "description": "An application curated to crisis zones to facilitate the dissemination of accurate mission-critical information from sources on the ground to key partners with minimal lag time",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Enki",
       "source": "https://github.com/entrepreneur-interet-general/enki",
       "description": "Crisis management platform",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "NTU Crysis",
+      "source": "https://github.com/Temzasse/ntu-crysis",
+      "description": "Crisis management web application / project for software systems analysis and design",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OpenEx",
+      "source": "https://github.com/OpenEx-Platform/openex",
+      "description": "Platform allowing organizations to plan, schedule and conduct crisis exercises",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "OASIS EMF",
+      "website": "https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=emergency",
+      "source": "https://github.com/oasis-open/emergency-emf",
+      "description": "A reference implementation and toolkit for enabling standardized emergency information exchange using the OASIS Emergency Data Exchange Language (EDXL)",
       "price": "Free",
       "online": "False"
     }
