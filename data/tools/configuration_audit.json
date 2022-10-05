@@ -19,6 +19,14 @@
       "blackarch": "lynis"
     },
     {
+      "name": "Master librarian",
+      "source": "https://github.com/CoolerVoid/master_librarian",
+      "description": "Audit Unix/*BSD/Linux system libraries to find public security vulnerabilities",
+      "language": "Python",
+      "price": "Free",
+      "online":"False"
+    },
+    {
       "name": "Nipper Studio",
       "website": "https://www.titania.com/nipper-studio",
       "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",

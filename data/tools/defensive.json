@@ -33,6 +33,16 @@
       "online": "False"
     },
     {
+      "name": "Pandora",
+      "website": "https://pandora.circl.lu/",
+      "source": "https://github.com/pandora-analysis/pandora",
+      "description": "Analysis framework that discovers if a file is suspicious and conveniently show the results",
+      "language": "Python",
+      "price": "Free",
+      "online":"True",
+      "keyword": "antivirus, scan, antimalware, detection"
+    },
+    {
       "name": "Santa",
       "source": "https://github.com/google/santa",
       "description": "Binary authorization system for macOS",
