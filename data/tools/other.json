@@ -227,6 +227,16 @@
       "keywords": "api, leak"
     },
     {
+      "name": "Lookyloo",
+      "website": "https://www.lookyloo.eu",
+      "source": "https://github.com/Lookyloo/lookyloo",
+      "description": "A web interface that allows you to capture a website page and display a tree of domains",
+      "language": "Python",
+      "price": "Free",
+      "online": "True",
+      "keywords": "REST API"
+    },
+    {
       "name": "Metasploit",
       "website": "https://www.metasploit.com/",
       "source": "https://github.com/rapid7/metasploit-framework",

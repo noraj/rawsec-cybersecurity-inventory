@@ -287,6 +287,14 @@
       "keywords": "password"
     },
     {
+      "name": "PACK",
+      "source": "https://github.com/iphelix/pack",
+      "description": "A collection of utilities developed to aid in analysis of password lists in order to enhance password cracking through pattern detection of masks, rules, character-sets and other password characteristics",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pnwgen",
       "source": "https://github.com/toxydose/pnwgen",
       "description": "Phone number wordlist generator",
@@ -381,6 +389,6 @@
       "language": "Go",
       "price": "Free",
       "online":"False"
-    }    
+    }
   ]
 }
