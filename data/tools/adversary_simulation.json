@@ -1,6 +1,41 @@
 {
   "tools": [
     {
+      "name": "Adversary Emulation Library",
+      "source": "https://github.com/center-for-threat-informed-defense/adversary_emulation_library",
+      "description": "A library of adversary emulation plans to allow organizations to evaluate their defensive capabilities against the real-world threats they face",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI, simulation"
+    },
+    {
+      "name": "Atomic Red Team",
+      "source": "https://github.com/redcanaryco/atomic-red-team",
+      "description": "A library of tests mapped to the MITRE ATT&CK® framework used to quickly, portably, and reproducibly test their environments",
+      "language": "Powershell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI"
+    },
+    {
+      "name": "Caldera",
+      "source": "https://github.com/mitre/caldera",
+      "description": "Cyber security platform designed to easily automate adversary emulation, assist manual red-teams, and automate incident response",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "docker, simulation"
+    },{
+      "name": "Invoke-Apex",
+      "source": "https://github.com/secmode/Invoke-Apex",
+      "description": "PowerShell-based toolkit consisting of a collection of techniques and tradecraft for use in red team, post-exploitation, adversary simulation, or other offensive security tasks",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI, simulation"
+    },
+    {
       "name": "Manticore",
       "source": "https://github.com/Manticore-Platform/manticore-cli",
       "description": "Adversary emulation command line tool is parsing complex scenarios from Manticore public-threats repository and run these scenarios",
@@ -8,6 +43,33 @@
       "price": "Free",
       "online": "False",
       "keywords": "CLI, simulation"
+    },
+    {
+      "name": "MITRE ATT&CK Defender",
+      "source": "https://github.com/maddev-engenuity/AdversaryEmulation",
+      "description": "ATT&CK training and certification program produced by MITRE’s own ATT&CK subject matter experts",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI"
+    },
+    {
+      "name": "Sliver",
+      "source": "https://github.com/BishopFox/sliver",
+      "description": "Open source cross-platform adversary emulation/red team framework used by organizations of all sizes to perform security testing",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI, docker, simulation"
+    },
+    {
+      "name": "Stratus Red Team",
+      "source": "https://github.com/DataDog/stratus-red-team",
+      "description": "Stratus Red Team is 'Atomic Red Team' for the cloud, allowing to emulate offensive attack techniques in a granular and self-contained manner",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI, docker, simulation"
     }
   ]
 }
