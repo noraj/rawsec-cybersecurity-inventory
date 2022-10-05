@@ -36,6 +36,15 @@
       "keywords": "SAST"
     },
     {
+      "name": "CodeCat",
+      "source": "https://github.com/CoolerVoid/codecat",
+      "description": "Automatic code static analysis tool to detect bugs and vulnerabilities",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "CodeQL",
       "website": "https://codeql.github.com/",
       "source": "https://github.com/github/codeql",
