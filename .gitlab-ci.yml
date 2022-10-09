@@ -32,7 +32,7 @@ test:data:
   stage: test
   script:
     # won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
-    # - yarn install
+    - yarn install
     # - yarn run test
     - yarn global add jest-cli
     - jest
