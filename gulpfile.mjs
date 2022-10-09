@@ -10,6 +10,9 @@ const sass = gulpSass(dartSass);
 import gulpConnect from 'gulp-connect';
 import gulpReplace from 'gulp-replace';
 
+// Doesn't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
+// import { jest as gulpJest } from 'gulp-jest';
+
 import { exec } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -33,6 +36,8 @@ task('default', series('clean', 'build'));
 task('default').description = 'clean + build';
 task('pug', series(pug_data, pug_src));
 task('pug').description = 'Only build content and templates without assets, the API and JS dependencies';
+task('test', series(test_data));
+task('test').description = 'Run test validating the JSON data';
 
 function clean() {
     // You can use multiple globbing patterns as you would with `gulp.src`
@@ -168,4 +173,14 @@ function webserver() {
         root: 'build',
         port: 3000
   });
+};
+
+function test_data() {
+    return src('make-scripts/json-validations')
+        .pipe(gulpJest({
+            "preprocessorIgnorePatterns": [
+                "<rootDir>/dist/", "<rootDir>/node_modules/"
+            ],
+        "automock": false
+        }));
 };
