@@ -322,6 +322,15 @@
       "blackarch": "pydictor"
     },
     {
+      "name": "RubyHashcat",
+      "website": "https://www.praetorian.com/blog/how-to-build-hashcat-api-in-ruby-to-crack-passwords-in-the-aws-cloud/",
+      "source": "https://github.com/praetorian-inc/ruby_hashcat",
+      "description": "Command line wrapper, library, and REST API for oclHashcat",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "rulesfinder",
       "source": "https://github.com/synacktiv/rulesfinder",
       "description": "Machine-learn password mangling rules; finds efficient password mangling rules (for John the Ripper or Hashcat) for a given dictionary and a list of passwords",
