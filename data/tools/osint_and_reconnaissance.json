@@ -219,7 +219,7 @@
       "name": "GoSeek",
       "source": "https://github.com/audioo/goseek",
       "description": "Username lookup comparable to Maigret/Sherlock, IP Lookup, License Plate & VIN Lookup, Info Cull, and Fake Identity Generator",
-      "programming_language": "Go",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     },

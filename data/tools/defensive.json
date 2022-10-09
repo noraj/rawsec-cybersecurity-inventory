@@ -40,7 +40,7 @@
       "language": "Python",
       "price": "Free",
       "online":"True",
-      "keyword": "antivirus, scan, antimalware, detection"
+      "keywords": "antivirus, scan, antimalware, detection"
     },
     {
       "name": "Santa",
