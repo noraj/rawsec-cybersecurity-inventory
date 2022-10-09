@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "Local PHP Security Checker",
+      "source": "https://github.com/fabpot/local-php-security-checker",
+      "description": "CLI tool that checks if your PHP application depends on PHP packages with known security vulnerabilities",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Lynis",
       "website": "https://cisofy.com/lynis/",
       "source": "https://github.com/CISOfy/Lynis",

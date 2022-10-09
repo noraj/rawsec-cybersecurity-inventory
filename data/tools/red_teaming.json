@@ -25,6 +25,14 @@
       "online": "False"
     },
     {
+      "name": "Freeze",
+      "source": "https://github.com/optiv/Freeze",
+      "description": "Payload creation tool used for circumventing EDR security controls to execute shellcode in a stealthy manner",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gophish",
       "website": "https://getgophish.com/",
       "source": "https://github.com/gophish/gophish",

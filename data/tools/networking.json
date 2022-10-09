@@ -350,6 +350,15 @@
       "online": "False"
     },
     {
+      "name": "naabu",
+      "website": "https://projectdiscovery.io",
+      "source": "https://github.com/projectdiscovery/naabu",
+      "description": "Port scanner with a focus on reliability and simplicity",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ncat",
       "website": "https://nmap.org/ncat/",
       "source": "https://github.com/nmap/nmap/tree/master/ncat",
