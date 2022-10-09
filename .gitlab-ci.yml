@@ -33,6 +33,10 @@ test:data:
   script:
     - yarn add jest-cli
     - Jest
+  only:
+    - merge_requests
+  except:
+    - master
 
 pages:
   stage: deploy
