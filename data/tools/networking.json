@@ -306,7 +306,8 @@
       "source": "https://github.com/lefayjey/linWinPwn",
       "description": "Script that automates a number of Active Directory enumeration and vulnerability checks",
       "language": "Python",
-      "price": "Free"
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "lsassy",
