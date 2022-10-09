@@ -4,10 +4,11 @@ const fs = require("fs");
 const addFormats = require("ajv-formats")
 
 include = [
-  "bug_bounty_pentest_and_disclosure_platforms.json",
-  "challenges_platforms.json",
-  "cve.json",
-  "events.json"
+  "binary_exploitation.json",
+  "bug_bounty.json",
+  "code_analysis.json",
+  "adversary_simulation.json",
+  "cloud.json"
 ]
 const ajv = new Ajv({allErrors: true})
 addFormats(ajv)
@@ -15,7 +16,7 @@ addFormats(ajv)
 const custom1 = {
   type: "object",
   properties: {
-    resources: {
+    tools: {
       type: "array",
       items: {
         type: "object",
@@ -39,20 +40,29 @@ const custom1 = {
           },
           keywords: {
             type: "string"
+          },
+          language: {
+            type: "string"
+          },
+          online: {
+            enum: ["True", "False"]
+          },
+          blackarch: {
+            type: "string"
           }
         },
-        required: ["name", "website", "description", "price"],
+        required: ["name", "description", "price", "online"],
         additionalProperties: false
       },
       minItems: 1
     }
   },
-  required: ["resources"]
+  required: ["tools"]
 }
 
 const validate = ajv.compile(custom1)
 
-const destFolder = path.join(__dirname, "../../../data/resources")
+const destFolder = path.join(__dirname, "../../../data/tools")
 async function validator(path) {
   const dir = await fs.promises.opendir(path)
   let errors = []

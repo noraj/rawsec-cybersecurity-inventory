@@ -37,6 +37,9 @@ const custom2 = {
           },
           language: {
             type: "string"
+          },
+          keywords:{
+            type: "string"
           }
         },
         required: ["name", "description", "price", "language"],
@@ -59,14 +62,16 @@ async function validator(path) {
       const file = await fs.readFileSync(path +  "/" + dirent.name)
         const targetJSON = JSON.parse(file.toString())
         let valid = validate(targetJSON)
-        if (!valid) {
-          errors.push(...validate.errors)
-        }
+      if (!valid) {
+        console.error("Error at " + dirent.name)
+        console.error(validate.errors)
+        errors.push(...validate.errors)
       }
     }
-  return errors
+  }
+      return errors
 }
-test("", () => {
-  return validator(destFolder).then(res => expect(res).toEqual([]))
-})
 
+test("", () => {
+  return validator(destFolder).then(res => expect(res.length).toEqual(0))
+})
