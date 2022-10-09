@@ -1,6 +1,13 @@
 {
   "tools": [
     {
+      "name": "CIS CAT Lite",
+      "website": "https://learn.cisecurity.org/cis-cat-lite",
+      "description": "Tool to test Windows security configuration",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Iniscan",
       "source": "https://github.com/psecio/iniscan",
       "description": "php.ini scanner for security best practices",
