@@ -9,7 +9,7 @@ include = [
 const ajv = new Ajv({allErrors: true})
 addFormats(ajv)
 
-const custom2 = {
+const custom4 = {
   type: "object",
   properties: {
     resources: {
@@ -29,6 +29,9 @@ const custom2 = {
           },
           country: {
             type: "string"
+          },
+          keywords:{
+            type: "string"
           }
         },
         required: ["name", "description", "website"],
@@ -40,7 +43,7 @@ const custom2 = {
   required: ["resources"]
 }
 
-const validate = ajv.compile(custom2)
+const validate = ajv.compile(custom4)
 
 const destFolder = path.join(__dirname, "../../../data/resources")
 async function validator(path) {
@@ -52,13 +55,16 @@ async function validator(path) {
         const targetJSON = JSON.parse(file.toString())
         let valid = validate(targetJSON)
         if (!valid) {
+          console.error("Error at " + dirent.name)
+          console.error(validate.errors)
           errors.push(...validate.errors)
         }
       }
     }
   return errors
 }
+
 test("", () => {
-  return validator(destFolder).then(res => expect(res).toEqual([]))
+  return validator(destFolder).then(res => expect(res.length).toEqual(0))
 })
 
