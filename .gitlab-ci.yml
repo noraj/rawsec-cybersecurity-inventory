@@ -28,6 +28,12 @@ test:doc:
   except:
     - master
 
+test:data:
+  stage: test
+  script:
+    - yarn add jest-cli
+    - Jest
+
 pages:
   stage: deploy
   script:
