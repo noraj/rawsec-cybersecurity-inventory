@@ -4,6 +4,10 @@ const fs = require("fs");
 const addFormats = require("ajv-formats")
 
 include = [
+  "writeups_collections_and_challenges_source.json",
+  "tutorials.json",
+  "trainings_and_courses.json",
+  "knowledge_and_tools.json",
   "bug_bounty_pentest_and_disclosure_platforms.json",
   "challenges_platforms.json",
   "cve.json",
@@ -12,7 +16,7 @@ include = [
 const ajv = new Ajv({allErrors: true})
 addFormats(ajv)
 
-const custom1 = {
+const custom3 = {
   type: "object",
   properties: {
     resources: {
@@ -37,11 +41,19 @@ const custom1 = {
           price: {
             enum: ["Free", "Paid"]
           },
-          keywords: {
+          keywords:{
             type: "string"
           }
         },
-        required: ["name", "website", "description", "price"],
+        required: ["name", "description", "price"],
+        anyOf: [
+          {
+            required: ["website"],
+          },
+          {
+            required: ["source"],
+          },
+        ],
         additionalProperties: false
       },
       minItems: 1
@@ -50,7 +62,7 @@ const custom1 = {
   required: ["resources"]
 }
 
-const validate = ajv.compile(custom1)
+const validate = ajv.compile(custom3)
 
 const destFolder = path.join(__dirname, "../../../data/resources")
 async function validator(path) {
@@ -74,4 +86,3 @@ async function validator(path) {
 test("", () => {
   return validator(destFolder).then(res => expect(res.length).toEqual(0))
 })
-
