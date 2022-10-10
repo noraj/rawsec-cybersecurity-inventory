@@ -9,6 +9,15 @@
       "online": "False"
     },
     {
+      "name": "Adalanche",
+      "source": "https://github.com/lkarlslund/Adalanche",
+      "description": "Active Directory ACL visualizer and explorer; similar to BloodHound",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "windows"
+    },
+    {
       "name": "ad-ldap-enum",
       "source": "https://github.com/CroweCybersecurity/ad-ldap-enum",
       "description": "LDAP based Active Directory user and group enumeration tool",
