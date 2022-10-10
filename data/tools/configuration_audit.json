@@ -57,6 +57,16 @@
       "online": "False"
     },
     {
+      "name": "PingCastle",
+      "website": "https://www.pingcastle.com/",
+      "source": "https://github.com/vletoux/pingcastle",
+      "description": "Assess the Active Directory security level with a methodology based on risk assessment",
+      "language": "CSharp",
+      "price": "Paid",
+      "online": "False",
+      "keywords": "Windows"
+    },
+    {
       "name": "YASAT",
       "source": "https://github.com/montjoie/yasat",
       "description": "TYet Another Stupid Audit Tool; check general Linux system and common softwares configuration",
