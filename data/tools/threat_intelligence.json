@@ -48,6 +48,16 @@
       "online": "True"
     },
     {
+      "name": "ThreatIngestor",
+      "website": "https://inquest.readthedocs.io/projects/threatingestor/",
+      "source": "https://github.com/InQuest/ThreatIngestor",
+      "description": "Extract and aggregate threat intelligence (IOCs from threat feeds)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "MISP, twitter"
+    },
+    {
       "name": "Watcher",
       "website": "https://thalesgroup-cert.github.io/Watcher/",
       "source": "https://github.com/thalesgroup-cert/Watcher",
