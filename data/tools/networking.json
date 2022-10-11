@@ -185,6 +185,14 @@
       "blackarch": "crackmapexec"
     },
     {
+      "name": "DnsFookup",
+      "source": "https://github.com/makuga01/dnsFookup",
+      "description": "Create DNS request collector and inspector",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Evil-WinRM",
       "source": "https://github.com/Hackplayers/evil-winrm",
       "description": "Enhanced WinRM shell",
@@ -255,6 +263,14 @@
       "source": "https://github.com/m0nad/HellRaiser",
       "description": "Scan with nmap to correlate CPE's found with cve-search to enumerate vulnerabilities",
       "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "HTTPRebind",
+      "source": "https://github.com/daeken/httprebind",
+      "description": "Automatic DNS rebinding-based SSRF attacks",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
