@@ -58,6 +58,15 @@
       "keywords": "MISP, twitter"
     },
     {
+      "name": "ThreatKB",
+      "source": "https://github.com/InQuest/ThreatKB",
+      "description": "Knowledge base workflow management for YARA rules and C2 artifacts",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "IP, DNS, SSL"
+    },
+    {
       "name": "Watcher",
       "website": "https://thalesgroup-cert.github.io/Watcher/",
       "source": "https://github.com/thalesgroup-cert/Watcher",
