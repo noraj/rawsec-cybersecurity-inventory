@@ -195,6 +195,14 @@
       "online": "False"
     },
     {
+      "name": "Identity Leak Checker",
+      "website": "https://sec.hpi.de/ilc/",
+      "description": "Service to check if an account has been compromised in a data breach, send the breaches by email",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
       "name": "inlite",
       "website": "https://online-barcode-reader.inliteresearch.com/",
       "description": "Scan QR-code, 1D, DataMatrix, Postal, PDF417, and more",
