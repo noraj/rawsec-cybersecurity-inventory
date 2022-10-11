@@ -215,6 +215,14 @@
       "online": "False"
     },
     {
+      "name": "Shelltropy",
+      "source": "https://github.com/kleiton0x00/Shelltropy/",
+      "description": "A technique of hiding malicious shellcode via Shannon encoding",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
