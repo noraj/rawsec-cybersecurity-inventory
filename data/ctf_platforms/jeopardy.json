@@ -251,7 +251,7 @@
       "name": "Parrot CTFs",
       "website": "https://parrot-ctfs.com",
       "source": "https://github.com/Parrot-CTFs",
-      "description": "A Platform full of Realistic Cyber Security Experiences. Parrot CTFs is a online cybersecurity training platform, allowing individuals, companies, universities and all kinds of organizations around the world to level up their Cyber Security skills.",
+      "description": "Challenge platform with deployable machines",
       "language": "PHP",
       "price": "Free"
     },
