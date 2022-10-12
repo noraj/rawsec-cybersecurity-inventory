@@ -195,7 +195,7 @@
     {
       "name": "Ziion",
       "base": "Ubuntu",
-      "description": "blockchain security testing and development solution",
+      "description": "Blockchain security testing and development VM",
       "website": "https://www.ziion.org/"
     }
   ]
