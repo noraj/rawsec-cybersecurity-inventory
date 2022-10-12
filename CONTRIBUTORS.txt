@@ -20,4 +20,5 @@ Content and improvements:
 	tuxfobux (@tuxfobux)
     Hristiyan Ivanov (@hristiyan.ivanov)
     Karthikeyan (@arrow996)
+    João Pedro Dias (@jpdias)
 
