@@ -191,7 +191,7 @@
       "base": "Slackware",
       "description": "penetration testing and security lab",
       "website": "http://www.wifislax.com/"
-    }
+    },
     {
       "name": "Ziion",
       "base": "Ubuntu",
