@@ -37,7 +37,7 @@ The Inventory also has a channel at Rawsec Discord server alongside of channels 
 
 ## Contributions
 
-[How to contribute?](https://inventory.raw.pm/docs/docs/en/add.html)
+[How to contribute?](https://inventory.raw.pm/docs/add/)
 
 All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more advanced [Contributors Analytics](https://gitlab.com/rawsec/rawsec-cybersecurity-list/-/graphs/master) are also available.
 
@@ -51,6 +51,7 @@ All contributors are listed in [CONTRIBUTORS.txt](CONTRIBUTORS.txt), and more ad
 [![drakylar](https://img.shields.io/badge/ShaposhnikovIlya-Contributor-FF5050.svg)](https://gitlab.com/drakylar)
 [![wuhan005](https://img.shields.io/badge/E99p1ant-Contributor-FF5050.svg)](https://gitlab.com/wuhan005)
 [![jenaye](https://img.shields.io/badge/jenaye-Contributor-FF5050.svg)](https://gitlab.com/jenaye)
+[![joaopdias](https://img.shields.io/badge/joaopdias-Contributor-FF5050.svg)](https://gitlab.com/joaopdias)
 [![maraudery](https://img.shields.io/badge/maraudery-Contributor-FF5050.svg)](https://gitlab.com/maraudery)
 [![neeraj](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/neerajbabu27)
 [![Felix83000](https://img.shields.io/badge/neeraj-Contributor-FF5050.svg)](https://gitlab.com/Felix83000)

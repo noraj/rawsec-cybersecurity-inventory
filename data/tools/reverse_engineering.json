@@ -196,6 +196,15 @@
       "online": "False"
     },
     {
+      "name": "EMBA",
+      "website": "https://github.com/e-m-b-a/emba/wiki",
+      "source": "https://github.com/e-m-b-a/emba",
+      "description": "Security analyzer for firmware of embedded devices",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Flare",
       "website": "http://www.nowrap.de/flare.html",
       "description": "Processes SWF and extract scripts from it",
