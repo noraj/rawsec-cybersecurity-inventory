@@ -5,7 +5,6 @@ title: Adding a tool/resource
 ## Adding/changing content
 
 - To add a tool/resource or modify/update some content: Submit a merge request (MR)
-- Description should be clear, concise, and non-promotional
 - Respect the [format conventions](format.md)
 - Write in English only
 - Fill the maximum you know about an item but prefer to let a field blank if you don't know
