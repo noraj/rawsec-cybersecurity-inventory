@@ -13,6 +13,8 @@ title: Format conventions
 - Description begins with an uppercase letter and doesn't end with a dot (`.`)
 - Description should not contain the word `tool` if the item is a tool as it is already implicit per the meta-category named `Tools`
 - Description should be clear, concise, and non-promotional
+- Description should not contain the language since it is already in the `language` field
+- The `keywords` field should not contain words that are already in the description
 
 ## Development
 
