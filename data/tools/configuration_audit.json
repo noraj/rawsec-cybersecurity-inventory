@@ -3,9 +3,10 @@
     {
       "name": "CIS CAT Lite",
       "website": "https://learn.cisecurity.org/cis-cat-lite",
-      "description": "Tool to test Windows security configuration",
+      "description": "Asses systems against CIS Benchmarks",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "compliance"
     },
     {
       "name": "Iniscan",
