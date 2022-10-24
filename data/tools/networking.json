@@ -193,6 +193,15 @@
       "online": "False"
     },
     {
+      "name": "DNS Rebinding Tool",
+      "website": "http://dnsrebindtool.43z.one/",
+      "source": "https://github.com/h43z/dns-rebinding-tool",
+      "description": "Toolkit to test further DNS rebinding attacks ",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Evil-WinRM",
       "source": "https://github.com/Hackplayers/evil-winrm",
       "description": "Enhanced WinRM shell",
@@ -289,6 +298,14 @@
       "source": "https://github.com/synacktiv/ica2tcp",
       "description": "SOCKS proxy for Citrix",
       "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Jaqen",
+      "source": "https://github.com/linkedin/jaqen",
+      "description": "Abstracts away the complex steps required to perform a DNS rebind and exposes a HTML5 Fetch interface which transparently triggers a DNS rebind",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     },
@@ -608,6 +625,14 @@
       "keywords": "msDS, windows, domain controller, AD CS, NTLM, Kerberos"
     },
     {
+      "name": "rbndr",
+      "source": "https://github.com/taviso/rbndr",
+      "description": "Server for testing software against DNS rebinding vulnerabilities",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "rdp-sec-check",
       "source": "https://github.com/portcullislabs/rdp-sec-check",
       "description": "Script to enumerate security settings of an RDP Service",
@@ -620,6 +645,13 @@
       "source": "https://github.com/SpiderLabs/Responder",
       "description": "LLMNR, NBT-NS and MDNS poisoner to intercept authentication requests/answers",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Rebind",
+      "source": "https://code.google.com/archive/p/rebind/",
+      "description": "Implements multiple A record DNS rebinding attack",
       "price": "Free",
       "online": "False"
     },
