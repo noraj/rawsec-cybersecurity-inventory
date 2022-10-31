@@ -103,6 +103,15 @@
       "keywords": "antimalware, bypass, shortcut"
     },
     {
+      "name": "Mangle",
+      "source": "https://github.com/optiv/Mangle",
+      "description": "Manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "obfuscation"
+    },
+    {
       "name": "Merlin",
       "source": "https://github.com/Ne0nd0g/merlin",
       "description": "Post-exploitation HTTP/2 Command & Control server and agent",
@@ -155,6 +164,16 @@
       "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "ProtectMyTooling",
+      "website": "https://mgeeky.tech/protectmytooling/",
+      "source": "https://github.com/mgeeky/ProtectMyTooling",
+      "description": "Multi-Packer wrapper allowing daisy-chaining various packers and obfuscators; featured with artifacts watermarking, IOCs collection & PE backdooring",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "obfuscation"
     },
     {
       "name": "Pupy",
