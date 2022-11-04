@@ -44,6 +44,15 @@
       "keywords": "leak"
     },
     {
+      "name": "BQM",
+      "website": "https://github.com/Acceis/bqm",
+      "description": "Bloodhound Query Merger; deduplicate custom BloudHound queries from different datasets and merge them in one customqueries.json file",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "cypher, neo4j"
+    },
+    {
       "name": "BreachAlarm",
       "website": "https://breachalarm.com/",
       "description": "Service to check if an account has been compromised in a data breach, only tells if the account is compromised",
