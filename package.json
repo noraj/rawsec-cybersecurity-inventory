@@ -36,7 +36,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
     "@vizuaalog/bulmajs": "^0.12.2",
-    "ajv": "^8.11.0",
+    "ajv": "8.11.2",
     "ajv-formats": "^2.1.1",
     "bulma": "^0.9.4",
     "del": "^7.0.0",
