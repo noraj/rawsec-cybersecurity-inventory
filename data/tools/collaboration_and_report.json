@@ -296,6 +296,7 @@
     },
     {
       "name": "Smersh",
+      "website": "https://smersh.app/",
       "source": "https://github.com/CMEPW/Smersh",
       "description": "Pentest oriented collaborative tool used to track the progress of your company's engagements and generate reports",
       "language": "PHP",
