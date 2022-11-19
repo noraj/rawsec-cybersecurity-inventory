@@ -44,6 +44,14 @@
       "keywords": "leak"
     },
     {
+      "name": "BHQW",
+      "source": "https://github.com/kaluche/bloodhound-quickwin",
+      "description": "Extract information from BloodHound and Neo4J",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BQM",
       "website": "https://github.com/Acceis/bqm",
       "description": "Bloodhound Query Merger; deduplicate custom BloudHound queries from different datasets and merge them in one customqueries.json file",
