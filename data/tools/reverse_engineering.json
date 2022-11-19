@@ -170,6 +170,15 @@
       "online": "False"
     },
     {
+      "name": "dotPeek",
+      "website": "https://www.jetbrains.com/decompiler/",
+      "description": ".NET decompiler and assembly browser",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "dotpeek"
+    },
+    {
       "name": "Droidefense",
       "website": "http://droidefense.com/",
       "source": "https://github.com/droidefense/engine",
