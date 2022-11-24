@@ -448,7 +448,7 @@
     },
     {
       "name": "Osmedeus",
-      "website": "https://j3ssie.github.io/Osmedeus/",
+      "website": "https://www.osmedeus.org/",
       "source": "https://github.com/j3ssie/Osmedeus",
       "description": "Automated framework for reconnaissance and vulnerability scanning",
       "language": "Python",
