@@ -9,6 +9,14 @@
       "keywords": "compliance"
     },
     {
+      "name": "CIS CAT Pro",
+      "website": "https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro",
+      "description": "Asses systems against CIS Benchmarks",
+      "price": "Paid",
+      "online": "False",
+      "keywords": "compliance"
+    },
+    {
       "name": "Iniscan",
       "source": "https://github.com/psecio/iniscan",
       "description": "php.ini scanner for security best practices",
