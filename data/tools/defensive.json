@@ -25,6 +25,14 @@
       "online": "False"
     },
     {
+      "name": "GraphQL Armor",
+      "source": "https://github.com/Escape-Technologies/graphql-armor",
+      "description": "GraphQL security layer for Apollo and Yoga / Envelop servers",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "libiris",
       "source": "https://github.com/mtth-bfft/libiris",
       "description": "Cross-platform sandboxing library",
