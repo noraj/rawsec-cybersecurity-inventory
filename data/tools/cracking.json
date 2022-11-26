@@ -278,6 +278,14 @@
       "keywords": "wordlist, generator"
     },
     {
+      "name": "npk",
+      "source": "https://github.com/c6fc/npk",
+      "description": "Distributed hash cracking platform meant to be deployed on AWS (Cognito, DynamoDB, S3) so you pay only when you have a task running",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Ophcrack",
       "website": "http://ophcrack.sourceforge.net/",
       "source": "https://sourceforge.net/projects/ophcrack/",
