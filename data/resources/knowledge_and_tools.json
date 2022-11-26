@@ -108,6 +108,12 @@
       "price": "Free"
     },
     {
+      "name": "GraphQL Threat Matrix",
+      "source": "https://github.com/nicholasaleks/graphql-threat-matrix",
+      "description": "GraphQL threat framework to research security gaps in GraphQL implementations; documente features and limits of various engines",
+      "price": "Free"
+    },
+    {
       "name": "HackTricks",
       "website": "https://book.hacktricks.xyz/",
       "source": "https://github.com/carlospolop/hacktricks",
