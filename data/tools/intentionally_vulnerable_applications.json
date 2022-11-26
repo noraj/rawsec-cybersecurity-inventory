@@ -27,6 +27,14 @@
       "online": "False"
     },
     {
+      "name": "DVGA",
+      "source": "https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application",
+      "description": "Damn Vulnerable GraphQL Application, insecure webapp for GraphQL security trainings",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DVWA",
       "website": "http://www.dvwa.co.uk/",
       "source": "https://github.com/ethicalhack3r/DVWA",
