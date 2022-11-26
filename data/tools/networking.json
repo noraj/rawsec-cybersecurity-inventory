@@ -161,6 +161,16 @@
       "online": "False"
     },
     {
+      "name": "Certipy",
+      "source": "https://github.com/ly4k/Certipy",
+      "description": "Active Directory Certificate Services enumeration and exploitation",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "ADCS",
+      "blackarch": "certipy"
+    },
+    {
       "name": "chisel",
       "source": "https://github.com/jpillora/chisel",
       "description": "Fast TCP tunneling over HTTP secured by SSH",
