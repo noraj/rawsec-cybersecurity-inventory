@@ -189,6 +189,15 @@
       "keywords": "password"
     },
     {
+      "name": "Hashpass",
+      "source": "https://github.com/dj-zombie/hashpass",
+      "description": "Hashcat WebUI; queuing, local authentication, SMS and email notifications, map integration",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "password"
+    },
+    {
       "name": "Hashtopolis",
       "source": "https://github.com/s3inlc/hashtopolis",
       "description": "Hashcat wrapper for distributed hashcracking",
@@ -202,7 +211,7 @@
       "website": "http://www.hashview.io/",
       "source": "https://github.com/hashview/hashview",
       "description": "Web-UI for managing, organizing, automating Hashcat commands/tasks",
-      "language": "Ruby",
+      "language": "Python",
       "price": "Free",
       "online": "False",
       "keywords": "GUI, hashcat, crack, hash"
