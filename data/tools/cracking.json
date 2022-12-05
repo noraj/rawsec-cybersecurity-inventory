@@ -143,6 +143,15 @@
       "keywords": "wordlist"
     },
     {
+      "name": "Fitcrack",
+      "website": "https://fitcrack.fit.vutbr.cz/",
+      "source": "https://github.com/nesfit/fitcrack",
+      "description": "Hashcat-based distributed password cracking system with WebUI",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GAU",
       "source": "https://github.com/lc/gau",
       "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan for any given domain",
