@@ -70,7 +70,7 @@
       "name": "CrackerJack",
       "website": "https://www.contextis.com/en/resources/tools/crackerjack",
       "source": "https://github.com/ctxis/crackerjack",
-      "description": "Basic Web Interface for Hashcat",
+      "description": "Hashcat WebUI; session management, mask generation, API, notifications, local and LDAP authentication",
       "language": "Python",
       "price": "Free",
       "online": "False",
@@ -362,6 +362,14 @@
       "price": "Free",
       "online": "False",
       "keywords": "wordlist, generator"
+    },
+    {
+      "name": "Wavecrack",
+      "source": "https://github.com/wavestone-cdt/wavecrack",
+      "description": "Hashcat WebUI; asynchronous task, chain tasks, statistics, export, segregation, local and LDAP authentication",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "WebHashcat",
