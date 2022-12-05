@@ -248,6 +248,14 @@
       "blackarch": "johnny"
     },
     {
+      "name": "Kraken",
+      "source": "https://github.com/arcaneiceman/kraken",
+      "description": "Hashcat-based distributed password cracking system with WebUI; has a desktop client in addition",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Kraker",
       "source": "https://github.com/zzzteph/kraker",
       "description": "Distributed password brute-force system, supports Hashcat",
