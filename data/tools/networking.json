@@ -390,6 +390,7 @@
     {
       "name": "Medusa",
       "website": "http://foofus.net/goons/jmk/medusa/medusa.html",
+      "source": "https://github.com/jmk-foofus/medusa",
       "description": "Network login cracker",
       "price": "Free",
       "online": "False"
