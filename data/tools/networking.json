@@ -392,8 +392,10 @@
       "website": "http://foofus.net/goons/jmk/medusa/medusa.html",
       "source": "https://github.com/jmk-foofus/medusa",
       "description": "Network login cracker",
+      "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "medusa"
     },
     {
       "name": "Medusa-gui",
