@@ -385,7 +385,8 @@
       "description": "Port scanner for massive networks",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "masscan"
     },
     {
       "name": "Medusa",
@@ -432,7 +433,8 @@
       "description": "Reliable and adaptative network login cracker supporting a large number of protocols",
       "language": "Cplusplus",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "ncrack"
     },
     {
       "name": "nemesis",
@@ -513,7 +515,8 @@
       "description": "SNMP scanner",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "onesixtyone"
     },
     {
       "name": "OOB-Server",
@@ -552,7 +555,8 @@
       "description": "Multi-protocol bruteforce tool",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "patator"
     },
     {
       "name": "PKINIT tools",
