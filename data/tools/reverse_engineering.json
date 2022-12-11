@@ -170,6 +170,14 @@
       "online": "False"
     },
     {
+      "name": "dnSpyEx",
+      "source": "https://github.com/dnSpyEx/dnSpy",
+      "description": ".NET assembly debugger, decompiler and editor; fork of dnSpy",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "dotPeek",
       "website": "https://www.jetbrains.com/decompiler/",
       "description": ".NET decompiler and assembly browser",
