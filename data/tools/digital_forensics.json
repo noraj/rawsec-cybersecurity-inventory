@@ -25,6 +25,15 @@
       "online": "False"
     },
     {
+      "name": "EML analyzer",
+      "website": "https://eml-analyzer.herokuapp.com/",
+      "source": "https://github.com/ninoseki/eml_analyzer",
+      "description": "Analyze EML files: headers, bodies, attachments; extract IOCs; identify suspicious attachments",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ExifTool",
       "website": "http://www.sno.phy.queensu.ca/%7Ephil/exiftool/",
       "source": "https://sourceforge.net/projects/exiftool/",
