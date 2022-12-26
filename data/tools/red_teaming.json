@@ -234,6 +234,14 @@
       "online": "False"
     },
     {
+      "name": "SharpEDRChecker",
+      "source": "https://github.com/PwnDexter/SharpEDRChecker",
+      "description": "Detect and identify the presence of known defensive products such as AV's, EDR's and logging tools",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Shelltropy",
       "source": "https://github.com/kleiton0x00/Shelltropy/",
       "description": "A technique of hiding malicious shellcode via Shannon encoding",
