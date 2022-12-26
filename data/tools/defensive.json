@@ -67,6 +67,15 @@
       "online": "False"
     },
     {
+      "name": "Wazuh",
+      "website": "https://wazuh.com/",
+      "source": "https://github.com/wazuh/wazuh",
+      "description": "Security monitoring solution for threat detection, integrity monitoring, incident response and compliance; unified XDR and SIEM protection for endpoints and cloud workloads",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "WHIDS",
       "source": "https://github.com/0xrawsec/whids",
       "description": "EDR for Windows",
