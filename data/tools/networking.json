@@ -699,6 +699,14 @@
       "blackarch": "routersploit"
     },
     {
+      "name": "Rubeus",
+      "source": "https://github.com/GhostPack/Rubeus",
+      "description": "Kerberos interaction and abuses",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ruby-nmap",
       "source": "https://github.com/sophsec/ruby-nmap",
       "description": "Library for nmap, allows automating nmap and parsing nmap XML files",
