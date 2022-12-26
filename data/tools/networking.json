@@ -278,6 +278,14 @@
       "online": "False"
     },
     {
+      "name": "HEKATOMB",
+      "source": "https://github.com/Processus-Thief/HEKATOMB",
+      "description": "Retrieve all computers and users informations from AD LDAP; download all DPAPI blob of all users from all computers and uses Domain backup keys to decrypt them",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "HellRaiser",
       "source": "https://github.com/m0nad/HellRaiser",
       "description": "Scan with nmap to correlate CPE's found with cve-search to enumerate vulnerabilities",
