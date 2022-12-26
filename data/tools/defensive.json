@@ -65,6 +65,14 @@
       "language": "Rust",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "WHIDS",
+      "source": "https://github.com/0xrawsec/whids",
+      "description": "EDR for Windows",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
