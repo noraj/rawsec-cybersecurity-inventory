@@ -718,6 +718,15 @@
       "online": "False"
     },
     {
+      "name": "TruffleHog",
+      "source": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find secret information in git repositories",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "github, s3, gitlab, syslog"
+    },
+    {
       "name": "TWINT",
       "source": "https://github.com/twintproject/twint",
       "description": "Twitter Intelligence Tool; Twitter scraping & OSINT tool that doesn't use Twitter's API, allowing one to scrape a user's followers, following, Tweets and more while evading most API limitations",
