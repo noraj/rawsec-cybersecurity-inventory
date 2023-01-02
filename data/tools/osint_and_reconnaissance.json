@@ -742,6 +742,14 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "yar",
+      "source": "https://github.com/nielsing/yar",
+      "description": "Find secret information (secrets, tokens, passwords) in git repositories",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
