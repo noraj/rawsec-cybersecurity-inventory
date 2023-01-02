@@ -208,6 +208,14 @@
       "online": "False"
     },
     {
+      "name": "gittyleaks",
+      "source": "https://github.com/kootenpv/gittyleaks",
+      "description": "Find sensitive information (username, password, email) in git repositories",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gorecon",
       "source": "https://github.com/devanshbatham/Gorecon",
       "description": "Reconnaissance toolkit",
