@@ -367,6 +367,14 @@
       "online": "False"
     },
     {
+      "name": "ronin-exploits",
+      "source": "https://github.com/ronin-rb/ronin-exploits",
+      "description": "A micro-framework for writing and running exploits",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Scrounger",
       "source": "https://github.com/nettitude/scrounger",
       "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
