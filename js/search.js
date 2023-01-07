@@ -101,6 +101,19 @@ fetch('https://inventory.raw.pm/api/api.json')
           card_header_title.classList = "card-header-title";
           card_header_title.innerText = elem.name;
           card_header.appendChild(card_header_title);
+
+          card_header_button = document.createElement("button");
+          card_header_button.classList = "card-header-icon";
+          card_header_button.setAttribute("aria-label", "More information");
+          card_header_button_span = document.createElement("span");
+          card_header_button_span.classList = "icon";
+          card_header_button_span_i = document.createElement("i");
+          card_header_button_span_i.classList = "fas fa-plus";
+          card_header_button_span_i.setAttribute("aria-hidden", "true");
+          card_header_button_span.appendChild(card_header_button_span_i);
+          card_header_button.appendChild(card_header_button_span);
+          card_header.appendChild(card_header_button);
+
           card.appendChild(card_header);
           card_content = div.cloneNode(true);
           card_content.classList = "card-content";
@@ -216,6 +229,7 @@ fetch('https://inventory.raw.pm/api/api.json')
             }
             if ( elem.source) {
               source = card_footer_item.cloneNode(true);
+              source.classList.add('source-link');
               source.setAttribute('href', elem.source);
               source.innerText = 'Source';
               footer.appendChild(source);
