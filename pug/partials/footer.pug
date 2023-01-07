@@ -1,19 +1,29 @@
 footer.footer
     .container
-        .content.has-text-centered
-            p
-                | Proudly created and maintained by 
-                em Alexandre ZANNI
-                |  a.k.a 
-                em
-                    a(href='https://pwn.by/noraj/') noraj
-                | . 
-
-            p
-                | This website is licensed under 
-                a(href='http://mozilla.org/MPL/2.0/') Mozilla Public License 2.0
-                | .
-
-            p
-                a(href='about.html#sponsoring') Sponsor 
-                | this project.
+        nav.level
+            .level-item.has-text-centered.mx-1
+                .content
+                    p
+                        | Proudly created and maintained by 
+                        em Alexandre ZANNI
+                        |  a.k.a 
+                        em
+                            a(href='https://pwn.by/noraj/') noraj
+                        | . 
+            .level-item.has-text-centered.mx-1
+                .content
+                    p
+                        | This website is licensed under 
+                        a(href='http://mozilla.org/MPL/2.0/') Mozilla Public License 2.0
+                        | .
+            .level-item.has-text-centered.mx-1
+                .content
+                    p
+                        a(href='about.html#sponsoring') Sponsor 
+                        | this project.
+            .level-item.has-text-centered.mx-1
+                .content
+                    p
+                        | Total number of tools and resources indexed: 
+                        span.has-text-primary.has-text-weight-bold #{count.total}
+                        | .
