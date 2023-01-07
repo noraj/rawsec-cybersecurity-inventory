@@ -101,6 +101,7 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Stars</span>: ${json_data['star_count']}</li>
                 </ul>
               </div>
+              <img alt="GitLab last commit" src="https://img.shields.io/gitlab/last-commit/${json_data['path_with_namespace']}">
             </div>
           </div>`
           });
