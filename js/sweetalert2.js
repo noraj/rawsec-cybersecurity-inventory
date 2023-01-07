@@ -24,7 +24,7 @@ function addRowHandlers() {
         }});
       }
 
-      var regex_github = /^http[s]?:\/\/github\.com\/([a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38})\/([a-z\d](?:[a-z\d]|-(?=[a-z\d]))*)/i;
+      var regex_github = /^http[s]?:\/\/github\.com\/([a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38})\/([a-z\d](?:[a-z\d]|[-_](?=[a-z\d]))*)/i;
       // https://github.com/user/repo
       var regex_gitlab = /^http[s]?:\/\/gitlab\.com\/([a-z\d_\-\. ]*)\/([a-z\d_][a-z\d_\-\. ]*)/i;
       // https://gitlab.com/user/repo/
@@ -65,6 +65,9 @@ function addRowHandlers() {
                   <li><span class="has-text-weight-semibold">Subscribers</span>: ${json_data['subscribers_count']}</li>
                 </ul>
               </div>
+              <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/${json_data['full_name']}">
+              <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/${json_data['full_name']}">
+              <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/${json_data['full_name']}">
             </div>
           </div>`
           });
