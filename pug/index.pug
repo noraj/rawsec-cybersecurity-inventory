@@ -11,8 +11,12 @@ block content
                         input.input.is-rounded.is-primary(placeholder="Search" onInput="searchInput(this.value)")
                         span.icon.is-right
                             i.fas.fa-search
+                p.is-size-7
+                    | Total number of tools and resources indexed: 
+                    span.has-text-primary.has-text-weight-bold #{count.total}
+                    | .
         .columns.is-multiline#output
-            //.column.is-one-quarter
+            //-.column.is-one-quarter
                 .card.card-equal-height
                     header.card-header
                         p.card-header-title Hashview

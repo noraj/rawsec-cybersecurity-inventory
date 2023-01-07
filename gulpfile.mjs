@@ -25,7 +25,7 @@ task('server', webserver);
 task('server').description = 'Local dev web server';
 task('build',
     series(
-        series(pug_data, pug_src),
+        series(pug_data, count_items, pug_src),
         series(api_clean, api_build, api_copy),
         parallel(
             bulma, bulmajs, tablefilter, sweetalert2, jquery, minisearch, js,
@@ -38,6 +38,8 @@ task('pug', series(pug_data, pug_src));
 task('pug').description = 'Only build content and templates without assets, the API and JS dependencies';
 task('test', series(test_data));
 task('test').description = 'Run test validating the JSON data';
+task('count', series(clean, pug_data, count_items));
+task('count').description = 'Count the number of items (tools, resources, etc.)';
 
 function clean() {
     // You can use multiple globbing patterns as you would with `gulp.src`
@@ -79,6 +81,9 @@ function pug_src() {
         .pipe(gulpData(function() {
             return JSON.parse(fs.readFileSync('pug/mapping.json'));
         }))
+        .pipe(gulpData(function() {
+            return JSON.parse(fs.readFileSync('pug/count.json'));
+        }))
         .pipe(gulpPug({
             pretty: true,
         }))
@@ -95,7 +100,7 @@ function api_build() {
     return exec('node make-scripts/static-json-api.js');
 };
 
-function api_copy(cb) {
+function api_copy() {
     return src('temp/api/**/*.json')
         .pipe(dest('build/api/'))
 };
@@ -175,6 +180,7 @@ function webserver() {
   });
 };
 
+// validate JSON data files
 function test_data() {
     return src('make-scripts/json-validations')
         .pipe(gulpJest({
@@ -183,4 +189,17 @@ function test_data() {
             ],
         "automock": false
         }));
+};
+
+
+// count the number of data items (tools, resources, etc.)
+async function count_items() {
+    fs.readFile('temp/data.json', {encoding:'utf8', flag:'r'}, (err1, data1) => {
+        if (err1) throw err1;
+        var count = (data1.match(/"name"/g) || []).length;
+        console.log(`Number of items: ${count}`);
+        fs.writeFile('pug/count.json', JSON.stringify({ count: { total: count } }, null, 2), (err2) => {
+            if (err2) throw err2;
+        });
+    });
 };
