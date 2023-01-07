@@ -199,6 +199,7 @@ function addRowHandlers() {
 window.addEventListener('load', addRowHandlers);
 
 // For search cards
+// event delegation cf. https://medium.com/@bretdoucette/part-4-what-is-event-delegation-in-javascript-f5c8c0de2983#.1g11lfkzo
 $("#output").on('click', function(event) {
   var ele = event.target;
   if (ele.matches('button.card-header-icon, i.fas.fa-plus')) {
