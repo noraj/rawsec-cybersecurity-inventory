@@ -5,7 +5,7 @@ block content
     section.section
         .container
             .content
-                // Table Of Contents
+                //- Table Of Contents
                 .buttons
                     each category in mapping['Operating Systems']
                         - name_hyphen = category.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
@@ -33,11 +33,11 @@ block hero-foot
                         a(href='operating_systems.html') Operating Systems
 
 block optional-script-top
-    // TableFilter lib
+    //- TableFilter lib
     script(src='js/vendor/tablefilter/tablefilter.js')
-    // TableFilter base config for all tables
+    //- TableFilter base config for all tables
     script(src='js/tablefilter/base_config.js')
 
 block optional-script-bottom
-    // Apply font-mfizz class to elements when available (need to be loaded after the content)
+    //- Apply font-mfizz class to elements when available (need to be loaded after the content)
     script(src='js/auto-font-mfizz.js')

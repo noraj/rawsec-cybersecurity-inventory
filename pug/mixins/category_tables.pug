@@ -4,7 +4,7 @@ mixin category_tools(name)
 
     h3.title.is-3(id=`title-tools-${name_hyphen}`)= name
     article
-        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        //- no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
         case name
             when 'Adversary Simulation'
                 include ../content/tools/adversary_simulation.pug
@@ -70,7 +70,7 @@ mixin category_resources(name)
 
     h3.title.is-3(id=`title-resources-${name_hyphen}`)= name
     article
-        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        //- no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
         case name
             when 'Bug bounty, pentest and disclosure platforms'
                 include ../content/resources/bug_bounty_pentest_and_disclosure_platforms.pug
@@ -102,7 +102,7 @@ mixin category_ctf_platforms(name)
 
     h3.title.is-3(id=`title-ctf-platforms-${name_hyphen}`)= name
     article
-        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        //- no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
         case name
             when 'Attack Defense'
                 include ../content/ctf_platforms/attack_defense.pug
@@ -118,7 +118,7 @@ mixin category_operating_systems(name)
 
     h3.title.is-3(id=`title-operating-systems-${name_hyphen}`)= name
     article
-        // no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        //- no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
         case name
             when 'Maintained'
                 include ../content/operating_systems/maintained.pug

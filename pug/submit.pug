@@ -24,7 +24,7 @@ block content
 
             //- We keep a form and not a div because jQuery serializeArray() works only for forms
             form.box.has-text-weight-semibold.is-size-5.has-background-light#submit_form
-                // type
+                //- type
                 .field.is-horizontal#type
                     .field-label.is-normal Type
                     .field-body
@@ -37,7 +37,7 @@ block content
                                         option(value='resource') Resource
                                         option(value='ctf_platform') CTF platform
                                         option(value='operating_system') Operating System
-                // categories
+                //- categories
                 .field.is-horizontal
                     .field-label.is-normal Category
                     .field-body
@@ -74,7 +74,7 @@ block content
                                         each category in mapping['Operating Systems']
                                             - name_underscore = category.toLowerCase().replace(/\s/g, '_').replace(/,/g, '')
                                             option(value=name_underscore)= category
-                // elements/entries
+                //- elements/entries
                 .field.is-horizontal
                     .field-label.is-normal New entry
                     .field-body
@@ -151,5 +151,5 @@ block hero-foot
             .container
 
 block optional-script-bottom
-    // Make the form conditionally expose fields
+    //- Make the form conditionally expose fields
     script(src='js/conditional-form.js')
