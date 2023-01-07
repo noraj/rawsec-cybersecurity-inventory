@@ -82,6 +82,13 @@
       "blackarch": "sigma"
     },
     {
+      "name": "uncoder.io",
+      "source": "https://uncoder.io/",
+      "description": "Translate sigma rules into various SIEM, EDR, and XDR formats",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "YARA",
       "website": "https://virustotal.github.io/yara/",
       "source": "https://github.com/virustotal/yara",

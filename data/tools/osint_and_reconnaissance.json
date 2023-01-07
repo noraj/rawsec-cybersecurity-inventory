@@ -208,6 +208,14 @@
       "online": "False"
     },
     {
+      "name": "gittyleaks",
+      "source": "https://github.com/kootenpv/gittyleaks",
+      "description": "Find sensitive information (username, password, email) in git repositories",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gorecon",
       "source": "https://github.com/devanshbatham/Gorecon",
       "description": "Reconnaissance toolkit",
@@ -710,6 +718,15 @@
       "online": "False"
     },
     {
+      "name": "TruffleHog",
+      "source": "https://github.com/trufflesecurity/trufflehog",
+      "description": "Find secret information in git repositories",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "github, s3, gitlab, syslog"
+    },
+    {
       "name": "TWINT",
       "source": "https://github.com/twintproject/twint",
       "description": "Twitter Intelligence Tool; Twitter scraping & OSINT tool that doesn't use Twitter's API, allowing one to scrape a user's followers, following, Tweets and more while evading most API limitations",
@@ -723,6 +740,14 @@
       "source": "https://github.com/xnl-h4ck3r/waymore",
       "description": "Find links from Wayback Machine, Common Crawl, Alien Vault OTX and URLScan; download the archived responses for URLs on Wayback Machine",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "yar",
+      "source": "https://github.com/nielsing/yar",
+      "description": "Find secret information (secrets, tokens, passwords) in git repositories",
+      "language": "Go",
       "price": "Free",
       "online": "False"
     }

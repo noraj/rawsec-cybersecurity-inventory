@@ -359,9 +359,25 @@
     },
     {
       "name": "Ronin",
-      "website": "https://ronin-ruby.github.io/",
-      "source": "https://github.com/ronin-ruby/ronin",
-      "description": "Platform for vulnerability research and exploit development, it allows for the rapid development and distribution of code, Exploits or Payloads, Scanners, etc, via Repositories",
+      "website": "https://ronin-rb.dev/",
+      "source": "https://github.com/ronin-rb/ronin",
+      "description": "Toolkit for security research and development allowing for the rapid development and distribution of code, exploits, payloads, etc, via 3rd party git repositories",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ronin-exploits",
+      "source": "https://github.com/ronin-rb/ronin-exploits",
+      "description": "A micro-framework for writing and running exploits",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "ronin-payloads",
+      "source": "https://github.com/ronin-rb/ronin-payloads",
+      "description": "A micro-framework for writing and running exploit payloads",
       "language": "Ruby",
       "price": "Free",
       "online": "False"
