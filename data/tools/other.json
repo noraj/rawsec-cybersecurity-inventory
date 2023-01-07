@@ -383,14 +383,6 @@
       "online": "False"
     },
     {
-      "name": "ronin-payloads",
-      "source": "https://github.com/ronin-rb/ronin-payloads",
-      "description": "A micro-framework for writing and running exploit payloads",
-      "language": "Ruby",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Scrounger",
       "source": "https://github.com/nettitude/scrounger",
       "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
