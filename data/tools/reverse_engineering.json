@@ -395,6 +395,14 @@
       "online": "False"
     },
     {
+      "name": "netzob",
+      "source": "https://github.com/netzob/netzob",
+      "description": "Protocol reverse engineering, modeling and fuzzing",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ODA",
       "website": "https://onlinedisassembler.com/odaweb/",
       "description": "Advanced multi-architecture online disassembler supporting a lot of architectures and object file formats",
