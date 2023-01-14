@@ -10,6 +10,14 @@
       "online": "True"
     },
     {
+      "name": "CryptoGuard",
+      "source": "https://github.com/CryptoGuardOSS/cryptoguard",
+      "description": "Program analysis tool to find cryptographic misuse in Java and Android",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "crypto-identifier",
       "source": "https://github.com/Acceis/crypto_identifier",
       "description": "Tool that try to identify what cipher is used and uncipher the data",
