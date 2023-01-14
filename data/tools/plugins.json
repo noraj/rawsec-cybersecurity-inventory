@@ -19,6 +19,15 @@
       "online": "False"
     },
     {
+      "name": "CogniCrypt",
+      "tool": "Eclipse",
+      "source": "https://github.com/eclipse-cognicrypt/CogniCrypt",
+      "description": "Supports Java developers in using Java Cryptographic APIs",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Copy As FFUF",
       "tool": "Burp Suite",
       "source": "https://github.com/d3k4z/burp-copy-as-ffuf",
