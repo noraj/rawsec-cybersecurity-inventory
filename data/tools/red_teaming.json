@@ -43,6 +43,15 @@
       "blackarch": "gophish"
     },
     {
+      "name": "Havoc",
+      "source": "https://github.com/HavocFramework/Havoc",
+      "description": "Malleable post-exploitation command and control framework",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Kage",
       "source": "https://github.com/WayzDev/Kage",
       "description": "Graphical user interface for Metasploit Meterpreter and session handler",
