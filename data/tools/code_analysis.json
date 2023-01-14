@@ -63,6 +63,15 @@
       "blackarch": "kube-hunter"
     },
     {
+      "name": "LICMA",
+      "website": "https://figshare.com/articles/software/LICMA_Language_Independent_Crypto-misuse_Analysis_with_a_Java_and_Python_analysis_component/16538568/1",
+      "source": "https://github.com/stg-tud/licma",
+      "description": "Language Independent Crypto-Misuse Analysis; multi-language analysis tool to identify incorrect initialization of crypto functions",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "MobSF",
       "website": "https://mobsf.github.io/docs/",
       "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
