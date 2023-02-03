@@ -285,6 +285,14 @@
       "blackarch": "socialfish"
     },
     {
+      "name": "SysWhisper3",
+      "source": "https://github.com/topotam/SysWhisper3",
+      "description": "SysWhispers on Steroids - AV/EDR evasion via direct system calls. ",
+      "language": "ASM",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "TeamsImplant",
       "source": "https://github.com/Allevon412/TeamsImplant",
       "description": "MS Teams implant persistent backdoor",
