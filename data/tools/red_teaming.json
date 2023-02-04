@@ -17,6 +17,15 @@
       "keywords": "anti-virus"
     },
     {
+      "name": "BOF.NET",
+      "source": "https://github.com/CCob/BOF.NET",
+      "description": "A .NET Runtime for Cobalt Strike's Beacon Object Files",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus, C2"
+    },
+    {
       "name": "Donut",
       "source": "https://github.com/TheWover/donut",
       "description": "Generates x86_32, x86_64, or AMD64 position-independent shellcode that loads .NET Assemblies, PE files (EXE), VBScript, JScript, and DLL files from memory and runs them with parameters",
@@ -283,6 +292,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "socialfish"
+    },
+    {
+      "name": "SysWhisper3",
+      "source": "https://github.com/topotam/SysWhisper3",
+      "description": "SysWhispers on Steroid, AV/EDR evasion via direct system calls",
+      "language": "Assembly",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "TeamsImplant",

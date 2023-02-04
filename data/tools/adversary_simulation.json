@@ -26,7 +26,8 @@
       "price": "Free",
       "online": "False",
       "keywords": "docker, simulation"
-    },{
+    },
+    {
       "name": "Invoke-Apex",
       "source": "https://github.com/secmode/Invoke-Apex",
       "description": "PowerShell-based toolkit consisting of a collection of techniques and tradecraft for use in red team, post-exploitation, adversary simulation, or other offensive security tasks",
