@@ -287,8 +287,8 @@
     {
       "name": "SysWhisper3",
       "source": "https://github.com/topotam/SysWhisper3",
-      "description": "SysWhispers on Steroids - AV/EDR evasion via direct system calls. ",
-      "language": "ASM",
+      "description": "SysWhispers on Steroid, AV/EDR evasion via direct system calls",
+      "language": "Assembly",
       "price": "Free",
       "online": "False"
     },
