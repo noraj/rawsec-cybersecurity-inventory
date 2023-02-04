@@ -20,6 +20,7 @@
       "name": "BOF.NET",
       "source": "https://github.com/CCob/BOF.NET",
       "description": "A .NET Runtime for Cobalt Strike's Beacon Object Files",
+      "language": "CSharp",
       "price": "Free",
       "online": "False",
       "keywords": "anti-virus, C2"
