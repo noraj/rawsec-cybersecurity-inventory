@@ -17,9 +17,10 @@
       "keywords": "anti-virus"
     },
     {
-      "name": "donut",
+      "name": "Donut",
       "source": "https://github.com/TheWover/donut",
-      "description": "Generates x86, x64, or AMD64+x86 position-independent shellcode that loads .NET Assemblies, PE files, and other Windows payloads from memory and runs them with parameters ",
+      "description": "Generates x86_32, x86_64, or AMD64 position-independent shellcode that loads .NET Assemblies, PE files (EXE), VBScript, JScript, and DLL files from memory and runs them with parameters",
+      "language": "C",
       "price": "Free",
       "online": "False",
       "keywords": "anti-virus"
