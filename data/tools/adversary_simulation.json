@@ -27,6 +27,14 @@
       "online": "False",
       "keywords": "docker, simulation"
     },{
+      "name": "GOAD",
+      "source": "https://github.com/Orange-Cyberdefense/GOAD",
+      "description": "Game Of Active Directory is a test environment that includes all the common vulnerabilities of an active directory",
+      "language": "Powershell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Ansible, vagrant, AD"
+    },{
       "name": "Invoke-Apex",
       "source": "https://github.com/secmode/Invoke-Apex",
       "description": "PowerShell-based toolkit consisting of a collection of techniques and tradecraft for use in red team, post-exploitation, adversary simulation, or other offensive security tasks",
