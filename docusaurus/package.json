@@ -13,7 +13,7 @@
     "@docusaurus/core": "2.3.1",
     "@docusaurus/plugin-client-redirects": "^2.1.0",
     "@docusaurus/plugin-content-docs": "^2.1.0",
-    "@docusaurus/plugin-content-pages": "^2.1.0",
+    "@docusaurus/plugin-content-pages": "2.3.1",
     "@docusaurus/theme-classic": "^2.1.0",
     "@easyops-cn/docusaurus-search-local": "^0.33.5",
     "@emotion/react": "^11.10.4",
