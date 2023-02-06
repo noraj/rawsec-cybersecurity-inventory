@@ -195,6 +195,15 @@
       "blackarch": "crackmapexec"
     },
     {
+      "name": "DC Detector",
+      "source": "https://github.com/noraj/DCDetector",
+      "description": "Spot all domain controllers in a Microsoft Active Directory environment, find computer name, FQDN, and IP address(es) of all DCs",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "windows, DNS"
+    },
+    {
       "name": "DnsFookup",
       "source": "https://github.com/makuga01/dnsFookup",
       "description": "Create DNS request collector and inspector",
