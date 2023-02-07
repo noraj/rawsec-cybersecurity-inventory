@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "Cryscanner",
+      "source": "https://github.com/amit-choudhari/cryscanner",
+      "description": "Identify misuse of cryptographic libraries by collecting and analysing logs",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Dcode",
       "website": "http://www.dcode.fr/tools-list",
       "description": "Code and decode all kind of checksums, algorithms, codes or ciphers",
