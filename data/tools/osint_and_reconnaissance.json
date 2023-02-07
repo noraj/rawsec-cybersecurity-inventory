@@ -347,6 +347,14 @@
       "online": "False"
     },
     {
+      "name": "Malfrat's OSINT Map",
+      "source": "https://github.com/Malfrats/OSINT-Map",
+      "description": "A web-based collection of tools and resources for OSINT; successor of OSINT Framework",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "MassDNS",
       "source": "https://github.com/blechschmidt/massdns",
       "description": "High-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)",
