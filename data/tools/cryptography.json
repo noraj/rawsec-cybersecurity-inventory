@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "CRYPTOREX",
+      "source": "https://github.com/zhanglikernel/CRYPTOREX",
+      "description": " Large-scale firmware analysis of cryptographic misuse in IoT devices; supports ARM, MIPS, MIPSel architetures",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cryscanner",
       "source": "https://github.com/amit-choudhari/cryscanner",
       "description": "Identify misuse of cryptographic libraries by collecting and analysing logs",
