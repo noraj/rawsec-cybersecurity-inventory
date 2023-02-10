@@ -33,6 +33,15 @@
       "online": "False"
     },
     {
+      "name": "Imagemagick Security Policy Evaluator",
+      "website": "https://imagemagick-secevaluator.doyensec.com/",
+      "source": "https://github.com/doyensec/imagemagick-security-policy-evaluator",
+      "description": "Allows developers and security experts to check if an Imagemagick XML Security Policy is hardened against a wide set of malicious attacks",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "libiris",
       "source": "https://github.com/mtth-bfft/libiris",
       "description": "Cross-platform sandboxing library",
