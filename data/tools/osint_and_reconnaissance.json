@@ -678,6 +678,14 @@
       "online": "False"
     },
     {
+      "name": "subzuf",
+      "source": "https://github.com/elceef/subzuf",
+      "description": "DNS response-guided subdomain fuzzer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sudomy",
       "source": "https://github.com/Screetsec/Sudomy",
       "description": "Subdomain enumeration tool ",
