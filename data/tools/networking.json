@@ -761,6 +761,14 @@
       "online": "False"
     },
     {
+      "name": "SilentHound",
+      "source": "https://github.com/layer8secure/SilentHound",
+      "description": "Quietly enumerate an Active Directory Domain via LDAP parsing users, admins, groups",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Singularity",
       "website": "https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2018/august/singularity-of-origin-a-dns-rebinding-attack-framework/",
       "source": "https://github.com/nccgroup/singularity",
