@@ -602,6 +602,14 @@
       "online": "False"
     },
     {
+      "name": "PowerHuntShares",
+      "source": "https://github.com/NetSPI/PowerHuntShares",
+      "description": "Audit script to inventory, analyze, and report excessive privileges assigned to SMB shares on Active Directory domain joined computers",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pty4all",
       "source": "https://github.com/laluka/pty4all",
       "description": "Persistent multi reverse shell handler",
