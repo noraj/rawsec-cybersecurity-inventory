@@ -184,6 +184,14 @@
       "online": "False"
     },
     {
+      "name": "pe_to_shellcode",
+      "source": "https://github.com/hasherezade/pe_to_shellcode",
+      "description": "Converts PE into a shellcode",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PEzor",
       "website": "https://iwantmore.pizza/posts/PEzor.html",
       "source": "https://github.com/phra/PEzor",
