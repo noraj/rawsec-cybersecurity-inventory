@@ -201,7 +201,7 @@
       "language": "Ruby",
       "price": "Free",
       "online": "False",
-      "blackarch": "windows, DNS"
+      "keywords": "windows, DNS"
     },
     {
       "name": "DnsFookup",
