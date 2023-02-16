@@ -322,6 +322,15 @@
       "online": "False"
     },
     {
+      "name": "PhoneSploit Pro",
+      "website": "https://azeemidrisi.github.io/PhoneSploit-Pro/",
+      "source": "hhttps://github.com/AzeemIdrisi/PhoneSploit-Pro",
+      "description": "Remotely exploit Android devices using ADB and Metasploit-Framework to get a Meterpreter session",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name":"Pipal",
       "website":"https://digi.ninja/projects/pipal.php",
       "source":"https://github.com/digininja/pipal",
