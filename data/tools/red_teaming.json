@@ -157,6 +157,14 @@
       "online": "False"
     },
     {
+      "name": "monomorph",
+      "source": "https://github.com/DavidBuchanan314/monomorph",
+      "description": "MD5-monomorphic shellcode packer, all payloads have the same MD5 hash",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Mythic",
       "source": "https://github.com/its-a-feature/Mythic",
       "description": "Collaborative red teaming framework",
