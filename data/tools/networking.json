@@ -195,6 +195,16 @@
       "online": "True"
     },
     {
+      "name": "Coercer",
+      "source": "https://github.com/p0dalirius/Coercer",
+      "description": "Coerce a Windows server to authenticate on an arbitrary machine through 12 methods",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SMB, RPC, UNC",
+      "blackarch": "coercer"
+    },
+    {
       "name": "CrackMapExec",
       "source": "https://github.com/byt3bl33d3r/CrackMapExec",
       "description": "Post-exploitation tool to assess Active Directory networks",
