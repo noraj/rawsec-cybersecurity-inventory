@@ -201,6 +201,14 @@
       "online": "False"
     },
     {
+      "name": "PipeViewer",
+      "source": "https://github.com/cyberark/PipeViewer",
+      "description": "Shows detailed information about named pipes in Windows and searching for insecure permissions",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ProtectMyTooling",
       "website": "https://mgeeky.tech/protectmytooling/",
       "source": "https://github.com/mgeeky/ProtectMyTooling",
