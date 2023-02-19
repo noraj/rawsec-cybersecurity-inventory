@@ -171,6 +171,15 @@
       "blackarch": "certipy"
     },
     {
+      "name": "certsync",
+      "source": "https://github.com/zblurx/certsync",
+      "description": "Dump NTDS with golden certificates and UnPAC the hash",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "LDAP, ADCS"
+    },
+    {
       "name": "chisel",
       "source": "https://github.com/jpillora/chisel",
       "description": "Fast TCP tunneling over HTTP secured by SSH",
