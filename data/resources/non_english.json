@@ -8,6 +8,13 @@
       "price": "Free"
     },
     {
+      "name": "CERT.pl challenges",
+      "language": "Polish",
+      "website": "https://hack.cert.pl/challenges",
+      "description": "Prequals challenge of the Polish CTF team for ECW",
+      "price": "Free"
+    },
+    {
       "name": "ctfs.me",
       "language": "Indonesian",
       "website": "https://ctfs.me/",
