@@ -44,6 +44,14 @@
       "online": "False"
     },
     {
+      "name": "ADRecon",
+      "source": "https://github.com/adrecon/ADRecon",
+      "description": "Gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "archtorify",
       "source": "https://github.com/brainfucksec/archtorify",
       "description": "Script for Arch Linux which use iptables settings to create a transparent proxy through Tor Network",
