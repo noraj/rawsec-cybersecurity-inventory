@@ -350,6 +350,14 @@
       "online": "False"
     },
     {
+      "name": "Villain",
+      "source": "https://github.com/t3l3machus/Villain",
+      "description": "Distributed command and control framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Warhorse",
       "website": "https://docs.war-horse.io/",
       "source": "https://github.com/warhorse/warhorse",
