@@ -140,6 +140,14 @@
       "online": "False"
     },
     {
+      "name": "DbgShell",
+      "source": "https://github.com/Microsoft/DbgShell",
+      "description": "Front-end for the Windows debugger engine",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Decompiler.com",
       "website": "https://www.decompiler.com/",
       "description": "C#, Python, Android and Java online decompiler",
