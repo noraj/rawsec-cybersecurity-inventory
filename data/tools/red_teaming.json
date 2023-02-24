@@ -334,6 +334,14 @@
       "online": "False"
     },
     {
+      "name": "TrevorC2",
+      "source": "https://github.com/trustedsec/trevorc2",
+      "description": "Command and control framework masking the activity by emulating legitimate website",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "UBoat",
       "source": "https://github.com/Souhardya/UBoat",
       "description": "HTTP botnet PoC",
