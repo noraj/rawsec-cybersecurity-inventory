@@ -61,6 +61,14 @@
       "blackarch": "gophish"
     },
     {
+      "name": "gscript",
+      "source": "https://github.com/gen0cide/gscript",
+      "description": "Genesis Scripting Engine; framework to rapidly implement custom droppers for all three major operating systems",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Havoc",
       "source": "https://github.com/HavocFramework/Havoc",
       "description": "Malleable post-exploitation command and control framework",
