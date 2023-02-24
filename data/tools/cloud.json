@@ -11,6 +11,14 @@
       "keywords": "AWS, GCP, Azure"
     },
     {
+      "name": "AzureADRecon",
+      "source": "https://github.com/adrecon/AzureADRecon",
+      "description": "Gathers information about the Azure Active Directory and generates a report which can provide a holistic picture of the current state of the target environment",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pacu",
       "website": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
       "source": "https://github.com/RhinoSecurityLabs/pacu",
