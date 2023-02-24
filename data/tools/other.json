@@ -271,6 +271,14 @@
       "keywords": "REST API"
     },
     {
+      "name": "mec",
+      "source": "https://github.com/jm33-m0/mec",
+      "description": "MassExploitConsole; mass reconnaissance and exploitation framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Metasploit",
       "website": "https://www.metasploit.com/",
       "source": "https://github.com/rapid7/metasploit-framework",
