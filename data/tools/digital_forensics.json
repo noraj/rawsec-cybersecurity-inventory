@@ -25,6 +25,14 @@
       "online": "False"
     },
     {
+      "name": "ds_store_exp",
+      "source": "https://github.com/lijiejie/ds_store_exp",
+      "description": "Extract files from .DS_Store recursively",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "EML analyzer",
       "website": "https://eml-analyzer.herokuapp.com/",
       "source": "https://github.com/ninoseki/eml_analyzer",
