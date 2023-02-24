@@ -540,6 +540,15 @@
       "online": "False"
     },
     {
+      "name": "theZoo",
+      "website": "https://thezoo.morirt.com/",
+      "source": "https://github.com/ytisf/theZoo",
+      "description": "Repository of live malwares for malware analysis",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Triton",
       "website": "https://triton.quarkslab.com/",
       "source": "https://github.com/JonathanSalwan/Triton/",
