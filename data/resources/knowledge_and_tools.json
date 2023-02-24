@@ -195,6 +195,12 @@
       "price": "Free"
     },
     {
+      "name": "Probable Wordlists",
+      "source": "https://github.com/berzerk0/Probable-Wordlists",
+      "description": "Password lists sorted by probability originally created for password generation and testing",
+      "price": "Free"
+    },
+    {
       "name": "PTES",
       "website": "http://www.pentest-standard.org/",
       "description": "The penetration testing execution standard covers all steps related to a penetration test",
