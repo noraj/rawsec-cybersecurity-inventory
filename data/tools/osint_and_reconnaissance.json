@@ -44,6 +44,14 @@
       "online": "False"
     },
     {
+      "name": "BBOT",
+      "source": "https://github.com/blacklanternsecurity/bbot",
+      "description": "OSINT framework; subdomain enumeration, port scanning, web screenshots, vulnerability scanning",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Belati",
       "source": "https://github.com/aancw/Belati",
       "description": "OSINT tool, collect data and document actively or passively",
