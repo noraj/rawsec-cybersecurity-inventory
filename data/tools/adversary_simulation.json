@@ -28,6 +28,15 @@
       "keywords": "docker, simulation"
     },
     {
+      "name": "Infection Monkey",
+      "website": "https://www.akamai.com/infectionmonkey",
+      "source": "https://github.com/guardicore/monkey",
+      "description": "Adversary emulation platform; test a data center's resiliency to perimeter breaches and internal server infection",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Invoke-Apex",
       "source": "https://github.com/secmode/Invoke-Apex",
       "description": "PowerShell-based toolkit consisting of a collection of techniques and tradecraft for use in red team, post-exploitation, adversary simulation, or other offensive security tasks",
@@ -57,7 +66,7 @@
     {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
-      "description": "Open source cross-platform adversary emulation/red team framework used by organizations of all sizes to perform security testing",
+      "description": "Cross-platform adversary emulation/red team framework used by organizations of all sizes to perform security testing",
       "language": "Go",
       "price": "Free",
       "online": "False",
