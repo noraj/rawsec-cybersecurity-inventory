@@ -66,6 +66,14 @@
       "online": "False"
     },
     {
+      "name": "pcc",
+      "source": "https://github.com/sektioneins/pcc",
+      "description": "PHP Secure Configuration Checker; parse php.ini to find security misconfiguration",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PingCastle",
       "website": "https://www.pingcastle.com/",
       "source": "https://github.com/vletoux/pingcastle",
