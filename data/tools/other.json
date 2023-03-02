@@ -77,6 +77,15 @@
       "keywords": "api, leak"
     },
     {
+      "name": "Cameradar",
+      "website": "https://github.com/Ullaakut/cameradar",
+      "description": "RTSP stream access; detect open hosts, device model, automated dictionary attacks on stream route and credentials",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "docker"
+    },
+    {
       "name": "changedetection.io",
       "source": "https://github.com/dgtlmoon/changedetection.io",
       "description": "Self-hosted website change detection tracking, monitoring and notification service",
