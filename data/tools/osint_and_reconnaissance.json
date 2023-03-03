@@ -60,6 +60,14 @@
       "online": "False"
     },
     {
+      "name": "cariddi",
+      "source": "https://github.com/edoardottt/cariddi",
+      "description": "Takes a list of domains, crawls urls and scans for endpoints, secrets, api keys, file extensions, tokens",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Certstream",
       "website": "https://certstream.calidog.io/",
       "source": "https://github.com/CaliDog/certstream-server",
