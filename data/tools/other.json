@@ -138,6 +138,14 @@
       "online": "False"
     },
     {
+      "name": "DoubleTap",
+      "source": "https://github.com/audibleblink/DoubleTap",
+      "description": "Headless browser in order to load pages and execute JavaScript that often generates things like dynamic nonces that validate the page was actually rendered by a human for password spraying",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "doxycannon",
       "source": "https://github.com/audibleblink/doxycannon",
       "description": "Proxycannon and botnet, using docker, ovpn files, tor nodes, and dante socks5 proxies that may be used for password spraying",
