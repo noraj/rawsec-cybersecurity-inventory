@@ -51,6 +51,14 @@
       "online": "False"
     },
     {
+      "name": "gmailc2",
+      "source": "https://github.com/machine1337/gmailc2",
+      "description": "Undetectable C2 server that communicates via Google SMTP to evade antivirus protections and network traffic restrictions",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gophish",
       "website": "https://getgophish.com/",
       "source": "https://github.com/gophish/gophish",
