@@ -376,6 +376,14 @@
       "online": "False"
     },
     {
+      "name": "Cortex XDR Config Extractor",
+      "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
+      "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Zphisher",
       "source": "https://github.com/htr-tech/zphisher",
       "description": "Automated phishing tool with multiple tunneling options; fork of Shellphish",
