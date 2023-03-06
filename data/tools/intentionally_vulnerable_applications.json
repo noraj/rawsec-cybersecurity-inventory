@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Bodhi",
+      "source": "https://github.com/amolnaik4/bodhi",
+      "description": "Client-side vulnerability playground, CTF style application, a bot program which simulates the real-world victim",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Bust-A-Kube",
       "website": "https://www.bustakube.com/",
       "description": "Intentionally-vulnerable Kubernetes cluster, intended to help people self-train on attacking and defending Kubernetes clusters",
