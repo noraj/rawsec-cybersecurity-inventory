@@ -79,6 +79,17 @@
       "online": "False"
     },
     {
+      "name": "Kismet",
+      "website": "https://www.kismetwireless.net/",
+      "source": "https://github.com/kismetwireless/kismet",
+      "description": "Sniffer, WIDS, and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "kismet",
+      "keywords": "802.11"
+    },
+    {
       "name": "MDK3-master",
       "source": "https://github.com/wi-fi-analyzer/mdk3-master",
       "description": "PoC tool to exploit common IEEE 802.11 protocol weaknesses",
