@@ -18,6 +18,15 @@
       "online": "False"
     },
     {
+      "name": "APKHunt",
+      "source": "https://github.com/Cyber-Buddy/APKHunt",
+      "description": "Static code analysis for Android apps that is based on the OWASP MASVS framework",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "APKLeaks",
       "source": "https://github.com/dwisiswant0/apkleaks",
       "description": "Scanning APK file for URIs, endpoints and secrets",
@@ -29,7 +38,7 @@
       "name": "cIFrex",
       "website": "https://cifrex.org",
       "source": "https://github.com/MaksymilianA/cifrex",
-      "description": "Regexp static code analysis tool",
+      "description": "Regexp static code analysis",
       "language": "PHP",
       "price": "Free",
       "online": "False",
