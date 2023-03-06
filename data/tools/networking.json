@@ -253,6 +253,15 @@
       "description": "Enhanced WinRM shell",
       "language": "Ruby",
       "price": "Free",
+      "online": "False",
+      "blackarch": "evil-winrm"
+    },
+    {
+      "name": "evilginx2",
+      "source": "https://github.com/kgretzky/evilginx2",
+      "description": "Man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+      "language": "Go",
+      "price": "Free",
       "online": "False"
     },
     {
