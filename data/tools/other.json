@@ -138,6 +138,14 @@
       "online": "False"
     },
     {
+      "name": "doxycannon",
+      "source": "https://github.com/audibleblink/doxycannon",
+      "description": "Proxycannon and botnet, using docker, ovpn files, tor nodes, and dante socks5 proxies that may be used for password spraying",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Firefox Monitor",
       "website": "https://monitor.firefox.com/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
