@@ -255,7 +255,17 @@
     },
     {
       "name": "PwnDoc",
+      "website": "https://pwndoc.github.io/pwndoc/",
       "source": "https://github.com/pwndoc/pwndoc",
+      "description": "Collaborative penetration test reporting platform",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "PwnDoc-ng",
+      "website": "https://pwndoc-ng.github.io/pwndoc-ng/",
+      "source": "https://github.com/pwndoc-ng/pwndoc-ng; fork and improvement of PwnDoc",
       "description": "Collaborative penetration test reporting platform",
       "language": "JavaScript",
       "price": "Free",
