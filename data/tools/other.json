@@ -286,6 +286,15 @@
       "keywords": "api, leak"
     },
     {
+      "name": "LOAD",
+      "source": "https://github.com/0xBallpoint/LOAD",
+      "description": "Lord Of Active Directory is a test environment lab that includes all the common vulnerabilities of an active directory and deploys automatically on AWS; based on AWS-Redteam-Lab and GOAD",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AD, windows"
+    },
+    {
       "name": "Lookyloo",
       "website": "https://www.lookyloo.eu",
       "source": "https://github.com/Lookyloo/lookyloo",
