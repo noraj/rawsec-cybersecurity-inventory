@@ -26,6 +26,14 @@
       "keywords": "anti-virus, C2"
     },
     {
+      "name": "Cortex XDR Config Extractor",
+      "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
+      "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Donut",
       "source": "https://github.com/TheWover/donut",
       "description": "Generates x86_32, x86_64, or AMD64 position-independent shellcode that loads .NET Assemblies, PE files (EXE), VBScript, JScript, and DLL files from memory and runs them with parameters",
@@ -233,6 +241,14 @@
       "online": "False"
     },
     {
+      "name": "PowerShdll",
+      "source": "https://github.com/p3nt4/PowerShdll",
+      "description": "Run PowerShell with dlls only to bypass software restrictions; it can be run with rundll32.exe, installutil.exe, regsvcs.exe, regasm.exe, regsvr32.exe or as a standalone executable",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ProtectMyTooling",
       "website": "https://mgeeky.tech/protectmytooling/",
       "source": "https://github.com/mgeeky/ProtectMyTooling",
@@ -380,14 +396,6 @@
       "website": "https://docs.war-horse.io/",
       "source": "https://github.com/warhorse/warhorse",
       "description": "Ansible playbook to deploy infrastructure in the cloud for conducting Red Team assessments",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "Cortex XDR Config Extractor",
-      "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
-      "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
-      "language": "Python",
       "price": "Free",
       "online": "False"
     },
