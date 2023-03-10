@@ -44,6 +44,15 @@
       "keywords": "leak"
     },
     {
+      "name": "Axiom",
+      "source": "https://github.com/pry0cc/axiom",
+      "description": "Dynamic infrastructure framework to distribute the workload of many different scanning tools with ease",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "cloud, DigitalOcean, IBM Cloud, Linode, Azure, AWS, GCP"
+    },
+    {
       "name": "BHQW",
       "source": "https://github.com/kaluche/bloodhound-quickwin",
       "description": "Extract information from BloodHound and Neo4J",
