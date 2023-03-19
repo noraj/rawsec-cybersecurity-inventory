@@ -85,6 +85,14 @@
       "online": "False"
     },
     {
+      "name": "beanshooter",
+      "source": "https://github.com/qtc-de/beanshooter",
+      "description": "JMX enumeration and attacking; helps to identify common vulnerabilities on JMX endpoints",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bettercap",
       "website": "http://www.bettercap.org/",
       "source": "https://github.com/bettercap/bettercap",
