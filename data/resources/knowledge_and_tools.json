@@ -20,6 +20,12 @@
       "price": "Free"
     },
     {
+      "name": "C2 Matrix",
+      "source": "https://www.thec2matrix.com",
+      "description": "A table comparing most C2 frameworks",
+      "price": "Free"
+    },
+    {
       "name": "Can I take over XYZ?",
       "source": "https://github.com/EdOverflow/can-i-take-over-xyz",
       "description": "List of services and how to claim (sub)domains with dangling DNS records",
