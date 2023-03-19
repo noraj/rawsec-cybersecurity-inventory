@@ -421,7 +421,8 @@
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "blackarch": "python-lsassy"
+      "blackarch": "python-lsassy",
+      "keywords": "windows, mimikatz, WMI, kerberos"
     },
     {
       "name": "Mail.Rip V2",
