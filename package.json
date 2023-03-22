@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp-replace": "^1.1.4",
-    "pug-lint": "2.6.0"
+    "pug-lint": "2.7.0"
   },
   "scripts": {
     "build-only": "gulp build",
