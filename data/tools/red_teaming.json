@@ -283,6 +283,15 @@
       "online": "False"
     },
     {
+      "name": "RedEye",
+      "source": "https://github.com/cisagov/RedEye",
+      "description": "Red team C2 log visualization",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C"
+    },
+    {
       "name": "ReelPhish",
       "source": "https://github.com/mandiant/ReelPhish",
       "description": "Real time phishing tool",
