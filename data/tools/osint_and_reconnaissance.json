@@ -390,11 +390,19 @@
     {
       "name": "Metabigor",
       "source": "https://github.com/j3ssie/metabigor",
-      "description": "OSINT tool that doesn't require any API key",
+      "description": "Searching information about IP address, ASN and organization; doesn't require any API key",
       "language": "Go",
       "price": "Free",
       "online": "False",
       "blackarch": "metabigor"
+    },
+    {
+      "name": "mihari",
+      "source": "https://github.com/ninoseki/mihari",
+      "description": "Aggregates results from Shodan, Censys, VirusTotal, SecurityTrail, etc. and extracts artifacts (IP addresses, domains, URLs or hashes)",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Netflip",
