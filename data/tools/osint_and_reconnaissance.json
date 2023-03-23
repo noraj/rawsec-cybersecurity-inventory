@@ -282,6 +282,15 @@
       "online": "False"
     },
     {
+      "name": "Hunt3r",
+      "website": "https://docs.hunt3r.ovh/",
+      "source": "https://github.com/EasyRecon/Hunt3r",
+      "description": "Automatic domain recognition (via amass) and vulnerability scan (via nuclei) platform with a WebUI",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "IVRE",
       "website": "https://ivre.rocks/",
       "source": "https://github.com/cea-sec/ivre",
