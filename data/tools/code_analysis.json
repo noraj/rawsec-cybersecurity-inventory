@@ -35,6 +35,15 @@
       "online": "False"
     },
     {
+      "name": "Bearer",
+      "website": "https://www.bearer.com",
+      "source": "https://github.com/bearer/bearer",
+      "description": "Static Application Security Testing (SAST) tool that helps discover, filter, and prioritize security risks and vulnerabilities.",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "cIFrex",
       "website": "https://cifrex.org",
       "source": "https://github.com/MaksymilianA/cifrex",
