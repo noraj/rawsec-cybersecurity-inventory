@@ -789,6 +789,7 @@
       "language": "Go",
       "price": "Free",
       "online": "False",
+      "blackarch": "trufflehog",
       "keywords": "github, s3, gitlab, syslog"
     },
     {
