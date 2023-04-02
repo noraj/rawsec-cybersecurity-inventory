@@ -224,6 +224,14 @@
       "online": "False"
     },
     {
+      "name": "GitHound",
+      "source": "https://github.com/tillson/git-hound",
+      "description": "Find sensitive information in git repositories",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gittyleaks",
       "source": "https://github.com/kootenpv/gittyleaks",
       "description": "Find sensitive information (username, password, email) in git repositories",
