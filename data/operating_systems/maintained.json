@@ -25,6 +25,12 @@
       "website": "https://archstrike.org/"
     },
     {
+      "name": "Athena OS",
+      "base": "ArchLinux",
+      "discription": "penetration testing and security lab",
+      "website": "https://github.com/Athena-OS/athena-iso"
+    },
+    {
       "name": "BackBox",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",

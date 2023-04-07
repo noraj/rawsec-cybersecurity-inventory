@@ -22,3 +22,4 @@ Content and improvements:
     Karthikeyan (@arrow996)
     João Pedro Dias (@jpdias)
     Andrew Nichols (@fr3nata)
+    Piyush Sharma (@piyush.offsec)
