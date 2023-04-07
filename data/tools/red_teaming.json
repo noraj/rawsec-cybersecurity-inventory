@@ -336,7 +336,7 @@
     {
       "name": "Shelltropy",
       "source": "https://github.com/kleiton0x00/Shelltropy/",
-      "description": "A technique of hiding malicious shellcode via Shannon encoding",
+      "description": "A technique to hide malicious shellcode based on low-entropy via Shannon encoding",
       "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
