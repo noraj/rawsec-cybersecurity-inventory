@@ -789,6 +789,7 @@
     },
     {
       "name": "RustHound",
+      "website": "https://www.opencyber.com/rusthound-data-collector-for-bloodhound-written-in-rust/",
       "source": "https://github.com/OPENCYBER-FR/RustHound",
       "description": "Active Directory data collector for BloodHound",
       "language": "Rust",
