@@ -27,7 +27,7 @@
     {
       "name": "Athena OS",
       "base": "ArchLinux",
-      "discription": "penetration testing and security lab",
+      "description": "penetration testing and security lab",
       "website": "https://github.com/Athena-OS/athena-iso"
     },
     {
