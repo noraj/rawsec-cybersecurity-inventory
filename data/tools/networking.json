@@ -825,10 +825,11 @@
     {
       "name": "SilentHound",
       "source": "https://github.com/layer8secure/SilentHound",
-      "description": "Quietly enumerate an Active Directory Domain via LDAP parsing users, admins, groups",
+      "description": "Quietly enumerates an Active Directory Domain via LDAP parsing users, admins, groups",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "windows"
     },
     {
       "name": "Singularity",
@@ -836,14 +837,6 @@
       "source": "https://github.com/nccgroup/singularity",
       "description": "DNS rebinding attack framework",
       "language": "Go",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "SilentHound",
-      "source": "https://github.com/layer8secure/SilentHound",
-      "description": "Quietly enumerate an Active Directory Domain via LDAP parsing users, admins, groups",
-      "language": "Python",
       "price": "Free",
       "online": "False"
     },
