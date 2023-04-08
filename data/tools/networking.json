@@ -872,6 +872,14 @@
       "online": "False"
     },
     {
+      "name": "Sshimpanzee",
+      "source": "https://github.com/lexfo/sshimpanzee",
+      "description": "Builds a static reverse SSH server for pivoting; supports HTTP and SOCKS5 proxies, DNS and ICMP tunnelling, HTTP encapsulation",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Suricata Language Server",
       "website": "https://www.stamus-networks.com/blog/suricata-language-server",
       "source": "https://github.com/StamusNetworks/suricata-language-server",
