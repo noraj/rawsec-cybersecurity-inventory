@@ -788,6 +788,14 @@
       "blackarch": "rustcat"
     },
     {
+      "name": "RustHound",
+      "source": "https://github.com/OPENCYBER-FR/RustHound",
+      "description": "Active Directory data collector for BloodHound",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "sandmap",
       "website": "https://github.com/trimstray/sandmap/wiki",
       "source": "https://github.com/trimstray/sandmap",
