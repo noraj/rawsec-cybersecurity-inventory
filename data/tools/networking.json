@@ -840,6 +840,14 @@
       "online": "False"
     },
     {
+      "name": "SilentHound",
+      "source": "https://github.com/layer8secure/SilentHound",
+      "description": "Quietly enumerate an Active Directory Domain via LDAP parsing users, admins, groups",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "sJET",
       "source": "https://github.com/siberas/sjet",
       "description": "JMX Exploitation Toolkit",
