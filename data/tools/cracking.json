@@ -248,6 +248,16 @@
       "blackarch": "johnny"
     },
     {
+      "name": "kh2hc",
+      "website": "https://noraj.github.io/kh2hc/",
+      "source": "https://github.com/noraj/kh2hc",
+      "description": "Convert OpenSSH known_hosts file hashed with HashKnownHosts to hashes crackable by Hashcat",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "kh2hc"
+    },
+    {
       "name": "Kraken",
       "source": "https://github.com/arcaneiceman/kraken",
       "description": "Hashcat-based distributed password cracking system with WebUI; has a desktop client in addition",
