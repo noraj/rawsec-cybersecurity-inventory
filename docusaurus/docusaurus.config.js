@@ -187,8 +187,8 @@ module.exports={
       style: 'dark',
     },
     prism: {
-      theme: require('prism-react-renderer/themes/dracula'),
-      darkTheme: require('prism-react-renderer/themes/oceanicNext'),
+      theme: require("prism-react-renderer").themes.dracula,
+      darkTheme: require("prism-react-renderer").themes.oceanicNext,
     },
     docs: {
       sidebar: {
