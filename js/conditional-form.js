@@ -137,11 +137,11 @@ $('form').on('submit', function(e){
 function submitForm(){
   $.ajax({
     type: 'POST',
-    url: 'https://hooks.zapier.com/hooks/catch/4221939/o58jzaq/',
+    url: 'https://hook.eu1.make.com/q9px4k6m766wmevhaurfzq7u9dpdd8sg',
     data: retrieveData(),
     success: function(){},
     dataType: 'json',
-    // contentType : 'application/json' <-- problems with CORS
+    contentType : 'application/json'
   });
   // push notification
   var notification = $('.notification span');
