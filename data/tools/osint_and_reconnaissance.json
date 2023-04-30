@@ -299,6 +299,14 @@
       "online": "False"
     },
     {
+      "name": "Ignorant",
+      "source": "https://github.com/megadose/ignorant",
+      "description": "Check if a phone number is used on different sites like snapchat, instagram",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "IVRE",
       "website": "https://ivre.rocks/",
       "source": "https://github.com/cea-sec/ivre",
