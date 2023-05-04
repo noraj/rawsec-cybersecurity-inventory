@@ -330,6 +330,14 @@
       "online": "False"
     },
     {
+      "name": "SysReptor",
+      "source": "https://github.com/syslifters/sysreptor/",
+      "description": "Easy pentest reporting tool to write findings in markdown, design and customize reports in HTML and VueJS, render to PDF. Additional features MFA, note-taking, collaboration, data encryption at rest, SSO.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "vcr",
       "source": "https://github.com/Shellntel/vcr",
       "description": "Vulnerability Compliance Report; parse Nessus CIS benchmark scan files and generate HTML reports",
