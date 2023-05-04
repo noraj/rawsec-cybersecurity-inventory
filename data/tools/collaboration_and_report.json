@@ -330,6 +330,14 @@
       "online": "False"
     },
     {
+      "name": "SysReptor",
+      "source": "https://github.com/syslifters/sysreptor",
+      "description": "Collaborative penetration test, vulnerability database and reporting platform; supports findings in markdown, customized reports in HTML and VueJS, rendering to PDF, MFA, note-taking, data encryption, SSO",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "vcr",
       "source": "https://github.com/Shellntel/vcr",
       "description": "Vulnerability Compliance Report; parse Nessus CIS benchmark scan files and generate HTML reports",
