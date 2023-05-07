@@ -16,7 +16,7 @@
     "@docusaurus/plugin-content-pages": "^2.4.0",
     "@docusaurus/theme-classic": "^2.4.0",
     "@easyops-cn/docusaurus-search-local": "^0.35.0",
-    "@emotion/react": "^11.10.8",
+    "@emotion/react": "11.11.0",
     "@emotion/styled": "^11.10.8",
     "@fontsource/roboto": "^4.5.8",
     "@mui/material": "5.12.3",
