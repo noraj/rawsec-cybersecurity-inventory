@@ -21,7 +21,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/material": "5.12.3",
     "clsx": "^1.2.1",
-    "prism-react-renderer": "^2.0.3",
+    "prism-react-renderer": "2.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
