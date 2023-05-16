@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@docusaurus/core": "2.4.0",
+    "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-client-redirects": "^2.4.0",
     "@docusaurus/plugin-content-docs": "^2.4.0",
     "@docusaurus/plugin-content-pages": "^2.4.0",
