@@ -13,6 +13,12 @@
       "price": "Free"
     },
     {
+      "name": "BattleHack",
+      "website": "https://seela.io/en/battleh4ck/",
+      "description": "Challenge platform",
+      "price": "Paid"
+    },
+    {
       "name": "Begin.re",
       "website": "https://www.begin.re/",
       "description": "Binary reverse guided challenges for beginners",
