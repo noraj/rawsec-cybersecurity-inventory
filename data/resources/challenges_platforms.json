@@ -61,6 +61,12 @@
       "price": "Free"
     },
     {
+      "name": "DefendTheWeb",
+      "website": "https://defendtheweb.net/",
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "Electrica",
       "website": "http://www.caesum.com/game",
       "description": "Programming, cryptography challenges",
