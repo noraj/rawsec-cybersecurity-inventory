@@ -136,7 +136,7 @@ function jquery() {
 };
 
 function minisearch() {
-    return src('node_modules/minisearch/dist/umd/index.js')
+    return src('node_modules/minisearch/dist/umd/index.js*')
         .pipe(dest('build/js/vendor/minisearch/'));
 };
 
