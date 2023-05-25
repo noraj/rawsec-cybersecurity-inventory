@@ -589,6 +589,15 @@
       "online": "False"
     },
     {
+      "name": "owabrute",
+      "source": "https://github.com/p0dalirius/owabrute",
+      "description": "Hydra wrapper for bruteforcing Microsoft Outlook Web Application",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "OWA"
+    },
+    {
       "name": "PacketFu",
       "source": "https://github.com/packetfu/packetfu",
       "description": "Packet manipulation library; forge, send, decode, capture packets of a wide number of protocols",
