@@ -566,6 +566,15 @@
       "online": "False"
     },
     {
+      "name": "TritonDSE",
+      "website": "https://quarkslab.github.io/tritondse/",
+      "source": "https://github.com/quarkslab/tritondse",
+      "description": "Triton-based DSE library with loading and exploration capabilities",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "TTD-Bindings",
       "source": "https://github.com/commial/ttd-bindings",
       "description": "Bindings for Microsoft WinDBG Time Travel Debugging (TTD)",
