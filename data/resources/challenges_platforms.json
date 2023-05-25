@@ -364,6 +364,12 @@
       "price": "Free"
     },
     {
+      "name": "VulnMachines",
+      "website": "https://vulnmachines.com/",
+      "description": "VM-based challenges",
+      "price": "Free"
+    },
+    {
       "name": "WebHacking",
       "website": "http://webhacking.kr/",
       "description": "Web challenges",
