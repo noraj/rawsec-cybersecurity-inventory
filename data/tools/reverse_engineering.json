@@ -279,6 +279,16 @@
       "online": "False"
     },
     {
+      "name": "Honggfuzz",
+      "website": "https://honggfuzz.dev/",
+      "source": "https://github.com/google/honggfuzz",
+      "description": "Security oriented software fuzzer; supports evolutionary, feedback-driven fuzzing based on code coverage (SW and HW based)",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "honggfuzz"
+    },
+    {
       "name": "Hopper",
       "website": "https://www.hopperapp.com/",
       "description": "Disassembler, decompiler and debugger",
