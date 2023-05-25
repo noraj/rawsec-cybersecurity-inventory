@@ -151,6 +151,12 @@
       "description": "Challenge platform",
       "price": "Free"
     },
+    {
+      "name": "HackViser",
+      "website": "https://hackviser.com/",
+      "description": "Challenge platform",
+      "price": "Paid"
+    },
    {
       "name": "ImmersiveLabs",
       "website": "https://www.immersivelabs.com/",
