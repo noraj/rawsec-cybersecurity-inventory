@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "CSSG",
+      "source": "https://github.com/RCStep/CSSG",
+      "description": "Cobalt Strike Shellcode Generator; script used to more easily generate and format beacon shellcode in Cobalt Strike",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Donut",
       "source": "https://github.com/TheWover/donut",
       "description": "Generates x86_32, x86_64, or AMD64 position-independent shellcode that loads .NET Assemblies, PE files (EXE), VBScript, JScript, and DLL files from memory and runs them with parameters",
