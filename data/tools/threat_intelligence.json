@@ -41,6 +41,13 @@
       "online": "True"
     },
     {
+      "name": "Redirect Tracker",
+      "website": "https://www.redirecttracker.com/",
+      "description": "Track the HTTP redirect chains; 301 and 302, JavaScript and Meta fresh redirects",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "threatfeeds.io",
       "website": "https://threatfeeds.io/",
       "description": "Open-source threat intelligence feeds; sharing malware URLs, IP reputation, bad IPs, etc.",
