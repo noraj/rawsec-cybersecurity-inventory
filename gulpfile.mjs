@@ -4,7 +4,10 @@ const { series, parallel, src, dest, task } = gulp;
 import gulpPug from 'gulp-pug';
 import gulpData from 'gulp-data';
 import gulpMergeJson from 'gulp-merge-json';
-import dartSass from 'sass';
+// sass 1.63.0 breaking change
+// https://github.com/sass/dart-sass/issues/2011
+// import dartSass from 'sass';
+import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
 import gulpConnect from 'gulp-connect';
