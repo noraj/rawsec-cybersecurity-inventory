@@ -82,6 +82,12 @@
       "price": "Free"
     },
     {
+      "name": "Filesec.io",
+      "website": "https://filesec.io/",
+      "description": "Curated list of file extensions being used by attackers",
+      "price": "Free"
+    },
+    {
       "name": "findsecuritycontacts.com",
       "website": "https://findsecuritycontacts.com/",
       "source": "https://github.com/OllieJC/findsecuritycontacts.com",
