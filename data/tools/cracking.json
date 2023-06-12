@@ -189,6 +189,14 @@
       "keywords": "password"
     },
     {
+      "name": "HashKitty",
+      "source": "https://github.com/ScriptSathi/HashKitty",
+      "description": "Web interface for Hashcat",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Hashpass",
       "source": "https://github.com/dj-zombie/hashpass",
       "description": "Hashcat WebUI; queuing, local authentication, SMS and email notifications, map integration",
