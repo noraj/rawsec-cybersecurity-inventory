@@ -19,6 +19,14 @@
       "online": "False"
     },
     {
+      "name": "CloudGPT",
+      "source": "https://github.com/ustayready/cloudgpt",
+      "description": "Vulnerability scanner for AWS customer managed policies using ChatGPT",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pacu",
       "website": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
       "source": "https://github.com/RhinoSecurityLabs/pacu",
