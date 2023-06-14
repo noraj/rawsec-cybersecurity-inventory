@@ -152,6 +152,13 @@
       "price": "Free"
     },
     {
+      "name": "LOOBins",
+      "website": "https://www.loobins.io/",
+      "source": "https://github.com/infosecB/LOOBins",
+      "description": "Living Off the Orchard macOS Binaries; curated list/cheatsheet of macOS binaries that can be exploited by an attacker for malicious purpose",
+      "price": "Free"
+    },
+    {
       "name": "Malware Traffic Analysis",
       "website": "https://www.malware-traffic-analysis.net/",
       "description": "Malware traffic analysis blog and pastebin posts with pcap and malware samples attached; traffic analysis exercises",
