@@ -435,6 +435,15 @@
       "online": "False"
     },
     {
+      "name": "PASTIS",
+      "website": "https://quarkslab.github.io/pastis/index.html",
+      "source": "https://github.com/quarkslab/pastis",    
+      "description": "Fuzzing framework aiming at combining various software testing techniques within the same workflow to perform collaborative fuzzing also called ensemble fuzzing; supported engines are Honggfuzz, AFL++, TritonDSE",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pe-bear",
       "website": "https://hshrzd.wordpress.com/pe-bear/",
       "description": "PE reverse tool: recognizes packers, fast disassembler, visualization of sections layout, selective comparing of two chosen PE files",
