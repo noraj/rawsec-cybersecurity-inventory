@@ -131,6 +131,15 @@
       "online": "False"
     },
     {
+      "name": "KeePwn",
+      "tool": "CrackMapExec",
+      "source": "https://github.com/Orange-Cyberdefense/KeePwn",
+      "description": "Automate KeePass discovery and secret extraction",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Mona",
       "tool": "Immunity Debugger",
       "source": "https://github.com/corelan/mona",
