@@ -155,6 +155,15 @@
       "online": "True"
     },
     {
+      "name": "Decompiler Explorer",
+      "website": "https://dogbolt.org",
+      "source": "https://github.com/decompiler-explorer/decompiler-explorer",
+      "description": "Multi-decompiler engine; supports angr, BinaryNinja, Boomerang, dewolf, Ghidra, Hex-Rays, RecStudio, Reko, Relyze, RetDec, Snowman",
+      "language": "Python",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Defuse online disassembler",
       "website": "https://defuse.ca/online-x86-assembler.htm",
       "description": "Online x86 (32/64 bits) assembler and disassembler",
@@ -437,7 +446,7 @@
     {
       "name": "PASTIS",
       "website": "https://quarkslab.github.io/pastis/index.html",
-      "source": "https://github.com/quarkslab/pastis",    
+      "source": "https://github.com/quarkslab/pastis",
       "description": "Fuzzing framework aiming at combining various software testing techniques within the same workflow to perform collaborative fuzzing also called ensemble fuzzing; supported engines are Honggfuzz, AFL++, TritonDSE",
       "language": "Python",
       "price": "Free",
