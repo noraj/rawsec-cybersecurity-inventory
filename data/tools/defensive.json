@@ -50,6 +50,14 @@
       "online": "False"
     },
     {
+      "name": "Mercator",
+      "source": "https://github.com/dbarzin/mercator",
+      "description": "Web application to manage the mapping of an information system as described in the Mapping The Information System Guide of the ANSSI",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pandora",
       "website": "https://pandora.circl.lu/",
       "source": "https://github.com/pandora-analysis/pandora",
