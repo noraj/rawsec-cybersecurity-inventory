@@ -160,6 +160,14 @@
       "online": "False"
     },
     {
+      "name": "GeoWordlists",
+      "source": "https://github.com/p0dalirius/GeoWordlists",
+      "description": "Generate wordlists of passwords containing cities at a defined distance around the client city",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GoCrack",
       "source": "https://github.com/fireeye/gocrack",
       "description": "Management frontend for hash cracking tools, supporting hashcat",
