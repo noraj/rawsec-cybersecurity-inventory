@@ -34,6 +34,15 @@
       "keywords": "anti-virus, C2"
     },
     {
+      "name": "CarbonCopy",
+      "source": "https://github.com/paranoidninja/CarbonCopy",
+      "description": "Create a spoofed certificate of any online website and signs an executable for AV Evasion; works for Windows and Linux",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus, signature"
+    },
+    {
       "name": "ConfuserEx",
       "source": "https://github.com/mkaring/ConfuserEx",
       "description": "Protector for .NET applications",
