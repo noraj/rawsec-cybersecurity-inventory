@@ -26,6 +26,15 @@
       "keywords": "anti-virus, C2"
     },
     {
+      "name": "CarbonCopy",
+      "source": "https://github.com/paranoidninja/CarbonCopy",
+      "description": "A tool which creates a spoofed certificate of any online website and signs an Executable for AV Evasion. Works for both Windows and Linux ",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus, Evasion, signature"
+    },
+    {
       "name": "Cortex XDR Config Extractor",
       "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
       "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
