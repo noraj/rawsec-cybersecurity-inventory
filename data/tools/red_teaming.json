@@ -85,6 +85,14 @@
       "blackarch": "gophish"
     },
     {
+      "name": "graphcat",
+      "source": "https://github.com/Orange-Cyberdefense/graphcat",
+      "description": "Generate graphs and charts based on password cracking resul",
+      "language": "python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gscript",
       "source": "https://github.com/gen0cide/gscript",
       "description": "Genesis Scripting Engine; framework to rapidly implement custom droppers for all three major operating systems",
