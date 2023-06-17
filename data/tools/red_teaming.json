@@ -342,6 +342,15 @@
       "online": "False"
     },
     {
+      "name": "Shellcrypt",
+      "source": "https://github.com/iilegacyyii/Shellcrypt",
+      "description": "A QoL tool to obfuscate shellcode. In the future will be able to chain encoding/encryption/compression methods. ",
+      "language": "python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "shellcode, obfuscation"
+    },
+    {
       "name": "Shelltropy",
       "source": "https://github.com/kleiton0x00/Shelltropy/",
       "description": "A technique to hide malicious shellcode based on low-entropy via Shannon encoding",
