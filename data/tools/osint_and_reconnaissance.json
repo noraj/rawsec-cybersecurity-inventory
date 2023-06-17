@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "alterx",
+      "source": "https://github.com/projectdiscovery/alterx",
+      "description": "Customizable subdomain wordlist generator using DSL",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Amass",
       "website": "https://www.owasp.org/index.php/OWASP_Amass_Project",
       "source": "https://github.com/OWASP/Amass/",
