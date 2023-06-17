@@ -144,6 +144,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "LinkedInDumper",
+      "source": "https://github.com/l4rm4nd/LinkedInDumper",
+      "description": "Python 3 script to dump company employees from LinkedIn API ",
+      "language": "python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Linkedin"
+    },
+    {
       "name": "LP-DB",
       "website": "https://lp-db.github.io/lp-db/",
       "source": "https://github.com/lp-db/lp-db",
