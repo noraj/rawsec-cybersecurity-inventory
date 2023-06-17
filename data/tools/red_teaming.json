@@ -1,6 +1,13 @@
 {
   "tools": [
     {
+      "name": "ADCSKiller",
+      "description": "An ADCS Exploitation Automation Tool Weaponizing Certipy and Coercer",
+      "price": "Free",
+      "online": "False",
+      "keywords": "ADCS, certipy"
+    },
+    {
       "name": "AntiScan.Me",
       "website": "https://antiscan.me/",
       "description": "Multi-AV checker that doesn't distribute the check results, based on Dyncheck.com",
