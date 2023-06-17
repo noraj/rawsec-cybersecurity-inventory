@@ -93,6 +93,15 @@
       "online": "False"
     },
     {
+      "name": "Hades",
+      "source": "https://github.com/f1zm0/hades",
+      "description": "Shellcode loader that combines multiple evasion techniques with the aim of bypassing the defensive mechanisms commonly used by modern AV/EDRs",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus, bypass, obfuscation"
+    },
+    {
       "name": "Havoc",
       "source": "https://github.com/HavocFramework/Havoc",
       "description": "Malleable post-exploitation command and control framework",
