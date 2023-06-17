@@ -119,6 +119,14 @@
       "blackarch": "gophish"
     },
     {
+      "name": "Go365",
+      "source": "https://github.com/optiv/Go365",
+      "description": "Password spraying tool for Office 365 (Outlook etc)",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "gscript",
       "source": "https://github.com/gen0cide/gscript",
       "description": "Genesis Scripting Engine; framework to rapidly implement custom droppers for all three major operating systems",
