@@ -26,6 +26,15 @@
       "keywords": "anti-virus, C2"
     },
     {
+      "name": "ConfuserEx",
+      "source": "https://github.com/mkaring/ConfuserEx",
+      "description": "An open-source, free protector for .NET applications ",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "packer"
+    },
+    {
       "name": "Cortex XDR Config Extractor",
       "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
       "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
