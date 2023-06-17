@@ -350,6 +350,15 @@
       "online": "False"
     },
     {
+      "name": "silver",
+      "source": "https://github.com/BishopFox/sliver",
+      "description": "Sliver is an open source cross-platform adversary emulation/red team framework",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C2"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
