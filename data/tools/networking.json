@@ -409,8 +409,8 @@
     {
       "name": "LDAPmonitor",
       "source": "https://github.com/p0dalirius/LDAPmonitor",
-      "description": "Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration! ",
-      "language": "python",
+      "description": "Monitor creation, deletion and changes to LDAP objects live during pentest or system administration",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
