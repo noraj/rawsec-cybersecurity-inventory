@@ -162,6 +162,15 @@
       "online": "False"
     },
     {
+      "name": "Katana",
+      "source": "https://github.com/projectdiscovery/katana",
+      "description": "A next-generation crawling and spidering framework",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "crawling, spidering"
+    },
+    {
       "name": "King Phisher",
       "source": "https://github.com/rsmusllp/king-phisher",
       "description": "A tool for testing and promoting user awareness by simulating real world phishing attacks",
