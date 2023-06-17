@@ -28,11 +28,11 @@
     {
       "name": "CarbonCopy",
       "source": "https://github.com/paranoidninja/CarbonCopy",
-      "description": "A tool which creates a spoofed certificate of any online website and signs an Executable for AV Evasion. Works for both Windows and Linux ",
+      "description": "Create a spoofed certificate of any online website and signs an executable for AV Evasion; works for Windows and Linux",
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "anti-virus, Evasion, signature"
+      "keywords": "anti-virus, signature"
     },
     {
       "name": "Cortex XDR Config Extractor",
