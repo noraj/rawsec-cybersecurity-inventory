@@ -181,6 +181,15 @@
       "blackarch": "merlin-server"
     },
     {
+      "name": "MFASweep",
+      "source": "https://github.com/dafthack/MFASweep",
+      "description": "A tool for checking if MFA is enabled on multiple Microsoft Services",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Bypass, MFA, Azure"
+    },
+    {
       "name": "Mística",
       "source": "https://github.com/IncideDigital/Mistica",
       "description": "Allows to embed data into application layer protocol fields, with the goal of establishing a bi-directional channel for arbitrary communications; supports encapsulation into HTTP, HTTPS, DNS and ICMP protocols",
