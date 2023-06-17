@@ -3,7 +3,7 @@
     {
       "name": "alterx",
       "source": "https://github.com/projectdiscovery/alterx",
-      "description": "   Fast and customizable subdomain wordlist generator using DSL.",
+      "description": "Customizable subdomain wordlist generator using DSL",
       "language": "Go",
       "price": "Free",
       "online": "False"
