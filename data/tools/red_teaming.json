@@ -183,11 +183,11 @@
     {
       "name": "MFASweep",
       "source": "https://github.com/dafthack/MFASweep",
-      "description": "A tool for checking if MFA is enabled on multiple Microsoft Services",
+      "description": "Check if MFA is enabled on multiple Microsoft services",
       "language": "PowerShell",
       "price": "Free",
       "online": "False",
-      "keywords": "Bypass, MFA, Azure"
+      "keywords": "Azure, O365, Exchange, ADFS"
     },
     {
       "name": "Mística",
