@@ -317,14 +317,6 @@
       "online": "False"
     },
     {
-      "name": "reGeorg",
-      "source": "https://github.com/sensepost/reGeorg",
-      "description": "SOCKS proxies through the DMZ for pivoting",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Ruler",
       "source": "https://github.com/sensepost/ruler",
       "description": "Interact with Exchange servers remotely, through either the MAPI/HTTP or RPC/HTTP to abuse the client-side Outlook features and gain a shell",

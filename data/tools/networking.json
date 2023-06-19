@@ -737,6 +737,14 @@
       "online": "False"
     },
     {
+      "name": "reGeorg",
+      "source": "https://github.com/sensepost/reGeorg",
+      "description": "SOCKS proxies through the DMZ for pivoting",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Responder",
       "source": "https://github.com/SpiderLabs/Responder",
       "description": "LLMNR, NBT-NS and MDNS poisoner to intercept authentication requests/answers",
