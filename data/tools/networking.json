@@ -407,6 +407,14 @@
       "online": "False"
     },
     {
+      "name": "LDAPmonitor",
+      "source": "https://github.com/p0dalirius/LDAPmonitor",
+      "description": "Monitor creation, deletion and changes to LDAP objects live during pentest or system administration",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Ligolo",
       "source": "https://github.com/sysdream/ligolo",
       "description": "Pivot / reverse tunneling tool with SOCKS5 et TCP tunnel support",
