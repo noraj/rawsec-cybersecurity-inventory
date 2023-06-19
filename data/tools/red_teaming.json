@@ -36,7 +36,7 @@
     {
       "name": "CredMaster",
       "source": "https://github.com/knavesec/CredMaster",
-      "description": "Password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
+      "description": "Password spraying, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
       "language": "Python",
       "price": "Free",
       "online": "False"
