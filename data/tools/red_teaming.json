@@ -403,6 +403,14 @@
       "online": "False"
     },
     {
+      "name": "Shellcrypt",
+      "source": "https://github.com/iilegacyyii/Shellcrypt",
+      "description": "Obfuscate shellcode using encoding, encryption, compression",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Shelltropy",
       "source": "https://github.com/kleiton0x00/Shelltropy/",
       "description": "A technique to hide malicious shellcode based on low-entropy via Shannon encoding",
