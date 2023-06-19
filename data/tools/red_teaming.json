@@ -87,8 +87,8 @@
     {
       "name": "graphcat",
       "source": "https://github.com/Orange-Cyberdefense/graphcat",
-      "description": "Generate graphs and charts based on password cracking resul",
-      "language": "python",
+      "description": "Generate graphs and charts based on password cracking results; supports hashcat and john the ripper potfile as well as ntds file",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
