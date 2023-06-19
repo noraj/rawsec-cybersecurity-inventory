@@ -164,11 +164,10 @@
     {
       "name": "Katana",
       "source": "https://github.com/projectdiscovery/katana",
-      "description": "A next-generation crawling and spidering framework",
+      "description": "Crawling and spidering framework, supporting headless mode, JavaScript, customizable automatic form filling and scope control",
       "language": "Go",
       "price": "Free",
-      "online": "False",
-      "keywords": "crawling, spidering"
+      "online": "False"
     },
     {
       "name": "King Phisher",
