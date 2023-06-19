@@ -121,10 +121,11 @@
     {
       "name": "Go365",
       "source": "https://github.com/optiv/Go365",
-      "description": "Password spraying tool for Office 365 (Outlook etc)",
+      "description": "User enumeration and password guessing for Office 365 / Microsoft365",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords: "Outlook"
     },
     {
       "name": "gscript",
