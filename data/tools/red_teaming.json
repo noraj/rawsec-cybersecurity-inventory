@@ -319,7 +319,7 @@
     {
       "name": "reGeorg",
       "source": "https://github.com/sensepost/reGeorg",
-      "description": "Create SOCKS proxies through the DMZ. Pivot and pwn.",
+      "description": "SOCKS proxies through the DMZ for pivoting",
       "language": "Python",
       "price": "Free",
       "online": "False"
