@@ -119,6 +119,15 @@
       "blackarch": "gophish"
     },
     {
+      "name": "Go365",
+      "source": "https://github.com/optiv/Go365",
+      "description": "User enumeration and password guessing for Office 365 / Microsoft365",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Outlook"
+    },
+    {
       "name": "gscript",
       "source": "https://github.com/gen0cide/gscript",
       "description": "Genesis Scripting Engine; framework to rapidly implement custom droppers for all three major operating systems",
