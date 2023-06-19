@@ -379,6 +379,14 @@
       "online": "False"
     },
     {
+      "name": "LinkedInDumper",
+      "source": "https://github.com/l4rm4nd/LinkedInDumper",
+      "description": "Dump company employees from LinkedIn API",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "LittleBrother",
       "source": "https://github.com/lulz3xploit/littlebrother",
       "description": "Information gathering (OSINT) on a person (EU), checks social networks and Pages Jaunes",
