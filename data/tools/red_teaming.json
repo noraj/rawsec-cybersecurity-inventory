@@ -60,6 +60,14 @@
       "online": "False"
     },
     {
+      "name": "CredMaster",
+      "source": "https://github.com/knavesec/CredMaster",
+      "description": "Password spraying, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CSSG",
       "source": "https://github.com/RCStep/CSSG",
       "description": "Cobalt Strike Shellcode Generator; script used to more easily generate and format beacon shellcode in Cobalt Strike",
