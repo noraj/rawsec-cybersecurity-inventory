@@ -263,6 +263,14 @@
       "online": "False"
     },
     {
+      "name": "HoundSploit",
+      "source": "https://github.com/nicolas-carolo/houndsploit",
+      "description": "Graphical search engine for Exploit-DB",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Identity Leak Checker",
       "website": "https://sec.hpi.de/ilc/",
       "description": "Service to check if an account has been compromised in a data breach, send the breaches by email",
