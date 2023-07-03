@@ -291,7 +291,8 @@
       "description": "Turn single threaded command line applications into a multi-threaded application with CIDR and glob support",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "interlace"
     },
     {
       "name": "itdis",
