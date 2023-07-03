@@ -9,6 +9,14 @@
       "online": "False"
     },
     {
+      "name": "BlueHound",
+      "source": "https://github.com/zeronetworks/BlueHound",
+      "description": "Helps blue teams pinpoint the security issues that actually matter by combining information about user permissions, network access and unpatched vulnerabilities, to reveal the paths attackers would take if they were inside the network",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DARKSURGEON",
       "source": "https://github.com/cryps1s/DARKSURGEON",
       "description": "Windows project to empower incident response, digital forensics, malware analysis, and network defense with HashiCorp Packer and Vagrant",
