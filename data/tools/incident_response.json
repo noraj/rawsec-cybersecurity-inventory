@@ -82,6 +82,14 @@
       "blackarch": "sigma"
     },
     {
+      "name": "ThreatHound",
+      "source": "https://github.com/MazX0p/ThreatHound",
+      "description": "Windows event log file viewer and analyser",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "uncoder.io",
       "source": "https://uncoder.io/",
       "description": "Translate sigma rules into various SIEM, EDR, and XDR formats",
