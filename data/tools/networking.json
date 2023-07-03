@@ -373,6 +373,14 @@
       "online": "False"
     },
     {
+      "name": "ImproHound",
+      "source": "https://github.com/improsec/ImproHound",
+      "description": "Identify the attack paths in BloodHound breaking AD tiering",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Jaqen",
       "source": "https://github.com/linkedin/jaqen",
       "description": "Abstracts away the complex steps required to perform a DNS rebind and exposes a HTML5 Fetch interface which transparently triggers a DNS rebind",
