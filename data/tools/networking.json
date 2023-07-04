@@ -412,7 +412,9 @@
       "description": "Toolkit for abusing unconstrained delegation",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "kerberos, DNS, LDAP, RPC, SpoolService",
+      "blackarch": "krbrelayx"
     },
     {
       "name": "LDAPmonitor",
