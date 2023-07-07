@@ -487,6 +487,16 @@
       "online": "False"
     },
     {
+      "name": "modifyCertTemplate",
+      "website": "https://www.fortalicesolutions.com/posts/adcs-playing-with-esc4",
+      "source": "https://github.com/fortalice/modifyCertTemplate",
+      "description": "Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "ESC4, ACL, ACE"
+    },
+    {
       "name": "naabu",
       "website": "https://projectdiscovery.io",
       "source": "https://github.com/projectdiscovery/naabu",
