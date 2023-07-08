@@ -116,6 +116,16 @@
       "online": "False"
     },
     {
+      "name": "Semgrep",
+      "website": "https://semgrep.dev/",
+      "source": "https://github.com/returntocorp/semgrep",
+      "description": "Static analysis engine for detecting vulnerabilities for many languages",
+      "language": "Ocaml",
+      "price": "Paid",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "SonarQube",
       "website": "http://www.sonarqube.org/",
       "source": "https://github.com/SonarSource/sonarqube",
