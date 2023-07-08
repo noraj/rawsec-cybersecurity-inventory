@@ -171,6 +171,15 @@
       "online": "False"
     },
     {
+      "name": "weggli",
+      "source": "https://github.com/weggli-rs/weggli",
+      "description": "Semantic search tool for C and C++ designed to help security researchers identify interesting functionality in large codebases",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "wpBullet",
       "source": "https://github.com/webarx-security/wpbullet",
       "description": "Static code analysis for WordPress Plugins and Themes (and PHP)",
