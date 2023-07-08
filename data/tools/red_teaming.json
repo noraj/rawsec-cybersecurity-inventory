@@ -145,6 +145,15 @@
       "keywords": "anti-virus, bypass, obfuscation"
     },
     {
+      "name": "Hades C2",
+      "source": "https://github.com/Lavender-exe/Hades-C2",
+      "description": "Basic command and control server",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C"
+    },
+    {
       "name": "Havoc",
       "source": "https://github.com/HavocFramework/Havoc",
       "description": "Malleable post-exploitation command and control framework",
