@@ -196,6 +196,14 @@
       "online": "False"
     },
     {
+      "name": "LightsOut",
+      "source": "https://github.com/icyguider/LightsOut",
+      "description": "Generate an obfuscated DLL that will disable AMSI & ETW",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "link",
       "source": "https://github.com/postrequest/link",
       "description": "Command and control framework; HTTPS communication, process injection, in-memory .NET assembly execution, SharpCollection tools, sRDI implementation for shellcode generation, Windows link reloads DLLs from disk into current process",
