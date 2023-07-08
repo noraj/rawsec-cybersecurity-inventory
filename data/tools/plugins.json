@@ -131,6 +131,15 @@
       "online": "False"
     },
     {
+      "name": "IIS Tilde Enumeration Scanner",
+      "tool": "Burp Suite",
+      "source": "https://github.com/cyberaz0r/Burp-IISTildeEnumerationScanner",
+      "description": "Check for the IIS tilde enumeration / IIS 8.3 short filename disclosure vulnerability and to exploit it by enumerating all the short names in an IIS web server",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "KeePwn",
       "tool": "CrackMapExec",
       "source": "https://github.com/Orange-Cyberdefense/KeePwn",
