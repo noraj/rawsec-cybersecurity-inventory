@@ -453,6 +453,14 @@
       "blackarch": "socialfish"
     },
     {
+      "name": "Synergy Httpx",
+      "source": "https://github.com/t3l3machus/Synergy-httpx",
+      "description": "HTTP(S) server designed to assist in red teaming activities such as receiving intercepted data via POST requests and serving content dynamically",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SysWhisper3",
       "source": "https://github.com/klezVirus/SysWhispers3",
       "description": "SysWhispers on Steroid, AV/EDR evasion via direct system calls",
