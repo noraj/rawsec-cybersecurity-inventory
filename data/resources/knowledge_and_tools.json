@@ -183,6 +183,12 @@
       "price": "Free"
     },
     {
+      "name": "MichMich",
+      "website": "https://michmich.eu/",
+      "description": "Personal pentest notes and cheat sheets",
+      "price": "Free"
+    },
+    {
       "name": "Microsoft Wont-Fix-List",
       "source": "https://github.com/cfalta/MicrosoftWontFixList",
       "description": "List of vulnerabilities or design flaws Microsoft does not intend to fix",
