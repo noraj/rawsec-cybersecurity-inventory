@@ -14,6 +14,12 @@
       "price": "Free"
     },
     {
+      "name": "Bug Bounty Hunting",
+      "website": "https://www.bugbountyhunting.com/",
+      "description": "Search engine for bug bounty writeups, payloads and tips",
+      "price": "Free"
+    },
+    {
       "name": "Bug Bounty Reference",
       "source": "https://github.com/ngalongc/bug-bounty-reference",
       "description": "A list of bug bounty write-up that is categorized by the bug nature",
