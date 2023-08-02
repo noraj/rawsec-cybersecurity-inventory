@@ -25,6 +25,12 @@
       "price": "Free"
     },
     {
+      "name": "CVExploits",
+      "website": "https://cvexploits.io/",
+      "description": "Search engine to find exploits related to a CVE",
+      "price": "Free"
+    },
+    {
       "name": "Debian security issues",
       "website": "https://security-tracker.debian.org/tracker/",
       "description": "CVE affecting Debian",
