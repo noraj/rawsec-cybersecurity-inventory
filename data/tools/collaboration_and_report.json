@@ -274,10 +274,9 @@
     {
       "name": "Reconmap",
       "website": "https://reconmap.com/",
-      "source": "https://github.com/reconmap/reconmap",
       "description": "Penetration test planning, automation and reporting",
       "language": "PHP",
-      "price": "Free",
+      "price": "Paid",
       "online": "False",
       "keywords": "markdown, 2FA"
     },
