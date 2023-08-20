@@ -145,6 +145,13 @@
       "price": "Free"
     },
     {
+      "name": "HijackLibs",
+      "website": "https://hijacklibs.net/",
+      "source": "https://github.com/wietze/HijackLibs",
+      "description": "Tracking publicly disclosed DLL hijacking opportunities",
+      "price": "Free"
+    },
+    {
       "name": "HTML5 Security Cheatsheet",
       "website": "http://html5sec.org/",
       "description": "XSS vector making use of HTML5, HTML4, CSS, DOM, UFT7, SVG, JSON, etc ...",
