@@ -320,7 +320,17 @@
       "description": "Active Directory domain information dumper",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "goddi"
+    },
+    {
+      "name": "Group3r",
+      "source": "https://github.com/Group3r/Group3r",
+      "description": "Enumerate relevant settings in AD Group Policy, identify exploitable misconfigurations",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "GPO, DC, SYSVOL, ACL"
     },
     {
       "name": "HASSH",
