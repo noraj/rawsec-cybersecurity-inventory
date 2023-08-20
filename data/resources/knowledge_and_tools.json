@@ -151,6 +151,13 @@
       "price": "Free"
     },
     {
+      "name": "Linux kernel syscall tables",
+      "website": "https://syscalls.mebeim.net/",
+      "source": "https://github.com/mebeim/linux-syscalls",
+      "description": "Browsable linux kernel syscall tables built with Systrack",
+      "price": "Free"
+    },
+    {
       "name": "LOLBAS",
       "website": "https://lolbas-project.github.io/",
       "source": "https://github.com/LOLBAS-Project/LOLBAS",
