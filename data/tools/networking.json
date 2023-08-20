@@ -460,6 +460,15 @@
       "keywords": "SOCKS4, SOCKS5"
     },
     {
+      "name": "MAN-SPIDER",
+      "source": "https://github.com/blacklanternsecurity/MANSPIDER",
+      "description": "Crawl SMB shares for juicy information; supports file content searching and regex",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "manspider"
+    },
+    {
       "name": "Masscan",
       "source": "https://github.com/robertdavidgraham/masscan",
       "description": "Port scanner for massive networks",
