@@ -1,5 +1,5 @@
 # Official framework image. Look for the different tagged releases at:
-# https://hub.docker.com/r/library/node/tags/
+# https://hub.docker.com/r/oven/bun/tags
 image: oven/bun:1.0.0
 
 stages:
@@ -18,11 +18,12 @@ test:inventory:
     - master
 
 test:doc:
+  image: node:20 # docusaurus doesn't support bun https://github.com/facebook/docusaurus/issues/9294
   stage: test
   script:
     - cd docusaurus
-    - bun install
-    - bun run build
+    - yarn install
+    - yarn run build
   only:
     - merge_requests
   except:
@@ -31,29 +32,37 @@ test:doc:
 test:data:
   stage: test
   script:
-    # won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
     - bun install
-    # - bun run test
-    - bun install --global jest-cli
-    - jest
+    - bun test
   only:
     - merge_requests
   except:
     - master
 
-pages:
+pages:doc:
   stage: deploy
+  image: node:20 # docusaurus doesn't support bun https://github.com/facebook/docusaurus/issues/9294
+  script:
+    - cd docusaurus
+    - yarn install
+    - yarn run build
+  artifacts:
+    paths:
+      - docusaurus/build/
+  only:
+    - master
+
+pages:main:
+  stage: deploy
+  dependencies:
+    - pages:doc
   script:
     - bun install --global gulp-cli netlify-cli
     - bun install # inventory dependencies
     - bun run build # build the inventory
     - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
-    - cd docusaurus
-    - bun install # documentation dependencies
-    - bun run build # build the documentation
-    - cp -rT build/ ../public/docs # copying the documentation
-    - cd ..
+    - cp -rT docusaurus/build/ public/docs # copying the documentation
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
   artifacts:
     paths:

@@ -28,6 +28,5 @@ title: Directory structure
 ├── README.md
 ├── sass
 │   └── bulma.sass # Where the style is defined
-├── temp # Temporary folder for building the static JSON API
-└── yarn.lock
+└── temp # Temporary folder for building the static JSON API
 ```

@@ -13,9 +13,6 @@ const sass = gulpSass(dartSass);
 import gulpConnect from 'gulp-connect';
 import gulpReplace from 'gulp-replace';
 
-// Doesn't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
-// import { jest as gulpJest } from 'gulp-jest';
-
 import { exec } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -39,8 +36,6 @@ task('default', series('clean', 'build'));
 task('default').description = 'clean + build';
 task('pug', series(pug_data, pug_src));
 task('pug').description = 'Only build content and templates without assets, the API and JS dependencies';
-task('test', series(test_data));
-task('test').description = 'Run test validating the JSON data';
 task('count', series(clean, pug_data, count_items));
 task('count').description = 'Count the number of items (tools, resources, etc.)';
 
@@ -182,18 +177,6 @@ function webserver() {
         port: 3000
   });
 };
-
-// validate JSON data files
-function test_data() {
-    return src('make-scripts/json-validations')
-        .pipe(gulpJest({
-            "preprocessorIgnorePatterns": [
-                "<rootDir>/dist/", "<rootDir>/node_modules/"
-            ],
-        "automock": false
-        }));
-};
-
 
 // count the number of data items (tools, resources, etc.)
 async function count_items() {

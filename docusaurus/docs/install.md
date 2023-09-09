@@ -7,8 +7,8 @@ title: Installation and building
 Install dependencies:
 
 ```plaintext
-$ yarn global add gulp-cli
-$ yarn install
+$ bun install --global gulp-cli
+$ bun install
 ```
 
 Now you can simply build the site by using the following command:
@@ -36,15 +36,15 @@ $ cd docusaurus
 Install dependencies:
 
 ```plaintext
-$ yarn install
+$ bun install
 ```
 
 Build the documentation:
 
 ```plaintext
-$ yarn run build
+$ bun run build
 ```
 
-You can manually browse it in the `build/` (`docusaurus/build/`) folder or run `yarn start`.
+You can manually browse it in the `build/` (`docusaurus/build/`) folder or run `bun start`.
 
 For more information on how the documentation works, check [Docusaurus](https://docusaurus.io/) website.
