@@ -7,11 +7,12 @@ stages:
   - deploy
 
 test:inventory:
+  image: node:20 # gulp doesn't support bun https://github.com/gulpjs/gulp/issues/2737
   stage: test
   script:
-    - bun install --global gulp-cli
-    - bun install
-    - bun run build
+    - yarn global add gulp-cli
+    - yarn install
+    - yarn run build
   only:
     - merge_requests
   except:
@@ -41,7 +42,7 @@ test:data:
 
 pages:doc:
   stage: deploy
-  image: node:20 # docusaurus doesn't support bun https://github.com/facebook/docusaurus/issues/9294
+  image: node:20
   script:
     - cd docusaurus
     - yarn install
@@ -54,14 +55,20 @@ pages:doc:
 
 pages:main:
   stage: deploy
+  image: node:20 # docusaurus and gulp don't support bun
   dependencies:
     - pages:doc
   script:
-    - bun install --global gulp-cli netlify-cli
-    - bun install # inventory dependencies
-    - bun run build # build the inventory
+    - yarn config set unsafe-perm true
+    - yarn global add gulp-cli netlify-cli
+    - yarn install # inventory dependencies
+    - yarn run build # build the inventory
     - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
+    - cd docusaurus
+    - yarn install # documentation dependencies
+    - yarn run build # build the documentation
+    - cd ..
     - cp -rT docusaurus/build/ public/docs # copying the documentation
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
   artifacts:
