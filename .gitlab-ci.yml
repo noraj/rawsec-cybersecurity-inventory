@@ -1,6 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:18
+image: oven/bun:1.0.0
 
 stages:
   - test
@@ -9,9 +9,9 @@ stages:
 test:inventory:
   stage: test
   script:
-    - yarn global add gulp-cli
-    - yarn install
-    - yarn run build
+    - bun install --global gulp-cli
+    - bun install
+    - bun run build
   only:
     - merge_requests
   except:
@@ -21,8 +21,8 @@ test:doc:
   stage: test
   script:
     - cd docusaurus
-    - yarn install
-    - yarn run build
+    - bun install
+    - bun run build
   only:
     - merge_requests
   except:
@@ -32,9 +32,9 @@ test:data:
   stage: test
   script:
     # won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
-    - yarn install
-    # - yarn run test
-    - yarn global add jest-cli
+    - bun install
+    # - bun run test
+    - bun install --global jest-cli
     - jest
   only:
     - merge_requests
@@ -44,15 +44,14 @@ test:data:
 pages:
   stage: deploy
   script:
-    - yarn config set unsafe-perm true
-    - yarn global add gulp-cli netlify-cli
-    - yarn install # inventory dependencies
-    - yarn run build # build the inventory
+    - bun install --global gulp-cli netlify-cli
+    - bun install # inventory dependencies
+    - bun run build # build the inventory
     - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
     - cd docusaurus
-    - yarn install # documentation dependencies
-    - yarn run build # build the documentation
+    - bun install # documentation dependencies
+    - bun run build # build the documentation
     - cp -rT build/ ../public/docs # copying the documentation
     - cd ..
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
