@@ -1,18 +1,17 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/oven/bun/tags
-image: oven/bun:1.0.0
+image: oven/bun:1.0.2
 
 stages:
   - test
   - deploy
 
 test:inventory:
-  image: node:20 # gulp doesn't support bun https://github.com/gulpjs/gulp/issues/2737
   stage: test
   script:
-    - yarn global add gulp-cli
-    - yarn install
-    - yarn run build
+    - bun add gulp
+    - bun install
+    - bun run build
   only:
     - merge_requests
   except:
