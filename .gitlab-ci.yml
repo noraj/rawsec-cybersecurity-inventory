@@ -1,6 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/oven/bun/tags
-image: oven/bun:1.0.2
+image: oven/bun:1.0.3
 
 stages:
   - test
@@ -9,7 +9,6 @@ stages:
 test:inventory:
   stage: test
   script:
-    - bun add gulp
     - bun install
     - bun run build
   only:
@@ -18,12 +17,11 @@ test:inventory:
     - master
 
 test:doc:
-  image: node:20 # docusaurus doesn't support bun https://github.com/facebook/docusaurus/issues/9294
   stage: test
   script:
     - cd docusaurus
-    - yarn install
-    - yarn run build
+    - bun install
+    - bun run build
   only:
     - merge_requests
   except:
@@ -41,11 +39,10 @@ test:data:
 
 pages:doc:
   stage: deploy
-  image: node:20
   script:
     - cd docusaurus
-    - yarn install
-    - yarn run build
+    - bun install
+    - bun run build
   artifacts:
     paths:
       - docusaurus/build/
@@ -54,19 +51,17 @@ pages:doc:
 
 pages:main:
   stage: deploy
-  image: node:20 # docusaurus and gulp don't support bun
   dependencies:
     - pages:doc
   script:
-    - yarn config set unsafe-perm true
-    - yarn global add gulp-cli netlify-cli
-    - yarn install # inventory dependencies
-    - yarn run build # build the inventory
+    - bun install --global netlify-cli
+    - bun install # inventory dependencies
+    - bun run build # build the inventory
     - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
     - cd docusaurus
-    - yarn install # documentation dependencies
-    - yarn run build # build the documentation
+    - bun install # documentation dependencies
+    - bun run build # build the documentation
     - cd ..
     - cp -rT docusaurus/build/ public/docs # copying the documentation
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
