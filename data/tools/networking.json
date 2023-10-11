@@ -513,7 +513,8 @@
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "ESC4, ACL, ACE"
+      "keywords": "ESC4, ACL, ACE",
+      "blackarch": "modifycerttemplate"
     },
     {
       "name": "naabu",
