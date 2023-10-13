@@ -25,6 +25,16 @@
       "online": "False"
     },
     {
+      "name": "OpenCTI",
+      "website": "https://filigran.io/solutions/products/opencti-threat-intelligence/",
+      "source": "https://github.com/OpenCTI-Platform/opencti",
+      "description": "Platform designed for managing and analyzing cyber threat intelligence knowledge, centralizing data using the STIX2 standard and offering visualization and integration capabilities",
+      "language" :"TypeScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "TTP, MISP, TheHive, MITRE ATT&CK"
+    },
+    {
       "name": "PatrowlHears",
       "website": "https://patrowl.io/products/hears",
       "source": "https://github.com/Patrowl/PatrowlHears",
