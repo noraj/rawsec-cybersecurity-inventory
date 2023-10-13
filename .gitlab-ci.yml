@@ -45,7 +45,7 @@ pages:
   stage: deploy
   script:
     - yarn config set unsafe-perm true
-    - yarn global add gulp-cli netlify-cli
+    - yarn global --ignore-optional add gulp-cli netlify-cli
     - yarn install # inventory dependencies
     - yarn run build # build the inventory
     - mkdir -p public/docs
