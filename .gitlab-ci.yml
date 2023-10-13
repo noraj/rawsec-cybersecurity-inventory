@@ -1,6 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/oven/bun/tags
-image: oven/bun:1.0.3
+image: oven/bun:1.0.6
 
 stages:
   - test

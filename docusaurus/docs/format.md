@@ -26,4 +26,4 @@ title: Format conventions
 
 [editorconfig]: http://editorconfig.org/
 
-[puglint]: https://yarnpkg.com/package/pug-lint
+[puglint]: https://www.npmjs.com/package/pug-lint
