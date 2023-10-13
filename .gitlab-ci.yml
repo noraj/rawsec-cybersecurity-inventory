@@ -1,6 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:18
+image: node:20
 
 stages:
   - test
