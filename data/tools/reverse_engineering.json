@@ -116,6 +116,16 @@
       "online": "False"
     },
     {
+      "name": "CAPEv2",
+      "website":"capesandbox.com/analysis/",
+      "source": "https://github.com/kevoreilly/CAPEv2",
+      "description": "Malware sandbox derived from Cuckoo with the goal of adding automated malware unpacking, config and payload extraction",
+      "language": "Python",
+      "price": "Free",
+      "online": "True",
+      "keywords":"Yara, Surcicata, Debugger"
+    },
+    {
       "name": "ctf_import",
       "website": "http://van.prooyen.com/projects/#ctfimport",
       "source": "https://github.com/docileninja/ctf_import",
