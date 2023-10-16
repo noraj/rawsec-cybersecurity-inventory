@@ -117,7 +117,7 @@
     },
     {
       "name": "CAPEv2",
-      "website":"capesandbox.com/analysis/",
+      "website":"https://capesandbox.com/",
       "source": "https://github.com/kevoreilly/CAPEv2",
       "description": "Malware sandbox derived from Cuckoo with the goal of adding automated malware unpacking, config and payload extraction",
       "language": "Python",
