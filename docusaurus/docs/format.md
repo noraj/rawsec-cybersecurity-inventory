@@ -15,6 +15,13 @@ title: Format conventions
 - Description should be clear, concise, and non-promotional
 - Description should not contain the language since it is already in the `language` field
 - The `keywords` field should not contain words that are already in the description
+- The `language` field value should match [Font Mfizz](http://fizzed.com/oss/font-mfizz) _Programming languages_ name when it exists and be capitalized
+  - Example: `Cplusplus` for `C++` or `Nodejs` for `Node.js`
+- The `blackarch` field could be filled with the BlackArch package name when it exists
+  - You can check if a BlackArch package exist in several ways:
+    - On BA: `pacman -Ss <tool_name>`
+    - On the website: on the [tool page](https://blackarch.org/tools.html)
+    - On the [git repository](https://github.com/BlackArch/blackarch/tree/master/packages)
 
 ## Development
 
