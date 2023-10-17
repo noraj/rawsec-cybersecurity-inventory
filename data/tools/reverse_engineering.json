@@ -330,6 +330,17 @@
       "online": "False"
     },
     {
+      "name": "ImHex",
+      "website": "https://imhex.werwolv.net/",
+      "source": "https://github.com/WerWolv/ImHex",
+      "description": "Hexadecimal editor tailored for reverse engineers; byte patching, data import / export, data inspector, huge file support, file hashing, disassembler for many architectures, data analyzer",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST, pattern, disassembler, YARA",
+      "blackarch": "imhex"
+    },
+    {
       "name": "ImmunityDbg",
       "website": "https://www.immunityinc.com/products/debugger/",
       "description": "Windows debugger with Python scripting support",
