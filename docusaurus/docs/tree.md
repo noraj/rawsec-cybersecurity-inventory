@@ -4,7 +4,7 @@ title: Directory structure
 ---
 ```plaintext
 ├── build/ # The build output reside inside here
-├── CONTRIBUTORS.txt
+├── CONTRIBUTORS.json
 ├── COPYRIGHT
 ├── data/ # JSON files where tools and resources are stored
 ├── docusaurus # Documentation project and source files

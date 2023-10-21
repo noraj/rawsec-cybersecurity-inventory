@@ -1,0 +1,37 @@
+{
+  "contributors": {
+    "description": "This file contains a list of people who have made large contributions.",
+    "author": {
+      "description": "Original website design and content",
+      "name": "Alexandre ZANNI",
+      "gitlab": "noraj",
+      "twitter": "noraj_rawsec"
+    },
+    "contributors": {
+      "description": "Content and improvements",
+      "list": [
+        { "name": "Alexandre PETILLON", "gitlab": "secnum", "twitter": "secnumfr" },
+        { "name": "Ryan DEWHURST", "gitlab": "ethicalhack3r", "twitter": "ethicalhack3r" },
+        { "name": "???", "gitlab": "surround3" },
+        { "name": "Björn KIMMINICH", "gitlab": "bkimminich", "twitter": "bkimminich" },
+        { "name": "Jamie SLOME", "gitlab": "JamieSlome", "twitter": "JamieSlome" },
+        { "name": "Ilya SHAPOSHNIKOV", "gitlab": "drakylar", "twitter": "drakylar" },
+        { "name": "E99p1ant", "gitlab": "wuhan005", "twitter": "wuhan005" },
+        { "name": "Ritvik", "gitlab": "raghav-rama" },
+        { "name": "Jenaye", "gitlab": "jenaye", "twitter": "Jenaye_fr" },
+        { "name": "Maraudery", "gitlab": "maraudery" },
+        { "name": "Neeraj BABU", "gitlab": "SAAneeraj" },
+        { "name": "Félix HERRENSCHMIDT", "gitlab": "Felix83000", "twitter": "felix_hrn" },
+        { "name": "Jamie SANDBERG", "gitlab": "jlsandberg", "twitter": "jamie_sandberg" },
+        { "name": "Milan si", "gitlab": "cr_ft" },
+        { "name": "tuxfobux", "gitlab": "tuxfobux", "twitter": "n1ckn2" },
+        { "name": "Hristiyan IVANOV", "gitlab": "hristiyan.ivanov" },
+        { "name": "Karthikeyan", "gitlab": "arrow996" },
+        { "name": "João Pedro DIAS", "gitlab": "jpdias" },
+        { "name": "Andrew NICHOLS", "gitlab": "fr3nata" },
+        { "name": "Piyush SHARMA", "gitlab": "piyush.offsec", "twitter": "_P1yush_Offs3c_" },
+        { "name": "Steven DIAS", "gitlab": "StevenDias33", "twitter": "Steven_33D" }
+      ]
+    }
+  }
+}

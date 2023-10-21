@@ -30,3 +30,51 @@ block content
                     a(href='https://gitlab.com/rawsec/rawsec-cybersecurity-list/-/issues/?sort=created_date&state=opened&label_name%5B%5D=type%3A%3Anew%20content&first_page_size=20') a list
                     |  of tool to add if you have no inspiration.
                 p Note: you don't even need a Gitlab account if you don't want to, you can log in with your Github, Google or Twitter account.
+
+            h2.title.is-2#contributors Contributors
+
+            p.has-text-weight-bold
+                = contributors.author.description
+
+            .field.is-grouped.is-grouped-multiline
+                .control
+                    span.tag.is-black
+                        = contributors.author.name
+                .control
+                    a(href="https://gitlab.com/" + contributors.author.gitlab)
+                        .tags.has-addons
+                            span.tag.is-dark
+                                = contributors.author.gitlab
+                            span.tag.icon.is-primary
+                                i.fab.fa-gitlab
+                .control
+                    a(href="https://twitter.com/" + contributors.author.twitter)
+                        .tags.has-addons
+                            span.tag.is-dark
+                                = contributors.author.twitter
+                            span.tag.icon.is-primary
+                                i.fab.fa-twitter
+
+            p.has-text-weight-bold
+                = contributors.contributors.description
+            
+            each contributor in contributors.contributors.list
+                .field.is-grouped.is-grouped-multiline
+                    .control
+                        span.tag.is-primary.is-light
+                            = contributor.name
+                    .control
+                        a(href="https://gitlab.com/" + contributor.gitlab)
+                            .tags.has-addons
+                                span.tag.is-dark
+                                    = contributor.gitlab
+                                span.tag.icon.is-primary
+                                    i.fab.fa-gitlab
+                    if contributor.twitter
+                        .control
+                            a(href="https://twitter.com/" + contributor.twitter)
+                                .tags.has-addons
+                                    span.tag.is-dark
+                                        = contributor.twitter
+                                    span.tag.icon.is-primary
+                                        i.fab.fa-twitter

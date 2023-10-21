@@ -15,7 +15,7 @@ title: Adding a tool/resource
 - Find the right JSON file in the `data/` folder and add your tool or resource, it's easy
   + Example 1: `data/tools/reverse_engineering.json` for an reverse engineering tool
   + Example 2: `data/ctf_platforms/jeopardy.json` for a jeopardy CTF platform
-- Don't forget to add yourself to `CONTRIBUTORS.txt` if it is your first contribution and to create your badge on the `Contributions` section of `README.md`
+- Don't forget to add yourself to `CONTRIBUTORS.json` if it is your first contribution and to create your badge on the `Contributions` section of `README.md`
 
 Example of JSON data for a tool:
 
@@ -183,10 +183,10 @@ git checkout -b add-my-tool
 
 #### Make necessary changes and commit those changes
 
-Now open `CONTRIBUTORS.txt` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
+Now open `CONTRIBUTORS.json` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
 
 ```plaintext
-git add CONTRIBUTORS.txt
+git add CONTRIBUTORS.json
 ```
 
 Now commit those changes using the `git commit` command:

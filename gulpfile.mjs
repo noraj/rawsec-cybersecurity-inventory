@@ -87,6 +87,9 @@ function pug_src() {
         .pipe(gulpData(function() {
             return JSON.parse(fs.readFileSync('pug/count.json'));
         }))
+        .pipe(gulpData(function() {
+            return JSON.parse(fs.readFileSync('CONTRIBUTORS.json'));
+        }))
         .pipe(gulpPug({
             pretty: true,
         }))
