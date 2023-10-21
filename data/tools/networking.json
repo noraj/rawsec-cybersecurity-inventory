@@ -357,6 +357,14 @@
       "online": "False"
     },
     {
+      "name": "hoaxshell",
+      "source": "https://github.com/t3l3machus/hoaxshell",
+      "description": "Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "HTTPRebind",
       "source": "https://github.com/daeken/httprebind",
       "description": "Automatic DNS rebinding-based SSRF attacks",
