@@ -31,11 +31,11 @@ test:doc:
 test:data:
   stage: test
   script:
-    # won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
     - yarn install
-    # - yarn run test
+    # gulp-jest won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
+    # jest-cli to the rescue
     - yarn global add jest-cli
-    - jest
+    - yarn run test
   only:
     - merge_requests
   except:

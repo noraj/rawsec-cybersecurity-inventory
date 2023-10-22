@@ -39,8 +39,10 @@ task('default', series('clean', 'build'));
 task('default').description = 'clean + build';
 task('pug', series(pug_data, pug_src));
 task('pug').description = 'Only build content and templates without assets, the API and JS dependencies';
+/* https://github.com/Nerajno/gulp-jest/issues/77
 task('test', series(test_data));
 task('test').description = 'Run test validating the JSON data';
+*/
 task('count', series(clean, pug_data, count_items));
 task('count').description = 'Count the number of items (tools, resources, etc.)';
 
@@ -187,6 +189,7 @@ function webserver() {
 };
 
 // validate JSON data files
+/* https://github.com/Nerajno/gulp-jest/issues/77
 function test_data() {
     return src('make-scripts/json-validations')
         .pipe(gulpJest({
@@ -196,7 +199,7 @@ function test_data() {
         "automock": false
         }));
 };
-
+*/
 
 // count the number of data items (tools, resources, etc.)
 async function count_items() {
