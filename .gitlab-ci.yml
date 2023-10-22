@@ -1,6 +1,7 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:21
+# can't update to node 21 until sass is fixed, see https://github.com/dart-lang/sdk/issues/53784
+image: node:20
 
 stages:
   - test
