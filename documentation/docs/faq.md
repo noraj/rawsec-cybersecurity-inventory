@@ -1,6 +1,7 @@
 ---
-id: faq
+layout: default
 title: Frequently Asked Questions
+nav_order: 4
 ---
 ## There are already a lot of security related lists, why another one?
 
@@ -16,11 +17,11 @@ Because I was upset to see that a lot of people think there is only _CTFd_ as CT
 
 ## This inventory is huge, do you need help?
 
-Yes, help me keep it up to date. Please take a look at [Contribution Guidelines](add.md).
+Yes, help me keep it up to date. Please take a look at [Contribution Guidelines]({% link docs/contribution_guidelines/add.md %}).
 
 ## Are you sure this is ultimate?
 
-If you think this is not, please [contribute](add.md) to make it ultimate!
+If you think this is not, please [contribute]({% link docs/contribution_guidelines/add.md %}) to make it ultimate!
 
 ## My tool is referenced here, what can I do more?
 

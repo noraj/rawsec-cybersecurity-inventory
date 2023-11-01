@@ -1,7 +1,12 @@
 ---
-id: usage
-title: User guide
+layout: default
+title: Usage
+parent: User guide
+nav_order: 1
 ---
+- TOC
+{:toc}
+
 ## Categories
 
 There are 4 main categories:

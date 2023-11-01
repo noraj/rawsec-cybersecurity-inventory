@@ -1,13 +1,15 @@
 ---
-id: tree
+layout: default
 title: Directory structure
+parent: Development guidelines
+nav_order: 2
 ---
 ```plaintext
 ├── build/ # The build output reside inside here
 ├── CONTRIBUTORS.json
 ├── COPYRIGHT
 ├── data/ # JSON files where tools and resources are stored
-├── docusaurus # Documentation project and source files
+├── documentation # Documentation project and source files
 ├── gulpfile.mjs # Building script
 ├── img/ # Badges and logos are here
 ├── js/

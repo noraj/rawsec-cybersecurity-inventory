@@ -1,7 +1,6 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-# can't update to node 21 until sass is fixed, see https://github.com/dart-lang/sdk/issues/53784
-image: node:20
+image: node:21
 
 stages:
   - test
@@ -19,11 +18,12 @@ test:inventory:
     - master
 
 test:doc:
+  image: ruby:3.2
   stage: test
   script:
-    - cd docusaurus
-    - yarn install
-    - yarn run build
+    - cd documentation
+    - bundle install
+    - bundle exec jekyll build
   only:
     - merge_requests
   except:
@@ -42,21 +42,32 @@ test:data:
   except:
     - master
 
-pages:
+pages:inventory:
   stage: deploy
+  needs: ["pages:docs"]
   script:
     - yarn config set unsafe-perm true
     - yarn global --ignore-optional add gulp-cli netlify-cli
     - yarn install # inventory dependencies
     - yarn run build # build the inventory
-    - mkdir -p public/docs
     - cp -rT build/ public/ # copying the inventory
-    - cd docusaurus
-    - yarn install # documentation dependencies
-    - yarn run build # build the documentation
-    - cp -rT build/ ../public/docs # copying the documentation
-    - cd ..
     - netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --dir public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
+pages:docs:
+  stage: deploy
+  image: ruby:3.2
+  script:
+    - mkdir -p public/docs
+    - cd documentation
+    - bundle install # documentation dependencies
+    - bundle exec jekyll build # build the documentation
+    - cp -rT _site/ ../public/docs # copying the documentation
+    - cd ..
   artifacts:
     paths:
       - public

@@ -1,12 +1,17 @@
 ---
-id: api
+layout: default
 title: Application Programming Interface
+parent: Development guidelines
+nav_order: 3
 ---
+- TOC
+{:toc}
+
 The website is serving a static API, this means that the API is compiled when during website building and then only a static directory structure of JSON files is served.
 
 ## Location
 
-Once you have [built](install.md) the website using `gulp`, you'll find the api inside `build/api`.
+Once you have [built]({% link docs/development_guidelines/install.md %}) the website using `gulp`, you'll find the api inside `build/api`.
 
 Then the API is server under `https://inventory.raw.pm/api/api.json`.
 

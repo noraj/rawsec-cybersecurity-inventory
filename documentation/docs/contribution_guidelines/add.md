@@ -1,11 +1,16 @@
 ---
-id: add
+layout: default
 title: Adding a tool/resource
+parent: Contribution guidelines
+nav_order: 1
 ---
+- TOC
+{:toc}
+
 ## Adding/changing content
 
 - To add a tool/resource or modify/update some content: Submit a merge request (MR)
-- Respect the [format conventions](format.md)
+- Respect the [format conventions]({% link docs/contribution_guidelines/format.md %})
 - Write in English only
 - Fill the maximum you know about an item but prefer to let a field blank if you don't know
   + Example: if you don't know the language of a tool, just dont put it

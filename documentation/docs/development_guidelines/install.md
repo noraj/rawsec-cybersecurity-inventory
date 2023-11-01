@@ -1,7 +1,12 @@
 ---
-id: install
+layout: default
 title: Installation and building
+parent: Development guidelines
+nav_order: 1
 ---
+- TOC
+{:toc}
+
 ## Inventory
 
 Install dependencies:
@@ -30,21 +35,21 @@ $ firefox build/index.html
 Go inside the documentation folder:
 
 ```plaintext
-$ cd docusaurus
+$ cd documentation
 ```
 
 Install dependencies:
 
 ```plaintext
-$ yarn install
+$ bundle install install
 ```
 
 Build the documentation:
 
 ```plaintext
-$ yarn run build
+$ bundle exec jekyll build
 ```
 
-You can manually browse it in the `build/` (`docusaurus/build/`) folder or run `yarn start`.
+You can manually browse it in the `build/` (`documentation/_site_/`) folder or run `bundle exec jekyll serve`.
 
-For more information on how the documentation works, check [Docusaurus](https://docusaurus.io/) website.
+For more information on how the documentation works, check [Jekyll](https://jekyllrb.com/docs/) and [Just the Docs](https://just-the-docs.com/) websites.

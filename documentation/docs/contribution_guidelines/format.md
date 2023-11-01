@@ -1,7 +1,12 @@
 ---
-id: format
+layout: default
 title: Format conventions
+parent: Contribution guidelines
+nav_order: 2
 ---
+- TOC
+{:toc}
+
 ## General
 
 - **Mimetism**: Before submitting anything read the source code and do the same
