@@ -85,6 +85,15 @@
       "keywords": "antivirus, scan, antimalware, detection"
     },
     {
+      "name": "Pandora-box",
+      "source": "https://github.com/dbarzin/pandora-box",
+      "description": "Detect and remove malware from USB disks (based on Pandora)",
+      "language": "Shell",
+      "price": "Free",
+      "online":"False",
+      "keywords": "ClamAV, Comodo antivirus, Hashlookup, Yara"
+    },
+    {
       "name": "Santa",
       "source": "https://github.com/google/santa",
       "description": "Binary authorization system for macOS",
