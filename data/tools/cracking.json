@@ -96,6 +96,14 @@
       "keywords": "GUI, hashcat, crack, hash"
     },
     {
+      "name": "crackpkcs12",
+      "source": "https://github.com/crackpkcs12/crackpkcs12",
+      "description": "Multithreaded program to crack PKCS#12 files (p12 and pfx extensions)",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CrackStation",
       "website": "https://crackstation.net/",
       "source": "https://github.com/defuse/crackstation",
