@@ -527,6 +527,15 @@
       "keywords": "leak"
     },
     {
+      "name": "unisec",
+      "website": "https://acceis.github.io/unisec",
+      "source": "https://github.com/Acceis/unisec",
+      "description": "Toolkit for security research manipulating Unicode: confusables, homoglyphs, hexdump, code point, UTF-8, UTF-16, UTF-32, properties, regexp search, size, grapheme, surrogates, version, ICU, CLDR, UCD",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Unredacter",
       "website": "https://github.com/BishopFox/unredacter",
       "description": "Bruteforce to reverse the text of image redacted with pixelation blur",
