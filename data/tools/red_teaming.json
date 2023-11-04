@@ -172,6 +172,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "JavaScript Obfuscator",
+      "website": "https://obfuscator.io/",
+      "source": "https://github.com/javascript-obfuscator/javascript-obfuscator",
+      "description": "JavaScript obfuscator; features: variables renaming, strings extraction and encryption, dead code injection, control flow flattening, various code transformations, etc.",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Kage",
       "source": "https://github.com/WayzDev/Kage",
       "description": "Graphical user interface for Metasploit Meterpreter and session handler",
