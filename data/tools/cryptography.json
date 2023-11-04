@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "c7decrypt",
+      "source": "https://github.com/claudijd/c7decrypt",
+      "description": "Cisco password type-7 encryptor and decryptor",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cipher Suite Info",
       "website": "https://ciphersuite.info/",
       "source": "https://github.com/hcrudolph/ciphersuite.info",
