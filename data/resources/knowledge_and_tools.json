@@ -158,6 +158,12 @@
       "price": "Free"
     },
     {
+      "name": "Kaonashi",
+      "source": "https://github.com/kaonashi-passwords/Kaonashi",
+      "description": "Wordlist, hashcat rules and hashcat masks from Kaonashi project (RootedCON 2019)",
+      "price": "Free"
+    },
+    {
       "name": "Linux kernel syscall tables",
       "website": "https://syscalls.mebeim.net/",
       "source": "https://github.com/mebeim/linux-syscalls",
