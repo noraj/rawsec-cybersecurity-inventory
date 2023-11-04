@@ -25,6 +25,15 @@
       "online": "False"
     },
     {
+      "name": "Deming",
+      "source": "https://github.com/dbarzin/deming",
+      "description": "Management tool for the information security management system (ISMS); manage, plan, track and report the effectiveness of security controls",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False",
+      "keywords": "ISO 27001"
+    },
+    {
       "name": "driftctl",
       "source": "https://github.com/snyk/driftctl",
       "description": "Measures infrastructure as code coverage, and tracks infrastructure drift",
