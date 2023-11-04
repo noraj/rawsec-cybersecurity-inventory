@@ -1,12 +1,14 @@
 # Official framework image. Look for the different tagged releases at:
 # https://hub.docker.com/r/library/node/tags/
-image: node:21
+# https://hub.docker.com/_/ruby/tags
+# https://hub.docker.com/r/oven/bun/tags
 
 stages:
   - test
   - deploy
 
 test:inventory:
+  image: node:21
   stage: test
   script:
     - yarn global add gulp-cli
@@ -30,19 +32,18 @@ test:doc:
     - master
 
 test:data:
+  image: oven/bun:1.0.8
   stage: test
   script:
-    - yarn install
-    # gulp-jest won't work until https://github.com/Nerajno/gulp-jest/issues/77 is fixed
-    # jest-cli to the rescue
-    - yarn global add jest-cli
-    - yarn run test
+    - bun install
+    - bun test
   only:
     - merge_requests
   except:
     - master
 
 pages: # for Gitlab Pages this job must exactly be named `pages`
+  image: node:21
   stage: deploy
   needs: ["pages:docs"]
   script:
@@ -59,8 +60,8 @@ pages: # for Gitlab Pages this job must exactly be named `pages`
     - master
 
 pages:docs:
-  stage: deploy
   image: ruby:3.2
+  stage: deploy
   script:
     - mkdir -p public/docs
     - cd documentation
