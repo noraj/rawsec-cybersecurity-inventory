@@ -42,7 +42,7 @@ test:data:
   except:
     - master
 
-pages:inventory:
+pages: # for Gitlab Pages this job must exactly be named `pages`
   stage: deploy
   needs: ["pages:docs"]
   script:
