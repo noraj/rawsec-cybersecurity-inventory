@@ -160,6 +160,14 @@
       "blackarch": "dnsx"
     },
     {
+      "name": "domainfinder",
+      "source": "https://github.com/nekosecurity/domainfinder",
+      "description": "Find a domain from an IP address",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "EagleEye",
       "source": "https://github.com/ThoughtfulDev/EagleEye",
       "description": "Image recognition on instagram, facebook and twitter",
