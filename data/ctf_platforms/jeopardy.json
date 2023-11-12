@@ -90,7 +90,7 @@
     {
       "name": "CTFx",
       "source": "https://gitlab.com/Milkdrop/ctfx",
-      "description": "Jeopardy CTF platform, based on Mellivora,",
+      "description": "Jeopardy CTF platform, based on Mellivora",
       "language": "PHP",
       "price": "Free"
     },
@@ -143,6 +143,14 @@
       "source": "https://github.com/DISMGryphons/GryphonCTF-Scoreboard",
       "description": "Jeopardy CTF platform based on CTFd",
       "language": "Python",
+      "price": "Free"
+    },
+    {
+      "name": "GZCTF",
+      "website": "https://docs.ctf.gzti.me/",
+      "source": "https://github.com/GZTimeWalker/GZCTF",
+      "description": "Jeopardy CTF platform (exclusively in Chinese)",
+      "language": "CSharp",
       "price": "Free"
     },
     {
