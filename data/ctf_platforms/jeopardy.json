@@ -269,6 +269,14 @@
       "price": "Free"
     },
     {
+      "name": "rCTF",
+      "website": "https://rctf.redpwn.net/",
+      "source": "https://github.com/redpwn/rctf",
+      "description": "Jeopardy CTF platform",
+      "language": "JavaScript",
+      "price": "Free"
+    },
+    {
       "name": "RootTheBox",
       "website": "http://root-the-box.com/",
       "source": "https://github.com/moloch--/RootTheBox",
