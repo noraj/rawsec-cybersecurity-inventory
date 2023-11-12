@@ -126,6 +126,14 @@
       "keywords":"Yara, Surcicata, Debugger"
     },
     {
+      "name": "Cerberus",
+      "source": "https://github.com/h311d1n3r/Cerberus",
+      "description": "Unstrip Rust and Go binaries (ELF and PE) for static analysis; based on hashing and scoring systems, it can retrieve lots of symbol names",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ctf_import",
       "website": "http://van.prooyen.com/projects/#ctfimport",
       "source": "https://github.com/docileninja/ctf_import",
