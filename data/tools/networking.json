@@ -44,6 +44,15 @@
       "online": "False"
     },
     {
+      "name": "ADMiner",
+      "source": "https://github.com/Mazars-Tech/AD_Miner",
+      "description": "Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "ad-miner"
+    },
+    {
       "name": "ADRecon",
       "source": "https://github.com/adrecon/ADRecon",
       "description": "Gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment",
