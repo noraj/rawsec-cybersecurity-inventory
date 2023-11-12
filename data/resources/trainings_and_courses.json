@@ -14,6 +14,14 @@
       "price": "Paid"
     },
     {
+      "name": "Escape Academy",
+      "website": "https://escape.tech/academy/",
+      "source": "https://github.com/Escape-Technologies/graphql-security-academy",
+      "description": "Platform dedicated to understand and secure GraphQL applications",
+      "price": "Free",
+      "keywords": "API"
+    },
+    {
       "name": "Hacker101",
       "website": "https://www.hacker101.com/",
       "source": "https://github.com/Hacker0x01/hacker101",
