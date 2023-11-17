@@ -559,6 +559,15 @@
       "blackarch": "modifycerttemplate"
     },
     {
+      "name": "MSSQLRelay",
+      "website": "https://blog.compass-security.com/2023/10/relaying-ntlm-to-mssql/",
+      "source": "https://github.com/CompassSecurity/mssqlrelay",
+      "description": "MSSQL relay audit and abuse",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "naabu",
       "website": "https://projectdiscovery.io",
       "source": "https://github.com/projectdiscovery/naabu",
