@@ -10,14 +10,6 @@
       "keywords": "packer, obfuscation"
     },
     {
-      "name": "ADCSKiller",
-      "source": "https://github.com/grimlockx/ADCSKiller",
-      "description": "ADCS exploitation automation by weaponizing Certipy and Coercer",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "AntiScan.Me",
       "website": "https://antiscan.me/",
       "description": "Multi-AV checker that doesn't distribute the check results, based on Dyncheck.com",

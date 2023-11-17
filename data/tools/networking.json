@@ -26,6 +26,14 @@
       "online": "False"
     },
     {
+      "name": "ADCSKiller",
+      "source": "https://github.com/grimlockx/ADCSKiller",
+      "description": "ADCS exploitation automation by weaponizing Certipy and Coercer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ADenum",
       "source": "https://github.com/SecuProject/ADenum",
       "description": "Find misconfiguration through the LDAP protocol and exploit some weaknesses with kerberos",
