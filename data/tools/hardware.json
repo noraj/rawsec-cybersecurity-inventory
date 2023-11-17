@@ -8,6 +8,15 @@
       "language": "C",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "SmmBackdoorNg",
+      "source": "https://github.com/Cr4sh/SmmBackdoorNg",
+      "description": "System Management Mode (SMM) backdoor for UEFI based platforms",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
+
   ]
 }
