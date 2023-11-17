@@ -375,6 +375,14 @@
       "blackarch": "hellraiser"
     },
     {
+      "name": "HivExcavator",
+      "source": "https://github.com/Acceis/hivexcavator",
+      "description": "Extracting the contents of Microsoft Windows Registry (hive) and display it as a colorful tree but mainly focused on parsing BCD files to extract WIM files path for PXE attacks",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "hoaxshell",
       "source": "https://github.com/t3l3machus/hoaxshell",
       "description": "Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell",
