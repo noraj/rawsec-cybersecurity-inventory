@@ -49,11 +49,11 @@
     "gulp-sass": "^5.1.0",
     "jest": "^29.7.0",
     "jquery": "^3.7.1",
-    "minisearch": "^6.1.0",
+    "minisearch": "^6.2.0",
     "pug": "^3.0.2",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "static-api": "^0.2.0",
-    "sweetalert2": "^11.7.32",
+    "sweetalert2": "^11.10.0",
     "tablefilter": "^0.7.2"
   }
 }
