@@ -7,18 +7,6 @@
       "website": "http://www.alpinelinux.org/"
     },
     {
-      "name": "ANDRAX",
-      "base": "Android",
-      "description": "More than an OS, it is a penetration testing platform for Android smartphones",
-      "website": "https://andrax.thecrackertechnology.com/"
-    },
-    {
-      "name": "AndroidTamer",
-      "base": "Debian",
-      "description": "android malware analysis, penetration testing and reverse engineering",
-      "website": "https://androidtamer.com/"
-    },
-    {
       "name": "ArchStrike",
       "base": "ArchLinux",
       "description": "penetration testing and security lab",
@@ -28,13 +16,13 @@
       "name": "Athena OS",
       "base": "ArchLinux",
       "description": "penetration testing and security lab",
-      "website": "https://github.com/Athena-OS/athena-iso"
+      "website": "https://athenaos.org/"
     },
     {
       "name": "BackBox",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
-      "website": "https://backbox.org/"
+      "website": "https://linux.backbox.org/"
     },
     {
       "name": "BlackArch Linux",
@@ -42,12 +30,7 @@
       "description": "penetration testing and security lab",
       "website": "https://blackarch.org/"
     },
-    {
-      "name": "Bugtraq-II Blackwidow",
-      "base": "Ubuntu / Debian",
-      "description": "penetration testing and security lab",
-      "website": "http://www.bugtraq-team.com/project-blackwidow.html"
-    },
+
     {
       "name": "CAINE",
       "base": "Ubuntu",
@@ -65,12 +48,6 @@
       "base": "Windows",
       "description": "script to configure a Windows VM and install security tools on it; penetration testing and security lab",
       "website": "https://github.com/fireeye/commando-vm"
-    },
-    {
-      "name": "DEFT",
-      "base": "Ubuntu",
-      "description": "digital forensics and incident response (DFIR)",
-      "website": "http://www.deftlinux.net/"
     },
     {
       "name": "Demon Linux",
@@ -133,12 +110,6 @@
       "website": "https://remnux.org/"
     },
     {
-      "name": "Santoku Linux",
-      "base": "Lubuntu",
-      "description": "mobile malware analysis, forensics and reverse engineering",
-      "website": "https://santoku-linux.com/"
-    },
-    {
       "name": "SecBSD",
       "base": "openBSD",
       "description": "penetration testing and security lab",
@@ -154,7 +125,7 @@
       "name": "SIFT",
       "base": "Ubuntu",
       "description": "digital forensics and incident response (DFIR) (VMware appliance)",
-      "website": "https://digital-forensics.sans.org/community/downloads"
+      "website": "https://www.sans.org/tools/sift-workstation/"
     },
     {
       "name": "SigintOS",
@@ -173,6 +144,12 @@
       "base": "Debian",
       "description": "privacy and anonymity",
       "website": "https://tails.boum.org/"
+    },
+    {
+      "name": "Tamer Platform",
+      "base": "Debian",
+      "description": "android malware analysis, penetration testing and reverse engineering",
+      "website": "https://tamerplatform.com/"
     },
     {
       "name": "TENS",

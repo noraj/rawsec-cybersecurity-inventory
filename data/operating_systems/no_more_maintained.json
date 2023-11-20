@@ -1,10 +1,22 @@
 {
   "operating_systems": [
     {
+      "name": "ANDRAX",
+      "base": "Android",
+      "description": "More than an OS, it is a penetration testing platform for Android smartphones",
+      "website": "https://andrax.thecrackertechnology.com/"
+    },
+    {
       "name": "Blackbuntu",
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
       "website": "https://sourceforge.net/projects/blackbuntu/"
+    },
+    {
+      "name": "Bugtraq-II Blackwidow",
+      "base": "Ubuntu / Debian",
+      "description": "penetration testing and security lab",
+      "website": "http://www.bugtraq-team.com/project-blackwidow.html"
     },
     {
       "name": "Buscador",
@@ -23,6 +35,12 @@
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
       "website": "http://cyborg.ztrela.com/cyborg-hawk/"
+    },
+    {
+      "name": "DEFT",
+      "base": "Ubuntu",
+      "description": "digital forensics and incident response (DFIR)",
+      "website": "http://www.deftlinux.net/"
     },
     {
       "name": "DracOS",
@@ -53,6 +71,12 @@
       "base": "Ubuntu",
       "description": "penetration testing and security lab",
       "website": "https://sourceforge.net/projects/nodezero/"
+    },
+    {
+      "name": "Santoku Linux",
+      "base": "Lubuntu",
+      "description": "mobile malware analysis, forensics and reverse engineering",
+      "website": "https://santoku-linux.com/"
     },
     {
       "name": "STD",
