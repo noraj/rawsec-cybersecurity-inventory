@@ -490,7 +490,8 @@
       "description": "Pivoting via TCP/TLS reverse tunneling with TUN interface",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "ligolo-ng"
     },
     {
       "name": "linWinPwn",
