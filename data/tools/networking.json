@@ -479,7 +479,15 @@
     {
       "name": "Ligolo",
       "source": "https://github.com/sysdream/ligolo",
-      "description": "Pivot / reverse tunneling tool with SOCKS5 et TCP tunnel support",
+      "description": "Pivot / reverse tunneling tool with SOCKS5 and TCP tunnel support",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "Ligolo-ng",
+      "source": "https://github.com/nicocha30/ligolo-ng",
+      "description": "Pivoting via TCP/TLS reverse tunneling with TUN interface",
       "language": "Go",
       "price": "Free",
       "online": "False"
