@@ -222,6 +222,14 @@
       "blackarch": "dotpeek"
     },
     {
+      "name": "DRAKVUF Sandbox",
+      "source": "https://github.com/CERT-Polska/drakvuf-sandbox",
+      "description": "Automated black-box hypervisor-level malware analysis system",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Droidefense",
       "website": "http://droidefense.com/",
       "source": "https://github.com/droidefense/engine",
