@@ -150,6 +150,14 @@
       "online": "False"
     },
     {
+      "name": "Cuckoo 3",
+      "source": "https://github.com/cert-ee/cuckoo3",
+      "description": "Python 3 port of Cuckoo, automated malware analysis system",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cutter",
       "source": "https://github.com/radareorg/cutter",
       "description": "Qt and C++ GUI for radare2",
