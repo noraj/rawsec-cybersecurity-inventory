@@ -69,7 +69,17 @@
       "source": "https://github.com/github/codeql",
       "description": "Semantic code analysis engine; discover vulnerabilities across a codebase, lets you query code as though it were data, write a query to find all variants of a vulnerability",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "codeql"
+    },
+    {
+      "name": "Dawnscanner",
+      "source": "https://github.com/thesp0nge/dawnscanner",
+      "description": "Sstatic analysis security scanner for ruby written web applications; supports Sinatra, Padrino and Ruby on Rails frameworks",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "dawnscanner"
     },
     {
       "name": "Kube-hunter",
