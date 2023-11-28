@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "broneypote",
+      "source": "https://github.com/laluka/broneypote",
+      "description": "Honeypot",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Canarytokens",
       "website": "https://canarytokens.org/generate",
       "source": "https://github.com/thinkst/canarytokens",
