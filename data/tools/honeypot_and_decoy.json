@@ -5,6 +5,7 @@
       "website": "https://canarytokens.org/generate",
       "source": "https://github.com/thinkst/canarytokens",
       "description": "Quickly deployable honeypot with docker image, the online service allows to get alerted by email for URL token, DNS token, unique email address, custom image, MS word doc., Acrobat Reader PDF doc., and more",
+      "language": "Python",
       "price": "Free",
       "online": "True"
     },
@@ -12,6 +13,7 @@
       "name": "DejaVU",
       "source": "https://github.com/bhdresh/Dejavu",
       "description": "Deception framework which can be used to deploy decoys across the infrastructure",
+      "language": "PHP",
       "price": "Free",
       "online": "False"
     },
