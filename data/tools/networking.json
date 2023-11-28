@@ -152,6 +152,15 @@
       "online": "False"
     },
     {
+      "name": "bore",
+      "source": "https://github.com/ekzhang/bore",
+      "description": "Creates a TCP tunnel; exposing local ports to a remote server, bypassing standard NAT connection firewalls",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "bore"
+    },
+    {
       "name": "BruteSpray",
       "source": "https://github.com/x90skysn3k/brutespray",
       "description": "Takes nmap GNMAP/XML output or newline seperated JSONS and automatically brute-forces services with default credentials using Medusa",
