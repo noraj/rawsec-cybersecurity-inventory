@@ -489,6 +489,16 @@
       "online": "False"
     },
     {
+      "name": "PANDA",
+      "website": "https://panda.re/",
+      "source": "https://github.com/panda-re/panda",
+      "description": "Platform for architecture-neutral dynamic analysis",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "QEMU"
+    },
+    {
       "name": "PASTIS",
       "website": "https://quarkslab.github.io/pastis/index.html",
       "source": "https://github.com/quarkslab/pastis",
