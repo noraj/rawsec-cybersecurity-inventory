@@ -1,6 +1,13 @@
 {
   "resources": [
     {
+      "name": "API Security Academy",
+      "website": "https://escape.tech/academy/",
+      "source": "https://github.com/Escape-Technologies/graphql-security-academy",
+      "description": "Platform dedicated to understand and secure GraphQL applications",
+      "price": "Free"
+    },
+    {
       "name": "Bugcrowd University",
       "website": "https://www.bugcrowd.com/hackers/bugcrowd-university/",
       "source": "https://github.com/bugcrowd/bugcrowd_university",
@@ -12,14 +19,6 @@
       "website": "https://www.cybrary.it/",
       "description": "Cyber Security learning, training and certification",
       "price": "Paid"
-    },
-    {
-      "name": "Escape Academy",
-      "website": "https://escape.tech/academy/",
-      "source": "https://github.com/Escape-Technologies/graphql-security-academy",
-      "description": "Platform dedicated to understand and secure GraphQL applications",
-      "price": "Free",
-      "keywords": "API"
     },
     {
       "name": "Hacker101",
