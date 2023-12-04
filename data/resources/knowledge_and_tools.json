@@ -348,6 +348,12 @@
       "price": "Free"
     },
     {
+      "name": "TIBER-EU",
+      "website": "https://www.ecb.europa.eu/paym/cyber-resilience/tiber-eu/html/index.en.html",
+      "description": "European framework for threat intelligence-based ethical red-teaming",
+      "price": "Free"
+    },
+    {
       "name": "Vergilius",
       "website": "https://www.vergiliusproject.com/",
       "description": "A collection of Microsoft Windows kernel structures, unions and enumerations; most of them are not officially documented and cannot be found in Windows Driver Kit (WDK) headers",
