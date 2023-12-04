@@ -149,6 +149,15 @@
       "online": "False"
     },
     {
+      "name": "Matro7sh loaders",
+      "tool": "Havoc",
+      "source": "https://github.com/matro7sh/matro7sh_loaders",
+      "description": "Encode Havoc shellcode (.bin) in XOR, chacha20, AES; supports 2 loaders: Myph, 221b",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Mona",
       "tool": "Immunity Debugger",
       "source": "https://github.com/corelan/mona",
