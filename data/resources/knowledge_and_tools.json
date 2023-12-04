@@ -151,6 +151,13 @@
       "price": "Free"
     },
     {
+      "name": "Havoc store",
+      "website": "https://p4p1.github.io/havoc-store/",
+      "source": "https://github.com/p4p1/havoc-store",
+      "description": "Havoc modules and extensions store",
+      "price": "Free"
+    },
+    {
       "name": "HijackLibs",
       "website": "https://hijacklibs.net/",
       "source": "https://github.com/wietze/HijackLibs",
