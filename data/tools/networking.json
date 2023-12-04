@@ -449,7 +449,7 @@
       "price": "Free",
       "online": "False"
     },
-        {
+    {
       "name": "Kerbrute",
       "source": "https://github.com/ropnop/kerbrute",
       "description": "Bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication",
@@ -470,6 +470,14 @@
       "blackarch": "krbrelayx"
     },
     {
+      "name": "KubeHound",
+      "source": "https://github.com/DataDog/KubeHound",
+      "description": "Kubernetes attack graph tool allowing automated calculation of attack paths between assets in a cluster",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "LDAPmonitor",
       "source": "https://github.com/p0dalirius/LDAPmonitor",
       "description": "Monitor creation, deletion and changes to LDAP objects live during pentest or system administration",
@@ -483,7 +491,8 @@
       "description": "Active Directory LDAP enumeration utility",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "ldeep"
     },
     {
       "name": "Ligolo",
