@@ -233,6 +233,12 @@
       "price": "Free"
     },
     {
+      "name": "Pentesting Azure Mindmap",
+      "source": "https://github.com/synacktiv/Mindmaps",
+      "description": "Mindmap to get the Global Admin access for Azure penetration tests",
+      "price": "Free"
+    },
+    {
       "name": "Portswigger - XSS cheat sheet",
       "website": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet",
       "description": "XSS cheat sheet containing many vectors that can help bypassing WAFs and filters",
