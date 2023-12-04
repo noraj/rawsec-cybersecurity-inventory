@@ -1,6 +1,12 @@
 {
   "resources": [
     {
+      "name": "azure-mindmap",
+      "source": "https://github.com/matro7sh/azure-mindmap",
+      "description": "Mindmap listing all possible compromise paths when faced with an Azure environment during a cloud security engagement",
+      "price": "Free"
+    },
+    {
       "name": "bounty-targets-data",
       "source": "https://github.com/arkadiyt/bounty-targets-data",
       "description": "Hourly-updated data dumps of bug bounty platform scopes that are eligible for reports",
