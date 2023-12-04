@@ -277,6 +277,16 @@
       "online": "False"
     },
     {
+      "name": "Modlishka",
+      "source": "https://github.com/drk1wi/Modlishka",
+      "description": "HTTP reverse proxy designed for phishing",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "2FA",
+      "blackarch": "modlishka"
+    },
+    {
       "name": "monomorph",
       "source": "https://github.com/DavidBuchanan314/monomorph",
       "description": "MD5-monomorphic shellcode packer, all payloads have the same MD5 hash",
