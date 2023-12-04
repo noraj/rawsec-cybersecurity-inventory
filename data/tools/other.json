@@ -111,6 +111,14 @@
       "online": "False"
     },
     {
+      "name": "ConvertHound",
+      "source": "https://github.com/layer8secure/ConvertHound",
+      "description": "Convert BloodHound output files into nmap XML that can be imported into reporting software like Dradis and Plextrac",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ctf-party",
       "website": "https://noraj.github.io/ctf-party",
       "source": "https://github.com/noraj/ctf-party",
