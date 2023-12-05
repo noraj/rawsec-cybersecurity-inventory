@@ -45,6 +45,16 @@
       "keywords": "SAST"
     },
     {
+      "name": "Brakeman",
+      "website": "https://brakemanscanner.org/",
+      "source": "https://github.com/presidentbeef/brakeman",
+      "description": "Static analysis security vulnerability scanner for Ruby on Rails applications",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST"
+    },
+    {
       "name": "cIFrex",
       "website": "https://cifrex.org",
       "source": "https://github.com/MaksymilianA/cifrex",
