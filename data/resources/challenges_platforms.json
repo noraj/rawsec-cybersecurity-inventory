@@ -158,6 +158,12 @@
       "price": "Free"
     },
     {
+      "name": "Hackropole",
+      "website": "https://hackropole.fr/",
+      "description": "Challenge platform; challenges from previous years FCSC",
+      "price": "Free"
+    },
+    {
       "name": "HackThis!!",
       "website": "https://www.hackthis.co.uk/",
       "description": "Challenge platform",
