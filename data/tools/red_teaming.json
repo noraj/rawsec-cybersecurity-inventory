@@ -389,6 +389,13 @@
       "online": "False"
     },
     {
+      "name": "RedELK",
+      "source": "https://github.com/outflanknl/RedELK",
+      "description": "Red Team's SIEM; used by Red Teams for tracking and alarming about Blue Team activities as well as better usability in long term operations",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "RedEye",
       "source": "https://github.com/cisagov/RedEye",
       "description": "Red team C2 log visualization",
