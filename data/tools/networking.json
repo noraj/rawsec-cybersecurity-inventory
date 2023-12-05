@@ -1108,6 +1108,15 @@
       "online": "False"
     },
     {
+      "name": "wmiexec-Pro",
+      "source": "https://github.com/XiaoliChan/wmiexec-Pro",
+      "description": "Perform different ways of command execution via WMI protocol (port 135) for AV evasion",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AMSI, Windows, VBS"
+    },
+    {
       "name": "XFLTReaT",
       "source": "https://github.com/earthquake/XFLTReaT",
       "description": "tunnelling framework; supports TCP, UDP, ICMP, SOCKS, HTTP, SCTP, WebSocket, RDP",
