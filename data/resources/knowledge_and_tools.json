@@ -284,6 +284,12 @@
       "price": "Free"
     },
     {
+      "name": "Red Teaming and Malware Analysis",
+      "website": "https://gitbook.seguranca-informatica.pt/",
+      "description": "Notes on red teaming, pentest and malware analysis",
+      "price": "Free"
+    },
+    {
       "name": "RubyFu",
       "website": "https://rubyfu.net/",
       "source": "https://github.com/rubyfu/RubyFu",
