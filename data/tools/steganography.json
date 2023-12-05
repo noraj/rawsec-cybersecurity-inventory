@@ -18,6 +18,14 @@
       "online": "False"
     },
     {
+      "name": "Depix",
+      "source": "https://github.com/spipm/Depix",
+      "description": "Recover plaintext from pixelized screenshots",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "exif",
       "source": "https://sourceforge.net/projects/libexif/files/exif/",
       "description": "Shows EXIF information for JPEG files only",
