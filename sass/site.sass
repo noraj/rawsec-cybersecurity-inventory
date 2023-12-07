@@ -15,5 +15,8 @@
 .card-equal-height .card-footer
   margin-top: auto
 
-footer nav .level-item
-  max-width: 18%
+$layout-breakpoint-mobile: 768px
+@media (min-width: $layout-breakpoint-mobile)
+  footer nav .level-item
+    max-width: 18%
+
