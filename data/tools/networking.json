@@ -909,7 +909,8 @@
       "description": "Kerberos interaction and abuses",
       "language": "CSharp",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "TGT, PCKS12, ticket, AS-REQ, S4U, LDAP, golden, silver, diamond, kerberoasting, AS-REP roasting"
     },
     {
       "name": "ruby-nmap",
