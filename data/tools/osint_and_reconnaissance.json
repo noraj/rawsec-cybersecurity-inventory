@@ -224,6 +224,13 @@
       "online": "False"
     },
     {
+      "name": "Geolocation Estimation",
+      "website": "https://labs.tib.eu/geoestimation/",
+      "description": "Automatic GEOINT using deep learning",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "GHunt",
       "source": "https://github.com/mxrch/GHunt",
       "description": "Investigate Google accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, etc.",
