@@ -847,6 +847,15 @@
       "keywords": "msDS, windows, domain controller, AD CS, NTLM, Kerberos"
     },
     {
+      "name": "PyWSUS",
+      "website": "https://www.gosecure.net/blog/2020/09/03/wsus-attacks-part-1-introducing-pywsus/",
+      "source": "https://github.com/GoSecure/pywsus",
+      "description": "WSUS server designed to send malicious responses to clients",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "rbndr",
       "source": "https://github.com/taviso/rbndr",
       "description": "Server for testing software against DNS rebinding vulnerabilities",
