@@ -90,6 +90,14 @@
       "online": "False"
     },
     {
+      "name": "Echidna",
+      "source": "https://github.com/Echidna-Pentest/Echidna",
+      "description": "Collaborative penetration test platform; terminal sharing, target information extraction, command suggestion, exploit searching, chatting, graph visualization",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "envizon",
       "website": "https://evait-security.github.io/envizon/",
       "source": "https://github.com/evait-security/envizon",
