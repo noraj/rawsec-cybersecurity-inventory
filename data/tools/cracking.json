@@ -354,6 +354,13 @@
       "online": "False"
     },
     {
+      "name": "NTLM to password",
+      "website": "https://ntlm.pw/",
+      "description": "NTLM hash lookup table, billions of passwords indexed",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Ophcrack",
       "website": "http://ophcrack.sourceforge.net/",
       "source": "https://sourceforge.net/projects/ophcrack/",
