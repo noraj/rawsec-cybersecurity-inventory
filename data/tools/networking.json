@@ -1036,6 +1036,7 @@
     },
     {
       "name": "Sshimpanzee",
+      "website": "https://blog.lexfo.fr/sshimpanzee.html",
       "source": "https://github.com/lexfo/sshimpanzee",
       "description": "Builds a static reverse SSH server for pivoting; supports HTTP and SOCKS5 proxies, DNS and ICMP tunnelling, HTTP encapsulation",
       "language": "Python",
