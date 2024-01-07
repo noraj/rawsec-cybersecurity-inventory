@@ -77,6 +77,13 @@
       "blackarch": "foremost"
     },
     {
+      "name": "FTK Imager",
+      "website": "https://www.exterro.com/ftk-imager",
+      "description": "Investigate electronic devices; full disk imaging capabilities: preview and image hard drives from Windows and Linux computers, CDs, DVDs, thumb drives, and other USB; forensic image mounting: mount an image for a read-only view that leverages file explorer; preview data; RAM capture",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "Live Forensicator",
       "source": "https://github.com/Johnng007/Live-Forensicator",
       "description": "Assist forensic investigators and incidence responders in carrying out a quick live forensic investigation",
