@@ -1136,6 +1136,14 @@
       "online": "False"
     },
     {
+      "name": "Whisker",
+      "source": "https://github.com/eladshamir/Whisker",
+      "description": "Take over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute, effectively adding Shadow Credentials to the target account",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "wmiexec-Pro",
       "source": "https://github.com/XiaoliChan/wmiexec-Pro",
       "description": "Perform different ways of command execution via WMI protocol (port 135) for AV evasion",
