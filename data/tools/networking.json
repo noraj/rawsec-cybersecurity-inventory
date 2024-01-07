@@ -601,7 +601,8 @@
       "description": "Port scanner with a focus on reliability and simplicity",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "naabu"
     },
     {
       "name": "ncat",
@@ -1009,7 +1010,8 @@
       "description": "JMX Exploitation Toolkit",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "sjet"
     },
     {
       "name": "Snaffler",
@@ -1025,7 +1027,8 @@
       "description": "SNMP brute force, enumeration, CISCO config downloader and password cracking script",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "snmp-brute"
     },
     {
       "name": "snmpbw.pl",
@@ -1042,7 +1045,8 @@
       "description": "SSH scanner that detects protocol, version, grab banner, recognize software and operating system, output algorithm information and recommendations",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "ssh-audit"
     },
     {
       "name": "Sshimpanzee",
@@ -1077,7 +1081,8 @@
       "language": "Go",
       "price": "Free",
       "online": "False",
-      "keywords": "STUN"
+      "keywords": "STUN",
+      "blackarch": "turner"
     },
     {
       "name": "WebMap v1",
@@ -1109,7 +1114,8 @@
       "description": "Script to enumerate users, groups and computers from a Windows domain through LDAP queries",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "windapsearch"
     },
     {
       "name": "Wireshark",
@@ -1118,7 +1124,8 @@
       "description": "Network protocol analyzer",
       "language": "Cplusplus",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "wireshark-qt"
     },
     {
       "name": "WireSocks",
@@ -1140,10 +1147,11 @@
     {
       "name": "XFLTReaT",
       "source": "https://github.com/earthquake/XFLTReaT",
-      "description": "tunnelling framework; supports TCP, UDP, ICMP, SOCKS, HTTP, SCTP, WebSocket, RDP",
+      "description": "Tunnelling framework; supports TCP, UDP, ICMP, SOCKS, HTTP, SCTP, WebSocket, RDP",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "xfltreat"
     },
     {
       "name": "Xprobe2",
@@ -1151,7 +1159,8 @@
       "description": "Remote active operating system fingerprinting",
       "language": "CPlusPlus",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "xprobe2"
     },
     {
       "name": "yersinia",
@@ -1159,7 +1168,8 @@
       "description": "Framework for layer 2 attacks",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "yersinia"
     },
     {
       "name": "Zenmap",
@@ -1177,7 +1187,8 @@
       "description": "Collection of tools to scan and study massive networks",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "zmap"
     }
   ]
 }
