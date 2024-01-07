@@ -634,6 +634,16 @@
       "online": "False"
     },
     {
+      "name": "NetExec",
+      "website": "https://netexec.wiki/",
+      "source": "https://github.com/Pennyw0rth/NetExec",
+      "description": "Windows / Active Directory environments pentest; fork of CrackMapExec",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "netexec"
+    },
+    {
       "name": "Netfort Free Cloud Based PCAP Analysis",
       "website": "https://www.netfort.com/cloud-based-pcap-analysis/",
       "description": "PCAP analyzer; needs registration",
