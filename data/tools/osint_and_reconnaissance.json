@@ -271,6 +271,15 @@
       "online": "False"
     },
     {
+      "name": "GooFuzz",
+      "source": "https://github.com/m3n0sd0n4ld/GooFuzz",
+      "description": "Passive reconaissance enumerating directories, files, subdomains or parameters using google dorks",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "goofuzz"
+    },
+    {
       "name": "Gorecon",
       "source": "https://github.com/devanshbatham/Gorecon",
       "description": "Reconnaissance toolkit",
