@@ -619,7 +619,7 @@
     },
     {
       "name": "Recon-ng",
-      "source": "https://bitbucket.org/LaNMaSteR53/recon-ng/",
+      "source": "https://github.com/lanmaster53/recon-ng",
       "description": "Web-based reconnaissance tool",
       "language": "Python",
       "price": "Free",
