@@ -68,6 +68,14 @@
       "online": "False"
     },
     {
+      "name": "Bitcrook",
+      "source": "https://github.com/ax-i-om/bitcrook",
+      "description": "Reconnaissance Apparatus; Information gathering, conglomerate of tools including custom algorithms, API wrappers",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "cariddi",
       "source": "https://github.com/edoardottt/cariddi",
       "description": "Takes a list of domains, crawls urls and scans for endpoints, secrets, api keys, file extensions, tokens",
@@ -592,14 +600,6 @@
       "language": "Go",
       "price": "Free",
       "online": "True"
-    },
-    {
-      "name": "Qualear",
-      "source": "https://github.com/maraudery/qualear",
-      "description": "Reconnaissance Apparatus; Information gathering, conglomerate of tools including custom algorithms, API wrappers",
-      "language": "Go",
-      "price": "Free",
-      "online": "False"
     },
     {
       "name": "ReconDog",
