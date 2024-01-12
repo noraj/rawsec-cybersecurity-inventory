@@ -171,6 +171,13 @@
       "price": "Free"
     },
     {
+      "name": "Internal All The Things",
+      "website": "https://swisskyrepo.github.io/InternalAllTheThings/",
+      "source": "https://github.com/swisskyrepo/InternalAllTheThings/",
+      "description": "Active Directory, internal infrastructure and cloud penetration test, red team cheatsheets",
+      "price": "Free"
+    },
+    {
       "name": "Kaonashi",
       "source": "https://github.com/kaonashi-passwords/Kaonashi",
       "description": "Wordlist, hashcat rules and hashcat masks from Kaonashi project (RootedCON 2019)",
