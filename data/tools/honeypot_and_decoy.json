@@ -26,6 +26,14 @@
       "online": "False"
     },
     {
+      "name": "Galah",
+      "source": "https://github.com/0x4D31/galah",
+      "description": "LLM-powered web honeypot using the OpenAI API",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pypotomux",
       "source": "https://github.com/laluka/pypotomux",
       "description": "Protocol demuxed honeypot and wordlists collected from it",
