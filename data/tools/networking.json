@@ -495,6 +495,15 @@
       "blackarch": "ldeep"
     },
     {
+      "name": "Legba",
+      "source": "https://github.com/evilsocket/legba",
+      "description": "Multiprotocol credentials bruteforcer, password sprayer and enumerator",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "legba"
+    },
+    {
       "name": "Ligolo",
       "source": "https://github.com/sysdream/ligolo",
       "description": "Pivot / reverse tunneling tool with SOCKS5 and TCP tunnel support",
