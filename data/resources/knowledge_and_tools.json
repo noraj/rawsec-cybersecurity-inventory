@@ -198,6 +198,13 @@
       "price": "Free"
     },
     {
+      "name": "LOLAPPS",
+      "website": "https://lolapps-project.github.io/",
+      "source": "https://github.com/LOLAPPS-Project/LOLAPPS",
+      "description": "Living Off The Land Applications; curated list of applications that have been used & abused for adversarial gain",
+      "price": "Free"
+    },
+    {
       "name": "LOLBAS",
       "website": "https://lolbas-project.github.io/",
       "source": "https://github.com/LOLBAS-Project/LOLBAS",
