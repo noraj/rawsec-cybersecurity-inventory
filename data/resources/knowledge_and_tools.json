@@ -225,6 +225,12 @@
       "price": "Free"
     },
     {
+      "name": "LOTS",
+      "website": "https://lots-project.com/",
+      "description": "Living Off Trusted Sites; curated list of popular legitimate domains used by attackers to conduct phishing, C&C, exfiltration and downloading tools to evade detection",
+      "price": "Free"
+    },
+    {
       "name": "Malware Traffic Analysis",
       "website": "https://www.malware-traffic-analysis.net/",
       "description": "Malware traffic analysis blog and pastebin posts with pcap and malware samples attached; traffic analysis exercises",
