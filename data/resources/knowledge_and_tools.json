@@ -231,6 +231,12 @@
       "price": "Free"
     },
     {
+      "name": "MalAPI",
+      "website": "https://malapi.io/",
+      "description": "Maps Windows APIs to common techniques used by malware",
+      "price": "Free"
+    },
+    {
       "name": "Malware Traffic Analysis",
       "website": "https://www.malware-traffic-analysis.net/",
       "description": "Malware traffic analysis blog and pastebin posts with pcap and malware samples attached; traffic analysis exercises",
