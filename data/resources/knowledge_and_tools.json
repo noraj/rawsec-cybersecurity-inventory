@@ -1,6 +1,13 @@
 {
   "resources": [
     {
+      "name": "Argument Injection Vectors",
+      "website": "https://sonarsource.github.io/argument-injection-vectors/",
+      "source": "https://github.com/SonarSource/argument-injection-vectors",
+      "description": "Curated list of exploitable options when dealing with argument injection bugs and association between CVEs and vectors",
+      "price": "Free"
+    },
+    {
       "name": "azure-mindmap",
       "source": "https://github.com/matro7sh/azure-mindmap",
       "description": "Mindmap listing all possible compromise paths when faced with an Azure environment during a cloud security engagement",
