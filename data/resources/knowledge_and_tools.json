@@ -198,6 +198,12 @@
       "price": "Free"
     },
     {
+      "name": "LOLOL",
+      "website": "https://lolol.farm/",
+      "description": "Living Off the Living Off the Land; collection of curated list/cheatsheet of commands and other resources that can be abused or allow security bypass on various environments",
+      "price": "Free"
+    },
+    {
       "name": "LOOBins",
       "website": "https://www.loobins.io/",
       "source": "https://github.com/infosecB/LOOBins",
