@@ -201,7 +201,14 @@
       "name": "LOLBAS",
       "website": "https://lolbas-project.github.io/",
       "source": "https://github.com/LOLBAS-Project/LOLBAS",
-      "description": "Living Off The Land Binaries and Scripts; Curated list/cheatsheet of Windows binaries that can be exploited by an attacker to bypass local security restrictions, obtain shells, read files",
+      "description": "Living Off The Land Binaries and Scripts; curated list/cheatsheet of Windows binaries that can be exploited by an attacker to bypass local security restrictions, obtain shells, read files",
+      "price": "Free"
+    },
+    {
+      "name": "LOLDrivers",
+      "website": "https://www.loldrivers.io/",
+      "source": "https://github.com/magicsword-io/LOLDrivers",
+      "description": "Living Off The Land Drivers; curated list of Windows drivers used by adversaries to bypass security controls and carry out attacks",
       "price": "Free"
     },
     {
