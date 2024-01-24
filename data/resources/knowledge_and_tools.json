@@ -312,6 +312,13 @@
       "price": "Free"
     },
     {
+      "name": "persistence-info",
+      "website": "https://persistence-info.github.io/",
+      "source": "https://github.com/persistence-info/persistence-info.github.io",
+      "description": "Curated list of techniques to gain Windows persistence",
+      "price": "Free"
+    },
+    {
       "name": "Portswigger - XSS cheat sheet",
       "website": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet",
       "description": "XSS cheat sheet containing many vectors that can help bypassing WAFs and filters",
