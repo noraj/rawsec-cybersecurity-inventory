@@ -205,6 +205,13 @@
       "price": "Free"
     },
     {
+      "name": "LOFLCAB",
+      "website": "https://lofl-project.github.io/",
+      "source": "https://github.com/LOFL-Project/LOFLCAB",
+      "description": "Living off the Foreign Land Cmdlets and Binaries; curated list of cmdlets and binaries that are capable of performing activities from the local Windows system to a remote system",
+      "price": "Free"
+    },
+    {
       "name": "LOLAPPS",
       "website": "https://lolapps-project.github.io/",
       "source": "https://github.com/LOLAPPS-Project/LOLAPPS",
