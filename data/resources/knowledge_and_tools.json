@@ -457,6 +457,13 @@
       "price": "Free"
     },
     {
+      "name": "WTFBins",
+      "website": "https://wtfbins.wtf/",
+      "source": "https://github.com/mttaggart/wtfbins",
+      "description": "Curated list of legitimate binaries that behaves exactly like malware",
+      "price": "Free"
+    },
+    {
       "name": "XSS Payloads",
       "website": "http://www.xss-payloads.com/",
       "description": "Provides advanced XSS payload, tools and documentation about XSS",
