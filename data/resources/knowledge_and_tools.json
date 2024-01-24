@@ -239,6 +239,12 @@
       "price": "Free"
     },
     {
+      "name": "LOTHardware",
+      "website": "https://lothardware.com.tr/",
+      "description": "Living Off The Hardware; curated list of guidance for offensive hardware and offensive devices",
+      "price": "Free"
+    },
+    {
       "name": "LOTS",
       "website": "https://lots-project.com/",
       "description": "Living Off Trusted Sites; curated list of popular legitimate domains used by attackers to conduct phishing, C&C, exfiltration and downloading tools to evade detection",
