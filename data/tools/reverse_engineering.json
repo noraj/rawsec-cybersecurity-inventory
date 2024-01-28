@@ -288,6 +288,14 @@
       "online": "False"
     },
     {
+      "name": "Flutter Spy",
+      "source": "https://github.com/anasfik/flutter-spy",
+      "description": "Explore, analyze, and gain valuable data & insights from reverse engineered Flutter apps",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Frida",
       "website": "https://www.frida.re/",
       "source": "https://github.com/frida/frida",
