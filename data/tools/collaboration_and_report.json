@@ -262,6 +262,15 @@
       "online": "False"
     },
     {
+      "name": "PurpleOps",
+      "website": "https://purpleops.app/",
+      "source": "https://github.com/CyberCX-STA/PurpleOps",
+      "description": "Self-hosted purple team management web application",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PwnDoc",
       "website": "https://pwndoc.github.io/pwndoc/",
       "source": "https://github.com/pwndoc/pwndoc",
