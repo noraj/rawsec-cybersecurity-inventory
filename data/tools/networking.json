@@ -1017,7 +1017,8 @@
       "website": "https://tools.netsa.cert.org/silk/index.html",
       "description": "System for Internet-Level Knowledge; collection of traffic analysis tools developed to facilitate security analysis of large networks",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "silk"
     },
     {
       "name": "Singularity",

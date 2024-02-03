@@ -92,6 +92,15 @@
       "blackarch": "dawnscanner"
     },
     {
+      "name": "Joern",
+      "website": "https://joern.io/",
+      "source": "https://github.com/joernio/joern",
+      "description": "Code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs",
+      "language": "Scala",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Kube-hunter",
       "website": "https://aquasecurity.github.io/kube-hunter/",
       "source": "https://github.com/aquasecurity/kube-hunter/",
