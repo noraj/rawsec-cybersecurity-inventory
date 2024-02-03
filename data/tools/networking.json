@@ -726,6 +726,16 @@
       "online": "False"
     },
     {
+      "name": "ntlm_theft",
+      "source": "https://github.com/Greenwolf/ntlm_theft",
+      "description": "Generate multiple types of NTLMv2 hash theft files",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "ntlm-theft",
+      "keywords": "phishing"
+    },
+    {
       "name": "onesixtyone",
       "source": "https://github.com/trailofbits/onesixtyone",
       "description": "SNMP scanner",
