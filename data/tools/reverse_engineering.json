@@ -674,6 +674,14 @@
       "online": "False"
     },
     {
+      "name": "Tweezer",
+      "source": "https://github.com/user1342/Tweezer",
+      "description": "Identifying function names in stripped binaries and un-named functions",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "UglifyJS2",
       "website": "https://www.npmjs.com/package/uglify-js",
       "source": "https://github.com/mishoo/UglifyJS2",
