@@ -60,7 +60,7 @@ pages: # for Gitlab Pages this job must exactly be named `pages`
     - master
 
 pages:docs:
-  image: ruby:3.2
+  image: ruby:3.3
   stage: deploy
   script:
     - mkdir -p public/docs
