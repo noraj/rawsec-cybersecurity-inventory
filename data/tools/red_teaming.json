@@ -86,6 +86,15 @@
       "keywords": "anti-virus"
     },
     {
+      "name": "EDRSilencer",
+      "source": "https://github.com/netero1010/EDRSilencer",
+      "description": "Uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "anti-virus"
+    },
+    {
       "name": "fireELF",
       "source": "https://github.com/rek7/fireELF",
       "description": "Fileless linux malware framework",
