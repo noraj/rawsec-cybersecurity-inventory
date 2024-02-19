@@ -479,7 +479,7 @@
     },
     {
       "name": "XSS Payloads",
-      "website": "http://www.xss-payloads.com/",
+      "website": "https://xss-payloads.paracyberbellum.io/",
       "description": "Provides advanced XSS payload, tools and documentation about XSS",
       "price": "Free"
     }
