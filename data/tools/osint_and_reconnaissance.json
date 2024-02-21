@@ -176,6 +176,15 @@
       "online": "False"
     },
     {
+      "name": "Domainim",
+      "source": "https://github.com/pptx704/domainim",
+      "description": "Domain reconnaissance for organizational network scanning",
+      "language": "Nim",
+      "price": "Free",
+      "online": "False",
+      "keywords": "dns, vhost, subdomain"
+    },
+    {
       "name": "EagleEye",
       "source": "https://github.com/ThoughtfulDev/EagleEye",
       "description": "Image recognition on instagram, facebook and twitter",
