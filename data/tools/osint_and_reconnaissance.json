@@ -398,7 +398,7 @@
     },
         {
       "name": "LeakIX",
-      "source": "https://leakix.net/",
+      "website": "https://leakix.net/",
       "description": "Search engine for devices and services exposed on the Internet",
       "price": "Free",
       "online": "True"
