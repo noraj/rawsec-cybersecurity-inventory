@@ -127,3 +127,19 @@ mixin category_operating_systems(name)
             when 'Project transferred'
                 include ../content/operating_systems/project_transferred.pug
         script(src=`js/tablefilter/operating_systems/${name_underscore}.js`)
+
+mixin category_certifications(name)
+    - name_hyphen = name.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
+    - name_underscore = name_hyphen.replace(/-/g, '_')
+
+    h3.title.is-3(id=`title-certifications-${name_hyphen}`)= name
+    article
+        //- no dynamic includes in Pug https://github.com/pugjs/pug/issues/3386
+        case name
+            when 'Technical Defensive'
+                include ../content/certifications/technical_defensive.pug
+            when 'Technical Offensive'
+                include ../content/certifications/technical_offensive.pug
+            when 'Governance'
+                include ../content/certifications/governance.pug
+        script(src=`js/tablefilter/certifications/${name_underscore}.js`)

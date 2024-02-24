@@ -1,0 +1,22 @@
+{
+  "certifications": [
+    {
+      "name": "OffSec Certified Professional",
+      "acronym": "OSCP",
+      "issuer": "OffSec",
+      "description": "Penetration testing with Kali Linux, introduces penetration testing methodologies, tools, and techniques",
+      "website": "https://www.offensive-security.com/pwk-oscp/",
+      "price": "1649 $",
+      "keywords": "PEN-200"
+    },
+    {
+      "name": "OffSec Experienced Penetration tester",
+      "acronym": "OSEP",
+      "issuer": "OffSec",
+      "description": "Advanced evasion techniques and breaching defenses, perform advanced penetration tests against mature organizations with an established security function and focuses on bypassing security mechanisms that are designed to block attacks",
+      "website": "https://www.offsec.com/courses/pen-300/",
+      "price": "1649 $",
+      "keywords": "PEN-300"
+    }
+  ]
+}

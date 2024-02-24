@@ -52,6 +52,11 @@
       "Maintained",
       "No more maintained",
       "Project transferred"
+    ],
+    "Certifications": [
+      "Technical Defensive",
+      "Technical Offensive",
+      "Governance"
     ]
   }
 }

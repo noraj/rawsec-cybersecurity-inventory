@@ -1,0 +1,13 @@
+{
+  "certifications": [
+    {
+      "name": "Certified Chief Information Security Officer",
+      "acronym": "CCISO",
+      "issuer": "EC-Council",
+      "description": "Top-level information security executives, technical knowledge and application of information security management principles from an executive management point of view",
+      "website": "https://ciso.eccouncil.org/cciso-certification/",
+      "price": "2329 $",
+      "keywords": "governance, risk, compliance, controls, audit management, strategic planning, finance, procurement"
+    }
+  ]
+}

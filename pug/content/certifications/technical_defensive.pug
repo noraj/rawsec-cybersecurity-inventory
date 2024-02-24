@@ -1,0 +1,13 @@
+include ../../mixins/certification.pug
+table.table#certifications-technical-defensive
+    thead
+        tr
+            th Name
+            th Acronym
+            th Issuer
+            th Description
+            th Website
+            th Price
+    tbody
+        each certification in certifications.technical_defensive.certifications
+            +certification(certification)

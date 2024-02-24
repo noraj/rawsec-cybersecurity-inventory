@@ -7,14 +7,16 @@ block content
             .content
                 //- Table Of Contents
                 .buttons
-                    each category in mapping['Operating Systems']
+                    each category in mapping.Certifications
                         - name_hyphen = category.toLowerCase().replace(/\s/g, '-').replace(/,/g, '')
-                        a(href=`#title-operating-systems-${name_hyphen}`).button.is-primary.is-outlined= category
+                        a(href=`#title-certifications-${name_hyphen}`).button.is-primary.is-outlined= category
 
-                h2.title.is-2#title-operating-systems Operating Systems
+                h2.title.is-2#title-certifications Certifications
+            
+                p Note: Paid softwares may exist in a free limited version or a demo version
 
-                each category in mapping['Operating Systems']
-                    +category_operating_systems(category)
+                each category in mapping.Certifications
+                    +category_certifications(category)
 
 block hero-foot
     .hero-foot
@@ -29,9 +31,9 @@ block hero-foot
                         a(href='resources.html') Resources
                     li
                         a(href='ctf_platforms.html') CTF platforms
-                    li.is-active
-                        a(href='operating_systems.html') Operating Systems
                     li
+                        a(href='operating_systems.html') Operating Systems
+                    li.is-active
                         a(href='certifications.html') Certifications
 
 block optional-script-top
@@ -40,6 +42,3 @@ block optional-script-top
     //- TableFilter base config for all tables
     script(src='js/tablefilter/base_config.js')
 
-block optional-script-bottom
-    //- Apply font-mfizz class to elements when available (need to be loaded after the content)
-    script(src='js/auto-font-mfizz.js')

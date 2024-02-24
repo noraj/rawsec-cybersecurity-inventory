@@ -1,6 +1,6 @@
 let miniSearch = new MiniSearch({
-  fields: ['name', 'description', 'keywords', 'category'],
-  storeFields: ['name', 'description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch'],
+  fields: ['name', 'description', 'keywords', 'category', 'acronym', 'issuer'],
+  storeFields: ['name', 'description', 'language', 'source', 'website', 'price', 'online', 'keywords', 'category', 'blackarch', 'acronym', 'issuer'],
   //idField: 'name', // https://github.com/lucaong/minisearch/issues/59#issuecomment-841691275
   extractField: (document, fieldName) => {
     if (fieldName === 'id') {
@@ -67,6 +67,19 @@ fetch('https://inventory.raw.pm/api/api.json')
       // index items
       miniSearch.addAll(operating_systems);
     }
+    for (const [key, value] of Object.entries(data.certifications)) {
+      // add category
+      certifications = value.certifications;
+      for (let i=0; i<certifications.length; i++) {
+        certifications[i]['category'] = 'certs_' + key;
+        // crop strings that are too long and will overflow the tag label
+        if (certifications[i]['category'].length > 34) {
+          certifications[i]['category'] = certifications[i]['category'].substring(0, 33) + '…'
+        }
+      }
+      // index items
+      miniSearch.addAll(certifications);
+    }
   });
 
   let searchInput = function (val) {
@@ -124,6 +137,32 @@ fetch('https://inventory.raw.pm/api/api.json')
           content.appendChild(description);
           field = div.cloneNode(true);
           field.classList = "field is-grouped is-grouped-multiline";
+          if (elem.acronym) {
+            control_acronym = control.cloneNode(true);
+            tags_acronym = tags.cloneNode(true);
+            acronym = tag1.cloneNode(true);
+            acronym.innerText = 'Acronym';
+            tags_acronym.appendChild(acronym);
+            acronym_value = tag2.cloneNode(true);
+            acronym_value.classList.add('is-light');
+            acronym_value.innerText = elem.acronym;
+            tags_acronym.appendChild(acronym_value);
+            control_acronym.appendChild(tags_acronym);
+            field.appendChild(control_acronym);
+          }
+          if (elem.issuer) {
+            control_issuer = control.cloneNode(true);
+            tags_issuer = tags.cloneNode(true);
+            issuer = tag1.cloneNode(true);
+            issuer.innerText = 'Issuer';
+            tags_issuer.appendChild(issuer);
+            issuer_value = tag2.cloneNode(true);
+            issuer_value.classList.add('is-dark');
+            issuer_value.innerText = elem.issuer;
+            tags_issuer.appendChild(issuer_value);
+            control_issuer.appendChild(tags_issuer);
+            field.appendChild(control_issuer);
+          }
           if (elem.category) {
             control_category = control.cloneNode(true);
             tags_category = tags.cloneNode(true);

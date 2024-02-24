@@ -1,0 +1,13 @@
+include ../../mixins/certification.pug
+table.table#certifications-governance
+    thead
+        tr
+            th Name
+            th Acronym
+            th Issuer
+            th Description
+            th Website
+            th Price
+    tbody
+        each certification in certifications.governance.certifications
+            +certification(certification)

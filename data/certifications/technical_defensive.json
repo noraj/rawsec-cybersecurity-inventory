@@ -1,0 +1,13 @@
+{
+  "certifications": [
+    {
+      "name": "OffSec Defense Analyst",
+      "acronym": "OSDA",
+      "issuer": "OffSec",
+      "description": "Foundational security operations and defensive analysis, SIEM, identifying and assessing a variety of live, end-to-end attacks against a number of different network architectures",
+      "website": "https://www.offsec.com/courses/soc-200/",
+      "price": "1649 $",
+      "keywords": "SOC-200"
+    }
+  ]
+}
