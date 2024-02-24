@@ -20,7 +20,7 @@ test:inventory:
     - master
 
 test:doc:
-  image: ruby:3.2
+  image: ruby:3.3
   stage: test
   script:
     - cd documentation
@@ -32,7 +32,7 @@ test:doc:
     - master
 
 test:data:
-  image: oven/bun:1.0.26
+  image: oven/bun:1.0.29
   stage: test
   script:
     - bun install
