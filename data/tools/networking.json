@@ -529,6 +529,14 @@
       "online": "False"
     },
     {
+      "name": "Locksmith",
+      "source": "https://github.com/TrimarcJake/Locksmith",
+      "description": "Find and fix common misconfigurations in AD CS",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "lsassy",
       "source": "https://github.com/Hackndo/lsassy",
       "description": "CLI tool and library to extract credentials from lsass remotely",
