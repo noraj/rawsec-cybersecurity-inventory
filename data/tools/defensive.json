@@ -50,6 +50,15 @@
       "online": "False"
     },
     {
+      "name": "Have I Been Squatted? - Twistr",
+      "website": "https://www.haveibeensquatted.com/",
+      "source": "https://github.com/haveibeensquatted/twistrs",
+      "description": "Generate all permutations of a domain which are enriched for typosquatting detection",
+      "language": "Rust",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Imagemagick Security Policy Evaluator",
       "website": "https://imagemagick-secevaluator.doyensec.com/",
       "source": "https://github.com/doyensec/imagemagick-security-policy-evaluator",
