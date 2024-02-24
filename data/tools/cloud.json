@@ -27,6 +27,14 @@
       "online": "False"
     },
     {
+      "name": "CloudMapper",
+      "source": "https://github.com/duo-labs/cloudmapper",
+      "description": "Analyze AWS environments auditing for security issues",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pacu",
       "website": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
       "source": "https://github.com/RhinoSecurityLabs/pacu",
