@@ -21,6 +21,12 @@
       "price": "Paid"
     },
     {
+      "name": "flAWS",
+      "website": "http://flaws.cloud/",
+      "description": "Learn about common mistakes and gotchas when using Amazon Web Services (AWS) from an offensive perspective",
+      "price": "Free"
+    },
+    {
       "name": "Hacker101",
       "website": "https://www.hacker101.com/",
       "source": "https://github.com/Hacker0x01/hacker101",
