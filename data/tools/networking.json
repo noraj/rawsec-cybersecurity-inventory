@@ -828,6 +828,14 @@
       "online": "False"
     },
     {
+      "name": "PSPKIAudit",
+      "source": "https://github.com/GhostPack/PSPKIAudit",
+      "description": "AD CS auditing based on the PSPKI toolkit",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pty4all",
       "source": "https://github.com/laluka/pty4all",
       "description": "Persistent multi reverse shell handler",
