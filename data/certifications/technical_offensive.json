@@ -1,6 +1,14 @@
 {
   "certifications": [
     {
+      "name": "Certified Bug Bounty Hunter",
+      "acronym": "CBBH",
+      "issuer": "HackTheBox",
+      "description": "Technical competency in the bug bounty hunting and web application penetration testing domains at an intermediate level, spot security issues and identify avenues of exploitation that may not be immediately apparent from searching for CVEs or known exploit PoCs, think outside the box, chain multiple vulnerabilities to showcase maximum impact, and actionably help developers remediate vulnerabilities through commercial-grade bug reports",
+      "website": "https://academy.hackthebox.com/preview/certifications/htb-certified-bug-bounty-hunter",
+      "price": "490 $"
+    },
+    {
       "name": "Certified Penetration Testing Specialist",
       "acronym": "CPTS",
       "issuer": "HackTheBox",
