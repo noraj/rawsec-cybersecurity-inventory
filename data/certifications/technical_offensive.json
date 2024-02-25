@@ -1,6 +1,14 @@
 {
   "certifications": [
     {
+      "name": "Certified Penetration Testing Specialist",
+      "acronym": "CPTS",
+      "issuer": "HackTheBox",
+      "description": "Technical competency in the ethical hacking and penetration testing domains at an intermediate level, spot security issues and identify avenues of exploitation that may not be immediately apparent from searching for CVEs or known exploit PoCs, think outside the box, chain multiple vulnerabilities to showcase maximum impact, and actionably help organizations remediate vulnerabilities through commercial-grade pentesting reports",
+      "website": "https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist",
+      "price": "490 $"
+    },
+    {
       "name": "OffSec Certified Professional",
       "acronym": "OSCP",
       "issuer": "OffSec",
