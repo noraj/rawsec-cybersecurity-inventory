@@ -1,6 +1,14 @@
 {
   "certifications": [
     {
+      "name": "Certified Defensive Security Analyst",
+      "acronym": "CDSA",
+      "issuer": "HackTheBox",
+      "description": "Technical competency in the security analysis, SOC operations, and incident handling domains at an intermediate level, spot security incidents and identify avenues of detection that may not be immediately apparent from simply looking at the available data/evidence,thinking outside the box, correlating disparate pieces of data/evidence, and pivoting relentlessly to determine the maximum impact of an incident, creation of actionable security incident reports tailored for diverse audiences",
+      "website": "https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst",
+      "price": "490 $"
+    },
+    {
       "name": "OffSec Defense Analyst",
       "acronym": "OSDA",
       "issuer": "OffSec",
