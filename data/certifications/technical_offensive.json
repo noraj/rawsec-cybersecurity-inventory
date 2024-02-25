@@ -52,6 +52,14 @@
       "keywords": "EXP-301, WUMED"
     },
     {
+      "name": "OffSec Exploit Expert",
+      "acronym": "OSEE",
+      "issuer": "OffSec",
+      "description": "Advanced Windows exploitation, develop creative solutions that work in today's increasingly difficult exploitation environment, from security mitigation bypass techniques to complex heap manipulations and 64-bit kernel exploitation",
+      "website": "https://www.offsec.com/courses/exp-401/",
+      "keywords": "EXP-401, AWE"
+    },
+    {
       "name": "OffSec macOS Researcher",
       "acronym": "OSMR",
       "issuer": "OffSec",
