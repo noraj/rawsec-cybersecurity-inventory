@@ -294,6 +294,13 @@
       "price": "Free"
     },
     {
+      "name": "NetSPI SQL Injection Wiki",
+      "website": "https://sqlwiki.netspi.com/",
+      "source": "https://github.com/NetSPI/SQLInjectionWiki",
+      "description": "A wiki knowledge base focused on SQL injection for various DBMS",
+      "price": "Free"
+    },
+    {
       "name": "Packet Storm",
       "website": "https://packetstormsecurity.com/",
       "description": "Exploit index and security news",
@@ -389,10 +396,9 @@
       "price": "Free"
     },
     {
-      "name": "NetSPI SQL Injection Wiki",
-      "website": "https://sqlwiki.netspi.com/",
-      "source": "https://github.com/NetSPI/SQLInjectionWiki",
-      "description": "A wiki knowledge base focused on SQL injection for various DBMS",
+      "name": "SSH Hardening Guides",
+      "website": "https://www.sshaudit.com/hardening_guides.html",
+      "description": "Guides to hardening SSH on various systems",
       "price": "Free"
     },
     {
