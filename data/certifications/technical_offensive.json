@@ -43,6 +43,15 @@
       "keywords": "PEN-300, ETBD"
     },
     {
+      "name": "OffSec Web Assessor",
+      "acronym": "OSWA",
+      "issuer": "OffSec",
+      "description": "Leverage web exploitation techniques on modern applications, discover and exploit common web vulnerabilities and exfiltrate sensitive data from target web applications",
+      "website": "https://www.offsec.com/courses/web-200/",
+      "price": "1649 $",
+      "keywords": "WEB-200, WAKL"
+    },
+    {
       "name": "OffSec Web Expert",
       "acronym": "OSWE",
       "issuer": "OffSec",
@@ -58,7 +67,7 @@
       "description": "Foundational wireless network attacks, audit and secure wireless devices, identify vulnerabilities in 802.11 networks and execute organized techniques",
       "website": "https://www.offsec.com/courses/pen-210/",
       "price": "799 $",
-      "keywords": "PEN-210, OSWA"
+      "keywords": "PEN-210, WA"
     }
   ]
 }
