@@ -19,7 +19,7 @@
     {
       "name": "Certified Web Exploitation Expert",
       "acronym": "CWEE",
-      "issuer": "OffSec",
+      "issuer": "HackTheBox",
       "description": "Technical competency in the web security, web penetration testing, and secure coding domains at an advanced level and be well-versed in the application debugging, source code review, and custom exploit development aspects of web security testing, professionally conduct web penetration tests against modern and highly secure web applications, as well as report vulnerabilities found in code or arising from logical errors",
       "website": "https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert",
       "price": "1260 $"
