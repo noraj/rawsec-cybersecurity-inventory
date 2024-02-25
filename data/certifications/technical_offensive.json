@@ -43,6 +43,15 @@
       "keywords": "PEN-300, ETBD"
     },
     {
+      "name": "OffSec Exploit Developer",
+      "acronym": "OSED",
+      "issuer": "OffSec",
+      "description": "Windows user mode exploit development, from basic buffer overflow attacks to cracking the critical security mitigations protecting enterprises",
+      "website": "https://www.offsec.com/courses/exp-301/",
+      "price": "1649 $",
+      "keywords": "EXP-301, WUMED"
+    },
+    {
       "name": "OffSec Web Assessor",
       "acronym": "OSWA",
       "issuer": "OffSec",
