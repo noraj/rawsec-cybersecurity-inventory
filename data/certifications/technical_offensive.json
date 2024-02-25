@@ -52,6 +52,15 @@
       "keywords": "EXP-301, WUMED"
     },
     {
+      "name": "OffSec macOS Researcher",
+      "acronym": "OSMR",
+      "issuer": "OffSec",
+      "description": "Advanced macOS control bypasses, focusing on local privilege escalation and bypassing the operating system’s defenses",
+      "website": "https://www.offsec.com/courses/exp-312/",
+      "price": "1649 $",
+      "keywords": "EXP-312, MCB"
+    },
+    {
       "name": "OffSec Web Assessor",
       "acronym": "OSWA",
       "issuer": "OffSec",
