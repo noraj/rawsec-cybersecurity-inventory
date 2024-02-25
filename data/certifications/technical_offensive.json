@@ -29,7 +29,7 @@
       "acronym": "OSCP",
       "issuer": "OffSec",
       "description": "Penetration testing with Kali Linux, introduces penetration testing methodologies, tools, and techniques",
-      "website": "https://www.offensive-security.com/pwk-oscp/",
+      "website": "https://www.offsec.com/courses/pen-200/",
       "price": "1649 $",
       "keywords": "PEN-200"
     },
@@ -41,6 +41,15 @@
       "website": "https://www.offsec.com/courses/pen-300/",
       "price": "1649 $",
       "keywords": "PEN-300"
+    },
+    {
+      "name": "OffSec Web Expert",
+      "acronym": "OSWE",
+      "issuer": "OffSec",
+      "description": "Advanced web attacks and exploitation, conduct white box web app penetration tests, demonstrate mastery in exploiting front-facing web apps",
+      "website": "https://www.offsec.com/courses/web-300/",
+      "price": "1649 $",
+      "keywords": "WEB-300"
     }
   ]
 }
