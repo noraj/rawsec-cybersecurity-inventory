@@ -42,6 +42,14 @@
       "online": "False"
     },
     {
+      "name": "FalconHound",
+      "source": "https://github.com/FalconForceTeam/FalconHound",
+      "description": "Plug BloodHound with a SIEM or other log aggregation",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GraphQL Armor",
       "source": "https://github.com/Escape-Technologies/graphql-armor",
       "description": "GraphQL security layer for Apollo and Yoga / Envelop servers",
