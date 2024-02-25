@@ -31,7 +31,7 @@
       "description": "Penetration testing with Kali Linux, introduces penetration testing methodologies, tools, and techniques",
       "website": "https://www.offsec.com/courses/pen-200/",
       "price": "1649 $",
-      "keywords": "PEN-200"
+      "keywords": "PEN-200, PWK"
     },
     {
       "name": "OffSec Experienced Penetration tester",
@@ -40,7 +40,7 @@
       "description": "Advanced evasion techniques and breaching defenses, perform advanced penetration tests against mature organizations with an established security function and focuses on bypassing security mechanisms that are designed to block attacks",
       "website": "https://www.offsec.com/courses/pen-300/",
       "price": "1649 $",
-      "keywords": "PEN-300"
+      "keywords": "PEN-300, ETBD"
     },
     {
       "name": "OffSec Web Expert",
@@ -49,7 +49,16 @@
       "description": "Advanced web attacks and exploitation, conduct white box web app penetration tests, demonstrate mastery in exploiting front-facing web apps",
       "website": "https://www.offsec.com/courses/web-300/",
       "price": "1649 $",
-      "keywords": "WEB-300"
+      "keywords": "WEB-300, AWAE"
+    },
+    {
+      "name": "OffSec Wireless Professional",
+      "acronym": "OSWP",
+      "issuer": "OffSec",
+      "description": "Foundational wireless network attacks, audit and secure wireless devices, identify vulnerabilities in 802.11 networks and execute organized techniques",
+      "website": "https://www.offsec.com/courses/pen-210/",
+      "price": "799 $",
+      "keywords": "PEN-210, OSWA"
     }
   ]
 }
