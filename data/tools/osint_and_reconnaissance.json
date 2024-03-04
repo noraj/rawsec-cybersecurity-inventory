@@ -461,6 +461,16 @@
       "online": "True"
     },
     {
+      "name": "mantis",
+      "website": "https://phonepe.github.io/mantis/introduction/introduction.html",
+      "source": "https://github.com/PhonePe/mantis",
+      "description": "Command-line framework designed to automate the workflow of asset discovery, reconnaissance, and scanning",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CLI"
+    },
+    {
       "name": "MassDNS",
       "source": "https://github.com/blechschmidt/massdns",
       "description": "High-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)",
