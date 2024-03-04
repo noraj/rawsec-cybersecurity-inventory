@@ -464,6 +464,12 @@
       "price": "Free"
     },
     {
+      "name": "vx-underground",
+      "website": "https://vx-underground.org/",
+      "description": "Collection of malware source code, samples, and papers",
+      "price": "Free"
+    },
+    {
       "name": "WADComs",
       "website": "https://wadcoms.github.io/",
       "source": "https://github.com/WADComs/WADComs.github.io",
