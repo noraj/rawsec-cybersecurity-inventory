@@ -158,6 +158,13 @@
       "price": "Free"
     },
     {
+      "name": "Hacking the cloud",
+      "source": "https://hackingthe.cloud/",
+      "description": "Encyclopedia of the attacks/tactics/techniques for offensive cloud exploitation",
+      "price": "Free",
+      "keywords": "AWS, Azure, GCP, Terraform"
+    },
+    {
       "name": "HackTricks",
       "website": "https://book.hacktricks.xyz/",
       "source": "https://github.com/carlospolop/hacktricks",
