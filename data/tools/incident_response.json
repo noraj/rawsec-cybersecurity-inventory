@@ -137,6 +137,15 @@
       "language": "Go",
       "price": "Free",
       "online": "False"
-    }
+    },
+    {
+      "name": "Volatility",
+      "website": "https://www.volatilityfoundation.org/",
+      "source": "https://github.com/volatilityfoundation/volatility",
+      "description": "An advanced memory forensics framework for analyzing volatile memory (RAM) captures from Windows, macOS, and Linux systems.",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    }    
   ]
 }
