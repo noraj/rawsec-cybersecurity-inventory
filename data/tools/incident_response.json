@@ -137,6 +137,15 @@
       "language": "Go",
       "price": "Free",
       "online": "False"
-    }
+    },
+    {
+      "name": "Snort",
+      "website": "https://www.snort.org/",
+      "source": "https://github.com/snort3/snort3",
+      "description": "An open-source intrusion detection system (IDS) that monitors network traffic for suspicious activities and threats.",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    }    
   ]
 }
