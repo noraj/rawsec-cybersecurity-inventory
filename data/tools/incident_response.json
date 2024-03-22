@@ -63,6 +63,16 @@
       "blackarch": "munin-hashchecker"
     },
     {
+      "name": "osquery",
+      "website": "https://osquery.io/",
+      "source": "https://github.com/osquery/osquery",
+      "description": "Endpoint visibility tool providing SQL-based querying for monitoring and security analysis of operating systems.",
+      "language": "C++",
+      "price": "Free",
+      "online": "True"
+    }
+    ,
+    {
       "name": "SCOT",
       "website": "http://getscot.sandia.gov/",
       "source": "https://github.com/sandialabs/scot",
