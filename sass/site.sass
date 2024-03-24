@@ -20,3 +20,15 @@ $layout-breakpoint-mobile: 768px
   footer nav .level-item
     max-width: 18%
 
+// workaround https://github.com/jgthms/bulma/issues/3098
+.hero-head
+  a.navbar-item, a.navbar-link
+    color: white
+  a.navbar-item:hover, a.navbar-link:hover
+    color: #2e333d
+
+// Re-create "tiles" of the same size
+.grid .cell article.notification
+  display: flex
+  flex-direction: column
+  height: 100%
