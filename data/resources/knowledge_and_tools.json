@@ -172,6 +172,13 @@
       "price": "Free"
     },
     {
+      "name": "HackTricks Cloud",
+      "website": "https://cloud.hacktricks.xyz/",
+      "source": "https://github.com/carlospolop/hacktricks-cloud",
+      "description": "Guide and cheatsheet for cloud pentesting: CI/CD, Kubernetes, GCP, GWS, AWS, Azure, Digital Ocean, IBM Cloud, etc.",
+      "price": "Free"
+    },
+    {
       "name": "Havoc store",
       "website": "https://p4p1.github.io/havoc-store/",
       "source": "https://github.com/p4p1/havoc-store",
