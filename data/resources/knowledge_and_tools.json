@@ -59,6 +59,12 @@
       "keywords": "subdomain takeover"
     },
     {
+      "name": "Cloud Security Atlas",
+      "source": "https://securitylabs.datadoghq.com/cloud-security-atlas/",
+      "description": "Risk register for cloud threats and vulnerabilities, search and filter by cloud provider platform, risk type, and sort by impact, exploitability, and recency",
+      "price": "Free"
+    },
+    {
       "name": "ctf-tools",
       "source": "https://github.com/zardus/ctf-tools",
       "description": "Setup scripts for security tools",
