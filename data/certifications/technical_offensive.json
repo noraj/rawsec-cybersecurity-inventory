@@ -1,6 +1,14 @@
 {
   "certifications": [
     {
+      "name": "AWS Red Team Expert",
+      "acronym": "ARTE",
+      "issuer": "HackTricks",
+      "description": "Understanding of AWS security principles, techniques, and best practices by delving into topics such as identity and access management, data protection, networking… Red team methodologies specifically tailored for AWS environments, identify and remediate potential vulnerabilities effectively",
+      "website": "https://training.hacktricks.xyz/courses/arte",
+      "price": "1099 €"
+    },
+    {
       "name": "Certified Bug Bounty Hunter",
       "acronym": "CBBH",
       "issuer": "HackTheBox",
