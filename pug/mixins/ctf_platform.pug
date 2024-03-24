@@ -1,7 +1,7 @@
 mixin ctf_platform(item)
     tr(id=item.name)
         td.has-text-weight-bold
-            a(class="anchor has-text-dark" href="#"+item.name)= item.name
+            a(class="anchor has-text-primary" href="#"+item.name)= item.name
         if item.website
             td
                 a(href=item.website class='website-link') [Website]

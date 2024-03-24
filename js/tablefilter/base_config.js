@@ -1,6 +1,6 @@
 var baseConfig = {
     base_path: 'js/vendor/tablefilter/',
-    alternate_rows: true,
+    alternate_rows: false,
     highlight_keywords: false,
     ignore_diacritics: true,
     no_results_message: true,

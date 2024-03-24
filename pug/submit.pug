@@ -23,10 +23,10 @@ block content
                     | .
 
             //- We keep a form and not a div because jQuery serializeArray() works only for forms
-            form.box.has-text-weight-semibold.is-size-5.has-background-light#submit_form
+            form.box.has-text-weight-semibold.is-size-5.has-background-dark#submit_form
                 //- type
                 .field.is-horizontal#type
-                    .field-label.is-normal Type
+                    .field-label.is-normal.has-text-primary Type
                     .field-body
                         .field
                             .control
@@ -39,7 +39,7 @@ block content
                                         option(value='operating_system') Operating System
                 //- categories
                 .field.is-horizontal
-                    .field-label.is-normal Category
+                    .field-label.is-normal.has-text-primary Category
                     .field-body
                         .field.is-hidden#category_tool
                             .control
@@ -76,7 +76,7 @@ block content
                                             option(value=name_underscore)= category
                 //- elements/entries
                 .field.is-horizontal
-                    .field-label.is-normal New entry
+                    .field-label.is-normal.has-text-primary New entry
                     .field-body
                         .field.is-hidden#entry_name
                             label.label Name

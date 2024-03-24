@@ -27,6 +27,20 @@ $layout-breakpoint-mobile: 768px
   a.navbar-item:hover, a.navbar-link:hover
     color: #2e333d
 
+// Fix color for dark mode
+@media (prefers-color-scheme: dark)
+  :root
+    .hero-head
+      a.navbar-item:hover, a.navbar-link:hover
+        color: white
+    // fix tables color
+    table.TF
+      .no-results, .inf, th
+        background-color: inherit
+    .no-results
+      color: inherit
+      background-color: inherit
+
 // Re-create "tiles" of the same size
 .grid .cell article.notification
   display: flex
