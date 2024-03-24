@@ -66,12 +66,11 @@
       "name": "osquery",
       "website": "https://osquery.io/",
       "source": "https://github.com/osquery/osquery",
-      "description": "Endpoint visibility tool providing SQL-based querying for monitoring and security analysis of operating systems.",
-      "language": "C++",
+      "description": "Osquery uses SQL queries to monitor and analyze operating systems, providing endpoint visibility for security",
+      "language": "Cplusplus",
       "price": "Free",
       "online": "True"
-    }
-    ,
+    },
     {
       "name": "SCOT",
       "website": "http://getscot.sandia.gov/",
