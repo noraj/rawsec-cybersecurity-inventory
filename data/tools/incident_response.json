@@ -63,6 +63,15 @@
       "blackarch": "munin-hashchecker"
     },
     {
+      "name": "osquery",
+      "website": "https://osquery.io/",
+      "source": "https://github.com/osquery/osquery",
+      "description": "Osquery uses SQL queries to monitor and analyze operating systems, providing endpoint visibility for security",
+      "language": "Cplusplus",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "SCOT",
       "website": "http://getscot.sandia.gov/",
       "source": "https://github.com/sandialabs/scot",
