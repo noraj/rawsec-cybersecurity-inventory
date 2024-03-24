@@ -339,6 +339,13 @@
       "price": "Free"
     },
     {
+      "name": "Sthack CTF Interface",
+      "source": "https://github.com/StHack/2021-scoreboard",
+      "description": "Jeopardy CTF platform",
+      "language": "TypeScript",
+      "price": "Free"
+    },
+    {
       "name": "TallyCTF",
       "source": "https://github.com/CyberNinjas/TallyCTF",
       "description": "Jeopardy CTF platform with OAuth2.0 and OpenIDConnect support",
