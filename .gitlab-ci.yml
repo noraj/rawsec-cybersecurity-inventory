@@ -32,7 +32,7 @@ test:doc:
     - master
 
 test:data:
-  image: oven/bun:1.0.29
+  image: oven/bun:1.0.35
   stage: test
   script:
     - bun install
