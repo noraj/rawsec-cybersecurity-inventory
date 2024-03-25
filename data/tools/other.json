@@ -70,14 +70,6 @@
       "keywords": "cypher, neo4j"
     },
     {
-      "name": "BreachAlarm",
-      "website": "https://breachalarm.com/",
-      "description": "Service to check if an account has been compromised in a data breach, only tells if the account is compromised",
-      "price": "Free",
-      "online": "True",
-      "keywords": "leak"
-    },
-    {
       "name": "BreachDirectory",
       "website": "https://breachdirectory.org/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches, partial password and hash",
