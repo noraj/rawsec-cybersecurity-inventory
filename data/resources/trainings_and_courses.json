@@ -71,6 +71,13 @@
       "price": "Free"
     },
     {
+      "name": "Pwned Labs",
+      "website": "https://pwnedlabs.io/",
+      "description": "Cloud security labs",
+      "price": "Paid",
+      "keywords": "AWS, Azure, GCP"
+    },
+    {
       "name": "SANS",
       "website": "https://www.sans.org/security-resources/",
       "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
