@@ -11,6 +11,14 @@
       "keywords": "AWS, GCP, Azure"
     },
     {
+      "name": "aws_pwn",
+      "source": "https://github.com/dagrz/aws_pwn/",
+      "description": "Collection of AWS penetration testing scripts",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "AzureADRecon",
       "source": "https://github.com/adrecon/AzureADRecon",
       "description": "Gathers information about the Azure Active Directory and generates a report which can provide a holistic picture of the current state of the target environment",
