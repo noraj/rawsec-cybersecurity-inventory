@@ -232,12 +232,6 @@
       "price": "Free"
     },
     {
-      "name": "PentesterLab",
-      "website": "https://pentesterlab.com/",
-      "description": "Pentest lab with exercises and videos: Unix, PCAP, HTTP, Code review, serialization, JWT, real vulnerabilities, GraphQL, common web vulnerabilities, MiTM, authentication (oAuth, SAML), Android, recon, advanced attacks, API, etc.",
-      "price": "Paid"
-    },
-    {
       "name": "Practical Pentest Labs",
       "website": "https://practicalpentestlabs.com/",
       "description": "Pentest lab",
