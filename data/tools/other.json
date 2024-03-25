@@ -409,14 +409,6 @@
       "blackarch": "pipal"
     },
     {
-      "name": "pwndb",
-      "website": "http://pwndb2am4tzkvold.onion/",
-      "description": "Service to check if an account has been compromised in a data breach, display the full password",
-      "price": "Free",
-      "online": "True",
-      "keywords": "api, tor, onion, leak"
-    },
-    {
       "name": "PWDQUERY",
       "website": "https://pwdquery.xyz/",
       "description": "Service to check if an account has been compromised in a data breach, doesn't display breaches, partially display password",
