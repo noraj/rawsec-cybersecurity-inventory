@@ -527,14 +527,6 @@
       "online": "False"
     },
     {
-      "name": "UK Data Breaches",
-      "website": "https://www.breaches.uk/",
-      "description": "Service to check if an account has been compromised in a data breach, display the breaches not password",
-      "price": "Free",
-      "online": "True",
-      "keywords": "leak"
-    },
-    {
       "name": "unisec",
       "website": "https://acceis.github.io/unisec",
       "source": "https://github.com/Acceis/unisec",
