@@ -1111,6 +1111,14 @@
       "blackarch": "ssh-audit"
     },
     {
+      "name": "sshame",
+      "source": "https://github.com/HynekPetrak/sshame",
+      "description": "Brute force SSH public-key authentication interactively",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sshimpanzee",
       "website": "https://blog.lexfo.fr/sshimpanzee.html",
       "source": "https://github.com/lexfo/sshimpanzee",
