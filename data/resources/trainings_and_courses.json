@@ -88,6 +88,12 @@
       "website": "https://www.sans.org/security-resources/",
       "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
       "price": "Paid"
+    },
+    {
+      "name": "Virtual Hacking Labs",
+      "website": "https://www.virtualhackinglabs.com/labs/penetration-testing-lab/",
+      "description": "Pentest lab",
+      "price": "Paid"
     }
   ]
 }

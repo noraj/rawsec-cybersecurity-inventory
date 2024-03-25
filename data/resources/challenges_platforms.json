@@ -232,12 +232,6 @@
       "price": "Free"
     },
     {
-      "name": "Practical Pentest Labs",
-      "website": "https://practicalpentestlabs.com/",
-      "description": "Pentest lab",
-      "price": "Paid"
-    },
-    {
       "name": "Pwnable.kr",
       "website": "http://pwnable.kr/",
       "description": "Pwn challenges",
