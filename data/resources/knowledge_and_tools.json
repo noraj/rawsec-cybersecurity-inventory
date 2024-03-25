@@ -60,9 +60,16 @@
     },
     {
       "name": "Cloud Security Atlas",
-      "source": "https://securitylabs.datadoghq.com/cloud-security-atlas/",
+      "website": "https://securitylabs.datadoghq.com/cloud-security-atlas/",
       "description": "Risk register for cloud threats and vulnerabilities, search and filter by cloud provider platform, risk type, and sort by impact, exploitability, and recency",
       "price": "Free"
+    },
+    {
+      "name": "Cloudvulndb",
+      "website": "https://www.cloudvulndb.org/",
+      "description": "List all known cloud vulnerabilities and CSP security issues",
+      "price": "Free",
+      "keywords": "AWS, Azure, GCP"
     },
     {
       "name": "ctf-tools",
