@@ -313,6 +313,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "Nighthawk",
+      "website": "https://www.mdsec.co.uk/nighthawk/",
+      "description": "Command & Control framework; multi-operator, API driven, malleable native implant",
+      "language": "CSharp",
+      "price": "Paid",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Octopus",
       "source": "https://github.com/mhaskar/Octopus",
       "description": "Pre-operation C2 server",
