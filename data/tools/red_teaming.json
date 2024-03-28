@@ -331,6 +331,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "NimPlant",
+      "source": "https://github.com/chvancooten/NimPlant",
+      "description": "Light-weight first-stage Command & Control implant",
+      "language": "Nim",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Octopus",
       "source": "https://github.com/mhaskar/Octopus",
       "description": "Pre-operation C2 server",
