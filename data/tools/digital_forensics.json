@@ -17,14 +17,6 @@
       "online": "False"
     },
     {
-      "name": "dnscat2",
-      "source": "https://github.com/iagox86/dnscat2",
-      "description": "Encrypted command-and-control (C&C) channel over the DNS protocol, data exfiltration",
-      "language": "Cplusplus",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "ds_store_exp",
       "source": "https://github.com/lijiejie/ds_store_exp",
       "description": "Extract files from .DS_Store recursively",

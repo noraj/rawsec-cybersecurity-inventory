@@ -96,7 +96,7 @@
     {
       "name": "dnscat2",
       "source": "https://github.com/iagox86/dnscat2",
-      "description": "DNS tunnel meant for encrypted Command & Control channel",
+      "description": "DNS tunnel meant for encrypted Command & Control channel, data exfiltration",
       "language": "Ruby",
       "price": "Free",
       "online": "False",
