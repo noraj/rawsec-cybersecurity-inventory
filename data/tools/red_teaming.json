@@ -164,6 +164,15 @@
       "keywords": "C&C"
     },
     {
+      "name": "HardHat C2",
+      "source": "https://github.com/DragoQCC/HardHatC2",
+      "description": "Cross-platform, collaborative, Command & Control framework",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C"
+    },
+    {
       "name": "Havoc",
       "source": "https://github.com/HavocFramework/Havoc",
       "description": "Malleable post-exploitation command and control framework",
