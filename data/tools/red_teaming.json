@@ -383,6 +383,15 @@
       "online": "False"
     },
     {
+      "name": "PoshC2",
+      "source": "https://github.com/nettitude/PoshC2",
+      "description": "Proxy aware Command & Control framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "PowerShdll",
       "source": "https://github.com/p3nt4/PowerShdll",
       "description": "Run PowerShell with dlls only to bypass software restrictions; it can be run with rundll32.exe, installutil.exe, regsvcs.exe, regasm.exe, regsvr32.exe or as a standalone executable",
