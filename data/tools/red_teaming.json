@@ -94,6 +94,15 @@
       "online": "False"
     },
     {
+      "name": "dnscat2",
+      "source": "https://github.com/iagox86/dnscat2",
+      "description": "DNS tunnel meant for encrypted Command & Control channel",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Donut",
       "source": "https://github.com/TheWover/donut",
       "description": "Generates x86_32, x86_64, or AMD64 position-independent shellcode that loads .NET Assemblies, PE files (EXE), VBScript, JScript, and DLL files from memory and runs them with parameters",
