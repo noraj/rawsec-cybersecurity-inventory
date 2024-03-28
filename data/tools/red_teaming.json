@@ -61,6 +61,15 @@
       "online": "False"
     },
     {
+      "name": "Covenant",
+      "source": "https://github.com/cobbr/Covenant",
+      "description": "Command & Control framework with multi-user collaboration",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "CredMaster",
       "source": "https://github.com/knavesec/CredMaster",
       "description": "Password spraying, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
@@ -157,11 +166,11 @@
     {
       "name": "Hades C2",
       "source": "https://github.com/Lavender-exe/Hades-C2",
-      "description": "Basic command and control server",
+      "description": "Basic Command and Control server",
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "C&C"
+      "keywords": "C&C, C2"
     },
     {
       "name": "HardHat C2",
@@ -170,7 +179,7 @@
       "language": "CSharp",
       "price": "Free",
       "online": "False",
-      "keywords": "C&C"
+      "keywords": "C&C, C2"
     },
     {
       "name": "Havoc",
