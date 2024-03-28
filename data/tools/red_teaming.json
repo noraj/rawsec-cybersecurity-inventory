@@ -508,6 +508,15 @@
       "online": "False"
     },
     {
+      "name": "SILENTTRINITY",
+      "source": "https://github.com/byt3bl33d3r/SILENTTRINITY",
+      "description": "Asynchronous, multiplayer and multiserver Command & Control framework",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "Sliver",
       "source": "https://github.com/BishopFox/sliver",
       "description": "Cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS; remote access tool (RAT)",
