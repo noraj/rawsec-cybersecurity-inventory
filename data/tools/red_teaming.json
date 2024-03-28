@@ -35,6 +35,14 @@
       "keywords": "anti-virus, C2"
     },
     {
+      "name": "Brute Ratel",
+      "website": "https://bruteratel.com/",
+      "description": "Command & Control server; DNS over HTTPS, external channels, indirect syscalls",
+      "price": "Paid",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "CarbonCopy",
       "source": "https://github.com/paranoidninja/CarbonCopy",
       "description": "Create a spoofed certificate of any online website and signs an executable for AV Evasion; works for Windows and Linux",
