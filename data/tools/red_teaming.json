@@ -438,10 +438,11 @@
     {
       "name": "Pupy",
       "source": "https://github.com/n1nj4sec/pupy",
-      "description": "Cross-platform, multi function remote access tool (RAT) and post-exploitation tool; fileless/all-in-memory execution, low footprint, multi-transport",
+      "description": "Cross-platform, multi function Command & Control and post-exploitation framework; fileless/all-in-memory execution, low footprint, multi-transport",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "C&C, C2"
     },
     {
       "name": "Quasar",
