@@ -357,6 +357,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "Nimbo-C2",
+      "source": "https://github.com/itaymigdal/Nimbo-C2",
+      "description": "Simple and lightweight Command & Control framework",
+      "language": "Nim",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "NimPlant",
       "source": "https://github.com/chvancooten/NimPlant",
       "description": "Light-weight first-stage Command & Control implant",
