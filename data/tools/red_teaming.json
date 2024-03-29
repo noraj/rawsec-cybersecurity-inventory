@@ -510,6 +510,16 @@
       "online": "False"
     },
     {
+      "name": "SharpC2",
+      "website": "https://sharpc2.readthedocs.io/en/latest/",
+      "source": "https://github.com/rasta-mouse/SharpC2",
+      "description": "Command & Control framework",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "SharpEDRChecker",
       "source": "https://github.com/PwnDexter/SharpEDRChecker",
       "description": "Detect and identify the presence of known defensive products such as AV's, EDR's and logging tools",
