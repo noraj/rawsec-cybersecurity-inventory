@@ -589,6 +589,14 @@
       "blackarch": "socialfish"
     },
     {
+      "name": "Starkiller",
+      "source": "https://github.com/BC-SECURITY/Starkiller",
+      "description": "WebUI for Empire",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Synergy Httpx",
       "source": "https://github.com/t3l3machus/Synergy-httpx",
       "description": "HTTP(S) server designed to assist in red teaming activities such as receiving intercepted data via POST requests and serving content dynamically",
