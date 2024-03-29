@@ -401,6 +401,15 @@
       "online": "False"
     },
     {
+      "name": "phpsploit",
+      "source": "https://github.com/nil0x42/phpsploit",
+      "description": "Command & Controll framework which silently persists on webserver via polymorphic PHP oneliner",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C&C, C2"
+    },
+    {
       "name": "PipeViewer",
       "source": "https://github.com/cyberark/PipeViewer",
       "description": "Shows detailed information about named pipes in Windows and searching for insecure permissions",
