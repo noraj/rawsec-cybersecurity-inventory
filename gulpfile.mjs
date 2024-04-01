@@ -32,7 +32,7 @@ task('build',
         series(api_clean, api_build, api_copy),
         parallel(
             bulma, bulmajs, tablefilter, sweetalert2, jquery, minisearch, js,
-            fontawesome, font_mfizz, images, css
+            fontawesome_css, fontawesome_font, font_mfizz, images, css
 )));
 task('build').description = 'Build the static website';
 task('default', series('clean', 'build'));
@@ -109,7 +109,7 @@ function api_build() {
 };
 
 function api_copy() {
-    return src('temp/api/**/*.json')
+    return src('temp/api/**/*.json', { buffer: false })
         .pipe(dest('build/api/'))
 };
 
@@ -121,13 +121,13 @@ function bulma() {
 };
 
 function bulmajs() {
-    return src('node_modules/@vizuaalog/bulmajs/dist/navbar.js')
+    return src('node_modules/@vizuaalog/bulmajs/dist/navbar.js', { buffer: false })
         .pipe(dest('build/js/vendor/bulmajs/'));
   };
 
 function tablefilter() {
     return src('node_modules/tablefilter/dist/tablefilter/**/*',
-        { base: 'node_modules/tablefilter/dist/'}
+        { base: 'node_modules/tablefilter/dist/', buffer: false }
     )
         .pipe(dest('build/js/vendor/'));
 };
@@ -139,18 +139,18 @@ function sweetalert2() {
 };
 
 function jquery() {
-    return src('node_modules/jquery/dist/jquery.min.js')
+    return src('node_modules/jquery/dist/jquery.min.js', { buffer: false })
         .pipe(dest('build/js/vendor/jquery/'));
 };
 
 function minisearch() {
-    return src('node_modules/minisearch/dist/umd/index.js*')
+    return src('node_modules/minisearch/dist/umd/index.js*', { buffer: false })
         .pipe(dest('build/js/vendor/minisearch/'));
 };
 
 // copy personal (non-vendor) scripts
 function js() {
-    return src('js/**/*.js')
+    return src('js/**/*.js', { buffer: false })
         .pipe(dest('build/js/'));
 };
 
@@ -161,23 +161,35 @@ function css() {
         .pipe(dest('build/css/'));
 };
 
-function fontawesome() {
-    return src(['node_modules/@fortawesome/fontawesome-free/css/*',
-    'node_modules/@fortawesome/fontawesome-free/webfonts/*'],
-    { base: 'node_modules/@fortawesome/fontawesome-free/'}
-    )
+function fontawesome_css() {
+    return src('node_modules/@fortawesome/fontawesome-free/css/all.min.css', { buffer: false })
+        .pipe(dest('build/css/vendor/fontawesome/css/'));
+  };
+
+function fontawesome_font() {
+    return src('node_modules/@fortawesome/fontawesome-free/webfonts/*',
+        {
+            base: 'node_modules/@fortawesome/fontawesome-free/',
+            // buffer: false, // https://github.com/gulpjs/gulp/issues/2768#issuecomment-2030071554
+            encoding: false // https://github.com/gulpjs/gulp/issues/2766
+        })
         .pipe(dest('build/css/vendor/fontawesome/'));
 };
 
 function font_mfizz() {
     return src(['node_modules/font-mfizz/dist/*',
     '!node_modules/font-mfizz/dist/preview.html',
-    ])
+    ], { buffer: false })
         .pipe(dest('build/css/vendor/font-mfizz/'));
 };
 
 function images() {
-    return src('img/**/*.*')
+    return src('img/**/*.*',
+        {
+            // buffer: false, // https://github.com/gulpjs/gulp/issues/2768#issuecomment-2030071554
+            encoding: false
+        }
+        )
         .pipe(dest('build/img/'));
 };
 
