@@ -104,6 +104,12 @@
       "price": "Free"
     },
     {
+      "name": "Flag4jobs",
+      "website": "https://flag4jobs.com/",
+      "description": "Challenge platform with job offers",
+      "price": "Free"
+    },
+    {
       "name": "Gekkó",
       "website": "http://gekko.csokavar.hu/",
       "description": "Challenge platform",
