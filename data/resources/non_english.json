@@ -99,6 +99,13 @@
       "price": "Free"
     },
     {
+      "name": "Tower CTF",
+      "language": "French",
+      "website": "https://www.tower-ctf.fr",
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "World of Wargame",
       "language": "Spanish",
       "website": "https://wow.sinfocol.org/",
