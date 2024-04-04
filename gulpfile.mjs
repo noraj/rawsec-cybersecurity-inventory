@@ -127,7 +127,11 @@ function bulmajs() {
 
 function tablefilter() {
     return src('node_modules/tablefilter/dist/tablefilter/**/*',
-        { base: 'node_modules/tablefilter/dist/', buffer: false }
+        {
+            base: 'node_modules/tablefilter/dist/',
+            // buffer: false, // https://github.com/gulpjs/gulp/issues/2768#issuecomment-2030071554
+            encoding: false
+        }
     )
         .pipe(dest('build/js/vendor/'));
 };
@@ -178,8 +182,12 @@ function fontawesome_font() {
 
 function font_mfizz() {
     return src(['node_modules/font-mfizz/dist/*',
-    '!node_modules/font-mfizz/dist/preview.html',
-    ], { buffer: false })
+        '!node_modules/font-mfizz/dist/preview.html',
+        ],
+        {
+            // buffer: false, // https://github.com/gulpjs/gulp/issues/2768#issuecomment-2030071554
+            encoding: false
+        })
         .pipe(dest('build/css/vendor/font-mfizz/'));
 };
 
