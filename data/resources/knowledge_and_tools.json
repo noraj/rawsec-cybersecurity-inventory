@@ -334,7 +334,8 @@
       "price": "Free"
     },
     {
-      "name": "PayloadsAllTheThings",
+      "name": "Payloads All The Things",
+      "website": "https://swisskyrepo.github.io/PayloadsAllTheThings/",
       "source": "https://github.com/swisskyrepo/PayloadsAllTheThings",
       "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
       "price": "Free"
