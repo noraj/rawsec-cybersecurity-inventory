@@ -1001,7 +1001,8 @@
       "description": "Active Directory data collector for BloodHound",
       "language": "Rust",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "rusthound"
     },
     {
       "name": "sandmap",
