@@ -583,6 +583,16 @@
       "online": "False"
     },
     {
+      "name": "Recaf",
+      "website": "https://www.coley.software/Recaf/",
+      "source": "https://github.com/Col-E/Recaf",
+      "description": "Edit Java bytecode, insert single line Java statements into the bytecode, recompile decompiled code",
+      "language": "Java",
+      "price": "Free",
+      "online":"False",
+      "blackarch": "recaf"
+    },
+    {
       "name": "ReFlutter",
       "website": "https://swarm.ptsecurity.com/fork-bomb-for-flutter/",
       "source": "https://github.com/Impact-I/Reflutter",
