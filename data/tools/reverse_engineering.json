@@ -397,10 +397,12 @@
     {
       "name": "JD-GUI",
       "website": "http://jd.benow.ca/",
+      "source": "https://github.com/java-decompiler/jd-gui",
       "description": "GUI tool decompiling JAVA",
       "language": "Java",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "jd-gui"
     },
     {
       "name": "JEB",
