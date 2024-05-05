@@ -149,7 +149,7 @@
       "name": "GZCTF",
       "website": "https://docs.ctf.gzti.me/",
       "source": "https://github.com/GZTimeWalker/GZCTF",
-      "description": "Jeopardy CTF platform (exclusively in Chinese)",
+      "description": "Jeopardy CTF platform, cloud-native, with modern design and multiple languages support",
       "language": "CSharp",
       "price": "Free"
     },
