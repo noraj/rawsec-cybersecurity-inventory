@@ -223,6 +223,13 @@
       "online": "False"
     },
     {
+      "name": "PentestPad",
+      "source": "https://www.pentestpad.com/features/pentest-report-generator",
+      "description": "Collaborative penetration test between team members and end-clients, vulnerability database and reporting platform",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "PenTest.WS",
       "website": "https://pentest.ws/",
       "description": "Collaborative penetration test, vulnerability database and reporting platform",
