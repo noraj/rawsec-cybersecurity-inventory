@@ -16,7 +16,8 @@
       "description": "Collection of AWS penetration testing scripts",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "AWS"
     },
     {
       "name": "AzureADRecon",
@@ -24,7 +25,8 @@
       "description": "Gathers information about the Azure Active Directory and generates a report which can provide a holistic picture of the current state of the target environment",
       "language": "PowerShell",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "Azure"
     },
     {
       "name": "CloudGPT",
@@ -32,7 +34,8 @@
       "description": "Vulnerability scanner for AWS customer managed policies using ChatGPT",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "AWS"
     },
     {
       "name": "CloudMapper",
@@ -40,7 +43,8 @@
       "description": "Analyze AWS environments auditing for security issues",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "AWS"
     },
     {
       "name": "CloudTracker",
@@ -61,6 +65,15 @@
       "online": "False",
       "blackarch": "pacu",
       "keywords": "AWS"
+    },
+    {
+      "name": "Quiet Riot",
+      "source": "https://github.com/righteousgambit/quiet-riot",
+      "description": "Unauthenticated enumeration of cloud principals",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AWS, GCP, Azure"
     },
     {
       "name": "Smogcloud",
