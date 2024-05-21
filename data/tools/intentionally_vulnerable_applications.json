@@ -103,6 +103,14 @@
       "online": "False"
     },
     {
+      "name": "simulator",
+      "source": "https://github.com/controlplaneio/simulator",
+      "description": "Distributed systems and infrastructure simulator for attacking and debugging Kubernetes, creates a Kubernetes cluster in AWS and runs scenarios which misconfigure it or leave it vulnerable to compromise to train in mitigating against these vulnerabilities",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "VAmPI",
       "source": "https://github.com/erev0s/VAmPI",
       "description": "Vulnerable REST API with OWASP top 10 vulnerabilities for security testing ",
