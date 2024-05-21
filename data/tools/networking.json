@@ -1023,6 +1023,14 @@
       "online": "False"
     },
     {
+      "name": "SCCMHunter",
+      "source": "https://github.com/garrettfoster13/sccmhunter",
+      "description": "Streamline identifying, profiling, and attacking SCCM related assets in an Active Directory domain",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Seth",
       "source": "https://github.com/SySS-Research/Seth",
       "description": "RDP MitM tool",
