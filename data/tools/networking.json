@@ -324,6 +324,14 @@
       "keywords": "pivoting"
     },
     {
+      "name": "go-secdump",
+      "source": "https://github.com/jfjallid/go-secdump",
+      "description": "Remotely dump secrets from the Windows registry (SAM hive, LSA secrets, SECURITY hive)",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "GoldenCopy",
       "source": "https://github.com/Dramelac/GoldenCopy",
       "description": "Copy the properties and groups of a user from neo4j (bloodhound) to create an identical golden ticket",
