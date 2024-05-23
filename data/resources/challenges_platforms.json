@@ -125,7 +125,7 @@
       "name": "Hack The Box",
       "website": "https://www.hackthebox.eu/",
       "description": "Challenge platform",
-      "price": "Free"
+      "price": "Paid"
     },
     {
       "name": "Hack This Site",
@@ -289,13 +289,19 @@
       "name": "Root-me",
       "website": "https://www.root-me.org",
       "description": "Challenge platform",
-      "price": "Free"
+      "price": "Paid"
     },
     {
       "name": "RoseCode",
       "website": "http://www.javaist.com/rosecode",
       "description": "Challenge platform",
       "price": "Free"
+    },
+    {
+      "name": "SecDim",
+      "website": "https://secdim.com",
+      "description": "Defensive programming challenges, wargames and learning modules",
+      "price": "Paid"
     },
     {
       "name": "Security Traps",
@@ -349,7 +355,7 @@
       "name": "TryHackMe",
       "website": "https://tryhackme.com/",
       "description": "Challenge platform with deployable machines; there are also tutorials and courses",
-      "price": "Free"
+      "price": "Paid"
     },
     {
       "name": "TryThis0ne",
