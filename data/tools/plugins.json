@@ -178,6 +178,7 @@
     {
       "name": "Pwndbg",
       "tool": "GDB",
+      "website": "https://pwndbg.re/",
       "source": "https://github.com/pwndbg/pwndbg",
       "description": "Enhance GDB, for exploit development and reverse engineering",
       "language": "Python",
