@@ -247,6 +247,14 @@
       "blackarch": "coercer"
     },
     {
+      "name": "ConPass",
+      "source": "https://github.com/login-securite/conpass",
+      "description": "Password spraying in Active Directory checking the default domain password policy as well as PSO and the badpwdcount LDAP attribute to avoid account locking",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CrackMapExec",
       "source": "https://github.com/byt3bl33d3r/CrackMapExec",
       "description": "Post-exploitation tool to assess Active Directory networks",
