@@ -475,6 +475,14 @@
       "blackarch": "kerbrute"
     },
     {
+      "name": "KRBJack",
+      "source": "https://github.com/almandin/krbjack",
+      "description": "DNS dynamic update abuse in ADIDNS via DSPROPERTY_ZONE_ALLOW_UPDATE set to ZONE_UPDATE_UNSECURE combined with MitM attack using Kerberos AP-REQ hijacking",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Krbrelayx",
       "website": "https://dirkjanm.io/krbrelayx-unconstrained-delegation-abuse-toolkit/",
       "source": "https://github.com/dirkjanm/krbrelayx",
