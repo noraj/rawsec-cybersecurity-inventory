@@ -761,14 +761,6 @@
       "online": "False"
     },
     {
-      "name": "SprayHound",
-      "source": "https://github.com/Hackndo/sprayhound",
-      "description": "Password spraying in Active Directory, set pwned users as owned in Bloodhound and detect path to Domain Admins",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Stalker",
       "source": "https://gitlab.com/Pxmme/stalker",
       "description": "Automated scanning of social networks and other websites, using a single nickname",

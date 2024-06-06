@@ -1118,6 +1118,15 @@
       "keywords": "IDS"
     },
     {
+      "name": "SprayHound",
+      "source": "https://github.com/Hackndo/sprayhound",
+      "description": "Password spraying in Active Directory checking the default domain password policy and the badpwdcount LDAP attribute to avoid account locking, set pwned users as owned in Bloodhound and detect path to Domain Admins",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "sprayhound"
+    },
+    {
       "name": "ssh-audit",
       "website": "https://www.ssh-audit.com/",
       "source": "https://github.com/jtesta/ssh-audit",
