@@ -86,6 +86,15 @@
       "online": "False"
     },
     {
+      "name": "CSTC",
+      "tool": "Burp Suite",
+      "source": "https://github.com/usdAG/cstc",
+      "description": "Cyber Security Transformation Chef; chaining simple operations and formatting on each incoming or outgoing HTTP message",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Exporter",
       "tool": "Burp Suite",
       "source": "https://github.com/artssec/burp-exporter",
