@@ -52,6 +52,16 @@
       "online": "False"
     },
     {
+      "name": "adidnsdump",
+      "source": "https://github.com/dirkjanm/adidnsdump",
+      "description": "Enumeration and exporting of all DNS records in ADIDNS domain or forest DNS zones",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "active directory, windows",
+      "blackarch": "adidnsdump"
+    },
+    {
       "name": "ADMiner",
       "source": "https://github.com/Mazars-Tech/AD_Miner",
       "description": "Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report",
@@ -472,6 +482,7 @@
       "language": "Go",
       "price": "Free",
       "online": "False",
+      "keywords": "windows",
       "blackarch": "kerbrute"
     },
     {
@@ -480,7 +491,8 @@
       "description": "DNS dynamic update abuse in ADIDNS via DSPROPERTY_ZONE_ALLOW_UPDATE set to ZONE_UPDATE_UNSECURE combined with MitM attack using Kerberos AP-REQ hijacking",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "active directory, windows"
     },
     {
       "name": "Krbrelayx",
