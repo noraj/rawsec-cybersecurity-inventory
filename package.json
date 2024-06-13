@@ -51,7 +51,7 @@
     "jquery": "^3.7.1",
     "minisearch": "^6.3.0",
     "pug": "^3.0.3",
-    "sass": "^1.77.4",
+    "sass": "^1.77.5",
     "static-api": "^0.2.0",
     "sweetalert2": "^11.11.1",
     "tablefilter": "^0.7.2"
