@@ -215,6 +215,15 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Tracee",
+      "website": "https://aquasecurity.github.io/tracee/",
+      "source": "https://github.com/aquasecurity/tracee",
+      "description": "Linux Runtime Security and Forensics using eBPF",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
