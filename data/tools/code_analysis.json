@@ -215,15 +215,6 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
-    },
-    {
-      "name": "Tracee",
-      "website": "https://aquasecurity.github.io/tracee/",
-      "source": "https://github.com/aquasecurity/tracee",
-      "description": "Linux runtime observability and forensics using eBPF to tap into the system and expose information as events that can be consumed",
-      "language": "Go",
-      "price": "Free",
-      "online": "False"
     }
   ]
 }
