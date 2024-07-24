@@ -638,6 +638,15 @@
       "keywords": "microsoft"
     },
     {
+      "name": "TeamsEnum",
+      "source": "https://github.com/sse-secure-systems/TeamsEnum",
+      "description": "User enumeration of MS Teams users",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "microsoft"
+    },
+    {
       "name": "TeamsImplant",
       "source": "https://github.com/Allevon412/TeamsImplant",
       "description": "MS Teams implant persistent backdoor",
