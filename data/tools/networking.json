@@ -856,6 +856,14 @@
       "online": "False"
     },
     {
+      "name": "PolarDNS",
+      "source": "https://github.com/oryxlabs/PolarDNS",
+      "description": "Specialized authoritative DNS server suitable for penetration testing and vulnerability research",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Polymorph",
       "source": "https://github.com/shramos/polymorph",
       "description": "Real-time network packet manipulation framework",
