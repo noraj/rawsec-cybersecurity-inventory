@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "BadExclusionsNWBO",
+      "source": "https://github.com/iamagarre/BadExclusionsNWBO",
+      "description": "Identify folder custom or undocumented exclusions on AV/EDR; evolution of BadExclusions but with better opsec",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BOF.NET",
       "source": "https://github.com/CCob/BOF.NET",
       "description": "A .NET Runtime for Cobalt Strike's Beacon Object Files",
