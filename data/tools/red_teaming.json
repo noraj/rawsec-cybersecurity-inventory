@@ -631,10 +631,11 @@
     {
       "name": "TeamsBreaker",
       "source": "https://github.com/ASOT-LABS/TeamsBreaker",
-      "description": "Automating the sending of phishing messages to victims; based on TeamsPhisher and TeamsEnum",
+      "description": "Automating the sending of phishing messages to MS Teams users; based on TeamsPhisher and TeamsEnum",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "microsoft"
     },
     {
       "name": "TeamsImplant",
@@ -642,7 +643,17 @@
       "description": "MS Teams implant persistent backdoor",
       "language": "C",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "keywords": "microsoft"
+    },
+    {
+      "name": "TeamsPhisher",
+      "source": "https://github.com/Octoberfest7/TeamsPhisher",
+      "description": "Facilitates the delivery of phishing messages and attachments to MS Teams users whose organizations allow external communications",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "microsoft"
     },
     {
       "name": "TrevorC2",
