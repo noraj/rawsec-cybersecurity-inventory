@@ -76,8 +76,16 @@
     {
       "name": "binbloom",
       "source": "https://github.com/quarkslab/binbloom",
-      "description": " Raw binary firmware analysis software; tries to determine the firmware loading address",
+      "description": "Raw binary firmware analysis software; tries to determine the firmware loading address",
       "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "BinCAT",
+      "source": "https://github.com/airbus-seclab/bincat",
+      "description": "Binary code static analyser, with IDA integration; performs value and taint analysis, type reconstruction, use-after-free and double-free detection",
+      "language": "OCaml",
       "price": "Free",
       "online": "False"
     },
