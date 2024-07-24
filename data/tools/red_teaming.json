@@ -26,6 +26,14 @@
       "keywords": "anti-virus"
     },
     {
+      "name": "BadExclusions",
+      "source": "https://github.com/iamagarre/BadExclusions",
+      "description": "Identify folder custom or undocumented exclusions on AV/EDR",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BOF.NET",
       "source": "https://github.com/CCob/BOF.NET",
       "description": "A .NET Runtime for Cobalt Strike's Beacon Object Files",
