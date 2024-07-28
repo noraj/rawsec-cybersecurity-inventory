@@ -56,6 +56,14 @@
       "keywords": "AWS"
     },
     {
+      "name": "IMDSpoof",
+      "source": "https://github.com/grahamhelton/IMDSpoof",
+      "description": "Cyber deception; spoofs the AWS IMDS service to return HoneyTokens that can be alerted on",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pacu",
       "website": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
       "source": "https://github.com/RhinoSecurityLabs/pacu",
