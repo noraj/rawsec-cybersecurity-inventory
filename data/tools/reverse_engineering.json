@@ -57,6 +57,15 @@
       "online": "False"
     },
     {
+      "name": "BOF launcher",
+      "source": "https://github.com/The-Z-Labs/bof-launcher",
+      "description": "Beacon Object File (BOF) launcher; library for executing BOF files in C/C++/Zig applications",
+      "language": "Zig",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Cobal Strike, beacon"
+    },
+    {
       "name": "bearparser",
       "website": "https://hshrzd.wordpress.com/pe-bear/",
       "source": "https://github.com/hasherezade/bearparser",
