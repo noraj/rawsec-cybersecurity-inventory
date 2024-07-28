@@ -321,7 +321,15 @@
       "price": "Free",
       "online": "False"
     },
-   {
+    {
+      "name": "gftrace",
+      "source": "https://github.com/leandrofroes/gftrace",
+      "description": "Windows API tracing for Go binaries",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Ghidra",
       "website": "https://ghidra-sre.org/",
       "source": "https://github.com/NationalSecurityAgency/ghidra",
