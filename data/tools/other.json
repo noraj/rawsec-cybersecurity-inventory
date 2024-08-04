@@ -461,6 +461,14 @@
       "online": "False"
     },
     {
+      "name": "ScatteredSecrets",
+      "website": "https://scatteredsecrets.com/",
+      "description": "Service to check if an account has been compromised in a data breach",
+      "price": "Paid",
+      "online": "True",
+      "keywords": "api, leak"
+    },
+    {
       "name": "Scrounger",
       "source": "https://github.com/nettitude/scrounger",
       "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
