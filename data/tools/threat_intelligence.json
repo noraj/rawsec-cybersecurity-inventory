@@ -1,6 +1,13 @@
 {
   "tools": [
     {
+      "name": "Intelligence X",
+      "website": "https://intelx.io/",
+      "description": "",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Maltego",
       "website": "https://www.paterva.com/web7/buy/maltego-clients/maltego-ce.php",
       "description": "Interactive data mining tool that renders directed graphs for link analysis. The tool is used in online investigations for finding relationships between pieces of information from various sources located on the Internet (exists in Community Edition)",
