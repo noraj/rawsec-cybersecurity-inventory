@@ -469,6 +469,14 @@
       "keywords": "api, leak"
     },
     {
+      "name": "search.0t.rocks self-hosted",
+      "source": "https://github.com/miyakoyakota/search.0t.rocks",
+      "description": "Service to check if an account has been compromised in a data breach; including the data in clear",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Scrounger",
       "source": "https://github.com/nettitude/scrounger",
       "description": "Mobile application testing toolkit, the mobile metasploit-like framework",
