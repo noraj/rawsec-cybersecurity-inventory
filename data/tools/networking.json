@@ -592,6 +592,15 @@
       "keywords": "SOCKS4, SOCKS5"
     },
     {
+      "name": "Malifar",
+      "source": "https://github.com/arisada/malifar",
+      "description": "GPU-accelerated NSEC3 zone dumper",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DNS"
+    },
+    {
       "name": "MAN-SPIDER",
       "source": "https://github.com/blacklanternsecurity/MANSPIDER",
       "description": "Crawl SMB shares for juicy information; supports file content searching and regex",
