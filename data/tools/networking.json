@@ -1338,6 +1338,15 @@
       "price": "Free",
       "online": "False",
       "blackarch": "zmap"
+    },
+    {
+      "name": "zone-walker",
+      "source": "https://github.com/flotwig/zone-walker",
+      "description": "NSEC zone dumper",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DNS"
     }
   ]
 }
