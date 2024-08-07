@@ -598,7 +598,7 @@
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "DNS"
+      "keywords": "DNS, DNSSEC"
     },
     {
       "name": "MAN-SPIDER",
@@ -777,6 +777,16 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "nsec3map",
+      "source": "https://github.com/flotwig/zone-walker",
+      "description": "NSEC/NSEC3 zone dumper",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DNS, DNSSEC",
+      "blackarch": "nsec3map"
     },
     {
       "name": "ntlm_theft",
@@ -1346,7 +1356,7 @@
       "language": "JavaScript",
       "price": "Free",
       "online": "False",
-      "keywords": "DNS"
+      "keywords": "DNS, DNSSEC"
     }
   ]
 }
