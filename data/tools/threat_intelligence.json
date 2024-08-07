@@ -3,7 +3,7 @@
     {
       "name": "Intelligence X",
       "website": "https://intelx.io/",
-      "description": "",
+      "description": "Threat intelligence search engine: email addresses, domains, URLs, IPs, CIDRs, Bitcoin addresses, IPFS hashes, etc.; it searches among darknet, document sharing platforms, whois data, public data leaks, etc.",
       "price": "Paid",
       "online": "True"
     },
