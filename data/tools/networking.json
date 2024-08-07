@@ -1137,6 +1137,15 @@
       "blackarch": "sjet"
     },
     {
+      "name": "smbclient-ng",
+      "source": "https://github.com/p0dalirius/smbclient-ng",
+      "description": "SMB shares interaction",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Windows, Active Directory"
+    },
+    {
       "name": "Snaffler",
       "source": "https://github.com/SnaffCon/Snaffler",
       "description": "Find credentials and valuable information from windows active directory environments (shares, files)",
