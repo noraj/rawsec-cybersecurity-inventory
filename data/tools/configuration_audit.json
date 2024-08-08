@@ -76,7 +76,7 @@
     {
       "name": "PingCastle",
       "website": "https://www.pingcastle.com/",
-      "source": "https://github.com/vletoux/pingcastle",
+      "source": "https://github.com/netwrix/pingcastle",
       "description": "Assess the Active Directory security level with a methodology based on risk assessment",
       "language": "CSharp",
       "price": "Paid",
