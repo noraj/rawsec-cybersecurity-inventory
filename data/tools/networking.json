@@ -1102,6 +1102,14 @@
       "online": "False"
     },
     {
+      "name": "Shovel",
+      "source": "https://github.com/ANSSI-FR/shovel",
+      "description": "Traffic analyser; web interface to explore Suricata EVE outputs",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SilentHound",
       "source": "https://github.com/layer8secure/SilentHound",
       "description": "Quietly enumerates an Active Directory Domain via LDAP parsing users, admins, groups",
