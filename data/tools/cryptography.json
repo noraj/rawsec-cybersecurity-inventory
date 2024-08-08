@@ -18,6 +18,15 @@
       "online": "True"
     },
     {
+      "name": "crypto-condor",
+      "website": "https://quarkslab.github.io/crypto-condor/latest/index.html",
+      "source": "https://github.com/quarkslab/crypto-condor",
+      "description": "Compliance testing of implementations of cryptographic primitives",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CryptoGuard",
       "source": "https://github.com/CryptoGuardOSS/cryptoguard",
       "description": "Program analysis tool to find cryptographic misuse in Java and Android",
