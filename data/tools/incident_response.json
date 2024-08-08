@@ -67,7 +67,7 @@
       "website": "https://osquery.io/",
       "source": "https://github.com/osquery/osquery",
       "description": "Uses SQL queries to monitor and analyze operating systems, providing endpoint visibility for security",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False",
       "blackarch": "osquery"

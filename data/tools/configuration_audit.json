@@ -61,7 +61,7 @@
       "name": "Nipper-ng",
       "source": "https://github.com/arpitn30/nipper-ng",
       "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },

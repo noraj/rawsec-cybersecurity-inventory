@@ -47,7 +47,7 @@
       "website": "http://www.exiv2.org/index.html",
       "source": "https://github.com/Exiv2/exiv2",
       "description": "Library and CLI tool to read and write meta information (Exif, IPTC & XMP metadata and ICC Profile) in images (JPEG, TIFF, PNG, …)",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -87,7 +87,7 @@
       "name": "SmartDeblur",
       "source": "https://github.com/Y-Vladimir/SmartDeblur",
       "description": "To to restore defocused and blurred images (update binary only for Windows, Mac OS binary out of date)",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },

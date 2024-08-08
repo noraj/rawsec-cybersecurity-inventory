@@ -682,7 +682,7 @@
       "website": "https://nmap.org/ncrack/",
       "source": "https://github.com/nmap/ncrack",
       "description": "Reliable and adaptative network login cracker supporting a large number of protocols",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False",
       "blackarch": "ncrack"
@@ -1282,7 +1282,7 @@
       "website": "https://www.wireshark.org/",
       "source": "https://code.wireshark.org/review/gitweb?p=wireshark.git",
       "description": "Network protocol analyzer",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False",
       "blackarch": "wireshark-qt"

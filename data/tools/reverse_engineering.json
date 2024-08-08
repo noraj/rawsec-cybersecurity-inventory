@@ -57,6 +57,14 @@
       "online": "False"
     },
     {
+      "name": "BinDiff",
+      "source": "https://github.com/google/bindiff",
+      "description": "Binary diffing for many architectures compatible with IDA Pro, Binary Ninja and Ghidra",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BOF launcher",
       "source": "https://github.com/The-Z-Labs/bof-launcher",
       "description": "Beacon Object File (BOF) launcher; library for executing BOF files in C/C++/Zig applications",
@@ -128,7 +136,7 @@
       "name": "boomerang",
       "source": "https://github.com/nemerle/boomerang",
       "description": "x86 binaries to C decompiler",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -336,7 +344,7 @@
       "website": "https://www.gnu.org/software/gdb/",
       "source": "http://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git",
       "description": "GNU debugger",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -401,7 +409,7 @@
       "website": "https://imhex.werwolv.net/",
       "source": "https://github.com/WerWolv/ImHex",
       "description": "Hexadecimal editor tailored for reverse engineers; byte patching, data import / export, data inspector, huge file support, file hashing, disassembler for many architectures, data analyzer",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False",
       "keywords": "SAST, pattern, disassembler, YARA",
@@ -507,7 +515,7 @@
       "name": "Medusa",
       "source": "https://github.com/wisk/medusa",
       "description": "Interactive multi-architecture and multi-formats disassembler running on Windows and Linux",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -656,7 +664,7 @@
       "website": "https://retdec.com/",
       "source": "https://github.com/avast-tl/retdec",
       "description": "Multi file formats and architectures machine-code decompiler",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -673,7 +681,7 @@
       "website": "https://derevenets.com/",
       "source": "https://github.com/yegord/snowman",
       "description": "Native code to C/C++ decompiler, supporting x86, AMD64, and ARM architectures, exists as standalone app or as a plug-in",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -707,7 +715,7 @@
       "website": "https://triton.quarkslab.com/",
       "source": "https://github.com/JonathanSalwan/Triton/",
       "description": "Dynamic binary analysis framework, automate reverse engineering",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -724,7 +732,7 @@
       "name": "TTD-Bindings",
       "source": "https://github.com/commial/ttd-bindings",
       "description": "Bindings for Microsoft WinDBG Time Travel Debugging (TTD)",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -781,7 +789,7 @@
       "website": "https://x64dbg.com/",
       "source": "https://github.com/x64dbg/x64dbg",
       "description": "Windows debugger",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
@@ -789,7 +797,7 @@
       "name": "XenoScan",
       "source": "https://github.com/nickcano/XenoScan",
       "description": "Processes memory scanner",
-      "language": "Cplusplus",
+      "language": "CPlusPlus",
       "price": "Free",
       "online": "False"
     },
