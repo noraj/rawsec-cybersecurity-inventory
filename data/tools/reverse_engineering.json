@@ -319,6 +319,16 @@
       "description": "Dynamic code instrumentation toolkit",
       "language": "C",
       "price": "Free",
+      "online": "False",
+      "blackarch": "frida"
+    },
+    {
+      "name": "Frinet",
+      "website": "https://www.synacktiv.com/publications/frinet-reverse-engineering-made-easier",
+      "source": "https://github.com/synacktiv/frinet",
+      "description": "Multi-platform Frida trace generatior",
+      "language": "C",
+      "price": "Free",
       "online": "False"
     },
     {
