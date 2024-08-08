@@ -231,6 +231,16 @@
       "online": "False"
     },
     {
+      "name": "Tenet",
+      "tool": "IDA",
+      "website": "http://blog.ret2.io/2021/04/20/tenet-trace-explorer/",
+      "source": "https://github.com/gaasedelen/tenet",
+      "description": "Execution trace explorer",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ttddbg",
       "tool": "IDA",
       "source": "https://github.com/airbus-cert/ttddbg",
