@@ -582,6 +582,14 @@
       "online": "False"
     },
     {
+      "name": "QBinDiff",
+      "source": "https://github.com/quarkslab/qbindiff",
+      "description": "Binary diffing; addressing the diffing as a Network Alignement Quadratic Problem",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Qira",
       "website": "http://qira.me/",
       "source": "https://github.com/BinaryAnalysisPlatform/qira",
