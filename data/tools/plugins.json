@@ -204,6 +204,15 @@
       "online": "False"
     },
     {
+      "name": "Quokka",
+      "tool": "IDA",
+      "source": "https://github.com/quarkslab/quokka",
+      "description": "Binary exporter, generates an export from the disassembly of a program that can be used without the disassembler",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Scavenger",
       "tool": "Burp Suite",
       "source": "https://github.com/0xDexter0us/Scavenger",
