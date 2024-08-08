@@ -10,6 +10,15 @@
       "online": "False"
     },
     {
+      "name": "BinExport",
+      "tool": "IDA / Binary Ninja / Ghidra",
+      "source": "https://github.com/google/binexport",
+      "description": "Binary exporter, generates an export from the disassembly of a program that can be used without the disassembler",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BurpBounty",
       "tool": "Burp Suite",
       "source": "https://github.com/wagiro/BurpBounty",
