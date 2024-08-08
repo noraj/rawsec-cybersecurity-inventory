@@ -460,7 +460,7 @@
       "website": "https://zzzteph.github.io/weakpass/",
       "source": "https://github.com/zzzteph/weakpass",
       "description": "Weakpass rule-based online generator; generates a wordlist based on a set of words entered by the user",
-      "language": "Javascript",
+      "language": "JavaScript",
       "price": "Free",
       "online": "True",
       "keywords": "wordlist, generator"

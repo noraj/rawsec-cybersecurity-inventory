@@ -574,7 +574,7 @@
       "website": "http://osintframework.com/",
       "source": "https://github.com/lockfale/OSINT-Framework",
       "description": "A web-based collection of tools and resources for OSINT",
-      "language": "Javascript",
+      "language": "JavaScript",
       "price": "Free",
       "online": "True"
     },
