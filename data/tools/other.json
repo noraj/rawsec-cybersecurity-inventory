@@ -171,6 +171,15 @@
       "online": "False"
     },
     {
+      "name": "Exegol",
+      "website": "https://exegol.readthedocs.io/",
+      "source": "https://github.com/ThePorgs/Exegol",
+      "description": "Disposable hacking environments using docker",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Firefox Monitor",
       "website": "https://monitor.firefox.com/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
