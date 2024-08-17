@@ -155,6 +155,14 @@
       "online": "False"
     },
     {
+      "name": "RF Swift",
+      "source": "https://github.com/penthertz/rf-swift",
+      "description": "Toolbox for HAM radio enthusiasts and RF professionals",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "trackerjacker",
       "source": "https://github.com/calebmadrigal/trackerjacker",
       "description": "Tool for mapping and tacking wifi networks and devices through raw 802.11 monitoring",
