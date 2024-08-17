@@ -1094,6 +1094,14 @@
       "online": "False"
     },
     {
+      "name": "SELKS",
+      "website": "https://www.stamus-networks.com/selks",
+      "source": "https://github.com/StamusNetworks/SELKS",
+      "description": "IDS / IPS / NSM Debian distribution based on Suricata",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Seth",
       "source": "https://github.com/SySS-Research/Seth",
       "description": "RDP MitM tool",
