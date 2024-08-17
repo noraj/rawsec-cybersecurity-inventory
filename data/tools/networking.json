@@ -1234,6 +1234,17 @@
       "online": "False"
     },
     {
+      "name": "Suricata",
+      "website": "https://suricata.io/",
+      "source": "https://github.com/OISF/suricata",
+      "description": "Intrusion detection system and intrusion prevention system for network analysis and threat detection",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "suricata",
+      "keywords": "IDS, IPS"
+    },
+    {
       "name": "Suricata Language Server",
       "website": "https://www.stamus-networks.com/blog/suricata-language-server",
       "source": "https://github.com/StamusNetworks/suricata-language-server",
