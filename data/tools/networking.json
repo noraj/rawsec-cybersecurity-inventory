@@ -835,7 +835,7 @@
     {
       "name": "PacketTotal",
       "website": "https://packettotal.com/",
-      "description": "PCAP analyzer; using Bro, Suricata and Elasticsearch",
+      "description": "PCAP analyzer; using Bro (Zeek), Suricata and Elasticsearch",
       "price": "Free",
       "online": "True"
     },
@@ -1365,6 +1365,17 @@
       "price": "Free",
       "online": "False",
       "blackarch": "yersinia"
+    },
+    {
+      "name": "Zeek",
+      "website": "https://zeek.org/",
+      "source": "https://github.com/zeek/zeek",
+      "description": "Intrusion detection system for network traffic analysis and security monitoring; formerly Bro",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "",
+      "keywords": "IDS"
     },
     {
       "name": "Zenmap",
