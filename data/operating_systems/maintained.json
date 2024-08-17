@@ -14,8 +14,8 @@
     },
     {
       "name": "Athena OS",
-      "base": "ArchLinux",
-      "description": "penetration testing and security lab",
+      "base": "ArchLinux / NixOS",
+      "description": "penetration testing and security lab; using BlackArch repositories",
       "website": "https://athenaos.org/"
     },
     {
