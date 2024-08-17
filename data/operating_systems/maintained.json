@@ -56,6 +56,12 @@
       "website": "https://www.demonlinux.com/"
     },
     {
+      "name": "DragonOS",
+      "base": "Ubuntu",
+      "description": "RF / SDR penetration testing and security lab",
+      "website": "https://cemaxecuter.com/"
+    },
+    {
       "name": "Fedora Security Lab",
       "base": "Fedora",
       "description": "penetration testing and security lab",
@@ -160,7 +166,7 @@
     {
       "name": "Tsurugi Linux",
       "base": "Ubuntu",
-      "description": "digital forensics and incident response (DFIR",
+      "description": "digital forensics and incident response (DFIR)",
       "website": "https://tsurugi-linux.org/"
     },
     {
@@ -172,7 +178,7 @@
     {
       "name": "Wifislax",
       "base": "Slackware",
-      "description": "penetration testing and security lab",
+      "description": "wireless penetration testing and security lab",
       "website": "http://www.wifislax.com/"
     }
   ]
