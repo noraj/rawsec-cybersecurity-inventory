@@ -34,6 +34,15 @@
       "keywords": "ISO 27001"
     },
     {
+      "name": "DenyLocker",
+      "source": "https://github.com/cert-cea/denylocker",
+      "description": "Make the creation and maintenance of Applocker rules in blacklist mode easy and practical",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "GPO, Windows, Active Directory"
+    },
+    {
       "name": "driftctl",
       "source": "https://github.com/snyk/driftctl",
       "description": "Measures infrastructure as code coverage, and tracks infrastructure drift",
