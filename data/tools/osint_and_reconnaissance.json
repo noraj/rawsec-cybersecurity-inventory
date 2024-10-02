@@ -697,6 +697,15 @@
       "online": "False"
     },
     {
+      "name": "reNgine-ng",
+      "website": "https://github.com/Security-Tools-Alliance/rengine-ng/wiki",
+      "source": "https://github.com/Security-Tools-Alliance/rengine-ng",
+      "description": "Automated recon framework for web applications; customizable scan engines & pipeline of reconnaissance (reNgine Fork)",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "SearchDNS",
       "website": "https://searchdns.netcraft.com/",
       "description": "Netcraft tool; Search and find information for domains and subdomains",
