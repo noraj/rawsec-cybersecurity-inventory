@@ -18,6 +18,15 @@
       "online": "False"
     },
     {
+      "name": "Argus",
+      "source": "https://github.com/jasonxtn/Argus",
+      "description": "A Python-based toolkit for Information Gathering and Reconnaissance",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AIO"
+    },
+    {
       "name": "Asnlookup",
       "source": "https://github.com/yassineaboukir/Asnlookup",
       "description": "Leverage ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes, then run port scanning on it",
