@@ -20,7 +20,7 @@
     {
       "name": "Argus",
       "source": "https://github.com/jasonxtn/Argus",
-      "description": "A Python-based toolkit for Information Gathering and Reconnaissance",
+      "description": "All-in-one toolkit for information gathering and reconnaissance",
       "language": "Python",
       "price": "Free",
       "online": "False",
