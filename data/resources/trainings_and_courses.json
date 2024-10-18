@@ -15,6 +15,12 @@
       "price": "Free"
     },
     {
+      "name": "Cybersecurity Guide",
+      "website": "https://cybersecurityguide.org/",
+      "description": "List of degree programs, scholarships, and certifications",
+      "price": "Free"
+    },
+    {
       "name": "Cybrary",
       "website": "https://www.cybrary.it/",
       "description": "Cyber Security learning, training and certification",
