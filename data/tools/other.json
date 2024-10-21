@@ -365,6 +365,14 @@
       "keywords": "leak"
     },
     {
+      "name": "Nord Stream",
+      "website": "https://github.com/synacktiv/nord-stream",
+      "description": "Nord Stream is a tool that allows you to extract secrets stored inside CI/CD environments by deploying malicious pipelines",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CI, devOps, pipelines"
+    },
+    {
       "name": "objection",
       "source": "https://github.com/sensepost/objection",
       "description": "Runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak",
