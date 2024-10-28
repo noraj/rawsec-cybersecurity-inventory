@@ -367,10 +367,11 @@
     {
       "name": "Nord Stream",
       "website": "https://github.com/synacktiv/nord-stream",
-      "description": "Nord Stream is a tool that allows you to extract secrets stored inside CI/CD environments by deploying malicious pipelines",
+      "description": "Extract secrets stored inside CI/CD environments by deploying malicious pipelines",
+      "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "CI, devOps, pipelines"
+      "keywords": "Azure DevOps, GitHub Actions, GitLab CI"
     },
     {
       "name": "objection",
