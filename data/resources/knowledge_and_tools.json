@@ -72,6 +72,14 @@
       "keywords": "AWS, Azure, GCP"
     },
     {
+      "name": "CSP Bypass Search",
+      "website": "http://cspbypass.com/",
+      "source": "https://github.com/renniepak/CSPBypass",
+      "description": "Helps bypass restrictive domain whitelist based CSP and exploit XSS vulnerabilities",
+      "price": "Free",
+      "keywords": "JSONP, JavaScript"
+    },
+    {
       "name": "ctf-tools",
       "source": "https://github.com/zardus/ctf-tools",
       "description": "Setup scripts for security tools",
