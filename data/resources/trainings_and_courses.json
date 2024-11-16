@@ -15,6 +15,12 @@
       "price": "Free"
     },
     {
+      "name": "CoursesOnline",
+      "website": "https://www.coursesonline.co.uk/courses/cyber-security/",
+      "description": "Browse cyber security courses from a range of training providers, with options for beginners and those with more experience",
+      "price": "Paid" 
+    },
+    {
       "name": "Cybersecurity Guide",
       "website": "https://cybersecurityguide.org/",
       "description": "List of degree programs, scholarships, and certifications",
