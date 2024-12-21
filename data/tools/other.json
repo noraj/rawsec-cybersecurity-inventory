@@ -521,6 +521,14 @@
       "online": "False"
     },
     {
+      "name": "SiCat",
+      "source": "https://github.com/justakazh/sicat",
+      "description": "CLI tool to search exploits among Exploit-DB, Packetstorm Security, NVD Database, Metasploit Modules",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "sploitctl",
       "source": "https://github.com/BlackArch/sploitctl",
       "description": "Fetch, install and search exploit archives from exploit sites like Packet Storm or Exploit-DB",
