@@ -93,6 +93,13 @@
       "online": "False"
     },
     {
+      "name": "Censys",
+      "website": "https://search.censys.io/",
+      "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Certstream",
       "website": "https://certstream.calidog.io/",
       "source": "https://github.com/CaliDog/certstream-server",
