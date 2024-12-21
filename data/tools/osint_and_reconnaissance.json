@@ -741,7 +741,7 @@
       "name": "Shodan",
       "website": "https://www.shodan.io/",
       "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
-      "price": "Free",
+      "price": "Paid",
       "online": "True"
     },
     {

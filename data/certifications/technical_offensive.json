@@ -33,6 +33,14 @@
       "price": "1260 $"
     },
     {
+      "name": "Certified WiFiChallenge Professional",
+      "acronym": "CWP",
+      "issuer": "WiFiChallenge Academy",
+      "description": "Covers Wi-Fi network theory and advanced techniques for managing and attacking Wi-Fi networks. Learn about OPN, OWE, WEP, PSK, MGT, and SAE, conducting security audits and offensive reconnaissance.",
+      "website": "https://academy.wifichallenge.com/courses/certified-wifichallenge-professional-cwp?ref=c02137",
+      "price": "199 €"
+    },
+    {
       "name": "OffSec Certified Professional",
       "acronym": "OSCP",
       "issuer": "OffSec",
