@@ -21,6 +21,12 @@
       "price": "Free"
     },
     {
+      "name": "CyberSecLabs",
+      "website": "https://www.cyberseclabs.org/",
+      "description": "Tutorial blog for different cybersecurity challenges",
+      "price": "Free"
+    },
+    {
       "name": "Infosec Institute - What a Challenger Perceives in most CTF Categories/Challenges",
       "website": "https://resources.infosecinstitute.com/what-a-challenger-perceives-in-most-of-the-ctf-categories-or-challenges/",
       "description": "Questions a challenger can ask himself during a CTF, classed by category",
