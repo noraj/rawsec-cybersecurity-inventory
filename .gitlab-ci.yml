@@ -32,7 +32,7 @@ test:doc:
     - master
 
 test:data:
-  image: oven/bun:1.1.31
+  image: oven/bun:1.2.0
   stage: test
   script:
     - bun install
@@ -60,7 +60,7 @@ pages: # for Gitlab Pages this job must exactly be named `pages`
     - master
 
 pages:docs:
-  image: ruby:3.3
+  image: ruby:3.4
   stage: deploy
   script:
     - mkdir -p public/docs
