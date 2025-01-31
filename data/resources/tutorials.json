@@ -1,6 +1,12 @@
 {
   "resources": [
     {
+      "name": "Class Action U - Data breach checklist",
+      "website": "https://classactionu.org/data-breach/what-to-do/",
+      "description": "Checklist for victim of data breaches",
+      "price": "Free"
+    },
+    {
       "name": "Cobalt - Getting Started with Android Application Security",
       "website": "https://blog.cobalt.io/getting-started-with-android-application-security-6f20b76d795b",
       "description": "Tutorial covering Android core, application components, security testing, testing environment, adb usage, bypassing SSL pinning, reverse engineering APK",
@@ -33,12 +39,6 @@
       "price": "Free"
     },
     {
-      "name": "ISIS Lab Wiki",
-      "website": "https://github.com/isislab/Project-Ideas/wiki",
-      "description": "CTF guide",
-      "price": "Free"
-    },
-    {
       "name": "Endgame - How to Get Started in CTF",
       "website": "https://www.endgame.com/blog/technical-blog/how-get-started-ctf",
       "description": "Tutorial for CTF beginners",
@@ -48,6 +48,12 @@
       "name": "NIZKCTF tutorial",
       "source": "https://github.com/pwn2winctf/nizkctf-tutorial",
       "description": "Tutorial to set up NIZKCTF",
+      "price": "Free"
+    },
+    {
+      "name": "Osiris Lab Wiki",
+      "website": "https://github.com/orsirislab/Project-Ideas/wiki",
+      "description": "CTF guide",
       "price": "Free"
     },
     {
