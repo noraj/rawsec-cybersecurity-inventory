@@ -20,7 +20,7 @@ test:inventory:
     - master
 
 test:doc:
-  image: ruby:3.3
+  image: ruby:3.4
   stage: test
   script:
     - cd documentation
