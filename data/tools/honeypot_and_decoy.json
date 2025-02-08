@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "Honeyscanner",
+      "source": "https://github.com/honeynet/honeyscanner",
+      "description": "Vulnerability analyzer for honeypots",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pypotomux",
       "source": "https://github.com/laluka/pypotomux",
       "description": "Protocol demuxed honeypot and wordlists collected from it",
