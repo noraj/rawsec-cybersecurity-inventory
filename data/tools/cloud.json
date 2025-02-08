@@ -20,13 +20,21 @@
       "keywords": "AWS"
     },
     {
+      "name": "AzSubEnum",
+      "source": "https://github.com/yuyudhn/AzSubEnum",
+      "description": "Azure service subdomain enumeration",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DNS"
+    },
+    {
       "name": "AzureADRecon",
       "source": "https://github.com/adrecon/AzureADRecon",
       "description": "Gathers information about the Azure Active Directory and generates a report which can provide a holistic picture of the current state of the target environment",
       "language": "PowerShell",
       "price": "Free",
-      "online": "False",
-      "keywords": "Azure"
+      "online": "False"
     },
     {
       "name": "CloudGPT",
