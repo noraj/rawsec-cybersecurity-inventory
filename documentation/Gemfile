@@ -9,4 +9,4 @@ end
 gem "webrick", "~> 1.9"
 
 gem "just-the-docs", "~> 0.10.1"
-gem 'jekyll-sass-converter', github: 'jekyll/jekyll-sass-converter', ref: '7dd53306b2046ff0fd213394563a3784aa207c16', branch: 'master' # https://github.com/sass-contrib/sass-embedded-host-ruby/issues/265
+gem 'jekyll-sass-converter', '~> 3.1.0' # https://github.com/sass-contrib/sass-embedded-host-ruby/issues/265
