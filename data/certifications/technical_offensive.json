@@ -41,6 +41,15 @@
       "price": "199 €"
     },
     {
+      "name": "GIAC Penetration Tester Certification",
+      "acronym": "GPEN",
+      "issuer": "GIAC",
+      "description": "Conduct a penetration test using best-practice techniques and methodologies; conduct exploits, engage in detailed environmental reconnaissance, and utilize a process-oriented approach to penetration testing projects",
+      "website": "https://www.giac.org/certifications/penetration-tester-gpen/",
+      "price": "999 $",
+      "keywords": "SANS"
+    },
+    {
       "name": "OffSec Certified Professional",
       "acronym": "OSCP",
       "issuer": "OffSec",
