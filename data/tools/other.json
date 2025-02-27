@@ -103,6 +103,15 @@
       "online": "False"
     },
     {
+      "name": "CISO Assistant",
+      "source": "https://github.com/intuitem/ciso-assistant-community",
+      "description": "All-in-one platform for Governance, Risk and Compliance (GRC) management in an operational way, with +70 standards included and multiple capabilities for cybersecurity program management",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "TPRM, audit, control, threat, framework, evidence"
+    },
+    {
       "name": "ConvertHound",
       "source": "https://github.com/layer8secure/ConvertHound",
       "description": "Convert BloodHound output files into nmap XML that can be imported into reporting software like Dradis and Plextrac",
