@@ -644,6 +644,15 @@
       "online": "True"
     },
     {
+      "name": "puncia",
+      "website": "https://www.arpsyndicate.io",
+      "source": "https://github.com/ARPSyndicate/puncia",
+      "description": "CLI utility for Osprey Vision, Subdomain Center & Exploit Observer",
+      "language": "Python",
+      "price": "Paid",
+      "online": "False"
+    },
+    {
       "name": "ReconDog",
       "source": "https://github.com/s0md3v/ReconDog",
       "description": "Multi-purpose reconnaissance tool, CMS detection, reverse IP lookup, port scan, etc.",
