@@ -38,6 +38,12 @@
       "website": "http://www.caine-live.net/"
     },
     {
+      "name": "CSI Linux",
+      "base": "Ubuntu",
+      "description": "digital forensics and incident response (DFIR)",
+      "website": "https://csilinux.com/"
+    },
+    {
       "name": "CLIP OS",
       "base": "Gentoo",
       "description": "security by compartmentalization (container)",
