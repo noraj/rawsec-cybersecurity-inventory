@@ -83,6 +83,16 @@
       "keywords": "AWS"
     },
     {
+      "name": "PowerZure",
+      "website": "https://powerzure.readthedocs.io/en/latest/",
+      "source": "https://github.com/hausec/PowerZure",
+      "description": "Framework to assess and exploit Azure security",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False",
+      "keywords": "EntraID"
+    },
+    {
       "name": "Quiet Riot",
       "source": "https://github.com/righteousgambit/quiet-riot",
       "description": "Unauthenticated enumeration of cloud principals",
