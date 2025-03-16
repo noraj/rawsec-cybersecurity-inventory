@@ -55,6 +55,13 @@
       "website": "http://seclist.us",
       "description": "Tools presentation and announcement",
       "price": "Free"
+    },
+    {
+      "name": "talkback",
+      "language": "English",
+      "website": "https://talkback.sh/",
+      "description": "Infosec resource aggregator powered by AI",
+      "price": "Free"
     }
   ]
 }
