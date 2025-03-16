@@ -934,6 +934,15 @@
       "online": "False"
     },
     {
+      "name": "Web Check",
+      "website": "https://web-check.xyz/",
+      "source": "https://github.com/lissy93/web-check",
+      "description": "All-in-one OSINT WebUI for analysing any website",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "yar",
       "source": "https://github.com/nielsing/yar",
       "description": "Find secret information (secrets, tokens, passwords) in git repositories",
