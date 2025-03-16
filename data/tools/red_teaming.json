@@ -161,6 +161,14 @@
       "online": "False"
     },
     {
+      "name": "gocheck",
+      "source": "https://github.com/gatariee/gocheck",
+      "description": "Analyse a binary to show what Windows Defender AV would flag",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Gophish",
       "website": "https://getgophish.com/",
       "source": "https://github.com/gophish/gophish",
