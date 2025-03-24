@@ -9,6 +9,15 @@
       "price": "490 $"
     },
     {
+        "name": "GIAC Certified Forensic Analyst",
+        "acronym": "GCFA",
+        "issuer": "GIAC",
+        "description": "Validates essential skills for collecting and analyzing data from computer systems. It demonstrates a candidate's ability to conduct formal incident investigations and handle advanced scenarios, including internal and external data breaches, advanced persistent threats, anti-forensic techniques, and complex digital forensic cases.",
+        "website": "https://www.giac.org/certifications/certified-forensic-analyst-gcfa/",
+        "price": "999 $",
+        "keywords": "SANS"
+    },
+    {
       "name": "OffSec Defense Analyst",
       "acronym": "OSDA",
       "issuer": "OffSec",
