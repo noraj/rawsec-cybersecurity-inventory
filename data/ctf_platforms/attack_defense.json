@@ -10,9 +10,9 @@
     },
     {
       "name": "ctf01d",
-      "source": "https://github.com/sea-kg/ctf01d",
+      "source": "https://github.com/sea5kg/ctf01d",
       "description": "Attack-defence CTF platform",
-      "language": "Python",
+      "language": "c++",
       "price": "Free"
     },
     {
