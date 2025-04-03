@@ -29,6 +29,13 @@
       "price": "Free"
     },
     {
+      "name": "Krebs on Security",
+      "language": "English",
+      "website": "https://krebsonsecurity.com/",
+      "description": "Brian Krebs' blog delivering in-depth cybersecurity news, investigations, and cybercrime analysis",
+      "price": "Free"
+    },
+    {
       "name": "Latest Hacking News",
       "language": "English",
       "website": "https://latesthackingnews.com",
