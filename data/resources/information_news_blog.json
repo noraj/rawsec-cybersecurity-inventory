@@ -57,6 +57,13 @@
       "price": "Free"
     },
     {
+      "name": "SANS Internet Storm Center",
+      "language": "English",
+      "website": "https://isc.sans.edu/index.html",
+      "description": "Blog targeting defenders: threat intelligence, incident response, malware analysis, logs, tools, articles",
+      "price": "Free"
+    },
+    {
       "name": "Security List Network",
       "language": "English",
       "website": "http://seclist.us",
