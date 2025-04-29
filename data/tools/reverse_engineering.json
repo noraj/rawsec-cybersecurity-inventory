@@ -669,6 +669,16 @@
       "online": "False"
     },
     {
+      "name": "Rizin",
+      "website": "https://rizin.re/",
+      "source": "https://github.com/rizinorg/rizin",
+      "description": "Crossplatform binary analysis framework, disassembler, decompiler and debugger, support collaborative analysis; originally forked from radare2",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "rizin"
+    },
+    {
       "name": "sandsifter",
       "source": "https://github.com/xoreaxeaxeax/sandsifter",
       "description": "x86 processor fuzzer",
