@@ -184,11 +184,13 @@
     },
     {
       "name": "Cutter",
-      "source": "https://github.com/radareorg/cutter",
-      "description": "Qt and C++ GUI for radare2",
+      "website": "https://cutter.re/",
+      "source": "https://github.com/rizinorg/cutter",
+      "description": "Qt and C++ GUI for rizin",
       "language": "CPlusPlus",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "rz-cutter"
     },
     {
       "name": "DbgShell",
@@ -388,6 +390,16 @@
       "description": "Disassembler, decompiler and debugger",
       "price": "Paid",
       "online": "False"
+    },
+    {
+      "name": "iaito",
+      "website": "https://www.radare.org/n/iaito.html",
+      "source": "https://github.com/radareorg/iaito",
+      "description": "Qt and C++ GUI for radare2",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "iaito"
     },
     {
       "name": "IDA Pro",
@@ -617,8 +629,8 @@
     },
     {
       "name": "radare2",
-      "website": "http://www.radare.org/r/",
-      "source": "https://github.com/radare/radare2",
+      "website": "https://www.radare.org/r/",
+      "source": "https://github.com/radareorg/radare2",
       "description": "Crossplatform binary analysis framework, disassembler, decompiler and debugger, support collaborative analysis",
       "language": "C",
       "price": "Free",
