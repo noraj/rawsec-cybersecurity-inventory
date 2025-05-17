@@ -64,9 +64,25 @@
       "keywords": "AWS"
     },
     {
+      "name": "gato",
+      "source": "https://github.com/praetorian-inc/gato",
+      "description": "Github Attack TOolkit; GitHub Actions pipeline enumeration and attacks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "IMDSpoof",
       "source": "https://github.com/grahamhelton/IMDSpoof",
       "description": "Cyber deception; spoofs the AWS IMDS service to return HoneyTokens that can be alerted on",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "octoscan",
+      "source": "https://github.com/synacktiv/octoscan",
+      "description": "Static vulnerability scanner for GitHub action workflow",
       "language": "Go",
       "price": "Free",
       "online": "False"

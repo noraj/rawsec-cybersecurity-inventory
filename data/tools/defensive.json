@@ -101,14 +101,6 @@
       "online": "False"
     },
     {
-      "name": "octoscan",
-      "source": "https://github.com/synacktiv/octoscan",
-      "description": "Static vulnerability scanner for GitHub action workflow",
-      "language": "Go",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Pandora",
       "website": "https://pandora.circl.lu/",
       "source": "https://github.com/pandora-analysis/pandora",
