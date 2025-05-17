@@ -85,11 +85,19 @@
     {
       "name": "Dawnscanner",
       "source": "https://github.com/thesp0nge/dawnscanner",
-      "description": "Sstatic analysis security scanner for ruby written web applications; supports Sinatra, Padrino and Ruby on Rails frameworks",
+      "description": "Static analysis security scanner for ruby written web applications; supports Sinatra, Padrino and Ruby on Rails frameworks",
       "language": "Ruby",
       "price": "Free",
       "online": "False",
       "blackarch": "dawnscanner"
+    },
+    {
+      "name": "grepmarx",
+      "source": "https://github.com/Orange-Cyberdefense/grepmarx",
+      "description": "Source code static analysis platform based on semgrep",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Joern",
