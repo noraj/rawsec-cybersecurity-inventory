@@ -37,6 +37,14 @@
       "online": "False"
     },
     {
+      "name": "AzureHound",
+      "source": "https://github.com/SpecterOps/AzureHound",
+      "description": "BloodHound data collector for Microsoft Azure",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CloudGPT",
       "source": "https://github.com/ustayready/cloudgpt",
       "description": "Vulnerability scanner for AWS customer managed policies using ChatGPT",
