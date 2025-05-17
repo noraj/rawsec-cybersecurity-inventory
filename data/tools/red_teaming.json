@@ -673,6 +673,15 @@
       "keywords": "microsoft"
     },
     {
+      "name": "TeamFiltration",
+      "source": "https://github.com/Flangvik/TeamFiltration",
+      "description": "Framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "microsoft"
+    },
+    {
       "name": "TeamsImplant",
       "source": "https://github.com/Allevon412/TeamsImplant",
       "description": "MS Teams implant persistent backdoor",
