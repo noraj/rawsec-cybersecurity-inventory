@@ -256,12 +256,19 @@
       "online": "False"
     },
     {
+      "name": "HaveIBeenBreached",
+      "website": "https://haveibeenbreached.com/",
+      "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Have I been pwned?",
       "website": "https://haveibeenpwned.com/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
       "price": "Free",
       "online": "True",
-      "keywords": "api, leak"
+      "keywords": "api, leak, HIBP"
     },
     {
       "name": "HiddenWall",
