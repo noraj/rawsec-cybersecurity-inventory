@@ -72,6 +72,14 @@
       "online": "False"
     },
     {
+      "name": "gato-x",
+      "source": "https://github.com/AdnaneKhan/gato-x",
+      "description": "Github Attack TOolkit - Extreme Edition; GitHub Actions pipeline enumeration and attacks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "IMDSpoof",
       "source": "https://github.com/grahamhelton/IMDSpoof",
       "description": "Cyber deception; spoofs the AWS IMDS service to return HoneyTokens that can be alerted on",
