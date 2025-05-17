@@ -145,6 +145,15 @@
       "online": "False"
     },
     {
+      "name": "FireProx",
+      "source": "https://github.com/ustayready/fireprox",
+      "description": "AWS API gateway management for creating on the fly HTTP pass-through proxies for unique IP rotation",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "fireprox"
+    },
+    {
       "name": "Freeze",
       "source": "https://github.com/optiv/Freeze",
       "description": "Payload creation tool used for circumventing EDR security controls to execute shellcode in a stealthy manner",
