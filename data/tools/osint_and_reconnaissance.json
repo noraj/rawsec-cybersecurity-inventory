@@ -310,7 +310,8 @@
       "description": "Monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe, etc.",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "gitgraber"
     },
     {
       "name": "GitHound",
@@ -318,7 +319,17 @@
       "description": "Find sensitive information in git repositories",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "githound"
+    },
+    {
+      "name": "Gitleaks",
+      "source": "https://github.com/gitleaks/gitleaks",
+      "description": "Detecting secrets like passwords, API keys, and tokens in git repositories, files or STDIN",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "gitleaks"
     },
     {
       "name": "gittyleaks",
@@ -359,7 +370,8 @@
       "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",
       "language": "Go",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "gosint"
     },
     {
       "name": "h8mail",
