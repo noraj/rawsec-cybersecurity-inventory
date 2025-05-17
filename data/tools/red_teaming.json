@@ -99,7 +99,8 @@
       "description": "Password spraying, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "credmaster"
     },
     {
       "name": "CSSG",
@@ -152,6 +153,14 @@
       "price": "Free",
       "online": "False",
       "blackarch": "fireprox"
+    },
+    {
+      "name": "Git-Rotate",
+      "source": "https://github.com/dunderhay/git-rotate",
+      "description": "Leveraging GitHub Actions to rotate IP addresses during password spraying attacks to bypass IP-Based blocking",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "Freeze",
