@@ -138,6 +138,14 @@
       "online": "False"
     },
     {
+      "name": "BloodHound.py",
+      "source": "https://github.com/dirkjanm/BloodHound.py",
+      "description": "Ingestor for BloodHound v4 and v5, based on Impacket",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "bloodyAD",
       "source": "https://github.com/CravateRouge/bloodyAD",
       "description": "Active Directory privilege escalation framework",
