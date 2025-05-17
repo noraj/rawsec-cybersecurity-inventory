@@ -522,6 +522,15 @@
       "online": "False"
     },
     {
+      "name": "LDAPDomainDump",
+      "source": "https://github.com/dirkjanm/ldapdomaindump",
+      "description": "Active Directory information dumper via LDAP",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "windows"
+    },
+    {
       "name": "LDAPmonitor",
       "source": "https://github.com/p0dalirius/LDAPmonitor",
       "description": "Monitor creation, deletion and changes to LDAP objects live during pentest or system administration",
