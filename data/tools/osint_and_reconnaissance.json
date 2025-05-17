@@ -289,12 +289,22 @@
       "online": "True"
     },
     {
+      "name": "ggshield",
+      "source": "https://github.com/GitGuardian/ggshield",
+      "description": "GitGuardian Shield; CLI application that detects 400+ types of secrets in git repositories",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "CI"
+    },
+    {
       "name": "GHunt",
       "source": "https://github.com/mxrch/GHunt",
       "description": "Investigate Google accounts with emails and find name, usernames, Youtube Channel, probable location, Maps reviews, etc.",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "ghunt"
     },
     {
       "name": "GitFive",
