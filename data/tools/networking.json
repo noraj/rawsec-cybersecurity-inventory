@@ -147,13 +147,39 @@
       "blackarch": "bloodhound-cli"
     },
     {
+      "name": "BloodHound CE",
+      "source": "https://github.com/SpecterOps/BloodHound",
+      "description": "BloodHound v5; uses graph theory to reveal the hidden relationships within an Active Directory or Azure environment, quickly identify highly complex attack paths",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "BloodHound Legacy",
+      "source": "https://github.com/SpecterOps/BloodHound-Legacy",
+      "description": "BloodHound v4; uses graph theory to reveal the hidden relationships within an Active Directory or Azure environment, quickly identify highly complex attack paths",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "bloodhound"
+    },
+    {
       "name": "BloodHound.py",
       "source": "https://github.com/dirkjanm/BloodHound.py",
-      "description": "Data collector for BloodHound v4 and v5, based on Impacket",
+      "description": "Data collector for BloodHound Legacy (v4), based on Impacket",
       "language": "Python",
       "price": "Free",
       "online": "False",
       "blackarch": "bloodhound-python"
+    },
+    {
+      "name": "BloodHound.py CE",
+      "source": "https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce",
+      "description": "Data collector for BloodHound CE (v5), based on Impacket",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "bloodhound-ce-python"
     },
     {
       "name": "bloodyAD",
