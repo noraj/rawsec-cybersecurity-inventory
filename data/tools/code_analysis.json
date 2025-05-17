@@ -94,7 +94,7 @@
     {
       "name": "grepmarx",
       "source": "https://github.com/Orange-Cyberdefense/grepmarx",
-      "description": "Source code static analysis platform based on semgrep",
+      "description": "Source code static analysis platform with WebUI based on semgrep",
       "language": "Python",
       "price": "Free",
       "online": "False"

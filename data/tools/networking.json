@@ -989,6 +989,14 @@
       "online": "False"
     },
     {
+      "name": "rdp2tcp",
+      "source": "https://github.com/V-E-O/rdp2tcp",
+      "description": "TCP tunneling through remote desktop connection (RDP)",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "reGeorg",
       "source": "https://github.com/sensepost/reGeorg",
       "description": "SOCKS proxies through the DMZ for pivoting",
