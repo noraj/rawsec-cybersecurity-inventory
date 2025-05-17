@@ -134,6 +134,15 @@
       "keywords": "AWS, GCP, Azure"
     },
     {
+      "name": "ROADtools",
+      "source": "https://github.com/dirkjanm/ROADtools",
+      "description": "Rogue Office 365 and Azure active Directory tools; a collection of Azure AD/Entra tools for offensive and defensive security purposes",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "EntraID"
+    },
+    {
       "name": "Smogcloud",
       "source": "https://github.com/BishopFox/smogcloud",
       "description": "Identify AWS cloud assets",
