@@ -43,6 +43,13 @@
       "price": "Free"
     },
     {
+      "name": "Code Auditor CTF",
+      "website": "https://auditor.codes/",
+      "source": "https://github.com/20urc3/auditor.codes",
+      "description": "C/C++ code auditing challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "CryptoHack",
       "website": "https://cryptohack.org/",
       "description": "Crypto challenges platform",
