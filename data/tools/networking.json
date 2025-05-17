@@ -149,7 +149,7 @@
     {
       "name": "BloodHound.py",
       "source": "https://github.com/dirkjanm/BloodHound.py",
-      "description": "Ingestor for BloodHound v4 and v5, based on Impacket",
+      "description": "Data collector for BloodHound v4 and v5, based on Impacket",
       "language": "Python",
       "price": "Free",
       "online": "False",
@@ -1152,6 +1152,15 @@
       "source": "https://github.com/SySS-Research/Seth",
       "description": "RDP MitM tool",
       "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "SharpHound",
+      "website": "https://bloodhound.specterops.io/collect-data/ce-collection/sharphound",
+      "source": "https://github.com/SpecterOps/SharpHound",
+      "description": "Data collector for BloodHound v5",
+      "language": "CSharp",
       "price": "Free",
       "online": "False"
     },
