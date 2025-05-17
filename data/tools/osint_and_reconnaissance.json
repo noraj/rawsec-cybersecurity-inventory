@@ -573,6 +573,14 @@
       "online": "True"
     },
     {
+      "name": "Nosey Parker",
+      "source": "https://github.com/praetorian-inc/noseyparker",
+      "description": "Finds secrets and sensitive information in textual data and git repositories",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "nqntnqnqmb",
       "source": "https://github.com/megadose/nqntnqnqmb",
       "description": "Retrieve information on linkedin profiles, companies on linkedin and search on linkedin companies/persons",
