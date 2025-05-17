@@ -129,6 +129,12 @@
       "price": "Free"
     },
     {
+      "name": "family-of-client-ids-research",
+      "source": "https://github.com/secureworks/family-of-client-ids-research",
+      "description": "Research into undocumented behavior of Azure AD refresh tokens for unauthorized access and persistence",
+      "price": "Free"
+    },
+    {
       "name": "Filesec.io",
       "website": "https://filesec.io/",
       "description": "Curated list of file extensions being used by attackers",
