@@ -250,6 +250,14 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "IPSpinner",
+      "source": "https://github.com/synacktiv/IPSpinner",
+      "description": "Local proxy which can be used to redirect all incoming requests through several providers to rotate the source IP address of each request, running a bruteforce operation while avoiding blocked by IP address restrictions, supports AWS (API Gateway), Azure (Cloud Shell) and GitHub (GitHub Actions)",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "JavaScript Obfuscator",
       "website": "https://obfuscator.io/",
       "source": "https://github.com/javascript-obfuscator/javascript-obfuscator",
