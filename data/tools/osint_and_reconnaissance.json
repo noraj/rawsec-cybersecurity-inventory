@@ -27,6 +27,24 @@
       "keywords": "AIO"
     },
     {
+      "name": "Ars0n Framework",
+      "source": "https://github.com/R-s0n/ars0n-framework",
+      "description": "Bug bounty hunting framework to automate the reconnaissance in a WebUI",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AIO"
+    },
+    {
+      "name": "Ars0n Framework v2",
+      "source": "https://github.com/R-s0n/ars0n-framework-v2",
+      "description": "Bug bounty hunting framework to automate the reconnaissance in a WebUI",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AIO"
+    },
+    {
       "name": "Asnlookup",
       "source": "https://github.com/yassineaboukir/Asnlookup",
       "description": "Leverage ASN to look up IP addresses (IPv4 & IPv6) owned by a specific organization for reconnaissance purposes, then run port scanning on it",
