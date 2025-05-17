@@ -80,6 +80,14 @@
       "online": "False"
     },
     {
+      "name": "gh-hijack-runner",
+      "source": "https://github.com/synacktiv/gh-hijack-runner",
+      "description": "Create a fake GitHub runner and hijack pipeline jobs to leak CI/CD secrets",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "IMDSpoof",
       "source": "https://github.com/grahamhelton/IMDSpoof",
       "description": "Cyber deception; spoofs the AWS IMDS service to return HoneyTokens that can be alerted on",
