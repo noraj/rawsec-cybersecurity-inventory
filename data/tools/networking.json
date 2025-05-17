@@ -138,6 +138,15 @@
       "online": "False"
     },
     {
+      "name": "BloodHound CLI",
+      "source": "https://github.com/SpecterOps/bloodhound-cli",
+      "description": "Manage BloodHound through the command-line",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "bloodhound-cli"
+    },
+    {
       "name": "BloodHound.py",
       "source": "https://github.com/dirkjanm/BloodHound.py",
       "description": "Ingestor for BloodHound v4 and v5, based on Impacket",
