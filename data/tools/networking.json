@@ -143,7 +143,8 @@
       "description": "Ingestor for BloodHound v4 and v5, based on Impacket",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "bloodhound-python"
     },
     {
       "name": "bloodyAD",
@@ -528,7 +529,8 @@
       "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "windows"
+      "keywords": "windows",
+      "blackarch": "ldapdomaindump"
     },
     {
       "name": "LDAPmonitor",
@@ -652,6 +654,16 @@
       "language": "Java",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "mitm6",
+      "source": "https://github.com/dirkjanm/mitm6",
+      "description": "DNS poisoning via DHCPv6 MitM",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Windows",
+      "blackarch": "mitm6"
     },
     {
       "name": "modifyCertTemplate",
