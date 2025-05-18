@@ -570,13 +570,13 @@
       "keywords": "DLL"
     },
     {
-      "name": "SharpSCCM",
-      "source": "https://github.com/Mayyhem/SharpSCCM",
-      "description": "Post-exploitation way of leveraging Microsoft Configuration Manager for lateral movement and credential gathering without requiring access to the SCCM administration console GUI",
-      "language": "CSharp",
+      "name": "SCCMHunter",
+      "source": "https://github.com/garrettfoster13/sccmhunter",
+      "description": "Post-exploitation way to streamline identifying, profiling, and attacking Microsoft Configuration Manager related assets in an Active Directory domain",
+      "language": "Python",
       "price": "Free",
       "online": "False",
-      "keywords": "MCM, ConfigMgr"
+      "keywords": "MCM, ConfigMgr, SCCM"
     },
     {
       "name": "SHAD0W",
@@ -604,6 +604,15 @@
       "language": "CSharp",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "SharpSCCM",
+      "source": "https://github.com/Mayyhem/SharpSCCM",
+      "description": "Post-exploitation way of leveraging Microsoft Configuration Manager for lateral movement and credential gathering without requiring access to the SCCM administration console GUI",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "MCM, ConfigMgr"
     },
     {
       "name": "Shellcrypt",
