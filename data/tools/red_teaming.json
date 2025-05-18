@@ -570,6 +570,15 @@
       "keywords": "DLL"
     },
     {
+      "name": "SharpSCCM",
+      "source": "https://github.com/Mayyhem/SharpSCCM",
+      "description": "Post-exploitation way of leveraging Microsoft Configuration Manager for lateral movement and credential gathering without requiring access to the SCCM administration console GUI",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "MCM, ConfigMgr"
+    },
+    {
       "name": "SHAD0W",
       "website": "https://blog.dylan.codes/shad0w/",
       "source": "https://github.com/bats3c/shad0w",
