@@ -335,6 +335,13 @@
       "price": "Free"
     },
     {
+      "name": "Misconfiguration Manager",
+      "source": "https://github.com/subat0mik/Misconfiguration-Manager",
+      "description": "Knowledge base for all known Microsoft Configuration Manager tradecraft and associated defensive and hardening guidance",
+      "price": "Free",
+      "keywords": "MCM, SCCM, ConfigMgr"
+    },
+    {
       "name": "NetSPI SQL Injection Wiki",
       "website": "https://sqlwiki.netspi.com/",
       "source": "https://github.com/NetSPI/SQLInjectionWiki",
