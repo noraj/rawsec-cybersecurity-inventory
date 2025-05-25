@@ -41,6 +41,15 @@
       "price": "199 €"
     },
     {
+      "name": "GIAC Exploit Researcher and Advanced Penetration Tester",
+      "acronym": "GXPN",
+      "issuer": "GIAC",
+      "description": "Validates advanced skills in identifying and mitigating major security flaws, conducting sophisticated penetration tests, simulating attacker behavior, and demonstrating related business risks",
+      "website": "https://www.giac.org/certifications/exploit-researcher-advanced-penetration-tester-gxpn/",
+      "price": "999 $",
+      "keywords": "SANS"
+    },
+    {
       "name": "GIAC Penetration Tester Certification",
       "acronym": "GPEN",
       "issuer": "GIAC",
