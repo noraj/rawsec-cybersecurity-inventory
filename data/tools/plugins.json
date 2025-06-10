@@ -122,6 +122,15 @@
       "online": "False"
     },
     {
+      "name": "hrtng",
+      "tool": "IDA",
+      "source": "https://github.com/KasperskyLab/hrtng",
+      "description": "Collections of tools: decryption, deobfuscation, patching, librraries code recognition and various pseudocode transformations",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "http-screenshot-html",
       "tool": "Nmap",
       "source": "https://github.com/afxdub/http-screenshot-html",
