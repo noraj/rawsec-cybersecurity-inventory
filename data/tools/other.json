@@ -383,6 +383,14 @@
       "online": "False"
     },
     {
+      "name": "mofos",
+      "source": "https://github.com/synacktiv/mofos",
+      "description": "Cross Linux distributions virtual machines manipulation framework inspired by Qubes OS based on Libvirt/QEMU/KVM",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "NameScan Email Compromised Check",
       "website": "https://namescan.io/FreeEmailCompromisedCheck.aspx",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
