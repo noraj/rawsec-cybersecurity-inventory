@@ -1396,6 +1396,14 @@
       "blackarch": "wireshark-qt"
     },
     {
+      "name": "Wirego",
+      "source": "https://github.com/quarkslab/wirego",
+      "description": "Wireshark plugin framework based on ZMQ",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "WireSocks",
       "source": "https://github.com/sensepost/wiresocks",
       "description": "WireGuard socks proxy for pentest pivoting",
