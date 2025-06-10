@@ -222,7 +222,13 @@
     {
       "name": "HTML5 Security Cheatsheet",
       "website": "http://html5sec.org/",
-      "description": "XSS vector making use of HTML5, HTML4, CSS, DOM, UFT7, SVG, JSON, etc ...",
+      "description": "XSS vector making use of HTML5, HTML4, CSS, DOM, UFT7, SVG, JSON, etc.",
+      "price": "Free"
+    },
+    {
+      "name": "Intelligence IPv4 Blocklist",
+      "source": "https://github.com/duggytuxy/Intelligence_IPv4_Blocklist",
+      "description": "Malicious IPv4 address blacklist of Botnets, RATs, scanners & criminal exploitations",
       "price": "Free"
     },
     {
