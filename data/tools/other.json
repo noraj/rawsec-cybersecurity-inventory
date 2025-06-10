@@ -17,6 +17,16 @@
       "online": "False"
     },
     {
+      "name": "apkpatcher",
+      "website": "https://apkpatcher.ci-yow.com/",
+      "source": "https://gitlab.com/MadSquirrels/mobile/apkpatcher",
+      "description": "Patch APK (inject Frida gadget) by modifying Smali code",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "mobile, android"
+    },
+    {
       "name": "AppsecStudy",
       "website": "https://appsec.study",
       "source": "https://github.com/zzzteph/appsec.study",
