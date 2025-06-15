@@ -47,11 +47,11 @@
     "gulp-merge-json": "^2.2.1",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^6.0.1",
-    "jest": "^29.7.0",
+    "jest": "^30.0.0",
     "jquery": "^3.7.1",
     "minisearch": "^7.1.2",
     "pug": "^3.0.3",
-    "sass": "^1.89.1",
+    "sass": "^1.89.2",
     "static-api": "^0.2.0",
     "sweetalert2": "^11.22.0",
     "tablefilter": "^0.7.2"

@@ -8,7 +8,7 @@ stages:
   - deploy
 
 test:inventory:
-  image: node:23
+  image: node:24
   stage: test
   script:
     - yarn global add gulp-cli
@@ -32,7 +32,7 @@ test:doc:
     - master
 
 test:data:
-  image: oven/bun:1.2.0
+  image: oven/bun:1.2.16
   stage: test
   script:
     - bun install
@@ -43,7 +43,7 @@ test:data:
     - master
 
 pages: # for Gitlab Pages this job must exactly be named `pages`
-  image: node:23
+  image: node:24
   stage: deploy
   needs: ["pages:docs"]
   script:
