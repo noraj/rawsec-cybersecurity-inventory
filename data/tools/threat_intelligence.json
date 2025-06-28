@@ -8,6 +8,14 @@
       "online": "True"
     },
     {
+      "name": "IsMalicious",
+      "website": "https://ismalicious.com",
+      "description": "Malicious IP address and domain detection, classification and monitoring",
+      "price": "Paid",
+      "online": "True",
+      "keywords": "phishing, c2, C&C"
+    },
+    {
       "name": "Hudson Rock Cybercrime Intelligence Tools",
       "website": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
       "description": "Cybercrime intelligence toolset to check if a specific digital asset was compromised in global infostealer malware attacks",
