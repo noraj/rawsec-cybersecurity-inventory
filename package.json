@@ -47,7 +47,7 @@
     "gulp-merge-json": "^2.2.1",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^6.0.1",
-    "jest": "^30.1.1",
+    "jest": "^30.1.2",
     "jquery": "^3.7.1",
     "minisearch": "^7.1.2",
     "pug": "^3.0.3",
