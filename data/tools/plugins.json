@@ -240,6 +240,15 @@
       "online": "False"
     },
     {
+      "name": "semgrep_bn",
+      "tool": "Binary Ninja",
+      "source": "https://github.com/interruptlabs/semgrep_bn",
+      "description": "Automate the process of generating pseudo-C code from binary files, running Semgrep over this pseudo-C, and presenting the results",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Sploitego",
       "tool": "Maltego",
       "source": "https://github.com/allfro/sploitego",
