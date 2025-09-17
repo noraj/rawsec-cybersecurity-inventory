@@ -227,6 +227,13 @@
       "online": "False"
     },
     {
+      "name": "emailrep",
+      "website": "https://emailrep.io/",
+      "description": "Email reputation service; check domain age, traffic rankings, presence on social media sites, professional networking sites, personal connections, public records, deliverability, data breaches, dark web credential leaks, phishing emails, threat actor emails",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Espionage",
       "source": "https://github.com/iAbdullahMughal/espionage",
       "description": "Domain information gathering: whois, history, dns records, web technologies, records",
