@@ -49,7 +49,7 @@
     "gulp-sass": "^6.0.1",
     "jest": "^30.1.3",
     "jquery": "^3.7.1",
-    "minisearch": "^7.1.2",
+    "minisearch": "^7.2.0",
     "pug": "^3.0.3",
     "sass": "^1.92.1",
     "static-api": "^0.2.0",
