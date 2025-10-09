@@ -1132,12 +1132,20 @@
     {
       "name": "RustHound",
       "website": "https://www.opencyber.com/rusthound-data-collector-for-bloodhound-written-in-rust/",
-      "source": "https://github.com/OPENCYBER-FR/RustHound",
-      "description": "Active Directory data collector for BloodHound",
+      "source": "https://github.com/NH-RED-TEAM/RustHound",
+      "description": "Active Directory data collector for BloodHound v4",
       "language": "Rust",
       "price": "Free",
       "online": "False",
       "blackarch": "rusthound"
+    },
+    {
+      "name": "RustHound-CE",
+      "source": "https://github.com/g0h4n/RustHound-CE",
+      "description": "Active Directory data collector for BloodHound v5",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False"
     },
     {
       "name": "sandmap",
@@ -1146,7 +1154,8 @@
       "description": "Metasploit-like CLI interface for Nmap Script Engine (NSE)",
       "language": "Shell",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "sandmap"
     },
     {
       "name": "Scapy",
@@ -1155,7 +1164,8 @@
       "description": "Packet manipulation library; forge, send, decode, capture packets of a wide number of protocols",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "scapy"
     },
     {
       "name": "SELKS",
@@ -1171,7 +1181,8 @@
       "description": "RDP MitM tool",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "seth"
     },
     {
       "name": "SharpHound",
