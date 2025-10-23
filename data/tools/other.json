@@ -434,6 +434,14 @@
       "online": "False"
     },
     {
+      "name": "PassTester",
+      "source": "https://github.com/Elymaro/PassTester",
+      "description": "Identify the accounts most vulnerable to dictionary attacks by extracting the NTDS database from Active Directory",
+      "language": "PowerShell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PentestBox",
       "website": "https://pentestbox.org/",
       "source": "https://github.com/pentestbox",
