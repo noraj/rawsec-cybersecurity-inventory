@@ -18,7 +18,7 @@
       "name": "CoursesOnline",
       "website": "https://www.coursesonline.co.uk/courses/cyber-security/",
       "description": "Browse cyber security courses from a range of training providers, with options for beginners and those with more experience",
-      "price": "Paid" 
+      "price": "Paid"
     },
     {
       "name": "Cybersecurity Guide",
@@ -99,6 +99,12 @@
       "name": "SANS",
       "website": "https://www.sans.org/security-resources/",
       "description": "Escal Institute of Advanced Technologies provides courses, certifications and learning materials",
+      "price": "Paid"
+    },
+    {
+      "name": "The Learning People Cyber Security Courses",
+      "website": "https://www.learningpeople.com/uk/courses/cyber-security-courses/",
+      "description": "Cyber security online learning courses",
       "price": "Paid"
     },
     {
