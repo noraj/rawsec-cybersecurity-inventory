@@ -141,6 +141,12 @@
       "price": "Free"
     },
     {
+      "name": "hackArcana",
+      "website": "https://hackarcana.com/exercises",
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "HackBBS",
       "website": "http://hackbbs.org/",
       "description": "Challenge platform and community",
