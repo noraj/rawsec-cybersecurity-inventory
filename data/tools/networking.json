@@ -344,6 +344,15 @@
       "online": "True"
     },
     {
+      "name": "dploot",
+      "source": "https://github.com/zblurx/dploot",
+      "description": "DPAPI looting remotely and locally",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "python-dploot"
+    },
+    {
       "name": "Evil-WinRM",
       "source": "https://github.com/Hackplayers/evil-winrm",
       "description": "Enhanced WinRM shell",
