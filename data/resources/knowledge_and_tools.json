@@ -206,6 +206,13 @@
       "price": "Free"
     },
     {
+      "name": "Hardware All The Things",
+      "website": "https://swisskyrepo.github.io/HardwareAllTheThings/",
+      "source": "https://github.com/swisskyrepo/HardwareAllTheThings",
+      "description": "Curated collection of valuable payloads and bypass techniques tailored for hardware and IoT security",
+      "price": "Free"
+    },
+    {
       "name": "Havoc store",
       "website": "https://p4p1.github.io/havoc-store/",
       "source": "https://github.com/p4p1/havoc-store",
