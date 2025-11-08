@@ -434,6 +434,15 @@
       "online": "False"
     },
     {
+      "name": "Passbolt",
+      "website": "https://www.passbolt.com/",
+      "source": "https://github.com/passbolt/passbolt_api",
+      "description": "Password manager for teams; provides a single platform to manage credentials",
+      "language": "PHP",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "PassTester",
       "source": "https://github.com/Elymaro/PassTester",
       "description": "Identify the accounts most vulnerable to dictionary attacks by extracting the NTDS database from Active Directory",
