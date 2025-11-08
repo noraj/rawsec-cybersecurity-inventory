@@ -9,6 +9,14 @@
       "price": "1099 €"
     },
     {
+      "name": "Burp Suite Certified Practitioner",
+      "acronym": "BSCP",
+      "issuer": "PortSwigger",
+      "description": "Certification for web security professionals, demonstrates a deep knowledge of web security vulnerabilities, the correct mindset to exploit them, and the Burp Suite skills needed to carry this out",
+      "website": "https://portswigger.net/web-security/certification",
+      "price": "89 €"
+    },
+    {
       "name": "Certified Bug Bounty Hunter",
       "acronym": "CBBH",
       "issuer": "HackTheBox",
