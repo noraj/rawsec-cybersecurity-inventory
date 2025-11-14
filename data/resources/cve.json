@@ -61,6 +61,14 @@
       "price": "Free"
     },
     {
+      "name": "search_vulns",
+      "website": "https://search-vulns.com/",
+      "source": "https://github.com/ra1nb0rn/search_vulns",
+      "description": "Search for known vulnerabilities in software using software vendor, product, version or a CPE 2.3 string with auto-suggestion",
+      "price": "Free",
+      "keywords": "CVE"
+    },
+    {
       "name": "SUSE security issues",
       "website": "https://www.suse.com/security/cve/",
       "description": "CVE affecting SUSE",
