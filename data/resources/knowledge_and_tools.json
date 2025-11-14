@@ -501,12 +501,6 @@
       "price": "Free"
     },
     {
-      "name": "Trickest CVE PoC",
-      "source": "https://github.com/trickest/cve",
-      "description": "Gather all available CVEs with their PoC",
-      "price": "Free"
-    },
-    {
       "name": "Unprotect",
       "website": "https://unprotect.it/",
       "description": "Database of information about malware evasion techniques",

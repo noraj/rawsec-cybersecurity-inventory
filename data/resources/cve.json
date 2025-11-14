@@ -67,6 +67,13 @@
       "price": "Free"
     },
     {
+      "name": "Trickest CVE PoC",
+      "source": "https://github.com/trickest/cve",
+      "description": "Gather all available CVEs with their PoC",
+      "price": "Free",
+      "keywords": "exploit"
+    },
+    {
       "name": "Ubuntu security issues",
       "website": "https://people.canonical.com/~ubuntu-security/cve/",
       "description": "CVE affecting Ubuntu",
