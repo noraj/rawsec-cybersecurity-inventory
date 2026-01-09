@@ -1,6 +1,5 @@
 // Load plugins
-import gulp from 'gulp';
-const { series, parallel, src, dest, task } = gulp;
+import { series, parallel, src, dest, task } from 'gulp';
 import gulpPug from 'gulp-pug';
 import gulpData from 'gulp-data';
 import gulpMergeJson from 'gulp-merge-json';
