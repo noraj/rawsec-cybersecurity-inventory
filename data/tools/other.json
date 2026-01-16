@@ -71,6 +71,14 @@
       "online": "False"
     },
     {
+      "name": "BloodHoundCli",
+      "source": "https://github.com/dadevel/bloodhoundcli",
+      "description": "Collection of various utilities to aid in pentesting with BloodHound",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "BQM",
       "website": "https://github.com/Acceis/bqm",
       "description": "Bloodhound Query Merger; deduplicate custom BloudHound queries from different datasets and merge them in one customqueries.json file",
