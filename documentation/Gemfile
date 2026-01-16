@@ -8,5 +8,5 @@ end
 
 gem "webrick", "~> 1.9"
 
-gem "just-the-docs", "~> 0.10.1"
-gem 'jekyll-sass-converter', '~> 3.1.0' # https://github.com/sass-contrib/sass-embedded-host-ruby/issues/265
+gem "just-the-docs", "~> 0.11"
+# gem 'jekyll-sass-converter', '~> 3.1.0' # https://github.com/sass-contrib/sass-embedded-host-ruby/issues/265
