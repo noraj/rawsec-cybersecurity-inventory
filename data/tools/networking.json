@@ -18,6 +18,15 @@
       "keywords": "windows"
     },
     {
+      "name": "AD Strider",
+      "source": "https://github.com/PatchRequest/AD-Strider",
+      "description": "Automate the misconfigurations detectection in an Active Directory by analyzing data from Bloodhound",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "windows"
+    },
+    {
       "name": "ad-ldap-enum",
       "source": "https://github.com/CroweCybersecurity/ad-ldap-enum",
       "description": "LDAP based Active Directory user and group enumeration tool",
