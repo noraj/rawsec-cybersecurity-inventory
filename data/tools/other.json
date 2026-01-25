@@ -502,6 +502,14 @@
       "online": "False"
     },
     {
+      "name": "Rakound-NG",
+      "source": "https://github.com/Tamhackti/Rakound-NG",
+      "description": "Interacts with BloodHound database (neo4j) to retrieve data, add NTLM hashes and cracked passwords",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "rawsec_cli",
       "website": "https://rawsec-cli.readthedocs.io/en/latest/",
       "source": "https://github.com/tyki6/rawsec_cli",
