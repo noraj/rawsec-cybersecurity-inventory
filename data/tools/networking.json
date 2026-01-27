@@ -930,6 +930,14 @@
       "online": "False"
     },
     {
+      "name": "PassTheCert",
+      "source": "https://github.com/AlmondOffSec/PassTheCert",
+      "description": "Authenticate LDAP with Schannel to perform attacks, useful when DCs disabled PKINIT authentication",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Patator",
       "source": "https://github.com/lanjelot/patator",
       "description": "Multi-protocol bruteforce tool",
