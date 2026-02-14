@@ -18,6 +18,14 @@
       "online": "True"
     },
     {
+      "name": "Coalmine",
+      "source": "https://github.com/JohnEarle/coalmine",
+      "description": "Canary orchestration platform for deploying and managing canary objects in cloud infrastructure; manage the canary and destination logging (Cloudtrail, Audit Sink, …); support alerting to various destinations",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DejaVU",
       "source": "https://github.com/bhdresh/Dejavu",
       "description": "Deception framework which can be used to deploy decoys across the infrastructure",
