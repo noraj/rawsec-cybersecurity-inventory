@@ -17,6 +17,14 @@
       "online": "False"
     },
     {
+      "name": "bom-view",
+      "source": "https://github.com/hristiy4n/bom-view",
+      "description": "Static web application for viewing SBOMs and performing on-demand vulnerability scanning with osv.dev",
+      "language": "TypeScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "DARKSURGEON",
       "source": "https://github.com/cryps1s/DARKSURGEON",
       "description": "Windows project to empower incident response, digital forensics, malware analysis, and network defense with HashiCorp Packer and Vagrant",
