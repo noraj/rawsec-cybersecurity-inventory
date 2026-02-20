@@ -473,7 +473,7 @@
     },
     {
       "name": "HivExcavator",
-      "source": "https://github.com/Acceis/hivexcavator",
+      "source": "https://github.com/noraj/hivexcavator",
       "description": "Extracting the contents of Microsoft Windows Registry (hive) and display it as a colorful tree but mainly focused on parsing BCD files to extract WIM files path for PXE attacks",
       "language": "Ruby",
       "price": "Free",
