@@ -80,7 +80,8 @@
     },
     {
       "name": "BQM",
-      "website": "https://github.com/Acceis/bqm",
+      "source": "https://github.com/noraj/bqm",
+      "website": "https://noraj.github.io/bqm/",
       "description": "Bloodhound Query Merger; deduplicate custom BloudHound queries from different datasets and merge them in one customqueries.json file",
       "language": "Ruby",
       "price": "Free",
@@ -629,8 +630,8 @@
     },
     {
       "name": "unisec",
-      "website": "https://acceis.github.io/unisec",
-      "source": "https://github.com/Acceis/unisec",
+      "website": "https://noraj.github.io/unisec",
+      "source": "https://github.com/noraj/unisec",
       "description": "Toolkit for security research manipulating Unicode: confusables, homoglyphs, hexdump, code point, UTF-8, UTF-16, UTF-32, properties, regexp search, size, grapheme, surrogates, version, ICU, CLDR, UCD",
       "language": "Ruby",
       "price": "Free",
