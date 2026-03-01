@@ -25,6 +25,30 @@
       "website": "https://www.offsec.com/courses/soc-200/",
       "price": "1649 $",
       "keywords": "SOC-200, SODA"
+    },
+    {
+      "name": "Security Analyst Level 1 Certificate",
+      "acronym": "SAL1",
+      "issuer": "TryHackMe",
+      "description": "An entry-level, hands-on security analyst certification built by industry experts. Prove your skills, showcase real-world experience, and launch your cyber security career.",
+      "website": "https://tryhackme.com/certification/security-analyst-level-1",
+      "price": "349 €"
+    },
+    {
+      "name": "Pre Security Certificate",
+      "acronym": "SEC0",
+      "issuer": "TryHackMe",
+      "description": "Built for absolute beginners, it proves your technical knowledge and capabilities, providing the best entry point into cyber security training.",
+      "website": "https://tryhackme.com/certification/pre-security",
+      "price": "57 €"
+    },
+    {
+      "name": "Cyber Security 101 Certificate",
+      "acronym": "SEC1",
+      "issuer": "TryHackMe",
+      "description": "It is foundational, hands-on and built by industry experts. Prove your core cyber security skills, apply them in real-world scenarios, and launch your career in cyber.",
+      "website": "https://tryhackme.com/certification/cyber-security-101",
+      "price": "126 €"
     }
   ]
 }
