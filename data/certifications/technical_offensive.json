@@ -136,6 +136,14 @@
       "website": "https://www.offsec.com/courses/pen-210/",
       "price": "799 $",
       "keywords": "PEN-210, WA"
+    },
+    {
+      "name": "Jr Penetration Tester Certificate",
+      "acronym": "PT1",
+      "issuer": "TryHackMe",
+      "description": "It is entry-level, hands-on and built by industry experts. Demonstrate real-world adversarial thinking, validate your offensive skills and kickstart your career.",
+      "website": "https://tryhackme.com/certification/junior-penetration-tester",
+      "price": "349 €"
     }
   ]
 }
