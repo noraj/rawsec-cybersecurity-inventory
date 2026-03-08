@@ -31,5 +31,4 @@ nav_order: 2
 ├── sass
 │   └── bulma.sass # Where the style is defined
 ├── temp # Temporary folder for building the static JSON API
-└── yarn.lock
 ```

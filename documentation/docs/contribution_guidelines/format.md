@@ -38,4 +38,4 @@ nav_order: 2
 
 [editorconfig]: http://editorconfig.org/
 
-[puglint]: https://yarnpkg.com/package/pug-lint
+[puglint]: https://www.npmjs.com/package/pug-lint

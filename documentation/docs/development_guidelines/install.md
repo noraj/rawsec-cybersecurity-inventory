@@ -12,8 +12,8 @@ nav_order: 1
 Install dependencies:
 
 ```plaintext
-$ yarn global add gulp-cli
-$ yarn install
+$ bun i -g gulp-cli
+$ bun install
 ```
 
 Now you can simply build the site by using the following command:
