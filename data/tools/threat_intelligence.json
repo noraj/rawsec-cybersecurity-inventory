@@ -80,6 +80,13 @@
       "online": "True"
     },
     {
+      "name": "sikkerapi.com",
+      "website": "https://sikkerapi.com/",
+      "description": "IP reputation & threat intelligence, with behavioral data and published telemetry from honeypots",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "threatfeeds.io",
       "website": "https://threatfeeds.io/",
       "description": "Open-source threat intelligence feeds; sharing malware URLs, IP reputation, bad IPs, etc.",
