@@ -108,6 +108,16 @@
       "online": "False"
     },
     {
+      "name": "Fabric",
+      "website": "https://blackstork.io/fabric",
+      "source": "https://github.com/blackstork-io/fabric",
+      "description": "CLI for cybersecurity reporting workflow automation and a configuration language for reusable templates",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Reporting-as-Code"
+    },
+    {
       "name": "Faraday",
       "website": "https://www.faradaysec.com/",
       "source": "https://github.com/infobyte/faraday",
