@@ -203,6 +203,15 @@
       "online": "False"
     },
     {
+      "name": "PingCastle CME NXC",
+      "tool": "NetExec",
+      "source": "https://github.com/TRIKKSS/CrackMapExec-PingCastle",
+      "description": "CrackMapExec / NetExec module that execute PingCastle on a remote machine",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Pwndbg",
       "tool": "GDB",
       "website": "https://pwndbg.re/",
