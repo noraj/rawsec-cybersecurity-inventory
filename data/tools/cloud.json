@@ -45,6 +45,15 @@
       "online": "False"
     },
     {
+      "name": "cloud-audit",
+      "source": "https://github.com/gebalamariusz/cloud-audit",
+      "description": "Open-source AWS security scanner with 45 CIS benchmark checks across 15 services, copy-paste remediation (CLI + Terraform), and scan diff tracking",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "AWS"
+    },
+    {
       "name": "CloudGPT",
       "source": "https://github.com/ustayready/cloudgpt",
       "description": "Vulnerability scanner for AWS customer managed policies using ChatGPT",
