@@ -76,6 +76,15 @@
       "online": "False"
     },
     {
+      "name": "OopsSec Store",
+      "source": "https://github.com/kOaDT/oss-oopssec-store",
+      "description": "Intentionally vulnerable e-commerce application built with Next.js and React, REST API, solution documentation, automated tests",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False",
+      "keywords": "docker, ctf, challenge, flag, prisma, sqlite"
+    },
+    {
       "name": "OWASP Juice Shop",
       "website": "http://owasp-juice.shop",
       "source": "https://github.com/bkimminich/juice-shop",
