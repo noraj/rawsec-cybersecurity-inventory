@@ -76,6 +76,14 @@
       "online": "False"
     },
     {
+      "name": "OopsSec Store",
+      "source": "https://github.com/kOaDT/oss-oopssec-store",
+      "description": "The first security CTF lab built with React and Next.js. Open you browser and start hacking.",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OWASP Juice Shop",
       "website": "http://owasp-juice.shop",
       "source": "https://github.com/bkimminich/juice-shop",
