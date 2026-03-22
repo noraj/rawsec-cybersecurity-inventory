@@ -47,11 +47,10 @@
     {
       "name": "cloud-audit",
       "source": "https://github.com/gebalamariusz/cloud-audit",
-      "description": "Open-source AWS security scanner with 45 CIS benchmark checks across 15 services, copy-paste remediation (CLI + Terraform), and scan diff tracking",
+      "description": "AWS security scanner with 45 CIS benchmark checks across 15 services, copy-paste remediation (CLI + Terraform), and scan diff tracking",
       "language": "Python",
       "price": "Free",
-      "online": "False",
-      "keywords": "AWS"
+      "online": "False"
     },
     {
       "name": "CloudGPT",
