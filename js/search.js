@@ -21,7 +21,7 @@ fetch('https://inventory.raw.pm/api/api.json')
   .then(function(data) {
     for (const [key, value] of Object.entries(data.tools)) {
       // add category
-      tools = value.tools;
+      let tools = value.tools;
       for (let i=0; i<tools.length; i++) {
         tools[i]['category'] = 'tools_' + key;
         // crop strings that are too long and will overflow the tag label
@@ -34,7 +34,7 @@ fetch('https://inventory.raw.pm/api/api.json')
     }
     for (const [key, value] of Object.entries(data.ctf_platforms)) {
       // add category
-      ctf_platforms = value.ctf_platforms;
+      let ctf_platforms = value.ctf_platforms;
       for (let i=0; i<ctf_platforms.length; i++) {
         ctf_platforms[i]['category'] = 'ctf_platforms_' + key;
       }
@@ -43,7 +43,7 @@ fetch('https://inventory.raw.pm/api/api.json')
     }
     for (const [key, value] of Object.entries(data.resources)) {
       // add category
-      resources = value.resources;
+      let resources = value.resources;
       for (let i=0; i<resources.length; i++) {
         resources[i]['category'] = 'resources_' + key;
         // crop strings that are too long and will overflow the tag label
@@ -56,7 +56,7 @@ fetch('https://inventory.raw.pm/api/api.json')
     }
     for (const [key, value] of Object.entries(data.operating_systems)) {
       // add category
-      operating_systems = value.operating_systems;
+      let operating_systems = value.operating_systems;
       for (let i=0; i<operating_systems.length; i++) {
         operating_systems[i]['category'] = 'os_' + key;
         // crop strings that are too long and will overflow the tag label
@@ -69,7 +69,7 @@ fetch('https://inventory.raw.pm/api/api.json')
     }
     for (const [key, value] of Object.entries(data.certifications)) {
       // add category
-      certifications = value.certifications;
+      let certifications = value.certifications;
       for (let i=0; i<certifications.length; i++) {
         certifications[i]['category'] = 'certs_' + key;
         // crop strings that are too long and will overflow the tag label
@@ -84,43 +84,43 @@ fetch('https://inventory.raw.pm/api/api.json')
 
   let searchInput = function (val) {
     if (val.length > 2) {
-      output = document.getElementById("output");
+      let output = document.getElementById("output");
       output.innerHTML = "";
-      res = miniSearch.search(val);
+      let res = miniSearch.search(val);
       if (res.length > 0) {
-        for (elem of res) {
-          div = document.createElement("div");
-          par = document.createElement("p");
-          control = div.cloneNode(true);
+        for (let elem of res) {
+          let div = document.createElement("div");
+          let par = document.createElement("p");
+          let control = div.cloneNode(true);
           control.classList = "control";
-          tags = div.cloneNode(true);
+          let tags = div.cloneNode(true);
           tags.classList = "tags has-addons";
-          tag1 = div.cloneNode(true);
+          let tag1 = div.cloneNode(true);
           tag1.classList = "tag is-dark";
-          tag2 = div.cloneNode(true);
+          let tag2 = div.cloneNode(true);
           tag2.classList = "tag";
-          tag_keyword = document.createElement("span");
+          let tag_keyword = document.createElement("span");
           tag_keyword.classList = "tag is-primary";
-          card_footer_item = document.createElement("a");
+          let card_footer_item = document.createElement("a");
           card_footer_item.classList = "card-footer-item";
 
-          column = div.cloneNode(true);
+          let column = div.cloneNode(true);
           column.classList = "column is-full-mobile is-half-tablet is-one-third-widescreen is-one-quarter-desktop is-one-quarter-fullhd";
-          card = div.cloneNode(true);
+          let card = div.cloneNode(true);
           card.classList = "card card-equal-height";
-          card_header = document.createElement("header");
+          let card_header = document.createElement("header");
           card_header.classList = "card-header";
-          card_header_title = par.cloneNode(true);
+          let card_header_title = par.cloneNode(true);
           card_header_title.classList = "card-header-title";
           card_header_title.innerText = elem.name;
           card_header.appendChild(card_header_title);
 
-          card_header_button = document.createElement("button");
+          let card_header_button = document.createElement("button");
           card_header_button.classList = "card-header-icon";
           card_header_button.setAttribute("aria-label", "More information");
-          card_header_button_span = document.createElement("span");
+          let card_header_button_span = document.createElement("span");
           card_header_button_span.classList = "icon";
-          card_header_button_span_i = document.createElement("i");
+          let card_header_button_span_i = document.createElement("i");
           card_header_button_span_i.classList = "fas fa-plus";
           card_header_button_span_i.setAttribute("aria-hidden", "true");
           card_header_button_span.appendChild(card_header_button_span_i);
@@ -128,22 +128,22 @@ fetch('https://inventory.raw.pm/api/api.json')
           card_header.appendChild(card_header_button);
 
           card.appendChild(card_header);
-          card_content = div.cloneNode(true);
+          let card_content = div.cloneNode(true);
           card_content.classList = "card-content";
-          content = div.cloneNode(true);
+          let content = div.cloneNode(true);
           content.classList = "content";
-          description = par.cloneNode(true);
+          let description = par.cloneNode(true);
           description.innerHTML = elem.description;
           content.appendChild(description);
-          field = div.cloneNode(true);
+          let field = div.cloneNode(true);
           field.classList = "field is-grouped is-grouped-multiline";
           if (elem.acronym) {
-            control_acronym = control.cloneNode(true);
-            tags_acronym = tags.cloneNode(true);
-            acronym = tag1.cloneNode(true);
+            let control_acronym = control.cloneNode(true);
+            let tags_acronym = tags.cloneNode(true);
+            let acronym = tag1.cloneNode(true);
             acronym.innerText = 'Acronym';
             tags_acronym.appendChild(acronym);
-            acronym_value = tag2.cloneNode(true);
+            let acronym_value = tag2.cloneNode(true);
             acronym_value.classList.add('is-light');
             acronym_value.innerText = elem.acronym;
             tags_acronym.appendChild(acronym_value);
@@ -151,12 +151,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_acronym);
           }
           if (elem.issuer) {
-            control_issuer = control.cloneNode(true);
-            tags_issuer = tags.cloneNode(true);
-            issuer = tag1.cloneNode(true);
+            let control_issuer = control.cloneNode(true);
+            let tags_issuer = tags.cloneNode(true);
+            let issuer = tag1.cloneNode(true);
             issuer.innerText = 'Issuer';
             tags_issuer.appendChild(issuer);
-            issuer_value = tag2.cloneNode(true);
+            let issuer_value = tag2.cloneNode(true);
             issuer_value.classList.add('is-dark');
             issuer_value.innerText = elem.issuer;
             tags_issuer.appendChild(issuer_value);
@@ -164,12 +164,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_issuer);
           }
           if (elem.category) {
-            control_category = control.cloneNode(true);
-            tags_category = tags.cloneNode(true);
-            category = tag1.cloneNode(true);
+            let control_category = control.cloneNode(true);
+            let tags_category = tags.cloneNode(true);
+            let category = tag1.cloneNode(true);
             category.innerText = 'Category';
             tags_category.appendChild(category);
-            category_value = tag2.cloneNode(true);
+            let category_value = tag2.cloneNode(true);
             category_value.classList.add('is-danger');
             category_value.innerText = elem.category;
             tags_category.appendChild(category_value);
@@ -177,12 +177,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_category);
           }
           if (elem.language) {
-            control_language = control.cloneNode(true);
-            tags_language = tags.cloneNode(true);
-            language = tag1.cloneNode(true);
+            let control_language = control.cloneNode(true);
+            let tags_language = tags.cloneNode(true);
+            let language = tag1.cloneNode(true);
             language.innerText = 'Language';
             tags_language.appendChild(language);
-            language_value = tag2.cloneNode(true);
+            let language_value = tag2.cloneNode(true);
             language_value.classList.add('is-warning');
             language_value.innerText = elem.language;
             tags_language.appendChild(language_value);
@@ -190,12 +190,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_language);
           }
           if (elem.price) {
-            control_price = control.cloneNode(true);
-            tags_price = tags.cloneNode(true);
-            price = tag1.cloneNode(true);
+            let control_price = control.cloneNode(true);
+            let tags_price = tags.cloneNode(true);
+            let price = tag1.cloneNode(true);
             price.innerText = 'Price';
             tags_price.appendChild(price);
-            price_value = tag2.cloneNode(true);
+            let price_value = tag2.cloneNode(true);
             price_value.classList.add('is-info');
             price_value.innerText = elem.price;
             tags_price.appendChild(price_value);
@@ -203,12 +203,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_price);
           }
           if (elem.online) {
-            control_online = control.cloneNode(true);
-            tags_online = tags.cloneNode(true);
-            online = tag1.cloneNode(true);
+            let control_online = control.cloneNode(true);
+            let tags_online = tags.cloneNode(true);
+            let online = tag1.cloneNode(true);
             online.innerText = 'Online';
             tags_online.appendChild(online);
-            online_value = tag2.cloneNode(true);
+            let online_value = tag2.cloneNode(true);
             online_value.classList.add('is-success');
             online_value.innerText = elem.online;
             tags_online.appendChild(online_value);
@@ -216,12 +216,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_online);
           }
           if (elem.blackarch) {
-            control_blackarch = control.cloneNode(true);
-            tags_blackarch = tags.cloneNode(true);
-            blackarch = tag1.cloneNode(true);
+            let control_blackarch = control.cloneNode(true);
+            let tags_blackarch = tags.cloneNode(true);
+            let blackarch = tag1.cloneNode(true);
             blackarch.innerText = 'BlackArch';
             tags_blackarch.appendChild(blackarch);
-            blackarch_value = tag2.cloneNode(true);
+            let blackarch_value = tag2.cloneNode(true);
             blackarch_value.classList.add('is-black');
             blackarch_value.innerText = elem.blackarch;
             tags_blackarch.appendChild(blackarch_value);
@@ -229,12 +229,12 @@ fetch('https://inventory.raw.pm/api/api.json')
             field.appendChild(control_blackarch);
           }
           if (elem.review) {
-            control_review = control.cloneNode(true);
-            tags_review = tags.cloneNode(true);
-            review = tag1.cloneNode(true);
+            let control_review = control.cloneNode(true);
+            let tags_review = tags.cloneNode(true);
+            let review = tag1.cloneNode(true);
             review.innerText = 'Review';
             tags_review.appendChild(review);
-            review_value = tag2.cloneNode(true);
+            let review_value = tag2.cloneNode(true);
             review_value.classList.add('is-link');
             review_value.innerText = elem.review;
             tags_review.appendChild(review_value);
@@ -243,13 +243,13 @@ fetch('https://inventory.raw.pm/api/api.json')
           }
           content.appendChild(field);
           if (elem.keywords) {
-            keywords = par.cloneNode(true);
+            let keywords = par.cloneNode(true);
             keywords.innerText = 'Keywords:';
             content.appendChild(keywords);
-            keyword_tags = div.cloneNode(true);
+            let keyword_tags = div.cloneNode(true);
             keyword_tags.classList = 'tags';
-            for (tag of elem.keywords.split(', ')) {
-              tag_x = tag_keyword.cloneNode(true);
+            for (let tag of elem.keywords.split(', ')) {
+              let tag_x = tag_keyword.cloneNode(true);
               tag_x.innerText = tag;
               keyword_tags.appendChild(tag_x);
             }
@@ -258,16 +258,16 @@ fetch('https://inventory.raw.pm/api/api.json')
           card_content.appendChild(content);
           card.appendChild(card_content);
           if (elem.website || elem.source) {
-            footer = document.createElement("footer");
+            let footer = document.createElement("footer");
             footer.classList = "card-footer";
             if (elem.website) {
-              website = card_footer_item.cloneNode(true);
+              let website = card_footer_item.cloneNode(true);
               website.setAttribute('href', elem.website);
               website.innerText = 'Website';
               footer.appendChild(website);
             }
             if ( elem.source) {
-              source = card_footer_item.cloneNode(true);
+              let source = card_footer_item.cloneNode(true);
               source.classList.add('source-link');
               source.setAttribute('href', elem.source);
               source.innerText = 'Source';
