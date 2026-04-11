@@ -19,6 +19,12 @@
       "price": "Free"
     },
     {
+      "name": "hackyx",
+      "website": "https://hackyx.io",
+      "description": "Write-up and vulnerability search engine",
+      "price": "Free"
+    },
+    {
       "name": "Pwning OWASP Juice Shop",
       "website": "https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/",
       "source": "https://github.com/bkimminich/pwning-juice-shop",
