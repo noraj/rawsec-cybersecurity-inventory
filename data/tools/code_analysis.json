@@ -2,7 +2,6 @@
   "tools": [
     {
       "name": "Adhrit",
-      "website": "https://www.hawkspawn.com/Adhrit/",
       "source": "https://github.com/abhi-r3v0/Adhrit",
       "description": "Android APK reversing and analysis suite",
       "language": "Python",
@@ -181,7 +180,6 @@
     },
     {
       "name": "SUPER",
-      "website": "http://superanalyzer.rocks/",
       "source": "https://github.com/SUPERAndroidAnalyzer/super",
       "description": "Android APK vulnerability analyzer",
       "language": "Rust",
@@ -190,7 +188,7 @@
     },
     {
       "name": "Tfsec",
-      "website": "https://aquasecurity.github.io/tfsec/",
+      "website": "https://aquasecurity.github.io/tfsec/latest/",
       "source": "https://github.com/aquasecurity/tfsec",
       "description": "Misconfiguration scanner for terraform code",
       "language": "Go",

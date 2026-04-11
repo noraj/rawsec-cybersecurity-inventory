@@ -266,7 +266,6 @@
     },
     {
       "name": "Droidefense",
-      "website": "http://droidefense.com/",
       "source": "https://github.com/droidefense/engine",
       "description": "Android apps/malware analysis/reversing tool",
       "language": "Java",
@@ -428,13 +427,6 @@
       "blackarch": "imhex"
     },
     {
-      "name": "ImmunityDbg",
-      "website": "https://www.immunityinc.com/products/debugger/",
-      "description": "Windows debugger with Python scripting support",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "jadx",
       "source": "https://github.com/skylot/jadx",
       "description": "DEX to Java decompiler",
@@ -541,10 +533,10 @@
     },
     {
       "name": "ODA",
-      "website": "https://onlinedisassembler.com/odaweb/",
+      "source": "https://github.com/syscall7/oda",
       "description": "Advanced multi-architecture online disassembler supporting a lot of architectures and object file formats",
       "price": "Free",
-      "online": "True"
+      "online": "False"
     },
     {
       "name": "OllyDbg",
@@ -587,13 +579,6 @@
       "online": "False"
     },
     {
-      "name": "PE Insider",
-      "website": "http://cerbero.io/peinsider/",
-      "description": "PE viewer, closed source and windows only",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Plasma",
       "source": "https://github.com/plasma-disassembler/plasma",
       "description": "x86/ARM/MIPS interactive disassembler",
@@ -611,8 +596,7 @@
     },
     {
       "name": "Qira",
-      "website": "http://qira.me/",
-      "source": "https://github.com/BinaryAnalysisPlatform/qira",
+      "source": "https://github.com/geohot/qira",
       "description": "Timeless debugger (QIRA = QEMU Interactive Runtime Analyser)",
       "language": "C",
       "price": "Free",
@@ -700,8 +684,7 @@
     },
     {
       "name": "Snowman",
-      "website": "https://derevenets.com/",
-      "source": "https://github.com/yegord/snowman",
+      "source": "https://github.com/djaessel/snowman",
       "description": "Native code to C/C++ decompiler, supporting x86, AMD64, and ARM architectures, exists as standalone app or as a plug-in",
       "language": "CPlusPlus",
       "price": "Free",

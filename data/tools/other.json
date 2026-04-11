@@ -400,14 +400,6 @@
       "online": "False"
     },
     {
-      "name": "NameScan Email Compromised Check",
-      "website": "https://namescan.io/FreeEmailCompromisedCheck.aspx",
-      "description": "Service to check if an account has been compromised in a data breach, display the breaches not the password",
-      "price": "Free",
-      "online": "True",
-      "keywords": "leak"
-    },
-    {
       "name": "Nord Stream",
       "website": "https://github.com/synacktiv/nord-stream",
       "description": "Extract secrets stored inside CI/CD environments by deploying malicious pipelines",
@@ -485,14 +477,6 @@
       "price":"Free",
       "online":"False",
       "blackarch": "pipal"
-    },
-    {
-      "name": "PWDQUERY",
-      "website": "https://pwdquery.xyz/",
-      "description": "Service to check if an account has been compromised in a data breach, doesn't display breaches, partially display password",
-      "price": "Free",
-      "online": "True",
-      "keywords": "leak"
     },
     {
       "name": "Rakound",

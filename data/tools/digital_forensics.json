@@ -78,7 +78,7 @@
     },
     {
       "name": "FTK Imager",
-      "website": "https://www.exterro.com/ftk-imager",
+      "website": "https://www.exterro.com/digital-forensics-software/ftk-imager",
       "description": "Investigate electronic devices; full disk imaging capabilities: preview and image hard drives from Windows and Linux computers, CDs, DVDs, thumb drives, and other USB; forensic image mounting: mount an image for a read-only view that leverages file explorer; preview data; RAM capture",
       "price": "Paid",
       "online": "False"
@@ -103,7 +103,6 @@
     },
     {
       "name": "rekall",
-      "website": "http://www.rekall-forensic.com/",
       "source": "https://github.com/google/rekall",
       "description": "Volatile memory extraction utility",
       "language": "Python",

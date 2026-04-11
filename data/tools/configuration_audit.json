@@ -52,7 +52,7 @@
     },
     {
       "name": "Nipper Studio",
-      "website": "https://www.titania.com/nipper-studio",
+      "website": "https://www.titania.com/products/nipper",
       "description": "Tool that parse router, switch, firewall configuration to discover vulnerabilities",
       "price": "Paid",
       "online": "False"

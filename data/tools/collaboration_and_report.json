@@ -33,13 +33,6 @@
       "online": "False"
     },
     {
-      "name": "Canopy",
-      "website": "https://www.checksec.com/canopy.html",
-      "description": "Penetration test platform: vulnerability database and reporting",
-      "price": "Paid",
-      "online": "False"
-    },
-    {
       "name": "Cervantes",
       "website": "https://www.cervantessec.org/",
       "source": "https://github.com/CervantesSec/cervantes",
@@ -151,13 +144,6 @@
       "online": "False"
     },
     {
-      "name": "Hive",
-      "website": "https://hexway.io/",
-      "description": "Collaborative penetration test and reporting platform",
-      "price": "Paid",
-      "online": "False"
-    },
-    {
       "name": "Kvasir",
       "source": "https://github.com/KvasirSecurity/Kvasir",
       "description": "Pentest data management tool",
@@ -167,7 +153,6 @@
     },
     {
       "name": "Lair",
-      "website": "https://www.optiv.com/blog/updates-to-the-lair-ecosystem",
       "source": "https://github.com/lair-framework/lair",
       "description": "Collaborative penetration test and vulnerability management framework",
       "language": "JavaScript",
@@ -235,7 +220,7 @@
     },
     {
       "name": "PentestPad",
-      "website": "https://www.pentestpad.com/features/pentest-report-generator",
+      "website": "https://www.pentestpad.com/features?tab=automated-pentest-report-generation",
       "description": "Collaborative penetration test between team members and end-clients, vulnerability database and reporting platform",
       "price": "Paid",
       "online": "True"
@@ -348,7 +333,6 @@
     },
     {
       "name": "Smersh",
-      "website": "https://smersh.app/",
       "source": "https://github.com/CMEPW/Smersh",
       "description": "Pentest oriented collaborative tool used to track the progress of your company's engagements and generate reports",
       "language": "PHP",
@@ -400,7 +384,6 @@
     },
     {
       "name": "Vulnreport",
-      "website": "http://vulnreport.io/",
       "source": "https://github.com/salesforce/vulnreport",
       "description": "Pentesting management and automation platform",
       "language": "Ruby",
@@ -409,18 +392,10 @@
     },
     {
       "name": " WriteHat",
-      "website": "https://www.blacklanternsecurity.com/2020-12-02-WriteHat/",
       "source": "https://github.com/blacklanternsecurity/writehat",
       "description": "Collaborative penetration test reporting platform",
       "language": "Python",
       "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "ZinnoX Reporting Tool",
-      "website": "https://zinnox.com/",
-      "description": "ZRT; project management, vulnerability management and pentest report creation application",
-      "price": "Paid",
       "online": "False"
     }
   ]

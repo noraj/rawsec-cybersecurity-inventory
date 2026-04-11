@@ -53,7 +53,7 @@
     },
     {
       "name": "ImageMagick",
-      "website": "http://www.imagemagick.org/script/index.php",
+      "website": "http://www.imagemagick.org",
       "source": "http://git.imagemagick.org/repos/ImageMagick",
       "description": "Software suite and library to create, edit, compose, or convert images",
       "language": "C",
@@ -63,15 +63,6 @@
     {
       "name": "Outguess",
       "description": "Tool to hide messages in files (website down since 2004)",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "PNGtools",
-      "website": "http://www.stillhq.com/pngtools/",
-      "source": "http://www.stillhq.com/svn/trunk/pngtools/",
-      "description": "Suite of tools to work with PNG images",
-      "language": "C",
       "price": "Free",
       "online": "False"
     },

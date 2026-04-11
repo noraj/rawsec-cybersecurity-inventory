@@ -58,7 +58,7 @@
     },
     {
       "name": "PatrowlHears",
-      "website": "https://patrowl.io/products/hears",
+      "website": "https://patrowlhears.io/",
       "source": "https://github.com/Patrowl/PatrowlHears",
       "description": "Provides a unified source of vulnerability, exploit and threat Intelligence feeds; comprehensive and continuously updated vulnerability database scored and enriched with exploit and threat news information",
       "language": "Python",

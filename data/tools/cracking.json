@@ -68,7 +68,6 @@
     },
     {
       "name": "CrackerJack",
-      "website": "https://www.contextis.com/en/resources/tools/crackerjack",
       "source": "https://github.com/ctxis/crackerjack",
       "description": "Hashcat WebUI; session management, mask generation, API, notifications, local and LDAP authentication",
       "language": "Python",
@@ -250,7 +249,7 @@
     },
     {
       "name": "John The Ripper",
-      "website": "http://www.openwall.com/john/",
+      "website": "https://www.openwall.com/john/",
       "description": "Hash cracking tool",
       "language": "C",
       "price": "Free",
@@ -259,7 +258,7 @@
     },
     {
       "name": "John the Ripper, Jumbo version",
-      "website": "http://www.openwall.com/john/",
+      "website": "https://www.openwall.com/john/",
       "source": "https://github.com/openwall/john",
       "description": "Hash cracking tool, community-enhanced version of John The Ripper",
       "language": "C",

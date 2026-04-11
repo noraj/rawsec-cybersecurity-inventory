@@ -145,18 +145,8 @@
     },
     {
       "name": "datasploit",
-      "website": "https://datasploit.github.io/datasploit/",
       "source": "https://github.com/DataSploit/datasploit",
       "description": "OSINT framework, find, aggregate and export data",
-      "language": "Python",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "DeadTrap",
-      "website": "https://chr0m0s0m3s.github.io/DeadTrapv2/",
-      "source": "https://github.com/Chr0m0s0m3s/DeadTrapv2",
-      "description": "Track down footprints of a phone number",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -274,7 +264,6 @@
     },
     {
       "name": "FOCA",
-      "website": "https://www.elevenpaths.com/labstools/foca/index.html",
       "source": "https://github.com/ElevenPaths/FOCA",
       "description": "OSINT framework and metadata analyser",
       "language": "Csharp",
@@ -418,7 +407,6 @@
     },
     {
       "name": "Hunt3r",
-      "website": "https://docs.hunt3r.ovh/",
       "source": "https://github.com/EasyRecon/Hunt3r",
       "description": "Automatic domain recognition (via amass) and vulnerability scan (via nuclei) platform with a WebUI",
       "language": "Ruby",
@@ -801,7 +789,6 @@
     },
     {
       "name": "Sherlock",
-      "website": "https://sherlock-project.github.io",
       "source": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",

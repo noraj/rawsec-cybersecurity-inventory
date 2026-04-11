@@ -11,7 +11,6 @@
     },
     {
       "name": "bbrecon",
-      "website": "https://bugbountyrecon.com/",
       "source": "https://github.com/serain/bbrecon",
       "description": "Service enumerating all targets on Internet covered by a bug bounty program",
       "language": "Python",

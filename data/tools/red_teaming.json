@@ -10,14 +10,6 @@
       "keywords": "packer, obfuscation"
     },
     {
-      "name": "AntiScan.Me",
-      "website": "https://antiscan.me/",
-      "description": "Multi-AV checker that doesn't distribute the check results, based on Dyncheck.com",
-      "price": "Paid",
-      "online": "True",
-      "keywords": "anti-virus"
-    },
-    {
       "name": "AVET",
       "source": "https://github.com/govolution/avet",
       "description": "AntiVirus Evasion Tool; targeting windows machines with executable files",
@@ -452,7 +444,6 @@
     },
     {
       "name": "PEzor",
-      "website": "https://iwantmore.pizza/posts/PEzor.html",
       "source": "https://github.com/phra/PEzor",
       "description": "Shellcode & PE Packer",
       "language": "CPlusPlus",
@@ -580,7 +571,6 @@
     },
     {
       "name": "SHAD0W",
-      "website": "https://blog.dylan.codes/shad0w/",
       "source": "https://github.com/bats3c/shad0w",
       "description": "Modular C2 framework designed to successfully operate covertly on heavily monitored environments",
       "language": "Python",
@@ -753,7 +743,6 @@
     },
     {
       "name": "Warhorse",
-      "website": "https://docs.war-horse.io/",
       "source": "https://github.com/warhorse/warhorse",
       "description": "Ansible playbook to deploy infrastructure in the cloud for conducting Red Team assessments",
       "price": "Free",

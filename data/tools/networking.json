@@ -497,7 +497,6 @@
     },
     {
       "name": "Hydra",
-      "website": "https://www.thc.org/thc-hydra/",
       "source": "https://github.com/vanhauser-thc/thc-hydra",
       "description": "Network login cracker",
       "language": "C",
@@ -720,7 +719,6 @@
     },
     {
       "name": "modifyCertTemplate",
-      "website": "https://www.fortalicesolutions.com/posts/adcs-playing-with-esc4",
       "source": "https://github.com/fortalice/modifyCertTemplate",
       "description": "Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation",
       "language": "Python",
@@ -801,13 +799,6 @@
       "description": "Network sniffer/packet capturing tool",
       "price": "Free",
       "online": "False"
-    },
-    {
-      "name": "NetworkTotal",
-      "website": "https://www.networktotal.com/",
-      "description": "PCAP analyzer; using Suricata",
-      "price": "Free",
-      "online": "True"
     },
     {
       "name": "ngocok",
@@ -957,7 +948,6 @@
     },
     {
       "name": "polarbearscan",
-      "website": "http://santarago.org/pbscan.html",
       "source": "https://github.com/gvb84/pbscan",
       "description": "Port scanner and banner grabber",
       "language": "C",
@@ -1111,7 +1101,7 @@
     },
     {
       "name": "RMIScout",
-      "website": "https://know.bishopfox.com/research/rmiscout",
+      "website": "https://bishopfox.com/tools/rmiscout",
       "source": "https://github.com/BishopFox/rmiscout",
       "description": "Enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities through wordlist and bruteforce strategies",
       "language": "Java",
@@ -1157,7 +1147,6 @@
     },
     {
       "name": "RustHound",
-      "website": "https://www.opencyber.com/rusthound-data-collector-for-bloodhound-written-in-rust/",
       "source": "https://github.com/NH-RED-TEAM/RustHound",
       "description": "Active Directory data collector for BloodHound v4",
       "language": "Rust",
@@ -1246,7 +1235,6 @@
     },
     {
       "name": "Singularity",
-      "website": "https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2018/august/singularity-of-origin-a-dns-rebinding-attack-framework/",
       "source": "https://github.com/nccgroup/singularity",
       "description": "DNS rebinding attack framework",
       "language": "Go",
@@ -1318,7 +1306,6 @@
     },
     {
       "name": "ssh-audit",
-      "website": "https://www.ssh-audit.com/",
       "source": "https://github.com/jtesta/ssh-audit",
       "description": "SSH scanner that detects protocol, version, grab banner, recognize software and operating system, output algorithm information and recommendations",
       "language": "Python",
