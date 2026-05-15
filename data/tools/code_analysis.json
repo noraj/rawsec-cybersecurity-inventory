@@ -163,7 +163,7 @@
     },
     {
       "name": "SonarQube",
-      "website": "http://www.sonarqube.org/",
+      "website": "https://www.sonarqube.org/",
       "source": "https://github.com/SonarSource/sonarqube",
       "description": "Automatic code review tool to detect bugs, vulnerabilities; continuous code inspection automated with static code analysis rules",
       "language": "Java",
