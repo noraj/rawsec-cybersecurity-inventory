@@ -222,5 +222,14 @@
       "price": "Free",
       "online": "False"
     }
+    {
+      "name": "GitGuardian",
+      "source": "https://github.com/GitGuardian/ggshield",
+      "description": "Monitors repositories for hardcoded secrets, API keys, and credentials. Integrates into CI/CD pipelines to detect leaks before they reach production.",
+      "language": "Python",
+      "price": "Free",
+      "online": "True",
+      "keywords": "SAST"
+    }
   ]
 }
