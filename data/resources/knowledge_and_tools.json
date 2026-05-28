@@ -362,6 +362,12 @@
       "price": "Free"
     },
     {
+      "name": "Outpacket",
+      "source": "https://github.com/n00py/Outpacket",
+      "description": "Cheatsheet maps common impacket workflows to their modern alternatives",
+      "price": "Free"
+    },
+    {
       "name": "Packet Storm",
       "website": "https://packetstormsecurity.com/",
       "description": "Exploit index and security news",
