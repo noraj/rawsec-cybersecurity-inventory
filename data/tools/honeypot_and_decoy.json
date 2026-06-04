@@ -56,6 +56,15 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Trapster",
+      "website": "https://trapster.cloud",
+      "source": "https://github.com/0xBallpoint/trapster-community",
+      "description": "Multi-services asynchronous honeypot solution with real-time threat detection",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
     }
   ]
 }
