@@ -95,6 +95,14 @@
       "keywords": "GUI, hashcat, crack, hash"
     },
     {
+      "name": "crack.sh",
+      "website": "https://crack.sh/",
+      "description": "DES hash cracking service using brute-force and large pre-computed rainbow tables",
+      "price": "Paid",
+      "online": "True",
+      "keywords": "LM, NTLMv1, PPTP, WPA-Enterprise, des_crypt(), Kerberos5"
+    },
+    {
       "name": "crackpkcs12",
       "source": "https://github.com/crackpkcs12/crackpkcs12",
       "description": "Multithreaded program to crack PKCS#12 files (p12 and pfx extensions)",
