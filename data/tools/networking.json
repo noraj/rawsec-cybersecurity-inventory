@@ -362,6 +362,14 @@
       "blackarch": "python-dploot"
     },
     {
+      "name": "Espionage",
+      "source": "https://github.com/josh0xA/Espionage",
+      "description": "A Linux packet sniffing suite for automated MiTM attacks",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Evil-WinRM",
       "source": "https://github.com/Hackplayers/evil-winrm",
       "description": "Enhanced WinRM shell",
