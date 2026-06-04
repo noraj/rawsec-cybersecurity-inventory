@@ -429,6 +429,15 @@
       "online": "False"
     },
     {
+      "name": "ShuckNT",
+      "website": "https://shuck.sh",
+      "source": "https://github.com/yanncam/ShuckNT",
+      "description": "Downgrade, convert, dissect and shuck authentication token based on Data Encryption Standard (DES)",
+      "language": "PHP",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Spraygen",
       "source": "https://github.com/3ndG4me/spraygen",
       "description": "Permutation-based password list generator",
