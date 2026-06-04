@@ -8,7 +8,7 @@ stages:
   - deploy
 
 test:inventory:
-  image: node:25.7
+  image: node:26.2
   stage: test
   script:
     - npm install --global gulp-cli
@@ -43,7 +43,7 @@ test:data:
     - master
 
 pages: # for Gitlab Pages this job must exactly be named `pages`
-  image: node:25.7
+  image: node:26.2
   stage: deploy
   needs: ["pages:docs"]
   script:
