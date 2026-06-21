@@ -368,6 +368,15 @@
       "online": "True"
     },
     {
+      "name": "NTLMv1 Multi Tool",
+      "source": "https://github.com/evilmog/ntlmv1-multi",
+      "description": "Formats NTLMv1 challenge responses into a format that can be cracked with hashcat",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "ntlmv1-multi"
+    },
+    {
       "name": "Ophcrack",
       "website": "http://ophcrack.sourceforge.net/",
       "source": "https://sourceforge.net/projects/ophcrack/",
