@@ -630,6 +630,15 @@
       "online": "False"
     },
     {
+      "name": "Username Anarchy",
+      "source": "https://github.com/urbanadventurer/username-anarchy",
+      "description": "Username generation for penetration testing; supports plugins, format string, substitutions, common names by country, facebook common names",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "username-anarchy"
+    },
+    {
       "name": "v0lt",
       "source": "https://github.com/P1kachu/v0lt",
       "description": "CTF toolkit / framework",
