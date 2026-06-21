@@ -987,6 +987,15 @@
       "online": "False"
     },
     {
+      "name": "Pre2k",
+      "source": "https://github.com/garrettfoster13/pre2k",
+      "description": "Query for the existence of pre-windows 2000 computer objects",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "pre2k"
+    },
+    {
       "name": "PSPKIAudit",
       "source": "https://github.com/GhostPack/PSPKIAudit",
       "description": "AD CS auditing based on the PSPKI toolkit",
