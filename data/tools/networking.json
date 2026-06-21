@@ -1348,6 +1348,15 @@
       "online": "False"
     },
     {
+      "name": "Stunner",
+      "source": "https://github.com/firefart/stunner",
+      "description": "Test and exploit STUN, TURN and TURN over TCP servers",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "stunner"
+    },
+    {
       "name": "Suricata",
       "website": "https://suricata.io/",
       "source": "https://github.com/OISF/suricata",
