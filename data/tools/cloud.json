@@ -159,6 +159,16 @@
       "keywords": "EntraID"
     },
     {
+      "name": "s3enum",
+      "source": "https://github.com/koenrh/s3enum",
+      "description": "Stealthy Amazon S3 bucket enumeration tool for pentesters",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "DNS",
+      "blackarch": "s3enum"
+    },
+    {
       "name": "Smogcloud",
       "source": "https://github.com/BishopFox/smogcloud",
       "description": "Identify AWS cloud assets",
