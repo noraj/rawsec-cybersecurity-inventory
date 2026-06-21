@@ -406,6 +406,13 @@
       "online": "False"
     },
     {
+      "name": "Hunter Now",
+      "website": "https://hunter.how/",
+      "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Hunt3r",
       "source": "https://github.com/EasyRecon/Hunt3r",
       "description": "Automatic domain recognition (via amass) and vulnerability scan (via nuclei) platform with a WebUI",
