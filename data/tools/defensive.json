@@ -136,6 +136,14 @@
       "keywords": "ClamAV, Comodo antivirus, Hashlookup, Yara"
     },
     {
+      "name": "Raven",
+      "source": "https://github.com/CycodeLabs/raven",
+      "description": "Risk Analysis and Vulnerability ENumeration; CI/CD security analyzer for GitHub Actions; download workflows, index data into Neo4j and query for vulnerabilities using a pre-defined query library",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Santa",
       "source": "https://github.com/google/santa",
       "description": "Binary authorization system for macOS",
