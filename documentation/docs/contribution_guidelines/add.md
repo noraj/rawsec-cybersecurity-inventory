@@ -26,14 +26,15 @@ Example of JSON data for a tool:
 
 ```json
     {
-      "name": "ROPgadget",
-      "website": "http://shell-storm.org/project/ROPgadget/",
-      "source": "https://github.com/JonathanSalwan/ROPgadget",
-      "description": "Framework for ROP exploitation",
+      "name": "h8mail",
+      "source": "https://github.com/khast3x/h8mail",
+      "description": "Email OSINT & Password breach hunting tool; supports chasing down related email",
       "language": "Python",
       "price": "Free",
-      "online": "False"
-    }
+      "online": "False",
+      "keywords": "email, breach, password",
+      "blackarch": "h8mail"
+    },
 ```
 
 ## A Step by Step Guide to Making Your First GitLab Contribution

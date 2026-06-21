@@ -27,6 +27,7 @@ nav_order: 2
     - On BA: `pacman -Ss <tool_name>`
     - On the website: on the [tool page](https://blackarch.org/tools.html)
     - On the [git repository](https://github.com/BlackArch/blackarch/tree/master/packages)
+- About the `price` field, `Free` means it's 100% Free, `Paid` could as well be a paid-only product of freemium (free tier but all features unlocked through paid tier)
 
 ## Development
 
