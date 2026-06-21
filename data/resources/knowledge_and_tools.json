@@ -148,6 +148,12 @@
       "price": "Free"
     },
     {
+      "name": "Free Rainbow Tables",
+      "website": "https://freerainbowtables.com",
+      "description": "Pre-computed rainbow tables for NTLM, SHA1, MySQLSHA1, MD5, LM and half-LM challenges",
+      "price": "Free"
+    },
+    {
       "name": "Forensics Wiki",
       "website": "http://forensicswiki.org/wiki/Main_Page",
       "description": "Forensics tips and tools",
