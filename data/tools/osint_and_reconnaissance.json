@@ -152,6 +152,13 @@
       "online": "False"
     },
     {
+      "name": "DNSai",
+      "website": "https://dnsai.com",
+      "description": "DNS intelligence and email security lookups: DNS/WHOIS, SPF analysis with lookup-limit check, DKIM selector discovery, DMARC check, email header analysis, blacklist checks; free web tools and free API tier",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "DNSDumpster",
       "website": "https://dnsdumpster.com/",
       "description": "Domain research tool that can discover hosts related to a domain",
