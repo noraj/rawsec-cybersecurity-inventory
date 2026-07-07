@@ -293,6 +293,13 @@
       "price": "Free"
     },
     {
+      "name": "LOLESXi",
+      "website": "https://lolesxi-project.github.io/LOLESXi/",
+      "source": "https://github.com/lolesxi-project/LOLESXi",
+      "description": "Living Off The Land ESXi; curated list of VMware ESXi binaries and scripts that adversaries have used in operations",
+      "price": "Free"
+    },
+    {
       "name": "LOLDrivers",
       "website": "https://www.loldrivers.io/",
       "source": "https://github.com/magicsword-io/LOLDrivers",
