@@ -555,6 +555,14 @@
       "online": "False"
     },
     {
+      "name": "ObjectWalker",
+      "source": "https://github.com/p0dalirius/objectwalker",
+      "description": "Module to explore the object tree to extract paths to interesting objects in memory",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "OllyDbg",
       "website": "http://www.ollydbg.de/",
       "description": "Windows debugger",
