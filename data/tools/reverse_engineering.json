@@ -298,6 +298,14 @@
       "online": "False"
     },
     {
+      "name": "ELFLoader",
+      "source": "https://github.com/trustedsec/ELFLoader",
+      "description": "ELF object in memory loader/runner for running follow on capabilities across x86_64 and x86 Linux operating systems",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "EMBA",
       "website": "https://github.com/e-m-b-a/emba/wiki",
       "source": "https://github.com/e-m-b-a/emba",
