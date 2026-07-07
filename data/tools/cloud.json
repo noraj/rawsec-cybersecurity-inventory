@@ -141,6 +141,13 @@
       "keywords": "EntraID"
     },
     {
+      "name": "Public Buckets (GrayHatWarfare)",
+      "website": "https://buckets.grayhatwarfare.com/",
+      "description": "Search public cloud storage buckets across AWS, Azure, Google Cloud, and Alibaba Cloud for exposed files",
+      "price": "Paid",
+      "online": "True"
+    },
+    {
       "name": "Quiet Riot",
       "source": "https://github.com/righteousgambit/quiet-riot",
       "description": "Unauthenticated enumeration of cloud principals",
