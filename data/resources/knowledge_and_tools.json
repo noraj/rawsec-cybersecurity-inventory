@@ -27,6 +27,13 @@
       "price": "Free"
     },
     {
+      "name": "bug.directory",
+      "website": "https://bug.directory/",
+      "source": "https://github.com/exploits-club/bug.directory",
+      "description": "Searchable Obsidian vault of vulnerability research, exploit development, and reverse engineering resources",
+      "price": "Free"
+    },
+    {
       "name": "Bug Bounty Guide",
       "website": "https://bugbountyguide.com/",
       "source": "https://github.com/EdOverflow/bugbountyguide",
