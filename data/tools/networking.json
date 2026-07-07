@@ -18,6 +18,16 @@
       "keywords": "windows"
     },
     {
+      "name": "AD Assault",
+      "website": "https://noraj.github.io/ADAssault/",
+      "source": "https://github.com/noraj/adassault",
+      "description": "Active Directory environments pentest; complementary to existing tools like NetExec",
+      "language": "Ruby",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "adassault"
+    },
+    {
       "name": "AD Strider",
       "source": "https://github.com/PatchRequest/AD-Strider",
       "description": "Automate the misconfigurations detectection in an Active Directory by analyzing data from Bloodhound",
