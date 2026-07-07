@@ -175,6 +175,14 @@
       "online": "False"
     },
     {
+      "name": "COFFLoader",
+      "source": "https://github.com/trustedsec/COFFLoader",
+      "description": "COFF loader that runs Beacon Object Files (BOF) outside of Cobalt Strike",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Cuckoo 3",
       "source": "https://github.com/cert-ee/cuckoo3",
       "description": "Python 3 port of Cuckoo, automated malware analysis system",
