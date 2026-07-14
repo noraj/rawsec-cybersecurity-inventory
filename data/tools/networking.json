@@ -621,6 +621,7 @@
     },
     {
       "name": "Legba",
+      "website": "https://legba.evilsocket.net/",
       "source": "https://github.com/evilsocket/legba",
       "description": "Multiprotocol credentials bruteforcer, password sprayer and enumerator",
       "language": "Rust",
