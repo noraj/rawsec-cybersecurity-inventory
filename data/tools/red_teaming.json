@@ -78,6 +78,15 @@
       "keywords": "packer"
     },
     {
+      "name": "convoC2",
+      "source": "https://github.com/cxnturi0n/convoC2",
+      "description": "Command and Control infrastructure over Microsoft Teams",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "C2"
+    },
+    {
       "name": "Cortex XDR Config Extractor",
       "source": "https://github.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor",
       "description": "Parse the Database Lock Files of the Cortex XDR Agent by Palo Alto Networks and extract Agent Settings, the Hash and Salt of the Uninstall Password, as well as possible Exclusions",
