@@ -1015,6 +1015,14 @@
       "online": "False"
     },
     {
+      "name": "Prox-Ez",
+      "source": "https://github.com/synacktiv/Prox-Ez",
+      "description": "HTTP proxy that handles HTTP authentications on your behalf, including NTLM EPA, Kerberos, pass-the-hash, overpass-the-hash and pass-the-ticket",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "pty4all",
       "source": "https://github.com/laluka/pty4all",
       "description": "Persistent multi reverse shell handler",
