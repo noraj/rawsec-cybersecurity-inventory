@@ -120,6 +120,13 @@
       "online": "True"
     },
     {
+      "name": "VulnCheck NVD++",
+      "website": "https://vulncheck.com/nvd2",
+      "description": "Service providing access from a single source to NIST NVD (enriched with VulnCheck CPE) and Mitre CVElist",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Watcher",
       "website": "https://thalesgroup-cert.github.io/Watcher/",
       "source": "https://github.com/thalesgroup-cert/Watcher",
