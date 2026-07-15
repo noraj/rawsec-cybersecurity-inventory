@@ -104,6 +104,14 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "CaptainCredz",
+      "source": "https://github.com/synacktiv/captaincredz",
+      "description": "Modular and discreet password-spraying tool with cache mechanism and fine-grained timing control",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "CredMaster",
       "source": "https://github.com/knavesec/CredMaster",
       "description": "Password spraying, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling",
