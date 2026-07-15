@@ -657,6 +657,13 @@
       "keywords": "VBS"
     },
     {
+      "name": "VulnCheck XDB",
+      "website": "https://vulncheck.com/xdb/",
+      "description": "Exploit database of proof-of-concept code in Git repositories, compiled with validation steps that involve human analysis and automated block lists",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "webqr",
       "website": "https://webqr.com/index.html",
       "description": "Scan & create QR-code",

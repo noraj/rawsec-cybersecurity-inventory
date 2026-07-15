@@ -113,20 +113,6 @@
       "keywords": "IP, DNS, SSL"
     },
     {
-      "name": "VulnCheck KEV",
-      "website": "https://vulncheck.com/kev",
-      "description": "A community resource that enables security teams to manage vulnerabilities and risk with additional context and evidence-based validation of known exploitation",
-      "price": "Free",
-      "online": "True"
-    },
-    {
-      "name": "VulnCheck NVD++",
-      "website": "https://vulncheck.com/nvd2",
-      "description": "Service providing access from a single source to NIST NVD (enriched with VulnCheck CPE) and Mitre CVElist",
-      "price": "Free",
-      "online": "True"
-    },
-    {
       "name": "Watcher",
       "website": "https://thalesgroup-cert.github.io/Watcher/",
       "source": "https://github.com/thalesgroup-cert/Watcher",
