@@ -136,6 +136,14 @@
       "online": "False"
     },
     {
+      "name": "Medusa",
+      "source": "https://github.com/Ch0pin/medusa",
+      "description": "Mobile Edge-Dynamic Unified Security Analysis ; Modular automation framework and script repository for runtime testing and investigating Android and iOS apps",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "NodeJsScan",
       "source": "https://github.com/ajinabraham/NodeJsScan",
       "description": "Static security code scanner for Node.js applications",
