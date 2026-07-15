@@ -61,6 +61,14 @@
       "price": "Free"
     },
     {
+      "name": "OSV",
+      "website": "https://osv.dev/",
+      "source": "https://github.com/google/osv.dev",
+      "description": "Distributed vulnerability database for open source",
+      "price": "Free",
+      "keywords": "CVE"
+    },
+    {
       "name": "search_vulns",
       "website": "https://search-vulns.com/",
       "source": "https://github.com/ra1nb0rn/search_vulns",
