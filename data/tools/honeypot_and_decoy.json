@@ -58,7 +58,7 @@
       "online": "False"
     },
     {
-      "name": "Trapster",
+      "name": "Trapster Community",
       "website": "https://trapster.cloud",
       "source": "https://github.com/0xBallpoint/trapster-community",
       "description": "Multi-services asynchronous honeypot solution with real-time threat detection",
