@@ -25,6 +25,12 @@
       "price": "Free"
     },
     {
+      "name": "CVE Search",
+      "website": "https://cvesearch.com",
+      "description": "CVE lookup API enriched with AlienVault OTX threat intelligence",
+      "price": "Paid"
+    },
+    {
       "name": "CVExploits",
       "website": "https://cvexploits.io/",
       "description": "Search engine to find exploits related to a CVE",
