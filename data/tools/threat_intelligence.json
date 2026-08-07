@@ -39,6 +39,13 @@
       "online": "False"
     },
     {
+      "name": "MalwareIntel",
+      "website": "https://malwareintel.es",
+      "description": "Free threat intelligence platform with 1.7M+ IOCs, 5,500+ Sigma detection rules, malware family profiles with MITRE ATT&CK TTPs, and downloadable detection packages for SOC/SIEM integration",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Netglub",
       "website": "https://www.netglub.org/",
       "source": "http://redmine.lab.diateam.net/attachments/download/1/netglub-1.0.tar.gz",
