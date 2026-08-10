@@ -300,6 +300,14 @@
       "online": "False"
     },
     {
+      "name": "PwnDoc1A",
+      "source": "https://github.com/AmadeusITGroup/pwndoc1A",
+      "description": "Collaborative penetration test reporting platform; AI powered penetration testing reporting application, fork of PwnDoc",
+      "language": "JavaScript",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Reconmap",
       "website": "https://reconmap.com/",
       "description": "Penetration test planning, automation and reporting",
