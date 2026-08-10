@@ -57,6 +57,13 @@
       "price": "Free"
     },
     {
+      "name": "MalwareIntel",
+      "language": "Spanish",
+      "website": "https://malwareintel.es",
+      "description": "Threat intelligence platform with 1.8M+ IOCs, 3,600+ Sigma/YARA detection rules, malware family profiles with MITRE ATT&CK TTPs, and downloadable detection packages for SOC/SIEM integration",
+      "price": "Paid"
+    },
+    {
       "name": "MIPT CTF",
       "language": "Russian",
       "source": "https://github.com/xairy/mipt-ctf",
