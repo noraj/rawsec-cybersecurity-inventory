@@ -175,6 +175,17 @@
       "language": "Go",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "zizmor",
+      "website": "https://zizmor.sh",
+      "source": "https://github.com/zizmorcore/zizmor",
+      "description": "Static analysis for CI/CD systems; find and fix security issues in GitHub Actions, Dependabot, and pre-commit",
+      "language": "Rust",
+      "price": "Free",
+      "online": "False",
+      "keywords": "sarif, github-code-scanning",
+      "blackarch": "zizmor"
     }
   ]
 }
