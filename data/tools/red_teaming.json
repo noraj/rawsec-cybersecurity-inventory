@@ -751,6 +751,16 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "TREVORproxy",
+      "source": "https://github.com/blacklanternsecurity/TREVORproxy",
+      "description": "SOCKS proxy that randomizes source IP addresses; round-robin through SSH tunnels or assign billions of unique source addresses",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "WAF bypass, password spraying",
+      "blackarch": "trevorproxy"
+    },
+    {
       "name": "UBoat",
       "source": "https://github.com/Souhardya/UBoat",
       "description": "HTTP botnet PoC",
