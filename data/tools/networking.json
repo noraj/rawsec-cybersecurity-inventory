@@ -1153,6 +1153,15 @@
       "online": "False"
     },
     {
+      "name": "remote-method-guesser",
+      "source": "https://github.com/qtc-de/remote-method-guesser",
+      "description": "Java RMI vulnerability scanner; identify and verify common security vulnerabilities on Java RMI endpoints",
+      "language": "Java",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "remote-method-guesser"
+    },
+    {
       "name": "RouterSploit",
       "source": "https://github.com/threat9/routersploit",
       "description": "Exploitation framework for embedded devices: exploits, default credentials, scanners, payloads",
