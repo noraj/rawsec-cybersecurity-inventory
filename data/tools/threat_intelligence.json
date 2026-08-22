@@ -1,6 +1,13 @@
 {
   "tools": [
     {
+      "name": "Hudson Rock Cybercrime Intelligence Tools",
+      "website": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
+      "description": "Cybercrime intelligence toolset to check if a specific digital asset was compromised in global infostealer malware attacks",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "Intelligence X",
       "website": "https://intelx.io/",
       "description": "Threat intelligence search engine: email addresses, domains, URLs, IPs, CIDRs, Bitcoin addresses, IPFS hashes, etc.; it searches among darknet, document sharing platforms, whois data, public data leaks, etc.",
@@ -16,18 +23,19 @@
       "keywords": "phishing, c2, C&C"
     },
     {
-      "name": "Hudson Rock Cybercrime Intelligence Tools",
-      "website": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools",
-      "description": "Cybercrime intelligence toolset to check if a specific digital asset was compromised in global infostealer malware attacks",
-      "price": "Free",
-      "online": "True"
-    },
-    {
       "name": "Maltego",
       "website": "https://www.paterva.com/web7/buy/maltego-clients/maltego-ce.php",
       "description": "Interactive data mining tool that renders directed graphs for link analysis. The tool is used in online investigations for finding relationships between pieces of information from various sources located on the Internet (exists in Community Edition)",
       "price": "Paid",
       "online": "False"
+    },
+    {
+      "name": "MalwareIntel",
+      "website": "https://malwareintel.es",
+      "source": "https://github.com/pedri77/MalwareIntel",
+      "description": "Free malware intelligence platform aggregating 13+ public CTI feeds. 4,300+ malware families, 1.8M+ IOCs, knowledge graph, Sigma/YARA rules, MITRE ATT&CK mapping. Built for SOC analysts, threat hunters, and incident responders.",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "MISP",
@@ -51,7 +59,7 @@
       "website": "https://filigran.io/solutions/products/opencti-threat-intelligence/",
       "source": "https://github.com/OpenCTI-Platform/opencti",
       "description": "Platform designed for managing and analyzing cyber threat intelligence knowledge, centralizing data using the STIX2 standard and offering visualization and integration capabilities",
-      "language" :"TypeScript",
+      "language": "TypeScript",
       "price": "Free",
       "online": "False",
       "keywords": "TTP, MISP, TheHive, MITRE ATT&CK"
