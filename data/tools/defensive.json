@@ -152,6 +152,16 @@
       "online": "False"
     },
     {
+      "name": "SysWarden",
+      "website": "https://syswarden.io/",
+      "source": "https://github.com/duggytuxy/syswarden",
+      "description": "Host-local Linux defense with auditable, fail-closed enforcement",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "HIDS, HIPS, WAAP"
+    },
+    {
       "name": "usbsas",
       "source": "https://github.com/cea-sec/usbsas",
       "description": "Tool and framework for securely reading untrusted USB mass storage devices",
