@@ -442,6 +442,13 @@
       "online": "False"
     },
     {
+      "name": "Kluzo",
+      "website": "https://kluzo.net/",
+      "description": ".NET Decompiler and Assembly Browser; decompile .NET assemblies directly in the browser, using WebAssembly, powered by ILSpy",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "ImHex",
       "website": "https://imhex.werwolv.net/",
       "source": "https://github.com/WerWolv/ImHex",
