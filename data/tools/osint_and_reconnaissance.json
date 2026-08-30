@@ -948,6 +948,14 @@
       "online": "False"
     },
     {
+      "name": "Titus",
+      "source": "https://github.com/praetorian-inc/titus",
+      "description": "Secrets scanner that detects credentials, API keys, and tokens in source code, files, and git history; ships with 487 detection rules and runs as a CLI, library, Burp Suite, and Chrome extension",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Totem",
       "source": "https://github.com/megadose/facebook_totem",
       "description": "Retrieve information about ads of a facebook page, retrieve the number of people targeted, how much the ad cost and a lot of other information",
