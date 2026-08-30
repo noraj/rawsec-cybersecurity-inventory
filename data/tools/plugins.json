@@ -194,6 +194,15 @@
       "online": "False"
     },
     {
+      "name": "nowafpls",
+      "tool": "Burp Suite",
+      "source": "https://github.com/assetnote/nowafpls",
+      "description": "Bypass WAFs through the insertion of junk data into HTTP requests",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "nowafplsV2",
       "tool": "Burp Suite",
       "source": "https://github.com/irwankusuma/nowafplsV2",
