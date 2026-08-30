@@ -353,6 +353,14 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "LoadThat-PEandAssembly",
+      "source": "https://github.com/ProcessusT/LoadThat-PEandAssembly",
+      "description": "In-memory PE loaders that decrypt and execute a PE or .NET assembly entirely from memory without writing to disk",
+      "language": "CPlusPlus",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "LP-DB",
       "website": "https://lp-db.github.io/lp-db/",
       "source": "https://github.com/lp-db/lp-db",
