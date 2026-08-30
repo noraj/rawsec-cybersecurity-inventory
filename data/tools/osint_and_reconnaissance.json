@@ -956,6 +956,15 @@
       "online": "False"
     },
     {
+      "name": "Tookie-OSINT",
+      "website": "https://alfredredbird.github.io/tookie-osint/",
+      "source": "https://github.com/Alfredredbird/tookie-osint",
+      "description": "Information gathering; finds social media accounts based on inputs",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Totem",
       "source": "https://github.com/megadose/facebook_totem",
       "description": "Retrieve information about ads of a facebook page, retrieve the number of people targeted, how much the ad cost and a lot of other information",
