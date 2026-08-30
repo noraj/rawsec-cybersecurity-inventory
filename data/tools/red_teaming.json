@@ -277,6 +277,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "Hooka",
+      "source": "https://github.com/D3Ext/Hooka",
+      "description": "Shellcode loader generator with multiple injection techniques, shellcode encryption, and AMSI/ETW patching for evasion",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "malware, packer"
+    },
+    {
       "name": "IPSpinner",
       "source": "https://github.com/synacktiv/IPSpinner",
       "description": "Local proxy which can be used to redirect all incoming requests through several providers to rotate the source IP address of each request, running a bruteforce operation while avoiding blocked by IP address restrictions, supports AWS (API Gateway), Azure (Cloud Shell) and GitHub (GitHub Actions)",
