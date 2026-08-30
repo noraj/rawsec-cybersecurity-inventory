@@ -8,6 +8,13 @@
       "price": "Free"
     },
     {
+      "name": "Canio Campaniello",
+      "language": "Italian",
+      "website": "https://hackita.it",
+      "description": "Italian offensive security blog covering Active Directory attacks, penetration testing, web application security, exploit development, and red team techniques",
+      "price": "Free"
+    },
+    {
       "name": "CERT.pl challenges",
       "language": "Polish",
       "website": "https://hack.cert.pl/challenges",
