@@ -95,6 +95,15 @@
       "online": "False"
     },
     {
+      "name": "Betterleaks",
+      "source": "https://github.com/betterleaks/betterleaks",
+      "description": "Configurable secrets scanner with expression-based filtering and validation for contextual rule evaluation",
+      "language": "Go",
+      "price": "Free",
+      "online": "False",
+      "keywords": "SAST, detection"
+    },
+    {
       "name": "Bitcrook",
       "source": "https://github.com/ax-i-om/bitcrook",
       "description": "Reconnaissance Apparatus; Information gathering, conglomerate of tools including custom algorithms, API wrappers",
