@@ -152,6 +152,15 @@
       "online": "False"
     },
     {
+      "name": "Open Source Insights",
+      "website": "https://deps.dev/",
+      "source": "https://github.com/google/deps.dev",
+      "description": "Overview of dependencies, including security advisories and OpenSSF scorecard",
+      "language": "Go",
+      "price": "Free",
+      "online": "True"
+    },
+    {
       "name": "QARK",
       "source": "https://github.com/linkedin/qark",
       "description": "Android APK vulnerability analyzer",
