@@ -266,6 +266,15 @@
       "online": "False"
     },
     {
+      "name": "CodemerxDecompile",
+      "website": "https://decompiler.codemerx.com/",
+      "source": "https://github.com/codemerx/CodemerxDecompile",
+      "description": "Standalone .NET decompiler for Mac, Linux and Windows; based on continuation of JustDecompile",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "dotPeek",
       "website": "https://www.jetbrains.com/decompiler/",
       "description": ".NET decompiler and assembly browser",
