@@ -452,6 +452,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "OAuthBandit",
+      "source": "https://github.com/anak0ndah/OAuthBandit",
+      "description": "Post-exploitation framework that automates the extraction, validation, and exploitation of Microsoft OAuth tokens cached on compromised Windows endpoints for Red Team operations",
+      "language": "CSharp",
+      "price": "Free",
+      "online": "False",
+      "keywords": "Azure AD, WAM"
+    },
+    {
       "name": "Octopus",
       "source": "https://github.com/mhaskar/Octopus",
       "description": "Pre-operation C2 server",
