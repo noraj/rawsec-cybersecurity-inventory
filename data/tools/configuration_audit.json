@@ -74,16 +74,6 @@
       "online": "False"
     },
     {
-      "name": "Locksmith",
-      "website": "https://jakehildreth.github.io/Locksmith/",
-      "source": "https://github.com/jakehildreth/Locksmith",
-      "description": "Find and fix common misconfigurations in Active Directory Certificate Services",
-      "language": "PowerShell",
-      "price": "Free",
-      "online": "False",
-      "keywords": "windows, AD CS"
-    },
-    {
       "name": "PingCastle",
       "website": "https://www.pingcastle.com/",
       "source": "https://github.com/netwrix/pingcastle",
