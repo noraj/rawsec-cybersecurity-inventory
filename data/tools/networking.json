@@ -456,6 +456,14 @@
       "blackarch": "goddi"
     },
     {
+      "name": "graftcp",
+      "source": "https://github.com/hmgle/graftcp",
+      "description": "Redirects a program's TCP, UDP, and DNS traffic to SOCKS5 or HTTP proxies by tracing socket syscalls",
+      "language": "C",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Group3r",
       "source": "https://github.com/Group3r/Group3r",
       "description": "Enumerate relevant settings in AD Group Policy, identify exploitable misconfigurations",
