@@ -250,6 +250,15 @@
       "keywords": "C&C, C2"
     },
     {
+      "name": "HadesHunter",
+      "source": "https://github.com/anak0ndah/HadesHunter",
+      "description": "Secrets scanner for Microsoft 365 environments; scans Teams conversations, Outlook emails, and OneDrive/SharePoint files for passwords, API keys, and other sensitive data during penetration tests and red team engagements",
+      "language": "Python",
+      "price": "Free",
+      "online": "False",
+      "keywords": "O365"
+    },
+    {
       "name": "HardHat C2",
       "source": "https://github.com/DragoQCC/HardHatC2",
       "description": "Cross-platform, collaborative, Command & Control framework",
