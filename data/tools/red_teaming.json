@@ -769,6 +769,15 @@
       "keywords": "microsoft"
     },
     {
+      "name": "toastnotify-bof",
+      "source": "https://github.com/brmkit/toastnotify-bof",
+      "description": "Cobalt Strike Beacon Object File that sends Windows toast notifications for user manipulation, with support for custom payload templates",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "keywords": "social engineering"
+    },
+    {
       "name": "TrevorC2",
       "source": "https://github.com/trustedsec/trevorc2",
       "description": "Command and control framework masking the activity by emulating legitimate website",
