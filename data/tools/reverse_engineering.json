@@ -41,6 +41,16 @@
       "online": "False"
     },
     {
+      "name": "AFLplusplus",
+      "website": "https://aflplus.plus/",
+      "source": "https://github.com/AFLplusplus/AFLplusplus",
+      "description": "Afl fuzzer with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode",
+      "language": "C",
+      "price": "Free",
+      "online": "False",
+      "blackarch": "afl++"
+    },
+    {
       "name": "arm_now",
       "source": "https://github.com/nongiach/arm_now",
       "description": "Tool that allows instant setup of virtual machines on various architectures for reverse, exploit, fuzzing and programming purpose",
