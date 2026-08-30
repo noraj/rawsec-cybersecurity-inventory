@@ -194,6 +194,15 @@
       "online": "False"
     },
     {
+      "name": "nowafplsV2",
+      "tool": "Burp Suite",
+      "source": "https://github.com/irwankusuma/nowafplsV2",
+      "description": "Bypass WAF by injecting junk data into HTTP requests; adds auto-inject for Active Scanner/DAST and supports JSON, XML, multipart, CSV, YAML, and GraphQL payloads",
+      "language": "Java",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "PEDA",
       "tool": "GDB",
       "source": "https://github.com/longld/peda",
