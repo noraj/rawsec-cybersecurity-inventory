@@ -89,6 +89,14 @@
       "keywords": "cypher, neo4j"
     },
     {
+      "name": "breach.vip",
+      "website": "https://breach.vip/",
+      "description": "Data breach search engine to check if an email, username, or password has been compromised in known data breaches",
+      "price": "Free",
+      "online": "True",
+      "keywords": "leak"
+    },
+    {
       "name": "BreachDirectory",
       "website": "https://breachdirectory.org/",
       "description": "Service to check if an account has been compromised in a data breach, display the breaches, partial password and hash",
