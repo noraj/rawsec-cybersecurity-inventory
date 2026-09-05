@@ -531,14 +531,6 @@
       "blackarch": "hydra"
     },
     {
-      "name": "IPSpinner",
-      "source": "https://github.com/synacktiv/IPSpinner",
-      "description": "Local proxy that redirects requests through external services to rotate source IP addresses",
-      "language": "Go",
-      "price": "Free",
-      "online": "False"
-    },
-    {
       "name": "Ica2Tcp",
       "source": "https://github.com/synacktiv/ica2tcp",
       "description": "SOCKS proxy for Citrix",
