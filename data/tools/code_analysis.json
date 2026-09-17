@@ -31,7 +31,8 @@
       "description": "Scanning APK file for URIs, endpoints and secrets",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "apkleaks"
     },
     {
       "name": "Bearer",
