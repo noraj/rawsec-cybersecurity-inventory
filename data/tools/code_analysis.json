@@ -134,7 +134,8 @@
       "description": "Android APK vulnerability analyzer",
       "language": "Python",
       "price": "Free",
-      "online": "False"
+      "online": "False",
+      "blackarch": "mobsf"
     },
     {
       "name": "Medusa",
