@@ -422,19 +422,19 @@
       "online": "False"
     },
     {
-      "name": "Hunter Now",
-      "website": "https://hunter.how/",
-      "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
-      "price": "Paid",
-      "online": "True"
-    },
-    {
       "name": "Hunt3r",
       "source": "https://github.com/EasyRecon/Hunt3r",
       "description": "Automatic domain recognition (via amass) and vulnerability scan (via nuclei) platform with a WebUI",
       "language": "Ruby",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Hunter Now",
+      "website": "https://hunter.how/",
+      "description": "Search devices connected to the internet; helps find information about desktops, servers, IoT devices; including metadata such as the software running",
+      "price": "Paid",
+      "online": "True"
     },
     {
       "name": "Ignorant",
@@ -477,7 +477,7 @@
       "price": "Free",
       "online": "False"
     },
-        {
+    {
       "name": "LeakIX",
       "website": "https://leakix.net/",
       "description": "Search engine for devices and services exposed on the Internet",
@@ -719,6 +719,14 @@
       "online": "False"
     },
     {
+      "name": "Recon-ng",
+      "source": "https://github.com/lanmaster53/recon-ng",
+      "description": "Web-based reconnaissance tool",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "ReconDog",
       "source": "https://github.com/s0md3v/ReconDog",
       "description": "Multi-purpose reconnaissance tool, CMS detection, reverse IP lookup, port scan, etc.",
@@ -731,14 +739,6 @@
       "source": "https://github.com/six2dez/reconftw",
       "description": "Perform automated recon on a target domain by running set of tools to perform scanning and finding out vulnerabilities",
       "language": "Shell",
-      "price": "Free",
-      "online": "False"
-    },
-    {
-      "name": "Recon-ng",
-      "source": "https://github.com/lanmaster53/recon-ng",
-      "description": "Web-based reconnaissance tool",
-      "language": "Python",
       "price": "Free",
       "online": "False"
     },
@@ -770,17 +770,17 @@
       "blackarch": "recsech"
     },
     {
-      "name": "Redscan",
-      "source": "https://github.com/certmichelin/Redscan",
-      "description": "Mix of a security operations orchestration, vulnerability management and reconnaissance platform",
+      "name": "Red Team Arsenal",
+      "source": "https://github.com/flipkart-incubator/RTA",
+      "description": "Automated reconnaissance scanner and security checks",
       "language": "Python",
       "price": "Free",
       "online": "False"
     },
     {
-      "name": "Red Team Arsenal",
-      "source": "https://github.com/flipkart-incubator/RTA",
-      "description": "Automated reconnaissance scanner and security checks",
+      "name": "Redscan",
+      "source": "https://github.com/certmichelin/Redscan",
+      "description": "Mix of a security operations orchestration, vulnerability management and reconnaissance platform",
       "language": "Python",
       "price": "Free",
       "online": "False"
@@ -802,6 +802,13 @@
       "language": "Python",
       "price": "Free",
       "online": "False"
+    },
+    {
+      "name": "Sealed Rose",
+      "website": "https://sealedrose.com/verify-video",
+      "description": "Browser-based multimodal OSINT forensic detector for AI-generated images, deepfake videos, and cloned voice audio",
+      "price": "Free",
+      "online": "True"
     },
     {
       "name": "SearchDNS",
