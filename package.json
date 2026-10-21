@@ -54,6 +54,6 @@
     "sass": "^1.105.2",
     "static-api": "^0.2.0",
     "sweetalert2": "^11.26.25",
-    "tablefilter": "^0.7.2"
+    "tablefilter": "^0.7.5"
   }
 }
