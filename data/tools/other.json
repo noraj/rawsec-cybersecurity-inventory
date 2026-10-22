@@ -409,7 +409,7 @@
     },
     {
       "name": "Nord Stream",
-      "website": "https://github.com/synacktiv/nord-stream",
+      "source": "https://github.com/synacktiv/nord-stream",
       "description": "Extract secrets stored inside CI/CD environments by deploying malicious pipelines",
       "language": "Python",
       "price": "Free",
